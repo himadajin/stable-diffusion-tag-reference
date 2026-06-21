@@ -4,6 +4,9 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
   test.skip(isMobile, "desktop layout coverage");
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   await page.goto("/");
+  await expect
+    .poll(() => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth))
+    .toBe(true);
 
   await expect(page.getByRole("button", { name: /品質/ })).toBeVisible();
   await page.getByRole("button", { name: /品質/ }).click();
@@ -51,6 +54,9 @@ test("mobile keeps drawer navigation, search, and favorites available", async ({
   test.skip(!isMobile, "mobile layout coverage");
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   await page.goto("/");
+  await expect
+    .poll(() => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth))
+    .toBe(true);
 
   await page.getByRole("button", { name: "カテゴリ" }).click();
   await expect(page.getByRole("dialog")).toBeVisible();
