@@ -14,7 +14,7 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
     .getByLabel("カテゴリ")
     .getByRole("button", { name: /動作・姿勢/ })
     .click();
-  await expect(page.getByRole("heading", { name: "動作・姿勢" })).toBeVisible();
+  await expect(page.getByRole("main")).toContainText("998 tags");
   await page
     .getByLabel("動作・姿勢 のサブカテゴリ")
     .getByRole("button", { name: /ジェスチャー/ })
@@ -23,7 +23,7 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
 
   await page.getByRole("button", { name: /品質/ }).click();
   await page.getByRole("button", { name: "masterpiece をコピー" }).first().click();
-  await expect(page.getByRole("main").getByText("コピーしました")).toBeVisible();
+  await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe("masterpiece");
 
   await page.getByRole("button", { name: "masterpiece をお気に入りに追加" }).first().click();
   await page
@@ -34,12 +34,14 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
   await expect(page.getByRole("main").getByText("masterpiece")).toBeVisible();
 
   await page.locator('input[aria-label="タグ検索"]:visible').fill("cinematic lighting");
-  await expect(page.getByRole("heading", { name: "Search results" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "検索結果" })).toBeVisible();
   await expect(
     page.getByRole("main").getByRole("columnheader", { name: "カテゴリ文脈" }),
   ).toBeVisible();
   await page.getByRole("button", { name: "cinematic lighting をコピー" }).first().click();
-  await expect(page.getByRole("main").getByText("コピーしました")).toBeVisible();
+  await expect
+    .poll(() => page.evaluate(() => navigator.clipboard.readText()))
+    .toBe("cinematic lighting");
 });
 
 test("mobile keeps drawer navigation, search, and favorites available", async ({
@@ -61,7 +63,7 @@ test("mobile keeps drawer navigation, search, and favorites available", async ({
   await expect(page.getByRole("heading", { name: "品質" })).toBeVisible();
 
   await page.locator('input[aria-label="タグ検索"]:visible').fill("masterpiece");
-  await expect(page.getByRole("heading", { name: "Search results" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "検索結果" })).toBeVisible();
   await page
     .locator('.mobile-tag-list button[aria-label="masterpiece をお気に入りに追加"]')
     .click();

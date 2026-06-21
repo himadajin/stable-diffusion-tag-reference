@@ -223,13 +223,6 @@ export function App() {
           />
         </div>
         <Dialog.Root open={isSidebarOpen} onOpenChange={setIsSidebarOpen}>
-          <div className="mobile-sidebar-trigger">
-            <Dialog.Trigger>
-              <button className="mobile-category-button" type="button">
-                カテゴリ
-              </button>
-            </Dialog.Trigger>
-          </div>
           <Dialog.Content className="sidebar-drawer-content" aria-describedby={undefined}>
             <Flex align="center" justify="between" px="4" py="3">
               <Heading size="3">カテゴリ</Heading>
@@ -253,6 +246,7 @@ export function App() {
           </Dialog.Content>
         </Dialog.Root>
         <MainPanel
+          activeSectionId={activeSectionId}
           categoryData={categoryData}
           copyState={copyState}
           favoriteIds={favoriteIds}
@@ -260,13 +254,13 @@ export function App() {
           isSearchLoading={isSearchLoading}
           onCopy={copyValue}
           onOpenCategory={openCategory}
+          onOpenSidebar={() => setIsSidebarOpen(true)}
           onQueryChange={setQuery}
           onToggleFavorite={toggleFavorite}
           onVisibleSectionChange={updateVisibleSection}
           query={query}
           searchResults={searchResults}
           sectionJump={sectionJump}
-          showSearchHeader
           useMobileTagRows={useMobileTagRows}
         />
       </div>
@@ -344,6 +338,7 @@ async function loadFavoritesCategory(
 }
 
 function MainPanel({
+  activeSectionId,
   categoryData,
   copyState,
   favoriteIds,
@@ -351,15 +346,16 @@ function MainPanel({
   isSearchLoading,
   onCopy,
   onOpenCategory,
+  onOpenSidebar,
   onQueryChange,
   onToggleFavorite,
   onVisibleSectionChange,
   query,
   searchResults,
   sectionJump,
-  showSearchHeader,
   useMobileTagRows,
 }: {
+  activeSectionId: string;
   categoryData: CategoryData | null;
   copyState: CopyState | null;
   favoriteIds: Set<string>;
@@ -367,25 +363,27 @@ function MainPanel({
   isSearchLoading: boolean;
   onCopy: (value: string) => void;
   onOpenCategory: (categoryId: string) => void;
+  onOpenSidebar: () => void;
   onQueryChange: (query: string) => void;
   onToggleFavorite: (tag: TagEntry) => void;
   onVisibleSectionChange: (topSectionId: string, sectionId: string) => void;
   query: string;
   searchResults: SearchEntry[];
   sectionJump: SectionJump | null;
-  showSearchHeader: boolean;
   useMobileTagRows: boolean;
 }) {
   return (
     <main className="main-panel" aria-label="タグ一覧">
-      {showSearchHeader ? (
-        <SearchHeader
-          query={query}
-          onQueryChange={onQueryChange}
-          copyState={copyState}
-          isLoading={isSearchLoading}
-        />
-      ) : null}
+      <DictionaryHeader
+        category={categoryData}
+        activeSectionId={activeSectionId}
+        isLoading={isSearchLoading}
+        isSearching={isSearching}
+        onOpenSidebar={onOpenSidebar}
+        onQueryChange={onQueryChange}
+        query={query}
+        resultCount={searchResults.length}
+      />
       {isSearching ? (
         <SearchResults
           results={searchResults}
@@ -520,49 +518,84 @@ function CategorySidebar({
   );
 }
 
-function SearchHeader({
+function DictionaryHeader({
+  activeSectionId,
+  category,
+  isLoading,
+  isSearching,
+  onOpenSidebar,
   query,
   onQueryChange,
-  copyState,
-  isLoading,
+  resultCount,
 }: {
+  activeSectionId: string;
+  category: CategoryData | null;
+  isLoading: boolean;
+  isSearching: boolean;
+  onOpenSidebar: () => void;
   query: string;
   onQueryChange: (query: string) => void;
-  copyState: CopyState | null;
-  isLoading: boolean;
+  resultCount: number;
 }) {
+  const breadcrumb =
+    category && category.id !== FAVORITES_CATEGORY_ID
+      ? (findSectionPath(category.sections, activeSectionId) ?? [category.name])
+      : [category?.name ?? "タグ"];
+  const title = isSearching ? "検索結果" : breadcrumb.join(" / ");
+  const count = isSearching ? undefined : category?.tagCount;
+
   return (
-    <header className="search-header">
-      <Box className="search-field">
-        <TextField.Root
-          aria-label="タグ検索"
-          placeholder="日本語名・英語タグ・自由入力候補を検索"
-          value={query}
-          onChange={(event) => onQueryChange(event.target.value)}
-        >
-          <TextField.Slot>
-            <MagnifyingGlassIcon />
-          </TextField.Slot>
-          {query ? (
-            <TextField.Slot>
-              <Tooltip content="検索をクリア">
-                <IconButton
-                  aria-label="検索をクリア"
-                  size="1"
-                  variant="ghost"
-                  color="gray"
-                  onClick={() => onQueryChange("")}
-                >
-                  <Cross2Icon />
-                </IconButton>
-              </Tooltip>
-            </TextField.Slot>
+    <header className="dictionary-header">
+      <div className="dictionary-header-top">
+        <div className="dictionary-title-group">
+          <button className="mobile-category-button" type="button" onClick={onOpenSidebar}>
+            カテゴリ
+          </button>
+          <Heading size="5">{title}</Heading>
+          {isSearching ? (
+            <Text color="gray" size="2">
+              {query}
+            </Text>
           ) : null}
-        </TextField.Root>
-      </Box>
-      <Text className="copy-status" color={copyState ? "indigo" : "gray"} size="2">
-        {copyState ? copyState.message : isLoading ? "検索データを読み込み中" : " "}
-      </Text>
+        </div>
+        <Text className="dictionary-count" color="gray" size="2">
+          {isSearching ? `${resultCount.toLocaleString()} results` : `${count ?? 0} tags`}
+        </Text>
+      </div>
+      <div className="dictionary-search-row">
+        <Box className="search-field">
+          <TextField.Root
+            aria-label="タグ検索"
+            placeholder="全カテゴリから検索"
+            value={query}
+            onChange={(event) => onQueryChange(event.target.value)}
+          >
+            <TextField.Slot>
+              <MagnifyingGlassIcon />
+            </TextField.Slot>
+            {query ? (
+              <TextField.Slot>
+                <Tooltip content="検索をクリア">
+                  <IconButton
+                    aria-label="検索をクリア"
+                    size="1"
+                    variant="ghost"
+                    color="gray"
+                    onClick={() => onQueryChange("")}
+                  >
+                    <Cross2Icon />
+                  </IconButton>
+                </Tooltip>
+              </TextField.Slot>
+            ) : null}
+          </TextField.Root>
+        </Box>
+        {isLoading ? (
+          <Text className="search-loading-text" color="gray" size="1">
+            検索データを読み込み中
+          </Text>
+        ) : null}
+      </div>
     </header>
   );
 }
@@ -641,14 +674,6 @@ function CategoryView({
 
   return (
     <section className="category-view">
-      <Box className="category-view-header" px="5" py="4">
-        <Flex align="baseline" gap="3" mb="3">
-          <Heading size="5">{category.name}</Heading>
-          <Badge variant="soft" color="gray">
-            {category.tagCount.toLocaleString()} tags
-          </Badge>
-        </Flex>
-      </Box>
       {category.id === FAVORITES_CATEGORY_ID && category.tagCount === 0 ? (
         <Box px="5" py="4">
           <Text color="gray">お気に入りに追加したタグはここに表示されます。</Text>
@@ -744,6 +769,16 @@ function flattenCategoryRows(sections: CategorySection[], depth = 0): VirtualCat
 
     return rows;
   });
+}
+
+function findSectionPath(sections: CategorySection[], sectionId: string): string[] | null {
+  if (!sectionId) return null;
+  for (const section of sections) {
+    if (section.id === sectionId) return section.path;
+    const childPath = findSectionPath(section.children ?? [], sectionId);
+    if (childPath) return childPath;
+  }
+  return null;
 }
 
 type SectionPosition = {
@@ -893,12 +928,6 @@ function SearchResults({
   return (
     <ScrollArea className="content-scroll" scrollbars="vertical">
       <Box px="5" py="4">
-        <Flex align="baseline" gap="3" mb="3">
-          <Heading size="5">Search results</Heading>
-          <Badge variant="soft" color="gray">
-            {results.length.toLocaleString()}
-          </Badge>
-        </Flex>
         {results.length === 0 ? (
           <Text color="gray">「{query}」に一致するタグはありません。</Text>
         ) : useMobileTagRows ? (
