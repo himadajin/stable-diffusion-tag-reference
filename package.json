@@ -9,6 +9,10 @@
     "dev": "vite",
     "prebuild": "npm run generate:data",
     "build": "tsc -b && vite build",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "check": "biome check .",
+    "check:write": "biome check --write .",
     "preview": "vite preview",
     "test": "vitest run",
     "test:e2e": "playwright test"
@@ -21,6 +25,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.5.0",
     "@playwright/test": "^1.49.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",

@@ -81,7 +81,11 @@ function normalizeSearchText(value) {
 }
 
 function searchTokens(value) {
-  return new Set(normalizeSearchText(value).split(/\s+/).filter((word) => word.length >= 3));
+  return new Set(
+    normalizeSearchText(value)
+      .split(/\s+/)
+      .filter((word) => word.length >= 3),
+  );
 }
 
 async function main() {

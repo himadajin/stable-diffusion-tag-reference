@@ -1,3 +1,4 @@
+import { CheckIcon, Cross2Icon, MagnifyingGlassIcon } from "@radix-ui/react-icons";
 import {
   Badge,
   Box,
@@ -12,11 +13,6 @@ import {
   TextField,
   Tooltip,
 } from "@radix-ui/themes";
-import {
-  CheckIcon,
-  Cross2Icon,
-  MagnifyingGlassIcon,
-} from "@radix-ui/react-icons";
 import { Heart } from "lucide-react";
 import type { CSSProperties } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -82,23 +78,35 @@ export function App() {
     loadManifest().then((manifest) => {
       setCategories(manifest.categories);
       setActiveCategoryId(
-        (current) => current || manifest.categories.find((category) => category.tagCount > 0)?.id || "",
+        (current) =>
+          current || manifest.categories.find((category) => category.tagCount > 0)?.id || "",
       );
     });
   }, []);
 
   useEffect(() => {
-    if (!activeCategoryId) return;
+    if (!activeCategoryId || activeCategoryId === FAVORITES_CATEGORY_ID) return;
     let isCurrent = true;
     setCategoryData(null);
-    const dataPromise = activeCategoryId === FAVORITES_CATEGORY_ID ? loadFavoritesCategory(categories, favoriteIds) : loadCategory(activeCategoryId);
-    dataPromise.then((data) => {
+    loadCategory(activeCategoryId).then((data) => {
       if (isCurrent) setCategoryData(data);
     });
     return () => {
       isCurrent = false;
     };
-  }, [activeCategoryId, categories, activeCategoryId === FAVORITES_CATEGORY_ID ? favoriteIds : null]);
+  }, [activeCategoryId]);
+
+  useEffect(() => {
+    if (activeCategoryId !== FAVORITES_CATEGORY_ID) return;
+    let isCurrent = true;
+    setCategoryData(null);
+    loadFavoritesCategory(categories, favoriteIds).then((data) => {
+      if (isCurrent) setCategoryData(data);
+    });
+    return () => {
+      isCurrent = false;
+    };
+  }, [activeCategoryId, categories, favoriteIds]);
 
   useEffect(() => {
     if (!normalizeQuery(query)) {
@@ -188,53 +196,53 @@ export function App() {
     return (
       <div className="app-shell">
         <div className="mobile-layout">
-        <SearchHeader
-          query={query}
-          onQueryChange={setQuery}
-          copyState={copyState}
-          isLoading={isSearchLoading}
-        />
-        <Tabs.Root value={mobileView} onValueChange={setMobileView}>
-          <Tabs.List>
-            <Tabs.Trigger value="categories">カテゴリ</Tabs.Trigger>
-            <Tabs.Trigger value="tags">タグ</Tabs.Trigger>
-          </Tabs.List>
-          <Box pt="3">
-            <Tabs.Content value="categories">
-              {mobileView === "categories" ? (
-                <CategorySidebar
-                  categories={sidebarCategories}
-                  activeCategory={categoryData}
-                  activeCategoryId={activeCategoryId}
-                  activeTopSectionId={activeTopSectionId}
-                  onSelect={selectCategoryFromSidebar}
-                  onSelectSection={jumpToSection}
-                />
-              ) : null}
-            </Tabs.Content>
-            <Tabs.Content value="tags">
-              {mobileView === "tags" ? (
-                <MainPanel
-                  categoryData={categoryData}
-                  copyState={copyState}
-                  favoriteIds={favoriteIds}
-                  isSearching={isSearching}
-                  isSearchLoading={isSearchLoading}
-                  onCopy={copyValue}
-                  onOpenCategory={openCategory}
-                  onQueryChange={setQuery}
-                  onToggleFavorite={toggleFavorite}
-                  onVisibleTopSectionChange={setActiveTopSectionId}
-                  query={query}
-                  searchResults={searchResults}
-                  sectionJump={sectionJump}
-                  showSearchHeader={false}
-                  useMobileTagRows={useMobileTagRows}
-                />
-              ) : null}
-            </Tabs.Content>
-          </Box>
-        </Tabs.Root>
+          <SearchHeader
+            query={query}
+            onQueryChange={setQuery}
+            copyState={copyState}
+            isLoading={isSearchLoading}
+          />
+          <Tabs.Root value={mobileView} onValueChange={setMobileView}>
+            <Tabs.List>
+              <Tabs.Trigger value="categories">カテゴリ</Tabs.Trigger>
+              <Tabs.Trigger value="tags">タグ</Tabs.Trigger>
+            </Tabs.List>
+            <Box pt="3">
+              <Tabs.Content value="categories">
+                {mobileView === "categories" ? (
+                  <CategorySidebar
+                    categories={sidebarCategories}
+                    activeCategory={categoryData}
+                    activeCategoryId={activeCategoryId}
+                    activeTopSectionId={activeTopSectionId}
+                    onSelect={selectCategoryFromSidebar}
+                    onSelectSection={jumpToSection}
+                  />
+                ) : null}
+              </Tabs.Content>
+              <Tabs.Content value="tags">
+                {mobileView === "tags" ? (
+                  <MainPanel
+                    categoryData={categoryData}
+                    copyState={copyState}
+                    favoriteIds={favoriteIds}
+                    isSearching={isSearching}
+                    isSearchLoading={isSearchLoading}
+                    onCopy={copyValue}
+                    onOpenCategory={openCategory}
+                    onQueryChange={setQuery}
+                    onToggleFavorite={toggleFavorite}
+                    onVisibleTopSectionChange={setActiveTopSectionId}
+                    query={query}
+                    searchResults={searchResults}
+                    sectionJump={sectionJump}
+                    showSearchHeader={false}
+                    useMobileTagRows={useMobileTagRows}
+                  />
+                ) : null}
+              </Tabs.Content>
+            </Box>
+          </Tabs.Root>
         </div>
       </div>
     );
@@ -314,7 +322,9 @@ async function loadFavoritesCategory(
     return { id: FAVORITES_CATEGORY_ID, name: "お気に入り", tagCount: 0, sections: [] };
   }
 
-  const sourceCategories = await Promise.all(categories.map((category) => loadCategory(category.id)));
+  const sourceCategories = await Promise.all(
+    categories.map((category) => loadCategory(category.id)),
+  );
   const sections = sourceCategories
     .map((category) => {
       const tags = flattenCategoryRows(category.sections)
@@ -456,7 +466,7 @@ function CategorySidebar({
                   <span className="category-count">{category.tagCount.toLocaleString()}</span>
                 </button>
                 {isActive && activeTopSections.length > 0 ? (
-                  <div className="subcategory-list" aria-label={`${category.name} のサブカテゴリ`}>
+                  <nav className="subcategory-list" aria-label={`${category.name} のサブカテゴリ`}>
                     {activeTopSections.map((section) => (
                       <button
                         className="subcategory-button"
@@ -469,7 +479,7 @@ function CategorySidebar({
                         <span className="category-count">{section.tagCount.toLocaleString()}</span>
                       </button>
                     ))}
-                  </div>
+                  </nav>
                 ) : null}
               </div>
             );
@@ -552,18 +562,23 @@ function CategoryView({
   const rowHeight = useMobileTagRows ? MOBILE_CATEGORY_ROW_HEIGHT : DESKTOP_CATEGORY_ROW_HEIGHT;
   const rows = useMemo(() => flattenCategoryRows(category.sections), [category.sections]);
   const sectionPositions = useMemo(() => collectSectionPositions(rows), [rows]);
-  const currentPosition = findCurrentSectionPosition(sectionPositions, Math.floor(scrollTop / rowHeight));
+  const currentPosition = findCurrentSectionPosition(
+    sectionPositions,
+    Math.floor(scrollTop / rowHeight),
+  );
+  const categoryId = category.id;
 
   useEffect(() => {
+    if (!categoryId) return;
     const scrollElement = scrollRef.current;
     if (!scrollElement) return;
     scrollElement.scrollTop = 0;
     setScrollTop(0);
     onVisibleTopSectionChange("");
-  }, [category.id]);
+  }, [categoryId, onVisibleTopSectionChange]);
 
   useEffect(() => {
-    if (!sectionJump || sectionJump.categoryId !== category.id) return;
+    if (!sectionJump || sectionJump.categoryId !== categoryId) return;
     const scrollElement = scrollRef.current;
     if (!scrollElement) return;
     const position = sectionPositions.find((section) => section.id === sectionJump.sectionId);
@@ -571,7 +586,7 @@ function CategoryView({
     const nextScrollTop = position.index * rowHeight;
     scrollElement.scrollTop = nextScrollTop;
     setScrollTop(nextScrollTop);
-  }, [category.id, rowHeight, sectionJump, sectionPositions]);
+  }, [categoryId, rowHeight, sectionJump, sectionPositions]);
 
   useEffect(() => {
     onVisibleTopSectionChange(currentPosition?.topSectionId ?? "");
@@ -585,7 +600,7 @@ function CategoryView({
     updateViewportHeight();
     window.addEventListener("resize", updateViewportHeight);
     return () => window.removeEventListener("resize", updateViewportHeight);
-  }, [useMobileTagRows]);
+  }, []);
 
   const startIndex = Math.max(0, Math.floor(scrollTop / rowHeight) - VIRTUAL_OVERSCAN_ROWS);
   const visibleCount = Math.ceil(viewportHeight / rowHeight) + VIRTUAL_OVERSCAN_ROWS * 2;
@@ -615,11 +630,13 @@ function CategoryView({
         onScroll={(event) => setScrollTop(event.currentTarget.scrollTop)}
       >
         {useMobileTagRows ? null : (
-          <div className="virtual-table-header" role="row">
+          <div className="virtual-table-header">
             <Text aria-hidden="true" color="gray" size="1">
               {" "}
             </Text>
-            <Text color="gray" size="1" weight="medium">English tag</Text>
+            <Text color="gray" size="1" weight="medium">
+              English tag
+            </Text>
             <Text color="gray" size="1" weight="medium">
               日本語名
             </Text>
@@ -634,7 +651,10 @@ function CategoryView({
           </Text>
         </div>
         <div className="virtual-category-list" style={{ height: totalHeight }}>
-          <div className="virtual-category-window" style={{ transform: `translateY(${topOffset}px)` }}>
+          <div
+            className="virtual-category-window"
+            style={{ transform: `translateY(${topOffset}px)` }}
+          >
             {visibleRows.map((row) =>
               row.type === "section" ? (
                 <VirtualSectionRow
@@ -746,7 +766,9 @@ function VirtualSectionRow({
 }) {
   return (
     <div
-      className={useMobileTagRows ? "virtual-section-row virtual-section-row-mobile" : "virtual-section-row"}
+      className={
+        useMobileTagRows ? "virtual-section-row virtual-section-row-mobile" : "virtual-section-row"
+      }
       style={{ "--section-depth": depth } as CSSProperties}
     >
       <Text size={useMobileTagRows ? "2" : "1"} weight="medium">
@@ -773,7 +795,7 @@ function VirtualDesktopTagRow({
   copyValue?: string;
 }) {
   return (
-    <div className="virtual-tag-row" role="row">
+    <div className="virtual-tag-row">
       <FavoriteButton
         isFavorite={favoriteIds.has(tag.id)}
         tag={tag}
@@ -857,7 +879,10 @@ function SearchResults({
                 id: entry.id,
                 entry,
                 value,
-                label: entry.type === "tag" ? entry.ja : `自由入力候補 / ${entry.count.toLocaleString()}`,
+                label:
+                  entry.type === "tag"
+                    ? entry.ja
+                    : `自由入力候補 / ${entry.count.toLocaleString()}`,
                 context:
                   entry.type === "tag"
                     ? `${entry.categoryName} / ${entry.path.join(" / ")}`
@@ -872,7 +897,7 @@ function SearchResults({
             copyValue={copyValue}
           />
         ) : (
-            <Table.Root size="1" variant="surface" className="tag-table">
+          <Table.Root size="1" variant="surface" className="tag-table">
             <Table.Header>
               <Table.Row>
                 <Table.ColumnHeaderCell className="favorite-cell"></Table.ColumnHeaderCell>
@@ -954,34 +979,41 @@ function MobileTagRows({
   copyValue?: string;
 }) {
   return (
-    <div className="mobile-tag-list" aria-label="モバイルタグ一覧">
-      {rows.map((row) => (
-        <div className="mobile-tag-row" key={row.id}>
-          {row.entry.type === "tag" ? (
-            <FavoriteButton
-              isFavorite={favoriteIds.has(row.entry.id)}
-              tag={row.entry}
-              onToggleFavorite={onToggleFavorite}
-            />
-          ) : (
-            <span aria-hidden="true" />
-          )}
-          <div className="mobile-tag-main">
-            <TagCopyButton copied={copyValue === row.value} value={row.value} onCopy={onCopy} />
-            <Text size="2">{row.label}</Text>
-            {row.categoryId && onOpenCategory ? (
-              <button className="context-link" type="button" onClick={() => onOpenCategory(row.categoryId!)}>
-                {row.context}
-              </button>
+    <ul className="mobile-tag-list" aria-label="モバイルタグ一覧">
+      {rows.map((row) => {
+        const categoryId = row.categoryId;
+        return (
+          <li className="mobile-tag-row" key={row.id}>
+            {row.entry.type === "tag" ? (
+              <FavoriteButton
+                isFavorite={favoriteIds.has(row.entry.id)}
+                tag={row.entry}
+                onToggleFavorite={onToggleFavorite}
+              />
             ) : (
-              <Text color="gray" size="1">
-                {row.context}
-              </Text>
+              <span aria-hidden="true" />
             )}
-          </div>
-        </div>
-      ))}
-    </div>
+            <div className="mobile-tag-main">
+              <TagCopyButton copied={copyValue === row.value} value={row.value} onCopy={onCopy} />
+              <Text size="2">{row.label}</Text>
+              {categoryId && onOpenCategory ? (
+                <button
+                  className="context-link"
+                  type="button"
+                  onClick={() => onOpenCategory(categoryId)}
+                >
+                  {row.context}
+                </button>
+              ) : (
+                <Text color="gray" size="1">
+                  {row.context}
+                </Text>
+              )}
+            </div>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 
@@ -1027,7 +1059,12 @@ function FavoriteButton({
         variant="ghost"
         onClick={() => onToggleFavorite(tag)}
       >
-        <Heart aria-hidden="true" fill={isFavorite ? "currentColor" : "none"} size={14} strokeWidth={2} />
+        <Heart
+          aria-hidden="true"
+          fill={isFavorite ? "currentColor" : "none"}
+          size={14}
+          strokeWidth={2}
+        />
       </IconButton>
     </Tooltip>
   );

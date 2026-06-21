@@ -29,20 +29,33 @@ export async function loadCategory(categoryId: string): Promise<CategoryData> {
     }
     categoryCache.set(categoryId, fetchJson<CategoryData>(`data/${category.file}`));
   }
-  return categoryCache.get(categoryId)!;
+  const categoryPromise = categoryCache.get(categoryId);
+  if (!categoryPromise) {
+    throw new Error(`Category cache was not initialized: ${categoryId}`);
+  }
+  return categoryPromise;
 }
 
 export async function loadSearchIndex(): Promise<SearchEntry[]> {
   const manifest = await loadManifest();
-  const chunks = await Promise.all(manifest.search.chunks.map((chunk) => loadSearchChunk(chunk.file)));
+  const chunks = await Promise.all(
+    manifest.search.chunks.map((chunk) => loadSearchChunk(chunk.file)),
+  );
   return chunks.flat();
 }
 
 export async function loadSearchChunk(file: string): Promise<SearchEntry[]> {
   if (!searchChunkCache.has(file)) {
-    searchChunkCache.set(file, fetchJson<SearchChunk>(`data/${file}`).then((chunk) => chunk.entries));
+    searchChunkCache.set(
+      file,
+      fetchJson<SearchChunk>(`data/${file}`).then((chunk) => chunk.entries),
+    );
   }
-  return searchChunkCache.get(file)!;
+  const chunkPromise = searchChunkCache.get(file);
+  if (!chunkPromise) {
+    throw new Error(`Search chunk cache was not initialized: ${file}`);
+  }
+  return chunkPromise;
 }
 
 export async function loadSearchTokenIndex(): Promise<Record<string, string[]>> {

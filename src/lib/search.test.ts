@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { entryCopyValue, normalizeQuery, searchEntries } from "./search";
 import type { SearchEntry } from "../types";
+import { entryCopyValue, normalizeQuery, searchEntries } from "./search";
 
 const entries: SearchEntry[] = [
   {

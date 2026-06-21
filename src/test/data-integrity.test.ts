@@ -1,6 +1,6 @@
-import { readFileSync, readdirSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 
 type SourceManifest = {
@@ -22,7 +22,11 @@ type SourceTag = {
 
 type GeneratedManifest = {
   categories: Array<{ id: string; file: string; tagCount: number }>;
-  search: { chunks: Array<{ id: string; file: string; count: number }>; tokenIndexFile?: string; totalCount: number };
+  search: {
+    chunks: Array<{ id: string; file: string; count: number }>;
+    tokenIndexFile?: string;
+    totalCount: number;
+  };
 };
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -50,9 +54,9 @@ describe("source data integrity", () => {
 
   it("keeps category source data split by top-level category", () => {
     expect(manifest.categories.length).toBeGreaterThan(1);
-    expect(readdirSync(path.join(sourceRoot, "tags")).filter((file) => file.endsWith(".json"))).toHaveLength(
-      manifest.categories.length,
-    );
+    expect(
+      readdirSync(path.join(sourceRoot, "tags")).filter((file) => file.endsWith(".json")),
+    ).toHaveLength(manifest.categories.length);
 
     for (const categoryRef of manifest.categories) {
       const category = readJson<SourceCategory>(path.join(sourceRoot, categoryRef.file));
@@ -115,7 +119,10 @@ describe("generated data integrity", () => {
       const category = readJson<SourceCategory>(path.join(sourceRoot, categoryRef.file));
       return total + collectTags(category.tree).length;
     }, 0);
-    const sourceFreeCount = sourceManifest.freeInputTags.chunks.reduce((total, chunkRef) => total + chunkRef.count, 0);
+    const sourceFreeCount = sourceManifest.freeInputTags.chunks.reduce(
+      (total, chunkRef) => total + chunkRef.count,
+      0,
+    );
 
     let generatedSearchCount = 0;
     let sampleTagEntry: unknown;
@@ -125,13 +132,20 @@ describe("generated data integrity", () => {
       const chunk = readJson<{ entries: unknown[] }>(path.join(generatedRoot, chunkRef.file));
       generatedSearchCount += chunk.entries.length;
       sampleTagEntry ??= chunk.entries.find((entry) => (entry as { type?: string }).type === "tag");
-      sampleFreeEntry ??= chunk.entries.find((entry) => (entry as { type?: string }).type === "free");
+      sampleFreeEntry ??= chunk.entries.find(
+        (entry) => (entry as { type?: string }).type === "free",
+      );
     }
 
     expect(generatedSearchCount).toBe(sourceTagCount + sourceFreeCount);
     expect(generatedManifest.search.totalCount).toBe(generatedSearchCount);
     expect(generatedManifest.search.tokenIndexFile).toBe("search/token-index.json");
-    const tokenIndex = readJson<Record<string, string[]>>(path.join(generatedRoot, generatedManifest.search.tokenIndexFile!));
+    if (!generatedManifest.search.tokenIndexFile) {
+      throw new Error("Generated manifest is missing search.tokenIndexFile");
+    }
+    const tokenIndex = readJson<Record<string, string[]>>(
+      path.join(generatedRoot, generatedManifest.search.tokenIndexFile),
+    );
     const chunkIds = new Set(generatedManifest.search.chunks.map((chunk) => chunk.id));
     expect(tokenIndex.masterpiece?.every((chunkId) => chunkIds.has(chunkId))).toBe(true);
     expect(sampleTagEntry).toEqual(

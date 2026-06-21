@@ -28,12 +28,16 @@ Treat those docs as living source material. If an intentional implementation cha
 - Generate app data with `npm run generate:data`.
 - Start the local app with `npm run dev`.
 - Build with `npm run build`.
+- Format files with `npm run format`.
+- Run formatter and linter checks with `npm run check`.
+- Run linter-only checks with `npm run lint`.
 - Run unit and data-integrity tests with `npm test`.
 - Run browser workflow tests with `npm run test:e2e`.
 
 For ordinary code, data, or generation changes, run:
 
 ```sh
+npm run check
 npm test
 npm run build
 ```
@@ -52,9 +56,17 @@ npm run test:e2e
 - Use the existing slate + indigo direction from `docs/ui.md`.
 - Use color only for meaningful states such as selection, focus, primary action, or copy success.
 - Do not introduce decorative gradients, ornamental backgrounds, category color-coding, large card-heavy layouts, or flashy generative-AI-style visuals.
-- Keep tag browsing, search, single-copy, temporary selection, reordering, bulk-copy, and clear flows available.
+- Keep tag browsing, search, English-tag single-copy, favorites, and category navigation flows available.
 - Do not expand the app into a tag editor, prompt editor, weighting editor, or persistent prompt-management tool unless the user explicitly changes the product direction.
 - Keep mobile and desktop access to the same information and operations, even if the layout differs.
+
+## Formatting and Linting
+
+- Biome is the formatter and linter for this repository.
+- Keep generated and bulky outputs out of formatter/linter scope: `public/data/`, `dist/`, `.vite/`, `coverage/`, and `test-results/`.
+- Use `npm run check` before handing off ordinary code changes.
+- Use `npm run check:write` or `npm run format` to apply mechanical formatting changes.
+- Do not hand-format generated data; update `data/source/` and regenerate instead.
 
 ## Dependency Rules
 
@@ -71,6 +83,6 @@ Production dependencies should stay especially small because this is a static re
 ## Testing Expectations
 
 - Data tests should verify source schema, split-data integrity, regeneration assumptions, and generated index references.
-- Browser tests should focus on user-visible workflows: category browsing, search, single-copy, temporary selection, and bulk-copy.
+- Browser tests should focus on user-visible workflows: category browsing, subcategory navigation, search, single-copy, favorites, and responsive layout.
 - Do not treat generated data as the source of truth in tests when the behavior should be proven from `data/source/`.
 - When a test exposes a real product or data-boundary issue, fix the implementation rather than weakening the test.
