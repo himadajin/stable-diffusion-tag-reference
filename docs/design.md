@@ -18,7 +18,7 @@ ComfyUI で Stable Diffusion のプロンプトを編集している利用者が
 
 ## Related Files
 
-- None
+- `docs/ui.md`
 
 ## Direction
 
