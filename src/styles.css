@@ -147,7 +147,7 @@ button {
 .virtual-table-header,
 .virtual-tag-row {
   display: grid;
-  grid-template-columns: 32px minmax(180px, 1.1fr) minmax(160px, 0.9fr) minmax(220px, 1.2fr) 52px;
+  grid-template-columns: 32px minmax(180px, 1.1fr) minmax(160px, 0.9fr) minmax(220px, 1.2fr);
   align-items: center;
   column-gap: var(--space-3);
   min-width: 680px;
@@ -161,10 +161,6 @@ button {
   padding: 0 var(--space-5);
   border-bottom: 1px solid var(--slate-6);
   background: white;
-}
-
-.virtual-action-heading {
-  text-align: right;
 }
 
 .favorite-cell {
@@ -215,6 +211,44 @@ button {
   white-space: nowrap;
 }
 
+.tag-copy-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  width: fit-content;
+  max-width: 100%;
+  min-height: 24px;
+  padding: 1px var(--space-2);
+  border: 1px solid var(--slate-6);
+  border-radius: var(--radius-2);
+  background: var(--slate-3);
+  color: var(--slate-12);
+  cursor: pointer;
+}
+
+.tag-copy-button:hover {
+  background: var(--slate-4);
+  border-color: var(--slate-7);
+}
+
+.tag-copy-button:focus-visible {
+  outline: 2px solid var(--indigo-8);
+  outline-offset: 1px;
+}
+
+.tag-copy-button[data-copied="true"] {
+  border-color: var(--indigo-6);
+  background: var(--indigo-3);
+  color: var(--indigo-11);
+}
+
+.tag-copy-button code {
+  max-width: 100%;
+  overflow: hidden;
+  color: inherit;
+  text-overflow: ellipsis;
+}
+
 .tag-table {
   overflow: hidden;
   min-width: 680px;
@@ -233,16 +267,6 @@ button {
     "Liberation Mono",
     Menlo,
     monospace;
-}
-
-.action-cell {
-  position: sticky;
-  right: 0;
-  z-index: 1;
-  background: var(--slate-1);
-  width: 88px;
-  text-align: right;
-  white-space: nowrap;
 }
 
 .context-link {

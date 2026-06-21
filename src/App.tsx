@@ -14,7 +14,6 @@ import {
 } from "@radix-ui/themes";
 import {
   CheckIcon,
-  ClipboardCopyIcon,
   Cross2Icon,
   MagnifyingGlassIcon,
 } from "@radix-ui/react-icons";
@@ -524,17 +523,12 @@ function CategoryView({
             <Text aria-hidden="true" color="gray" size="1">
               {" "}
             </Text>
-            <Text color="gray" size="1" weight="medium">
-              English tag
-            </Text>
+            <Text color="gray" size="1" weight="medium">English tag</Text>
             <Text color="gray" size="1" weight="medium">
               日本語名
             </Text>
             <Text color="gray" size="1" weight="medium">
               カテゴリ文脈
-            </Text>
-            <Text className="virtual-action-heading" color="gray" size="1" weight="medium">
-              操作
             </Text>
           </div>
         )}
@@ -646,18 +640,11 @@ function VirtualDesktopTagRow({
         tag={tag}
         onToggleFavorite={onToggleFavorite}
       />
-      <div>
-        <Code color="gray">{tag.en}</Code>
-      </div>
+      <TagCopyButton copied={copyValue === tag.en} value={tag.en} onCopy={onCopy} />
       <Text size="2">{tag.ja}</Text>
       <Text color="gray" size="1">
         {tag.path.join(" / ")}
       </Text>
-      <RowActions
-        value={tag.en}
-        onCopy={onCopy}
-        copied={copyValue === tag.en}
-      />
     </div>
   );
 }
@@ -683,17 +670,12 @@ function VirtualMobileTagRow({
         onToggleFavorite={onToggleFavorite}
       />
       <div className="mobile-tag-main">
-        <Code color="gray">{tag.en}</Code>
+        <TagCopyButton copied={copyValue === tag.en} value={tag.en} onCopy={onCopy} />
         <Text size="2">{tag.ja}</Text>
         <Text color="gray" size="1">
           {tag.path.join(" / ")}
         </Text>
       </div>
-      <RowActions
-        value={tag.en}
-        onCopy={onCopy}
-        copied={copyValue === tag.en}
-      />
     </div>
   );
 }
@@ -758,7 +740,6 @@ function SearchResults({
                 <Table.ColumnHeaderCell>English tag</Table.ColumnHeaderCell>
                 <Table.ColumnHeaderCell>日本語名 / 出典</Table.ColumnHeaderCell>
                 <Table.ColumnHeaderCell>カテゴリ文脈</Table.ColumnHeaderCell>
-                <Table.ColumnHeaderCell className="action-cell">操作</Table.ColumnHeaderCell>
               </Table.Row>
             </Table.Header>
             <Table.Body>
@@ -776,7 +757,7 @@ function SearchResults({
                       ) : null}
                     </Table.Cell>
                     <Table.Cell>
-                      <Code color="gray">{value}</Code>
+                      <TagCopyButton copied={copyValue === value} value={value} onCopy={onCopy} />
                     </Table.Cell>
                     <Table.Cell>
                       {entry.type === "tag" ? (
@@ -799,13 +780,6 @@ function SearchResults({
                           自由入力候補
                         </Text>
                       )}
-                    </Table.Cell>
-                    <Table.Cell className="action-cell">
-                      <RowActions
-                        value={value}
-                        onCopy={onCopy}
-                        copied={copyValue === value}
-                      />
                     </Table.Cell>
                   </Table.Row>
                 );
@@ -854,7 +828,7 @@ function MobileTagRows({
             <span aria-hidden="true" />
           )}
           <div className="mobile-tag-main">
-            <Code color="gray">{row.value}</Code>
+            <TagCopyButton copied={copyValue === row.value} value={row.value} onCopy={onCopy} />
             <Text size="2">{row.label}</Text>
             {row.categoryId && onOpenCategory ? (
               <button className="context-link" type="button" onClick={() => onOpenCategory(row.categoryId!)}>
@@ -866,18 +840,13 @@ function MobileTagRows({
               </Text>
             )}
           </div>
-          <RowActions
-            value={row.value}
-            onCopy={onCopy}
-            copied={copyValue === row.value}
-          />
         </div>
       ))}
     </div>
   );
 }
 
-function RowActions({
+function TagCopyButton({
   value,
   onCopy,
   copied,
@@ -887,13 +856,16 @@ function RowActions({
   copied: boolean;
 }) {
   return (
-    <Flex gap="1" justify="end">
-      <Tooltip content="英語タグをコピー">
-        <IconButton aria-label={`${value} をコピー`} size="1" variant="soft" onClick={() => onCopy(value)}>
-          {copied ? <CheckIcon /> : <ClipboardCopyIcon />}
-        </IconButton>
-      </Tooltip>
-    </Flex>
+    <button
+      aria-label={`${value} をコピー`}
+      className="tag-copy-button"
+      data-copied={copied}
+      type="button"
+      onClick={() => onCopy(value)}
+    >
+      <Code color="gray">{value}</Code>
+      {copied ? <CheckIcon aria-hidden="true" /> : null}
+    </button>
   );
 }
 
