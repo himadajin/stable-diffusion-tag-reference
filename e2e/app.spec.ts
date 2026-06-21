@@ -42,7 +42,7 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
   await expect(page.getByRole("main").getByText("コピーしました")).toBeVisible();
 });
 
-test("mobile keeps category, tag, search, and favorites surfaces available", async ({
+test("mobile keeps drawer navigation, search, and favorites available", async ({
   context,
   isMobile,
   page,
@@ -51,24 +51,22 @@ test("mobile keeps category, tag, search, and favorites surfaces available", asy
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   await page.goto("/");
 
-  await expect(page.getByRole("tab", { name: "カテゴリ" })).toBeVisible();
-  await expect(page.getByRole("tab", { name: "タグ" })).toBeVisible();
-
-  await page.getByRole("tab", { name: "カテゴリ" }).click();
+  await page.getByRole("button", { name: "カテゴリ" }).click();
+  await expect(page.getByRole("dialog")).toBeVisible();
   await page.getByRole("button", { name: /品質/ }).click();
   await expect(
     page.getByLabel("品質 のサブカテゴリ").getByRole("button", { name: /ポジティブ/ }),
   ).toBeVisible();
-  await page.getByRole("tab", { name: "タグ" }).click();
+  await page.getByRole("button", { name: "カテゴリを閉じる" }).click();
   await expect(page.getByRole("heading", { name: "品質" })).toBeVisible();
 
   await page.locator('input[aria-label="タグ検索"]:visible').fill("masterpiece");
   await expect(page.getByRole("heading", { name: "Search results" })).toBeVisible();
   await page
-    .locator('.mobile-layout .mobile-tag-list button[aria-label="masterpiece をお気に入りに追加"]')
+    .locator('.mobile-tag-list button[aria-label="masterpiece をお気に入りに追加"]')
     .click();
-  await page.getByRole("tab", { name: "カテゴリ" }).click();
+  await page.getByRole("button", { name: "カテゴリ" }).click();
   await page.getByRole("button", { name: /お気に入り/ }).click();
-  await page.getByRole("tab", { name: "タグ" }).click();
-  await expect(page.locator(".mobile-layout").getByText("masterpiece")).toBeVisible();
+  await page.getByRole("button", { name: "カテゴリを閉じる" }).click();
+  await expect(page.getByRole("main").getByText("masterpiece")).toBeVisible();
 });

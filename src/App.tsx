@@ -3,12 +3,12 @@ import {
   Badge,
   Box,
   Code,
+  Dialog,
   Flex,
   Heading,
   IconButton,
   ScrollArea,
   Table,
-  Tabs,
   Text,
   TextField,
   Tooltip,
@@ -68,10 +68,10 @@ export function App() {
   const [isSearchLoading, setIsSearchLoading] = useState(false);
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(() => readFavoriteIds());
   const [copyState, setCopyState] = useState<CopyState | null>(null);
-  const [mobileView, setMobileView] = useState("tags");
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [activeTopSectionId, setActiveTopSectionId] = useState<string>("");
   const [sectionJump, setSectionJump] = useState<SectionJump | null>(null);
-  const isMobileLayout = useMediaQuery("(max-width: 900px)");
+  const isDrawerLayout = useMediaQuery("(max-width: 959px)");
   const useMobileTagRows = useMediaQuery("(max-width: 620px)");
 
   useEffect(() => {
@@ -170,14 +170,12 @@ export function App() {
     setActiveCategoryId(categoryId);
     setQuery("");
     setActiveTopSectionId("");
-    setMobileView("tags");
   }
 
   function selectCategoryFromSidebar(categoryId: string) {
     setActiveCategoryId(categoryId);
     setQuery("");
     setActiveTopSectionId("");
-    if (!isMobileLayout) setMobileView("tags");
   }
 
   function jumpToSection(categoryId: string, sectionId: string) {
@@ -189,76 +187,49 @@ export function App() {
       sectionId,
       requestId: (current?.requestId ?? 0) + 1,
     }));
-    setMobileView("tags");
-  }
-
-  if (isMobileLayout) {
-    return (
-      <div className="app-shell">
-        <div className="mobile-layout">
-          <SearchHeader
-            query={query}
-            onQueryChange={setQuery}
-            copyState={copyState}
-            isLoading={isSearchLoading}
-          />
-          <Tabs.Root value={mobileView} onValueChange={setMobileView}>
-            <Tabs.List>
-              <Tabs.Trigger value="categories">カテゴリ</Tabs.Trigger>
-              <Tabs.Trigger value="tags">タグ</Tabs.Trigger>
-            </Tabs.List>
-            <Box pt="3">
-              <Tabs.Content value="categories">
-                {mobileView === "categories" ? (
-                  <CategorySidebar
-                    categories={sidebarCategories}
-                    activeCategory={categoryData}
-                    activeCategoryId={activeCategoryId}
-                    activeTopSectionId={activeTopSectionId}
-                    onSelect={selectCategoryFromSidebar}
-                    onSelectSection={jumpToSection}
-                  />
-                ) : null}
-              </Tabs.Content>
-              <Tabs.Content value="tags">
-                {mobileView === "tags" ? (
-                  <MainPanel
-                    categoryData={categoryData}
-                    copyState={copyState}
-                    favoriteIds={favoriteIds}
-                    isSearching={isSearching}
-                    isSearchLoading={isSearchLoading}
-                    onCopy={copyValue}
-                    onOpenCategory={openCategory}
-                    onQueryChange={setQuery}
-                    onToggleFavorite={toggleFavorite}
-                    onVisibleTopSectionChange={setActiveTopSectionId}
-                    query={query}
-                    searchResults={searchResults}
-                    sectionJump={sectionJump}
-                    showSearchHeader={false}
-                    useMobileTagRows={useMobileTagRows}
-                  />
-                ) : null}
-              </Tabs.Content>
-            </Box>
-          </Tabs.Root>
-        </div>
-      </div>
-    );
+    if (isDrawerLayout) setIsSidebarOpen(false);
   }
 
   return (
     <div className="app-shell">
-      <div className="desktop-layout">
-        <CategorySidebar
-          categories={sidebarCategories}
-          activeCategory={categoryData}
-          activeCategoryId={activeCategoryId}
-          activeTopSectionId={activeTopSectionId}
-          onSelect={selectCategoryFromSidebar}
-          onSelectSection={jumpToSection}
-        />
+      <div className="app-layout">
+        <div className="desktop-sidebar">
+          <CategorySidebar
+            categories={sidebarCategories}
+            activeCategory={categoryData}
+            activeCategoryId={activeCategoryId}
+            activeTopSectionId={activeTopSectionId}
+            onSelect={selectCategoryFromSidebar}
+            onSelectSection={jumpToSection}
+          />
+        </div>
+        <Dialog.Root open={isSidebarOpen} onOpenChange={setIsSidebarOpen}>
+          <div className="mobile-sidebar-trigger">
+            <Dialog.Trigger>
+              <button className="mobile-category-button" type="button">
+                カテゴリ
+              </button>
+            </Dialog.Trigger>
+          </div>
+          <Dialog.Content className="sidebar-drawer-content" aria-describedby={undefined}>
+            <Flex align="center" justify="between" px="4" py="3">
+              <Heading size="3">カテゴリ</Heading>
+              <Dialog.Close>
+                <IconButton aria-label="カテゴリを閉じる" color="gray" size="1" variant="ghost">
+                  <Cross2Icon />
+                </IconButton>
+              </Dialog.Close>
+            </Flex>
+            <CategorySidebar
+              categories={sidebarCategories}
+              activeCategory={categoryData}
+              activeCategoryId={activeCategoryId}
+              activeTopSectionId={activeTopSectionId}
+              onSelect={selectCategoryFromSidebar}
+              onSelectSection={jumpToSection}
+            />
+          </Dialog.Content>
+        </Dialog.Root>
         <MainPanel
           categoryData={categoryData}
           copyState={copyState}
@@ -274,7 +245,7 @@ export function App() {
           searchResults={searchResults}
           sectionJump={sectionJump}
           showSearchHeader
-          useMobileTagRows={false}
+          useMobileTagRows={useMobileTagRows}
         />
       </div>
     </div>
