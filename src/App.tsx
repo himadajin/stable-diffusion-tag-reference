@@ -83,17 +83,14 @@ export function App() {
     if (!activeCategoryId) return;
     let isCurrent = true;
     setCategoryData(null);
-    const dataPromise =
-      activeCategoryId === FAVORITES_CATEGORY_ID
-        ? loadFavoritesCategory(categories, favoriteIds)
-        : loadCategory(activeCategoryId);
+    const dataPromise = activeCategoryId === FAVORITES_CATEGORY_ID ? loadFavoritesCategory(categories, favoriteIds) : loadCategory(activeCategoryId);
     dataPromise.then((data) => {
       if (isCurrent) setCategoryData(data);
     });
     return () => {
       isCurrent = false;
     };
-  }, [activeCategoryId, categories, favoriteIds]);
+  }, [activeCategoryId, categories, activeCategoryId === FAVORITES_CATEGORY_ID ? favoriteIds : null]);
 
   useEffect(() => {
     if (!normalizeQuery(query)) {
@@ -916,7 +913,7 @@ function FavoriteButton({
         className="favorite-button"
         color={isFavorite ? "indigo" : "gray"}
         size="1"
-        variant={isFavorite ? "soft" : "ghost"}
+        variant="ghost"
         onClick={() => onToggleFavorite(tag)}
       >
         <Heart aria-hidden="true" fill={isFavorite ? "currentColor" : "none"} size={14} strokeWidth={2} />

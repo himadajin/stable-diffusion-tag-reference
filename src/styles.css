@@ -204,6 +204,8 @@ button {
 
 .favorite-button {
   justify-self: start;
+  width: 24px;
+  height: 24px;
 }
 
 .virtual-tag-row > * {
