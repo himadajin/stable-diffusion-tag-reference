@@ -10,6 +10,12 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
   await expect(page.getByRole("heading", { name: "品質" })).toBeVisible();
   await expect(page.getByText("masterpiece").first()).toBeVisible();
 
+  await page.getByLabel("カテゴリ").getByRole("button", { name: /動作・姿勢/ }).click();
+  await expect(page.getByRole("heading", { name: "動作・姿勢" })).toBeVisible();
+  await page.getByLabel("動作・姿勢 のサブカテゴリ").getByRole("button", { name: /ジェスチャー/ }).click();
+  await expect(page.locator(".current-section-bar")).toContainText("ジェスチャー");
+
+  await page.getByRole("button", { name: /品質/ }).click();
   await page.getByRole("button", { name: "masterpiece をコピー" }).first().click();
   await expect(page.getByRole("main").getByText("コピーしました")).toBeVisible();
 
@@ -35,6 +41,7 @@ test("mobile keeps category, tag, search, and favorites surfaces available", asy
 
   await page.getByRole("tab", { name: "カテゴリ" }).click();
   await page.getByRole("button", { name: /品質/ }).click();
+  await expect(page.getByLabel("品質 のサブカテゴリ").getByRole("button", { name: /ポジティブ/ })).toBeVisible();
   await page.getByRole("tab", { name: "タグ" }).click();
   await expect(page.getByRole("heading", { name: "品質" })).toBeVisible();
 

@@ -42,6 +42,7 @@ type VirtualCategoryRow =
       type: "section";
       depth: number;
       name: string;
+      path: string[];
       tagCount: number;
     }
   | {
@@ -56,6 +57,12 @@ const VIRTUAL_OVERSCAN_ROWS = 12;
 const FAVORITES_CATEGORY_ID = "favorites";
 const FAVORITES_STORAGE_KEY = "prompt-tag-viewer:favorites:v1";
 
+type SectionJump = {
+  categoryId: string;
+  sectionId: string;
+  requestId: number;
+};
+
 export function App() {
   const [categories, setCategories] = useState<CategorySummary[]>([]);
   const [activeCategoryId, setActiveCategoryId] = useState<string>("");
@@ -66,6 +73,8 @@ export function App() {
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(() => readFavoriteIds());
   const [copyState, setCopyState] = useState<CopyState | null>(null);
   const [mobileView, setMobileView] = useState("tags");
+  const [activeTopSectionId, setActiveTopSectionId] = useState<string>("");
+  const [sectionJump, setSectionJump] = useState<SectionJump | null>(null);
   const isMobileLayout = useMediaQuery("(max-width: 900px)");
   const useMobileTagRows = useMediaQuery("(max-width: 620px)");
 
@@ -152,6 +161,26 @@ export function App() {
   function openCategory(categoryId: string) {
     setActiveCategoryId(categoryId);
     setQuery("");
+    setActiveTopSectionId("");
+    setMobileView("tags");
+  }
+
+  function selectCategoryFromSidebar(categoryId: string) {
+    setActiveCategoryId(categoryId);
+    setQuery("");
+    setActiveTopSectionId("");
+    if (!isMobileLayout) setMobileView("tags");
+  }
+
+  function jumpToSection(categoryId: string, sectionId: string) {
+    setActiveCategoryId(categoryId);
+    setQuery("");
+    setActiveTopSectionId(sectionId);
+    setSectionJump((current) => ({
+      categoryId,
+      sectionId,
+      requestId: (current?.requestId ?? 0) + 1,
+    }));
     setMobileView("tags");
   }
 
@@ -175,8 +204,11 @@ export function App() {
               {mobileView === "categories" ? (
                 <CategorySidebar
                   categories={sidebarCategories}
+                  activeCategory={categoryData}
                   activeCategoryId={activeCategoryId}
-                  onSelect={openCategory}
+                  activeTopSectionId={activeTopSectionId}
+                  onSelect={selectCategoryFromSidebar}
+                  onSelectSection={jumpToSection}
                 />
               ) : null}
             </Tabs.Content>
@@ -192,8 +224,10 @@ export function App() {
                   onOpenCategory={openCategory}
                   onQueryChange={setQuery}
                   onToggleFavorite={toggleFavorite}
+                  onVisibleTopSectionChange={setActiveTopSectionId}
                   query={query}
                   searchResults={searchResults}
+                  sectionJump={sectionJump}
                   showSearchHeader={false}
                   useMobileTagRows={useMobileTagRows}
                 />
@@ -211,8 +245,11 @@ export function App() {
       <div className="desktop-layout">
         <CategorySidebar
           categories={sidebarCategories}
+          activeCategory={categoryData}
           activeCategoryId={activeCategoryId}
-          onSelect={openCategory}
+          activeTopSectionId={activeTopSectionId}
+          onSelect={selectCategoryFromSidebar}
+          onSelectSection={jumpToSection}
         />
         <MainPanel
           categoryData={categoryData}
@@ -224,8 +261,10 @@ export function App() {
           onOpenCategory={openCategory}
           onQueryChange={setQuery}
           onToggleFavorite={toggleFavorite}
+          onVisibleTopSectionChange={setActiveTopSectionId}
           query={query}
           searchResults={searchResults}
+          sectionJump={sectionJump}
           showSearchHeader
           useMobileTagRows={false}
         />
@@ -311,8 +350,10 @@ function MainPanel({
   onOpenCategory,
   onQueryChange,
   onToggleFavorite,
+  onVisibleTopSectionChange,
   query,
   searchResults,
+  sectionJump,
   showSearchHeader,
   useMobileTagRows,
 }: {
@@ -325,8 +366,10 @@ function MainPanel({
   onOpenCategory: (categoryId: string) => void;
   onQueryChange: (query: string) => void;
   onToggleFavorite: (tag: TagEntry) => void;
+  onVisibleTopSectionChange: (sectionId: string) => void;
   query: string;
   searchResults: SearchEntry[];
+  sectionJump: SectionJump | null;
   showSearchHeader: boolean;
   useMobileTagRows: boolean;
 }) {
@@ -357,7 +400,9 @@ function MainPanel({
           onCopy={onCopy}
           favoriteIds={favoriteIds}
           onToggleFavorite={onToggleFavorite}
+          onVisibleTopSectionChange={onVisibleTopSectionChange}
           copyValue={copyState?.value}
+          sectionJump={sectionJump}
           useMobileTagRows={useMobileTagRows}
         />
       ) : (
@@ -371,13 +416,22 @@ function MainPanel({
 
 function CategorySidebar({
   categories,
+  activeCategory,
   activeCategoryId,
+  activeTopSectionId,
   onSelect,
+  onSelectSection,
 }: {
   categories: CategorySummary[];
+  activeCategory: CategoryData | null;
   activeCategoryId: string;
   onSelect: (categoryId: string) => void;
+  activeTopSectionId: string;
+  onSelectSection: (categoryId: string, sectionId: string) => void;
 }) {
+  const activeTopSections =
+    activeCategory && activeCategory.id !== FAVORITES_CATEGORY_ID ? activeCategory.sections : [];
+
   return (
     <aside className="sidebar" aria-label="カテゴリ">
       <Flex align="baseline" justify="between" px="4" py="3">
@@ -388,18 +442,38 @@ function CategorySidebar({
       </Flex>
       <ScrollArea className="sidebar-scroll" scrollbars="vertical">
         <Flex direction="column" gap="1" px="2" pb="3">
-          {categories.map((category) => (
-            <button
-              className="category-button"
-              data-active={category.id === activeCategoryId}
-              key={category.id}
-              onClick={() => onSelect(category.id)}
-              type="button"
-            >
-              <span>{category.name}</span>
-              <span className="category-count">{category.tagCount.toLocaleString()}</span>
-            </button>
-          ))}
+          {categories.map((category) => {
+            const isActive = category.id === activeCategoryId;
+            return (
+              <div className="category-tree-item" key={category.id}>
+                <button
+                  className="category-button"
+                  data-active={isActive}
+                  onClick={() => onSelect(category.id)}
+                  type="button"
+                >
+                  <span>{category.name}</span>
+                  <span className="category-count">{category.tagCount.toLocaleString()}</span>
+                </button>
+                {isActive && activeTopSections.length > 0 ? (
+                  <div className="subcategory-list" aria-label={`${category.name} のサブカテゴリ`}>
+                    {activeTopSections.map((section) => (
+                      <button
+                        className="subcategory-button"
+                        data-active={section.id === activeTopSectionId}
+                        key={section.id}
+                        onClick={() => onSelectSection(category.id, section.id)}
+                        type="button"
+                      >
+                        <span>{section.name}</span>
+                        <span className="category-count">{section.tagCount.toLocaleString()}</span>
+                      </button>
+                    ))}
+                  </div>
+                ) : null}
+              </div>
+            );
+          })}
         </Flex>
       </ScrollArea>
     </aside>
@@ -458,14 +532,18 @@ function CategoryView({
   onCopy,
   favoriteIds,
   onToggleFavorite,
+  onVisibleTopSectionChange,
   copyValue,
+  sectionJump,
   useMobileTagRows,
 }: {
   category: CategoryData;
   onCopy: (value: string) => void;
   favoriteIds: Set<string>;
   onToggleFavorite: (tag: TagEntry) => void;
+  onVisibleTopSectionChange: (sectionId: string) => void;
   copyValue?: string;
+  sectionJump: SectionJump | null;
   useMobileTagRows: boolean;
 }) {
   const scrollRef = useRef<HTMLDivElement | null>(null);
@@ -473,13 +551,31 @@ function CategoryView({
   const [viewportHeight, setViewportHeight] = useState(720);
   const rowHeight = useMobileTagRows ? MOBILE_CATEGORY_ROW_HEIGHT : DESKTOP_CATEGORY_ROW_HEIGHT;
   const rows = useMemo(() => flattenCategoryRows(category.sections), [category.sections]);
+  const sectionPositions = useMemo(() => collectSectionPositions(rows), [rows]);
+  const currentPosition = findCurrentSectionPosition(sectionPositions, Math.floor(scrollTop / rowHeight));
 
   useEffect(() => {
     const scrollElement = scrollRef.current;
     if (!scrollElement) return;
     scrollElement.scrollTop = 0;
     setScrollTop(0);
+    onVisibleTopSectionChange("");
   }, [category.id]);
+
+  useEffect(() => {
+    if (!sectionJump || sectionJump.categoryId !== category.id) return;
+    const scrollElement = scrollRef.current;
+    if (!scrollElement) return;
+    const position = sectionPositions.find((section) => section.id === sectionJump.sectionId);
+    if (!position) return;
+    const nextScrollTop = position.index * rowHeight;
+    scrollElement.scrollTop = nextScrollTop;
+    setScrollTop(nextScrollTop);
+  }, [category.id, rowHeight, sectionJump, sectionPositions]);
+
+  useEffect(() => {
+    onVisibleTopSectionChange(currentPosition?.topSectionId ?? "");
+  }, [currentPosition?.topSectionId, onVisibleTopSectionChange]);
 
   useEffect(() => {
     const scrollElement = scrollRef.current;
@@ -532,6 +628,11 @@ function CategoryView({
             </Text>
           </div>
         )}
+        <div className="current-section-bar" aria-live="polite">
+          <Text color="gray" size="1">
+            {currentPosition ? currentPosition.path.join(" / ") : category.name}
+          </Text>
+        </div>
         <div className="virtual-category-list" style={{ height: totalHeight }}>
           <div className="virtual-category-window" style={{ transform: `translateY(${topOffset}px)` }}>
             {visibleRows.map((row) =>
@@ -578,6 +679,7 @@ function flattenCategoryRows(sections: CategorySection[], depth = 0): VirtualCat
         type: "section",
         depth,
         name: section.name,
+        path: section.path,
         tagCount: section.tagCount,
       },
     ];
@@ -592,6 +694,43 @@ function flattenCategoryRows(sections: CategorySection[], depth = 0): VirtualCat
 
     return rows;
   });
+}
+
+type SectionPosition = {
+  id: string;
+  index: number;
+  depth: number;
+  path: string[];
+  topSectionId: string;
+};
+
+function collectSectionPositions(rows: VirtualCategoryRow[]): SectionPosition[] {
+  let topSectionId = "";
+  return rows.flatMap((row, index) => {
+    if (row.type !== "section") return [];
+    if (row.depth === 0) topSectionId = row.id;
+    return [
+      {
+        id: row.id,
+        index,
+        depth: row.depth,
+        path: row.path,
+        topSectionId,
+      },
+    ];
+  });
+}
+
+function findCurrentSectionPosition(
+  sectionPositions: SectionPosition[],
+  rowIndex: number,
+): SectionPosition | null {
+  let current: SectionPosition | null = null;
+  for (const section of sectionPositions) {
+    if (section.index > rowIndex) break;
+    current = section;
+  }
+  return current;
 }
 
 function VirtualSectionRow({
