@@ -9,7 +9,16 @@ Before making product, data, UI, or verification changes, read:
 - `docs/design.md`
 - `docs/ui.md`
 
-Treat those docs as living source material. If an intentional implementation change alters product behavior, data boundaries, UI direction, or verification expectations, update the relevant doc in the same change. Keep docs concise and implementation-facing; do not turn them into changelogs or long design history.
+Treat `docs/design.md` and `docs/ui.md` as the current design authority. If implementation and docs disagree, do not silently follow either one: identify the mismatch, update the docs when the implementation represents the intended design, and keep future changes aligned with the docs.
+
+Keep docs concise, current, and implementation-facing. Do not preserve old design history inside the active docs.
+
+## Product Boundaries
+
+- This is a tag reference browser, not a tag editor or prompt editor.
+- Do not add tag creation, tag editing, reclassification, source-data curation, prompt editing, weighting editing, bulk-copy, or persistent "My Tags" workflows unless the product direction explicitly changes.
+- Favorites are allowed only as local reading state for official category-tag entries.
+- Free-input candidates are searchable and copyable, but they are not official category-tag entries and are not favoriteable.
 
 ## Data Rules
 
@@ -53,12 +62,13 @@ npm run test:e2e
 - Use Radix Themes / Radix components where practical.
 - Keep the UI light-mode only.
 - Keep the visual tone quiet, dense, and reference-tool oriented.
-- Use the existing slate + indigo direction from `docs/ui.md`.
-- Use color only for meaningful states such as selection, focus, primary action, or copy success.
+- Follow `docs/ui.md` for layout, visual language, and interaction details.
+- Use color only for meaningful states such as active navigation, focus, copy feedback, and favorite state.
 - Do not introduce decorative gradients, ornamental backgrounds, category color-coding, large card-heavy layouts, or flashy generative-AI-style visuals.
 - Keep tag browsing, search, English-tag single-copy, favorites, and category navigation flows available.
-- Do not expand the app into a tag editor, prompt editor, weighting editor, or persistent prompt-management tool unless the user explicitly changes the product direction.
 - Keep mobile and desktop access to the same information and operations, even if the layout differs.
+- Do not reintroduce table-style tag browsing, tag-list header rows, sticky current-section bars, mobile category tabs, right sidebars, separate copy icon columns, selected-tag lists, bulk copy, or My Tags.
+- Avoid horizontal page scrolling; treat it as a layout defect.
 
 ## Formatting and Linting
 

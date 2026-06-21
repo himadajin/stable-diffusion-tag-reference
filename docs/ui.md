@@ -2,64 +2,180 @@
 
 ## Purpose
 
-ComfyUI で作業中の利用者が横に置いて使える、静かで密度の高いタグ参照 UI を作る。日本語のカテゴリや説明から目的のタグを探し、英語タグを単体コピーし、よく使う正式タグをお気に入りから再参照できることを、最小限の画面要素で支える。
+This document is the source of truth for the current UI design. It describes how the app should look, behave, and stay scoped as a tag reference tool.
 
-生成AIツール風の派手な見た目や過剰な機能ではなく、Radix UI / Radix Themes を使ったモダンで落ち着いた開発者向けリファレンスとして設計する。
+The UI supports people working in ComfyUI who need to find Stable Diffusion prompt tags by Japanese names, categories, and surrounding context, then copy the corresponding English tag. It must stay quiet, dense, and reference-oriented.
 
-## Context
+This is not a tag editor, prompt editor, or prompt-management workspace.
 
-UI は Vite + React + TypeScript の静的 SPA 上で実装される。データ生成、入力データ管理、検索インデックス設計などの非 UI 方針は `docs/design.md` が扱う。
+## Fixed Principles
 
-主用途はデスクトップで ComfyUI と並べて使うこと。ただしモバイルを簡略版にはせず、同じ情報量と操作を保ったまま、レイアウトを切り替えて破綻なく使えるようにする。
+These principles are part of the product design, not incidental implementation choices.
 
-使う UI 基盤は Radix UI / Radix Themes とする。Radix Colors の用途別スケール、Radix Themes の spacing、radius、Table、Tabs、Dialog/Popover などを活かし、独自装飾を増やしすぎない。
+- Keep the app light-mode only.
+- Keep desktop and mobile information parity. Mobile may use a different layout, but it must not remove category browsing, search, favorites, tag copying, or context access.
+- Avoid horizontal page scrolling. If horizontal scrolling appears, treat it as a layout defect.
+- Use color only for meaningful state: active navigation, focus, copy feedback, and favorite state.
+- Do not color-code categories.
+- Avoid decorative gradients, ornamental backgrounds, large card-heavy layouts, and visuals that read as a generic generative-AI tool.
+- Keep the feature set minimal: browse, search, copy, favorite, and navigate category context.
+- Use Radix Themes and Radix primitives where practical, with lucide icons for clear icon actions.
+- Prefer ordinary web interaction patterns over custom novelty.
 
-ライトモード固定とする。ダークモード切り替えは提供しない。
+## Information Architecture
 
-## Direction
+The app has four primary user-facing areas:
 
-全体のトーンは「静かな開発者向けリファレンス」とする。白から薄い slate の面、細い境界線、控えめな影、密なテーブル表示を基本にする。グラデーション、装飾的な背景、カテゴリごとの多色展開、大きなカード群、丸すぎるチップ表現は避ける。
+- Category browsing: a top-level category with its original nested subcategory structure.
+- Search: a global search across English tags, Japanese names, category paths, and free-input candidates.
+- Favorites: a personal reference category made from official category-tag entries.
+- Free-input candidates: searchable and copyable candidate tags that are not official category-tag entries.
 
-Radix Themes は次の設定を基本にする。
+Category browsing preserves the source category hierarchy. The navigation exposes two levels inside the selected top-level category so users can understand both the broad area and the current section.
+
+Favorites are a reading aid, not a source-data organization feature. They are stored in local browser state and shown in source category order and source data order.
+
+## Layout
+
+Desktop uses a fixed left sidebar and one main content area. There is no right sidebar.
+
+Mobile uses the same left navigation model through a left-side Drawer. Do not replace category navigation with mobile Tabs. The Drawer is a responsive presentation of the same navigation structure, not a separate navigation system.
+
+The main content header uses two compact rows:
+
+- Current context: category title or search result title, with count information aligned away from the title.
+- Global search: a single input for searching across all categories.
+
+The header should be compact. It should not become a tall hero-like area.
+
+## Navigation
+
+The sidebar contains:
+
+- Favorites at the top.
+- Top-level source categories.
+- For the active source category, a two-level section tree.
+
+Top-level category selection changes the content immediately and resets the content scroll position to the start of that category.
+
+Opening or closing a section tree item only changes the navigation disclosure state. It must not force the main content to scroll. Selecting a second-level section jumps the main content to that section.
+
+On mobile, selecting a top-level category may close the Drawer because the primary content has changed. Section jumps should also return focus to the content by closing the Drawer.
+
+## Tag List Design
+
+The category view is a dictionary-style list, not a data table.
+
+Do not show a table header row such as `English tag / 日本語名 / カテゴリ文脈`. The page title, section separators, row layout, and search context provide enough structure.
+
+Category rows show:
+
+- Favorite action for official tags.
+- English tag copy button.
+- Japanese name.
+
+Category context should not be repeated in every normal category row when the user is already browsing inside that context. Use section separators and navigation state instead.
+
+Favorites and search results may show source context because those views mix entries from multiple categories.
+
+Section rows are lightweight separators. They are not sticky bars and should not compete visually with tag rows.
+
+Use virtualization or equivalent rendering discipline for large lists, but keep that internal. The user-facing design is a stable dictionary list.
+
+## Copy Interaction
+
+English tags and free-input candidates are copied by clicking the tag text button itself. Do not add a separate copy icon column.
+
+Copy feedback should be local and brief, such as an inline icon change inside the tag button. Do not show global toasts, large banners, or persistent "copied" text.
+
+Only the English tag or candidate text is a copy target. Japanese names and category labels should not become copy targets by accident.
+
+## Favorites Interaction
+
+Favorites apply only to official category-tag entries. Free-input candidates are copyable, but not favoriteable.
+
+Use a lucide `Heart` icon for favorite actions:
+
+- Unselected: neutral outline.
+- Selected: ruby/red fill and stroke.
+
+The red favorite state is intentional because the icon is a heart. Do not change favorite state to indigo only to reduce the palette.
+
+Favorite feedback should be the icon state change itself. Do not add a toast or separate status panel for this interaction.
+
+## Search
+
+Search is global and uses a single input. Do not add filter panels or advanced controls unless the product scope changes.
+
+Search results are grouped by entry type:
+
+- Official tags.
+- Free-input candidates.
+
+Official tag results show the English tag, Japanese name, favorite action, and source context. Context links should let users jump back to the relevant category area.
+
+Free-input candidates are copyable and clearly separated from official tags. They do not have favorites or source category navigation.
+
+## Visual Language
+
+Use Radix Themes with this general direction:
 
 - `appearance="light"`
 - `grayColor="slate"`
 - `accentColor="indigo"`
-- `panelBackground="solid"`
-- `radius="small"` または `radius="medium"`
-- `scaling="100%"`
+- solid panel backgrounds
+- small to medium radius
+- restrained spacing
 
-色は意味を持つものとして扱い、必要な場所に絞って使う。通常状態は slate 系のニュートラルを中心にし、indigo は選択中カテゴリ、フォーカス、主要操作、コピー成功など意味のある状態に限定する。成功・警告・エラーなどの状態色も、状態の意味がある場合にだけ使う。色分けによってカテゴリを装飾的に識別しない。
+Use slate and white surfaces for the base UI. Use indigo for active navigation, focus, and copy feedback. Use ruby/red for selected favorites. Avoid adding new accent colors unless the state meaning is clear.
 
-余白は Radix の spacing scale を使う。通常の要素間は `space-2` から `space-4` を中心にし、主要パネル間だけ `space-5` 程度を使う。密度を保つため、タグ行やサイドバー項目に過剰な上下余白を入れない。
+English tag buttons may use monospace text because the value is a literal prompt token. The surrounding UI should use normal system UI typography.
 
-画面構成は、デスクトップでは左に固定サイドバー、中央にタグ一覧、上部に検索を置く。サイドバーはお気に入りと大カテゴリの一覧と件数を表示し、選択中カテゴリだけ第1階層サブカテゴリを目次として展開する。サブカテゴリ目次は名前と件数だけを表示し、クリックすると中央の該当セクションへスクロールする。中央は現在カテゴリのタイトル、現在位置バー、サブカテゴリ階層、タグ一覧を表示する。右サイドバーは置かない。
+Keep density high enough for reference work. Avoid large cards, oversized headings inside the app shell, and marketing-style spacing.
 
-モバイルでは情報と操作を削らない。カテゴリ、検索/タグ一覧を Tabs、Dialog、Popover、または下部/横方向の切り替え UI で扱い、小さい画面で三カラムを無理に縮めない。モバイルでもカテゴリ文脈、英語タグ、日本語名、単発コピー、お気に入り操作、選択中カテゴリのサブカテゴリ目次にアクセスできる状態を保つ。
+## Flexible Decisions
 
-タグ一覧は装飾カードではなく、Radix Table 相当の密な行表示を基本にする。正式タグの行には左側にお気に入りボタン、コピー可能な英語タグ、日本語名、カテゴリ文脈を並べる。自由入力候補はお気に入り対象にせず、英語タグまたは候補タグのクリックコピーのみを表示する。英語タグは一般的なボタンとして押せることが分かる pill 表現にし、コピー対象のリテラルであることを明確にする。日本語名、カテゴリ名、件数は通常の UI sans で読みやすく表示する。
+These details may change during normal UI maintenance as long as the fixed principles stay intact:
 
-カテゴリ閲覧中は、タグ一覧のヘッダー直下に現在位置バーを固定表示する。現在位置バーにはスクロール位置に対応するサブカテゴリ文脈を `ジェスチャー / 自分への接触` のように1行で表示し、背景は slate 系に留める。仮想スクロールと干渉しないよう、セクション行自体を sticky にするのではなく、スクロール位置から現在位置を算出して表示する。
+- Exact breakpoints.
+- Sidebar and Drawer width within the no-horizontal-scroll constraint.
+- Row height and spacing.
+- Font sizes within the dense reference-tool direction.
+- Count placement.
+- Search result wording.
+- Internal virtualization implementation.
+- Minor Radix component choices.
+- Section disclosure affordances.
 
-検索は上部に置き、検索中はカテゴリ閲覧と検索結果の文脈が混ざらないようにする。検索結果にも大カテゴリ、サブカテゴリ、タグの英語名、日本語名を表示し、同じ分類へ戻れる導線を用意する。検索 UI は単一の入力欄を基本とし、複雑なフィルター群を初期 UI に置かない。
+When changing these details, verify both desktop and mobile layouts.
 
-お気に入りは、タグ行左側の Lucide `Heart` アイコンで追加・削除する。未登録は gray、登録済みは indigo の塗り状態で示す。お気に入り操作はアイコン状態の変化だけで伝え、大きなトーストや説明パネルを出さない。
+## Do Not Reintroduce
 
-コピー成功などのフィードバックは控えめにする。大きなトーストを多用せず、ボタンラベルやアイコンの一時変化、短いインラインステータスで伝える。連続コピー時に通知が画面を乱さないようにする。
+Do not reintroduce these patterns as routine implementation details. If one becomes necessary, treat it as a product/design change and update this document before implementation.
 
-アイコンは Radix Icons、Lucide、または既存のアイコンライブラリを使い、検索、クリア、お気に入りなど明確な操作に限定する。アイコンのみのボタンには accessible label と Tooltip を付ける。見出しや説明文で機能を過剰に説明しない。
+- Table-style tag browsing.
+- Table header rows for the tag list.
+- Sticky current-section bars above the list.
+- Mobile category Tabs.
+- A right sidebar.
+- Separate copy icon columns.
+- Selected-tag lists.
+- Bulk copy.
+- "My Tags" or persistent tag collections.
+- Tag editing, tag creation, reclassification, or curation workflows.
+- Prompt editing or weighting editing.
+- Category color-coding.
+- Decorative gradients or generative-AI-style visual effects.
+- Horizontal page scrolling.
 
-## Completion Conditions
+## Verification
 
-- ライトモード固定で、Radix Themes の `slate + indigo` を基調にした落ち着いた UI になっている。
-- 色は選択状態、フォーカス、主要操作、コピー成功など意味のある状態に限定して使われ、カテゴリごとの装飾的な色分けがない。
-- デスクトップでは、左サイドバー、中央のタグ一覧、上部検索が同時に使える。
-- 左サイドバーでは選択中カテゴリの第1階層サブカテゴリが目次として展開され、クリックで該当セクションへジャンプできる。
-- タグ一覧のヘッダー直下に現在位置バーがあり、スクロール中のサブカテゴリ文脈が分かる。
-- モバイルでも、カテゴリ、検索、タグ一覧、サブカテゴリ目次、お気に入り操作の情報と操作が削られず、レイアウト切り替えによって破綻なく使える。
-- タグ一覧は密な行表示で、お気に入り状態、コピー可能な英語タグ、日本語名、カテゴリ文脈が一目で分かる。
-- 英語タグはクリック可能な pill 表現で表示され、日本語名やカテゴリ名とは視覚的な役割が分かれている。
-- 検索 UI は単一入力を基本とし、検索結果にはカテゴリ文脈が表示される。
-- 一時選択リスト、一括コピー、プロンプト本文編集、重み付け編集がない。
-- コピー成功などのフィードバックは、控えめなインライン変化で伝わり、連続作業を邪魔しない。
-- 生成AI風のグラデーション、装飾背景、大きなカード群、過剰な多色使い、丸すぎるチップ表現が使われていない。
+For UI changes, verify:
+
+- Desktop and mobile expose the same core information and operations.
+- Category navigation works through sidebar/Drawer, not Tabs.
+- Tag rows remain copyable without a separate copy icon column.
+- Favorites use heart icons and ruby/red selected state.
+- Search results show context where mixed-category results need it.
+- No horizontal page scrolling appears.
+- The old table header pattern is absent.

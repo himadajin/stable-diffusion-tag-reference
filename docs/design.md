@@ -2,59 +2,118 @@
 
 ## Purpose
 
-ComfyUI で Stable Diffusion のプロンプトを編集している利用者が、リポジトリ管理対象のタグデータを参照し、日本語のカテゴリや説明を手がかりに目的の英語タグへ辿り着き、単体コピーやお気に入りによってよく使うタグを参照できる静的サイトを作る。
+This repository builds a static reference site for browsing Stable Diffusion prompt tags while working in tools such as ComfyUI.
 
-このサイトはタグの追加、編集、再分類、整理を行うツールではない。元データのカテゴリ構造を活かした、読みやすく高速なタグ参照サイトとして成立させる。
+Users should be able to find an English prompt tag from Japanese names, category structure, and surrounding context, then copy that tag for use elsewhere. The app also supports local favorites for frequently referenced official tags.
 
-## Context
+The product exists to make repository-managed tag data easier to browse. It does not exist to edit, curate, or reorganize that data through the UI.
 
-最終的な公開先は GitHub Pages を想定する。サーバー、DB、ユーザー管理、永続的な編集状態は持たない静的サイトとして設計する。
+## Product Boundaries
 
-実装基盤は Vite + React + TypeScript とする。生成済み JSON をクライアント側で読み込み、カテゴリ閲覧、検索、コピー操作を行う単一ページアプリとして扱う。
+The app is:
 
-正式な入力データは `data/source/` 配下にある。カテゴリ付きタグは大カテゴリ単位に分割され、自由入力候補も安定した分割規則で複数ファイルに分かれている。データ形式は参照サイトとして高速に扱えるよう明確に定める。正式な入力データと、UI 表示・検索用に生成する派生データを分ける。派生データは手で編集するものではなく、入力データから再生成できる成果物として扱う。
+- A Vite + React + TypeScript static SPA.
+- Intended for GitHub Pages hosting.
+- Client-only, with no server, database, accounts, or cloud sync.
+- A reference browser for repository-managed source data.
+- A single-copy workflow for English prompt tags and free-input candidates.
+- A local favorite reference aid for official category-tag entries.
 
-## Related Files
+The app is not:
 
-- `docs/ui.md`
+- A tag editor.
+- A tag creation tool.
+- A source-data curation workflow.
+- A prompt editor.
+- A weighting editor.
+- A prompt assembly workspace.
+- A bulk-copy tool.
+- A persistent "My Tags" collection manager.
+- A replacement for maintaining source data in `data/source/`.
 
-## Direction
+Favorites are allowed only as browser-local reading state. They must not become a source-data maintenance or classification feature.
 
-データ処理は、正式な入力データから静的配信用の生成データを作る形にする。正式な入力データは `data/source/` 配下に置く。カテゴリ付きタグは `data/source/tags/<category-id>.json` のように大カテゴリ単位で分割する。自由入力候補は `data/source/free-input-tags/` 配下に、正規化した先頭文字またはチャンク番号など、再生成しても安定する規則で分割する。
+## Design Authority
 
-UI 用生成データは、カテゴリ閲覧に適した階層データと、検索に適したフラットなインデックスを分けて持つ。生成データは `src/generated/` または `public/data/` のような配信用の場所に出力し、正式入力データからいつでも再生成できる状態にする。
+This document is the product and data design authority. `docs/ui.md` is the UI design authority.
 
-カテゴリ閲覧用の階層データは、元の大カテゴリとサブカテゴリ構造を基本的に維持する。大カテゴリはサイドバーから切り替えられる主要な単位とし、各カテゴリ内ではサブカテゴリを眺めながら目的のタグに辿れるようにする。
+When implementation and docs disagree, do not silently follow either one. Identify the mismatch. If the implementation reflects the intended design, update the relevant docs so future work can use docs as the source of truth.
 
-検索用インデックスは、日本語名、英語タグ、自由入力候補、カテゴリパスを対象にできる形にする。検索結果にはタグ名だけでなく、大カテゴリやサブカテゴリなどの文脈を表示し、結果から同じ分類内の近いタグを探し直せる導線を残す。生成インデックス内の各項目は、元の分割入力データへ戻れるカテゴリ ID、カテゴリパス、タグ ID または安定キーを持つ。検索データはチャンク分割し、複数語検索では軽量な token-to-chunk インデックスを使って候補チャンクを絞る。
+Intentional changes to product behavior, data boundaries, UI direction, or verification expectations should update the relevant docs in the same change.
 
-検索はまずクライアント内の軽量な部分一致検索で設計する。外部検索ライブラリは、実データでの体感速度や検索品質に不足が出た場合に採用を検討する。
+## Data Model
 
-コピー機能は、英語タグを主対象にする。各タグからワンクリックで英語タグをコピーできる範囲に留め、複数タグの一括コピーやプロンプト編集機能へ広げない。
+Repository-managed source data lives under `data/source/`.
 
-お気に入り機能は、正式なカテゴリ付きタグだけを対象にする。お気に入りの保存はブラウザの `localStorage` に `prompt-tag-viewer:favorites:v1` というキーでタグ ID 配列として行う。これは正式な入力データの追加、編集、再分類ではなく、閲覧補助の個人状態として扱う。お気に入りカテゴリはサイドバー先頭に表示し、元カテゴリ順・元データ順でタグを表示する。自由入力候補はお気に入り対象にせず、コピーのみを提供する。
+Generated app data lives under `public/data/`. Generated data is a build artifact derived from source data and should not be hand-edited.
 
-日本語名、カテゴリ名、カテゴリパスは理解と探索の補助として扱う。日本語から探して英語タグを迷わずコピーできることを重視する。
+Category-tag source data is split by top-level category. Free-input candidate source data is split into stable chunks. The split structure exists so large data can be maintained and tested without relying on temporary files or a single oversized JSON file.
 
-後続実装では、タグ編集ツール、プロンプト作成ツール、永続的なタグ管理機能へ広げすぎない。データ形式を変換する場合も、参照性と表示速度を上げるための整備に留める。
+Generated data should provide:
 
-テスト方針は、データの分割と生成の正しさを中心に置く。Vitest を使い、正式入力データのスキーマ検証、分割データ全体としての復元性、変換ロジック、検索インデックス生成、カテゴリパスや参照キーの整合性を高速に検証する。Playwright は、実ブラウザでなければ意味が薄い主要導線に限定し、カテゴリ閲覧、検索、単発コピー、お気に入り追加、お気に入りカテゴリ表示が破綻しないことを確認する。
+- Category browsing data that preserves the original top-level and nested subcategory structure.
+- Search index data for English tags, Japanese names, free-input candidates, and category paths.
+- Stable IDs or keys that allow generated entries to point back to their source context.
 
-分割データのテストでは、単に各ファイルが JSON として読めるだけでは不十分とする。全体としてタグの欠落や意図しない重複がないこと、各タグに必要な英語タグと日本語名があること、自由入力候補に必要なタグ文字列と件数があること、カテゴリパスが生成データまで保たれることを不変条件として扱う。英語タグの重複は元データに存在するため、存在自体を失敗にせず、カテゴリ文脈や安定キーで区別できることを確認する。
+English tags may repeat across different source contexts. Repetition is valid when entries remain distinguishable by stable ID and category path.
+
+## Core Features
+
+Category browsing lets users select a top-level category and navigate the original nested subcategory structure.
+
+Search is global. It should cover official tags, Japanese names, category paths, and free-input candidates. Results should include enough context to return to nearby source-category entries.
+
+Copy is intentionally narrow. Users copy one English tag or free-input candidate at a time. The app should not assemble prompt text or support bulk-copy workflows.
+
+Favorites apply only to official category-tag entries. Favorites are stored in `localStorage` under `prompt-tag-viewer:favorites:v1` as tag IDs. The favorites view should display entries in source category order and source data order, not in a separate user-defined organization.
+
+Free-input candidates are searchable and copyable. They are not official category-tag entries and are not favoriteable.
+
+## UI Relationship
+
+UI layout, interaction, and visual rules belong in `docs/ui.md`.
+
+The product-level requirements for UI are:
+
+- Keep category browsing, search, single-copy, favorites, and context navigation available.
+- Keep desktop and mobile information parity.
+- Avoid expanding the app into editing, prompt management, or source-data maintenance.
+- Preserve source category context so users can find nearby related tags.
+
+## Verification Strategy
+
+Use Vitest for data and transformation correctness:
+
+- Source schema validation.
+- Split-data integrity.
+- Regeneration assumptions.
+- Generated category references.
+- Search index references.
+- Duplicate handling where source context distinguishes repeated English tags.
+
+Use Playwright for browser-only workflows:
+
+- Category browsing.
+- Subcategory navigation.
+- Global search.
+- Single-copy behavior.
+- Favorites add/remove and favorites category display.
+- Responsive layout and no horizontal page scrolling.
+
+Do not treat generated data as the source of truth when a test should prove source-data integrity. Prefer testing from `data/source/` and the generation pipeline.
 
 ## Completion Conditions
 
-- Vite + React + TypeScript の静的サイトとして動作し、GitHub Pages へ公開できる構成になっている。
-- リポジトリ管理対象の正式な入力データが `data/source/` 配下に整理されている。
-- カテゴリ付きタグの正式入力データが、大カテゴリ単位の分割ファイルとして管理されている。
-- 自由入力候補の正式入力データが、安定した規則の複数ファイルとして管理されている。
-- 正式な分割入力データから、カテゴリ閲覧用の階層データと検索用のフラットインデックスを生成できる。
-- 生成データから元のカテゴリ ID、カテゴリパス、タグの安定キーを辿れる。
-- サイドバーから大カテゴリを切り替え、カテゴリごとに元のサブカテゴリ階層を保ったタグ一覧を閲覧できる。
-- 日本語名、英語タグ、自由入力候補を対象に検索でき、検索結果には該当タグのカテゴリ文脈が表示される。
-- 検索結果またはタグ一覧から、同じカテゴリやサブカテゴリ内の近いタグを探し直せる。
-- 各タグの英語タグをワンクリックでコピーできる。
-- 正式タグをお気に入りに追加し、お気に入りカテゴリから元カテゴリ順・元データ順で閲覧できる。
-- サイト内でタグの追加、編集、再分類、永続的な整理作業を行う UI や機能が存在しない。
-- Vitest で、正式入力データのスキーマ、分割データの復元性、変換ロジック、生成インデックスの参照整合性が検証されている。
-- Playwright で、カテゴリ閲覧、検索、単発コピー、お気に入り追加、お気に入りカテゴリ表示の主要導線が実ブラウザ上で確認されている。
+- The app runs as a Vite + React + TypeScript static SPA suitable for GitHub Pages.
+- Repository-managed source data is under `data/source/`.
+- Category-tag source data is split by top-level category.
+- Free-input candidate source data is split into stable chunks.
+- Generated app data can be regenerated from source data.
+- Generated entries preserve stable references to source category IDs, category paths, and tag IDs or keys.
+- Users can browse categories and nested subcategories.
+- Users can search official tags, Japanese names, category paths, and free-input candidates.
+- Users can copy individual English tags and free-input candidates.
+- Users can favorite official tags and browse favorites in source order.
+- The UI contains no tag editing, prompt editing, weighting editing, bulk-copy, or source-data curation workflow.
+- Data tests verify schema, split integrity, transformation logic, and generated reference consistency.
+- Browser tests verify the core user-visible workflows.
