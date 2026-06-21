@@ -1,0 +1,1897 @@
+{
+  "id": "quality",
+  "name": "品質",
+  "tagCount": 186,
+  "sections": [
+    {
+      "id": "ホ-シ-ティフ",
+      "name": "ポジティブ",
+      "path": [
+        "ポジティブ"
+      ],
+      "tagCount": 33,
+      "tags": [
+        {
+          "id": "quality__ホ-シ-ティフ__0001",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "masterpiece",
+          "ja": "傑作"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0002",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "best quality",
+          "ja": "最高品質"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0003",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "highres",
+          "ja": "高解像度"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0004",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "absurdres",
+          "ja": "不条理な"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0005",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "incredibly absurdres",
+          "ja": "信じられないほど不条理な"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0006",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "ultra detailed",
+          "ja": "超詳細"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0007",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "intricate details",
+          "ja": "複雑な詳細"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0008",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "hyper detailed",
+          "ja": "超詳細な"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0009",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "professional art",
+          "ja": "プロの芸術"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0010",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "award-winning",
+          "ja": "受賞歴のある"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0011",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "4k",
+          "ja": "4k"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0012",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "8k",
+          "ja": "8k"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0013",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "4k wallpaper",
+          "ja": "4K壁紙"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0014",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "cinematic lighting",
+          "ja": "映画照明"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0015",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "perfect lighting",
+          "ja": "完璧な照明"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0016",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "perfect shadow",
+          "ja": "完璧な影"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0017",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "dynamic lighting",
+          "ja": "ダイナミック照明"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0018",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "ray tracing",
+          "ja": "レイトレーシング"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0019",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "depth rendering",
+          "ja": "深度レンダリング"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0020",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "studio quality",
+          "ja": "スタジオ品質"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0021",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "realistic skin",
+          "ja": "リアルな肌"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0022",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "flawless face",
+          "ja": "完璧な顔"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0023",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "photorealistic",
+          "ja": "フォトリアリスティック"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0024",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "painterly",
+          "ja": "絵画的な"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0025",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "realistic",
+          "ja": "現実的"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0026",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "sketch",
+          "ja": "スケッチ"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0027",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "outline",
+          "ja": "概要"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0028",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "vector trace",
+          "ja": "ベクトルトレース"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0029",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "smooth edges",
+          "ja": "滑らかなエッジ"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0030",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "crisp edges",
+          "ja": "鮮明なエッジ"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0031",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "super fine detail",
+          "ja": "超微細ディテール"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0032",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "traditional media",
+          "ja": "従来のメディア"
+        },
+        {
+          "id": "quality__ホ-シ-ティフ__0033",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ポジティブ"
+          ],
+          "en": "faux traditional media",
+          "ja": "偽の伝統メディア"
+        }
+      ]
+    },
+    {
+      "id": "ネカ-ティフ",
+      "name": "ネガティブ",
+      "path": [
+        "ネガティブ"
+      ],
+      "tagCount": 74,
+      "tags": [
+        {
+          "id": "quality__ネカ-ティフ__0001",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "lowres",
+          "ja": "低解像度"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0002",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "jpeg artifacts on purpose",
+          "ja": "意図的なJPEGアーティファクト"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0003",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has bad revision",
+          "ja": "修正が悪い"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0004",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has adversarial noise revision",
+          "ja": "敵対的ノイズ修正あり"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0005",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has artifacted revision",
+          "ja": "修正アーティファクトあり"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0006",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has censored revision",
+          "ja": "改訂版を検閲した"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0007",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has cropped revision",
+          "ja": "トリミングされた修正があります"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0008",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has downscaled revision",
+          "ja": "改訂版を縮小した"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0009",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has lossy revision",
+          "ja": "非可逆修正あり"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0010",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "has watermarked revision",
+          "ja": "透かし入りの改訂版"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0011",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "tileable",
+          "ja": "タイル化可能"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0012",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "wallpaper forced",
+          "ja": "壁紙強制"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0013",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "no lineart",
+          "ja": "線画なし"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0014",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "unfinished",
+          "ja": "未完成"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0015",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "bad anatomy",
+          "ja": "解剖学的に悪い"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0016",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "bad hands",
+          "ja": "悪い手"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0017",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "deformed",
+          "ja": "変形した"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0018",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "mutated hands",
+          "ja": "変異した手"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0019",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "missing fingers",
+          "ja": "指がない"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0020",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "extra fingers",
+          "ja": "余分な指"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0021",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "cropped",
+          "ja": "切り取られた"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0022",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "text",
+          "ja": "文章"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0023",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "error",
+          "ja": "エラー"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0024",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "signature",
+          "ja": "サイン"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0025",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "watermark",
+          "ja": "透かし"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0026",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "username",
+          "ja": "ユーザー名"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0027",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "adversarial noise",
+          "ja": "敵対的なノイズ"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0028",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "aliasing",
+          "ja": "エイリアシング"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0029",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "gif artifacts",
+          "ja": "GIFアーティファクト"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0030",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "scan artifacts",
+          "ja": "スキャンアーティファクト"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0031",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "bleed through",
+          "ja": "にじみ出る"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0032",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "crease",
+          "ja": "折り目"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0033",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "vhs artifacts",
+          "ja": "VHSアーティファクト"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0034",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "artistic error",
+          "ja": "芸術的な誤り"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0035",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "bad reflection",
+          "ja": "悪い反射"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0036",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "extra digits",
+          "ja": "余分な数字"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0037",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "typo",
+          "ja": "タイプミス"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0038",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "bad aspect ratio",
+          "ja": "アスペクト比が悪い"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0039",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "blurry",
+          "ja": "ぼやけた"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0040",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "censored/uncensored",
+          "ja": "検閲済み/無修正"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0041",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "decensored",
+          "ja": "検閲されていない"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0042",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "derivative work",
+          "ja": "派生作品"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0043",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "photo-referenced",
+          "ja": "写真参照"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0044",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "reference photo",
+          "ja": "参考写真"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0045",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "reference work",
+          "ja": "参考文献"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0046",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "screenshot redraw",
+          "ja": "スクリーンショットの再描画"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0047",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "duplicate",
+          "ja": "重複"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0048",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "pixel-perfect duplicate",
+          "ja": "ピクセルパーフェクトな複製"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0049",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "image macro",
+          "ja": "画像マクロ"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0050",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "lossless-lossy",
+          "ja": "ロスレス-ロスレス"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0051",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "lossy-lossless",
+          "ja": "ロスレス"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0052",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "md5 mismatch",
+          "ja": "md5不一致"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0053",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "missing thumbnail",
+          "ja": "サムネイルがありません"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0054",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "moire",
+          "ja": "モアレ"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0055",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "anatomical nonsense",
+          "ja": "解剖学的なナンセンス"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0056",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "bad feet",
+          "ja": "足が悪い"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0057",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "bad proportions",
+          "ja": "悪い比率"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0058",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "quality",
+          "ja": "品質"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0059",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "ranguage",
+          "ja": "言語"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0060",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "resized",
+          "ja": "サイズ変更"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0061",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "image sample",
+          "ja": "画像サンプル"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0062",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "upscaled",
+          "ja": "アップスケール"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0063",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "waifu2x",
+          "ja": "ワイフ2x"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0064",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "reversed",
+          "ja": "逆転した"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0065",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "rotated",
+          "ja": "回転した"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0066",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "solid color thumbnail",
+          "ja": "単色のサムネイル"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0067",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "third-party edit",
+          "ja": "サードパーティ編集"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0068",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "detexted",
+          "ja": "テキスト削除"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0069",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "hard-translated",
+          "ja": "ハード翻訳"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0070",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "nude filter",
+          "ja": "ヌードフィルター"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0071",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "third-party extraction",
+          "ja": "サードパーティ抽出"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0072",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "unmoving pattern",
+          "ja": "動かないパターン"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0073",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "third-party watermark",
+          "ja": "サードパーティの透かし"
+        },
+        {
+          "id": "quality__ネカ-ティフ__0074",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "ネガティブ"
+          ],
+          "en": "web address",
+          "ja": "ウェブアドレス"
+        }
+      ]
+    },
+    {
+      "id": "修正",
+      "name": "修正",
+      "path": [
+        "修正"
+      ],
+      "tagCount": 79,
+      "tags": [
+        {
+          "id": "quality__修正__0001",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored",
+          "ja": "検閲済み"
+        },
+        {
+          "id": "quality__修正__0002",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored background",
+          "ja": "検閲された背景"
+        },
+        {
+          "id": "quality__修正__0003",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored anus",
+          "ja": "検閲された肛門"
+        },
+        {
+          "id": "quality__修正__0004",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored nipples",
+          "ja": "修正された乳首"
+        },
+        {
+          "id": "quality__修正__0005",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored clitoris",
+          "ja": "修正されたクリトリス"
+        },
+        {
+          "id": "quality__修正__0006",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored testicles",
+          "ja": "検閲された睾丸"
+        },
+        {
+          "id": "quality__修正__0007",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored urethra",
+          "ja": "検閲された尿道"
+        },
+        {
+          "id": "quality__修正__0008",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored gesture",
+          "ja": "検閲されたジェスチャー"
+        },
+        {
+          "id": "quality__修正__0009",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored poop",
+          "ja": "検閲されたうんち"
+        },
+        {
+          "id": "quality__修正__0010",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored profanity",
+          "ja": "検閲された冒とく語"
+        },
+        {
+          "id": "quality__修正__0011",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored symbol",
+          "ja": "検閲された記号"
+        },
+        {
+          "id": "quality__修正__0012",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored text",
+          "ja": "検閲されたテキスト"
+        },
+        {
+          "id": "quality__修正__0013",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "redaction",
+          "ja": "編集"
+        },
+        {
+          "id": "quality__修正__0014",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored violence",
+          "ja": "検閲された暴力"
+        },
+        {
+          "id": "quality__修正__0015",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "fake censor",
+          "ja": "偽の検閲官"
+        },
+        {
+          "id": "quality__修正__0016",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "bubble filter",
+          "ja": "バブルフィルター"
+        },
+        {
+          "id": "quality__修正__0017",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored eyebrows",
+          "ja": "検閲された眉毛"
+        },
+        {
+          "id": "quality__修正__0018",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored feet",
+          "ja": "検閲された足"
+        },
+        {
+          "id": "quality__修正__0019",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored food",
+          "ja": "検閲された食品"
+        },
+        {
+          "id": "quality__修正__0020",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored hands",
+          "ja": "検閲された手"
+        },
+        {
+          "id": "quality__修正__0021",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored insect",
+          "ja": "検閲された昆虫"
+        },
+        {
+          "id": "quality__修正__0022",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored identity",
+          "ja": "検閲されたアイデンティティ"
+        },
+        {
+          "id": "quality__修正__0023",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "uncensored",
+          "ja": "無修正"
+        },
+        {
+          "id": "quality__修正__0024",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "decensored",
+          "ja": "検閲されていない"
+        },
+        {
+          "id": "quality__修正__0025",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "blood censor",
+          "ja": "血液検閲官"
+        },
+        {
+          "id": "quality__修正__0026",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored with cum",
+          "ja": "精液で検閲"
+        },
+        {
+          "id": "quality__修正__0027",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "convenient censoring",
+          "ja": "都合の良い検閲"
+        },
+        {
+          "id": "quality__修正__0028",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "convenient arm",
+          "ja": "便利なアーム"
+        },
+        {
+          "id": "quality__修正__0029",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "convenient head",
+          "ja": "便利なヘッド"
+        },
+        {
+          "id": "quality__修正__0030",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "convenient leg",
+          "ja": "便利な脚"
+        },
+        {
+          "id": "quality__修正__0031",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "soap censor",
+          "ja": "石鹸検閲官"
+        },
+        {
+          "id": "quality__修正__0032",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "steam censor",
+          "ja": "蒸気検閲"
+        },
+        {
+          "id": "quality__修正__0033",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "feather censor",
+          "ja": "羽根検閲官"
+        },
+        {
+          "id": "quality__修正__0034",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "fire censor",
+          "ja": "火検閲官"
+        },
+        {
+          "id": "quality__修正__0035",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "flower censor",
+          "ja": "花の検閲官"
+        },
+        {
+          "id": "quality__修正__0036",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "petal censor",
+          "ja": "花びら検閲官"
+        },
+        {
+          "id": "quality__修正__0037",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "food censor",
+          "ja": "食品検閲官"
+        },
+        {
+          "id": "quality__修正__0038",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "hair censor",
+          "ja": "髪の毛検閲官"
+        },
+        {
+          "id": "quality__修正__0039",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "light censor",
+          "ja": "光検閲"
+        },
+        {
+          "id": "quality__修正__0040",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "necklace censor",
+          "ja": "ネックレス検閲官"
+        },
+        {
+          "id": "quality__修正__0041",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "one finger selfie challenge",
+          "ja": "一本指で自撮りチャレンジ"
+        },
+        {
+          "id": "quality__修正__0042",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "ribbon censor",
+          "ja": "リボン検閲"
+        },
+        {
+          "id": "quality__修正__0043",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "slime censor",
+          "ja": "スライム検閲官"
+        },
+        {
+          "id": "quality__修正__0044",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "smoke censor",
+          "ja": "煙感知器"
+        },
+        {
+          "id": "quality__修正__0045",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "tail censor",
+          "ja": "テールセンサー"
+        },
+        {
+          "id": "quality__修正__0046",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "tentacle censor",
+          "ja": "触手検閲官"
+        },
+        {
+          "id": "quality__修正__0047",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "water censor",
+          "ja": "水検閲官"
+        },
+        {
+          "id": "quality__修正__0048",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "wing censor",
+          "ja": "翼検閲官"
+        },
+        {
+          "id": "quality__修正__0049",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "fake scrollbar",
+          "ja": "偽のスクロールバー"
+        },
+        {
+          "id": "quality__修正__0050",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "out-of-frame censoring",
+          "ja": "フレーム外検閲"
+        },
+        {
+          "id": "quality__修正__0051",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "bar censor",
+          "ja": "バー検閲官"
+        },
+        {
+          "id": "quality__修正__0052",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "blank censor",
+          "ja": "空白の検閲"
+        },
+        {
+          "id": "quality__修正__0053",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "blur censor",
+          "ja": "ぼかし検閲"
+        },
+        {
+          "id": "quality__修正__0054",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "censored by text",
+          "ja": "テキストによる検閲"
+        },
+        {
+          "id": "quality__修正__0055",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "emoji censor",
+          "ja": "絵文字検閲"
+        },
+        {
+          "id": "quality__修正__0056",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "glitch censor",
+          "ja": "グリッチ検閲"
+        },
+        {
+          "id": "quality__修正__0057",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "heart censor",
+          "ja": "ハート検閲官"
+        },
+        {
+          "id": "quality__修正__0058",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "novelty censor",
+          "ja": "新奇性検閲官"
+        },
+        {
+          "id": "quality__修正__0059",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "can't show this",
+          "ja": "これを表示できません"
+        },
+        {
+          "id": "quality__修正__0060",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "character censor",
+          "ja": "文字検閲官"
+        },
+        {
+          "id": "quality__修正__0061",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "interface censor",
+          "ja": "インターフェース検閲"
+        },
+        {
+          "id": "quality__修正__0062",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "laughing man",
+          "ja": "笑う男"
+        },
+        {
+          "id": "quality__修正__0063",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "patreon logo censor",
+          "ja": "Patreonのロゴ検閲"
+        },
+        {
+          "id": "quality__修正__0064",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "rabbit censor",
+          "ja": "ウサギの検閲官"
+        },
+        {
+          "id": "quality__修正__0065",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "tape censor",
+          "ja": "テープ検閲官"
+        },
+        {
+          "id": "quality__修正__0066",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "treasure mark censor",
+          "ja": "宝マーク検閲官"
+        },
+        {
+          "id": "quality__修正__0067",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "scribble censor",
+          "ja": "落書き検閲官"
+        },
+        {
+          "id": "quality__修正__0068",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "shadow censor",
+          "ja": "影の検閲官"
+        },
+        {
+          "id": "quality__修正__0069",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "silhouette censor",
+          "ja": "シルエット検閲官"
+        },
+        {
+          "id": "quality__修正__0070",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "sparkle censor",
+          "ja": "スパークル検閲官"
+        },
+        {
+          "id": "quality__修正__0071",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "speech bubble censor",
+          "ja": "吹き出し検閲"
+        },
+        {
+          "id": "quality__修正__0072",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "star censor",
+          "ja": "スター検閲官"
+        },
+        {
+          "id": "quality__修正__0073",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "checkered censor",
+          "ja": "チェック柄の検閲官"
+        },
+        {
+          "id": "quality__修正__0074",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "inconsistent censoring",
+          "ja": "一貫性のない検閲"
+        },
+        {
+          "id": "quality__修正__0075",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "mosaic censoring",
+          "ja": "モザイク検閲"
+        },
+        {
+          "id": "quality__修正__0076",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "pointless censoring",
+          "ja": "無意味な検閲"
+        },
+        {
+          "id": "quality__修正__0077",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "removable censorship",
+          "ja": "削除可能な検閲"
+        },
+        {
+          "id": "quality__修正__0078",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "invert color censor",
+          "ja": "色反転検閲"
+        },
+        {
+          "id": "quality__修正__0079",
+          "categoryId": "quality",
+          "categoryName": "品質",
+          "path": [
+            "修正"
+          ],
+          "en": "transparent censoring",
+          "ja": "透明な検閲"
+        }
+      ]
+    }
+  ]
+}

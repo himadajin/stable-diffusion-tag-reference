@@ -1,0 +1,6150 @@
+{
+  "id": "objects",
+  "name": "オブジェクト系",
+  "tree": {
+    "コンピューター": {
+      "タイプ": [
+        {
+          "en": "desktop computer",
+          "ja": "デスクトップコンピューター"
+        },
+        {
+          "en": "pizza box computer",
+          "ja": "ピザボックスコンピューター"
+        },
+        {
+          "en": "imac",
+          "ja": "iMac"
+        },
+        {
+          "en": "x68000",
+          "ja": "x68000"
+        },
+        {
+          "en": "laptop",
+          "ja": "ラップトップ"
+        },
+        {
+          "en": "macbook",
+          "ja": "マックブック"
+        },
+        {
+          "en": "mini pc",
+          "ja": "ミニPC"
+        },
+        {
+          "en": "mac mini",
+          "ja": "マックミニ"
+        },
+        {
+          "en": "server",
+          "ja": "サーバ"
+        },
+        {
+          "en": "tablet pc",
+          "ja": "タブレットPC"
+        }
+      ],
+      "OS": [
+        {
+          "en": "gnu/linux",
+          "ja": "GNU/Linux"
+        },
+        {
+          "en": "arch linux",
+          "ja": "アーチLinux"
+        },
+        {
+          "en": "debian",
+          "ja": "デビアン"
+        },
+        {
+          "en": "fedora",
+          "ja": "フェドーラ帽"
+        },
+        {
+          "en": "gentoo",
+          "ja": "ジェンツー"
+        },
+        {
+          "en": "knoppix",
+          "ja": "ノッピックス"
+        },
+        {
+          "en": "mandriva",
+          "ja": "マンドリバ"
+        },
+        {
+          "en": "slackware",
+          "ja": "スラックウェア"
+        },
+        {
+          "en": "suse",
+          "ja": "スーズ"
+        },
+        {
+          "en": "ubuntu",
+          "ja": "ウブントゥ"
+        },
+        {
+          "en": "bsd",
+          "ja": "bsd"
+        },
+        {
+          "en": "openbsd",
+          "ja": "オープンBSD"
+        },
+        {
+          "en": "macintosh",
+          "ja": "マッキントッシュ"
+        },
+        {
+          "en": "microsoft windows",
+          "ja": "マイクロソフトウィンドウズ"
+        }
+      ],
+      "ブラウザ": [
+        {
+          "en": "mozilla firefox",
+          "ja": "モジラファイアフォックス"
+        },
+        {
+          "en": "mozilla (character)",
+          "ja": "モジラ（キャラクター）"
+        },
+        {
+          "en": "mozilla thunderbird",
+          "ja": "モジラサンダーバード"
+        },
+        {
+          "en": "google",
+          "ja": "グーグル"
+        },
+        {
+          "en": "google chrome",
+          "ja": "グーグルクローム"
+        },
+        {
+          "en": "internet explorer",
+          "ja": "インターネットエクスプローラー"
+        },
+        {
+          "en": "microsoft edge",
+          "ja": "マイクロソフトエッジ"
+        },
+        {
+          "en": "opera",
+          "ja": "オペラ"
+        }
+      ],
+      "インターフェイス": [
+        {
+          "en": "computer keyboard",
+          "ja": "コンピューターのキーボード"
+        },
+        {
+          "en": "holographic keyboard",
+          "ja": "ホログラフィックキーボード"
+        },
+        {
+          "en": "computer mouse",
+          "ja": "コンピューターマウス"
+        },
+        {
+          "en": "mousepad",
+          "ja": "マウスパッド"
+        },
+        {
+          "en": "drawing tablet",
+          "ja": "描画タブレット"
+        },
+        {
+          "en": "huion",
+          "ja": "ヒューイオン"
+        },
+        {
+          "en": "wacom",
+          "ja": "ワコム"
+        },
+        {
+          "en": "xp-pen",
+          "ja": "XPペン"
+        },
+        {
+          "en": "external hard drive",
+          "ja": "外付けハードドライブ"
+        },
+        {
+          "en": "monitor",
+          "ja": "モニター"
+        },
+        {
+          "en": "curved monitor",
+          "ja": "曲面モニター"
+        },
+        {
+          "en": "holographic monitor",
+          "ja": "ホログラフィックモニター"
+        },
+        {
+          "en": "touchscreen",
+          "ja": "タッチスクリーン"
+        },
+        {
+          "en": "holographic touchscreen",
+          "ja": "ホログラフィックタッチスクリーン"
+        },
+        {
+          "en": "printer",
+          "ja": "プリンター"
+        },
+        {
+          "en": "usb",
+          "ja": "USB"
+        }
+      ],
+      "ハードウェア": [
+        {
+          "en": "computer chip",
+          "ja": "コンピュータチップ"
+        },
+        {
+          "en": "cpu",
+          "ja": "CPU"
+        },
+        {
+          "en": "graphics card",
+          "ja": "グラフィックカード"
+        },
+        {
+          "en": "optical drive",
+          "ja": "光学ドライブ"
+        },
+        {
+          "en": "ram",
+          "ja": "ラム"
+        }
+      ],
+      "ストレージ": [
+        {
+          "en": "cd",
+          "ja": "CD"
+        },
+        {
+          "en": "dvd",
+          "ja": "DVD"
+        },
+        {
+          "en": "floppy disk",
+          "ja": "フロッピーディスク"
+        },
+        {
+          "en": "minidisc",
+          "ja": "ミニディスク"
+        },
+        {
+          "en": "sd card",
+          "ja": "SDカード"
+        }
+      ],
+      "メーカー": [
+        {
+          "en": "amd",
+          "ja": "アムド"
+        },
+        {
+          "en": "apple inc.",
+          "ja": "アップル社"
+        },
+        {
+          "en": "asus",
+          "ja": "ASUS"
+        },
+        {
+          "en": "dell",
+          "ja": "デル"
+        },
+        {
+          "en": "hewlett-packard",
+          "ja": "ヒューレット・パッカード"
+        },
+        {
+          "en": "ibm",
+          "ja": "IBM"
+        },
+        {
+          "en": "thinkpad",
+          "ja": "シンクパッド"
+        },
+        {
+          "en": "intel",
+          "ja": "インテル"
+        },
+        {
+          "en": "microsoft",
+          "ja": "マイクロソフト"
+        },
+        {
+          "en": "nec corporation",
+          "ja": "NEC株式会社"
+        },
+        {
+          "en": "nvidia",
+          "ja": "エヌビディア"
+        },
+        {
+          "en": "sandisk",
+          "ja": "サンディスク"
+        },
+        {
+          "en": "sony",
+          "ja": "ソニー"
+        },
+        {
+          "en": "vaio",
+          "ja": "ヴァイオ"
+        }
+      ],
+      "その他": [
+        {
+          "en": "os-tan",
+          "ja": "オスタン"
+        },
+        {
+          "en": "msx",
+          "ja": "msx"
+        },
+        {
+          "en": "1chip msx",
+          "ja": "1チップMSX"
+        }
+      ]
+    },
+    "飛行機": {
+      "ミリタリー": [
+        {
+          "en": "chengdu j-7",
+          "ja": "成都 j-7"
+        },
+        {
+          "en": "shenyang j-8",
+          "ja": "瀋陽 j-8"
+        },
+        {
+          "en": "chengdu j-10",
+          "ja": "成都 j-10"
+        },
+        {
+          "en": "shenyang j-15",
+          "ja": "瀋陽 j-15"
+        },
+        {
+          "en": "shenyang j-16",
+          "ja": "瀋陽 j-16"
+        },
+        {
+          "en": "chengdu j-20",
+          "ja": "成都 j-20"
+        },
+        {
+          "en": "shenyang j-31",
+          "ja": "瀋陽 j-31"
+        },
+        {
+          "en": "shenyang j-35",
+          "ja": "瀋陽 j-35"
+        },
+        {
+          "en": "chengdu j-36",
+          "ja": "成都 j-36"
+        },
+        {
+          "en": "shaanxi kj-200",
+          "ja": "陝西省 KJ-200"
+        },
+        {
+          "en": "xi'an h-6",
+          "ja": "西安H-6"
+        },
+        {
+          "en": "xi'an h-20",
+          "ja": "西安H-20"
+        },
+        {
+          "en": "xi'an jh-7",
+          "ja": "西安 JH-7"
+        },
+        {
+          "en": "breguet 14",
+          "ja": "ブレゲ 14"
+        },
+        {
+          "en": "mirage iii",
+          "ja": "ミラージュIII"
+        },
+        {
+          "en": "mirage 2000",
+          "ja": "ミラージュ2000"
+        },
+        {
+          "en": "besson mb.411",
+          "ja": "ベッソン mb.411"
+        },
+        {
+          "en": "dassault rafale",
+          "ja": "ダッソー・ラファール"
+        },
+        {
+          "en": "vg-33",
+          "ja": "VG-33"
+        },
+        {
+          "en": "loire 130",
+          "ja": "ロワール 130"
+        },
+        {
+          "en": "albatros diii",
+          "ja": "アルバトロス diii"
+        },
+        {
+          "en": "ar 196",
+          "ja": "ar 196"
+        },
+        {
+          "en": "bf 109",
+          "ja": "BF109"
+        },
+        {
+          "en": "bf 110",
+          "ja": "BF110"
+        },
+        {
+          "en": "bv 138",
+          "ja": "bv 138"
+        },
+        {
+          "en": "bv 155",
+          "ja": "bv 155"
+        },
+        {
+          "en": "d.vii",
+          "ja": "d.vii"
+        },
+        {
+          "en": "do 24",
+          "ja": "24回行う"
+        },
+        {
+          "en": "do 335",
+          "ja": "335を実行する"
+        },
+        {
+          "en": "dr.i",
+          "ja": "ドクターi"
+        },
+        {
+          "en": "ef 128",
+          "ja": "ef 128"
+        },
+        {
+          "en": "fi 156",
+          "ja": "fi 156"
+        },
+        {
+          "en": "fi 167",
+          "ja": "fi 167"
+        },
+        {
+          "en": "fw 58",
+          "ja": "FW58"
+        },
+        {
+          "en": "fw 190",
+          "ja": "FW190"
+        },
+        {
+          "en": "fw 200",
+          "ja": "FW 200"
+        },
+        {
+          "en": "he 59",
+          "ja": "彼59"
+        },
+        {
+          "en": "he 100",
+          "ja": "彼は100"
+        },
+        {
+          "en": "he 111",
+          "ja": "彼111"
+        },
+        {
+          "en": "he 115",
+          "ja": "彼115"
+        },
+        {
+          "en": "he 162",
+          "ja": "彼 162"
+        },
+        {
+          "en": "he 219",
+          "ja": "彼219"
+        },
+        {
+          "en": "he 280",
+          "ja": "彼280"
+        },
+        {
+          "en": "he lerche",
+          "ja": "レルチェ"
+        },
+        {
+          "en": "hs 123",
+          "ja": "HS 123"
+        },
+        {
+          "en": "hs 129",
+          "ja": "HS 129"
+        },
+        {
+          "en": "ho 229",
+          "ja": "ホ229"
+        },
+        {
+          "en": "ju 52",
+          "ja": "ユンボ52"
+        },
+        {
+          "en": "ju 87",
+          "ja": "ユンボ87"
+        },
+        {
+          "en": "ju 88",
+          "ja": "ユンボ88"
+        },
+        {
+          "en": "ju 290",
+          "ja": "ユンボ 290"
+        },
+        {
+          "en": "me 163",
+          "ja": "私 163"
+        },
+        {
+          "en": "me 210",
+          "ja": "私 210"
+        },
+        {
+          "en": "me 262",
+          "ja": "私 262"
+        },
+        {
+          "en": "me 321",
+          "ja": "私 321"
+        },
+        {
+          "en": "me 410",
+          "ja": "私 410"
+        },
+        {
+          "en": "ta 152",
+          "ja": "ta 152"
+        },
+        {
+          "en": "ta 154",
+          "ja": "ta 154"
+        },
+        {
+          "en": "ta 183",
+          "ja": "ta 183"
+        },
+        {
+          "en": "triebfluegel",
+          "ja": "トライプフリューゲル"
+        },
+        {
+          "en": "cant 25",
+          "ja": "カント25"
+        },
+        {
+          "en": "z.506 airone",
+          "ja": "z.506 エアワン"
+        },
+        {
+          "en": "cr.42 falco",
+          "ja": "CR.42 ファルコ"
+        },
+        {
+          "en": "g.50 freccia",
+          "ja": "g.50 フレッチャ"
+        },
+        {
+          "en": "g.55 centauro",
+          "ja": "g.55 ケンタウロ"
+        },
+        {
+          "en": "imam ro.43",
+          "ja": "イマーム・ロ.43"
+        },
+        {
+          "en": "mc.200 saetta",
+          "ja": "MC.200 サエッタ"
+        },
+        {
+          "en": "mc.202 folgore",
+          "ja": "mc.202 フォルゴレ"
+        },
+        {
+          "en": "mc.205 veltro",
+          "ja": "mc.205 ベルトロ"
+        },
+        {
+          "en": "sm.79 sparviero",
+          "ja": "sm.79 スパルヴィエロ"
+        },
+        {
+          "en": "a5m",
+          "ja": "a5m"
+        },
+        {
+          "en": "a6m zero",
+          "ja": "A6Mゼロ"
+        },
+        {
+          "en": "a6m2-n",
+          "ja": "a6m2-n"
+        },
+        {
+          "en": "a7m reppuu",
+          "ja": "a7m レップウ"
+        },
+        {
+          "en": "aichi h9a",
+          "ja": "愛知 H9A"
+        },
+        {
+          "en": "b5n",
+          "ja": "b5n"
+        },
+        {
+          "en": "b6n tenzan",
+          "ja": "b6n 天山"
+        },
+        {
+          "en": "b7a ryuusei",
+          "ja": "b7a 流星"
+        },
+        {
+          "en": "c5m",
+          "ja": "c5m"
+        },
+        {
+          "en": "c6n saiun",
+          "ja": "c6n サイウン"
+        },
+        {
+          "en": "d3a",
+          "ja": "d3a"
+        },
+        {
+          "en": "d4y suisei",
+          "ja": "d4yすいせい"
+        },
+        {
+          "en": "e-767",
+          "ja": "e-767"
+        },
+        {
+          "en": "e13a",
+          "ja": "e13a"
+        },
+        {
+          "en": "e16a zuiun",
+          "ja": "e16a ズイウン"
+        },
+        {
+          "en": "mitsubishi f-1",
+          "ja": "三菱F-1"
+        },
+        {
+          "en": "mitsubishi f-2",
+          "ja": "三菱F-2"
+        },
+        {
+          "en": "f1m",
+          "ja": "f1m"
+        },
+        {
+          "en": "g4m",
+          "ja": "g4m"
+        },
+        {
+          "en": "g8n renzan",
+          "ja": "g8n レンザン"
+        },
+        {
+          "en": "g10n fugaku",
+          "ja": "g10n 富岳"
+        },
+        {
+          "en": "h6k",
+          "ja": "h6k"
+        },
+        {
+          "en": "h8k",
+          "ja": "h8k"
+        },
+        {
+          "en": "m6a seiran",
+          "ja": "M6Aセイラン"
+        },
+        {
+          "en": "mxy-7 ohka",
+          "ja": "MXY-7 桜花"
+        },
+        {
+          "en": "n1k",
+          "ja": "n1k"
+        },
+        {
+          "en": "j1n gekkou",
+          "ja": "j1n月光"
+        },
+        {
+          "en": "j2m raiden",
+          "ja": "J2M ライデン"
+        },
+        {
+          "en": "j4m senden",
+          "ja": "j4m 送信"
+        },
+        {
+          "en": "j7w shinden",
+          "ja": "j7w震電"
+        },
+        {
+          "en": "j8m shuusui",
+          "ja": "j8m 秋水"
+        },
+        {
+          "en": "kikka",
+          "ja": "キッカ"
+        },
+        {
+          "en": "katsuodori ramjet plane",
+          "ja": "かつおどりラムジェット機"
+        },
+        {
+          "en": "ki-15",
+          "ja": "キ15"
+        },
+        {
+          "en": "ki-20",
+          "ja": "キ-20"
+        },
+        {
+          "en": "ki-27",
+          "ja": "キ27"
+        },
+        {
+          "en": "ki-43 hayabusa",
+          "ja": "キ43 隼"
+        },
+        {
+          "en": "ki-44 shouki",
+          "ja": "キ44 ショウキ"
+        },
+        {
+          "en": "ki-45 toryu",
+          "ja": "キ45屠龍"
+        },
+        {
+          "en": "ki-46",
+          "ja": "キ46"
+        },
+        {
+          "en": "ki-49 donryuu",
+          "ja": "キ-49 呑龍"
+        },
+        {
+          "en": "ki-61 hien",
+          "ja": "キ61 飛燕"
+        },
+        {
+          "en": "ki-67",
+          "ja": "キ67"
+        },
+        {
+          "en": "ki-84 hayate",
+          "ja": "キ84 ハヤテ"
+        },
+        {
+          "en": "ki-98",
+          "ja": "キ98"
+        },
+        {
+          "en": "ki-100",
+          "ja": "キ100"
+        },
+        {
+          "en": "ki-201 karyuu",
+          "ja": "キ201 火竜"
+        },
+        {
+          "en": "p-1",
+          "ja": "p-1"
+        },
+        {
+          "en": "p-2",
+          "ja": "p-2"
+        },
+        {
+          "en": "p1y",
+          "ja": "p1y"
+        },
+        {
+          "en": "q1w toukai",
+          "ja": "q1w 東海"
+        },
+        {
+          "en": "kawasaki t-4",
+          "ja": "カワサキ T-4"
+        },
+        {
+          "en": "mitsubishi t-2",
+          "ja": "三菱T-2"
+        },
+        {
+          "en": "us-2",
+          "ja": "US-2"
+        },
+        {
+          "en": "type88 light bomber",
+          "ja": "88式軽爆撃機"
+        },
+        {
+          "en": "x-2 shinshin",
+          "ja": "X-2 シンシン"
+        },
+        {
+          "en": "ef typhoon",
+          "ja": "ef台風"
+        },
+        {
+          "en": "panavia tornado",
+          "ja": "パナビア竜巻"
+        },
+        {
+          "en": "i-152",
+          "ja": "i-152"
+        },
+        {
+          "en": "i-153",
+          "ja": "i-153"
+        },
+        {
+          "en": "i-16",
+          "ja": "i-16"
+        },
+        {
+          "en": "il-2",
+          "ja": "IL-2"
+        },
+        {
+          "en": "il-4",
+          "ja": "IL-4"
+        },
+        {
+          "en": "la-5",
+          "ja": "ラ-5"
+        },
+        {
+          "en": "la-7",
+          "ja": "ラ-7"
+        },
+        {
+          "en": "la-11",
+          "ja": "ラ-11"
+        },
+        {
+          "en": "lagg-3",
+          "ja": "ラグ3"
+        },
+        {
+          "en": "mig-1",
+          "ja": "ミグ1"
+        },
+        {
+          "en": "mig-1.44",
+          "ja": "ミグ1.44"
+        },
+        {
+          "en": "mig-15",
+          "ja": "ミグ15"
+        },
+        {
+          "en": "mig-17",
+          "ja": "ミグ17"
+        },
+        {
+          "en": "mig-21",
+          "ja": "ミグ21"
+        },
+        {
+          "en": "mig-23",
+          "ja": "ミグ23"
+        },
+        {
+          "en": "mig-25",
+          "ja": "ミグ25"
+        },
+        {
+          "en": "mig-29",
+          "ja": "ミグ29"
+        },
+        {
+          "en": "mig-31",
+          "ja": "ミグ31"
+        },
+        {
+          "en": "po-2",
+          "ja": "po-2"
+        },
+        {
+          "en": "su-24",
+          "ja": "Su-24"
+        },
+        {
+          "en": "su-25",
+          "ja": "Su-25"
+        },
+        {
+          "en": "su-27",
+          "ja": "Su-27"
+        },
+        {
+          "en": "su-30",
+          "ja": "Su-30"
+        },
+        {
+          "en": "su-33",
+          "ja": "Su-33"
+        },
+        {
+          "en": "su-34",
+          "ja": "Su-34"
+        },
+        {
+          "en": "su-35",
+          "ja": "Su-35"
+        },
+        {
+          "en": "su-37",
+          "ja": "Su-37"
+        },
+        {
+          "en": "su-47 berkut",
+          "ja": "Su-47 ベルクト"
+        },
+        {
+          "en": "su-57",
+          "ja": "Su-57"
+        },
+        {
+          "en": "tu-22",
+          "ja": "tu-22"
+        },
+        {
+          "en": "tu-22m",
+          "ja": "TU-22M"
+        },
+        {
+          "en": "tu-28",
+          "ja": "tu-28"
+        },
+        {
+          "en": "tu-95",
+          "ja": "tu-95"
+        },
+        {
+          "en": "tu-160",
+          "ja": "tu-160"
+        },
+        {
+          "en": "yak-1",
+          "ja": "ヤク-1"
+        },
+        {
+          "en": "yak-9",
+          "ja": "ヤク9"
+        },
+        {
+          "en": "yak-28",
+          "ja": "ヤク-28"
+        },
+        {
+          "en": "yak-141",
+          "ja": "ヤク141"
+        },
+        {
+          "en": "saab draken",
+          "ja": "サーブ ドラケン"
+        },
+        {
+          "en": "saab gripen",
+          "ja": "サーブ グリペン"
+        },
+        {
+          "en": "saab viggen",
+          "ja": "サーブ ヴィゲン"
+        },
+        {
+          "en": "airco dh.4",
+          "ja": "エアコン DH.4"
+        },
+        {
+          "en": "avro lancaster",
+          "ja": "アブロ ランカスター"
+        },
+        {
+          "en": "avro vulcan",
+          "ja": "アブロ バルカン"
+        },
+        {
+          "en": "blackburn buccaneer",
+          "ja": "ブラックバーン・バッカニア"
+        },
+        {
+          "en": "blackburn roc",
+          "ja": "ブラックバーン・ロック"
+        },
+        {
+          "en": "bolton-paul defiant",
+          "ja": "ボルトン＝ポール・デファイアント"
+        },
+        {
+          "en": "bristol beaufighter",
+          "ja": "ブリストル・ボーファイター"
+        },
+        {
+          "en": "de havilland mosquito",
+          "ja": "デ・ハビランド モスキート"
+        },
+        {
+          "en": "de havilland sea vixen",
+          "ja": "デ・ハビランド シービクセン"
+        },
+        {
+          "en": "de havilland tiger moth",
+          "ja": "デ・ハビランド タイガーモス"
+        },
+        {
+          "en": "de havilland vampire",
+          "ja": "デ・ハビランド ヴァンパイア"
+        },
+        {
+          "en": "fairey albacore",
+          "ja": "フェアリービンナガマグロ"
+        },
+        {
+          "en": "fairey barracuda",
+          "ja": "フェアリーバラクーダ"
+        },
+        {
+          "en": "fairey fulmar",
+          "ja": "フェアリーフルマカモメ"
+        },
+        {
+          "en": "fairey firefly",
+          "ja": "フェアリーホタル"
+        },
+        {
+          "en": "fairey gannet",
+          "ja": "フェアリーカツオドリ"
+        },
+        {
+          "en": "fairey swordfish",
+          "ja": "フェアリーメカジキ"
+        },
+        {
+          "en": "gloster meteor",
+          "ja": "グロスターメテオ"
+        },
+        {
+          "en": "gloster sparrowhawk",
+          "ja": "グロスターハイタカ"
+        },
+        {
+          "en": "hawker harrier",
+          "ja": "ホーカーハリアー"
+        },
+        {
+          "en": "hawker hurricane",
+          "ja": "ホーカーハリケーン"
+        },
+        {
+          "en": "hawker sea fury",
+          "ja": "ホーカー シーフューリー"
+        },
+        {
+          "en": "hawker sea hawk",
+          "ja": "ホーカーシーホーク"
+        },
+        {
+          "en": "hawker tempest",
+          "ja": "ホーカー・テンペスト"
+        },
+        {
+          "en": "hawker tornado",
+          "ja": "ホーカートルネード"
+        },
+        {
+          "en": "hawker typhoon",
+          "ja": "ホーカータイフーン"
+        },
+        {
+          "en": "sopwith camel",
+          "ja": "ソッピースラクダ"
+        },
+        {
+          "en": "supermarine scimitar",
+          "ja": "スーパーマリンシミター"
+        },
+        {
+          "en": "supermarine spitfire",
+          "ja": "スーパーマリン スピットファイア"
+        },
+        {
+          "en": "supermarine seafire",
+          "ja": "スーパーマリン シーファイア"
+        },
+        {
+          "en": "supermarine spiteful",
+          "ja": "スーパーマリンの悪意に満ちた"
+        },
+        {
+          "en": "supermarine walrus",
+          "ja": "スーパーマリンセイウチ"
+        },
+        {
+          "en": "bac tsr-2",
+          "ja": "BAC TSR-2"
+        },
+        {
+          "en": "westland lysander",
+          "ja": "ウェストランド・ライサンダー"
+        },
+        {
+          "en": "westland wyvern",
+          "ja": "ウェストランドワイバーン"
+        },
+        {
+          "en": "a-1 skyraider",
+          "ja": "A-1 スカイレイダー"
+        },
+        {
+          "en": "a-4 skyhawk",
+          "ja": "A-4スカイホーク"
+        },
+        {
+          "en": "a-5 vigilante",
+          "ja": "A-5 自警団員"
+        },
+        {
+          "en": "a-6 intruder",
+          "ja": "A-6イントルーダー"
+        },
+        {
+          "en": "a-10 thunderbolt ii",
+          "ja": "A-10 サンダーボルト II"
+        },
+        {
+          "en": "a-20 havoc",
+          "ja": "A-20 ハボック"
+        },
+        {
+          "en": "ac-130 spectre",
+          "ja": "AC-130 スペクター"
+        },
+        {
+          "en": "a2d skyshark",
+          "ja": "a2dスカイシャーク"
+        },
+        {
+          "en": "aj savage",
+          "ja": "AJサベージ"
+        },
+        {
+          "en": "b-1 lancer",
+          "ja": "B-1ランサー"
+        },
+        {
+          "en": "b-2 spirit",
+          "ja": "B-2スピリット"
+        },
+        {
+          "en": "b-17 flying fortress",
+          "ja": "B-17 フライングフォートレス"
+        },
+        {
+          "en": "b-24 liberator",
+          "ja": "B-24 リベレーター"
+        },
+        {
+          "en": "b-25 mitchell",
+          "ja": "B-25 ミッチェル"
+        },
+        {
+          "en": "b-29 superfortress",
+          "ja": "B-29スーパーフォートレス"
+        },
+        {
+          "en": "b-36 peacemaker",
+          "ja": "B-36 ピースメーカー"
+        },
+        {
+          "en": "b-52 stratofortress",
+          "ja": "B-52 ストラトフォートレス"
+        },
+        {
+          "en": "c-5m super galaxy",
+          "ja": "C-5Mスーパーギャラクシー"
+        },
+        {
+          "en": "c-46 commando",
+          "ja": "C-46コマンドー"
+        },
+        {
+          "en": "c-47",
+          "ja": "c-47"
+        },
+        {
+          "en": "c-130 hercules",
+          "ja": "C-130 ヘラクレス"
+        },
+        {
+          "en": "c-141 starlifter",
+          "ja": "C-141 スターリフター"
+        },
+        {
+          "en": "e-1 tracer",
+          "ja": "E-1曳光弾"
+        },
+        {
+          "en": "e-2 hawkeye",
+          "ja": "E-2 ホークアイ"
+        },
+        {
+          "en": "e-3 sentry",
+          "ja": "E-3 セントリー"
+        },
+        {
+          "en": "ea-6 prowler",
+          "ja": "EA-6 プラウラー"
+        },
+        {
+          "en": "f-4 phantom ii",
+          "ja": "F-4ファントムII"
+        },
+        {
+          "en": "f-5 freedom fighter",
+          "ja": "F-5フリーダムファイター"
+        },
+        {
+          "en": "f-8 crusader",
+          "ja": "F-8クルセイダー"
+        },
+        {
+          "en": "f-11 tiger",
+          "ja": "F-11 タイガー"
+        },
+        {
+          "en": "f-14 tomcat",
+          "ja": "F-14 トムキャット"
+        },
+        {
+          "en": "f-15 eagle",
+          "ja": "F-15イーグル"
+        },
+        {
+          "en": "f-15s/mtd",
+          "ja": "F-15/mtd"
+        },
+        {
+          "en": "f-16 fighting falcon",
+          "ja": "F-16ファイティングファルコン"
+        },
+        {
+          "en": "f-18 hornet",
+          "ja": "F-18ホーネット"
+        },
+        {
+          "en": "f/a-18e super hornet",
+          "ja": "F/A-18E スーパーホーネット"
+        },
+        {
+          "en": "f-20 tigershark",
+          "ja": "F-20 タイガーシャーク"
+        },
+        {
+          "en": "f-22 raptor",
+          "ja": "F-22 ラプター"
+        },
+        {
+          "en": "f-35 lightning ii",
+          "ja": "F-35 ライトニング II"
+        },
+        {
+          "en": "f-86 sabre",
+          "ja": "F-86セイバー"
+        },
+        {
+          "en": "f-86d sabre",
+          "ja": "F-86Dセイバー"
+        },
+        {
+          "en": "f-94 starfire",
+          "ja": "F-94 スターファイア"
+        },
+        {
+          "en": "f-104 starfighter",
+          "ja": "F-104スターファイター"
+        },
+        {
+          "en": "f-105 thunderchief",
+          "ja": "F-105 サンダーチーフ"
+        },
+        {
+          "en": "f-106 delta dart",
+          "ja": "F-106 デルタダート"
+        },
+        {
+          "en": "f-111 aardvark",
+          "ja": "F-111 アードヴァーク"
+        },
+        {
+          "en": "f-117 nighthawk",
+          "ja": "F-117 ナイトホーク"
+        },
+        {
+          "en": "fh phantom",
+          "ja": "fhファントム"
+        },
+        {
+          "en": "f2a buffalo",
+          "ja": "f2aバッファロー"
+        },
+        {
+          "en": "f2h banshee",
+          "ja": "f2h バンシー"
+        },
+        {
+          "en": "f2y sea dart",
+          "ja": "f2yシーダート"
+        },
+        {
+          "en": "f4f wildcat",
+          "ja": "f4fワイルドキャット"
+        },
+        {
+          "en": "f4u corsair",
+          "ja": "F4Uコルセア"
+        },
+        {
+          "en": "f6f hellcat",
+          "ja": "F6Fヘルキャット"
+        },
+        {
+          "en": "f7f tigercat",
+          "ja": "f7f タイガーキャット"
+        },
+        {
+          "en": "f8f bearcat",
+          "ja": "f8f ベアキャット"
+        },
+        {
+          "en": "f9c sparrowhawk",
+          "ja": "f9c ハイタカ"
+        },
+        {
+          "en": "f9f cougar",
+          "ja": "f9f クーガー"
+        },
+        {
+          "en": "f9f panther",
+          "ja": "F9Fパンサー"
+        },
+        {
+          "en": "fm-2 wildcat",
+          "ja": "FM-2 ワイルドキャット"
+        },
+        {
+          "en": "jrm mars",
+          "ja": "jrm マーズ"
+        },
+        {
+          "en": "j2f duck",
+          "ja": "j2fダック"
+        },
+        {
+          "en": "kc-10 extender",
+          "ja": "KC-10エクステンダー"
+        },
+        {
+          "en": "kc-135 stratotanker",
+          "ja": "KC-135 ストラトタンカー"
+        },
+        {
+          "en": "ov-10 bronco",
+          "ja": "OV-10 ブロンコ"
+        },
+        {
+          "en": "p-38 lightning",
+          "ja": "P-38 ライトニング"
+        },
+        {
+          "en": "p-39 airacobra",
+          "ja": "P-39 エアラコブラ"
+        },
+        {
+          "en": "p-40 warhawk",
+          "ja": "P-40 ウォーホーク"
+        },
+        {
+          "en": "p-47 thunderbolt",
+          "ja": "P-47 サンダーボルト"
+        },
+        {
+          "en": "p-51 mustang",
+          "ja": "P-51 マスタング"
+        },
+        {
+          "en": "p-61 black widow",
+          "ja": "P-61 ブラックウィドウ"
+        },
+        {
+          "en": "p-75 eagle",
+          "ja": "P-75イーグル"
+        },
+        {
+          "en": "p-80 shooting star",
+          "ja": "P-80 シューティングスター"
+        },
+        {
+          "en": "p-82 twin mustang",
+          "ja": "P-82 ツインマスタング"
+        },
+        {
+          "en": "p6m seamaster",
+          "ja": "P6Mシーマスター"
+        },
+        {
+          "en": "pby catalina",
+          "ja": "カタリナ"
+        },
+        {
+          "en": "s-2 tracker",
+          "ja": "S-2トラッカー"
+        },
+        {
+          "en": "sr-71 blackbird",
+          "ja": "SR-71 ブラックバード"
+        },
+        {
+          "en": "sbd dauntless",
+          "ja": "SBD ドーントレス"
+        },
+        {
+          "en": "sb2c helldiver",
+          "ja": "sb2c ヘルダイバー"
+        },
+        {
+          "en": "t-6 texan",
+          "ja": "T-6テキサン"
+        },
+        {
+          "en": "t-38 talon",
+          "ja": "T-38タロン"
+        },
+        {
+          "en": "tbd devastator",
+          "ja": "未定の破壊者"
+        },
+        {
+          "en": "tbf avenger",
+          "ja": "正直に言うと、アベンジャー"
+        },
+        {
+          "en": "u-2 dragon lady",
+          "ja": "U-2 ドラゴンレディ"
+        },
+        {
+          "en": "v-22 osprey",
+          "ja": "V-22 オスプレイ"
+        },
+        {
+          "en": "x-1",
+          "ja": "x-1"
+        },
+        {
+          "en": "xf5u",
+          "ja": "xf5u"
+        },
+        {
+          "en": "xfy-1",
+          "ja": "xfy-1"
+        },
+        {
+          "en": "x-15",
+          "ja": "x-15"
+        },
+        {
+          "en": "x-24",
+          "ja": "x-24"
+        },
+        {
+          "en": "x-29",
+          "ja": "x-29"
+        },
+        {
+          "en": "x-36",
+          "ja": "x-36"
+        },
+        {
+          "en": "xb-35",
+          "ja": "xb-35"
+        },
+        {
+          "en": "xf-85 goblin",
+          "ja": "XF-85 ゴブリン"
+        },
+        {
+          "en": "xp-79",
+          "ja": "XP-79"
+        }
+      ],
+      "民間": [
+        {
+          "en": "airbus a320",
+          "ja": "エアバスA320"
+        },
+        {
+          "en": "airbus a330",
+          "ja": "エアバスA330"
+        },
+        {
+          "en": "airbus a340",
+          "ja": "エアバスA340"
+        },
+        {
+          "en": "airbus a350",
+          "ja": "エアバスA350"
+        },
+        {
+          "en": "airbus a380",
+          "ja": "エアバスA380"
+        },
+        {
+          "en": "antonov an-148",
+          "ja": "アントノフ AN-148"
+        },
+        {
+          "en": "antonov an-225",
+          "ja": "アントノフ AN-225"
+        },
+        {
+          "en": "boeing 727",
+          "ja": "ボーイング727"
+        },
+        {
+          "en": "boeing 737",
+          "ja": "ボーイング737"
+        },
+        {
+          "en": "boeing 737 max",
+          "ja": "ボーイング737マックス"
+        },
+        {
+          "en": "boeing 747",
+          "ja": "ボーイング747"
+        },
+        {
+          "en": "boeing 767",
+          "ja": "ボーイング767"
+        },
+        {
+          "en": "boeing 787 dreamliner",
+          "ja": "ボーイング787ドリームライナー"
+        },
+        {
+          "en": "concorde",
+          "ja": "コンコルド"
+        },
+        {
+          "en": "mcdonnell douglas dc-10",
+          "ja": "マクドネル・ダグラス DC-10"
+        },
+        {
+          "en": "mcdonnell douglas md-11",
+          "ja": "マクドネル・ダグラス MD-11"
+        }
+      ],
+      "フィクション": [
+        {
+          "en": "adf-01 falken",
+          "ja": "adf-01 ファルケン"
+        },
+        {
+          "en": "adf-11f raven",
+          "ja": "adf-11f レイヴン"
+        },
+        {
+          "en": "adfx-01 morgan",
+          "ja": "adfx-01 モーガン"
+        },
+        {
+          "en": "adfx-02 morgan",
+          "ja": "adfx-02 モーガン"
+        },
+        {
+          "en": "adfx-10",
+          "ja": "adfx-10"
+        },
+        {
+          "en": "adfx-10f",
+          "ja": "adfx-10f"
+        },
+        {
+          "en": "arsenal bird",
+          "ja": "アーセナルバード"
+        },
+        {
+          "en": "curtiss r3c-0",
+          "ja": "カーチス R3C-0"
+        },
+        {
+          "en": "gaf-1",
+          "ja": "gaf-1"
+        },
+        {
+          "en": "r-101 delphinus i",
+          "ja": "R-101 デルフィヌス I"
+        },
+        {
+          "en": "r-102 delphinus ii",
+          "ja": "r-102 デルフィヌス II"
+        },
+        {
+          "en": "r-103 delphinus iii",
+          "ja": "r-103 デルフィヌス III"
+        },
+        {
+          "en": "savoia s.21",
+          "ja": "サヴォイア S.21"
+        },
+        {
+          "en": "t-65 x-wing",
+          "ja": "T-65 Xウイング"
+        },
+        {
+          "en": "x-02 wyvern",
+          "ja": "X-02 ワイバーン"
+        }
+      ],
+      "エアライン": [
+        {
+          "en": "alitalia",
+          "ja": "アリタリア航空"
+        },
+        {
+          "en": "all nippon airways",
+          "ja": "全日空"
+        },
+        {
+          "en": "blue angels",
+          "ja": "ブルーエンジェルス"
+        },
+        {
+          "en": "blue impulse",
+          "ja": "ブルーインパルス"
+        },
+        {
+          "en": "cathay pacific",
+          "ja": "キャセイパシフィック航空"
+        },
+        {
+          "en": "japan airlines",
+          "ja": "日本航空"
+        },
+        {
+          "en": "patrouille suisse",
+          "ja": "パトルイユ・スイス"
+        },
+        {
+          "en": "qantas",
+          "ja": "カンタス航空"
+        },
+        {
+          "en": "singapore airlines",
+          "ja": "シンガポール航空"
+        },
+        {
+          "en": "thunderbirds",
+          "ja": "サンダーバード"
+        }
+      ],
+      "空軍": [
+        {
+          "en": "islamic republic of iran air force",
+          "ja": "イラン・イスラム共和国空軍"
+        },
+        {
+          "en": "imperial german flying corps",
+          "ja": "ドイツ帝国航空軍団"
+        },
+        {
+          "en": "luftwaffe",
+          "ja": "ドイツ空軍"
+        },
+        {
+          "en": "japan air self-defense force",
+          "ja": "航空自衛隊"
+        },
+        {
+          "en": "korean people's air force",
+          "ja": "朝鮮人民空軍"
+        },
+        {
+          "en": "people's liberation army air force",
+          "ja": "人民解放軍空軍"
+        },
+        {
+          "en": "regia aeronautica",
+          "ja": "イタリア空軍"
+        },
+        {
+          "en": "royal air force",
+          "ja": "イギリス空軍"
+        },
+        {
+          "en": "russian air force",
+          "ja": "ロシア空軍"
+        },
+        {
+          "en": "soviet air force",
+          "ja": "ソビエト空軍"
+        },
+        {
+          "en": "united states air force",
+          "ja": "アメリカ空軍"
+        },
+        {
+          "en": "vietnam people's air force",
+          "ja": "ベトナム人民空軍"
+        }
+      ],
+      "パーツ": [
+        {
+          "en": "afterburner",
+          "ja": "アフターバーナー"
+        },
+        {
+          "en": "airbrake",
+          "ja": "エアブレーキ"
+        },
+        {
+          "en": "airplane interior",
+          "ja": "飛行機の内部"
+        },
+        {
+          "en": "canards",
+          "ja": "カナード"
+        },
+        {
+          "en": "canopy",
+          "ja": "天蓋"
+        },
+        {
+          "en": "cockpit",
+          "ja": "コックピット"
+        },
+        {
+          "en": "glass cockpit",
+          "ja": "グラスコックピット"
+        },
+        {
+          "en": "open cockpit",
+          "ja": "オープンコックピット"
+        },
+        {
+          "en": "contra-rotating propellers",
+          "ja": "二重反転プロペラ"
+        },
+        {
+          "en": "drop tank",
+          "ja": "ドロップタンク"
+        },
+        {
+          "en": "landing gear",
+          "ja": "着陸装置"
+        },
+        {
+          "en": "pontoon",
+          "ja": "ポンツーン"
+        },
+        {
+          "en": "propeller",
+          "ja": "プロペラ"
+        }
+      ],
+      "対空兵器": [
+        {
+          "en": "88 flak",
+          "ja": "88門の高射砲"
+        },
+        {
+          "en": "anti-aircraft gun",
+          "ja": "対空砲"
+        },
+        {
+          "en": "bofors 40 mm gun",
+          "ja": "ボフォース40mm砲"
+        },
+        {
+          "en": "flak",
+          "ja": "高射砲"
+        },
+        {
+          "en": "missile",
+          "ja": "ミサイル"
+        },
+        {
+          "en": "oerlikon 20mm gun",
+          "ja": "エリコン20mm砲"
+        },
+        {
+          "en": "type 96 aa gun",
+          "ja": "九六式対空砲"
+        }
+      ],
+      "場所": [
+        {
+          "en": "aircraft carrier",
+          "ja": "空母"
+        },
+        {
+          "en": "airport",
+          "ja": "空港"
+        },
+        {
+          "en": "contrail",
+          "ja": "飛行機雲"
+        },
+        {
+          "en": "control tower",
+          "ja": "管制塔"
+        },
+        {
+          "en": "flight deck",
+          "ja": "飛行甲板"
+        },
+        {
+          "en": "hangar",
+          "ja": "ハンガー"
+        },
+        {
+          "en": "landing",
+          "ja": "着陸"
+        },
+        {
+          "en": "military base",
+          "ja": "軍事基地"
+        },
+        {
+          "en": "runway",
+          "ja": "滑走路"
+        }
+      ],
+      "マーク": [
+        {
+          "en": "emblem",
+          "ja": "エンブレム"
+        },
+        {
+          "en": "hammer and sickle",
+          "ja": "ハンマーと鎌"
+        },
+        {
+          "en": "iron cross",
+          "ja": "鉄十字"
+        },
+        {
+          "en": "itasha",
+          "ja": "痛車"
+        },
+        {
+          "en": "kill markings",
+          "ja": "キルマーキング"
+        },
+        {
+          "en": "nose art",
+          "ja": "ノーズアート"
+        },
+        {
+          "en": "shark nose art",
+          "ja": "サメの鼻アート"
+        },
+        {
+          "en": "rising sun flag",
+          "ja": "旭日旗"
+        },
+        {
+          "en": "roundel",
+          "ja": "円形"
+        },
+        {
+          "en": "star of david",
+          "ja": "ダビデの星"
+        },
+        {
+          "en": "swastika",
+          "ja": "卍"
+        }
+      ],
+      "職業": [
+        {
+          "en": "flight attendant",
+          "ja": "客室乗務員"
+        },
+        {
+          "en": "pilot",
+          "ja": "パイロット"
+        },
+        {
+          "en": "travel attendant",
+          "ja": "旅行係員"
+        }
+      ],
+      "衣類": [
+        {
+          "en": "aviator cap",
+          "ja": "飛行士帽"
+        },
+        {
+          "en": "aviator goggles",
+          "ja": "飛行士用ゴーグル"
+        },
+        {
+          "en": "flight suit",
+          "ja": "フライトスーツ"
+        },
+        {
+          "en": "heads-up display",
+          "ja": "ヘッドアップディスプレイ"
+        },
+        {
+          "en": "oxygen mask",
+          "ja": "酸素マスク"
+        },
+        {
+          "en": "g-suit",
+          "ja": "Gスーツ"
+        }
+      ]
+    },
+    "車両": {
+      "タイプ": [
+        {
+          "en": "all-terrain vehicle",
+          "ja": "全地形対応車"
+        },
+        {
+          "en": "ambulance",
+          "ja": "救急車"
+        },
+        {
+          "en": "armored personnel carrier",
+          "ja": "装甲兵員輸送車"
+        },
+        {
+          "en": "armored recovery vehicle",
+          "ja": "装甲回収車"
+        },
+        {
+          "en": "armored vehicle",
+          "ja": "装甲車"
+        },
+        {
+          "en": "bicycle",
+          "ja": "自転車"
+        },
+        {
+          "en": "bus",
+          "ja": "バス"
+        },
+        {
+          "en": "car",
+          "ja": "車"
+        },
+        {
+          "en": "police car",
+          "ja": "パトカー"
+        },
+        {
+          "en": "taxi",
+          "ja": "タクシー"
+        },
+        {
+          "en": "drill tank",
+          "ja": "ドリルタンク"
+        },
+        {
+          "en": "half-track",
+          "ja": "ハーフトラック"
+        },
+        {
+          "en": "motorcycle",
+          "ja": "オートバイ"
+        },
+        {
+          "en": "motor vehicle",
+          "ja": "自動車"
+        },
+        {
+          "en": "self-propelled artillery",
+          "ja": "自走砲"
+        },
+        {
+          "en": "steamroller",
+          "ja": "蒸気ローラー"
+        },
+        {
+          "en": "tank",
+          "ja": "タンク"
+        },
+        {
+          "en": "tank destroyer",
+          "ja": "駆逐戦車"
+        },
+        {
+          "en": "train",
+          "ja": "電車"
+        },
+        {
+          "en": "armored train",
+          "ja": "装甲列車"
+        },
+        {
+          "en": "railway gun",
+          "ja": "鉄道砲"
+        },
+        {
+          "en": "truck",
+          "ja": "トラック"
+        },
+        {
+          "en": "concrete mixer truck",
+          "ja": "コンクリートミキサー車"
+        },
+        {
+          "en": "dump truck",
+          "ja": "ダンプトラック"
+        },
+        {
+          "en": "haul truck",
+          "ja": "運搬トラック"
+        },
+        {
+          "en": "flatbed truck",
+          "ja": "フラットベッドトラック"
+        },
+        {
+          "en": "fire truck",
+          "ja": "消防車"
+        },
+        {
+          "en": "garbage truck",
+          "ja": "ゴミ収集車"
+        },
+        {
+          "en": "monster truck",
+          "ja": "モンスタートラック"
+        },
+        {
+          "en": "pickup truck",
+          "ja": "ピックアップトラック"
+        },
+        {
+          "en": "semi truck",
+          "ja": "大型トラック"
+        },
+        {
+          "en": "tank truck",
+          "ja": "タンクローリー"
+        },
+        {
+          "en": "technical",
+          "ja": "テクニカル"
+        },
+        {
+          "en": "turretless tank",
+          "ja": "無砲塔戦車"
+        },
+        {
+          "en": "van",
+          "ja": "バン"
+        }
+      ],
+      "ミリタリー": [
+        {
+          "en": "type 59",
+          "ja": "タイプ59"
+        },
+        {
+          "en": "ztz-96",
+          "ja": "ztz-96"
+        },
+        {
+          "en": "ztz-99",
+          "ja": "ztz-99"
+        },
+        {
+          "en": "type 62",
+          "ja": "タイプ62"
+        },
+        {
+          "en": "hq-17",
+          "ja": "本部-17"
+        },
+        {
+          "en": "pgz-09",
+          "ja": "pgz-09"
+        },
+        {
+          "en": "pgz-80",
+          "ja": "pgz-80"
+        },
+        {
+          "en": "vn-17 ifv",
+          "ja": "VN-17 IFV"
+        },
+        {
+          "en": "bt-42",
+          "ja": "BT-42"
+        },
+        {
+          "en": "sisu nasu",
+          "ja": "シスナス"
+        },
+        {
+          "en": "amx-13",
+          "ja": "AMX-13"
+        },
+        {
+          "en": "amx-40 (1940)",
+          "ja": "AMX-40（1940年）"
+        },
+        {
+          "en": "amx elc",
+          "ja": "AMX ELC"
+        },
+        {
+          "en": "ft-17",
+          "ja": "フィート17"
+        },
+        {
+          "en": "hotchkiss h39",
+          "ja": "ホッチキス H39"
+        },
+        {
+          "en": "renault r35",
+          "ja": "ルノー R35"
+        },
+        {
+          "en": "fcm 36",
+          "ja": "fcm 36"
+        },
+        {
+          "en": "somua s35",
+          "ja": "ソミュア S35"
+        },
+        {
+          "en": "char b1",
+          "ja": "文字b1"
+        },
+        {
+          "en": "char 2c",
+          "ja": "文字2c"
+        },
+        {
+          "en": "amx-30_(tank)",
+          "ja": "amx-30_(タンク)"
+        },
+        {
+          "en": "leclerc_(tank)",
+          "ja": "leclerc_(タンク)"
+        },
+        {
+          "en": "amx-50 foch",
+          "ja": "AMX-50 フォッシュ"
+        },
+        {
+          "en": "vespa 150 tap",
+          "ja": "ベスパ150タップ"
+        },
+        {
+          "en": "a7v",
+          "ja": "a7v"
+        },
+        {
+          "en": "panzer 38(t)",
+          "ja": "38(t)戦車"
+        },
+        {
+          "en": "pz.kpfw. i",
+          "ja": "pz.kpfw. i"
+        },
+        {
+          "en": "pz.kpfw. ii",
+          "ja": "pz.kpfw. ii"
+        },
+        {
+          "en": "e-50",
+          "ja": "e-50"
+        },
+        {
+          "en": "pz.kpfw. iii",
+          "ja": "pz.kpfw. iii"
+        },
+        {
+          "en": "pz.kpfw. iv",
+          "ja": "pz.kpfw. iv"
+        },
+        {
+          "en": "pz.kpfw. v panther",
+          "ja": "pz.kpfw. vパンサー"
+        },
+        {
+          "en": "e-75",
+          "ja": "e-75"
+        },
+        {
+          "en": "pz.kpfw. vi tiger",
+          "ja": "pz.kpfw. viタイガー"
+        },
+        {
+          "en": "pz.kpfw. vi ausf. b tiger ii",
+          "ja": "pz.kpfw. vi ausf. b タイガー II"
+        },
+        {
+          "en": "pz.kpfw. vi tiger (p)",
+          "ja": "pz.kpfw. viタイガー（p）"
+        },
+        {
+          "en": "pz.kpfw. vii lowe",
+          "ja": "pz.kpfw. vii lowe"
+        },
+        {
+          "en": "e-100",
+          "ja": "e-100"
+        },
+        {
+          "en": "landkreuzer p1000 ratte",
+          "ja": "ランドクロイツァー P1000 ラテ"
+        },
+        {
+          "en": "pz.kpfw. viii maus",
+          "ja": "pz.kpfw. viii マウス"
+        },
+        {
+          "en": "stug iii",
+          "ja": "III号突撃砲"
+        },
+        {
+          "en": "stug iv",
+          "ja": "IV号突撃砲"
+        },
+        {
+          "en": "brummbar",
+          "ja": "ブルムバー"
+        },
+        {
+          "en": "sturmtiger",
+          "ja": "シュトゥルムティーガー"
+        },
+        {
+          "en": "elefant",
+          "ja": "エレファント"
+        },
+        {
+          "en": "jagdpanther",
+          "ja": "ヤークトパンター"
+        },
+        {
+          "en": "jagdpanther ii",
+          "ja": "ヤークトパンターII"
+        },
+        {
+          "en": "jagdpanzer 38(t)",
+          "ja": "ヤークトパンツァー 38(t)"
+        },
+        {
+          "en": "jagdtiger",
+          "ja": "ヤークトティーガー"
+        },
+        {
+          "en": "marder iii",
+          "ja": "マーダーIII"
+        },
+        {
+          "en": "karl-gerat",
+          "ja": "カール・ゲラート"
+        },
+        {
+          "en": "panzerhaubitze 2000",
+          "ja": "パンツァーハウビッツェ 2000"
+        },
+        {
+          "en": "schwerer gustav",
+          "ja": "シュヴェラー・グスタフ"
+        },
+        {
+          "en": "leopard 1",
+          "ja": "ヒョウ1"
+        },
+        {
+          "en": "leopard 2",
+          "ja": "レオパルド2"
+        },
+        {
+          "en": "kettenkrad",
+          "ja": "ケッテンクラート"
+        },
+        {
+          "en": "kubelwagen",
+          "ja": "キューベルワーゲン"
+        },
+        {
+          "en": "minenraumer",
+          "ja": "鉱夫のラウマー"
+        },
+        {
+          "en": "schwimmwagen",
+          "ja": "シュビムワーゲン"
+        },
+        {
+          "en": "sdkfz 9",
+          "ja": "sdkfz 9"
+        },
+        {
+          "en": "sdkfz 222",
+          "ja": "sdkfz 222"
+        },
+        {
+          "en": "sdkfz 250",
+          "ja": "sdkfz 250"
+        },
+        {
+          "en": "sdkfz 251",
+          "ja": "sdkfz 251"
+        },
+        {
+          "en": "tpz fuchs",
+          "ja": "tpzフックス"
+        },
+        {
+          "en": "tiam",
+          "ja": "ティアム"
+        },
+        {
+          "en": "merkava",
+          "ja": "メルカバ"
+        },
+        {
+          "en": "machbet",
+          "ja": "マハベット"
+        },
+        {
+          "en": "carro veloce cv-33",
+          "ja": "カーロ・ベローチェ CV-33"
+        },
+        {
+          "en": "l3",
+          "ja": "l3"
+        },
+        {
+          "en": "carro armato p40",
+          "ja": "カーロ・アルマート P40"
+        },
+        {
+          "en": "c1 ariete",
+          "ja": "c1 アリエテ"
+        },
+        {
+          "en": "semovente 75/18",
+          "ja": "セモベンテ 75/18"
+        },
+        {
+          "en": "b1 centauro",
+          "ja": "B1 チェンタウロ"
+        },
+        {
+          "en": "otomatic",
+          "ja": "オートマチック"
+        },
+        {
+          "en": "toku-3-gou",
+          "ja": "特3号"
+        },
+        {
+          "en": "type 97 te-ke",
+          "ja": "97式テケ"
+        },
+        {
+          "en": "type 2 ke-to",
+          "ja": "タイプ2ケト"
+        },
+        {
+          "en": "type 95 ha-go",
+          "ja": "95式ハ号"
+        },
+        {
+          "en": "type 3 chi-nu",
+          "ja": "タイプ3チヌ"
+        },
+        {
+          "en": "type 4 chi-to",
+          "ja": "タイプ4 チト"
+        },
+        {
+          "en": "type 5 chi-ri",
+          "ja": "タイプ5 気理"
+        },
+        {
+          "en": "type 89 i-gou",
+          "ja": "89式戦車「イ号」"
+        },
+        {
+          "en": "type 97 chi-ha",
+          "ja": "九七式チハ"
+        },
+        {
+          "en": "type 91 heavy",
+          "ja": "91式重戦車"
+        },
+        {
+          "en": "o-i",
+          "ja": "おーい"
+        },
+        {
+          "en": "o-ro",
+          "ja": "おろ"
+        },
+        {
+          "en": "type 5 ho-ri",
+          "ja": "タイプ5 ホリ"
+        },
+        {
+          "en": "type 10",
+          "ja": "タイプ10"
+        },
+        {
+          "en": "type 61",
+          "ja": "タイプ61"
+        },
+        {
+          "en": "type 74",
+          "ja": "74型"
+        },
+        {
+          "en": "type 90",
+          "ja": "90型"
+        },
+        {
+          "en": "type 89 ifv",
+          "ja": "89式戦車"
+        },
+        {
+          "en": "type 16",
+          "ja": "タイプ16"
+        },
+        {
+          "en": "type 60",
+          "ja": "タイプ60"
+        },
+        {
+          "en": "type 90 tkr",
+          "ja": "90式TKR"
+        },
+        {
+          "en": "type 95",
+          "ja": "95型"
+        },
+        {
+          "en": "type 87",
+          "ja": "87型"
+        },
+        {
+          "en": "pokpung-ho",
+          "ja": "ポクプンホ"
+        },
+        {
+          "en": "k1",
+          "ja": "k1"
+        },
+        {
+          "en": "k2 black panther",
+          "ja": "K2 ブラックパンサー"
+        },
+        {
+          "en": "k9 thunder",
+          "ja": "K9サンダー"
+        },
+        {
+          "en": "k21",
+          "ja": "k21"
+        },
+        {
+          "en": "k30 biho",
+          "ja": "k30 ビホ"
+        },
+        {
+          "en": "tks",
+          "ja": "ありがとう"
+        },
+        {
+          "en": "pl-01",
+          "ja": "pl-01"
+        },
+        {
+          "en": "tsar tank",
+          "ja": "ツァーリ戦車"
+        },
+        {
+          "en": "bt-7",
+          "ja": "bt-7"
+        },
+        {
+          "en": "t-26",
+          "ja": "T-26"
+        },
+        {
+          "en": "t-50",
+          "ja": "T-50"
+        },
+        {
+          "en": "t-28",
+          "ja": "T-28"
+        },
+        {
+          "en": "t-34",
+          "ja": "T-34"
+        },
+        {
+          "en": "t-44",
+          "ja": "T-44"
+        },
+        {
+          "en": "is-1",
+          "ja": "is-1"
+        },
+        {
+          "en": "is-2",
+          "ja": "is-2"
+        },
+        {
+          "en": "is-3",
+          "ja": "is-3"
+        },
+        {
+          "en": "is-6",
+          "ja": "is-6"
+        },
+        {
+          "en": "kv-1",
+          "ja": "KV-1"
+        },
+        {
+          "en": "kv-2",
+          "ja": "KV-2"
+        },
+        {
+          "en": "object 279",
+          "ja": "オブジェクト279"
+        },
+        {
+          "en": "object 705a",
+          "ja": "オブジェクト705a"
+        },
+        {
+          "en": "smk",
+          "ja": "スムク"
+        },
+        {
+          "en": "t-10",
+          "ja": "T-10"
+        },
+        {
+          "en": "t-35",
+          "ja": "T-35"
+        },
+        {
+          "en": "asu-57",
+          "ja": "ASU-57"
+        },
+        {
+          "en": "asu-85",
+          "ja": "ASU-85"
+        },
+        {
+          "en": "isu-152",
+          "ja": "ISU-152"
+        },
+        {
+          "en": "object 704",
+          "ja": "オブジェクト704"
+        },
+        {
+          "en": "su-76",
+          "ja": "Su-76"
+        },
+        {
+          "en": "su-85",
+          "ja": "Su-85"
+        },
+        {
+          "en": "su-100",
+          "ja": "Su-100"
+        },
+        {
+          "en": "203mm b-4",
+          "ja": "203mm b-4"
+        },
+        {
+          "en": "bm-13 katyusha",
+          "ja": "BM-13 カチューシャ"
+        },
+        {
+          "en": "isu-122",
+          "ja": "ISU-122"
+        },
+        {
+          "en": "su-122",
+          "ja": "Su-122"
+        },
+        {
+          "en": "su-152",
+          "ja": "Su-152"
+        },
+        {
+          "en": "black eagle",
+          "ja": "黒鷲"
+        },
+        {
+          "en": "t-14 armata",
+          "ja": "T-14アルマータ"
+        },
+        {
+          "en": "t-54",
+          "ja": "T-54"
+        },
+        {
+          "en": "t-55",
+          "ja": "T-55"
+        },
+        {
+          "en": "t-62",
+          "ja": "T-62"
+        },
+        {
+          "en": "t-64",
+          "ja": "T-64"
+        },
+        {
+          "en": "t-72",
+          "ja": "T-72"
+        },
+        {
+          "en": "t-80",
+          "ja": "T-80"
+        },
+        {
+          "en": "t-90",
+          "ja": "T-90"
+        },
+        {
+          "en": "bmd-3",
+          "ja": "BMD-3"
+        },
+        {
+          "en": "bmp-1",
+          "ja": "bmp-1"
+        },
+        {
+          "en": "bmp-2",
+          "ja": "bmp-2"
+        },
+        {
+          "en": "bmp-3",
+          "ja": "bmp-3"
+        },
+        {
+          "en": "brdm",
+          "ja": "brdm"
+        },
+        {
+          "en": "btr-80",
+          "ja": "btr-80"
+        },
+        {
+          "en": "btr-90",
+          "ja": "btr-90"
+        },
+        {
+          "en": "zsu-23-4",
+          "ja": "zsu-23-4"
+        },
+        {
+          "en": "ba-64",
+          "ja": "ba-64"
+        },
+        {
+          "en": "stridsvagn 103",
+          "ja": "ストリズヴァグン 103"
+        },
+        {
+          "en": "cm-11 brave tiger",
+          "ja": "CM-11 ブレイブタイガー"
+        },
+        {
+          "en": "cm-32",
+          "ja": "cm-32"
+        },
+        {
+          "en": "mark i tank",
+          "ja": "マークI戦車"
+        },
+        {
+          "en": "mark iv tank",
+          "ja": "マークIV戦車"
+        },
+        {
+          "en": "a34 comet",
+          "ja": "a34コメット"
+        },
+        {
+          "en": "mk. viii cromwell",
+          "ja": "mk. viii クロムウェル"
+        },
+        {
+          "en": "mk. vi crusader",
+          "ja": "Mk. vi クルセイダー"
+        },
+        {
+          "en": "mk. ii matilda",
+          "ja": "mk. ii マチルダ"
+        },
+        {
+          "en": "sherman firefly",
+          "ja": "シャーマンホタル"
+        },
+        {
+          "en": "vickers medium mk.3",
+          "ja": "ヴィッカース中戦車Mk.3"
+        },
+        {
+          "en": "a43 black prince",
+          "ja": "A43 ブラックプリンス"
+        },
+        {
+          "en": "mk. iii valentine",
+          "ja": "mk. iii バレンタイン"
+        },
+        {
+          "en": "mk. iv churchill",
+          "ja": "Mk. IV チャーチル"
+        },
+        {
+          "en": "a39 tortoise",
+          "ja": "a39 カメ"
+        },
+        {
+          "en": "tog ii",
+          "ja": "トグii"
+        },
+        {
+          "en": "fv215",
+          "ja": "fv215"
+        },
+        {
+          "en": "centurion",
+          "ja": "百人隊長"
+        },
+        {
+          "en": "daimler aec",
+          "ja": "ダイムラーAEC"
+        },
+        {
+          "en": "ferret scout car",
+          "ja": "フェレット偵察車"
+        },
+        {
+          "en": "land rover defender",
+          "ja": "ランドローバー ディフェンダー"
+        },
+        {
+          "en": "m3 stuart",
+          "ja": "m3 スチュアート"
+        },
+        {
+          "en": "m24 chaffee",
+          "ja": "M24 チャフィー"
+        },
+        {
+          "en": "m41 walker bulldog",
+          "ja": "M41ウォーカーブルドッグ"
+        },
+        {
+          "en": "t49",
+          "ja": "t49"
+        },
+        {
+          "en": "m551 sheridan",
+          "ja": "M551 シェリダン"
+        },
+        {
+          "en": "t1 cunningham",
+          "ja": "T1カニンガム"
+        },
+        {
+          "en": "m3 lee",
+          "ja": "m3リー"
+        },
+        {
+          "en": "m4 sherman",
+          "ja": "M4シャーマン"
+        },
+        {
+          "en": "m4a3e2 jumbo",
+          "ja": "m4a3e2 ジャンボ"
+        },
+        {
+          "en": "m4a3e8 easy 8",
+          "ja": "m4a3e8 簡単8"
+        },
+        {
+          "en": "m26 pershing",
+          "ja": "M26パーシング"
+        },
+        {
+          "en": "t26e4 super pershing",
+          "ja": "T26E4 スーパーパーシング"
+        },
+        {
+          "en": "m6",
+          "ja": "m6"
+        },
+        {
+          "en": "t14",
+          "ja": "t14"
+        },
+        {
+          "en": "t29",
+          "ja": "t29"
+        },
+        {
+          "en": "t34",
+          "ja": "t34"
+        },
+        {
+          "en": "t110",
+          "ja": "t110"
+        },
+        {
+          "en": "t28 super heavy tank",
+          "ja": "T28超重戦車"
+        },
+        {
+          "en": "m10 wolverine",
+          "ja": "M10 ウルヴァリン"
+        },
+        {
+          "en": "m36 jackson",
+          "ja": "M36ジャクソン"
+        },
+        {
+          "en": "m18 hellcat",
+          "ja": "M18ヘルキャット"
+        },
+        {
+          "en": "m50 ontos",
+          "ja": "m50オントス"
+        },
+        {
+          "en": "m7 priest",
+          "ja": "m7 司祭"
+        },
+        {
+          "en": "m270 mlrs",
+          "ja": "m270 mlrs"
+        },
+        {
+          "en": "m1 abrams",
+          "ja": "M1エイブラムス"
+        },
+        {
+          "en": "m46 patton",
+          "ja": "M46パットン"
+        },
+        {
+          "en": "m47 patton",
+          "ja": "M47パットン"
+        },
+        {
+          "en": "m48 patton",
+          "ja": "M48パットン"
+        },
+        {
+          "en": "m60",
+          "ja": "m60"
+        },
+        {
+          "en": "m60a2",
+          "ja": "m60a2"
+        },
+        {
+          "en": "lav-25",
+          "ja": "LAV-25"
+        },
+        {
+          "en": "m113",
+          "ja": "m113"
+        },
+        {
+          "en": "m2 bradley",
+          "ja": "M2ブラッドリー"
+        },
+        {
+          "en": "stryker",
+          "ja": "ストライカー"
+        },
+        {
+          "en": "humvee",
+          "ja": "ハンヴィー"
+        },
+        {
+          "en": "military jeep",
+          "ja": "軍用ジープ"
+        }
+      ],
+      "民間": [
+        {
+          "en": "bugatti chiron",
+          "ja": "ブガッティ・シロン"
+        },
+        {
+          "en": "bugatti veyron",
+          "ja": "ブガッティ・ヴェイロン"
+        },
+        {
+          "en": "peugeot 103",
+          "ja": "プジョー103"
+        },
+        {
+          "en": "renault alpine a310",
+          "ja": "ルノー・アルピーヌ A310"
+        },
+        {
+          "en": "audi r8",
+          "ja": "アウディ R8"
+        },
+        {
+          "en": "bmw hp4",
+          "ja": "BMW HP4"
+        },
+        {
+          "en": "bmw i8",
+          "ja": "BMW i8"
+        },
+        {
+          "en": "bmw m4",
+          "ja": "BMW M4"
+        },
+        {
+          "en": "bmw r75",
+          "ja": "BMW R75"
+        },
+        {
+          "en": "bmw s1000rr",
+          "ja": "BMW S1000RR"
+        },
+        {
+          "en": "bmw z4",
+          "ja": "BMW Z4"
+        },
+        {
+          "en": "porsche 356",
+          "ja": "ポルシェ356"
+        },
+        {
+          "en": "porsche 911",
+          "ja": "ポルシェ911"
+        },
+        {
+          "en": "porsche 918",
+          "ja": "ポルシェ918"
+        },
+        {
+          "en": "trabant",
+          "ja": "トラバント"
+        },
+        {
+          "en": "volkswagen beetle",
+          "ja": "フォルクスワーゲン ビートル"
+        },
+        {
+          "en": "volkswagen golf",
+          "ja": "フォルクスワーゲン ゴルフ"
+        },
+        {
+          "en": "volkswagen type 2",
+          "ja": "フォルクスワーゲン タイプ2"
+        },
+        {
+          "en": "ferrari 458 italia",
+          "ja": "フェラーリ458イタリア"
+        },
+        {
+          "en": "ferrari f8 tributo",
+          "ja": "フェラーリ F8 トリビュート"
+        },
+        {
+          "en": "ferrari laferrari",
+          "ja": "フェラーリ ラフェラーリ"
+        },
+        {
+          "en": "fiat 500",
+          "ja": "フィアット500"
+        },
+        {
+          "en": "lamborghini aventador",
+          "ja": "ランボルギーニ・アヴェンタドール"
+        },
+        {
+          "en": "lamborghini diablo",
+          "ja": "ランボルギーニ ディアブロ"
+        },
+        {
+          "en": "lamborghini countach",
+          "ja": "ランボルギーニ カウンタック"
+        },
+        {
+          "en": "maserati ghibli",
+          "ja": "マセラティ ギブリ"
+        },
+        {
+          "en": "lancia stratos",
+          "ja": "ランチア・ストラトス"
+        },
+        {
+          "en": "lancia delta s4",
+          "ja": "ランチア デルタ S4"
+        },
+        {
+          "en": "vespa",
+          "ja": "ベスパ"
+        },
+        {
+          "en": "daihatsu midget",
+          "ja": "ダイハツミゼット"
+        },
+        {
+          "en": "tuk-tuk",
+          "ja": "トゥクトゥク"
+        },
+        {
+          "en": "honda civic",
+          "ja": "ホンダ シビック"
+        },
+        {
+          "en": "honda nsx",
+          "ja": "ホンダNSX"
+        },
+        {
+          "en": "honda s2000",
+          "ja": "ホンダ S2000"
+        },
+        {
+          "en": "isuzu elf",
+          "ja": "いすゞエルフ"
+        },
+        {
+          "en": "mazda 2",
+          "ja": "マツダ2"
+        },
+        {
+          "en": "mazda 3",
+          "ja": "マツダ3"
+        },
+        {
+          "en": "mazda cosmo",
+          "ja": "マツダ コスモ"
+        },
+        {
+          "en": "mazda rx-7",
+          "ja": "マツダ RX-7"
+        },
+        {
+          "en": "mazda rx-8",
+          "ja": "マツダ RX-8"
+        },
+        {
+          "en": "mitsubishi fuso",
+          "ja": "三菱ふそう"
+        },
+        {
+          "en": "mitsubishi lancer evolution",
+          "ja": "三菱 ランサーエボリューション"
+        },
+        {
+          "en": "nissan 180sx",
+          "ja": "日産 180SX"
+        },
+        {
+          "en": "nissan 350z",
+          "ja": "日産350Z"
+        },
+        {
+          "en": "nissan fairlady",
+          "ja": "日産フェアレディ"
+        },
+        {
+          "en": "nissan gt-r",
+          "ja": "日産GT-R"
+        },
+        {
+          "en": "nissan idx",
+          "ja": "日産IDX"
+        },
+        {
+          "en": "nissan silvia s13",
+          "ja": "日産シルビアS13"
+        },
+        {
+          "en": "nissan silvia s15",
+          "ja": "日産シルビアS15"
+        },
+        {
+          "en": "nissan sileighty",
+          "ja": "日産シルエイティ"
+        },
+        {
+          "en": "nissan skyline",
+          "ja": "日産スカイライン"
+        },
+        {
+          "en": "subaru 360",
+          "ja": "スバル360"
+        },
+        {
+          "en": "subaru brz",
+          "ja": "スバルBRZ"
+        },
+        {
+          "en": "subaru impreza",
+          "ja": "スバルインプレッサ"
+        },
+        {
+          "en": "suzuki gixxer sf 250",
+          "ja": "スズキ ジクサー SF250"
+        },
+        {
+          "en": "toyota 86",
+          "ja": "トヨタ86"
+        },
+        {
+          "en": "toyota corolla",
+          "ja": "トヨタカローラ"
+        },
+        {
+          "en": "toyota corolla ae85",
+          "ja": "トヨタ カローラ AE85"
+        },
+        {
+          "en": "toyota corolla ae86",
+          "ja": "トヨタ カローラ AE86"
+        },
+        {
+          "en": "toyota crown",
+          "ja": "トヨタ クラウン"
+        },
+        {
+          "en": "toyota hiace",
+          "ja": "トヨタハイエース"
+        },
+        {
+          "en": "toyota hilux",
+          "ja": "トヨタ ハイラックス"
+        },
+        {
+          "en": "toyota mr2",
+          "ja": "トヨタ MR2"
+        },
+        {
+          "en": "toyota sprinter trueno",
+          "ja": "トヨタ スプリンター トレノ"
+        },
+        {
+          "en": "toyota sports 800",
+          "ja": "トヨタ スポーツ800"
+        },
+        {
+          "en": "toyota starlet",
+          "ja": "トヨタ スターレット"
+        },
+        {
+          "en": "toyota supra",
+          "ja": "トヨタ スープラ"
+        },
+        {
+          "en": "lada",
+          "ja": "ラダ"
+        },
+        {
+          "en": "gaz-66",
+          "ja": "GAZ-66"
+        },
+        {
+          "en": "aston martin db11",
+          "ja": "アストンマーティン DB11"
+        },
+        {
+          "en": "mini cooper",
+          "ja": "ミニクーパー"
+        },
+        {
+          "en": "jaguar c-x75",
+          "ja": "ジャガー C-X75"
+        },
+        {
+          "en": "land rover",
+          "ja": "ランドローバー"
+        },
+        {
+          "en": "lotus elan",
+          "ja": "ロータス・エラン"
+        },
+        {
+          "en": "lotus elise",
+          "ja": "ロータス・エリーゼ"
+        },
+        {
+          "en": "lotus esprit",
+          "ja": "ロータス・エスプリ"
+        },
+        {
+          "en": "morris marina",
+          "ja": "モリスマリーナ"
+        },
+        {
+          "en": "reliant robin",
+          "ja": "リライアントロビン"
+        },
+        {
+          "en": "triumph spitfire",
+          "ja": "トライアンフ スピットファイア"
+        },
+        {
+          "en": "tyrrell p34",
+          "ja": "ティレル P34"
+        },
+        {
+          "en": "chevrolet camaro",
+          "ja": "シボレー・カマロ"
+        },
+        {
+          "en": "chevrolet corvette",
+          "ja": "シボレーコルベット"
+        },
+        {
+          "en": "delorean dmc-1",
+          "ja": "デロリアン DMC-1"
+        },
+        {
+          "en": "dodge challenger",
+          "ja": "ダッジチャレンジャー"
+        },
+        {
+          "en": "dodge charger",
+          "ja": "ダッジ チャージャー"
+        },
+        {
+          "en": "dodge monaco",
+          "ja": "ダッジ モナコ"
+        },
+        {
+          "en": "ford model t",
+          "ja": "フォード モデルT"
+        },
+        {
+          "en": "ford gt",
+          "ja": "フォードGT"
+        },
+        {
+          "en": "ford mustang",
+          "ja": "フォード マスタング"
+        },
+        {
+          "en": "hummer",
+          "ja": "ハマー"
+        }
+      ],
+      "フィクション": [
+        {
+          "en": "baneblade",
+          "ja": "ベインブレード"
+        },
+        {
+          "en": "edelweiss",
+          "ja": "エーデルワイス"
+        },
+        {
+          "en": "kaneda shoutarou's bike",
+          "ja": "金田正太郎のバイク"
+        },
+        {
+          "en": "landmaster",
+          "ja": "土地所有者"
+        },
+        {
+          "en": "lightcycle",
+          "ja": "ライトサイクル"
+        },
+        {
+          "en": "maser tank",
+          "ja": "メーザータンク"
+        },
+        {
+          "en": "leman russ",
+          "ja": "レマン・ラス"
+        },
+        {
+          "en": "scorpion",
+          "ja": "サソリ"
+        },
+        {
+          "en": "shamrock",
+          "ja": "シャムロック"
+        },
+        {
+          "en": "sv-001 (metal slug)",
+          "ja": "sv-001（メタルスラッグ）"
+        },
+        {
+          "en": "t-100 varsuk",
+          "ja": "T-100 ヴァルスク"
+        },
+        {
+          "en": "warthog",
+          "ja": "イボイノシシ"
+        },
+        {
+          "en": "wraith",
+          "ja": "亡霊"
+        }
+      ],
+      "パーツ": [
+        {
+          "en": "caterpillar tracks",
+          "ja": "キャタピラの跡"
+        },
+        {
+          "en": "exhaust",
+          "ja": "排気"
+        },
+        {
+          "en": "hatch",
+          "ja": "ハッチ"
+        },
+        {
+          "en": "wipers",
+          "ja": "ワイパー"
+        },
+        {
+          "en": "license plate",
+          "ja": "ナンバープレート"
+        },
+        {
+          "en": "mine roller",
+          "ja": "地雷ローラー"
+        },
+        {
+          "en": "ship turret",
+          "ja": "船の砲塔"
+        },
+        {
+          "en": "steering wheel",
+          "ja": "ハンドル"
+        },
+        {
+          "en": "tank gun",
+          "ja": "戦車砲"
+        },
+        {
+          "en": "tank turret",
+          "ja": "戦車の砲塔"
+        },
+        {
+          "en": "vehicle interior",
+          "ja": "車内"
+        },
+        {
+          "en": "tank interior",
+          "ja": "タンク内部"
+        },
+        {
+          "en": "vehicle muffler",
+          "ja": "車のマフラー"
+        },
+        {
+          "en": "wheel",
+          "ja": "車輪"
+        },
+        {
+          "en": "unused tire",
+          "ja": "未使用タイヤ"
+        },
+        {
+          "en": "spare tire",
+          "ja": "スペアタイヤ"
+        }
+      ],
+      "対車両兵器": [
+        {
+          "en": "anti-tank dog",
+          "ja": "対戦車犬"
+        },
+        {
+          "en": "anti-tank grenade",
+          "ja": "対戦車手榴弾"
+        },
+        {
+          "en": "anti-tank gun",
+          "ja": "対戦車砲"
+        },
+        {
+          "en": "anti-materiel rifle",
+          "ja": "対物ライフル"
+        },
+        {
+          "en": "anti-tank mine",
+          "ja": "対戦車地雷"
+        },
+        {
+          "en": "bazooka",
+          "ja": "バズーカ"
+        },
+        {
+          "en": "goliath tracked mine",
+          "ja": "ゴリアテは地雷を追跡した"
+        },
+        {
+          "en": "panzerfaust",
+          "ja": "パンツァーファウスト"
+        }
+      ],
+      "マーク": [
+        {
+          "en": "balkenkreuz",
+          "ja": "バルケンクロイツ"
+        },
+        {
+          "en": "chevron",
+          "ja": "シェブロン"
+        },
+        {
+          "en": "emblem",
+          "ja": "エンブレム"
+        },
+        {
+          "en": "hammer and sickle",
+          "ja": "ハンマーと鎌"
+        },
+        {
+          "en": "iron cross",
+          "ja": "鉄十字"
+        },
+        {
+          "en": "itasha",
+          "ja": "痛車"
+        },
+        {
+          "en": "invasion stripes",
+          "ja": "侵略ストライプ"
+        },
+        {
+          "en": "rising sun flag",
+          "ja": "旭日旗"
+        },
+        {
+          "en": "red star",
+          "ja": "赤い星"
+        },
+        {
+          "en": "star of david",
+          "ja": "ダビデの星"
+        },
+        {
+          "en": "swastika",
+          "ja": "卍"
+        },
+        {
+          "en": "z (russian symbol)",
+          "ja": "z（ロシア語の記号）"
+        }
+      ],
+      "職業": [
+        {
+          "en": "driver",
+          "ja": "ドライバ"
+        },
+        {
+          "en": "mechanic",
+          "ja": "メカニック"
+        }
+      ],
+      "衣類": [
+        {
+          "en": "headphones",
+          "ja": "ヘッドフォン"
+        },
+        {
+          "en": "helmet",
+          "ja": "ヘルメット"
+        },
+        {
+          "en": "tank shell",
+          "ja": "戦車砲弾"
+        },
+        {
+          "en": "throat microphone",
+          "ja": "喉マイク"
+        }
+      ]
+    },
+    "ヘリコプター": [
+      {
+        "en": "kamov ka-27",
+        "ja": "カモフ KA-27"
+      },
+      {
+        "en": "kamov ka-50",
+        "ja": "カモフ KA-50"
+      },
+      {
+        "en": "kamov ka-52",
+        "ja": "カモフ KA-52"
+      },
+      {
+        "en": "mi-4",
+        "ja": "mi-4"
+      },
+      {
+        "en": "mi-8",
+        "ja": "mi-8"
+      },
+      {
+        "en": "mi-17",
+        "ja": "mi-17"
+      },
+      {
+        "en": "mi-24",
+        "ja": "mi-24"
+      },
+      {
+        "en": "mi-26",
+        "ja": "mi-26"
+      },
+      {
+        "en": "mi-28",
+        "ja": "mi-28"
+      },
+      {
+        "en": "ah-1 cobra",
+        "ja": "AH-1 コブラ"
+      },
+      {
+        "en": "ah-64 apache",
+        "ja": "AH-64 アパッチ"
+      },
+      {
+        "en": "ch-46 sea knight",
+        "ja": "CH-46 シーナイト"
+      },
+      {
+        "en": "ch-47 chinook",
+        "ja": "CH-47チヌーク"
+      },
+      {
+        "en": "ch-53",
+        "ja": "ch-53"
+      },
+      {
+        "en": "piasecki h-21",
+        "ja": "ピアセッキ H-21"
+      },
+      {
+        "en": "piasecki hup retriever",
+        "ja": "ピアセッキ・ハップ・レトリーバー"
+      },
+      {
+        "en": "uh-1 iroquois",
+        "ja": "UH-1 イロコイ"
+      },
+      {
+        "en": "uh-60 blackhawk",
+        "ja": "UH-60 ブラックホーク"
+      }
+    ],
+    "船": {
+      "ミリタリー": [
+        {
+          "en": "warship",
+          "ja": "軍艦"
+        },
+        {
+          "en": "aircraft carrier",
+          "ja": "空母"
+        },
+        {
+          "en": "battleship",
+          "ja": "戦艦"
+        },
+        {
+          "en": "cruiser",
+          "ja": "クルーザー"
+        },
+        {
+          "en": "destroyer",
+          "ja": "駆逐艦"
+        },
+        {
+          "en": "submarine",
+          "ja": "潜水艦"
+        },
+        {
+          "en": "akagi",
+          "ja": "赤城"
+        },
+        {
+          "en": "hakuryuu",
+          "ja": "白龍"
+        },
+        {
+          "en": "hiryuu",
+          "ja": "飛龍"
+        },
+        {
+          "en": "houshou",
+          "ja": "ほうしょう"
+        },
+        {
+          "en": "jun'you",
+          "ja": "ジュンヨウ"
+        },
+        {
+          "en": "shinano",
+          "ja": "信濃"
+        },
+        {
+          "en": "shouhou",
+          "ja": "しょうほう"
+        },
+        {
+          "en": "shoukaku",
+          "ja": "翔鶴"
+        },
+        {
+          "en": "souryuu",
+          "ja": "蒼龍"
+        },
+        {
+          "en": "taihou",
+          "ja": "タイホウ"
+        },
+        {
+          "en": "uryuu",
+          "ja": "ウリュウ"
+        },
+        {
+          "en": "zuihou",
+          "ja": "瑞鳳"
+        },
+        {
+          "en": "zuikaku",
+          "ja": "瑞鶴"
+        },
+        {
+          "en": "kongou",
+          "ja": "金剛"
+        },
+        {
+          "en": "nagato",
+          "ja": "長門"
+        },
+        {
+          "en": "yamato",
+          "ja": "ヤマト"
+        },
+        {
+          "en": "mikasa",
+          "ja": "ミカサ"
+        },
+        {
+          "en": "haruna",
+          "ja": "春菜"
+        },
+        {
+          "en": "musashi",
+          "ja": "武蔵"
+        },
+        {
+          "en": "kaga",
+          "ja": "加賀"
+        },
+        {
+          "en": "fusou",
+          "ja": "扶桑"
+        },
+        {
+          "en": "ise",
+          "ja": "伊勢"
+        },
+        {
+          "en": "kirishima",
+          "ja": "霧島"
+        },
+        {
+          "en": "hiei",
+          "ja": "比叡"
+        },
+        {
+          "en": "mutsu",
+          "ja": "陸奥"
+        },
+        {
+          "en": "hyuuga",
+          "ja": "日向"
+        },
+        {
+          "en": "shikishima",
+          "ja": "敷島"
+        },
+        {
+          "en": "akatsuki",
+          "ja": "暁"
+        },
+        {
+          "en": "akizuki",
+          "ja": "秋月"
+        },
+        {
+          "en": "amatsukaze",
+          "ja": "天津風"
+        },
+        {
+          "en": "arashio",
+          "ja": "あらしお"
+        },
+        {
+          "en": "asashio",
+          "ja": "朝潮"
+        },
+        {
+          "en": "ayanami",
+          "ja": "綾波"
+        },
+        {
+          "en": "fubuki",
+          "ja": "ふぶき"
+        },
+        {
+          "en": "hamakaze",
+          "ja": "浜風"
+        },
+        {
+          "en": "hanazuki",
+          "ja": "花月"
+        },
+        {
+          "en": "hatsuharu",
+          "ja": "はつはる"
+        },
+        {
+          "en": "hatsuyuki",
+          "ja": "初雪"
+        },
+        {
+          "en": "hayashimo",
+          "ja": "早下"
+        },
+        {
+          "en": "hibiki",
+          "ja": "響"
+        },
+        {
+          "en": "ikazuchi",
+          "ja": "いづち"
+        },
+        {
+          "en": "inazuma",
+          "ja": "イナズマ"
+        },
+        {
+          "en": "iwanami",
+          "ja": "岩波"
+        },
+        {
+          "en": "kamikaze",
+          "ja": "神風"
+        },
+        {
+          "en": "kasumi",
+          "ja": "かすみ"
+        },
+        {
+          "en": "kisaragi",
+          "ja": "如月"
+        },
+        {
+          "en": "kiyoshimo",
+          "ja": "清霜"
+        },
+        {
+          "en": "kuroshio",
+          "ja": "黒潮"
+        },
+        {
+          "en": "michishio",
+          "ja": "みちしお"
+        },
+        {
+          "en": "mochizuki",
+          "ja": "望月"
+        },
+        {
+          "en": "murakumo",
+          "ja": "むらくも"
+        },
+        {
+          "en": "mutsuki",
+          "ja": "睦月"
+        },
+        {
+          "en": "naganami",
+          "ja": "長波"
+        },
+        {
+          "en": "sawarabi",
+          "ja": "サワラビ"
+        },
+        {
+          "en": "shigure",
+          "ja": "しぐれ"
+        },
+        {
+          "en": "shimakaze",
+          "ja": "しまかぜ"
+        },
+        {
+          "en": "shiranui",
+          "ja": "不知火"
+        },
+        {
+          "en": "suzutsuki",
+          "ja": "涼月"
+        },
+        {
+          "en": "teruzuki",
+          "ja": "照月"
+        },
+        {
+          "en": "tokitsukaze",
+          "ja": "時津風"
+        },
+        {
+          "en": "tsubaki",
+          "ja": "椿"
+        },
+        {
+          "en": "ushio",
+          "ja": "うしお"
+        },
+        {
+          "en": "uzuki",
+          "ja": "卯月"
+        },
+        {
+          "en": "yukikaze",
+          "ja": "雪風"
+        },
+        {
+          "en": "yuudachi",
+          "ja": "ゆうだち"
+        },
+        {
+          "en": "abukuma",
+          "ja": "阿武隈"
+        },
+        {
+          "en": "aoba",
+          "ja": "青葉"
+        },
+        {
+          "en": "ashigara",
+          "ja": "足柄"
+        },
+        {
+          "en": "atago",
+          "ja": "愛宕"
+        },
+        {
+          "en": "choukai",
+          "ja": "鳥海"
+        },
+        {
+          "en": "furutaka",
+          "ja": "古高"
+        },
+        {
+          "en": "hashidate",
+          "ja": "橋立"
+        },
+        {
+          "en": "itsukushima",
+          "ja": "厳島"
+        },
+        {
+          "en": "kasuga",
+          "ja": "春日"
+        },
+        {
+          "en": "katori",
+          "ja": "香取"
+        },
+        {
+          "en": "kiso",
+          "ja": "木曽"
+        },
+        {
+          "en": "kitakami",
+          "ja": "北上"
+        },
+        {
+          "en": "kumano",
+          "ja": "熊野"
+        },
+        {
+          "en": "matsushima",
+          "ja": "松島"
+        },
+        {
+          "en": "maya",
+          "ja": "マヤ"
+        },
+        {
+          "en": "mikuma",
+          "ja": "ミクマ"
+        },
+        {
+          "en": "mogami",
+          "ja": "最上"
+        },
+        {
+          "en": "myoukou",
+          "ja": "妙高"
+        },
+        {
+          "en": "naka",
+          "ja": "仲"
+        },
+        {
+          "en": "suzuya",
+          "ja": "鈴谷"
+        },
+        {
+          "en": "takao",
+          "ja": "タカオ"
+        },
+        {
+          "en": "tama",
+          "ja": "たま"
+        },
+        {
+          "en": "yahagi",
+          "ja": "矢作"
+        },
+        {
+          "en": "yoshino",
+          "ja": "吉野"
+        },
+        {
+          "en": "yura",
+          "ja": "ゆら"
+        },
+        {
+          "en": "i-8",
+          "ja": "i-8"
+        },
+        {
+          "en": "i-19",
+          "ja": "i-19"
+        },
+        {
+          "en": "i-41",
+          "ja": "i-41"
+        },
+        {
+          "en": "i-46",
+          "ja": "i-46"
+        },
+        {
+          "en": "i-58",
+          "ja": "i-58"
+        },
+        {
+          "en": "i-68",
+          "ja": "i-68"
+        },
+        {
+          "en": "i-69",
+          "ja": "i-69"
+        },
+        {
+          "en": "i-70",
+          "ja": "I-70"
+        },
+        {
+          "en": "i-400",
+          "ja": "i-400"
+        },
+        {
+          "en": "i-401",
+          "ja": "i-401"
+        },
+        {
+          "en": "uss arizona (bb-39)",
+          "ja": "USSアリゾナ（BB-39）"
+        },
+        {
+          "en": "uss arkansas (bb-33)",
+          "ja": "USSアーカンソー（BB-33）"
+        },
+        {
+          "en": "uss california (bb-44)",
+          "ja": "USSカリフォルニア（BB-44）"
+        },
+        {
+          "en": "uss colorado (bb-45)",
+          "ja": "USSコロラド（BB-45）"
+        },
+        {
+          "en": "uss florida (bb-30)",
+          "ja": "USSフロリダ（BB-30）"
+        },
+        {
+          "en": "uss indiana (bb-58)",
+          "ja": "USSインディアナ（BB-58）"
+        },
+        {
+          "en": "uss iowa (bb-61)",
+          "ja": "USSアイオワ（BB-61）"
+        },
+        {
+          "en": "uss kentucky (bb-66)",
+          "ja": "USSケンタッキー（BB-66）"
+        },
+        {
+          "en": "uss maryland (bb-46)",
+          "ja": "USSメリーランド（BB-46）"
+        },
+        {
+          "en": "uss missouri (bb-63)",
+          "ja": "USSミズーリ（BB-63）"
+        },
+        {
+          "en": "uss montana (bb-67)",
+          "ja": "USSモンタナ（BB-67）"
+        },
+        {
+          "en": "uss nevada (bb-36)",
+          "ja": "USSネバダ（BB-36）"
+        },
+        {
+          "en": "uss new jersey (bb-62)",
+          "ja": "USSニュージャージー（BB-62）"
+        },
+        {
+          "en": "uss new york (bb-34)",
+          "ja": "USSニューヨーク（BB-34）"
+        },
+        {
+          "en": "uss north carolina (bb-55)",
+          "ja": "USSノースカロライナ（BB-55）"
+        },
+        {
+          "en": "uss oklahoma (bb-37)",
+          "ja": "USSオクラホマ（BB-37）"
+        },
+        {
+          "en": "uss pennsylvania (bb-38)",
+          "ja": "USSペンシルバニア（BB-38）"
+        },
+        {
+          "en": "uss south dakota (bb-57)",
+          "ja": "USSサウスダコタ（BB-57）"
+        },
+        {
+          "en": "uss tennessee (bb-43)",
+          "ja": "USSテネシー（BB-43）"
+        },
+        {
+          "en": "uss washington (bb-56)",
+          "ja": "USSワシントン（BB-56）"
+        },
+        {
+          "en": "uss west virginia (bb-48)",
+          "ja": "USSウェストバージニア（BB-48）"
+        },
+        {
+          "en": "uss wisconsin (bb-64)",
+          "ja": "USSウィスコンシン（BB-64）"
+        },
+        {
+          "en": "uss independence (cvl-22)",
+          "ja": "USSインディペンデンス（CVL-22）"
+        },
+        {
+          "en": "uss saipan (cvl-48)",
+          "ja": "USSサイパン（CVL-48）"
+        },
+        {
+          "en": "uss boxer (cv-21)",
+          "ja": "USSボクサー（CV-21）"
+        },
+        {
+          "en": "uss enterprise (cv-6)",
+          "ja": "USSエンタープライズ（CV-6）"
+        },
+        {
+          "en": "uss essex (cv-9)",
+          "ja": "USSエセックス（CV-9）"
+        },
+        {
+          "en": "uss hornet (cv-12)",
+          "ja": "USSホーネット（CV-12）"
+        },
+        {
+          "en": "uss hornet (cv-8)",
+          "ja": "USSホーネット（CV-8）"
+        },
+        {
+          "en": "uss independence (cv-62)",
+          "ja": "USSインディペンデンス（CV-62）"
+        },
+        {
+          "en": "uss intrepid (cv-11)",
+          "ja": "USSイントレピッド（CV-11）"
+        },
+        {
+          "en": "uss kitty hawk (cv-63)",
+          "ja": "USSキティホーク（CV-63）"
+        },
+        {
+          "en": "uss langley (cv-1)",
+          "ja": "USSラングレー（CV-1）"
+        },
+        {
+          "en": "uss lexington (cv-16)",
+          "ja": "USSレキシントン（CV-16）"
+        },
+        {
+          "en": "uss lexington (cv-2)",
+          "ja": "USSレキシントン（CV-2）"
+        },
+        {
+          "en": "uss ranger (cv-4)",
+          "ja": "USSレンジャー（CV-4）"
+        },
+        {
+          "en": "uss ranger (cv-61)",
+          "ja": "USSレンジャー（CV-61）"
+        },
+        {
+          "en": "uss saratoga (cv-3)",
+          "ja": "USSサラトガ（CV-3）"
+        },
+        {
+          "en": "uss wasp (cv-18)",
+          "ja": "USSワスプ（CV-18）"
+        },
+        {
+          "en": "uss wasp (cv-7)",
+          "ja": "USSワスプ（CV-7）"
+        },
+        {
+          "en": "uss yorktown (cv-10)",
+          "ja": "USSヨークタウン（CV-10）"
+        },
+        {
+          "en": "uss yorktown (cv-5)",
+          "ja": "USSヨークタウン（CV-5）"
+        },
+        {
+          "en": "uss enterprise (cvn-65)",
+          "ja": "USSエンタープライズ（CVN-65）"
+        },
+        {
+          "en": "uss george h.w. bush (cvn-77)",
+          "ja": "USSジョージ・H・W・ブッシュ（CVN-77）"
+        },
+        {
+          "en": "uss gerald r ford (cvn-78)",
+          "ja": "USSジェラルド・R・フォード（CVN-78）"
+        },
+        {
+          "en": "uss john f kennedy (cvn-67)",
+          "ja": "USS ジョン・F・ケネディ (CVN-67)"
+        },
+        {
+          "en": "uss ronald reagan (cvn-76)",
+          "ja": "ロナルド・レーガン（CVN-76）"
+        },
+        {
+          "en": "uss theodore roosevelt (cvn-71)",
+          "ja": "USSセオドア・ルーズベルト（CVN-71）"
+        },
+        {
+          "en": "uss arleigh burke (ddg-51)",
+          "ja": "USSアーレイ・バーク（DDG-51）"
+        },
+        {
+          "en": "uss chevalier (dd-805)",
+          "ja": "USSシュヴァリエ（DD-805）"
+        },
+        {
+          "en": "uss converse (dd-509)",
+          "ja": "USSコンバース（DD-509）"
+        },
+        {
+          "en": "uss corry (dd-463)",
+          "ja": "USSコリー（DD-463）"
+        },
+        {
+          "en": "uss edsall (dd-219)",
+          "ja": "USSエドサル（DD-219）"
+        },
+        {
+          "en": "uss everett f. larson (dd-830)",
+          "ja": "USSエヴェレット・F・ラーソン（DD-830）"
+        },
+        {
+          "en": "uss johnston (dd-557)",
+          "ja": "USSジョンストン（DD-557）"
+        },
+        {
+          "en": "uss laffey (dd-459)",
+          "ja": "USSラフィー（DD-459）"
+        },
+        {
+          "en": "uss mahan (dd-364)",
+          "ja": "USSマハン（DD-364）"
+        },
+        {
+          "en": "uss maury (dd-401)",
+          "ja": "米駆逐艦モーリー（DD-401）"
+        },
+        {
+          "en": "uss michael monsoor (dd-1001)",
+          "ja": "USSマイケル・モンスール（DD-1001）"
+        },
+        {
+          "en": "uss new (dd-818)",
+          "ja": "USSニュー（DD-818）"
+        },
+        {
+          "en": "uss o'bannon (dd-450)",
+          "ja": "USSオバノン（DD-450）"
+        },
+        {
+          "en": "uss shaw (dd-373)",
+          "ja": "USSショー（DD-373）"
+        },
+        {
+          "en": "uss smith (dd-378)",
+          "ja": "USSスミス（DD-378）"
+        },
+        {
+          "en": "uss stewart (dd-224)",
+          "ja": "USSスチュワート（DD-224）"
+        },
+        {
+          "en": "uss yarnall (dd-541)",
+          "ja": "USSヤーンオール（DD-541）"
+        },
+        {
+          "en": "uss zumwalt (dd-1000)",
+          "ja": "USSズムウォルト（DD-1000）"
+        },
+        {
+          "en": "uss samuel b roberts (de-413)",
+          "ja": "USSサミュエル・B・ロバーツ（DE-413）"
+        },
+        {
+          "en": "uss albacore (ss-218)",
+          "ja": "USSアルバコア（SS-218）"
+        },
+        {
+          "en": "uss archerfish (ss-311)",
+          "ja": "USSアーチャーフィッシュ（SS-311）"
+        },
+        {
+          "en": "uss cavalla (ss-244)",
+          "ja": "USSカヴァラ（SS-244）"
+        },
+        {
+          "en": "uss charr (ss-328)",
+          "ja": "USSチャール（SS-328）"
+        },
+        {
+          "en": "uss dace (ss-247)",
+          "ja": "USSデイス（SS-247）"
+        },
+        {
+          "en": "uss dolphin (ss-169)",
+          "ja": "USSドルフィン（SS-169）"
+        },
+        {
+          "en": "uss gato (ss-212)",
+          "ja": "USSガトー（SS-212）"
+        },
+        {
+          "en": "uss jallao (ss-368)",
+          "ja": "USSジャラオ（SS-368）"
+        },
+        {
+          "en": "uss mingo (ss-216)",
+          "ja": "USSミンゴ（SS-216）"
+        },
+        {
+          "en": "uss narwhal (ss-167)",
+          "ja": "USSイッカク（SS-167）"
+        },
+        {
+          "en": "uss redfish (ss-395)",
+          "ja": "USSレッドフィッシュ（SS-395）"
+        },
+        {
+          "en": "uss sculpin (ss-191)",
+          "ja": "USSスカルピン（SS-191）"
+        },
+        {
+          "en": "uss skate (ss-305)",
+          "ja": "USSスケート（SS-305）"
+        },
+        {
+          "en": "uss spadefish (ss-411)",
+          "ja": "USSスペードフィッシュ（SS-411）"
+        },
+        {
+          "en": "uss nautilus (ssn-571)",
+          "ja": "USSノーチラス（SSN-571）"
+        },
+        {
+          "en": "uss alabama (ssbn-731)",
+          "ja": "USSアラバマ（SSBN-731）"
+        },
+        {
+          "en": "uss atlanta (cl-51)",
+          "ja": "USSアトランタ（CL-51）"
+        },
+        {
+          "en": "uss boise (cl-47)",
+          "ja": "USSボイシ（CL-47）"
+        },
+        {
+          "en": "uss helena (cl-50)",
+          "ja": "USSヘレナ（CL-50）"
+        },
+        {
+          "en": "uss marblehead (cl-12)",
+          "ja": "USSマーブルヘッド（CL-12）"
+        },
+        {
+          "en": "uss mobile (cl-63)",
+          "ja": "USSモバイル（CL-63）"
+        },
+        {
+          "en": "uss phoenix (cl-46)",
+          "ja": "USSフェニックス（CL-46）"
+        },
+        {
+          "en": "uss raleigh (cl-7)",
+          "ja": "USSローリー（CL-7）"
+        },
+        {
+          "en": "uss san diego (cl-53)",
+          "ja": "USSサンディエゴ（CL-53）"
+        },
+        {
+          "en": "uss santa fe (cl-60)",
+          "ja": "USSサンタフェ（CL-60）"
+        },
+        {
+          "en": "uss astoria (ca-34)",
+          "ja": "USSアストリア（CA-34）"
+        },
+        {
+          "en": "uss chester (ca-27)",
+          "ja": "USSチェスター（CA-27）"
+        },
+        {
+          "en": "uss chicago (ca-29)",
+          "ja": "USSシカゴ（CA-29）"
+        },
+        {
+          "en": "uss des moines (ca-134)",
+          "ja": "USSデモイン（CA-134）"
+        },
+        {
+          "en": "uss houston (ca-30)",
+          "ja": "USSヒューストン（CA-30）"
+        },
+        {
+          "en": "uss indianapolis (ca-35)",
+          "ja": "USSインディアナポリス（CA-35）"
+        },
+        {
+          "en": "uss louisville (ca-28)",
+          "ja": "USSルイビル（CA-28）"
+        },
+        {
+          "en": "uss newport news (ca-148)",
+          "ja": "USSニューポートニュース（CA-148）"
+        },
+        {
+          "en": "uss northampton (ca-26)",
+          "ja": "USSノーサンプトン（CA-26）"
+        },
+        {
+          "en": "uss pensacola (ca-24)",
+          "ja": "USSペンサコーラ（CA-24）"
+        },
+        {
+          "en": "uss quincy (ca-39)",
+          "ja": "USSクインシー（CA-39）"
+        },
+        {
+          "en": "uss salem (ca-139)",
+          "ja": "USSセーラム（CA-139）"
+        },
+        {
+          "en": "uss salt lake city (ca-25)",
+          "ja": "USSソルトレイクシティ（CA-25）"
+        },
+        {
+          "en": "uss san francisco (ca-38)",
+          "ja": "USSサンフランシスコ（CA-38）"
+        },
+        {
+          "en": "uss alaska (cb-1)",
+          "ja": "USSアラスカ（CB-1）"
+        },
+        {
+          "en": "uss ticonderoga (cg-47)",
+          "ja": "USSタイコンデロガ（CG-47）"
+        },
+        {
+          "en": "uss st. louis (c-20)",
+          "ja": "USSセントルイス（C-20）"
+        },
+        {
+          "en": "uss independence (lcs-2)",
+          "ja": "USSインディペンデンス（LCS-2）"
+        },
+        {
+          "en": "uss camden (aoe-2)",
+          "ja": "USSカムデン（AOE-2）"
+        },
+        {
+          "en": "uss medusa (ar-1)",
+          "ja": "USSメデューサ（AR-1）"
+        },
+        {
+          "en": "uss constitution",
+          "ja": "USSコンスティチューション"
+        },
+        {
+          "en": "uss monitor",
+          "ja": "USSモニター"
+        },
+        {
+          "en": "uss powhatan",
+          "ja": "USSポウハタン"
+        }
+      ],
+      "民間": [
+        {
+          "en": "rms queen elizabeth",
+          "ja": "英国女王エリザベス"
+        },
+        {
+          "en": "rms queen mary",
+          "ja": "クイーン・メアリー王立博物館"
+        },
+        {
+          "en": "rms titanic",
+          "ja": "RMSタイタニック"
+        },
+        {
+          "en": "tachibana maru (cargo liner 1935)",
+          "ja": "橘丸（貨物船 1935年）"
+        }
+      ],
+      "パーツ": [
+        {
+          "en": "anchor",
+          "ja": "アンカー"
+        },
+        {
+          "en": "cannon",
+          "ja": "大砲"
+        },
+        {
+          "en": "rigging",
+          "ja": "リギング"
+        },
+        {
+          "en": "turret",
+          "ja": "砲塔"
+        }
+      ],
+      "対艦兵器": [
+        {
+          "en": "bomb",
+          "ja": "爆弾"
+        },
+        {
+          "en": "missile",
+          "ja": "ミサイル"
+        },
+        {
+          "en": "naval mine",
+          "ja": "機雷"
+        },
+        {
+          "en": "torpedo",
+          "ja": "魚雷"
+        }
+      ],
+      "マーク": [
+        {
+          "en": "emblem",
+          "ja": "エンブレム"
+        },
+        {
+          "en": "hammer and sickle",
+          "ja": "ハンマーと鎌"
+        },
+        {
+          "en": "iron cross",
+          "ja": "鉄十字"
+        },
+        {
+          "en": "itasha",
+          "ja": "痛車"
+        },
+        {
+          "en": "rising sun flag",
+          "ja": "旭日旗"
+        },
+        {
+          "en": "star of david",
+          "ja": "ダビデの星"
+        },
+        {
+          "en": "swastika",
+          "ja": "卍"
+        }
+      ],
+      "その他": [
+        {
+          "en": "sailor",
+          "ja": "船員"
+        },
+        {
+          "en": "life vest",
+          "ja": "救命胴衣"
+        },
+        {
+          "en": "fighter jet",
+          "ja": "戦闘機"
+        },
+        {
+          "en": "seaplane",
+          "ja": "水上飛行機"
+        }
+      ]
+    },
+    "オーディオ・楽器": {
+      "デバイス": [
+        {
+          "en": "cd player",
+          "ja": "CDプレーヤー"
+        },
+        {
+          "en": "digital media player",
+          "ja": "デジタルメディアプレーヤー"
+        },
+        {
+          "en": "ipod",
+          "ja": "iPod"
+        },
+        {
+          "en": "iphone",
+          "ja": "iPhone"
+        },
+        {
+          "en": "phonograph",
+          "ja": "蓄音機"
+        },
+        {
+          "en": "sound burger",
+          "ja": "サウンドバーガー"
+        },
+        {
+          "en": "turntable",
+          "ja": "ターンテーブル"
+        },
+        {
+          "en": "radio",
+          "ja": "無線"
+        },
+        {
+          "en": "stereo",
+          "ja": "ステレオ"
+        },
+        {
+          "en": "walkman",
+          "ja": "ウォークマン"
+        },
+        {
+          "en": "earphones",
+          "ja": "イヤホン"
+        },
+        {
+          "en": "earbuds",
+          "ja": "イヤホン"
+        },
+        {
+          "en": "earpiece",
+          "ja": "イヤホン"
+        },
+        {
+          "en": "ear protection",
+          "ja": "耳の保護具"
+        },
+        {
+          "en": "earmuffs",
+          "ja": "耳当て"
+        },
+        {
+          "en": "headphones",
+          "ja": "ヘッドフォン"
+        },
+        {
+          "en": "behind-the-head headphones",
+          "ja": "ヘッドホン"
+        },
+        {
+          "en": "bunny headphones",
+          "ja": "バニーヘッドフォン"
+        },
+        {
+          "en": "cat ear headphones",
+          "ja": "猫耳ヘッドフォン"
+        },
+        {
+          "en": "headphones for animal ears",
+          "ja": "動物の耳用のヘッドフォン"
+        },
+        {
+          "en": "headset",
+          "ja": "ヘッドセット"
+        },
+        {
+          "en": "speaker",
+          "ja": "スピーカー"
+        },
+        {
+          "en": "cassette tape",
+          "ja": "カセットテープ"
+        },
+        {
+          "en": "cd",
+          "ja": "CD"
+        },
+        {
+          "en": "vinyl record",
+          "ja": "ビニールレコード"
+        },
+        {
+          "en": "amplifier",
+          "ja": "増幅器"
+        },
+        {
+          "en": "tube amplifier",
+          "ja": "真空管アンプ"
+        },
+        {
+          "en": "megaphone",
+          "ja": "メガホン"
+        },
+        {
+          "en": "microphone",
+          "ja": "マイクロフォン"
+        },
+        {
+          "en": "microphone stand",
+          "ja": "マイクスタンド"
+        },
+        {
+          "en": "pop filter",
+          "ja": "ポップフィルター"
+        },
+        {
+          "en": "studio microphone",
+          "ja": "スタジオマイク"
+        },
+        {
+          "en": "vintage microphone",
+          "ja": "ビンテージマイク"
+        },
+        {
+          "en": "boom microphone",
+          "ja": "ブームマイク"
+        },
+        {
+          "en": "lavalier microphone",
+          "ja": "ラベリアマイク"
+        },
+        {
+          "en": "mixing console",
+          "ja": "ミキシングコンソール"
+        }
+      ],
+      "楽器": [
+        {
+          "en": "bugle",
+          "ja": "ラッパ"
+        },
+        {
+          "en": "euphonium",
+          "ja": "ユーフォニアム"
+        },
+        {
+          "en": "flugelhorn",
+          "ja": "フリューゲルホルン"
+        },
+        {
+          "en": "french horn",
+          "ja": "フレンチホルン"
+        },
+        {
+          "en": "olifant (instrument)",
+          "ja": "オリファント（楽器）"
+        },
+        {
+          "en": "sousaphone",
+          "ja": "スーザフォン"
+        },
+        {
+          "en": "trombone",
+          "ja": "トロンボーン"
+        },
+        {
+          "en": "bass trombone",
+          "ja": "バストロンボーン"
+        },
+        {
+          "en": "trumpet",
+          "ja": "トランペット"
+        },
+        {
+          "en": "tuba",
+          "ja": "チューバ"
+        },
+        {
+          "en": "bell",
+          "ja": "ベル"
+        },
+        {
+          "en": "cowbell",
+          "ja": "カウベル"
+        },
+        {
+          "en": "handbell",
+          "ja": "ハンドベル"
+        },
+        {
+          "en": "jingle bell",
+          "ja": "ジングルベル"
+        },
+        {
+          "en": "kagura suzu",
+          "ja": "神楽すず"
+        },
+        {
+          "en": "castanets",
+          "ja": "カスタネット"
+        },
+        {
+          "en": "cymbals",
+          "ja": "シンバル"
+        },
+        {
+          "en": "drum",
+          "ja": "ドラム"
+        },
+        {
+          "en": "bongo drums",
+          "ja": "ボンゴドラム"
+        },
+        {
+          "en": "conga drums",
+          "ja": "コンガドラム"
+        },
+        {
+          "en": "drumsticks",
+          "ja": "ドラムスティック"
+        },
+        {
+          "en": "rattle drum",
+          "ja": "ラトルドラム"
+        },
+        {
+          "en": "snare drum",
+          "ja": "スネアドラム"
+        },
+        {
+          "en": "taiko drum",
+          "ja": "太鼓"
+        },
+        {
+          "en": "timpani",
+          "ja": "ティンパニー"
+        },
+        {
+          "en": "tsuzumi",
+          "ja": "鼓"
+        },
+        {
+          "en": "maracas",
+          "ja": "マラカス"
+        },
+        {
+          "en": "marimba",
+          "ja": "マリンバ"
+        },
+        {
+          "en": "mallets_(music)",
+          "ja": "マレット（音楽）"
+        },
+        {
+          "en": "pyeongyeong",
+          "ja": "平壌"
+        },
+        {
+          "en": "sistrum",
+          "ja": "シストラム"
+        },
+        {
+          "en": "tambourine",
+          "ja": "タンバリン"
+        },
+        {
+          "en": "triangle",
+          "ja": "三角形"
+        },
+        {
+          "en": "udu",
+          "ja": "ウドゥ"
+        },
+        {
+          "en": "vibraslap",
+          "ja": "ビブラスラップ"
+        },
+        {
+          "en": "xylophone",
+          "ja": "木琴"
+        },
+        {
+          "en": "banjo",
+          "ja": "バンジョー"
+        },
+        {
+          "en": "balalaika",
+          "ja": "バラライカ"
+        },
+        {
+          "en": "bandura",
+          "ja": "バンデューラ"
+        },
+        {
+          "en": "bass guitar",
+          "ja": "ベースギター"
+        },
+        {
+          "en": "esp btl",
+          "ja": "特にBTL"
+        },
+        {
+          "en": "fender jazz bass",
+          "ja": "フェンダージャズベース"
+        },
+        {
+          "en": "fender precision bass",
+          "ja": "フェンダープレシジョンベース"
+        },
+        {
+          "en": "fender telecaster bass",
+          "ja": "フェンダーテレキャスターベース"
+        },
+        {
+          "en": "gibson sg (bass)",
+          "ja": "ギブソン SG（ベース）"
+        },
+        {
+          "en": "gibson thunderbird",
+          "ja": "ギブソン・サンダーバード"
+        },
+        {
+          "en": "ibanez sr300e",
+          "ja": "アイバニーズ SR300E"
+        },
+        {
+          "en": "music man bongo",
+          "ja": "ミュージックマンボンゴ"
+        },
+        {
+          "en": "music man stingray",
+          "ja": "ミュージックマン・スティングレイ"
+        },
+        {
+          "en": "pj bass",
+          "ja": "PJベース"
+        },
+        {
+          "en": "rickenbacker 4001",
+          "ja": "リッケンバッカー 4001"
+        },
+        {
+          "en": "yamaha attitude",
+          "ja": "ヤマハの姿勢"
+        },
+        {
+          "en": "yamaha broadbass",
+          "ja": "ヤマハ ブロードベース"
+        },
+        {
+          "en": "yamaha trb",
+          "ja": "ヤマハTRB"
+        },
+        {
+          "en": "bow",
+          "ja": "弓"
+        },
+        {
+          "en": "cello",
+          "ja": "チェロ"
+        },
+        {
+          "en": "chapman stick",
+          "ja": "チャップマンスティック"
+        },
+        {
+          "en": "double bass",
+          "ja": "コントラバス"
+        },
+        {
+          "en": "electric double bass",
+          "ja": "エレクトリックコントラバス"
+        },
+        {
+          "en": "erhu",
+          "ja": "二胡"
+        },
+        {
+          "en": "gayageum",
+          "ja": "伽耶琴"
+        },
+        {
+          "en": "guitar",
+          "ja": "ギター"
+        },
+        {
+          "en": "acoustic guitar",
+          "ja": "アコースティックギター"
+        },
+        {
+          "en": "electric guitar",
+          "ja": "エレキギター"
+        },
+        {
+          "en": "casio dg-20",
+          "ja": "カシオ DG-20"
+        },
+        {
+          "en": "duesenberg starplayer",
+          "ja": "デューゼンバーグ スタープレイヤー"
+        },
+        {
+          "en": "esp stream-miku-custom",
+          "ja": "ESP ストリームミク カスタム"
+        },
+        {
+          "en": "fender cyclone",
+          "ja": "フェンダーサイクロン"
+        },
+        {
+          "en": "fender jaguar",
+          "ja": "フェンダージャガー"
+        },
+        {
+          "en": "fender jazzmaster",
+          "ja": "フェンダージャズマスター"
+        },
+        {
+          "en": "fender mustang",
+          "ja": "フェンダーマスタング"
+        },
+        {
+          "en": "fender stratocaster",
+          "ja": "フェンダーストラトキャスター"
+        },
+        {
+          "en": "fender telecaster",
+          "ja": "フェンダーテレキャスター"
+        },
+        {
+          "en": "gibson es-335",
+          "ja": "ギブソン ES-335"
+        },
+        {
+          "en": "gibson explorer",
+          "ja": "ギブソンエクスプローラー"
+        },
+        {
+          "en": "gibson flying v",
+          "ja": "ギブソン フライングV"
+        },
+        {
+          "en": "gibson firebird",
+          "ja": "ギブソン・ファイアーバード"
+        },
+        {
+          "en": "gibson hummingbird",
+          "ja": "ギブソンハチドリ"
+        },
+        {
+          "en": "gibson les paul",
+          "ja": "ギブソン レスポール"
+        },
+        {
+          "en": "gibson rd",
+          "ja": "ギブソン通り"
+        },
+        {
+          "en": "gibson sg",
+          "ja": "ギブソンSG"
+        },
+        {
+          "en": "gretsch 5230",
+          "ja": "グレッチ 5230"
+        },
+        {
+          "en": "gretsch 6120",
+          "ja": "グレッチ 6120"
+        },
+        {
+          "en": "gretsch 6128",
+          "ja": "グレッチ 6128"
+        },
+        {
+          "en": "italia mondial",
+          "ja": "イタリア・モンディアル"
+        },
+        {
+          "en": "jackson king v",
+          "ja": "ジャクソン・キングV"
+        },
+        {
+          "en": "jackson rhoads",
+          "ja": "ジャクソン・ローズ"
+        },
+        {
+          "en": "parker fly",
+          "ja": "パーカーフライ"
+        },
+        {
+          "en": "rickenbacker 325",
+          "ja": "リッケンバッカー 325"
+        },
+        {
+          "en": "rickenbacker 330",
+          "ja": "リッケンバッカー 330"
+        },
+        {
+          "en": "yamaha pacifica",
+          "ja": "ヤマハ パシフィカ"
+        },
+        {
+          "en": "yamaha revstar",
+          "ja": "ヤマハ レブスター"
+        },
+        {
+          "en": "guqin",
+          "ja": "古琴"
+        },
+        {
+          "en": "guzheng",
+          "ja": "古筝"
+        },
+        {
+          "en": "harp",
+          "ja": "ハープ"
+        },
+        {
+          "en": "hammered dulcimer",
+          "ja": "ハンマーダルシマー"
+        },
+        {
+          "en": "lyre",
+          "ja": "竪琴"
+        },
+        {
+          "en": "kantele",
+          "ja": "カンテレ"
+        },
+        {
+          "en": "kokyuu",
+          "ja": "胡弓"
+        },
+        {
+          "en": "koto",
+          "ja": "琴"
+        },
+        {
+          "en": "lute",
+          "ja": "リュート"
+        },
+        {
+          "en": "biwa lute",
+          "ja": "琵琶"
+        },
+        {
+          "en": "phin",
+          "ja": "フィン"
+        },
+        {
+          "en": "electric phin",
+          "ja": "電気フィン"
+        },
+        {
+          "en": "mandolin",
+          "ja": "マンドリン"
+        },
+        {
+          "en": "morin khuur",
+          "ja": "馬頭琴"
+        },
+        {
+          "en": "nyckelharpa",
+          "ja": "ニッケルハルパ"
+        },
+        {
+          "en": "pipa",
+          "ja": "琵琶"
+        },
+        {
+          "en": "plectrum",
+          "ja": "ピック"
+        },
+        {
+          "en": "ruan",
+          "ja": "ルアン"
+        },
+        {
+          "en": "sitar",
+          "ja": "シタール"
+        },
+        {
+          "en": "shamisen",
+          "ja": "三味線"
+        },
+        {
+          "en": "tonkori",
+          "ja": "トンコリ"
+        },
+        {
+          "en": "ukulele",
+          "ja": "ウクレレ"
+        },
+        {
+          "en": "viola",
+          "ja": "ビオラ"
+        },
+        {
+          "en": "violin",
+          "ja": "バイオリン"
+        },
+        {
+          "en": "wolgeum",
+          "ja": "ウォルグム"
+        },
+        {
+          "en": "yueqin",
+          "ja": "岳琴"
+        },
+        {
+          "en": "zither",
+          "ja": "琴"
+        },
+        {
+          "en": "bagpipes",
+          "ja": "バグパイプ"
+        },
+        {
+          "en": "bassoon",
+          "ja": "ファゴット"
+        },
+        {
+          "en": "clarinet",
+          "ja": "クラリネット"
+        },
+        {
+          "en": "crumhorn",
+          "ja": "クルムホルン"
+        },
+        {
+          "en": "electric wind instrument",
+          "ja": "電気管楽器"
+        },
+        {
+          "en": "flute",
+          "ja": "フルート"
+        },
+        {
+          "en": "bass flute",
+          "ja": "バスフルート"
+        },
+        {
+          "en": "fife",
+          "ja": "ファイフ"
+        },
+        {
+          "en": "harmonica",
+          "ja": "ハーモニカ"
+        },
+        {
+          "en": "oboe",
+          "ja": "オーボエ"
+        },
+        {
+          "en": "ocarina",
+          "ja": "オカリナ"
+        },
+        {
+          "en": "recorder",
+          "ja": "レコーダー"
+        },
+        {
+          "en": "saxophone",
+          "ja": "サックス"
+        },
+        {
+          "en": "accordion",
+          "ja": "アコーディオン"
+        },
+        {
+          "en": "concertina",
+          "ja": "コンサーティーナ"
+        },
+        {
+          "en": "melodica",
+          "ja": "メロディカ"
+        },
+        {
+          "en": "harpsichord",
+          "ja": "ハープシコード"
+        },
+        {
+          "en": "hurdy-gurdy",
+          "ja": "ハーディガーディ"
+        },
+        {
+          "en": "keyboard",
+          "ja": "キーボード"
+        },
+        {
+          "en": "keytar",
+          "ja": "ショルダーキーボード"
+        },
+        {
+          "en": "alesis vortex",
+          "ja": "アレシス ボルテックス"
+        },
+        {
+          "en": "korg rk-100",
+          "ja": "コルグ RK-100"
+        },
+        {
+          "en": "korg rk-100s",
+          "ja": "コルグ RK-100S"
+        },
+        {
+          "en": "roland ax-7",
+          "ja": "ローランド AX-7"
+        },
+        {
+          "en": "roland ax-edge",
+          "ja": "ローランド・アックスエッジ"
+        },
+        {
+          "en": "roland ax-synth",
+          "ja": "ローランド AXシンセ"
+        },
+        {
+          "en": "roland lucina ax-09",
+          "ja": "ローランド ルシーナ AX-09"
+        },
+        {
+          "en": "yamaha kx5",
+          "ja": "ヤマハ KX5"
+        },
+        {
+          "en": "yamaha shs-500",
+          "ja": "ヤマハ SHS-500"
+        },
+        {
+          "en": "fender rhodes",
+          "ja": "フェンダー・ローズ"
+        },
+        {
+          "en": "synthesizer",
+          "ja": "シンセサイザー"
+        },
+        {
+          "en": "clavia nord",
+          "ja": "クラヴィア・ノルド"
+        },
+        {
+          "en": "organ",
+          "ja": "器官"
+        },
+        {
+          "en": "electric organ",
+          "ja": "電子オルガン"
+        },
+        {
+          "en": "pipe organ",
+          "ja": "パイプオルガン"
+        },
+        {
+          "en": "organistrum",
+          "ja": "オルガニストラム"
+        },
+        {
+          "en": "piano",
+          "ja": "ピアノ"
+        },
+        {
+          "en": "piano keys",
+          "ja": "ピアノの鍵盤"
+        },
+        {
+          "en": "grand piano",
+          "ja": "グランドピアノ"
+        },
+        {
+          "en": "upright piano",
+          "ja": "アップライトピアノ"
+        },
+        {
+          "en": "jaw harp",
+          "ja": "口琴"
+        },
+        {
+          "en": "kazoo",
+          "ja": "カズー"
+        },
+        {
+          "en": "otamatone",
+          "ja": "オタマトーン"
+        },
+        {
+          "en": "theremin",
+          "ja": "テルミン"
+        }
+      ],
+      "音楽ジャンル": [
+        {
+          "en": "eurobeat",
+          "ja": "ユーロビート"
+        },
+        {
+          "en": "hip hop",
+          "ja": "ヒップホップ"
+        },
+        {
+          "en": "heavy metal",
+          "ja": "重金属"
+        },
+        {
+          "en": "black metal",
+          "ja": "ブラックメタル"
+        },
+        {
+          "en": "jazz",
+          "ja": "ジャズ"
+        },
+        {
+          "en": "j-core",
+          "ja": "jコア"
+        },
+        {
+          "en": "k-pop",
+          "ja": "Kポップ"
+        },
+        {
+          "en": "nerdcore techno",
+          "ja": "ナードコアテクノ"
+        },
+        {
+          "en": "punk",
+          "ja": "パンク"
+        },
+        {
+          "en": "rock",
+          "ja": "ロック"
+        },
+        {
+          "en": "trance",
+          "ja": "トランス"
+        }
+      ],
+      "場所": [
+        {
+          "en": "concert",
+          "ja": "コンサート"
+        },
+        {
+          "en": "radio booth",
+          "ja": "ラジオブース"
+        },
+        {
+          "en": "recording studio",
+          "ja": "レコーディングスタジオ"
+        },
+        {
+          "en": "stage",
+          "ja": "ステージ"
+        }
+      ],
+      "職業": [
+        {
+          "en": "conductor",
+          "ja": "導体"
+        },
+        {
+          "en": "dj",
+          "ja": "DJ"
+        },
+        {
+          "en": "guitar girl",
+          "ja": "ギターガール"
+        },
+        {
+          "en": "idol",
+          "ja": "アイドル"
+        }
+      ],
+      "ブランド": [
+        {
+          "en": "akg",
+          "ja": "アーカーゲー"
+        },
+        {
+          "en": "audio-technica",
+          "ja": "オーディオテクニカ"
+        },
+        {
+          "en": "beats by dr. dre",
+          "ja": "ビーツ・バイ・ドクター・ドレー"
+        },
+        {
+          "en": "beyerdynamic",
+          "ja": "ベイヤーダイナミック"
+        },
+        {
+          "en": "elega",
+          "ja": "エレガ"
+        },
+        {
+          "en": "etymotic research",
+          "ja": "エティモティックリサーチ"
+        },
+        {
+          "en": "grado labs",
+          "ja": "グラードラボ"
+        },
+        {
+          "en": "jvc",
+          "ja": "日本ビクター"
+        },
+        {
+          "en": "kenwood",
+          "ja": "ケンウッド"
+        },
+        {
+          "en": "koss",
+          "ja": "コス"
+        },
+        {
+          "en": "panasonic",
+          "ja": "パナソニック"
+        },
+        {
+          "en": "pioneer",
+          "ja": "パイオニア"
+        },
+        {
+          "en": "sansui",
+          "ja": "山水"
+        },
+        {
+          "en": "sennheiser",
+          "ja": "ゼンハイザー"
+        },
+        {
+          "en": "skullcandy",
+          "ja": "スカルキャンディ"
+        },
+        {
+          "en": "sony",
+          "ja": "ソニー"
+        },
+        {
+          "en": "stax",
+          "ja": "スタックス"
+        },
+        {
+          "en": "ultrasone",
+          "ja": "ウルトラゾーン"
+        },
+        {
+          "en": "v-moda",
+          "ja": "ブイモーダ"
+        }
+      ],
+      "その他": [
+        {
+          "en": "audio visualizer",
+          "ja": "オーディオビジュアライザー"
+        },
+        {
+          "en": "conductor baton",
+          "ja": "指揮棒"
+        },
+        {
+          "en": "horn",
+          "ja": "角"
+        },
+        {
+          "en": "vuvuzela",
+          "ja": "ブブゼラ"
+        },
+        {
+          "en": "instrument",
+          "ja": "楽器"
+        },
+        {
+          "en": "holding instrument",
+          "ja": "保持器具"
+        },
+        {
+          "en": "instrument case",
+          "ja": "楽器ケース"
+        },
+        {
+          "en": "guitar case",
+          "ja": "ギターケース"
+        },
+        {
+          "en": "playing instrument",
+          "ja": "楽器を演奏する"
+        },
+        {
+          "en": "music",
+          "ja": "音楽"
+        },
+        {
+          "en": "notes",
+          "ja": "メモ"
+        },
+        {
+          "en": "musical note",
+          "ja": "音符"
+        },
+        {
+          "en": "spoken musical note",
+          "ja": "音符の発音"
+        },
+        {
+          "en": "treble clef",
+          "ja": "ト音記号"
+        },
+        {
+          "en": "bass clef",
+          "ja": "低音部記号"
+        },
+        {
+          "en": "sheet music",
+          "ja": "楽譜"
+        },
+        {
+          "en": "musical staff",
+          "ja": "音楽スタッフ"
+        },
+        {
+          "en": "music stand",
+          "ja": "譜面台"
+        },
+        {
+          "en": "singing",
+          "ja": "歌う"
+        },
+        {
+          "en": "karaoke",
+          "ja": "カラオケ"
+        },
+        {
+          "en": "opera",
+          "ja": "オペラ"
+        }
+      ]
+    },
+    "カード類": {
+      "メイン": [
+        {
+          "en": "card",
+          "ja": "カード"
+        },
+        {
+          "en": "card game",
+          "ja": "カードゲーム"
+        },
+        {
+          "en": "playing games",
+          "ja": "ゲームをする"
+        }
+      ],
+      "動作": [
+        {
+          "en": "card in mouth",
+          "ja": "口の中のカード"
+        },
+        {
+          "en": "card pendant",
+          "ja": "カードペンダント"
+        },
+        {
+          "en": "card between breasts",
+          "ja": "胸の間にあるカード"
+        },
+        {
+          "en": "holding card",
+          "ja": "カードを持っている"
+        },
+        {
+          "en": "shuffling cards",
+          "ja": "カードをシャッフルする"
+        }
+      ],
+      "タイプ": [
+        {
+          "en": "flash cards",
+          "ja": "フラッシュカード"
+        },
+        {
+          "en": "greeting card",
+          "ja": "グリーティングカード"
+        },
+        {
+          "en": "birthday card",
+          "ja": "誕生日カード"
+        },
+        {
+          "en": "id card",
+          "ja": "身分証明書"
+        },
+        {
+          "en": "credit card",
+          "ja": "クレジットカード"
+        },
+        {
+          "en": "black credit card",
+          "ja": "ブラッククレジットカード"
+        },
+        {
+          "en": "gift card",
+          "ja": "ギフトカード"
+        },
+        {
+          "en": "pasmo",
+          "ja": "パスモ"
+        },
+        {
+          "en": "phonecard",
+          "ja": "電話カード"
+        },
+        {
+          "en": "suica",
+          "ja": "スイカ"
+        },
+        {
+          "en": "trading card",
+          "ja": "トレーディングカード"
+        },
+        {
+          "en": "zener card",
+          "ja": "ツェナーカード"
+        }
+      ],
+      "ゲーム": [
+        {
+          "en": "bingo card",
+          "ja": "ビンゴカード"
+        },
+        {
+          "en": "hanafuda",
+          "ja": "花札"
+        },
+        {
+          "en": "hyakunin isshu",
+          "ja": "百人一首"
+        },
+        {
+          "en": "karuta",
+          "ja": "かるた"
+        },
+        {
+          "en": "iroha karuta",
+          "ja": "いろはかるた"
+        },
+        {
+          "en": "uta-garuta",
+          "ja": "歌ガルタ"
+        },
+        {
+          "en": "playing card",
+          "ja": "トランプ"
+        },
+        {
+          "en": "ace",
+          "ja": "エース"
+        },
+        {
+          "en": "blackjack",
+          "ja": "ブラックジャック"
+        },
+        {
+          "en": "joker",
+          "ja": "ジョーカー"
+        },
+        {
+          "en": "poker",
+          "ja": "ポーカー"
+        },
+        {
+          "en": "solitaire",
+          "ja": "ソリティア"
+        },
+        {
+          "en": "themed playing card",
+          "ja": "テーマ別トランプ"
+        },
+        {
+          "en": "tarot",
+          "ja": "タロット"
+        },
+        {
+          "en": "death",
+          "ja": "死"
+        },
+        {
+          "en": "justice",
+          "ja": "正義"
+        },
+        {
+          "en": "strength",
+          "ja": "強さ"
+        },
+        {
+          "en": "temperance",
+          "ja": "禁酒"
+        },
+        {
+          "en": "the chariot",
+          "ja": "戦車"
+        },
+        {
+          "en": "the devil",
+          "ja": "悪魔"
+        },
+        {
+          "en": "the emperor",
+          "ja": "皇帝"
+        },
+        {
+          "en": "the empress",
+          "ja": "皇后"
+        },
+        {
+          "en": "the fool",
+          "ja": "愚か者"
+        },
+        {
+          "en": "the hanged man",
+          "ja": "絞首刑にされた男"
+        },
+        {
+          "en": "the hermit",
+          "ja": "隠者"
+        },
+        {
+          "en": "the hierophant",
+          "ja": "法王"
+        },
+        {
+          "en": "the high priestess",
+          "ja": "女教皇"
+        },
+        {
+          "en": "the lovers",
+          "ja": "恋人たち"
+        },
+        {
+          "en": "the magician",
+          "ja": "魔術師"
+        },
+        {
+          "en": "the moon",
+          "ja": "月"
+        },
+        {
+          "en": "the star",
+          "ja": "星"
+        },
+        {
+          "en": "the sun",
+          "ja": "太陽"
+        },
+        {
+          "en": "the tower",
+          "ja": "塔"
+        },
+        {
+          "en": "the world",
+          "ja": "世界"
+        },
+        {
+          "en": "wheel of fortune",
+          "ja": "運命の輪"
+        },
+        {
+          "en": "uno",
+          "ja": "ウノ"
+        }
+      ],
+      "カードフェイス": [
+        {
+          "en": "club",
+          "ja": "クラブ"
+        },
+        {
+          "en": "diamond",
+          "ja": "ダイヤモンド"
+        },
+        {
+          "en": "heart",
+          "ja": "心臓"
+        },
+        {
+          "en": "spade",
+          "ja": "スペード"
+        },
+        {
+          "en": "king",
+          "ja": "王"
+        },
+        {
+          "en": "queen",
+          "ja": "女王"
+        },
+        {
+          "en": "jack",
+          "ja": "ジャック"
+        },
+        {
+          "en": "ace of clubs",
+          "ja": "クラブのエース"
+        },
+        {
+          "en": "king of clubs",
+          "ja": "クラブのキング"
+        },
+        {
+          "en": "queen of clubs",
+          "ja": "クラブのクイーン"
+        },
+        {
+          "en": "jack of clubs",
+          "ja": "クラブのジャック"
+        },
+        {
+          "en": "ten of clubs",
+          "ja": "クラブの10"
+        },
+        {
+          "en": "nine of clubs",
+          "ja": "クラブの9"
+        },
+        {
+          "en": "eight of clubs",
+          "ja": "クラブの8"
+        },
+        {
+          "en": "seven of clubs",
+          "ja": "クラブの7"
+        },
+        {
+          "en": "six of clubs",
+          "ja": "クラブの6"
+        },
+        {
+          "en": "five of clubs",
+          "ja": "クラブの5"
+        },
+        {
+          "en": "four of clubs",
+          "ja": "クラブの4"
+        },
+        {
+          "en": "three of clubs",
+          "ja": "クラブの3"
+        },
+        {
+          "en": "two of clubs",
+          "ja": "クラブの2"
+        },
+        {
+          "en": "ace of diamonds",
+          "ja": "ダイヤのエース"
+        },
+        {
+          "en": "king of diamonds",
+          "ja": "ダイヤモンドのキング"
+        },
+        {
+          "en": "queen of diamonds",
+          "ja": "ダイヤモンドの女王"
+        },
+        {
+          "en": "jack of diamonds",
+          "ja": "ダイヤのジャック"
+        },
+        {
+          "en": "ten of diamonds",
+          "ja": "ダイヤの10"
+        },
+        {
+          "en": "nine of diamonds",
+          "ja": "ダイヤの9"
+        },
+        {
+          "en": "eight of diamonds",
+          "ja": "ダイヤの8"
+        },
+        {
+          "en": "seven of diamonds",
+          "ja": "ダイヤの7"
+        },
+        {
+          "en": "six of diamonds",
+          "ja": "ダイヤの6"
+        },
+        {
+          "en": "five of diamonds",
+          "ja": "ダイヤの5"
+        },
+        {
+          "en": "four of diamonds",
+          "ja": "ダイヤの4"
+        },
+        {
+          "en": "three of diamonds",
+          "ja": "ダイヤの3"
+        },
+        {
+          "en": "two of diamonds",
+          "ja": "ダイヤの2"
+        },
+        {
+          "en": "ace of hearts",
+          "ja": "ハートのエース"
+        },
+        {
+          "en": "king of hearts",
+          "ja": "ハートのキング"
+        },
+        {
+          "en": "queen of hearts",
+          "ja": "ハートの女王"
+        },
+        {
+          "en": "jack of hearts",
+          "ja": "ハートのジャック"
+        },
+        {
+          "en": "ten of hearts",
+          "ja": "ハートの10"
+        },
+        {
+          "en": "nine of hearts",
+          "ja": "ハートの9"
+        },
+        {
+          "en": "eight of hearts",
+          "ja": "ハートの8"
+        },
+        {
+          "en": "seven of hearts",
+          "ja": "ハートの7"
+        },
+        {
+          "en": "six of hearts",
+          "ja": "ハートの6"
+        },
+        {
+          "en": "five of hearts",
+          "ja": "ハートの5"
+        },
+        {
+          "en": "four of hearts",
+          "ja": "ハートの4"
+        },
+        {
+          "en": "three of hearts",
+          "ja": "ハートの3"
+        },
+        {
+          "en": "two of hearts",
+          "ja": "ハートの2"
+        },
+        {
+          "en": "ace of spades",
+          "ja": "スペードのエース"
+        },
+        {
+          "en": "king of spades",
+          "ja": "スペードのキング"
+        },
+        {
+          "en": "queen of spades",
+          "ja": "スペードのクイーン"
+        },
+        {
+          "en": "jack of spades",
+          "ja": "スペードのジャック"
+        },
+        {
+          "en": "ten of spades",
+          "ja": "スペードの10"
+        },
+        {
+          "en": "nine of spades",
+          "ja": "スペードの9"
+        },
+        {
+          "en": "eight of spades",
+          "ja": "スペードの8"
+        },
+        {
+          "en": "seven of spades",
+          "ja": "スペードの7"
+        },
+        {
+          "en": "six of spades",
+          "ja": "スペードの6"
+        },
+        {
+          "en": "five of spades",
+          "ja": "スペードの5"
+        },
+        {
+          "en": "four of spades",
+          "ja": "スペードの4"
+        },
+        {
+          "en": "three of spades",
+          "ja": "スペードの3"
+        },
+        {
+          "en": "two of spades",
+          "ja": "スペードの2"
+        }
+      ],
+      "その他": [
+        {
+          "en": "card creature",
+          "ja": "カードクリーチャー"
+        },
+        {
+          "en": "card with aura",
+          "ja": "オーラのあるカード"
+        },
+        {
+          "en": "house of cards",
+          "ja": "カードハウス"
+        },
+        {
+          "en": "card background",
+          "ja": "カードの背景"
+        },
+        {
+          "en": "card (medium)",
+          "ja": "カード"
+        },
+        {
+          "en": "playing card theme",
+          "ja": "トランプテーマ"
+        },
+        {
+          "en": "floating card",
+          "ja": "フローティングカード"
+        }
+      ]
+    }
+  }
+}

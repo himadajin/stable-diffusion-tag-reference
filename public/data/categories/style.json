@@ -1,0 +1,1827 @@
+{
+  "id": "style",
+  "name": "スタイル",
+  "tagCount": 176,
+  "sections": [
+    {
+      "id": "アートスタイル",
+      "name": "アートスタイル",
+      "path": [
+        "アートスタイル"
+      ],
+      "tagCount": 78,
+      "tags": [
+        {
+          "id": "style__アートスタイル__0001",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "afterimage",
+          "ja": "残像"
+        },
+        {
+          "id": "style__アートスタイル__0002",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "glitch",
+          "ja": "グリッチ"
+        },
+        {
+          "id": "style__アートスタイル__0003",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "mosaic art",
+          "ja": "モザイクアート"
+        },
+        {
+          "id": "style__アートスタイル__0004",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "photomosaic",
+          "ja": "フォトモザイク"
+        },
+        {
+          "id": "style__アートスタイル__0005",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "3d",
+          "ja": "3D"
+        },
+        {
+          "id": "style__アートスタイル__0006",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "lineart",
+          "ja": "線画"
+        },
+        {
+          "id": "style__アートスタイル__0007",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "no lineart",
+          "ja": "線画なし"
+        },
+        {
+          "id": "style__アートスタイル__0008",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "outline",
+          "ja": "概要"
+        },
+        {
+          "id": "style__アートスタイル__0009",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "oekaki",
+          "ja": "おえかき"
+        },
+        {
+          "id": "style__アートスタイル__0010",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "pixel art",
+          "ja": "ピクセルアート"
+        },
+        {
+          "id": "style__アートスタイル__0011",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "tegaki",
+          "ja": "てがき"
+        },
+        {
+          "id": "style__アートスタイル__0012",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "vector trace",
+          "ja": "ベクトルトレース"
+        },
+        {
+          "id": "style__アートスタイル__0013",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "ai-generated",
+          "ja": "AI生成"
+        },
+        {
+          "id": "style__アートスタイル__0014",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "abstract",
+          "ja": "抽象的な"
+        },
+        {
+          "id": "style__アートスタイル__0015",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "art deco",
+          "ja": "アールデコ"
+        },
+        {
+          "id": "style__アートスタイル__0016",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "art nouveau",
+          "ja": "アールヌーボー"
+        },
+        {
+          "id": "style__アートスタイル__0017",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "fake photograph",
+          "ja": "偽の写真"
+        },
+        {
+          "id": "style__アートスタイル__0018",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "fine art parody",
+          "ja": "美術パロディ"
+        },
+        {
+          "id": "style__アートスタイル__0019",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "flame painter",
+          "ja": "炎の画家"
+        },
+        {
+          "id": "style__アートスタイル__0020",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "impressionism",
+          "ja": "印象派"
+        },
+        {
+          "id": "style__アートスタイル__0021",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "ligne claire",
+          "ja": "リーン・クレール"
+        },
+        {
+          "id": "style__アートスタイル__0022",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "minimalism",
+          "ja": "ミニマリズム"
+        },
+        {
+          "id": "style__アートスタイル__0023",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "nihonga",
+          "ja": "日本画"
+        },
+        {
+          "id": "style__アートスタイル__0024",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "sumi-e",
+          "ja": "墨絵"
+        },
+        {
+          "id": "style__アートスタイル__0025",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "ukiyo-e",
+          "ja": "浮世絵"
+        },
+        {
+          "id": "style__アートスタイル__0026",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "painterly",
+          "ja": "絵画的な"
+        },
+        {
+          "id": "style__アートスタイル__0027",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "realistic",
+          "ja": "現実的"
+        },
+        {
+          "id": "style__アートスタイル__0028",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "photorealistic",
+          "ja": "フォトリアリスティック"
+        },
+        {
+          "id": "style__アートスタイル__0029",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "sketch",
+          "ja": "スケッチ"
+        },
+        {
+          "id": "style__アートスタイル__0030",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "style parody",
+          "ja": "スタイルのパロディ"
+        },
+        {
+          "id": "style__アートスタイル__0031",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "list of style parodies",
+          "ja": "スタイルパロディのリスト"
+        },
+        {
+          "id": "style__アートスタイル__0032",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "surreal",
+          "ja": "シュール"
+        },
+        {
+          "id": "style__アートスタイル__0033",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "traditional media",
+          "ja": "従来のメディア"
+        },
+        {
+          "id": "style__アートスタイル__0034",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "faux traditional media",
+          "ja": "偽の伝統メディア"
+        },
+        {
+          "id": "style__アートスタイル__0035",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "unfinished",
+          "ja": "未完成"
+        },
+        {
+          "id": "style__アートスタイル__0036",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "retro artstyle",
+          "ja": "レトロなアートスタイル"
+        },
+        {
+          "id": "style__アートスタイル__0037",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1920s",
+          "ja": "1920年代"
+        },
+        {
+          "id": "style__アートスタイル__0038",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1930s",
+          "ja": "1930年代"
+        },
+        {
+          "id": "style__アートスタイル__0039",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1940s",
+          "ja": "1940年代"
+        },
+        {
+          "id": "style__アートスタイル__0040",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1950s",
+          "ja": "1950年代"
+        },
+        {
+          "id": "style__アートスタイル__0041",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1960s",
+          "ja": "1960年代"
+        },
+        {
+          "id": "style__アートスタイル__0042",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1970s",
+          "ja": "1970年代"
+        },
+        {
+          "id": "style__アートスタイル__0043",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1980s",
+          "ja": "1980年代"
+        },
+        {
+          "id": "style__アートスタイル__0044",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1990s",
+          "ja": "1990年代"
+        },
+        {
+          "id": "style__アートスタイル__0045",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "2000s",
+          "ja": "2000年代"
+        },
+        {
+          "id": "style__アートスタイル__0046",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "animification",
+          "ja": "アニメーション化"
+        },
+        {
+          "id": "style__アートスタイル__0047",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "pinup",
+          "ja": "ピンナップ"
+        },
+        {
+          "id": "style__アートスタイル__0048",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "toon",
+          "ja": "トゥーン"
+        },
+        {
+          "id": "style__アートスタイル__0049",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "cartoonized",
+          "ja": "漫画化された"
+        },
+        {
+          "id": "style__アートスタイル__0050",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "western comics",
+          "ja": "西部劇コミック"
+        },
+        {
+          "id": "style__アートスタイル__0051",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "acid graphics",
+          "ja": "アシッドグラフィック"
+        },
+        {
+          "id": "style__アートスタイル__0052",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "biopunk",
+          "ja": "バイオパンク"
+        },
+        {
+          "id": "style__アートスタイル__0053",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "blingee",
+          "ja": "ブリンギー"
+        },
+        {
+          "id": "style__アートスタイル__0054",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "choco girl",
+          "ja": "チョコガール"
+        },
+        {
+          "id": "style__アートスタイル__0055",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "cyberpunk",
+          "ja": "サイバーパンク"
+        },
+        {
+          "id": "style__アートスタイル__0056",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "dieselpunk",
+          "ja": "ディーゼルパンク"
+        },
+        {
+          "id": "style__アートスタイル__0057",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "dunhuang style",
+          "ja": "敦煌風"
+        },
+        {
+          "id": "style__アートスタイル__0058",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "frutiger aero",
+          "ja": "フルティガーエアロ"
+        },
+        {
+          "id": "style__アートスタイル__0059",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "frutiger metro",
+          "ja": "フルティガーメトロ"
+        },
+        {
+          "id": "style__アートスタイル__0060",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "gurokawa",
+          "ja": "黒川"
+        },
+        {
+          "id": "style__アートスタイル__0061",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "heisei retro",
+          "ja": "平成レトロ"
+        },
+        {
+          "id": "style__アートスタイル__0062",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "shoe diva",
+          "ja": "靴のディーバ"
+        },
+        {
+          "id": "style__アートスタイル__0063",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "silkpunk",
+          "ja": "シルクパンク"
+        },
+        {
+          "id": "style__アートスタイル__0064",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "steampunk",
+          "ja": "スチームパンク"
+        },
+        {
+          "id": "style__アートスタイル__0065",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "synthwave",
+          "ja": "シンセウェーブ"
+        },
+        {
+          "id": "style__アートスタイル__0066",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "tenshi kaiwai",
+          "ja": "天使かいわい"
+        },
+        {
+          "id": "style__アートスタイル__0067",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "weirdcore",
+          "ja": "ウィアードコア"
+        },
+        {
+          "id": "style__アートスタイル__0068",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "vaporwave",
+          "ja": "ヴェイパーウェイヴ"
+        },
+        {
+          "id": "style__アートスタイル__0069",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "yami kawaii",
+          "ja": "ヤミかわいい"
+        },
+        {
+          "id": "style__アートスタイル__0070",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "yume kawaii",
+          "ja": "ゆめかわいい"
+        },
+        {
+          "id": "style__アートスタイル__0071",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1980s (style)",
+          "ja": "1980年代（スタイル）"
+        },
+        {
+          "id": "style__アートスタイル__0072",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "1990s (style)",
+          "ja": "1990年代（スタイル）"
+        },
+        {
+          "id": "style__アートスタイル__0073",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "2000s (style)",
+          "ja": "2000年代（スタイル）"
+        },
+        {
+          "id": "style__アートスタイル__0074",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "cave paintings",
+          "ja": "洞窟壁画"
+        },
+        {
+          "id": "style__アートスタイル__0075",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "cubism",
+          "ja": "キュービズム"
+        },
+        {
+          "id": "style__アートスタイル__0076",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "low poly",
+          "ja": "ローポリ"
+        },
+        {
+          "id": "style__アートスタイル__0077",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "cyber sigilism",
+          "ja": "サイバーシグニズム"
+        },
+        {
+          "id": "style__アートスタイル__0078",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "アートスタイル"
+          ],
+          "en": "flourish",
+          "ja": "繁栄する"
+        }
+      ]
+    },
+    {
+      "id": "効果",
+      "name": "効果",
+      "path": [
+        "効果"
+      ],
+      "tagCount": 24,
+      "tags": [
+        {
+          "id": "style__効果__0001",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "blending",
+          "ja": "ブレンド"
+        },
+        {
+          "id": "style__効果__0002",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "bloom",
+          "ja": "咲く"
+        },
+        {
+          "id": "style__効果__0003",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "bokeh",
+          "ja": "ボケ"
+        },
+        {
+          "id": "style__効果__0004",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "caustics",
+          "ja": "コースティクス"
+        },
+        {
+          "id": "style__効果__0005",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "chromatic aberration",
+          "ja": "色収差"
+        },
+        {
+          "id": "style__効果__0006",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "heavy chromatic aberration",
+          "ja": "重度の色収差"
+        },
+        {
+          "id": "style__効果__0007",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "diffraction spikes",
+          "ja": "回折スパイク"
+        },
+        {
+          "id": "style__効果__0008",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "depth of field",
+          "ja": "被写界深度"
+        },
+        {
+          "id": "style__効果__0009",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "distortion",
+          "ja": "ねじれ"
+        },
+        {
+          "id": "style__効果__0010",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "double exposure",
+          "ja": "二重曝露"
+        },
+        {
+          "id": "style__効果__0011",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "drop shadow",
+          "ja": "ドロップシャドウ"
+        },
+        {
+          "id": "style__効果__0012",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "emphasis lines",
+          "ja": "強調線"
+        },
+        {
+          "id": "style__効果__0013",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "foreshortening",
+          "ja": "短縮法"
+        },
+        {
+          "id": "style__効果__0014",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "glitch",
+          "ja": "グリッチ"
+        },
+        {
+          "id": "style__効果__0015",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "high contrast",
+          "ja": "高コントラスト"
+        },
+        {
+          "id": "style__効果__0016",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "lens flare",
+          "ja": "レンズフレア"
+        },
+        {
+          "id": "style__効果__0017",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "heavy lens flare",
+          "ja": "強いレンズフレア"
+        },
+        {
+          "id": "style__効果__0018",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "motion blur",
+          "ja": "モーションブラー"
+        },
+        {
+          "id": "style__効果__0019",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "motion lines",
+          "ja": "モーションライン"
+        },
+        {
+          "id": "style__効果__0020",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "multiple monochrome",
+          "ja": "複数のモノクロ"
+        },
+        {
+          "id": "style__効果__0021",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "overexposure",
+          "ja": "露出曝露"
+        },
+        {
+          "id": "style__効果__0022",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "silhouette",
+          "ja": "シルエット"
+        },
+        {
+          "id": "style__効果__0023",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "speed lines",
+          "ja": "スピードライン"
+        },
+        {
+          "id": "style__効果__0024",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "効果"
+          ],
+          "en": "vignetting",
+          "ja": "ケラレ"
+        }
+      ]
+    },
+    {
+      "id": "質感",
+      "name": "質感",
+      "path": [
+        "質感"
+      ],
+      "tagCount": 13,
+      "tags": [
+        {
+          "id": "style__質感__0001",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "dithering",
+          "ja": "ディザリング"
+        },
+        {
+          "id": "style__質感__0002",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "film grain",
+          "ja": "フィルム粒子"
+        },
+        {
+          "id": "style__質感__0003",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "gradient",
+          "ja": "勾配"
+        },
+        {
+          "id": "style__質感__0004",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "halftone",
+          "ja": "ハーフトーン"
+        },
+        {
+          "id": "style__質感__0005",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "hatching (texture)",
+          "ja": "ハッチング（テクスチャ）"
+        },
+        {
+          "id": "style__質感__0006",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "linear hatching",
+          "ja": "線状ハッチング"
+        },
+        {
+          "id": "style__質感__0007",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "crosshatching",
+          "ja": "クロスハッチング"
+        },
+        {
+          "id": "style__質感__0008",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "woven hatching",
+          "ja": "織りハッチング"
+        },
+        {
+          "id": "style__質感__0009",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "pointillism",
+          "ja": "点描画"
+        },
+        {
+          "id": "style__質感__0010",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "scanlines",
+          "ja": "走査線"
+        },
+        {
+          "id": "style__質感__0011",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "screentones",
+          "ja": "スクリーントーン"
+        },
+        {
+          "id": "style__質感__0012",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "ben-day dots",
+          "ja": "ベンデイドット"
+        },
+        {
+          "id": "style__質感__0013",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "質感"
+          ],
+          "en": "stippling (texture)",
+          "ja": "点描（テクスチャ）"
+        }
+      ]
+    },
+    {
+      "id": "トリック",
+      "name": "トリック",
+      "path": [
+        "トリック"
+      ],
+      "tagCount": 7,
+      "tags": [
+        {
+          "id": "style__トリック__0001",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "トリック"
+          ],
+          "en": "optical illusion",
+          "ja": "錯視"
+        },
+        {
+          "id": "style__トリック__0002",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "トリック"
+          ],
+          "en": "anaglyph",
+          "ja": "アナグリフ"
+        },
+        {
+          "id": "style__トリック__0003",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "トリック"
+          ],
+          "en": "exif thumbnail surprise",
+          "ja": "exifサムネイルサプライズ"
+        },
+        {
+          "id": "style__トリック__0004",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "トリック"
+          ],
+          "en": "thumbnail surprise",
+          "ja": "サムネイルサプライズ"
+        },
+        {
+          "id": "style__トリック__0005",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "トリック"
+          ],
+          "en": "open in internet explorer",
+          "ja": "インターネットエクスプローラーで開く"
+        },
+        {
+          "id": "style__トリック__0006",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "トリック"
+          ],
+          "en": "open in winamp",
+          "ja": "Winampで開く"
+        },
+        {
+          "id": "style__トリック__0007",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "トリック"
+          ],
+          "en": "stereogram",
+          "ja": "ステレオグラム"
+        }
+      ]
+    },
+    {
+      "id": "特殊",
+      "name": "特殊",
+      "path": [
+        "特殊"
+      ],
+      "tagCount": 25,
+      "tags": [
+        {
+          "id": "style__特殊__0001",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "animated",
+          "ja": "アニメーション"
+        },
+        {
+          "id": "style__特殊__0002",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "animated gif",
+          "ja": "アニメーションGIF"
+        },
+        {
+          "id": "style__特殊__0003",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "easytoon",
+          "ja": "イージートゥーン"
+        },
+        {
+          "id": "style__特殊__0004",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "flipaclip",
+          "ja": "フリップクリップ"
+        },
+        {
+          "id": "style__特殊__0005",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "non-repeating animation",
+          "ja": "繰り返しのないアニメーション"
+        },
+        {
+          "id": "style__特殊__0006",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "animated png",
+          "ja": "アニメーションPNG"
+        },
+        {
+          "id": "style__特殊__0007",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "flash",
+          "ja": "フラッシュ"
+        },
+        {
+          "id": "style__特殊__0008",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "live2d",
+          "ja": "ライブ2D"
+        },
+        {
+          "id": "style__特殊__0009",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "video",
+          "ja": "ビデオ"
+        },
+        {
+          "id": "style__特殊__0010",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "music video",
+          "ja": "ミュージックビデオ"
+        },
+        {
+          "id": "style__特殊__0011",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "looping animation",
+          "ja": "ループアニメーション"
+        },
+        {
+          "id": "style__特殊__0012",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "roulette animation",
+          "ja": "ルーレットアニメーション"
+        },
+        {
+          "id": "style__特殊__0013",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "anime screenshot",
+          "ja": "アニメのスクリーンショット"
+        },
+        {
+          "id": "style__特殊__0014",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "archived file",
+          "ja": "アーカイブされたファイル"
+        },
+        {
+          "id": "style__特殊__0015",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "corrupted file",
+          "ja": "破損したファイル"
+        },
+        {
+          "id": "style__特殊__0016",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "corrupted twitter file",
+          "ja": "破損したTwitterファイル"
+        },
+        {
+          "id": "style__特殊__0017",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "fake cover",
+          "ja": "偽のカバー"
+        },
+        {
+          "id": "style__特殊__0018",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "fake screenshot",
+          "ja": "偽のスクリーンショット"
+        },
+        {
+          "id": "style__特殊__0019",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "fake phone screenshot",
+          "ja": "偽の携帯電話のスクリーンショット"
+        },
+        {
+          "id": "style__特殊__0020",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "game screenshot",
+          "ja": "ゲームのスクリーンショット"
+        },
+        {
+          "id": "style__特殊__0021",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "official art",
+          "ja": "公式アート"
+        },
+        {
+          "id": "style__特殊__0022",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "revision",
+          "ja": "リビジョン"
+        },
+        {
+          "id": "style__特殊__0023",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "off-topic",
+          "ja": "話題外"
+        },
+        {
+          "id": "style__特殊__0024",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "iei",
+          "ja": "いいえ"
+        },
+        {
+          "id": "style__特殊__0025",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "特殊"
+          ],
+          "en": "tag group:focus tags",
+          "ja": "タググループ:フォーカスタグ"
+        }
+      ]
+    },
+    {
+      "id": "媒体",
+      "name": "媒体",
+      "path": [
+        "媒体"
+      ],
+      "tagCount": 29,
+      "tags": [
+        {
+          "id": "style__媒体__0001",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "artbook",
+          "ja": "アートブック"
+        },
+        {
+          "id": "style__媒体__0002",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "calendar (medium)",
+          "ja": "カレンダー（中）"
+        },
+        {
+          "id": "style__媒体__0003",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "card (medium)",
+          "ja": "カード（中）"
+        },
+        {
+          "id": "style__媒体__0004",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "comic",
+          "ja": "漫画"
+        },
+        {
+          "id": "style__媒体__0005",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "cover",
+          "ja": "カバー"
+        },
+        {
+          "id": "style__媒体__0006",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "album cover",
+          "ja": "アルバムカバー"
+        },
+        {
+          "id": "style__媒体__0007",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "character single",
+          "ja": "キャラクターシングル"
+        },
+        {
+          "id": "style__媒体__0008",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "cover page",
+          "ja": "表紙"
+        },
+        {
+          "id": "style__媒体__0009",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "doujin cover",
+          "ja": "同人カバー"
+        },
+        {
+          "id": "style__媒体__0010",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "dvd cover",
+          "ja": "DVDカバー"
+        },
+        {
+          "id": "style__媒体__0011",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "magazine cover",
+          "ja": "雑誌の表紙"
+        },
+        {
+          "id": "style__媒体__0012",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "manga cover",
+          "ja": "漫画の表紙"
+        },
+        {
+          "id": "style__媒体__0013",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "video game cover",
+          "ja": "ビデオゲームのカバー"
+        },
+        {
+          "id": "style__媒体__0014",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "game cg",
+          "ja": "ゲームCG"
+        },
+        {
+          "id": "style__媒体__0015",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "gyotaku (medium)",
+          "ja": "魚拓（中）"
+        },
+        {
+          "id": "style__媒体__0016",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "icon",
+          "ja": "アイコン"
+        },
+        {
+          "id": "style__媒体__0017",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "logo",
+          "ja": "ロゴ"
+        },
+        {
+          "id": "style__媒体__0018",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "kirigami",
+          "ja": "切り紙"
+        },
+        {
+          "id": "style__媒体__0019",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "phonecard",
+          "ja": "電話カード"
+        },
+        {
+          "id": "style__媒体__0020",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "photo",
+          "ja": "写真"
+        },
+        {
+          "id": "style__媒体__0021",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "papercraft",
+          "ja": "ペーパークラフト"
+        },
+        {
+          "id": "style__媒体__0022",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "paper child",
+          "ja": "紙の子供"
+        },
+        {
+          "id": "style__媒体__0023",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "paper cutout",
+          "ja": "切り絵"
+        },
+        {
+          "id": "style__媒体__0024",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "postcard",
+          "ja": "ポストカード"
+        },
+        {
+          "id": "style__媒体__0025",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "poster",
+          "ja": "ポスター"
+        },
+        {
+          "id": "style__媒体__0026",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "scan",
+          "ja": "スキャン"
+        },
+        {
+          "id": "style__媒体__0027",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "shitajiki",
+          "ja": "下敷"
+        },
+        {
+          "id": "style__媒体__0028",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "wallpaper",
+          "ja": "壁紙"
+        },
+        {
+          "id": "style__媒体__0029",
+          "categoryId": "style",
+          "categoryName": "スタイル",
+          "path": [
+            "媒体"
+          ],
+          "en": "official wallpaper",
+          "ja": "公式壁紙"
+        }
+      ]
+    }
+  ]
+}

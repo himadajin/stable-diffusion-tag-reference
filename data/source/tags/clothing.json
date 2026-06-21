@@ -1,0 +1,8968 @@
+{
+  "id": "clothing",
+  "name": "服飾",
+  "tree": {
+    "アクセサリー": {
+      "頭": [
+        {
+          "en": "bandana",
+          "ja": "バンダナ"
+        },
+        {
+          "en": "bindi",
+          "ja": "ビンディ"
+        },
+        {
+          "en": "bonnet",
+          "ja": "ボンネット"
+        },
+        {
+          "en": "circlet",
+          "ja": "サークレット"
+        },
+        {
+          "en": "crown",
+          "ja": "クラウン"
+        },
+        {
+          "en": "mini crown",
+          "ja": "ミニクラウン"
+        },
+        {
+          "en": "ear covers",
+          "ja": "耳カバー"
+        },
+        {
+          "en": "ear cuffs",
+          "ja": "イヤーカフ"
+        },
+        {
+          "en": "earmuffs",
+          "ja": "耳当て"
+        },
+        {
+          "en": "ear ornament",
+          "ja": "耳飾り"
+        },
+        {
+          "en": "fake animal ears",
+          "ja": "偽の動物の耳"
+        },
+        {
+          "en": "fascinator",
+          "ja": "魅惑的な"
+        },
+        {
+          "en": "goggles",
+          "ja": "ゴーグル"
+        },
+        {
+          "en": "glasses",
+          "ja": "眼鏡"
+        },
+        {
+          "en": "hairband",
+          "ja": "ヘアバンド"
+        },
+        {
+          "en": "chain hairband",
+          "ja": "チェーンヘアバンド"
+        },
+        {
+          "en": "frilled hairband",
+          "ja": "フリルヘアバンド"
+        },
+        {
+          "en": "hair extensions",
+          "ja": "ヘアエクステンション"
+        },
+        {
+          "en": "cyberlox",
+          "ja": "サイバーロックス"
+        },
+        {
+          "en": "raccoon tails",
+          "ja": "アライグマの尻尾"
+        },
+        {
+          "en": "ring hair extensions",
+          "ja": "リングヘアエクステンション"
+        },
+        {
+          "en": "hair ornament",
+          "ja": "髪飾り"
+        },
+        {
+          "en": "hair beads",
+          "ja": "ヘアビーズ"
+        },
+        {
+          "en": "hair bobbles",
+          "ja": "ヘアゴム"
+        },
+        {
+          "en": "hair bow",
+          "ja": "ヘアボウ"
+        },
+        {
+          "en": "hairclip",
+          "ja": "ヘアクリップ"
+        },
+        {
+          "en": "hair flower",
+          "ja": "髪の花"
+        },
+        {
+          "en": "hairpin",
+          "ja": "ヘアピン"
+        },
+        {
+          "en": "hair ribbon",
+          "ja": "ヘアリボン"
+        },
+        {
+          "en": "hair scrunchie",
+          "ja": "ヘアシュシュ"
+        },
+        {
+          "en": "hair stick",
+          "ja": "ヘアスティック"
+        },
+        {
+          "en": "hair tubes",
+          "ja": "ヘアチューブ"
+        },
+        {
+          "en": "kanzashi",
+          "ja": "かんざし"
+        },
+        {
+          "en": "hat",
+          "ja": "帽子"
+        },
+        {
+          "en": "mini hat",
+          "ja": "ミニハット"
+        },
+        {
+          "en": "headband",
+          "ja": "ヘッドバンド"
+        },
+        {
+          "en": "chain headband",
+          "ja": "チェーンヘッドバンド"
+        },
+        {
+          "en": "forehead protector",
+          "ja": "額プロテクター"
+        },
+        {
+          "en": "hachimaki",
+          "ja": "ハチマキ"
+        },
+        {
+          "en": "sweatband",
+          "ja": "汗止めバンド"
+        },
+        {
+          "en": "head chain",
+          "ja": "ヘッドチェーン"
+        },
+        {
+          "en": "head-mounted display",
+          "ja": "ヘッドマウントディスプレイ"
+        },
+        {
+          "en": "headpiece",
+          "ja": "ヘッドピース"
+        },
+        {
+          "en": "headphones",
+          "ja": "ヘッドフォン"
+        },
+        {
+          "en": "earphones",
+          "ja": "イヤホン"
+        },
+        {
+          "en": "earpiece",
+          "ja": "イヤホン"
+        },
+        {
+          "en": "headset",
+          "ja": "ヘッドセット"
+        },
+        {
+          "en": "headscarf",
+          "ja": "スカーフ"
+        },
+        {
+          "en": "hijab",
+          "ja": "ヒジャブ"
+        },
+        {
+          "en": "head wreath",
+          "ja": "頭花輪"
+        },
+        {
+          "en": "vinok",
+          "ja": "ヴィノック"
+        },
+        {
+          "en": "horn ornament",
+          "ja": "角飾り"
+        },
+        {
+          "en": "lappet",
+          "ja": "ラペット"
+        },
+        {
+          "en": "laurel crown",
+          "ja": "月桂冠"
+        },
+        {
+          "en": "safety glasses",
+          "ja": "安全メガネ"
+        },
+        {
+          "en": "sunglasses",
+          "ja": "サングラス"
+        },
+        {
+          "en": "tiara",
+          "ja": "ティアラ"
+        },
+        {
+          "en": "triangular headpiece",
+          "ja": "三角形のヘッドピース"
+        },
+        {
+          "en": "veil",
+          "ja": "ベール"
+        },
+        {
+          "en": "wig",
+          "ja": "かつら"
+        },
+        {
+          "en": "ear chain",
+          "ja": "耳チェーン"
+        }
+      ],
+      "首": [
+        {
+          "en": "ascot",
+          "ja": "アスコット"
+        },
+        {
+          "en": "bib",
+          "ja": "よだれかけ"
+        },
+        {
+          "en": "bowtie",
+          "ja": "ちょうネクタイ"
+        },
+        {
+          "en": "changmingsuo",
+          "ja": "チャンミンスオ"
+        },
+        {
+          "en": "chin strap",
+          "ja": "あごストラップ"
+        },
+        {
+          "en": "choker",
+          "ja": "チョーカー"
+        },
+        {
+          "en": "frilled choker",
+          "ja": "フリルチョーカー"
+        },
+        {
+          "en": "tattoo choker",
+          "ja": "タトゥーチョーカー"
+        },
+        {
+          "en": "collar",
+          "ja": "襟"
+        },
+        {
+          "en": "collar chain",
+          "ja": "首輪チェーン"
+        },
+        {
+          "en": "collar tips",
+          "ja": "襟の先端"
+        },
+        {
+          "en": "cross tie",
+          "ja": "クロスタイ"
+        },
+        {
+          "en": "dog tags",
+          "ja": "ドッグタグ"
+        },
+        {
+          "en": "feather boa",
+          "ja": "フェザーボア"
+        },
+        {
+          "en": "guimpe",
+          "ja": "ギンペ"
+        },
+        {
+          "en": "lapel pin",
+          "ja": "ラペルピン"
+        },
+        {
+          "en": "lei",
+          "ja": "レイ"
+        },
+        {
+          "en": "neck ruff",
+          "ja": "首のラフ"
+        },
+        {
+          "en": "neckerchief",
+          "ja": "ネッカチーフ"
+        },
+        {
+          "en": "necklace",
+          "ja": "ネックレス"
+        },
+        {
+          "en": "neck ribbon",
+          "ja": "ネックリボン"
+        },
+        {
+          "en": "neck ring",
+          "ja": "ネックリング"
+        },
+        {
+          "en": "necktie",
+          "ja": "ネクタイ"
+        },
+        {
+          "en": "tie clip",
+          "ja": "ネクタイピン"
+        },
+        {
+          "en": "scarf",
+          "ja": "スカーフ"
+        },
+        {
+          "en": "scarf choker",
+          "ja": "スカーフチョーカー"
+        },
+        {
+          "en": "shawl",
+          "ja": "ショール"
+        },
+        {
+          "en": "stole",
+          "ja": "ストール"
+        },
+        {
+          "en": "usekh collar",
+          "ja": "ウセクカラー"
+        },
+        {
+          "en": "bow",
+          "ja": "弓"
+        }
+      ],
+      "腕": [
+        {
+          "en": "armband",
+          "ja": "腕章"
+        },
+        {
+          "en": "arm belt",
+          "ja": "アームベルト"
+        },
+        {
+          "en": "arm garter",
+          "ja": "アームガーター"
+        },
+        {
+          "en": "armlet",
+          "ja": "腕輪"
+        },
+        {
+          "en": "arm ribbon",
+          "ja": "腕リボン"
+        },
+        {
+          "en": "arm warmers",
+          "ja": "アームウォーマー"
+        },
+        {
+          "en": "bracelet",
+          "ja": "ブレスレット"
+        },
+        {
+          "en": "bracer",
+          "ja": "ブレイサー"
+        },
+        {
+          "en": "bridal gauntlets",
+          "ja": "ブライダルガントレット"
+        },
+        {
+          "en": "cuff links",
+          "ja": "カフスボタン"
+        },
+        {
+          "en": "detached sleeves",
+          "ja": "取り外し可能な袖"
+        },
+        {
+          "en": "elbow sleeve",
+          "ja": "肘スリーブ"
+        },
+        {
+          "en": "epaulettes",
+          "ja": "肩章"
+        },
+        {
+          "en": "finger cots",
+          "ja": "指サック"
+        },
+        {
+          "en": "gloves",
+          "ja": "手袋"
+        },
+        {
+          "en": "fingerless gloves",
+          "ja": "指なし手袋"
+        },
+        {
+          "en": "hand chains",
+          "ja": "ハンドチェーン"
+        },
+        {
+          "en": "hand jewel",
+          "ja": "手宝石"
+        },
+        {
+          "en": "mittens",
+          "ja": "ミトン"
+        },
+        {
+          "en": "wristband",
+          "ja": "リストバンド"
+        },
+        {
+          "en": "wrist cuffs",
+          "ja": "手首カフス"
+        },
+        {
+          "en": "buttoned cuffs",
+          "ja": "ボタン付き袖口"
+        },
+        {
+          "en": "wrist flower",
+          "ja": "手首の花"
+        },
+        {
+          "en": "wrist ruff",
+          "ja": "手首のラフ"
+        },
+        {
+          "en": "wrist scrunchie",
+          "ja": "手首用シュシュ"
+        },
+        {
+          "en": "wrist straps",
+          "ja": "リストストラップ"
+        },
+        {
+          "en": "wristwatch",
+          "ja": "腕時計"
+        },
+        {
+          "en": "watch",
+          "ja": "時計"
+        },
+        {
+          "en": "arm guards",
+          "ja": "アームガード"
+        },
+        {
+          "en": "spiked bracelet",
+          "ja": "スパイクブレスレット"
+        }
+      ],
+      "ネイル": [
+        {
+          "en": "nail art",
+          "ja": "ネイルアート"
+        },
+        {
+          "en": "fake nails",
+          "ja": "付け爪"
+        },
+        {
+          "en": "nail ornament",
+          "ja": "ネイルオーナメント"
+        },
+        {
+          "en": "fingernails",
+          "ja": "爪"
+        }
+      ],
+      "胴体": [
+        {
+          "en": "aiguillette",
+          "ja": "エアギエット"
+        },
+        {
+          "en": "bandolier",
+          "ja": "弾帯"
+        },
+        {
+          "en": "belly chain",
+          "ja": "ベリーチェーン"
+        },
+        {
+          "en": "belt",
+          "ja": "ベルト"
+        },
+        {
+          "en": "belt buckle",
+          "ja": "ベルトのバックル"
+        },
+        {
+          "en": "belt charm",
+          "ja": "ベルトチャーム"
+        },
+        {
+          "en": "tail keychain",
+          "ja": "しっぽキーホルダー"
+        },
+        {
+          "en": "belt skirt",
+          "ja": "ベルトスカート"
+        },
+        {
+          "en": "chain belt",
+          "ja": "チェーンベルト"
+        },
+        {
+          "en": "chatelaine",
+          "ja": "シャトレーヌ"
+        },
+        {
+          "en": "gem belt",
+          "ja": "宝石ベルト"
+        },
+        {
+          "en": "loose belt",
+          "ja": "緩いベルト"
+        },
+        {
+          "en": "sam browne belt",
+          "ja": "サム・ブラウンベルト"
+        },
+        {
+          "en": "shoulder belt",
+          "ja": "ショルダーベルト"
+        },
+        {
+          "en": "studded belt",
+          "ja": "スタッズベルト"
+        },
+        {
+          "en": "wallet chain",
+          "ja": "ウォレットチェーン"
+        },
+        {
+          "en": "body jewelry",
+          "ja": "ボディジュエリー"
+        },
+        {
+          "en": "boutonniere",
+          "ja": "ブートニア"
+        },
+        {
+          "en": "bustle",
+          "ja": "喧騒"
+        },
+        {
+          "en": "cape",
+          "ja": "ケープ"
+        },
+        {
+          "en": "capelet",
+          "ja": "ケープレット"
+        },
+        {
+          "en": "clothes around waist",
+          "ja": "腰周りの服"
+        },
+        {
+          "en": "corsage",
+          "ja": "コサージュ"
+        },
+        {
+          "en": "corset",
+          "ja": "コルセット"
+        },
+        {
+          "en": "crinoline",
+          "ja": "クリノリン"
+        },
+        {
+          "en": "fake tail",
+          "ja": "偽の尻尾"
+        },
+        {
+          "en": "garter belt",
+          "ja": "ガーターベルト"
+        },
+        {
+          "en": "harness",
+          "ja": "ハーネス"
+        },
+        {
+          "en": "chest harness",
+          "ja": "チェストハーネス"
+        },
+        {
+          "en": "haori himo",
+          "ja": "羽織紐"
+        },
+        {
+          "en": "obi",
+          "ja": "帯"
+        },
+        {
+          "en": "inrou",
+          "ja": "インロウ"
+        },
+        {
+          "en": "obiage",
+          "ja": "帯揚げ"
+        },
+        {
+          "en": "pocket square",
+          "ja": "ポケットチーフ"
+        },
+        {
+          "en": "sarong",
+          "ja": "サロン"
+        },
+        {
+          "en": "sash",
+          "ja": "サッシ"
+        },
+        {
+          "en": "shoulder sash",
+          "ja": "肩帯"
+        },
+        {
+          "en": "waist sash",
+          "ja": "ウエストサッシュ"
+        },
+        {
+          "en": "cummerbund",
+          "ja": "カマーバンド"
+        },
+        {
+          "en": "shendyt",
+          "ja": "シェンディット"
+        },
+        {
+          "en": "shimenawa",
+          "ja": "しめ縄"
+        },
+        {
+          "en": "shirt stay",
+          "ja": "シャツステイ"
+        },
+        {
+          "en": "suspenders",
+          "ja": "サスペンダー"
+        },
+        {
+          "en": "sweater guard",
+          "ja": "セーターガード"
+        },
+        {
+          "en": "underbust",
+          "ja": "アンダーバスト"
+        },
+        {
+          "en": "waist cape",
+          "ja": "ウエストケープ"
+        },
+        {
+          "en": "ball pit chain",
+          "ja": "ボールピットチェーン"
+        },
+        {
+          "en": "yaopei",
+          "ja": "ヤオペイ"
+        },
+        {
+          "en": "lapels",
+          "ja": "襟"
+        }
+      ],
+      "脚": [
+        {
+          "en": "ankle garter",
+          "ja": "足首ガーター"
+        },
+        {
+          "en": "ankle strap",
+          "ja": "アンクルストラップ"
+        },
+        {
+          "en": "anklet",
+          "ja": "アンクレット"
+        },
+        {
+          "en": "barefoot sandals",
+          "ja": "裸足サンダル"
+        },
+        {
+          "en": "calflet",
+          "ja": "子牛"
+        },
+        {
+          "en": "garter straps",
+          "ja": "ガーターストラップ"
+        },
+        {
+          "en": "knee strap",
+          "ja": "膝ストラップ"
+        },
+        {
+          "en": "leg belt",
+          "ja": "レッグベルト"
+        },
+        {
+          "en": "leg ribbon",
+          "ja": "脚のリボン"
+        },
+        {
+          "en": "thigh ribbon",
+          "ja": "太ももリボン"
+        },
+        {
+          "en": "leg warmers",
+          "ja": "レッグウォーマー"
+        },
+        {
+          "en": "fur leg warmers",
+          "ja": "ファーレッグウォーマー"
+        },
+        {
+          "en": "legwear garter",
+          "ja": "レッグウェアガーター"
+        },
+        {
+          "en": "loose socks",
+          "ja": "ルーズソックス"
+        },
+        {
+          "en": "shin strap",
+          "ja": "すねストラップ"
+        },
+        {
+          "en": "spats",
+          "ja": "スパッツ"
+        },
+        {
+          "en": "thighlet",
+          "ja": "腿当て"
+        },
+        {
+          "en": "thigh strap",
+          "ja": "太ももストラップ"
+        },
+        {
+          "en": "frilled thigh strap",
+          "ja": "フリル付きの太ももストラップ"
+        },
+        {
+          "en": "shin guards",
+          "ja": "すね当て"
+        }
+      ],
+      "装飾品": [
+        {
+          "en": "badge",
+          "ja": "バッジ"
+        },
+        {
+          "en": "bandage",
+          "ja": "包帯"
+        },
+        {
+          "en": "bandaid",
+          "ja": "バンドエイド"
+        },
+        {
+          "en": "buckle",
+          "ja": "バックル"
+        },
+        {
+          "en": "buttons",
+          "ja": "ボタン"
+        },
+        {
+          "en": "double-breasted",
+          "ja": "ダブルブレスト"
+        },
+        {
+          "en": "button badge",
+          "ja": "ボタンバッジ"
+        },
+        {
+          "en": "flower",
+          "ja": "花"
+        },
+        {
+          "en": "flower trim",
+          "ja": "花飾り"
+        },
+        {
+          "en": "frills",
+          "ja": "フリル"
+        },
+        {
+          "en": "fur trim",
+          "ja": "毛皮のトリム"
+        },
+        {
+          "en": "lace",
+          "ja": "レース"
+        },
+        {
+          "en": "o-ring",
+          "ja": "Oリング"
+        },
+        {
+          "en": "heart o-ring",
+          "ja": "ハートOリング"
+        },
+        {
+          "en": "pocket",
+          "ja": "ポケット"
+        },
+        {
+          "en": "ribbon",
+          "ja": "リボン"
+        },
+        {
+          "en": "spikes",
+          "ja": "スパイク"
+        },
+        {
+          "en": "zipper",
+          "ja": "ジッパー"
+        },
+        {
+          "en": "zipper pull tab",
+          "ja": "ジッパープルタブ"
+        },
+        {
+          "en": "beads",
+          "ja": "ビーズ"
+        },
+        {
+          "en": "magatama",
+          "ja": "勾玉"
+        },
+        {
+          "en": "prayer beads",
+          "ja": "数珠"
+        },
+        {
+          "en": "rosary",
+          "ja": "ロザリオ"
+        },
+        {
+          "en": "bell",
+          "ja": "ベル"
+        },
+        {
+          "en": "jingle bell",
+          "ja": "ジングルベル"
+        },
+        {
+          "en": "charm",
+          "ja": "魅力"
+        },
+        {
+          "en": "cellphone charm",
+          "ja": "携帯電話のチャーム"
+        },
+        {
+          "en": "character charm",
+          "ja": "キャラクターの魅力"
+        },
+        {
+          "en": "chinese knot",
+          "ja": "中国結び"
+        },
+        {
+          "en": "decoden",
+          "ja": "デコード"
+        },
+        {
+          "en": "gem",
+          "ja": "宝石"
+        },
+        {
+          "en": "rhinestone",
+          "ja": "ラインストーン"
+        },
+        {
+          "en": "sticker",
+          "ja": "ステッカー"
+        },
+        {
+          "en": "tassel",
+          "ja": "タッセル"
+        },
+        {
+          "en": "tail ornament",
+          "ja": "尾飾り"
+        },
+        {
+          "en": "wing ornament",
+          "ja": "翼の装飾"
+        },
+        {
+          "en": "large buttons",
+          "ja": "大きなボタン"
+        },
+        {
+          "en": "dress flower",
+          "ja": "ドレスの花"
+        },
+        {
+          "en": "gathers",
+          "ja": "集まる"
+        },
+        {
+          "en": "gold trim",
+          "ja": "金色のトリム"
+        },
+        {
+          "en": "ribbon trim",
+          "ja": "リボントリム"
+        },
+        {
+          "en": "silver trim",
+          "ja": "シルバートリム"
+        },
+        {
+          "en": "white trim",
+          "ja": "白いトリム"
+        }
+      ],
+      "小物": [
+        {
+          "en": "fake mustache",
+          "ja": "偽の口ひげ"
+        },
+        {
+          "en": "pom pom",
+          "ja": "ポンポン"
+        },
+        {
+          "en": "cane",
+          "ja": "杖"
+        },
+        {
+          "en": "cigarette holder",
+          "ja": "タバコホルダー"
+        },
+        {
+          "en": "hand fan",
+          "ja": "手扇子"
+        },
+        {
+          "en": "folding fan",
+          "ja": "扇子"
+        },
+        {
+          "en": "tuanshan",
+          "ja": "団山"
+        },
+        {
+          "en": "umbrella",
+          "ja": "傘"
+        },
+        {
+          "en": "folding umbrella",
+          "ja": "折りたたみ傘"
+        },
+        {
+          "en": "parasol",
+          "ja": "パラソル"
+        },
+        {
+          "en": "cellphone strap",
+          "ja": "携帯ストラップ"
+        },
+        {
+          "en": "digital media player",
+          "ja": "デジタルメディアプレーヤー"
+        },
+        {
+          "en": "digital walkman",
+          "ja": "デジタルウォークマン"
+        },
+        {
+          "en": "ipod",
+          "ja": "iPod"
+        },
+        {
+          "en": "dust plug",
+          "ja": "ダストプラグ"
+        },
+        {
+          "en": "handkerchief",
+          "ja": "ハンカチ"
+        },
+        {
+          "en": "muff",
+          "ja": "マフ"
+        },
+        {
+          "en": "pencil case",
+          "ja": "ペンケース"
+        },
+        {
+          "en": "pop socket",
+          "ja": "ポップソケット"
+        },
+        {
+          "en": "virtual pet",
+          "ja": "バーチャルペット"
+        },
+        {
+          "en": "wallet",
+          "ja": "財布"
+        },
+        {
+          "en": "hakoseko",
+          "ja": "はこせこ"
+        },
+        {
+          "en": "pocket watch",
+          "ja": "懐中時計"
+        }
+      ],
+      "かばん": [
+        {
+          "en": "animal bag",
+          "ja": "動物バッグ"
+        },
+        {
+          "en": "backpack",
+          "ja": "バックパック"
+        },
+        {
+          "en": "randoseru",
+          "ja": "ランドセル"
+        },
+        {
+          "en": "briefcase",
+          "ja": "ブリーフケース"
+        },
+        {
+          "en": "character bag",
+          "ja": "キャラクターバッグ"
+        },
+        {
+          "en": "character backpack",
+          "ja": "キャラクターバックパック"
+        },
+        {
+          "en": "clutch purse",
+          "ja": "クラッチバッグ"
+        },
+        {
+          "en": "coin purse",
+          "ja": "小銭入れ"
+        },
+        {
+          "en": "drawstring bag",
+          "ja": "巾着袋"
+        },
+        {
+          "en": "duffel bag",
+          "ja": "ダッフルバッグ"
+        },
+        {
+          "en": "fanny pack",
+          "ja": "ウエストパック"
+        },
+        {
+          "en": "food-themed bag",
+          "ja": "食べ物をテーマにしたバッグ"
+        },
+        {
+          "en": "gigbag",
+          "ja": "ギグバッグ"
+        },
+        {
+          "en": "handbag",
+          "ja": "ハンドバッグ"
+        },
+        {
+          "en": "barrel bag",
+          "ja": "バレルバッグ"
+        },
+        {
+          "en": "half moon bag",
+          "ja": "ハーフムーンバッグ"
+        },
+        {
+          "en": "heart-shaped bag",
+          "ja": "ハート型のバッグ"
+        },
+        {
+          "en": "itabag",
+          "ja": "痛バッグ"
+        },
+        {
+          "en": "leather bag",
+          "ja": "革のバッグ"
+        },
+        {
+          "en": "mesh bag",
+          "ja": "メッシュバッグ"
+        },
+        {
+          "en": "omamori",
+          "ja": "お守り"
+        },
+        {
+          "en": "pouch",
+          "ja": "ポーチ"
+        },
+        {
+          "en": "belt pouch",
+          "ja": "ベルトポーチ"
+        },
+        {
+          "en": "bokjumeoni",
+          "ja": "ボクジュモニ"
+        },
+        {
+          "en": "round bag",
+          "ja": "丸いバッグ"
+        },
+        {
+          "en": "saddlebags",
+          "ja": "サドルバッグ"
+        },
+        {
+          "en": "satchel",
+          "ja": "サッチェル"
+        },
+        {
+          "en": "school bag",
+          "ja": "ランドセル"
+        },
+        {
+          "en": "shoulder bag",
+          "ja": "ショルダーバッグ"
+        },
+        {
+          "en": "messenger bag",
+          "ja": "メッセンジャーバッグ"
+        },
+        {
+          "en": "star-shaped bag",
+          "ja": "星型のバッグ"
+        },
+        {
+          "en": "suitcase",
+          "ja": "スーツケース"
+        },
+        {
+          "en": "tote bag",
+          "ja": "トートバッグ"
+        },
+        {
+          "en": "waterskin",
+          "ja": "水袋"
+        },
+        {
+          "en": "bag charm",
+          "ja": "バッグチャーム"
+        }
+      ],
+      "ジュエリー": [
+        {
+          "en": "bling",
+          "ja": "キラキラ輝く"
+        },
+        {
+          "en": "bangle",
+          "ja": "バングル"
+        },
+        {
+          "en": "bead bracelet",
+          "ja": "ビーズブレスレット"
+        },
+        {
+          "en": "chain bracelet",
+          "ja": "チェーンブレスレット"
+        },
+        {
+          "en": "friendship bracelet",
+          "ja": "友情ブレスレット"
+        },
+        {
+          "en": "brooch",
+          "ja": "ブローチ"
+        },
+        {
+          "en": "cameo",
+          "ja": "カメオ"
+        },
+        {
+          "en": "earclip",
+          "ja": "イヤークリップ"
+        },
+        {
+          "en": "earrings",
+          "ja": "イヤリング"
+        },
+        {
+          "en": "crystal earrings",
+          "ja": "クリスタルイヤリング"
+        },
+        {
+          "en": "hoop earrings",
+          "ja": "フープイヤリング"
+        },
+        {
+          "en": "stud earrings",
+          "ja": "スタッドイヤリング"
+        },
+        {
+          "en": "face chain",
+          "ja": "フェイスチェーン"
+        },
+        {
+          "en": "grills",
+          "ja": "グリル"
+        },
+        {
+          "en": "medallion",
+          "ja": "メダリオン"
+        },
+        {
+          "en": "amulet",
+          "ja": "お守り"
+        },
+        {
+          "en": "bead necklace",
+          "ja": "ビーズネックレス"
+        },
+        {
+          "en": "chain necklace",
+          "ja": "チェーンネックレス"
+        },
+        {
+          "en": "festoon",
+          "ja": "花飾り"
+        },
+        {
+          "en": "lariat",
+          "ja": "ラリアット"
+        },
+        {
+          "en": "locket",
+          "ja": "ロケット"
+        },
+        {
+          "en": "pearl necklace",
+          "ja": "真珠のネックレス"
+        },
+        {
+          "en": "pendant",
+          "ja": "ペンダント"
+        },
+        {
+          "en": "plastron",
+          "ja": "腹甲"
+        },
+        {
+          "en": "riviere",
+          "ja": "リヴィエール"
+        },
+        {
+          "en": "sautoir",
+          "ja": "ソートワール"
+        },
+        {
+          "en": "shoulder necklace",
+          "ja": "ショルダーネックレス"
+        },
+        {
+          "en": "station necklace",
+          "ja": "ステーションネックレス"
+        },
+        {
+          "en": "torc",
+          "ja": "トルク"
+        },
+        {
+          "en": "norigae",
+          "ja": "ノリガエ"
+        },
+        {
+          "en": "ring",
+          "ja": "指輪"
+        },
+        {
+          "en": "claw ring",
+          "ja": "爪リング"
+        },
+        {
+          "en": "middle ring",
+          "ja": "中間リング"
+        },
+        {
+          "en": "ornate ring",
+          "ja": "華やかな指輪"
+        },
+        {
+          "en": "wedding ring",
+          "ja": "結婚指輪"
+        }
+      ]
+    },
+    "ピアス": {
+      "ピアス": [
+        {
+          "en": "piercing",
+          "ja": "ピアス"
+        },
+        {
+          "en": "ear piercing",
+          "ja": "耳にピアスの穴を開ける"
+        },
+        {
+          "en": "industrial piercing",
+          "ja": "工業用ピアス"
+        },
+        {
+          "en": "ear chain",
+          "ja": "イヤリングチェーン"
+        },
+        {
+          "en": "plug (piercing)",
+          "ja": "プラグ（ピアス）"
+        },
+        {
+          "en": "animal ear piercing",
+          "ja": "動物の耳ピアス"
+        },
+        {
+          "en": "eyebrow piercing",
+          "ja": "眉ピアス"
+        },
+        {
+          "en": "anti-eyebrow piercing",
+          "ja": "眉ピアス反対"
+        },
+        {
+          "en": "eyelid piercing",
+          "ja": "まぶたのピアス"
+        },
+        {
+          "en": "lip piercing",
+          "ja": "唇のピアス"
+        },
+        {
+          "en": "labret piercing",
+          "ja": "ラブレットピアス"
+        },
+        {
+          "en": "neck piercing",
+          "ja": "ネックピアス"
+        },
+        {
+          "en": "nose piercing",
+          "ja": "鼻ピアス"
+        },
+        {
+          "en": "bridge piercing",
+          "ja": "ブリッジピアス"
+        },
+        {
+          "en": "tongue piercing",
+          "ja": "舌ピアス"
+        },
+        {
+          "en": "captive bead ring",
+          "ja": "キャプティブビーズリング"
+        },
+        {
+          "en": "linked piercing",
+          "ja": "リンクピアス"
+        }
+      ],
+      "ボディピアス": [
+        {
+          "en": "areola piercing",
+          "ja": "乳輪ピアス"
+        },
+        {
+          "en": "back piercing",
+          "ja": "背中のピアス"
+        },
+        {
+          "en": "corset piercing",
+          "ja": "コルセットピアス"
+        },
+        {
+          "en": "collarbone piercing",
+          "ja": "鎖骨ピアス"
+        },
+        {
+          "en": "navel piercing",
+          "ja": "へそピアス"
+        },
+        {
+          "en": "nipple piercing",
+          "ja": "乳首ピアス"
+        },
+        {
+          "en": "nipple bar",
+          "ja": "ニップルバー"
+        },
+        {
+          "en": "nipple chain",
+          "ja": "ニップルチェーン"
+        },
+        {
+          "en": "nipple lock",
+          "ja": "ニップルロック"
+        },
+        {
+          "en": "nipple rings",
+          "ja": "ニップルリング"
+        },
+        {
+          "en": "nipple stretcher",
+          "ja": "ニップルストレッチャー"
+        },
+        {
+          "en": "nipple jewelry",
+          "ja": "乳首ジュエリー"
+        }
+      ],
+      "その他": [
+        {
+          "en": "piercing through clothes",
+          "ja": "服を突き通す"
+        }
+      ],
+      "NSFW": [
+        {
+          "en": "pussy piercing",
+          "ja": "膣ピアス"
+        },
+        {
+          "en": "clitoris piercing",
+          "ja": "クリトリスピアス"
+        },
+        {
+          "en": "clitoris ring",
+          "ja": "クリトリスリング"
+        },
+        {
+          "en": "labia piercing",
+          "ja": "陰唇ピアス"
+        },
+        {
+          "en": "fourchette piercing",
+          "ja": "フォーシェットピアス"
+        },
+        {
+          "en": "pussy jewelry",
+          "ja": "プッシージュエリー"
+        },
+        {
+          "en": "penis piercing",
+          "ja": "ペニスピアス"
+        },
+        {
+          "en": "ampallang",
+          "ja": "アンパラン"
+        },
+        {
+          "en": "dydoe",
+          "ja": "ディドー"
+        },
+        {
+          "en": "foreskin piercing",
+          "ja": "包皮ピアス"
+        },
+        {
+          "en": "frenulum piercing",
+          "ja": "小帯ピアス"
+        },
+        {
+          "en": "lorum piercing",
+          "ja": "ロラムピアス"
+        },
+        {
+          "en": "prince albert",
+          "ja": "プリンス・アルバート"
+        },
+        {
+          "en": "guiche piercing",
+          "ja": "ギーシュピアス"
+        },
+        {
+          "en": "scrotum piercing",
+          "ja": "陰嚢ピアス"
+        }
+      ]
+    },
+    "衣類": {
+      "トップス・アウター": [
+        {
+          "en": "blouse",
+          "ja": "ブラウス"
+        },
+        {
+          "en": "frilled shirt",
+          "ja": "フリルシャツ"
+        },
+        {
+          "en": "bustier",
+          "ja": "ビスチェ"
+        },
+        {
+          "en": "crop top",
+          "ja": "クロップトップ"
+        },
+        {
+          "en": "camisole",
+          "ja": "キャミソール"
+        },
+        {
+          "en": "cardigan",
+          "ja": "カーディガン"
+        },
+        {
+          "en": "cardigan vest",
+          "ja": "カーディガンベスト"
+        },
+        {
+          "en": "coat",
+          "ja": "コート"
+        },
+        {
+          "en": "duffel coat",
+          "ja": "ダッフルコート"
+        },
+        {
+          "en": "fur coat",
+          "ja": "毛皮のコート"
+        },
+        {
+          "en": "fur-trimmed coat",
+          "ja": "毛皮の縁取りのコート"
+        },
+        {
+          "en": "long coat",
+          "ja": "ロングコート"
+        },
+        {
+          "en": "overcoat",
+          "ja": "オーバーコート"
+        },
+        {
+          "en": "peacoat",
+          "ja": "ピーコート"
+        },
+        {
+          "en": "raincoat",
+          "ja": "レインコート"
+        },
+        {
+          "en": "yellow raincoat",
+          "ja": "黄色いレインコート"
+        },
+        {
+          "en": "see-through raincoat",
+          "ja": "シースルーレインコート"
+        },
+        {
+          "en": "trench coat",
+          "ja": "トレンチコート"
+        },
+        {
+          "en": "winter coat",
+          "ja": "冬用コート"
+        },
+        {
+          "en": "compression shirt",
+          "ja": "コンプレッションシャツ"
+        },
+        {
+          "en": "corset",
+          "ja": "コルセット"
+        },
+        {
+          "en": "deel",
+          "ja": "デール"
+        },
+        {
+          "en": "hoodie",
+          "ja": "パーカー"
+        },
+        {
+          "en": "jacket",
+          "ja": "ジャケット"
+        },
+        {
+          "en": "blazer",
+          "ja": "ブレザー"
+        },
+        {
+          "en": "cropped jacket",
+          "ja": "クロップドジャケット"
+        },
+        {
+          "en": "letterman jacket",
+          "ja": "レターマンジャケット"
+        },
+        {
+          "en": "safari jacket",
+          "ja": "サファリジャケット"
+        },
+        {
+          "en": "suit jacket",
+          "ja": "スーツジャケット"
+        },
+        {
+          "en": "sukajan",
+          "ja": "スカジャン"
+        },
+        {
+          "en": "muneate",
+          "ja": "胸部"
+        },
+        {
+          "en": "poncho",
+          "ja": "ポンチョ"
+        },
+        {
+          "en": "robe",
+          "ja": "ローブ"
+        },
+        {
+          "en": "thobe",
+          "ja": "トーブ"
+        },
+        {
+          "en": "sash",
+          "ja": "サッシ"
+        },
+        {
+          "en": "shoulder sash",
+          "ja": "肩帯"
+        },
+        {
+          "en": "scapular",
+          "ja": "肩甲骨"
+        },
+        {
+          "en": "shirt",
+          "ja": "シャツ"
+        },
+        {
+          "en": "dress shirt",
+          "ja": "ドレスシャツ"
+        },
+        {
+          "en": "off-shoulder shirt",
+          "ja": "オフショルダーシャツ"
+        },
+        {
+          "en": "striped shirt",
+          "ja": "ストライプシャツ"
+        },
+        {
+          "en": "t-shirt",
+          "ja": "Tシャツ"
+        },
+        {
+          "en": "shrug",
+          "ja": "肩をすくめる"
+        },
+        {
+          "en": "surcoat",
+          "ja": "サーコート"
+        },
+        {
+          "en": "sweater",
+          "ja": "セーター"
+        },
+        {
+          "en": "turtleneck sweater",
+          "ja": "タートルネックセーター"
+        },
+        {
+          "en": "ribbed sweater",
+          "ja": "リブ編みのセーター"
+        },
+        {
+          "en": "aran sweater",
+          "ja": "アランセーター"
+        },
+        {
+          "en": "tabard",
+          "ja": "タバード"
+        },
+        {
+          "en": "tailcoat",
+          "ja": "燕尾服"
+        },
+        {
+          "en": "tank top",
+          "ja": "タンクトップ"
+        },
+        {
+          "en": "stringer",
+          "ja": "ストリンガー"
+        },
+        {
+          "en": "tube top",
+          "ja": "チューブトップ"
+        },
+        {
+          "en": "bandeau",
+          "ja": "バンドゥ"
+        },
+        {
+          "en": "underbust",
+          "ja": "アンダーバスト"
+        },
+        {
+          "en": "sweater vest",
+          "ja": "セーターベスト"
+        }
+      ],
+      "ボトムス": [
+        {
+          "en": "bloomers",
+          "ja": "ブルマー"
+        },
+        {
+          "en": "buruma",
+          "ja": "ブルマ"
+        },
+        {
+          "en": "chaps",
+          "ja": "チャップス"
+        },
+        {
+          "en": "kilt",
+          "ja": "キルト"
+        },
+        {
+          "en": "pants",
+          "ja": "ズボン"
+        },
+        {
+          "en": "bell-bottoms",
+          "ja": "ベルボトム"
+        },
+        {
+          "en": "capri pants",
+          "ja": "カプリパンツ"
+        },
+        {
+          "en": "detached pants",
+          "ja": "取り外し可能なパンツ"
+        },
+        {
+          "en": "jeans",
+          "ja": "ジーンズ"
+        },
+        {
+          "en": "cutoff jeans",
+          "ja": "カットオフジーンズ"
+        },
+        {
+          "en": "lowleg pants",
+          "ja": "ローレッグパンツ"
+        },
+        {
+          "en": "pants rolled up",
+          "ja": "ズボンをまくった"
+        },
+        {
+          "en": "yoga pants",
+          "ja": "ヨガパンツ"
+        },
+        {
+          "en": "pelvic curtain",
+          "ja": "骨盤カーテン"
+        },
+        {
+          "en": "petticoat",
+          "ja": "ペチコート"
+        },
+        {
+          "en": "shorts",
+          "ja": "ショートパンツ"
+        },
+        {
+          "en": "bike shorts",
+          "ja": "バイクショーツ"
+        },
+        {
+          "en": "denim shorts",
+          "ja": "デニムショートパンツ"
+        },
+        {
+          "en": "dolphin shorts",
+          "ja": "イルカショーツ"
+        },
+        {
+          "en": "gym shorts",
+          "ja": "ジムショーツ"
+        },
+        {
+          "en": "lowleg shorts",
+          "ja": "ローレッグショートパンツ"
+        },
+        {
+          "en": "micro shorts",
+          "ja": "マイクロショーツ"
+        },
+        {
+          "en": "pleated shorts",
+          "ja": "プリーツショーツ"
+        },
+        {
+          "en": "short shorts",
+          "ja": "ショートパンツ"
+        },
+        {
+          "en": "shorts under skirt",
+          "ja": "スカートの下にショートパンツ"
+        },
+        {
+          "en": "skirt",
+          "ja": "スカート"
+        },
+        {
+          "en": "bubble skirt",
+          "ja": "バブルスカート"
+        },
+        {
+          "en": "high-waist skirt",
+          "ja": "ハイウエストスカート"
+        },
+        {
+          "en": "long skirt",
+          "ja": "ロングスカート"
+        },
+        {
+          "en": "lowleg skirt",
+          "ja": "ローレッグスカート"
+        },
+        {
+          "en": "microskirt",
+          "ja": "ミニスカート"
+        },
+        {
+          "en": "miniskirt",
+          "ja": "ミニスカート"
+        },
+        {
+          "en": "overall skirt",
+          "ja": "オーバーオールスカート"
+        },
+        {
+          "en": "overskirt",
+          "ja": "オーバースカート"
+        },
+        {
+          "en": "plaid skirt",
+          "ja": "チェック柄スカート"
+        },
+        {
+          "en": "pleated skirt",
+          "ja": "プリーツスカート"
+        },
+        {
+          "en": "showgirl skirt",
+          "ja": "ショーガールスカート"
+        },
+        {
+          "en": "suspender skirt",
+          "ja": "サスペンダースカート"
+        },
+        {
+          "en": "tutu",
+          "ja": "チュチュ"
+        }
+      ],
+      "シューズ・足回り": [
+        {
+          "en": "tabi",
+          "ja": "足袋"
+        },
+        {
+          "en": "shoes",
+          "ja": "靴"
+        },
+        {
+          "en": "boots",
+          "ja": "ブーツ"
+        },
+        {
+          "en": "ankle boots",
+          "ja": "アンクルブーツ"
+        },
+        {
+          "en": "armored boots",
+          "ja": "装甲ブーツ"
+        },
+        {
+          "en": "cowboy boots",
+          "ja": "カウボーイブーツ"
+        },
+        {
+          "en": "spurs",
+          "ja": "スパーズ"
+        },
+        {
+          "en": "knee boots",
+          "ja": "ニーブーツ"
+        },
+        {
+          "en": "high heel boots",
+          "ja": "ハイヒールブーツ"
+        },
+        {
+          "en": "lace-up boots",
+          "ja": "レースアップブーツ"
+        },
+        {
+          "en": "rubber boots",
+          "ja": "ゴム長靴"
+        },
+        {
+          "en": "thigh boots",
+          "ja": "サイハイブーツ"
+        },
+        {
+          "en": "work boots",
+          "ja": "作業用ブーツ"
+        },
+        {
+          "en": "cross-laced footwear",
+          "ja": "クロスレースの履物"
+        },
+        {
+          "en": "dress shoes",
+          "ja": "ドレスシューズ"
+        },
+        {
+          "en": "flats",
+          "ja": "フラット"
+        },
+        {
+          "en": "footwear ribbon",
+          "ja": "履物リボン"
+        },
+        {
+          "en": "high heels",
+          "ja": "ハイヒール"
+        },
+        {
+          "en": "loafers",
+          "ja": "ローファー"
+        },
+        {
+          "en": "kiltie loafers",
+          "ja": "キルティローファー"
+        },
+        {
+          "en": "mary janes",
+          "ja": "メリージェーン"
+        },
+        {
+          "en": "platform footwear",
+          "ja": "厚底靴"
+        },
+        {
+          "en": "pointy boots",
+          "ja": "尖ったブーツ"
+        },
+        {
+          "en": "pointy shoes",
+          "ja": "先のとがった靴"
+        },
+        {
+          "en": "pumps",
+          "ja": "パンプス"
+        },
+        {
+          "en": "sandals",
+          "ja": "サンダル"
+        },
+        {
+          "en": "cross-laced sandals",
+          "ja": "クロスレースサンダル"
+        },
+        {
+          "en": "flip-flops",
+          "ja": "ビーチサンダル"
+        },
+        {
+          "en": "gladiator sandals",
+          "ja": "グラディエーターサンダル"
+        },
+        {
+          "en": "geta",
+          "ja": "下駄"
+        },
+        {
+          "en": "okobo",
+          "ja": "オコボ"
+        },
+        {
+          "en": "sports sandals",
+          "ja": "スポーツサンダル"
+        },
+        {
+          "en": "waraji",
+          "ja": "わらじ"
+        },
+        {
+          "en": "zouri",
+          "ja": "ゾウリ"
+        },
+        {
+          "en": "monk shoes",
+          "ja": "僧侶靴"
+        },
+        {
+          "en": "open-toe boots",
+          "ja": "つま先が開いたブーツ"
+        },
+        {
+          "en": "open-toe shoes",
+          "ja": "つま先が開いた靴"
+        },
+        {
+          "en": "oxfords",
+          "ja": "オックスフォード"
+        },
+        {
+          "en": "saddle shoes",
+          "ja": "サドルシューズ"
+        },
+        {
+          "en": "slippers",
+          "ja": "スリッパ"
+        },
+        {
+          "en": "animal slippers",
+          "ja": "動物のスリッパ"
+        },
+        {
+          "en": "ballet slippers",
+          "ja": "バレエシューズ"
+        },
+        {
+          "en": "crocs",
+          "ja": "クロックス"
+        },
+        {
+          "en": "uwabaki",
+          "ja": "うわばき"
+        },
+        {
+          "en": "sneakers",
+          "ja": "スニーカー"
+        },
+        {
+          "en": "high tops",
+          "ja": "ハイトップ"
+        },
+        {
+          "en": "converse",
+          "ja": "会話"
+        },
+        {
+          "en": "spats",
+          "ja": "スパッツ"
+        },
+        {
+          "en": "winged boots",
+          "ja": "翼のあるブーツ"
+        },
+        {
+          "en": "winged sandals",
+          "ja": "翼の付いたサンダル"
+        },
+        {
+          "en": "winged shoes",
+          "ja": "翼のある靴"
+        },
+        {
+          "en": "winged slippers",
+          "ja": "翼のあるスリッパ"
+        },
+        {
+          "en": "wedge heels",
+          "ja": "ウェッジヒール"
+        }
+      ],
+      "コスチューム系": [
+        {
+          "en": "apron",
+          "ja": "エプロン"
+        },
+        {
+          "en": "armor",
+          "ja": "鎧"
+        },
+        {
+          "en": "bikini armor",
+          "ja": "ビキニアーマー"
+        },
+        {
+          "en": "cape",
+          "ja": "ケープ"
+        },
+        {
+          "en": "capelet",
+          "ja": "ケープレット"
+        },
+        {
+          "en": "hood",
+          "ja": "フード"
+        },
+        {
+          "en": "side cape",
+          "ja": "サイドケープ"
+        },
+        {
+          "en": "cassock",
+          "ja": "カソック"
+        },
+        {
+          "en": "cheerleader",
+          "ja": "チアリーダー"
+        },
+        {
+          "en": "costume",
+          "ja": "コスチューム"
+        },
+        {
+          "en": "ghost costume",
+          "ja": "幽霊の衣装"
+        },
+        {
+          "en": "suit",
+          "ja": "スーツ"
+        },
+        {
+          "en": "business suit",
+          "ja": "ビジネススーツ"
+        },
+        {
+          "en": "pant suit",
+          "ja": "パンツスーツ"
+        },
+        {
+          "en": "skirt suit",
+          "ja": "スカートスーツ"
+        },
+        {
+          "en": "tuxedo",
+          "ja": "タキシード"
+        },
+        {
+          "en": "g-suit",
+          "ja": "Gスーツ"
+        },
+        {
+          "en": "buruma",
+          "ja": "ブルマ"
+        },
+        {
+          "en": "harem outfit",
+          "ja": "ハーレム衣装"
+        },
+        {
+          "en": "hazmat suit",
+          "ja": "防護服"
+        },
+        {
+          "en": "hev suit",
+          "ja": "ヘブスーツ"
+        },
+        {
+          "en": "kigurumi",
+          "ja": "着ぐるみ"
+        },
+        {
+          "en": "animal costume",
+          "ja": "動物の衣装"
+        },
+        {
+          "en": "bear costume",
+          "ja": "クマのコスチューム"
+        },
+        {
+          "en": "boar costume",
+          "ja": "イノシシのコスチューム"
+        },
+        {
+          "en": "cat costume",
+          "ja": "猫のコスチューム"
+        },
+        {
+          "en": "cow costume",
+          "ja": "牛の衣装"
+        },
+        {
+          "en": "dog costume",
+          "ja": "犬のコスチューム"
+        },
+        {
+          "en": "monkey costume",
+          "ja": "猿の衣装"
+        },
+        {
+          "en": "mouse costume",
+          "ja": "ネズミのコスチューム"
+        },
+        {
+          "en": "panda costume",
+          "ja": "パンダのコスチューム"
+        },
+        {
+          "en": "penguin costume",
+          "ja": "ペンギンのコスチューム"
+        },
+        {
+          "en": "pig costume",
+          "ja": "豚の衣装"
+        },
+        {
+          "en": "rabbit costume",
+          "ja": "ウサギのコスチューム"
+        },
+        {
+          "en": "reindeer costume",
+          "ja": "トナカイの衣装"
+        },
+        {
+          "en": "seal costume",
+          "ja": "アザラシのコスチューム"
+        },
+        {
+          "en": "sheep costume",
+          "ja": "羊のコスチューム"
+        },
+        {
+          "en": "tiger costume",
+          "ja": "虎の衣装"
+        },
+        {
+          "en": "mecha pilot suit",
+          "ja": "メカパイロットスーツ"
+        },
+        {
+          "en": "nontraditional miko",
+          "ja": "非伝統的な巫女"
+        },
+        {
+          "en": "nun",
+          "ja": "尼僧"
+        },
+        {
+          "en": "traditional nun",
+          "ja": "伝統的な尼僧"
+        },
+        {
+          "en": "overalls",
+          "ja": "オーバーオール"
+        },
+        {
+          "en": "pajamas",
+          "ja": "パジャマ"
+        },
+        {
+          "en": "plugsuit",
+          "ja": "プラグスーツ"
+        },
+        {
+          "en": "priest",
+          "ja": "祭司"
+        },
+        {
+          "en": "santa costume",
+          "ja": "サンタの衣装"
+        },
+        {
+          "en": "shosei",
+          "ja": "書生"
+        },
+        {
+          "en": "track suit",
+          "ja": "トラックスーツ"
+        },
+        {
+          "en": "sweatpants",
+          "ja": "スウェットパンツ"
+        },
+        {
+          "en": "sweater",
+          "ja": "セーター"
+        },
+        {
+          "en": "tutu",
+          "ja": "チュチュ"
+        },
+        {
+          "en": "cowboy western",
+          "ja": "カウボーイウエスタン"
+        }
+      ],
+      "スポーツ系": [
+        {
+          "en": "bikesuit",
+          "ja": "バイクスーツ"
+        },
+        {
+          "en": "racing suit",
+          "ja": "レーシングスーツ"
+        },
+        {
+          "en": "bodysuit",
+          "ja": "ボディスーツ"
+        },
+        {
+          "en": "jumpsuit",
+          "ja": "ジャンプスーツ"
+        },
+        {
+          "en": "short jumpsuit",
+          "ja": "ショートジャンプスーツ"
+        },
+        {
+          "en": "leotard",
+          "ja": "レオタード"
+        },
+        {
+          "en": "see-through leotard",
+          "ja": "シースルーレオタード"
+        },
+        {
+          "en": "strapless leotard",
+          "ja": "ストラップレスレオタード"
+        },
+        {
+          "en": "playboy bunny",
+          "ja": "プレイボーイバニー"
+        },
+        {
+          "en": "swimsuit",
+          "ja": "水着"
+        },
+        {
+          "en": "venus bikini",
+          "ja": "ヴィーナスビキニ"
+        },
+        {
+          "en": "robe",
+          "ja": "ローブ"
+        },
+        {
+          "en": "bathrobe",
+          "ja": "バスローブ"
+        },
+        {
+          "en": "kesa",
+          "ja": "袈裟"
+        },
+        {
+          "en": "romper",
+          "ja": "ロンパース"
+        },
+        {
+          "en": "tunic",
+          "ja": "チュニック"
+        },
+        {
+          "en": "unitard",
+          "ja": "ユニタード"
+        }
+      ],
+      "伝統衣装": [
+        {
+          "en": "chinese clothes",
+          "ja": "中国服"
+        },
+        {
+          "en": "changpao",
+          "ja": "長坡"
+        },
+        {
+          "en": "hanfu",
+          "ja": "漢服"
+        },
+        {
+          "en": "longpao",
+          "ja": "ロンパオ"
+        },
+        {
+          "en": "tangzhuang",
+          "ja": "湯庄"
+        },
+        {
+          "en": "japanese clothes",
+          "ja": "和服"
+        },
+        {
+          "en": "mizu happi",
+          "ja": "水法被"
+        },
+        {
+          "en": "geta",
+          "ja": "下駄"
+        },
+        {
+          "en": "hakama",
+          "ja": "はかま"
+        },
+        {
+          "en": "hakama skirt",
+          "ja": "はかまスカート"
+        },
+        {
+          "en": "hakama short skirt",
+          "ja": "短いスカートの短いスカート"
+        },
+        {
+          "en": "hakama pants",
+          "ja": "はかまパンツ"
+        },
+        {
+          "en": "kimono",
+          "ja": "着物"
+        },
+        {
+          "en": "furisode",
+          "ja": "振袖"
+        },
+        {
+          "en": "layered kimono",
+          "ja": "重ね着物"
+        },
+        {
+          "en": "short kimono",
+          "ja": "短い着物"
+        },
+        {
+          "en": "uchikake",
+          "ja": "打掛"
+        },
+        {
+          "en": "yukata",
+          "ja": "浴衣"
+        },
+        {
+          "en": "haori",
+          "ja": "羽織"
+        },
+        {
+          "en": "happi",
+          "ja": "ハッピ"
+        },
+        {
+          "en": "chanchanko",
+          "ja": "ちゃんちゃんこ"
+        },
+        {
+          "en": "dotera",
+          "ja": "ドテラ"
+        },
+        {
+          "en": "hanten",
+          "ja": "半纏"
+        },
+        {
+          "en": "kimono skirt",
+          "ja": "着物のスカート"
+        },
+        {
+          "en": "nontraditional miko",
+          "ja": "非伝統的な巫女"
+        },
+        {
+          "en": "sarashi",
+          "ja": "さらし"
+        },
+        {
+          "en": "midriff sarashi",
+          "ja": "腹部の晒し"
+        },
+        {
+          "en": "chest sarashi",
+          "ja": "胸さらし"
+        },
+        {
+          "en": "budget sarashi",
+          "ja": "予算サラシ"
+        },
+        {
+          "en": "undone sarashi",
+          "ja": "ほどけさらし"
+        },
+        {
+          "en": "straw cape",
+          "ja": "麦わらケープ"
+        },
+        {
+          "en": "mino boushi",
+          "ja": "ミノボウシ"
+        },
+        {
+          "en": "tabi",
+          "ja": "足袋"
+        },
+        {
+          "en": "tasuki",
+          "ja": "襷"
+        },
+        {
+          "en": "korean clothes",
+          "ja": "韓国の服"
+        },
+        {
+          "en": "hanbok",
+          "ja": "韓服"
+        }
+      ],
+      "その他": [
+        {
+          "en": "clothing cutout",
+          "ja": "衣服の切り抜き"
+        },
+        {
+          "en": "taut shirt",
+          "ja": "ぴんと張ったシャツ"
+        },
+        {
+          "en": "torn clothes",
+          "ja": "破れた服"
+        }
+      ]
+    },
+    "ドレス": {
+      "タイプ・デザイン": [
+        {
+          "en": "dress",
+          "ja": "ドレス"
+        },
+        {
+          "en": "multicolored dress",
+          "ja": "色とりどりのドレス"
+        },
+        {
+          "en": "two-tone dress",
+          "ja": "ツートンドレス"
+        },
+        {
+          "en": "two-sided dress",
+          "ja": "両面ドレス"
+        },
+        {
+          "en": "argyle dress",
+          "ja": "アーガイルドレス"
+        },
+        {
+          "en": "checkered dress",
+          "ja": "チェック柄のドレス"
+        },
+        {
+          "en": "flag dress",
+          "ja": "フラッグドレス"
+        },
+        {
+          "en": "plaid dress",
+          "ja": "チェック柄のドレス"
+        },
+        {
+          "en": "polka dot dress",
+          "ja": "水玉模様のドレス"
+        },
+        {
+          "en": "print dress",
+          "ja": "プリントドレス"
+        },
+        {
+          "en": "striped dress",
+          "ja": "ストライプのドレス"
+        },
+        {
+          "en": "vertical-striped dress",
+          "ja": "縦縞のドレス"
+        },
+        {
+          "en": "pinstripe dress",
+          "ja": "ピンストライプのドレス"
+        },
+        {
+          "en": "long dress",
+          "ja": "ロングドレス"
+        },
+        {
+          "en": "medium dress",
+          "ja": "ミディアムドレス"
+        },
+        {
+          "en": "short dress",
+          "ja": "ショートドレス"
+        },
+        {
+          "en": "microdress",
+          "ja": "マイクロドレス"
+        },
+        {
+          "en": "armored dress",
+          "ja": "鎧を着たドレス"
+        },
+        {
+          "en": "backless dress",
+          "ja": "背中が開いたドレス"
+        },
+        {
+          "en": "crinoline",
+          "ja": "クリノリン"
+        },
+        {
+          "en": "collared dress",
+          "ja": "襟付きドレス"
+        },
+        {
+          "en": "frilled dress",
+          "ja": "フリルドレス"
+        },
+        {
+          "en": "fur-trimmed dress",
+          "ja": "毛皮の縁取りのドレス"
+        },
+        {
+          "en": "glitter dress",
+          "ja": "グリッタードレス"
+        },
+        {
+          "en": "half-dress",
+          "ja": "半袖"
+        },
+        {
+          "en": "halter dress",
+          "ja": "ホルターネックドレス"
+        },
+        {
+          "en": "highleg dress",
+          "ja": "ハイレグドレス"
+        },
+        {
+          "en": "high-low skirt",
+          "ja": "ハイロースカート"
+        },
+        {
+          "en": "hobble dress",
+          "ja": "ホッブルドレス"
+        },
+        {
+          "en": "impossible dress",
+          "ja": "ありえないドレス"
+        },
+        {
+          "en": "lace-trimmed dress",
+          "ja": "レーストリムのドレス"
+        },
+        {
+          "en": "latex dress",
+          "ja": "ラテックスドレス"
+        },
+        {
+          "en": "layered dress",
+          "ja": "重ね着ドレス"
+        },
+        {
+          "en": "off-shoulder dress",
+          "ja": "オフショルダードレス"
+        },
+        {
+          "en": "pleated dress",
+          "ja": "プリーツドレス"
+        },
+        {
+          "en": "plunging neckline",
+          "ja": "深いネックライン"
+        },
+        {
+          "en": "ribbed dress",
+          "ja": "リブドレス"
+        },
+        {
+          "en": "ribbon-trimmed dress",
+          "ja": "リボントリムのドレス"
+        },
+        {
+          "en": "side slit",
+          "ja": "サイドスリット"
+        },
+        {
+          "en": "taut dress",
+          "ja": "ぴんと張ったドレス"
+        },
+        {
+          "en": "see-through dress",
+          "ja": "シースルードレス"
+        },
+        {
+          "en": "sleeveless dress",
+          "ja": "ノースリーブドレス"
+        },
+        {
+          "en": "strapless dress",
+          "ja": "ストラップレスドレス"
+        },
+        {
+          "en": "cake dress",
+          "ja": "ケーキドレス"
+        },
+        {
+          "en": "china dress",
+          "ja": "チャイナドレス"
+        },
+        {
+          "en": "coat dress",
+          "ja": "コートドレス"
+        },
+        {
+          "en": "cocktail dress",
+          "ja": "カクテルドレス"
+        },
+        {
+          "en": "denim dress",
+          "ja": "デニムドレス"
+        },
+        {
+          "en": "dirndl",
+          "ja": "ディアンドル"
+        },
+        {
+          "en": "evening gown",
+          "ja": "イブニングドレス"
+        },
+        {
+          "en": "flowing dress",
+          "ja": "流れるようなドレス"
+        },
+        {
+          "en": "funeral dress",
+          "ja": "葬儀服"
+        },
+        {
+          "en": "gown",
+          "ja": "ガウン"
+        },
+        {
+          "en": "mermaid dress",
+          "ja": "マーメイドドレス"
+        },
+        {
+          "en": "negligee",
+          "ja": "ネグリジェ"
+        },
+        {
+          "en": "nightgown",
+          "ja": "ナイトガウン"
+        },
+        {
+          "en": "pencil dress",
+          "ja": "ペンシルドレス"
+        },
+        {
+          "en": "pinafore dress",
+          "ja": "エプロンドレス"
+        },
+        {
+          "en": "sailor dress",
+          "ja": "セーラードレス"
+        },
+        {
+          "en": "santa dress",
+          "ja": "サンタドレス"
+        },
+        {
+          "en": "sundress",
+          "ja": "サンドレス"
+        },
+        {
+          "en": "sweater dress",
+          "ja": "セータードレス"
+        },
+        {
+          "en": "tennis dress",
+          "ja": "テニスドレス"
+        },
+        {
+          "en": "tent dress",
+          "ja": "テントドレス"
+        },
+        {
+          "en": "trapeze dress",
+          "ja": "トラペーズドレス"
+        },
+        {
+          "en": "tube dress",
+          "ja": "チューブドレス"
+        },
+        {
+          "en": "ao dai",
+          "ja": "アオザイ"
+        },
+        {
+          "en": "wedding dress",
+          "ja": "ウェディングドレス"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "dress flip",
+          "ja": "ドレスフリップ"
+        },
+        {
+          "en": "dress grab",
+          "ja": "ドレスを掴む"
+        },
+        {
+          "en": "dress lift",
+          "ja": "ドレスリフト"
+        },
+        {
+          "en": "dress pull",
+          "ja": "ドレスプル"
+        },
+        {
+          "en": "dress tug",
+          "ja": "ドレスを引っ張る"
+        },
+        {
+          "en": "open dress",
+          "ja": "オープンドレス"
+        },
+        {
+          "en": "skirt basket",
+          "ja": "スカートバスケット"
+        },
+        {
+          "en": "tied dress",
+          "ja": "縛られたドレス"
+        },
+        {
+          "en": "torn dress",
+          "ja": "破れたドレス"
+        },
+        {
+          "en": "wet dress",
+          "ja": "濡れたドレス"
+        }
+      ]
+    },
+    "ヘッドウェア": {
+      "タイプ・デザイン": [
+        {
+          "en": "crown",
+          "ja": "クラウン"
+        },
+        {
+          "en": "hat",
+          "ja": "帽子"
+        },
+        {
+          "en": "helmet",
+          "ja": "ヘルメット"
+        },
+        {
+          "en": "baseball cap",
+          "ja": "野球帽"
+        },
+        {
+          "en": "dianzi",
+          "ja": "ディアンジ"
+        },
+        {
+          "en": "field cap",
+          "ja": "フィールドキャップ"
+        },
+        {
+          "en": "kepi",
+          "ja": "ケピ帽"
+        },
+        {
+          "en": "m43 field cap",
+          "ja": "M43フィールドキャップ"
+        },
+        {
+          "en": "mao cap",
+          "ja": "マオキャップ"
+        },
+        {
+          "en": "newsboy cap",
+          "ja": "キャスケット帽"
+        },
+        {
+          "en": "peaked cap",
+          "ja": "ピークキャップ"
+        },
+        {
+          "en": "rogatywka",
+          "ja": "ロガティフカ"
+        },
+        {
+          "en": "shako cap",
+          "ja": "シャコー帽"
+        },
+        {
+          "en": "mini shako cap",
+          "ja": "ミニシャコー帽"
+        },
+        {
+          "en": "bicorne",
+          "ja": "二角錐"
+        },
+        {
+          "en": "boater hat",
+          "ja": "ボーターハット"
+        },
+        {
+          "en": "boonie hat",
+          "ja": "ブーニーハット"
+        },
+        {
+          "en": "bowler hat",
+          "ja": "山高帽"
+        },
+        {
+          "en": "bucket hat",
+          "ja": "バケットハット"
+        },
+        {
+          "en": "campaign hat",
+          "ja": "キャンペーンハット"
+        },
+        {
+          "en": "cavalier hat",
+          "ja": "キャバリアハット"
+        },
+        {
+          "en": "cloche hat",
+          "ja": "クロッシュハット"
+        },
+        {
+          "en": "cowboy hat",
+          "ja": "カウボーイハット"
+        },
+        {
+          "en": "ajirogasa",
+          "ja": "網代笠"
+        },
+        {
+          "en": "amigasa",
+          "ja": "編み傘"
+        },
+        {
+          "en": "ayaigasa",
+          "ja": "アヤイガサ"
+        },
+        {
+          "en": "ichimegasa",
+          "ja": "いちめがさ"
+        },
+        {
+          "en": "roningasa",
+          "ja": "ロニンガサ"
+        },
+        {
+          "en": "sandogasa",
+          "ja": "三度笠"
+        },
+        {
+          "en": "torioigasa",
+          "ja": "鳥居傘"
+        },
+        {
+          "en": "rice hat",
+          "ja": "ライスハット"
+        },
+        {
+          "en": "fascinator",
+          "ja": "魅惑的な"
+        },
+        {
+          "en": "fedora",
+          "ja": "フェドーラ帽"
+        },
+        {
+          "en": "female service cap",
+          "ja": "女性用軍帽"
+        },
+        {
+          "en": "flat cap",
+          "ja": "フラットキャップ"
+        },
+        {
+          "en": "gat",
+          "ja": "ガット"
+        },
+        {
+          "en": "paeraengi",
+          "ja": "パレンギ"
+        },
+        {
+          "en": "jingasa",
+          "ja": "陣笠"
+        },
+        {
+          "en": "mob cap",
+          "ja": "モブキャップ"
+        },
+        {
+          "en": "picture hat",
+          "ja": "絵柄の帽子"
+        },
+        {
+          "en": "pirate hat",
+          "ja": "海賊帽子"
+        },
+        {
+          "en": "porkpie hat",
+          "ja": "ポークパイハット"
+        },
+        {
+          "en": "shampoo hat",
+          "ja": "シャンプーハット"
+        },
+        {
+          "en": "sombrero",
+          "ja": "ソンブレロ"
+        },
+        {
+          "en": "sun hat",
+          "ja": "日よけ帽子"
+        },
+        {
+          "en": "top hat",
+          "ja": "シルクハット"
+        },
+        {
+          "en": "mini top hat",
+          "ja": "ミニトップハット"
+        },
+        {
+          "en": "tricorne",
+          "ja": "三角帽子"
+        },
+        {
+          "en": "trilby",
+          "ja": "トリルビー"
+        },
+        {
+          "en": "tulip hat",
+          "ja": "チューリップハット"
+        },
+        {
+          "en": "witch hat",
+          "ja": "魔女の帽子"
+        },
+        {
+          "en": "mini witch hat",
+          "ja": "ミニ魔女帽子"
+        },
+        {
+          "en": "wizard hat",
+          "ja": "魔法使いの帽子"
+        },
+        {
+          "en": "deerstalker",
+          "ja": "鹿撃ち帽"
+        },
+        {
+          "en": "budenovka",
+          "ja": "ブジェノフカ"
+        },
+        {
+          "en": "ayam hat",
+          "ja": "アヤムハット"
+        },
+        {
+          "en": "bashlik",
+          "ja": "バシュリク"
+        },
+        {
+          "en": "beanie",
+          "ja": "ビーニー"
+        },
+        {
+          "en": "earflap beanie",
+          "ja": "耳あて付きビーニー"
+        },
+        {
+          "en": "beret",
+          "ja": "ベレー"
+        },
+        {
+          "en": "chef hat",
+          "ja": "シェフハット"
+        },
+        {
+          "en": "flat top chef hat",
+          "ja": "フラットトップのシェフハット"
+        },
+        {
+          "en": "toque blanche",
+          "ja": "白い帽子"
+        },
+        {
+          "en": "coif",
+          "ja": "コイフ"
+        },
+        {
+          "en": "dixie cup hat",
+          "ja": "ディキシーカップハット"
+        },
+        {
+          "en": "donald duck sailor hat",
+          "ja": "ドナルドダックの船乗り帽子"
+        },
+        {
+          "en": "dunce cap",
+          "ja": "ドジな帽子"
+        },
+        {
+          "en": "fez hat",
+          "ja": "フェズ帽"
+        },
+        {
+          "en": "flight attendant hat",
+          "ja": "客室乗務員の帽子"
+        },
+        {
+          "en": "fur hat",
+          "ja": "毛皮の帽子"
+        },
+        {
+          "en": "bearskin cap",
+          "ja": "熊皮の帽子"
+        },
+        {
+          "en": "papakha",
+          "ja": "パパカ"
+        },
+        {
+          "en": "ushanka",
+          "ja": "ウシャンカ"
+        },
+        {
+          "en": "garrison cap",
+          "ja": "ギャリソンキャップ"
+        },
+        {
+          "en": "hennin",
+          "ja": "ヘニン"
+        },
+        {
+          "en": "kippah",
+          "ja": "キッパー"
+        },
+        {
+          "en": "mitre",
+          "ja": "ミトラ"
+        },
+        {
+          "en": "mortarboard",
+          "ja": "角帽"
+        },
+        {
+          "en": "nightcap",
+          "ja": "寝酒"
+        },
+        {
+          "en": "nurse cap",
+          "ja": "ナースキャップ"
+        },
+        {
+          "en": "party hat",
+          "ja": "パーティーハット"
+        },
+        {
+          "en": "pillbox hat",
+          "ja": "ピルボックスハット"
+        },
+        {
+          "en": "qingdai guanmao",
+          "ja": "青台関毛"
+        },
+        {
+          "en": "guapi mao",
+          "ja": "グアピ・マオ"
+        },
+        {
+          "en": "sailor hat",
+          "ja": "セーラーハット"
+        },
+        {
+          "en": "sajkaca",
+          "ja": "サジカカ"
+        },
+        {
+          "en": "santa hat",
+          "ja": "サンタの帽子"
+        },
+        {
+          "en": "mini santa hat",
+          "ja": "ミニサンタ帽子"
+        },
+        {
+          "en": "songkok",
+          "ja": "ソンコック"
+        },
+        {
+          "en": "tam o' shanter",
+          "ja": "タム・オ・シャンター"
+        },
+        {
+          "en": "tate eboshi",
+          "ja": "立烏帽子"
+        },
+        {
+          "en": "tengai",
+          "ja": "天外"
+        },
+        {
+          "en": "tokin hat",
+          "ja": "トーキンハット"
+        },
+        {
+          "en": "tsunokakushi",
+          "ja": "角隠し"
+        },
+        {
+          "en": "xiezhi guan",
+          "ja": "謝志関"
+        },
+        {
+          "en": "animal hat",
+          "ja": "動物の帽子"
+        },
+        {
+          "en": "deviruchi hat",
+          "ja": "デヴィルチ帽子"
+        },
+        {
+          "en": "bear hat",
+          "ja": "クマの帽子"
+        },
+        {
+          "en": "rabbit hat",
+          "ja": "ウサギの帽子"
+        },
+        {
+          "en": "cat hat",
+          "ja": "猫の帽子"
+        },
+        {
+          "en": "dog hat",
+          "ja": "犬の帽子"
+        },
+        {
+          "en": "fox hat",
+          "ja": "キツネの帽子"
+        },
+        {
+          "en": "pelt",
+          "ja": "毛皮"
+        },
+        {
+          "en": "penguin hat",
+          "ja": "ペンギンの帽子"
+        },
+        {
+          "en": "wolf hat",
+          "ja": "狼の帽子"
+        },
+        {
+          "en": "eggshell hat",
+          "ja": "卵殻帽子"
+        },
+        {
+          "en": "pumpkin hat",
+          "ja": "カボチャの帽子"
+        },
+        {
+          "en": "adrian helmet",
+          "ja": "エイドリアンヘルメット"
+        },
+        {
+          "en": "altyn helmet",
+          "ja": "アルティンヘルメット"
+        },
+        {
+          "en": "american football helmet",
+          "ja": "アメリカンフットボールのヘルメット"
+        },
+        {
+          "en": "animal ears helmet",
+          "ja": "動物の耳のヘルメット"
+        },
+        {
+          "en": "baseball helmet",
+          "ja": "野球ヘルメット"
+        },
+        {
+          "en": "bicycle helmet",
+          "ja": "自転車ヘルメット"
+        },
+        {
+          "en": "brodie helmet",
+          "ja": "ブロディヘルメット"
+        },
+        {
+          "en": "diving helmet",
+          "ja": "ダイビングヘルメット"
+        },
+        {
+          "en": "dragoon helmet",
+          "ja": "竜騎士のヘルメット"
+        },
+        {
+          "en": "fishbowl helmet",
+          "ja": "金魚鉢ヘルメット"
+        },
+        {
+          "en": "hard hat",
+          "ja": "ヘルメット"
+        },
+        {
+          "en": "headlamp",
+          "ja": "ヘッドランプ"
+        },
+        {
+          "en": "helm",
+          "ja": "舵"
+        },
+        {
+          "en": "horned helmet",
+          "ja": "角付きヘルメット"
+        },
+        {
+          "en": "kabuto",
+          "ja": "カブト"
+        },
+        {
+          "en": "kettle helm",
+          "ja": "ケトルヘルム"
+        },
+        {
+          "en": "m1 helmet",
+          "ja": "M1ヘルメット"
+        },
+        {
+          "en": "motorcycle helmet",
+          "ja": "バイクヘルメット"
+        },
+        {
+          "en": "pickelhaube",
+          "ja": "ピッケルハウベ"
+        },
+        {
+          "en": "pilot helmet",
+          "ja": "パイロットヘルメット"
+        },
+        {
+          "en": "pith helmet",
+          "ja": "ピスヘルメット"
+        },
+        {
+          "en": "sallet",
+          "ja": "サレット"
+        },
+        {
+          "en": "space helmet",
+          "ja": "宇宙ヘルメット"
+        },
+        {
+          "en": "stahlhelm",
+          "ja": "シュタールヘルム"
+        },
+        {
+          "en": "tank helmet",
+          "ja": "戦車ヘルメット"
+        },
+        {
+          "en": "winged helmet",
+          "ja": "翼のあるヘルメット"
+        },
+        {
+          "en": "circlet",
+          "ja": "サークレット"
+        },
+        {
+          "en": "diadem",
+          "ja": "王冠"
+        },
+        {
+          "en": "fengguan",
+          "ja": "豊関"
+        },
+        {
+          "en": "mian guan",
+          "ja": "ミアン・グアン"
+        },
+        {
+          "en": "mini crown",
+          "ja": "ミニクラウン"
+        },
+        {
+          "en": "saishi",
+          "ja": "さいし"
+        },
+        {
+          "en": "tiara",
+          "ja": "ティアラ"
+        },
+        {
+          "en": "aviator cap",
+          "ja": "飛行士帽"
+        },
+        {
+          "en": "balaclava",
+          "ja": "バラクラバ"
+        },
+        {
+          "en": "bandana",
+          "ja": "バンダナ"
+        },
+        {
+          "en": "bonnet",
+          "ja": "ボンネット"
+        },
+        {
+          "en": "dalachi",
+          "ja": "ダラチ"
+        },
+        {
+          "en": "futou",
+          "ja": "富藤"
+        },
+        {
+          "en": "headscarf",
+          "ja": "スカーフ"
+        },
+        {
+          "en": "hijab",
+          "ja": "ヒジャブ"
+        },
+        {
+          "en": "jester cap",
+          "ja": "道化師の帽子"
+        },
+        {
+          "en": "jin",
+          "ja": "ジン"
+        },
+        {
+          "en": "dongpo jin",
+          "ja": "東坡ジン"
+        },
+        {
+          "en": "tang jin",
+          "ja": "タンジン"
+        },
+        {
+          "en": "zhouzi jin",
+          "ja": "周子ジン"
+        },
+        {
+          "en": "keffiyeh",
+          "ja": "クーフィヤ"
+        },
+        {
+          "en": "okosozukin",
+          "ja": "オコソズキン"
+        },
+        {
+          "en": "shower cap",
+          "ja": "シャワーキャップ"
+        },
+        {
+          "en": "shufa guan",
+          "ja": "シュファ・グアン"
+        },
+        {
+          "en": "tenugui",
+          "ja": "手ぬぐい"
+        },
+        {
+          "en": "turban",
+          "ja": "ターバン"
+        },
+        {
+          "en": "visor cap",
+          "ja": "バイザーキャップ"
+        },
+        {
+          "en": "zhuang hat",
+          "ja": "荘の帽子"
+        },
+        {
+          "en": "camouflage headwear",
+          "ja": "迷彩柄の帽子"
+        },
+        {
+          "en": "checkered headwear",
+          "ja": "チェック柄の帽子"
+        },
+        {
+          "en": "frilled hat",
+          "ja": "フリル付き帽子"
+        },
+        {
+          "en": "military hat",
+          "ja": "軍用帽子"
+        },
+        {
+          "en": "mini hat",
+          "ja": "ミニハット"
+        },
+        {
+          "en": "multicolored headwear",
+          "ja": "色とりどりの帽子"
+        },
+        {
+          "en": "police hat",
+          "ja": "警察の帽子"
+        },
+        {
+          "en": "print headwear",
+          "ja": "プリントヘッドウェア"
+        },
+        {
+          "en": "school hat",
+          "ja": "学校の帽子"
+        },
+        {
+          "en": "straw hat",
+          "ja": "麦わら帽子"
+        },
+        {
+          "en": "hat with ears",
+          "ja": "耳付き帽子"
+        },
+        {
+          "en": "hachimaki",
+          "ja": "ハチマキ"
+        },
+        {
+          "en": "nejiri hachimaki",
+          "ja": "ねじり鉢巻"
+        },
+        {
+          "en": "mongkhon",
+          "ja": "モンコン"
+        },
+        {
+          "en": "headdress",
+          "ja": "頭飾り"
+        },
+        {
+          "en": "maid headdress",
+          "ja": "メイドの頭飾り"
+        },
+        {
+          "en": "native american headdress",
+          "ja": "ネイティブアメリカンの頭飾り"
+        },
+        {
+          "en": "warbonnet",
+          "ja": "ウォーボンネット"
+        },
+        {
+          "en": "veil",
+          "ja": "ベール"
+        },
+        {
+          "en": "honggaitou",
+          "ja": "ホンガイトウ"
+        },
+        {
+          "en": "wimple",
+          "ja": "ウィンプル"
+        }
+      ],
+      "小物・その他": [
+        {
+          "en": "chin strap",
+          "ja": "あごストラップ"
+        },
+        {
+          "en": "hat bow",
+          "ja": "帽子のリボン"
+        },
+        {
+          "en": "hat feather",
+          "ja": "帽子の羽根"
+        },
+        {
+          "en": "hat ornament",
+          "ja": "帽子の飾り"
+        },
+        {
+          "en": "anchor hat ornament",
+          "ja": "錨の帽子飾り"
+        },
+        {
+          "en": "butterfly hat ornament",
+          "ja": "蝶の帽子飾り"
+        },
+        {
+          "en": "character hat ornament",
+          "ja": "キャラクター帽子飾り"
+        },
+        {
+          "en": "crescent hat ornament",
+          "ja": "三日月形の帽子飾り"
+        },
+        {
+          "en": "dolphin hat ornament",
+          "ja": "イルカの帽子飾り"
+        },
+        {
+          "en": "food-themed hat ornament",
+          "ja": "食べ物をテーマにした帽子の飾り"
+        },
+        {
+          "en": "fruit hat ornament",
+          "ja": "フルーツ帽子の飾り"
+        },
+        {
+          "en": "grape hat ornament",
+          "ja": "ブドウの帽子飾り"
+        },
+        {
+          "en": "peach hat ornament",
+          "ja": "桃色の帽子飾り"
+        },
+        {
+          "en": "pumpkin hat ornament",
+          "ja": "カボチャの帽子の飾り"
+        },
+        {
+          "en": "gear hat ornament",
+          "ja": "ギア帽子飾り"
+        },
+        {
+          "en": "heart hat ornament",
+          "ja": "ハートの帽子飾り"
+        },
+        {
+          "en": "holly hat ornament",
+          "ja": "ヒイラギの帽子飾り"
+        },
+        {
+          "en": "jack-o'-lantern hat ornament",
+          "ja": "ジャック・オー・ランタンの帽子飾り"
+        },
+        {
+          "en": "leaf hat ornament",
+          "ja": "葉っぱの帽子飾り"
+        },
+        {
+          "en": "palette hat ornament",
+          "ja": "パレットハットの飾り"
+        },
+        {
+          "en": "star hat ornament",
+          "ja": "星の帽子飾り"
+        },
+        {
+          "en": "skull hat ornament",
+          "ja": "頭蓋骨の帽子飾り"
+        },
+        {
+          "en": "hat flower",
+          "ja": "帽子の花"
+        },
+        {
+          "en": "hat tassel",
+          "ja": "帽子のタッセル"
+        },
+        {
+          "en": "hat ribbon",
+          "ja": "帽子のリボン"
+        },
+        {
+          "en": "lappet",
+          "ja": "ラペット"
+        },
+        {
+          "en": "hair bow",
+          "ja": "ヘアボウ"
+        },
+        {
+          "en": "hair ribbon",
+          "ja": "ヘアリボン"
+        },
+        {
+          "en": "hairband",
+          "ja": "ヘアバンド"
+        },
+        {
+          "en": "headband",
+          "ja": "ヘッドバンド"
+        },
+        {
+          "en": "forehead protector",
+          "ja": "額プロテクター"
+        },
+        {
+          "en": "sweatband",
+          "ja": "汗止めバンド"
+        },
+        {
+          "en": "hair tie",
+          "ja": "ヘアタイ"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "object on head",
+          "ja": "頭の上の物体"
+        },
+        {
+          "en": "bowl hat",
+          "ja": "ボウルハット"
+        },
+        {
+          "en": "bloomers on head",
+          "ja": "頭にブルマー"
+        },
+        {
+          "en": "book on head",
+          "ja": "頭の上に本を置く"
+        },
+        {
+          "en": "bra on head",
+          "ja": "頭にブラジャー"
+        },
+        {
+          "en": "bucket on head",
+          "ja": "頭にバケツを乗せる"
+        },
+        {
+          "en": "food on head",
+          "ja": "頭の上の食べ物"
+        },
+        {
+          "en": "panties on head",
+          "ja": "頭にパンティーを乗せる"
+        },
+        {
+          "en": "traffic cone on head",
+          "ja": "頭に交通コーン"
+        },
+        {
+          "en": "adjusting headwear",
+          "ja": "帽子の調整"
+        },
+        {
+          "en": "backwards hat",
+          "ja": "後ろ向きの帽子"
+        },
+        {
+          "en": "sideways hat",
+          "ja": "横向きの帽子"
+        },
+        {
+          "en": "hand on headwear",
+          "ja": "帽子に手を当てる"
+        },
+        {
+          "en": "hands on headwear",
+          "ja": "帽子に手を当てる"
+        },
+        {
+          "en": "hat basket",
+          "ja": "帽子かご"
+        },
+        {
+          "en": "hat loss",
+          "ja": "帽子の紛失"
+        },
+        {
+          "en": "hat on chest",
+          "ja": "胸に帽子"
+        },
+        {
+          "en": "hat over eyes",
+          "ja": "目を覆う帽子"
+        },
+        {
+          "en": "hat over one eye",
+          "ja": "片目を覆う帽子"
+        },
+        {
+          "en": "hat tip",
+          "ja": "帽子のヒント"
+        },
+        {
+          "en": "holding unworn hat",
+          "ja": "かぶっていない帽子を持っている"
+        },
+        {
+          "en": "holding helmet",
+          "ja": "ヘルメットを持っている"
+        },
+        {
+          "en": "no headwear",
+          "ja": "帽子なし"
+        },
+        {
+          "en": "putting on headwear",
+          "ja": "帽子をかぶる"
+        },
+        {
+          "en": "removing helmet",
+          "ja": "ヘルメットを外す"
+        },
+        {
+          "en": "tilted headwear",
+          "ja": "傾いた帽子"
+        },
+        {
+          "en": "torn hat",
+          "ja": "破れた帽子"
+        },
+        {
+          "en": "unworn hat",
+          "ja": "未使用の帽子"
+        },
+        {
+          "en": "unworn headwear",
+          "ja": "未使用の帽子"
+        },
+        {
+          "en": "unworn helmet",
+          "ja": "未使用のヘルメット"
+        }
+      ]
+    },
+    "アイウェア": {
+      "タイプ・デザイン": [
+        {
+          "en": "glasses",
+          "ja": "眼鏡"
+        },
+        {
+          "en": "goggles",
+          "ja": "ゴーグル"
+        },
+        {
+          "en": "monocle",
+          "ja": "片眼鏡"
+        },
+        {
+          "en": "sunglasses",
+          "ja": "サングラス"
+        },
+        {
+          "en": "framed eyewear",
+          "ja": "フレーム付き眼鏡"
+        },
+        {
+          "en": "tinted eyewear",
+          "ja": "色付き眼鏡"
+        },
+        {
+          "en": "animal-themed eyewear",
+          "ja": "動物をテーマにしたアイウェア"
+        },
+        {
+          "en": "cat eye-framed eyewear",
+          "ja": "猫目フレームの眼鏡"
+        },
+        {
+          "en": "food-themed eyewear",
+          "ja": "食べ物をテーマにしたアイウェア"
+        },
+        {
+          "en": "heart-shaped eyewear",
+          "ja": "ハート型の眼鏡"
+        },
+        {
+          "en": "rectangular eyewear",
+          "ja": "長方形の眼鏡"
+        },
+        {
+          "en": "rimless eyewear",
+          "ja": "縁なし眼鏡"
+        },
+        {
+          "en": "round eyewear",
+          "ja": "丸い眼鏡"
+        },
+        {
+          "en": "semi-circular eyewear",
+          "ja": "半円形の眼鏡"
+        },
+        {
+          "en": "semi-rimless eyewear",
+          "ja": "セミリムレスアイウェア"
+        },
+        {
+          "en": "over-rim eyewear",
+          "ja": "オーバーリム眼鏡"
+        },
+        {
+          "en": "under-rim eyewear",
+          "ja": "アンダーリム眼鏡"
+        },
+        {
+          "en": "teardrop-framed glasses",
+          "ja": "ティアドロップフレームの眼鏡"
+        },
+        {
+          "en": "triangular eyewear",
+          "ja": "三角形の眼鏡"
+        },
+        {
+          "en": "tortoiseshell-framed eyewear",
+          "ja": "べっ甲フレームの眼鏡"
+        },
+        {
+          "en": "alternate eyewear",
+          "ja": "代替眼鏡"
+        },
+        {
+          "en": "3d glasses",
+          "ja": "3Dメガネ"
+        },
+        {
+          "en": "aviator glasses",
+          "ja": "アビエーターグラス"
+        },
+        {
+          "en": "coke-bottle glasses",
+          "ja": "コーラボトルグラス"
+        },
+        {
+          "en": "novelty glasses",
+          "ja": "ノベルティグラス"
+        },
+        {
+          "en": "star-shaped eyewear",
+          "ja": "星型の眼鏡"
+        },
+        {
+          "en": "aviator goggles",
+          "ja": "飛行士用ゴーグル"
+        },
+        {
+          "en": "groucho glasses",
+          "ja": "グルーチョグラス"
+        },
+        {
+          "en": "lorgnette",
+          "ja": "長椅子"
+        },
+        {
+          "en": "opaque glasses",
+          "ja": "不透明なメガネ"
+        },
+        {
+          "en": "opera glasses",
+          "ja": "オペラグラス"
+        },
+        {
+          "en": "pince-nez",
+          "ja": "鼻眼鏡"
+        },
+        {
+          "en": "safety glasses",
+          "ja": "安全メガネ"
+        },
+        {
+          "en": "ski goggles",
+          "ja": "スキーゴーグル"
+        },
+        {
+          "en": "aviator sunglasses",
+          "ja": "アビエーターサングラス"
+        },
+        {
+          "en": "shutter shades",
+          "ja": "シャッターシェード"
+        },
+        {
+          "en": "contact lens",
+          "ja": "コンタクトレンズ"
+        },
+        {
+          "en": "diving mask",
+          "ja": "ダイビングマスク"
+        },
+        {
+          "en": "kamina shades",
+          "ja": "カミナシェード"
+        },
+        {
+          "en": "simon shades",
+          "ja": "サイモン・シェード"
+        },
+        {
+          "en": "scouter",
+          "ja": "スカウター"
+        }
+      ],
+      "小物": [
+        {
+          "en": "eyewear strap",
+          "ja": "アイウェアストラップ"
+        },
+        {
+          "en": "glasses case",
+          "ja": "メガネケース"
+        },
+        {
+          "en": "nose pads",
+          "ja": "鼻パッド"
+        },
+        {
+          "en": "contact lens case",
+          "ja": "コンタクトレンズケース"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "adjusting eyewear",
+          "ja": "眼鏡の調整"
+        },
+        {
+          "en": "broken eyewear",
+          "ja": "壊れた眼鏡"
+        },
+        {
+          "en": "cleaning eyewear",
+          "ja": "眼鏡のクリーニング"
+        },
+        {
+          "en": "crooked eyewear",
+          "ja": "歪んだ眼鏡"
+        },
+        {
+          "en": "eyewear on head",
+          "ja": "頭に眼鏡をかける"
+        },
+        {
+          "en": "eyewear on headwear",
+          "ja": "帽子に眼鏡をかける"
+        },
+        {
+          "en": "eyewear switch",
+          "ja": "眼鏡スイッチ"
+        },
+        {
+          "en": "fogged glasses",
+          "ja": "曇ったメガネ"
+        },
+        {
+          "en": "hand on eyewear",
+          "ja": "眼鏡に手を当てる"
+        },
+        {
+          "en": "looking over eyewear",
+          "ja": "眼鏡を見ている"
+        },
+        {
+          "en": "no eyewear",
+          "ja": "眼鏡なし"
+        },
+        {
+          "en": "removing eyewear",
+          "ja": "眼鏡を外す"
+        },
+        {
+          "en": "unworn eyewear",
+          "ja": "未使用の眼鏡"
+        },
+        {
+          "en": "eyewear hang",
+          "ja": "眼鏡ハンギング"
+        },
+        {
+          "en": "eyewear in mouth",
+          "ja": "口の中に眼鏡"
+        },
+        {
+          "en": "holding removed eyewear",
+          "ja": "外した眼鏡を持っている"
+        },
+        {
+          "en": "looking for glasses",
+          "ja": "メガネを探しています"
+        },
+        {
+          "en": "putting in contact lens",
+          "ja": "コンタクトレンズを装着する"
+        },
+        {
+          "en": "cum on eyewear",
+          "ja": "眼鏡に精液をかける"
+        },
+        {
+          "en": "bespectacled",
+          "ja": "眼鏡をかけた"
+        }
+      ],
+      "その他": [
+        {
+          "en": "deal with it (meme)",
+          "ja": "対処する（ミーム）"
+        },
+        {
+          "en": "eyewear view",
+          "ja": "眼鏡の見方"
+        },
+        {
+          "en": "x-ray glasses",
+          "ja": "X線メガネ"
+        }
+      ]
+    },
+    "マスク": {
+      "タイプ・デザイン": [
+        {
+          "en": "mask",
+          "ja": "マスク"
+        },
+        {
+          "en": "beauty mask",
+          "ja": "美容マスク"
+        },
+        {
+          "en": "nose mask",
+          "ja": "鼻マスク"
+        },
+        {
+          "en": "bondage mask",
+          "ja": "ボンデージマスク"
+        },
+        {
+          "en": "gimp mask",
+          "ja": "ギンプマスク"
+        },
+        {
+          "en": "catcher's mask",
+          "ja": "キャッチャーマスク"
+        },
+        {
+          "en": "carnival mask",
+          "ja": "カーニバルマスク"
+        },
+        {
+          "en": "character mask",
+          "ja": "キャラクターマスク"
+        },
+        {
+          "en": "clown mask",
+          "ja": "ピエロのマスク"
+        },
+        {
+          "en": "diving mask",
+          "ja": "ダイビングマスク"
+        },
+        {
+          "en": "gas mask",
+          "ja": "ガスマスク"
+        },
+        {
+          "en": "ghost mask",
+          "ja": "ゴーストマスク"
+        },
+        {
+          "en": "guy fawkes mask",
+          "ja": "ガイ・フォークスのマスク"
+        },
+        {
+          "en": "hockey mask",
+          "ja": "ホッケーマスク"
+        },
+        {
+          "en": "hollow mask",
+          "ja": "中空のマスク"
+        },
+        {
+          "en": "hyottoko mask",
+          "ja": "ひょっとこマスク"
+        },
+        {
+          "en": "kendo mask",
+          "ja": "剣道面"
+        },
+        {
+          "en": "luchador mask",
+          "ja": "ルチャドールマスク"
+        },
+        {
+          "en": "masquerade mask",
+          "ja": "仮面舞踏会のマスク"
+        },
+        {
+          "en": "noh mask",
+          "ja": "能面"
+        },
+        {
+          "en": "oxygen mask",
+          "ja": "酸素マスク"
+        },
+        {
+          "en": "panty mask",
+          "ja": "パンティマスク"
+        },
+        {
+          "en": "plague doctor mask",
+          "ja": "ペスト医師のマスク"
+        },
+        {
+          "en": "pumpkin mask",
+          "ja": "カボチャのマスク"
+        },
+        {
+          "en": "respirator",
+          "ja": "人工呼吸器"
+        },
+        {
+          "en": "santa mask",
+          "ja": "サンタマスク"
+        },
+        {
+          "en": "skull mask",
+          "ja": "頭蓋骨のマスク"
+        },
+        {
+          "en": "sleep mask",
+          "ja": "睡眠マスク"
+        },
+        {
+          "en": "snorkel mask",
+          "ja": "シュノーケルマスク"
+        },
+        {
+          "en": "welding mask",
+          "ja": "溶接マスク"
+        },
+        {
+          "en": "wrestling mask",
+          "ja": "レスリングマスク"
+        },
+        {
+          "en": "checkered mask",
+          "ja": "チェック柄のマスク"
+        },
+        {
+          "en": "domino mask",
+          "ja": "ドミノマスク"
+        },
+        {
+          "en": "eye mask",
+          "ja": "アイマスク"
+        },
+        {
+          "en": "half mask",
+          "ja": "ハーフマスク"
+        },
+        {
+          "en": "mouth mask",
+          "ja": "口マスク"
+        },
+        {
+          "en": "ninja mask",
+          "ja": "忍者マスク"
+        },
+        {
+          "en": "surgical mask",
+          "ja": "サージカルマスク"
+        },
+        {
+          "en": "mouth veil",
+          "ja": "口ベール"
+        },
+        {
+          "en": "alligator mask",
+          "ja": "ワニマスク"
+        },
+        {
+          "en": "bat mask",
+          "ja": "コウモリマスク"
+        },
+        {
+          "en": "bear mask",
+          "ja": "クマのマスク"
+        },
+        {
+          "en": "bird mask",
+          "ja": "鳥のマスク"
+        },
+        {
+          "en": "chicken mask",
+          "ja": "鶏のマスク"
+        },
+        {
+          "en": "crow mask",
+          "ja": "カラスマスク"
+        },
+        {
+          "en": "duck mask",
+          "ja": "アヒルのマスク"
+        },
+        {
+          "en": "owl mask",
+          "ja": "フクロウのマスク"
+        },
+        {
+          "en": "swan mask",
+          "ja": "白鳥のマスク"
+        },
+        {
+          "en": "boar mask",
+          "ja": "イノシシのマスク"
+        },
+        {
+          "en": "butterfly mask",
+          "ja": "蝶のマスク"
+        },
+        {
+          "en": "cat mask",
+          "ja": "猫のマスク"
+        },
+        {
+          "en": "cow mask",
+          "ja": "牛のマスク"
+        },
+        {
+          "en": "dog mask",
+          "ja": "犬のマスク"
+        },
+        {
+          "en": "fish mask",
+          "ja": "魚のマスク"
+        },
+        {
+          "en": "fox mask",
+          "ja": "キツネのマスク"
+        },
+        {
+          "en": "frog mask",
+          "ja": "カエルのマスク"
+        },
+        {
+          "en": "giraffe mask",
+          "ja": "キリンマスク"
+        },
+        {
+          "en": "gorilla mask",
+          "ja": "ゴリラマスク"
+        },
+        {
+          "en": "horse mask",
+          "ja": "馬のマスク"
+        },
+        {
+          "en": "lion mask",
+          "ja": "ライオンマスク"
+        },
+        {
+          "en": "monkey mask",
+          "ja": "猿のマスク"
+        },
+        {
+          "en": "mouse mask",
+          "ja": "マウスマスク"
+        },
+        {
+          "en": "panda mask",
+          "ja": "パンダマスク"
+        },
+        {
+          "en": "pig mask",
+          "ja": "豚のマスク"
+        },
+        {
+          "en": "rabbit mask",
+          "ja": "ウサギのマスク"
+        },
+        {
+          "en": "raccoon mask",
+          "ja": "アライグマのマスク"
+        },
+        {
+          "en": "snake mask",
+          "ja": "蛇のマスク"
+        },
+        {
+          "en": "weasel mask",
+          "ja": "イタチのマスク"
+        },
+        {
+          "en": "wolf mask",
+          "ja": "狼のマスク"
+        },
+        {
+          "en": "zebra mask",
+          "ja": "シマウママスク"
+        },
+        {
+          "en": "alien mask",
+          "ja": "エイリアンマスク"
+        },
+        {
+          "en": "dragon mask",
+          "ja": "ドラゴンマスク"
+        },
+        {
+          "en": "goblin mask",
+          "ja": "ゴブリンマスク"
+        },
+        {
+          "en": "kappa mask",
+          "ja": "カッパマスク"
+        },
+        {
+          "en": "oni mask",
+          "ja": "鬼の仮面"
+        },
+        {
+          "en": "tengu mask",
+          "ja": "天狗の面"
+        },
+        {
+          "en": "unicorn mask",
+          "ja": "ユニコーンマスク"
+        },
+        {
+          "en": "asymmetrical mask",
+          "ja": "非対称マスク"
+        },
+        {
+          "en": "bone mask",
+          "ja": "骨のマスク"
+        },
+        {
+          "en": "broken mask",
+          "ja": "壊れたマスク"
+        },
+        {
+          "en": "cracked mask",
+          "ja": "ひび割れたマスク"
+        },
+        {
+          "en": "dirty mask",
+          "ja": "汚れたマスク"
+        },
+        {
+          "en": "glowing mask",
+          "ja": "光るマスク"
+        },
+        {
+          "en": "gold mask",
+          "ja": "金のマスク"
+        },
+        {
+          "en": "horned mask",
+          "ja": "角のあるマスク"
+        },
+        {
+          "en": "leather mask",
+          "ja": "革のマスク"
+        },
+        {
+          "en": "pointed mask",
+          "ja": "尖ったマスク"
+        },
+        {
+          "en": "see-through mask",
+          "ja": "シースルーマスク"
+        },
+        {
+          "en": "spiked mask",
+          "ja": "スパイクマスク"
+        },
+        {
+          "en": "steel mask",
+          "ja": "スチールマスク"
+        },
+        {
+          "en": "stone mask",
+          "ja": "石仮面"
+        },
+        {
+          "en": "studded mask",
+          "ja": "スタッズマスク"
+        },
+        {
+          "en": "torn mask",
+          "ja": "破れたマスク"
+        },
+        {
+          "en": "animegao",
+          "ja": "アニメガオ"
+        },
+        {
+          "en": "rina-chan board",
+          "ja": "りなちゃんボード"
+        }
+      ],
+      "小物": [
+        {
+          "en": "mask bikini",
+          "ja": "マスクビキニ"
+        },
+        {
+          "en": "mask on breasts",
+          "ja": "胸にマスク"
+        },
+        {
+          "en": "mask around neck",
+          "ja": "首にかけるマスク"
+        },
+        {
+          "en": "mask around one ear",
+          "ja": "片耳にマスクをかける"
+        },
+        {
+          "en": "mask on belt",
+          "ja": "ベルトのマスク"
+        },
+        {
+          "en": "mask on hat",
+          "ja": "帽子にマスク"
+        },
+        {
+          "en": "mask on head",
+          "ja": "頭にマスク"
+        },
+        {
+          "en": "mask over one eye",
+          "ja": "片目を覆うマスク"
+        },
+        {
+          "en": "mask on shoulder",
+          "ja": "肩にマスク"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "diving mask on head",
+          "ja": "頭にダイビングマスクを装着"
+        },
+        {
+          "en": "diving mask removed",
+          "ja": "ダイビングマスクを外した"
+        },
+        {
+          "en": "adjusting mask",
+          "ja": "マスクの調整"
+        },
+        {
+          "en": "blood on mask",
+          "ja": "マスクの血"
+        },
+        {
+          "en": "eyebrows visible through mask",
+          "ja": "マスク越しに眉毛が見える"
+        },
+        {
+          "en": "facial hair through mask",
+          "ja": "マスク越しに顔の毛が見える"
+        },
+        {
+          "en": "hand on mask",
+          "ja": "マスクに手を当てる"
+        },
+        {
+          "en": "holding mask",
+          "ja": "マスクを持っている"
+        },
+        {
+          "en": "kissing through mask",
+          "ja": "マスク越しにキス"
+        },
+        {
+          "en": "masked",
+          "ja": "マスクされた"
+        },
+        {
+          "en": "mask lift",
+          "ja": "マスクリフト"
+        },
+        {
+          "en": "mask pull",
+          "ja": "マスクを外す"
+        },
+        {
+          "en": "putting on mask",
+          "ja": "マスクを着用する"
+        },
+        {
+          "en": "removing mask",
+          "ja": "マスクを外す"
+        },
+        {
+          "en": "unmasking",
+          "ja": "マスクを外す"
+        },
+        {
+          "en": "unworn mask",
+          "ja": "未使用のマスク"
+        }
+      ],
+      "NSFW": [
+        {
+          "en": "cum on mask",
+          "ja": "マスクに精液をかける"
+        },
+        {
+          "en": "fellatio under mask",
+          "ja": "マスクの下でのフェラチオ"
+        },
+        {
+          "en": "gag under mask",
+          "ja": "マスクの下の猿ぐつわ"
+        },
+        {
+          "en": "dildo under mask",
+          "ja": "マスクの下のディルド"
+        },
+        {
+          "en": "mask on crotch",
+          "ja": "股間のマスク"
+        },
+        {
+          "en": "penis under mask",
+          "ja": "マスクの下のペニス"
+        }
+      ],
+      "その他": [
+        {
+          "en": "covered face",
+          "ja": "顔を覆った"
+        },
+        {
+          "en": "paper on face",
+          "ja": "顔に紙を貼る"
+        }
+      ]
+    },
+    "ネックウェア": {
+      "タイプ・デザイン": [
+        {
+          "en": "ascot",
+          "ja": "アスコット"
+        },
+        {
+          "en": "bib collar",
+          "ja": "よだれかけカラー"
+        },
+        {
+          "en": "bolo tie",
+          "ja": "ボロタイ"
+        },
+        {
+          "en": "bowtie",
+          "ja": "ちょうネクタイ"
+        },
+        {
+          "en": "collar",
+          "ja": "襟"
+        },
+        {
+          "en": "cross tie",
+          "ja": "クロスタイ"
+        },
+        {
+          "en": "detached collar",
+          "ja": "取り外し可能な襟"
+        },
+        {
+          "en": "guimpe",
+          "ja": "ギンペ"
+        },
+        {
+          "en": "puritan collar",
+          "ja": "ピューリタンカラー"
+        },
+        {
+          "en": "feather boa",
+          "ja": "フェザーボア"
+        },
+        {
+          "en": "neck bell",
+          "ja": "ネックベル"
+        },
+        {
+          "en": "necklace",
+          "ja": "ネックレス"
+        },
+        {
+          "en": "neckerchief",
+          "ja": "ネッカチーフ"
+        },
+        {
+          "en": "neck ribbon",
+          "ja": "ネックリボン"
+        },
+        {
+          "en": "neck ruff",
+          "ja": "首のラフ"
+        },
+        {
+          "en": "neck tassel",
+          "ja": "ネックタッセル"
+        },
+        {
+          "en": "necktie",
+          "ja": "ネクタイ"
+        },
+        {
+          "en": "stole",
+          "ja": "ストール"
+        },
+        {
+          "en": "fur collar",
+          "ja": "毛皮の首輪"
+        },
+        {
+          "en": "high collar",
+          "ja": "ハイカラー"
+        },
+        {
+          "en": "open collar",
+          "ja": "オープンカラー"
+        },
+        {
+          "en": "popped collar",
+          "ja": "襟を立てた"
+        },
+        {
+          "en": "v-neck",
+          "ja": "Vネック"
+        },
+        {
+          "en": "wing collar",
+          "ja": "ウィングカラー"
+        },
+        {
+          "en": "collared blouse",
+          "ja": "襟付きブラウス"
+        },
+        {
+          "en": "collared cape",
+          "ja": "襟付きケープ"
+        },
+        {
+          "en": "collared capelet",
+          "ja": "襟付きケープレット"
+        },
+        {
+          "en": "collared coat",
+          "ja": "襟付きコート"
+        },
+        {
+          "en": "collared crop top",
+          "ja": "襟付きクロップトップ"
+        },
+        {
+          "en": "collared dress",
+          "ja": "襟付きドレス"
+        },
+        {
+          "en": "collared leotard",
+          "ja": "襟付きレオタード"
+        },
+        {
+          "en": "collared shirt",
+          "ja": "襟付きシャツ"
+        },
+        {
+          "en": "collared shrug",
+          "ja": "襟付きショルダー"
+        },
+        {
+          "en": "collared vest",
+          "ja": "襟付きベスト"
+        },
+        {
+          "en": "halterneck",
+          "ja": "ホルターネック"
+        },
+        {
+          "en": "halter dress",
+          "ja": "ホルターネックドレス"
+        },
+        {
+          "en": "halter leotard",
+          "ja": "ホルターレオタード"
+        },
+        {
+          "en": "halter shirt",
+          "ja": "ホルターシャツ"
+        },
+        {
+          "en": "criss-cross halter",
+          "ja": "十字形のホルターネック"
+        },
+        {
+          "en": "sailor collar",
+          "ja": "セーラーカラー"
+        },
+        {
+          "en": "sailor bikini",
+          "ja": "セーラービキニ"
+        },
+        {
+          "en": "sailor dress",
+          "ja": "セーラードレス"
+        },
+        {
+          "en": "sailor shirt",
+          "ja": "セーラーシャツ"
+        },
+        {
+          "en": "serafuku",
+          "ja": "セーラー服"
+        },
+        {
+          "en": "turtleneck",
+          "ja": "タートルネック"
+        },
+        {
+          "en": "sleeveless turtleneck",
+          "ja": "ノースリーブタートルネック"
+        },
+        {
+          "en": "turtleneck bodysuit",
+          "ja": "タートルネックボディスーツ"
+        },
+        {
+          "en": "turtleneck dress",
+          "ja": "タートルネックドレス"
+        },
+        {
+          "en": "turtleneck jacket",
+          "ja": "タートルネックジャケット"
+        },
+        {
+          "en": "turtleneck one-piece swimsuit",
+          "ja": "タートルネックワンピース水着"
+        },
+        {
+          "en": "turtleneck shirt",
+          "ja": "タートルネックシャツ"
+        },
+        {
+          "en": "checkered ascot",
+          "ja": "チェック柄アスコット"
+        },
+        {
+          "en": "gingham ascot",
+          "ja": "ギンガムアスコット"
+        },
+        {
+          "en": "lace-trimmed ascot",
+          "ja": "レーストリムのアスコット"
+        },
+        {
+          "en": "plaid ascot",
+          "ja": "チェック柄アスコット"
+        },
+        {
+          "en": "striped ascot",
+          "ja": "ストライプアスコット"
+        },
+        {
+          "en": "torn ascot",
+          "ja": "破れたアスコット"
+        },
+        {
+          "en": "gradient ascot",
+          "ja": "グラデーションアスコット"
+        },
+        {
+          "en": "multicolored ascot",
+          "ja": "多色のアスコット"
+        },
+        {
+          "en": "two-tone ascot",
+          "ja": "ツートンアスコット"
+        },
+        {
+          "en": "traditional bowtie",
+          "ja": "伝統的な蝶ネクタイ"
+        },
+        {
+          "en": "huge bowtie",
+          "ja": "巨大な蝶ネクタイ"
+        },
+        {
+          "en": "argyle bowtie",
+          "ja": "アーガイル蝶ネクタイ"
+        },
+        {
+          "en": "checkered bowtie",
+          "ja": "チェック柄の蝶ネクタイ"
+        },
+        {
+          "en": "plaid bowtie",
+          "ja": "チェック柄の蝶ネクタイ"
+        },
+        {
+          "en": "polka dot bowtie",
+          "ja": "水玉模様の蝶ネクタイ"
+        },
+        {
+          "en": "striped bowtie",
+          "ja": "ストライプの蝶ネクタイ"
+        },
+        {
+          "en": "gradient bowtie",
+          "ja": "グラデーションボウタイ"
+        },
+        {
+          "en": "multicolored bowtie",
+          "ja": "多色の蝶ネクタイ"
+        },
+        {
+          "en": "two-tone bowtie",
+          "ja": "ツートンカラーの蝶ネクタイ"
+        },
+        {
+          "en": "anchor choker",
+          "ja": "アンカーチョーカー"
+        },
+        {
+          "en": "bead choker",
+          "ja": "ビーズチョーカー"
+        },
+        {
+          "en": "bell choker",
+          "ja": "ベルチョーカー"
+        },
+        {
+          "en": "bow choker",
+          "ja": "リボンチョーカー"
+        },
+        {
+          "en": "crescent choker",
+          "ja": "三日月チョーカー"
+        },
+        {
+          "en": "cross choker",
+          "ja": "クロスチョーカー"
+        },
+        {
+          "en": "flower choker",
+          "ja": "フラワーチョーカー"
+        },
+        {
+          "en": "frilled choker",
+          "ja": "フリルチョーカー"
+        },
+        {
+          "en": "fur choker",
+          "ja": "ファーチョーカー"
+        },
+        {
+          "en": "fur-trimmed choker",
+          "ja": "毛皮で縁取られたチョーカー"
+        },
+        {
+          "en": "gold choker",
+          "ja": "ゴールドチョーカー"
+        },
+        {
+          "en": "heart choker",
+          "ja": "ハートチョーカー"
+        },
+        {
+          "en": "key choker",
+          "ja": "キーチョーカー"
+        },
+        {
+          "en": "lace choker",
+          "ja": "レースチョーカー"
+        },
+        {
+          "en": "lace-trimmed choker",
+          "ja": "レーストリムのチョーカー"
+        },
+        {
+          "en": "o-ring choker",
+          "ja": "Oリングチョーカー"
+        },
+        {
+          "en": "heart ring choker",
+          "ja": "ハートリングチョーカー"
+        },
+        {
+          "en": "pendant choker",
+          "ja": "ペンダントチョーカー"
+        },
+        {
+          "en": "rabbit choker",
+          "ja": "ウサギのチョーカー"
+        },
+        {
+          "en": "ribbon choker",
+          "ja": "リボンチョーカー"
+        },
+        {
+          "en": "silver choker",
+          "ja": "シルバーチョーカー"
+        },
+        {
+          "en": "skull choker",
+          "ja": "スカルチョーカー"
+        },
+        {
+          "en": "spiked choker",
+          "ja": "スパイクチョーカー"
+        },
+        {
+          "en": "star choker",
+          "ja": "星のチョーカー"
+        },
+        {
+          "en": "striped choker",
+          "ja": "ストライプチョーカー"
+        },
+        {
+          "en": "studded choker",
+          "ja": "スタッズチョーカー"
+        },
+        {
+          "en": "argyle choker",
+          "ja": "アーガイルチョーカー"
+        },
+        {
+          "en": "plaid choker",
+          "ja": "チェック柄チョーカー"
+        },
+        {
+          "en": "print choker",
+          "ja": "プリントチョーカー"
+        },
+        {
+          "en": "checkered neckerchief",
+          "ja": "チェック柄のネッカチーフ"
+        },
+        {
+          "en": "striped neckerchief",
+          "ja": "ストライプのネッカチーフ"
+        },
+        {
+          "en": "diagonal-striped neckerchief",
+          "ja": "斜めのストライプのネッカチーフ"
+        },
+        {
+          "en": "two-tone neckerchief",
+          "ja": "ツートンカラーのネッカチーフ"
+        },
+        {
+          "en": "gradient neckerchief",
+          "ja": "グラデーションネッカチーフ"
+        },
+        {
+          "en": "multicolored",
+          "ja": "多色"
+        },
+        {
+          "en": "chain necklace",
+          "ja": "チェーンネックレス"
+        },
+        {
+          "en": "flower necklace",
+          "ja": "花のネックレス"
+        },
+        {
+          "en": "lei",
+          "ja": "レイ"
+        },
+        {
+          "en": "pearl necklace",
+          "ja": "真珠のネックレス"
+        },
+        {
+          "en": "pendant",
+          "ja": "ペンダント"
+        },
+        {
+          "en": "amulet",
+          "ja": "お守り"
+        },
+        {
+          "en": "locket",
+          "ja": "ロケット"
+        },
+        {
+          "en": "magatama",
+          "ja": "勾玉"
+        },
+        {
+          "en": "pentacle",
+          "ja": "五芒星"
+        },
+        {
+          "en": "fringe trim",
+          "ja": "フリンジトリム"
+        },
+        {
+          "en": "fur scarf",
+          "ja": "毛皮のスカーフ"
+        },
+        {
+          "en": "fur-trimmed scarf",
+          "ja": "毛皮の縁取りのスカーフ"
+        },
+        {
+          "en": "floating scarf",
+          "ja": "浮かぶスカーフ"
+        },
+        {
+          "en": "sentient scarf",
+          "ja": "知覚力のあるスカーフ"
+        },
+        {
+          "en": "see-through scarf",
+          "ja": "シースルースカーフ"
+        },
+        {
+          "en": "camouflage scarf",
+          "ja": "迷彩柄スカーフ"
+        },
+        {
+          "en": "polka dot scarf",
+          "ja": "水玉模様のスカーフ"
+        },
+        {
+          "en": "striped scarf",
+          "ja": "ストライプのスカーフ"
+        },
+        {
+          "en": "vertical-striped scarf",
+          "ja": "縦縞のスカーフ"
+        },
+        {
+          "en": "torn scarf",
+          "ja": "破れたスカーフ"
+        },
+        {
+          "en": "gradient scarf",
+          "ja": "グラデーションスカーフ"
+        },
+        {
+          "en": "multicolored scarf",
+          "ja": "色とりどりのスカーフ"
+        },
+        {
+          "en": "two-tone scarf",
+          "ja": "ツートンカラーのスカーフ"
+        }
+      ],
+      "小物": [
+        {
+          "en": "pet cone",
+          "ja": "ペットコーン"
+        },
+        {
+          "en": "gorget",
+          "ja": "喉当て"
+        },
+        {
+          "en": "unworn choker",
+          "ja": "未使用のチョーカー"
+        },
+        {
+          "en": "unworn neckerchief",
+          "ja": "未使用のネッカチーフ"
+        },
+        {
+          "en": "unworn necklace",
+          "ja": "未使用のネックレス"
+        },
+        {
+          "en": "unworn necktie",
+          "ja": "未使用のネクタイ"
+        },
+        {
+          "en": "unworn scarf",
+          "ja": "未使用のスカーフ"
+        },
+        {
+          "en": "friendship charm",
+          "ja": "友情のお守り"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "animal around neck",
+          "ja": "首に動物を巻き付ける"
+        },
+        {
+          "en": "bandana around neck",
+          "ja": "首に巻くバンダナ"
+        },
+        {
+          "en": "eyewear around neck",
+          "ja": "首にかける眼鏡"
+        },
+        {
+          "en": "goggles around neck",
+          "ja": "首にゴーグルをかける"
+        },
+        {
+          "en": "headphones around neck",
+          "ja": "首にかけるヘッドフォン"
+        },
+        {
+          "en": "lanyard",
+          "ja": "ストラップ"
+        },
+        {
+          "en": "mask around neck",
+          "ja": "首にかけるマスク"
+        },
+        {
+          "en": "towel around neck",
+          "ja": "首に巻くタオル"
+        },
+        {
+          "en": "whistle around neck",
+          "ja": "首に巻く笛"
+        },
+        {
+          "en": "adjusting collar",
+          "ja": "調整カラー"
+        },
+        {
+          "en": "adjusting neckerchief",
+          "ja": "ネッカチーフを調整する"
+        },
+        {
+          "en": "adjusting necklace",
+          "ja": "ネックレスの調整"
+        },
+        {
+          "en": "adjusting neck ribbon",
+          "ja": "ネックリボンの調整"
+        },
+        {
+          "en": "adjusting necktie",
+          "ja": "ネクタイを調整する"
+        },
+        {
+          "en": "adjusting scarf",
+          "ja": "調整スカーフ"
+        },
+        {
+          "en": "necktie between breasts",
+          "ja": "胸の間のネクタイ"
+        },
+        {
+          "en": "neckwear grab",
+          "ja": "ネックウェアを掴む"
+        },
+        {
+          "en": "collar grab",
+          "ja": "襟を掴む"
+        },
+        {
+          "en": "neckerchief grab",
+          "ja": "ネッカチーフを掴む"
+        },
+        {
+          "en": "neck ribbon grab",
+          "ja": "ネックリボングラブ"
+        },
+        {
+          "en": "necktie grab",
+          "ja": "ネクタイを掴む"
+        },
+        {
+          "en": "scarf grab",
+          "ja": "スカーフを掴む"
+        },
+        {
+          "en": "necktie on head",
+          "ja": "頭にネクタイを巻く"
+        },
+        {
+          "en": "bandana over mouth",
+          "ja": "口にバンダナ"
+        },
+        {
+          "en": "clothes gag",
+          "ja": "衣服ギャグ"
+        },
+        {
+          "en": "scarf over mouth",
+          "ja": "口を覆うスカーフ"
+        },
+        {
+          "en": "shared scarf",
+          "ja": "共有スカーフ"
+        },
+        {
+          "en": "collar tug",
+          "ja": "首輪を引っ張る"
+        },
+        {
+          "en": "loose bowtie",
+          "ja": "ゆるい蝶ネクタイ"
+        },
+        {
+          "en": "loose necktie",
+          "ja": "緩いネクタイ"
+        },
+        {
+          "en": "undone ascot",
+          "ja": "元に戻すアスコット"
+        },
+        {
+          "en": "undone neckerchief",
+          "ja": "ほどけたネッカチーフ"
+        }
+      ],
+      "その他": [
+        {
+          "en": "no neckwear",
+          "ja": "ネックウェアなし"
+        },
+        {
+          "en": "no choker",
+          "ja": "チョーカーなし"
+        },
+        {
+          "en": "no necklace",
+          "ja": "ネックレスなし"
+        },
+        {
+          "en": "no necktie",
+          "ja": "ネクタイなし"
+        },
+        {
+          "en": "no scarf",
+          "ja": "スカーフなし"
+        }
+      ]
+    },
+    "ハンドウェア": {
+      "タイプ・デザイン": [
+        {
+          "en": "gloves",
+          "ja": "手袋"
+        },
+        {
+          "en": "elbow gloves",
+          "ja": "エルボーグローブ"
+        },
+        {
+          "en": "fingerless gloves",
+          "ja": "指なし手袋"
+        },
+        {
+          "en": "partially fingerless gloves",
+          "ja": "指なし手袋"
+        },
+        {
+          "en": "fold-over gloves",
+          "ja": "折り返し手袋"
+        },
+        {
+          "en": "glove cuffs",
+          "ja": "手袋の袖口"
+        },
+        {
+          "en": "half gloves",
+          "ja": "ハーフグローブ"
+        },
+        {
+          "en": "paw gloves",
+          "ja": "肉球手袋"
+        },
+        {
+          "en": "cat paws",
+          "ja": "猫の足"
+        },
+        {
+          "en": "torn gloves",
+          "ja": "破れた手袋"
+        },
+        {
+          "en": "layered gloves",
+          "ja": "重ね着手袋"
+        },
+        {
+          "en": "cross-laced gloves",
+          "ja": "クロスレースの手袋"
+        },
+        {
+          "en": "glove cutout",
+          "ja": "グローブの切り抜き"
+        },
+        {
+          "en": "print gloves",
+          "ja": "プリント手袋"
+        },
+        {
+          "en": "striped gloves",
+          "ja": "ストライプ柄の手袋"
+        },
+        {
+          "en": "paw print palms",
+          "ja": "足跡の手のひら"
+        },
+        {
+          "en": "cow print gloves",
+          "ja": "牛柄の手袋"
+        },
+        {
+          "en": "glove bow",
+          "ja": "グローブボウ"
+        },
+        {
+          "en": "spiked gloves",
+          "ja": "スパイク付き手袋"
+        },
+        {
+          "en": "fur-trimmed gloves",
+          "ja": "毛皮で縁取られた手袋"
+        },
+        {
+          "en": "frilled gloves",
+          "ja": "フリル付き手袋"
+        },
+        {
+          "en": "lace-trimmed gloves",
+          "ja": "レーストリムの手袋"
+        },
+        {
+          "en": "ribbon-trimmed gloves",
+          "ja": "リボントリムの手袋"
+        },
+        {
+          "en": "single glove",
+          "ja": "片手手袋"
+        },
+        {
+          "en": "mismatched gloves",
+          "ja": "左右の手袋が違う"
+        },
+        {
+          "en": "single elbow glove",
+          "ja": "片肘用グローブ"
+        },
+        {
+          "en": "single fingerless glove",
+          "ja": "片指なし手袋"
+        },
+        {
+          "en": "uneven gloves",
+          "ja": "凹凸のある手袋"
+        },
+        {
+          "en": "yugake",
+          "ja": "ゆがけ"
+        },
+        {
+          "en": "unworn gloves",
+          "ja": "未使用の手袋"
+        },
+        {
+          "en": "archery shooting glove",
+          "ja": "アーチェリー射撃用グローブ"
+        },
+        {
+          "en": "artist glove",
+          "ja": "アーティストグローブ"
+        },
+        {
+          "en": "falconry glove",
+          "ja": "鷹狩り用手袋"
+        },
+        {
+          "en": "fishnet gloves",
+          "ja": "網タイツ手袋"
+        },
+        {
+          "en": "lace gloves",
+          "ja": "レース手袋"
+        },
+        {
+          "en": "latex gloves",
+          "ja": "ラテックス手袋"
+        },
+        {
+          "en": "leather gloves",
+          "ja": "革手袋"
+        },
+        {
+          "en": "rubber gloves",
+          "ja": "ゴム手袋"
+        },
+        {
+          "en": "see-through gloves",
+          "ja": "シースルー手袋"
+        }
+      ],
+      "動作": [
+        {
+          "en": "adjusting gloves",
+          "ja": "調整用手袋"
+        },
+        {
+          "en": "blood on gloves",
+          "ja": "手袋についた血"
+        },
+        {
+          "en": "biting glove",
+          "ja": "噛みつき手袋"
+        },
+        {
+          "en": "glove in mouth",
+          "ja": "口に手袋をはめた"
+        },
+        {
+          "en": "glove pull",
+          "ja": "グローブプル"
+        },
+        {
+          "en": "holding gloves",
+          "ja": "手袋を握る"
+        },
+        {
+          "en": "putting on gloves",
+          "ja": "手袋をはめる"
+        },
+        {
+          "en": "removing glove",
+          "ja": "手袋を外す"
+        }
+      ],
+      "その他装備": [
+        {
+          "en": "mechanical hands",
+          "ja": "機械の針"
+        },
+        {
+          "en": "baseball mitt",
+          "ja": "野球ミット"
+        },
+        {
+          "en": "boxing gloves",
+          "ja": "ボクシンググローブ"
+        },
+        {
+          "en": "bridal gauntlets",
+          "ja": "ブライダルガントレット"
+        },
+        {
+          "en": "finger cots",
+          "ja": "指サック"
+        },
+        {
+          "en": "gauntlets",
+          "ja": "ガントレット"
+        },
+        {
+          "en": "kote",
+          "ja": "小手"
+        },
+        {
+          "en": "kurokote",
+          "ja": "黒子手"
+        },
+        {
+          "en": "mittens",
+          "ja": "ミトン"
+        },
+        {
+          "en": "oven mitts",
+          "ja": "オーブンミット"
+        },
+        {
+          "en": "hand puppets",
+          "ja": "手袋人形"
+        }
+      ],
+      "小物": [
+        {
+          "en": "bandaged hand",
+          "ja": "包帯を巻いた手"
+        },
+        {
+          "en": "bandaid on hand",
+          "ja": "絆創膏を手に"
+        },
+        {
+          "en": "claw ring",
+          "ja": "クローリング"
+        },
+        {
+          "en": "finger puppet",
+          "ja": "指人形"
+        },
+        {
+          "en": "hand chains",
+          "ja": "ハンドチェーン"
+        },
+        {
+          "en": "string around finger",
+          "ja": "指に巻く紐"
+        },
+        {
+          "en": "thimble",
+          "ja": "指ぬき"
+        },
+        {
+          "en": "butterfly ring",
+          "ja": "バタフライリング"
+        },
+        {
+          "en": "ornate ring",
+          "ja": "装飾的な指輪"
+        },
+        {
+          "en": "finger bow",
+          "ja": "フィンガーボウ"
+        },
+        {
+          "en": "wedding ring",
+          "ja": "結婚指輪"
+        }
+      ],
+      "ハンドマーク系": [
+        {
+          "en": "finger tattoo",
+          "ja": "指のタトゥー"
+        },
+        {
+          "en": "hand eye",
+          "ja": "手と目"
+        },
+        {
+          "en": "hand jewel",
+          "ja": "手宝石"
+        },
+        {
+          "en": "material growth",
+          "ja": "物質的な成長"
+        },
+        {
+          "en": "hand mouth",
+          "ja": "手口"
+        },
+        {
+          "en": "hand tattoo",
+          "ja": "手のタトゥー"
+        },
+        {
+          "en": "henna",
+          "ja": "ヘンナ"
+        }
+      ],
+      "その他": [
+        {
+          "en": "armbinder",
+          "ja": "アームバインダー"
+        },
+        {
+          "en": "hand hair",
+          "ja": "手毛"
+        },
+        {
+          "en": "knuckle hair",
+          "ja": "指関節の毛"
+        }
+      ]
+    },
+    "レッグウェア": {
+      "タイプ・デザイン": [
+        {
+          "en": "socks",
+          "ja": "ソックス"
+        },
+        {
+          "en": "kneehighs",
+          "ja": "ニーハイソックス"
+        },
+        {
+          "en": "over-kneehighs",
+          "ja": "オーバーニーソックス"
+        },
+        {
+          "en": "thighhighs",
+          "ja": "サイハイソックス"
+        },
+        {
+          "en": "pantyhose",
+          "ja": "パンスト"
+        },
+        {
+          "en": "leggings",
+          "ja": "レギンス"
+        },
+        {
+          "en": "detached leggings",
+          "ja": "デタッチドレギンス"
+        },
+        {
+          "en": "gradient legwear",
+          "ja": "グラデーションレッグウェア"
+        },
+        {
+          "en": "multicolored leggings",
+          "ja": "多色のレギンス"
+        },
+        {
+          "en": "multicolored leg warmers",
+          "ja": "多色のレッグウォーマー"
+        },
+        {
+          "en": "multicolored pantyhose",
+          "ja": "色とりどりのパンスト"
+        },
+        {
+          "en": "multicolored socks",
+          "ja": "色とりどりの靴下"
+        },
+        {
+          "en": "multicolored thighhighs",
+          "ja": "多色のニーソックス"
+        },
+        {
+          "en": "two-tone legwear",
+          "ja": "ツートンカラーのレッグウェア"
+        },
+        {
+          "en": "american flag legwear",
+          "ja": "アメリカ国旗のレッグウェア"
+        },
+        {
+          "en": "camouflage legwear",
+          "ja": "迷彩柄レッグウェア"
+        },
+        {
+          "en": "checkered legwear",
+          "ja": "チェック柄のレッグウェア"
+        },
+        {
+          "en": "diagonal-striped legwear",
+          "ja": "斜めストライプのレッグウェア"
+        },
+        {
+          "en": "gingham legwear",
+          "ja": "ギンガムチェックのレッグウェア"
+        },
+        {
+          "en": "polka dot legwear",
+          "ja": "水玉模様のレッグウェア"
+        },
+        {
+          "en": "rainbow legwear",
+          "ja": "レインボーレッグウェア"
+        },
+        {
+          "en": "animal ear legwear",
+          "ja": "動物の耳のレッグウェア"
+        },
+        {
+          "en": "bat legwear",
+          "ja": "コウモリのレッグウェア"
+        },
+        {
+          "en": "bear band legwear",
+          "ja": "ベアバンドレッグウェア"
+        },
+        {
+          "en": "rabbit ear legwear",
+          "ja": "ウサギの耳のレッグウェア"
+        },
+        {
+          "en": "cat ear legwear",
+          "ja": "猫耳レッグウェア"
+        },
+        {
+          "en": "horn band legwear",
+          "ja": "ホーンバンドレッグウェア"
+        },
+        {
+          "en": "aran legwear",
+          "ja": "アランレッグウェア"
+        },
+        {
+          "en": "armored legwear",
+          "ja": "装甲脚装備"
+        },
+        {
+          "en": "bow legwear",
+          "ja": "リボンレッグウェア"
+        },
+        {
+          "en": "cross-laced legwear",
+          "ja": "クロスレースのレッグウェア"
+        },
+        {
+          "en": "fishnet leggings",
+          "ja": "網タイツのレギンス"
+        },
+        {
+          "en": "fishnet pantyhose",
+          "ja": "網タイツ"
+        },
+        {
+          "en": "fishnet socks",
+          "ja": "網タイツ"
+        },
+        {
+          "en": "fishnet thighhighs",
+          "ja": "網タイツ"
+        },
+        {
+          "en": "fluffy legwear",
+          "ja": "ふわふわのレッグウェア"
+        },
+        {
+          "en": "knit legwear",
+          "ja": "ニットレッグウェア"
+        },
+        {
+          "en": "lace legwear",
+          "ja": "レースのレッグウェア"
+        },
+        {
+          "en": "lace-up legwear",
+          "ja": "レースアップレッグウェア"
+        },
+        {
+          "en": "latex legwear",
+          "ja": "ラテックスレッグウェア"
+        },
+        {
+          "en": "ribbed leg warmers",
+          "ja": "リブ編みのレッグウォーマー"
+        },
+        {
+          "en": "ribbed pantyhose",
+          "ja": "リブ付きパンスト"
+        },
+        {
+          "en": "ribbed socks",
+          "ja": "リブ編みのソックス"
+        },
+        {
+          "en": "ribbed thighhighs",
+          "ja": "リブ編みのサイハイソックス"
+        },
+        {
+          "en": "seamed legwear",
+          "ja": "シーム入りレッグウェア"
+        },
+        {
+          "en": "back-seamed legwear",
+          "ja": "バックシームレッグウェア"
+        },
+        {
+          "en": "front-seamed legwear",
+          "ja": "フロントシームのレッグウェア"
+        },
+        {
+          "en": "side-seamed legwear",
+          "ja": "サイドシームレッグウェア"
+        },
+        {
+          "en": "see-through legwear",
+          "ja": "シースルーのレッグウェア"
+        },
+        {
+          "en": "shiny legwear",
+          "ja": "光沢のあるレッグウェア"
+        },
+        {
+          "en": "side-tie legwear",
+          "ja": "サイドタイレッグウェア"
+        },
+        {
+          "en": "spiked legwear",
+          "ja": "スパイク付きレッグウェア"
+        },
+        {
+          "en": "studded legwear",
+          "ja": "スタッズ付きレッグウェア"
+        },
+        {
+          "en": "toeless legwear",
+          "ja": "つま先のないレッグウェア"
+        },
+        {
+          "en": "bridal legwear",
+          "ja": "ブライダルレッグウェア"
+        },
+        {
+          "en": "stirrup legwear",
+          "ja": "あぶみ脚具"
+        },
+        {
+          "en": "zipper legwear",
+          "ja": "ジッパー付きレッグウェア"
+        },
+        {
+          "en": "fur-trimmed legwear",
+          "ja": "毛皮で縁取られたレッグウェア"
+        },
+        {
+          "en": "lace-trimmed legwear",
+          "ja": "レーストリムのレッグウェア"
+        },
+        {
+          "en": "ribbon-trimmed legwear",
+          "ja": "リボンで縁取られたレッグウェア"
+        },
+        {
+          "en": "thighband pantyhose",
+          "ja": "太ももバンドパンスト"
+        },
+        {
+          "en": "leg warmers",
+          "ja": "レッグウォーマー"
+        },
+        {
+          "en": "ankle socks",
+          "ja": "アンクルソックス"
+        },
+        {
+          "en": "bobby socks",
+          "ja": "ボビーソックス"
+        },
+        {
+          "en": "loose socks",
+          "ja": "ルーズソックス"
+        },
+        {
+          "en": "toe socks",
+          "ja": "つま先ソックス"
+        },
+        {
+          "en": "tube socks",
+          "ja": "チューブソックス"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "adjusting legwear",
+          "ja": "脚の調整"
+        },
+        {
+          "en": "holding legwear",
+          "ja": "レッグウェアを持つ"
+        },
+        {
+          "en": "pulling off legwear",
+          "ja": "レッグウェアを脱ぐ"
+        },
+        {
+          "en": "putting on legwear",
+          "ja": "レッグウェアを履く"
+        },
+        {
+          "en": "removing legwear",
+          "ja": "レッグウェアを脱ぐ"
+        },
+        {
+          "en": "dirty legwear",
+          "ja": "汚れたレッグウェア"
+        },
+        {
+          "en": "in legwear",
+          "ja": "レッグウェア"
+        },
+        {
+          "en": "torn leggings",
+          "ja": "破れたレギンス"
+        },
+        {
+          "en": "torn leg warmers",
+          "ja": "破れたレッグウォーマー"
+        },
+        {
+          "en": "torn pantyhose",
+          "ja": "破れたパンスト"
+        },
+        {
+          "en": "torn socks",
+          "ja": "破れた靴下"
+        },
+        {
+          "en": "torn thighhighs",
+          "ja": "破れたニーソックス"
+        },
+        {
+          "en": "pantyhose under shorts",
+          "ja": "ショートパンツの下にパンストを履く"
+        }
+      ],
+      "小物": [
+        {
+          "en": "legwear bell",
+          "ja": "レッグウェアベル"
+        },
+        {
+          "en": "o-ring legwear",
+          "ja": "Oリングレッグウェア"
+        }
+      ],
+      "その他": [
+        {
+          "en": "alternate legwear",
+          "ja": "代替のレッグウェア"
+        },
+        {
+          "en": "uneven legwear",
+          "ja": "不揃いな脚"
+        },
+        {
+          "en": "layered legwear",
+          "ja": "重ね着できるレッグウェア"
+        },
+        {
+          "en": "unworn legwear",
+          "ja": "未使用のレッグウェア"
+        },
+        {
+          "en": "mismatched legwear",
+          "ja": "脚の不揃い"
+        },
+        {
+          "en": "no legwear",
+          "ja": "レッグウェアなし"
+        }
+      ]
+    },
+    "スリーブ": {
+      "タイプ・デザイン": [
+        {
+          "en": "puffy sleeves",
+          "ja": "ふくらんだ袖"
+        },
+        {
+          "en": "puffy detached sleeves",
+          "ja": "ふっくらとした袖"
+        },
+        {
+          "en": "puffy long sleeves",
+          "ja": "ふわふわの長袖"
+        },
+        {
+          "en": "puffy short sleeves",
+          "ja": "ふわふわの半袖"
+        },
+        {
+          "en": "raglan sleeves",
+          "ja": "ラグランスリーブ"
+        },
+        {
+          "en": "thumb hole sleeves",
+          "ja": "親指穴付き袖"
+        },
+        {
+          "en": "wide sleeves",
+          "ja": "ワイドスリーブ"
+        },
+        {
+          "en": "sleeveless shirt",
+          "ja": "ノースリーブシャツ"
+        },
+        {
+          "en": "sleeveless dress",
+          "ja": "ノースリーブドレス"
+        },
+        {
+          "en": "sleeveless duster",
+          "ja": "ノースリーブダスター"
+        },
+        {
+          "en": "sleeveless hoodie",
+          "ja": "ノースリーブパーカー"
+        },
+        {
+          "en": "sleeveless jacket",
+          "ja": "ノースリーブジャケット"
+        },
+        {
+          "en": "sleeveless kimono",
+          "ja": "袖なしの着物"
+        },
+        {
+          "en": "sleeveless sweater",
+          "ja": "ノースリーブセーター"
+        },
+        {
+          "en": "sleeveless turtleneck",
+          "ja": "ノースリーブタートルネック"
+        },
+        {
+          "en": "vest",
+          "ja": "ベスト"
+        },
+        {
+          "en": "waistcoat",
+          "ja": "チョッキ"
+        },
+        {
+          "en": "sleeved leotard",
+          "ja": "袖付きレオタード"
+        },
+        {
+          "en": "short-sleeved coat",
+          "ja": "半袖コート"
+        },
+        {
+          "en": "short-sleeved jacket",
+          "ja": "半袖ジャケット"
+        },
+        {
+          "en": "short-sleeved sweater",
+          "ja": "半袖セーター"
+        },
+        {
+          "en": "sweater vest",
+          "ja": "セーターベスト"
+        },
+        {
+          "en": "no detached sleeves",
+          "ja": "袖なし"
+        }
+      ],
+      "小物": [
+        {
+          "en": "nipple sleeves",
+          "ja": "ニップルスリーブ"
+        },
+        {
+          "en": "sleeve cuffs",
+          "ja": "袖口"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "torn sleeves",
+          "ja": "破れた袖"
+        },
+        {
+          "en": "arm out of sleeve",
+          "ja": "袖から出た腕"
+        },
+        {
+          "en": "hands in opposite sleeves",
+          "ja": "両手を反対側の袖に入れる"
+        },
+        {
+          "en": "pinching sleeves",
+          "ja": "袖をつまむ"
+        },
+        {
+          "en": "rolling sleeves up",
+          "ja": "袖をまくる"
+        },
+        {
+          "en": "sleeve grab",
+          "ja": "袖を掴む"
+        },
+        {
+          "en": "up sleeve",
+          "ja": "袖口"
+        }
+      ]
+    },
+    "水着": {
+      "タイプ・デザイン": [
+        {
+          "en": "swimsuit",
+          "ja": "水着"
+        },
+        {
+          "en": "swim trunks",
+          "ja": "水泳パンツ"
+        },
+        {
+          "en": "loincloth",
+          "ja": "ふんどし"
+        },
+        {
+          "en": "fundoshi",
+          "ja": "ふんどし"
+        },
+        {
+          "en": "impossible swimsuit",
+          "ja": "ありえない水着"
+        },
+        {
+          "en": "swimsuit costume",
+          "ja": "水着コスチューム"
+        },
+        {
+          "en": "checkered swimsuit",
+          "ja": "チェック柄の水着"
+        },
+        {
+          "en": "cross swimsuit",
+          "ja": "クロス水着"
+        },
+        {
+          "en": "double frill skirt swimsuit",
+          "ja": "ダブルフリルスカート水着"
+        },
+        {
+          "en": "lace-trimmed swimsuit",
+          "ja": "レーストリムの水着"
+        },
+        {
+          "en": "layered swimsuit",
+          "ja": "重ね着水着"
+        },
+        {
+          "en": "multicolored swimsuit",
+          "ja": "カラフルな水着"
+        },
+        {
+          "en": "o-ring swimsuit",
+          "ja": "Oリング水着"
+        },
+        {
+          "en": "print swimsuit",
+          "ja": "プリント水着"
+        },
+        {
+          "en": "ribbon-trimmed swimsuit",
+          "ja": "リボントリムの水着"
+        },
+        {
+          "en": "swimsuit skirt",
+          "ja": "水着のスカート"
+        },
+        {
+          "en": "assless swimsuit",
+          "ja": "お尻のない水着"
+        },
+        {
+          "en": "crotchless swimsuit",
+          "ja": "クロッチレス水着"
+        }
+      ],
+      "小物": [
+        {
+          "en": "swim cap",
+          "ja": "スイムキャップ"
+        },
+        {
+          "en": "swimsuit cover-up",
+          "ja": "水着カバーアップ"
+        },
+        {
+          "en": "sarong",
+          "ja": "サロン"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "adjusting swimsuit",
+          "ja": "水着の調整"
+        },
+        {
+          "en": "bikini top lift",
+          "ja": "ビキニトップリフト"
+        },
+        {
+          "en": "bikini bottom only",
+          "ja": "ビキニボトムのみ"
+        },
+        {
+          "en": "bikini top only",
+          "ja": "ビキニトップのみ"
+        },
+        {
+          "en": "hand under swimsuit",
+          "ja": "水着の下の手"
+        },
+        {
+          "en": "swimsuit aside",
+          "ja": "水着は別として"
+        },
+        {
+          "en": "bikini bottom aside",
+          "ja": "ビキニの裾を横に"
+        },
+        {
+          "en": "one-piece swimsuit pull",
+          "ja": "ワンピース水着プル"
+        },
+        {
+          "en": "bikini pull",
+          "ja": "ビキニプル"
+        },
+        {
+          "en": "swimsuit under clothes",
+          "ja": "服の下に水着を着る"
+        },
+        {
+          "en": "torn swimsuit",
+          "ja": "破れた水着"
+        },
+        {
+          "en": "jacket over swimsuit",
+          "ja": "水着の上にジャケットを着る"
+        },
+        {
+          "en": "pantyhose under swimsuit",
+          "ja": "水着の下にパンストを履く"
+        },
+        {
+          "en": "shared swimsuit",
+          "ja": "共有水着"
+        },
+        {
+          "en": "swimsuit under swimsuit",
+          "ja": "水着の下に水着"
+        },
+        {
+          "en": "taut swimsuit",
+          "ja": "ぴったりした水着"
+        },
+        {
+          "en": "unworn swimsuit",
+          "ja": "未使用の水着"
+        },
+        {
+          "en": "wet swimsuit",
+          "ja": "濡れた水着"
+        }
+      ]
+    },
+    "ユニフォーム": {
+      "学校": [
+        {
+          "en": "school uniform",
+          "ja": "制服"
+        },
+        {
+          "en": "band uniform",
+          "ja": "バンドのユニフォーム"
+        },
+        {
+          "en": "gakuran",
+          "ja": "学ラン"
+        },
+        {
+          "en": "gym uniform",
+          "ja": "体操服"
+        },
+        {
+          "en": "indonesian elementary school uniform",
+          "ja": "インドネシアの小学校の制服"
+        },
+        {
+          "en": "indonesian middle school uniform",
+          "ja": "インドネシアの中学校の制服"
+        },
+        {
+          "en": "indonesian high school uniform",
+          "ja": "インドネシアの高校の制服"
+        },
+        {
+          "en": "kindergarten uniform",
+          "ja": "幼稚園の制服"
+        },
+        {
+          "en": "malaysian secondary school uniform",
+          "ja": "マレーシアの中等学校の制服"
+        },
+        {
+          "en": "meiji schoolgirl uniform",
+          "ja": "明治時代の女子高生の制服"
+        },
+        {
+          "en": "republic of china school uniform",
+          "ja": "中華民国の学校制服"
+        },
+        {
+          "en": "school hat",
+          "ja": "学校の帽子"
+        },
+        {
+          "en": "school swimsuit",
+          "ja": "スクール水着"
+        },
+        {
+          "en": "serafuku",
+          "ja": "セーラー服"
+        },
+        {
+          "en": "soviet school uniform",
+          "ja": "ソビエトの学校制服"
+        },
+        {
+          "en": "thai college uniform",
+          "ja": "タイの大学の制服"
+        },
+        {
+          "en": "thai school uniform",
+          "ja": "タイの学校制服"
+        },
+        {
+          "en": "vietnamese high school uniform",
+          "ja": "ベトナムの高校の制服"
+        }
+      ],
+      "職業": [
+        {
+          "en": "anna miller",
+          "ja": "アンナ・ミラー"
+        },
+        {
+          "en": "bronze parrot",
+          "ja": "ブロンズのオウム"
+        },
+        {
+          "en": "coco's",
+          "ja": "ココの"
+        },
+        {
+          "en": "chef",
+          "ja": "シェフ"
+        },
+        {
+          "en": "fast food uniform",
+          "ja": "ファーストフードのユニフォーム"
+        },
+        {
+          "en": "hooters",
+          "ja": "フーターズ"
+        },
+        {
+          "en": "kobeya uniform",
+          "ja": "神戸屋のユニフォーム"
+        },
+        {
+          "en": "waitress",
+          "ja": "ウェイトレス"
+        },
+        {
+          "en": "yoshinoya",
+          "ja": "吉野家"
+        },
+        {
+          "en": "employee uniform",
+          "ja": "従業員の制服"
+        },
+        {
+          "en": "maid",
+          "ja": "メイド"
+        },
+        {
+          "en": "miko",
+          "ja": "巫女"
+        },
+        {
+          "en": "nurse",
+          "ja": "看護師"
+        },
+        {
+          "en": "pioneer movement",
+          "ja": "開拓者運動"
+        },
+        {
+          "en": "police uniform",
+          "ja": "警察の制服"
+        },
+        {
+          "en": "bope",
+          "ja": "ボペ"
+        },
+        {
+          "en": "bundespolizei",
+          "ja": "連邦警察"
+        },
+        {
+          "en": "gign",
+          "ja": "ギグン"
+        },
+        {
+          "en": "indonesian national police",
+          "ja": "インドネシア国家警察"
+        },
+        {
+          "en": "japan national police",
+          "ja": "日本の国家警察"
+        },
+        {
+          "en": "los angeles police department",
+          "ja": "ロサンゼルス警察"
+        },
+        {
+          "en": "new york city police department",
+          "ja": "ニューヨーク市警察"
+        },
+        {
+          "en": "philippine national police",
+          "ja": "フィリピン国家警察"
+        },
+        {
+          "en": "police of russia",
+          "ja": "ロシアの警察"
+        },
+        {
+          "en": "s.w.a.t.",
+          "ja": "スワット"
+        },
+        {
+          "en": "scout uniform",
+          "ja": "スカウトの制服"
+        },
+        {
+          "en": "shinsengumi",
+          "ja": "新選組"
+        },
+        {
+          "en": "sturmabteilung",
+          "ja": "突撃隊"
+        }
+      ],
+      "スポーツ": [
+        {
+          "en": "sportswear",
+          "ja": "スポーツウェア"
+        },
+        {
+          "en": "baseball uniform",
+          "ja": "野球ユニフォーム"
+        },
+        {
+          "en": "basketball uniform",
+          "ja": "バスケットボールのユニフォーム"
+        },
+        {
+          "en": "american football uniform",
+          "ja": "アメリカンフットボールのユニフォーム"
+        },
+        {
+          "en": "rugby uniform",
+          "ja": "ラグビーユニフォーム"
+        },
+        {
+          "en": "soccer uniform",
+          "ja": "サッカーユニフォーム"
+        },
+        {
+          "en": "tennis uniform",
+          "ja": "テニスユニフォーム"
+        },
+        {
+          "en": "track uniform",
+          "ja": "トラックユニフォーム"
+        },
+        {
+          "en": "volleyball uniform",
+          "ja": "バレーボールユニフォーム"
+        }
+      ],
+      "ミリタリー": [
+        {
+          "en": "military uniform",
+          "ja": "軍服"
+        },
+        {
+          "en": "british army",
+          "ja": "イギリス陸軍"
+        },
+        {
+          "en": "bundeswehr",
+          "ja": "ドイツ連邦軍"
+        },
+        {
+          "en": "fallschirmjäger",
+          "ja": "降下猟兵"
+        },
+        {
+          "en": "military fatigues",
+          "ja": "軍服"
+        },
+        {
+          "en": "imperial japanese army",
+          "ja": "大日本帝国陸軍"
+        },
+        {
+          "en": "imperial japanese navy",
+          "ja": "大日本帝国海軍"
+        },
+        {
+          "en": "japan air self-defense force",
+          "ja": "航空自衛隊"
+        },
+        {
+          "en": "japan ground self-defense force",
+          "ja": "陸上自衛隊"
+        },
+        {
+          "en": "japan maritime self-defense force",
+          "ja": "海上自衛隊"
+        },
+        {
+          "en": "kriegsmarine",
+          "ja": "ドイツ海軍"
+        },
+        {
+          "en": "luftwaffe",
+          "ja": "ドイツ空軍"
+        },
+        {
+          "en": "military hat",
+          "ja": "軍用帽子"
+        },
+        {
+          "en": "military jacket",
+          "ja": "ミリタリージャケット"
+        },
+        {
+          "en": "nationale volksarmee",
+          "ja": "国民軍"
+        },
+        {
+          "en": "naval uniform",
+          "ja": "海軍の制服"
+        },
+        {
+          "en": "nkvd",
+          "ja": "NKVD"
+        },
+        {
+          "en": "people's liberation army",
+          "ja": "人民解放軍"
+        },
+        {
+          "en": "people's liberation army air force",
+          "ja": "人民解放軍空軍"
+        },
+        {
+          "en": "people's liberation army ground forces",
+          "ja": "人民解放軍地上部隊"
+        },
+        {
+          "en": "people's liberation army navy",
+          "ja": "人民解放軍海軍"
+        },
+        {
+          "en": "pilot uniform",
+          "ja": "パイロットの制服"
+        },
+        {
+          "en": "royal air force",
+          "ja": "イギリス空軍"
+        },
+        {
+          "en": "royal navy",
+          "ja": "イギリス海軍"
+        },
+        {
+          "en": "russian ground forces",
+          "ja": "ロシア陸軍"
+        },
+        {
+          "en": "sailor",
+          "ja": "船員"
+        },
+        {
+          "en": "soviet air force",
+          "ja": "ソビエト空軍"
+        },
+        {
+          "en": "soviet army",
+          "ja": "ソビエト軍"
+        },
+        {
+          "en": "vdv",
+          "ja": "vdv"
+        },
+        {
+          "en": "soviet border troops",
+          "ja": "ソ連国境部隊"
+        },
+        {
+          "en": "soviet navy",
+          "ja": "ソビエト海軍"
+        },
+        {
+          "en": "soviet militsiya",
+          "ja": "ソビエトミリツィヤ"
+        },
+        {
+          "en": "spetsnaz",
+          "ja": "スペツナズ"
+        },
+        {
+          "en": "united states air force",
+          "ja": "アメリカ空軍"
+        },
+        {
+          "en": "united states army",
+          "ja": "アメリカ陸軍"
+        },
+        {
+          "en": "united states marine corps",
+          "ja": "アメリカ海兵隊"
+        },
+        {
+          "en": "united states navy",
+          "ja": "アメリカ海軍"
+        },
+        {
+          "en": "volksmarine",
+          "ja": "フォルクスマリン"
+        },
+        {
+          "en": "waffen-ss",
+          "ja": "武装親衛隊"
+        },
+        {
+          "en": "wehrmacht",
+          "ja": "ドイツ国防軍"
+        }
+      ]
+    },
+    "装飾": {
+      "装飾": [
+        {
+          "en": "gem-studded",
+          "ja": "宝石がちりばめられた"
+        },
+        {
+          "en": "gem-studded nails",
+          "ja": "宝石をちりばめた釘"
+        },
+        {
+          "en": "glitter",
+          "ja": "キラキラ"
+        },
+        {
+          "en": "glitter dress",
+          "ja": "グリッタードレス"
+        },
+        {
+          "en": "sequins",
+          "ja": "スパンコール"
+        },
+        {
+          "en": "lace",
+          "ja": "レース"
+        },
+        {
+          "en": "lace trim",
+          "ja": "レーストリム"
+        },
+        {
+          "en": "lace bra",
+          "ja": "レースブラジャー"
+        },
+        {
+          "en": "lace legwear",
+          "ja": "レースのレッグウェア"
+        },
+        {
+          "en": "lace panties",
+          "ja": "レースのパンティー"
+        },
+        {
+          "en": "lace gloves",
+          "ja": "レースの手袋"
+        },
+        {
+          "en": "lace sleeves",
+          "ja": "レースの袖"
+        },
+        {
+          "en": "lace background",
+          "ja": "レースの背景"
+        },
+        {
+          "en": "lace border",
+          "ja": "レースボーダー"
+        },
+        {
+          "en": "lingerie",
+          "ja": "ランジェリー"
+        },
+        {
+          "en": "doily",
+          "ja": "ドイリー"
+        }
+      ]
+    },
+    "防具": {
+      "頭": [
+        {
+          "en": "armored twintails",
+          "ja": "装甲ツインテール"
+        },
+        {
+          "en": "faceplate",
+          "ja": "フェースプレート"
+        },
+        {
+          "en": "forehead protector",
+          "ja": "額プロテクター"
+        },
+        {
+          "en": "helm",
+          "ja": "舵"
+        },
+        {
+          "en": "helmet",
+          "ja": "ヘルメット"
+        },
+        {
+          "en": "armet",
+          "ja": "アーメット"
+        },
+        {
+          "en": "bascinet",
+          "ja": "バシネット"
+        },
+        {
+          "en": "morion",
+          "ja": "モリオン"
+        },
+        {
+          "en": "kettle helm",
+          "ja": "ケトルヘルム"
+        },
+        {
+          "en": "kabuto",
+          "ja": "カブト"
+        },
+        {
+          "en": "nasal helmet",
+          "ja": "鼻ヘルメット"
+        },
+        {
+          "en": "pith helmet",
+          "ja": "ピスヘルメット"
+        },
+        {
+          "en": "sallet",
+          "ja": "サレット"
+        },
+        {
+          "en": "spiked helmet",
+          "ja": "スパイク付きヘルメット"
+        },
+        {
+          "en": "winged helmet",
+          "ja": "翼のあるヘルメット"
+        },
+        {
+          "en": "visor (armor)",
+          "ja": "バイザー（鎧）"
+        }
+      ],
+      "首": [
+        {
+          "en": "aventail",
+          "ja": "アヴェンテール"
+        },
+        {
+          "en": "bevor",
+          "ja": "ベヴォル"
+        },
+        {
+          "en": "gorget",
+          "ja": "喉当て"
+        },
+        {
+          "en": "shikoro",
+          "ja": "シコロ"
+        }
+      ],
+      "肩": [
+        {
+          "en": "pauldrons",
+          "ja": "肩甲"
+        },
+        {
+          "en": "shoulder pads",
+          "ja": "肩パッド"
+        },
+        {
+          "en": "sode",
+          "ja": "袖"
+        }
+      ],
+      "腕": [
+        {
+          "en": "rerebrace",
+          "ja": "再補強する"
+        },
+        {
+          "en": "arm guards",
+          "ja": "アームガード"
+        },
+        {
+          "en": "couter",
+          "ja": "カウンター"
+        },
+        {
+          "en": "rondel",
+          "ja": "ロンデル"
+        },
+        {
+          "en": "bracer",
+          "ja": "ブレイサー"
+        },
+        {
+          "en": "elbow pads",
+          "ja": "肘パッド"
+        },
+        {
+          "en": "gauntlets",
+          "ja": "ガントレット"
+        },
+        {
+          "en": "kote",
+          "ja": "小手"
+        },
+        {
+          "en": "kurokote",
+          "ja": "黒子手"
+        },
+        {
+          "en": "vambraces",
+          "ja": "腕当て"
+        }
+      ],
+      "胴体": [
+        {
+          "en": "breastplate",
+          "ja": "胸当て"
+        },
+        {
+          "en": "cuirass",
+          "ja": "胸甲"
+        },
+        {
+          "en": "muscle cuirass",
+          "ja": "筋肉胸当て"
+        },
+        {
+          "en": "muneate",
+          "ja": "胸部"
+        },
+        {
+          "en": "bulletproof vest",
+          "ja": "防弾チョッキ"
+        },
+        {
+          "en": "chainmail",
+          "ja": "鎖かたびら"
+        },
+        {
+          "en": "scale armor",
+          "ja": "鱗状の鎧"
+        },
+        {
+          "en": "linothorax",
+          "ja": "胸郭"
+        }
+      ],
+      "股間": [
+        {
+          "en": "crotch plate",
+          "ja": "股板"
+        },
+        {
+          "en": "faulds",
+          "ja": "失敗"
+        },
+        {
+          "en": "kusazuri",
+          "ja": "草摺"
+        },
+        {
+          "en": "codpiece",
+          "ja": "コッドピース"
+        }
+      ],
+      "脚": [
+        {
+          "en": "armored boots",
+          "ja": "装甲ブーツ"
+        },
+        {
+          "en": "sabaton",
+          "ja": "サバトン"
+        },
+        {
+          "en": "cuisses",
+          "ja": "キュイス"
+        },
+        {
+          "en": "greaves",
+          "ja": "すね当て"
+        },
+        {
+          "en": "knee guards",
+          "ja": "膝ガード"
+        },
+        {
+          "en": "knee pads",
+          "ja": "膝パッド"
+        },
+        {
+          "en": "leg armor",
+          "ja": "脚鎧"
+        },
+        {
+          "en": "poleyn",
+          "ja": "ポリン"
+        },
+        {
+          "en": "shin guards",
+          "ja": "すね当て"
+        },
+        {
+          "en": "suneate",
+          "ja": "太陽の光"
+        }
+      ],
+      "盾": [
+        {
+          "en": "shield",
+          "ja": "シールド"
+        },
+        {
+          "en": "ballistic shield",
+          "ja": "防弾シールド"
+        },
+        {
+          "en": "beam shield",
+          "ja": "ビームシールド"
+        },
+        {
+          "en": "buckler",
+          "ja": "バックラー"
+        },
+        {
+          "en": "riot shield",
+          "ja": "暴動鎮圧用盾"
+        },
+        {
+          "en": "pavise",
+          "ja": "パヴィス"
+        }
+      ],
+      "セット": [
+        {
+          "en": "bikini armor",
+          "ja": "ビキニアーマー"
+        },
+        {
+          "en": "reverse bikini armor",
+          "ja": "リバースビキニアーマー"
+        },
+        {
+          "en": "bougu",
+          "ja": "防具"
+        },
+        {
+          "en": "bomb suit",
+          "ja": "爆弾スーツ"
+        },
+        {
+          "en": "exoskeleton",
+          "ja": "外骨格"
+        },
+        {
+          "en": "full armor",
+          "ja": "フルアーマー"
+        },
+        {
+          "en": "power armor",
+          "ja": "パワーアーマー"
+        },
+        {
+          "en": "power suit",
+          "ja": "パワースーツ"
+        },
+        {
+          "en": "plate armor",
+          "ja": "プレートアーマー"
+        },
+        {
+          "en": "japanese armor",
+          "ja": "日本の鎧"
+        }
+      ],
+      "その他": [
+        {
+          "en": "dou",
+          "ja": "ドウ"
+        },
+        {
+          "en": "kettle_helm",
+          "ja": "ケトルヘルム"
+        },
+        {
+          "en": "gravity suit",
+          "ja": "重力スーツ"
+        },
+        {
+          "en": "seva suit",
+          "ja": "SEVAスーツ"
+        },
+        {
+          "en": "barding",
+          "ja": "馬具"
+        },
+        {
+          "en": "broken armor",
+          "ja": "壊れた鎧"
+        },
+        {
+          "en": "leather armor",
+          "ja": "革の鎧"
+        },
+        {
+          "en": "naked armor",
+          "ja": "裸の鎧"
+        },
+        {
+          "en": "ornate armor",
+          "ja": "華やかな鎧"
+        },
+        {
+          "en": "armor",
+          "ja": "鎧"
+        },
+        {
+          "en": "armored dress",
+          "ja": "鎧を着たドレス"
+        },
+        {
+          "en": "balaclava",
+          "ja": "バラクラバ"
+        },
+        {
+          "en": "knights templar",
+          "ja": "テンプル騎士団"
+        },
+        {
+          "en": "mecha musume",
+          "ja": "メカ娘"
+        },
+        {
+          "en": "medieval",
+          "ja": "中世の"
+        },
+        {
+          "en": "tabard",
+          "ja": "タバード"
+        }
+      ],
+      "職業": [
+        {
+          "en": "conquistador",
+          "ja": "征服者"
+        },
+        {
+          "en": "knight",
+          "ja": "騎士"
+        },
+        {
+          "en": "dark knight",
+          "ja": "ダークナイト"
+        },
+        {
+          "en": "legionnaire",
+          "ja": "レジオネラ"
+        },
+        {
+          "en": "viking",
+          "ja": "バイキング"
+        },
+        {
+          "en": "military operator",
+          "ja": "軍事オペレーター"
+        },
+        {
+          "en": "winged hussar",
+          "ja": "翼のある騎兵"
+        },
+        {
+          "en": "samurai",
+          "ja": "武士"
+        },
+        {
+          "en": "soldier",
+          "ja": "兵士"
+        },
+        {
+          "en": "stormtrooper",
+          "ja": "ストームトルーパー"
+        },
+        {
+          "en": "swiss guard",
+          "ja": "スイス衛兵"
+        },
+        {
+          "en": "alphonse elric armor",
+          "ja": "アルフォンス・エルリックの鎧"
+        }
+      ],
+      "ネームド": [
+        {
+          "en": "armor of altair",
+          "ja": "アルタイルの鎧"
+        },
+        {
+          "en": "berserker armor",
+          "ja": "バーサーカーアーマー"
+        },
+        {
+          "en": "high-cut armor",
+          "ja": "ハイカットアーマー"
+        },
+        {
+          "en": "n7 armor",
+          "ja": "N7アーマー"
+        },
+        {
+          "en": "protect gear",
+          "ja": "ギアを保護する"
+        },
+        {
+          "en": "terminator armor",
+          "ja": "ターミネーターアーマー"
+        }
+      ]
+    },
+    "セクシャル": {
+      "ランジェリー・インナー": [
+        {
+          "en": "lingerie",
+          "ja": "ランジェリー"
+        },
+        {
+          "en": "babydoll",
+          "ja": "ベビードール"
+        },
+        {
+          "en": "bodystocking",
+          "ja": "ボディストッキング"
+        },
+        {
+          "en": "bra",
+          "ja": "ブラジャー"
+        },
+        {
+          "en": "chemise",
+          "ja": "シュミーズ"
+        },
+        {
+          "en": "fishnets",
+          "ja": "網タイツ"
+        },
+        {
+          "en": "lace",
+          "ja": "レース"
+        },
+        {
+          "en": "nightgown",
+          "ja": "ナイトガウン"
+        },
+        {
+          "en": "panties",
+          "ja": "パンティー"
+        },
+        {
+          "en": "boyshort panties",
+          "ja": "ボーイショーツ"
+        },
+        {
+          "en": "strapless bottom",
+          "ja": "ストラップレスボトム"
+        },
+        {
+          "en": "teddy",
+          "ja": "テディ"
+        },
+        {
+          "en": "thighhighs",
+          "ja": "サイハイソックス"
+        },
+        {
+          "en": "thong",
+          "ja": "ひも"
+        },
+        {
+          "en": "g-string",
+          "ja": "Gストリング"
+        },
+        {
+          "en": "pearl thong",
+          "ja": "パールTバック"
+        },
+        {
+          "en": "pasties",
+          "ja": "パスティ"
+        },
+        {
+          "en": "maebari",
+          "ja": "前張り"
+        }
+      ],
+      "露出系": [
+        {
+          "en": "revealing clothes",
+          "ja": "露出度の高い服"
+        },
+        {
+          "en": "breastless clothes",
+          "ja": "胸のない服"
+        },
+        {
+          "en": "nippleless clothes",
+          "ja": "乳首のない服"
+        },
+        {
+          "en": "cupless bikini",
+          "ja": "カップレスビキニ"
+        },
+        {
+          "en": "cupless bra",
+          "ja": "カップレスブラ"
+        },
+        {
+          "en": "reverse outfit",
+          "ja": "逆衣装"
+        },
+        {
+          "en": "reverse bikini armor",
+          "ja": "リバースビキニアーマー"
+        },
+        {
+          "en": "reverse bunnysuit",
+          "ja": "逆バニースーツ"
+        },
+        {
+          "en": "crotchless",
+          "ja": "股間なし"
+        },
+        {
+          "en": "crotchless panties",
+          "ja": "クロッチレスパンティー"
+        },
+        {
+          "en": "crotchless pants",
+          "ja": "クロッチレスパンツ"
+        },
+        {
+          "en": "crotchless swimsuit",
+          "ja": "クロッチレス水着"
+        },
+        {
+          "en": "crotchless pantyhose",
+          "ja": "クロッチレスパンスト"
+        },
+        {
+          "en": "crotchless leotard",
+          "ja": "クロッチレスレオタード"
+        },
+        {
+          "en": "crotchless bloomers",
+          "ja": "クロッチレスブルマー"
+        },
+        {
+          "en": "crotchless buruma",
+          "ja": "クロッチレスブルマ"
+        },
+        {
+          "en": "ass cutout",
+          "ja": "お尻の切り抜き"
+        },
+        {
+          "en": "assless swimsuit",
+          "ja": "お尻のない水着"
+        },
+        {
+          "en": "backless panties",
+          "ja": "背中が開いたパンティー"
+        },
+        {
+          "en": "backless pants",
+          "ja": "背中が開いたパンツ"
+        }
+      ],
+      "ボンデージ・拘束具": [
+        {
+          "en": "armbinder",
+          "ja": "アームバインダー"
+        },
+        {
+          "en": "bondage mittens",
+          "ja": "ボンデージミトン"
+        },
+        {
+          "en": "bondage outfit",
+          "ja": "ボンデージ衣装"
+        },
+        {
+          "en": "chastity belt",
+          "ja": "貞操帯"
+        },
+        {
+          "en": "chastity cage",
+          "ja": "貞操帯"
+        },
+        {
+          "en": "collar",
+          "ja": "襟"
+        },
+        {
+          "en": "cuffs",
+          "ja": "カフス"
+        },
+        {
+          "en": "handcuffs",
+          "ja": "手錠"
+        },
+        {
+          "en": "shackles",
+          "ja": "束縛"
+        },
+        {
+          "en": "gimp suit",
+          "ja": "ギンプスーツ"
+        },
+        {
+          "en": "gimp mask",
+          "ja": "ギンプマスク"
+        },
+        {
+          "en": "latex",
+          "ja": "ラテックス"
+        }
+      ],
+      "男性用インナー": [
+        {
+          "en": "male underwear",
+          "ja": "男性用下着"
+        },
+        {
+          "en": "boxers",
+          "ja": "ボクサー"
+        },
+        {
+          "en": "briefs",
+          "ja": "ブリーフ"
+        },
+        {
+          "en": "boxer briefs",
+          "ja": "ボクサーブリーフ"
+        },
+        {
+          "en": "bikini briefs",
+          "ja": "ビキニブリーフ"
+        },
+        {
+          "en": "jockstrap",
+          "ja": "ジョックストラップ"
+        },
+        {
+          "en": "ball bra",
+          "ja": "ボールブラ"
+        },
+        {
+          "en": "penis sheath",
+          "ja": "陰茎鞘"
+        }
+      ],
+      "小物": [
+        {
+          "en": "nose hook",
+          "ja": "鼻フック"
+        },
+        {
+          "en": "gag",
+          "ja": "ギャグ"
+        },
+        {
+          "en": "blindfold",
+          "ja": "目隠し"
+        },
+        {
+          "en": "anal ball wear",
+          "ja": "アナルボール装着"
+        }
+      ],
+      "その他": [
+        {
+          "en": "bitchsuit",
+          "ja": "ビッチスーツ"
+        }
+      ]
+    },
+    "ブラジャー": {
+      "タイプ・デザイン": [
+        {
+          "en": "bra",
+          "ja": "ブラジャー"
+        },
+        {
+          "en": "multicolored bra",
+          "ja": "カラフルなブラジャー"
+        },
+        {
+          "en": "cami bra",
+          "ja": "キャミブラ"
+        },
+        {
+          "en": "checkered bra",
+          "ja": "チェック柄ブラジャー"
+        },
+        {
+          "en": "lace bra",
+          "ja": "レースブラジャー"
+        },
+        {
+          "en": "lace-trimmed bra",
+          "ja": "レーストリムのブラジャー"
+        },
+        {
+          "en": "plaid bra",
+          "ja": "チェック柄ブラジャー"
+        },
+        {
+          "en": "polka dot bra",
+          "ja": "水玉ブラ"
+        },
+        {
+          "en": "print bra",
+          "ja": "プリントブラ"
+        },
+        {
+          "en": "strawberry bra",
+          "ja": "イチゴブラ"
+        },
+        {
+          "en": "striped bra",
+          "ja": "ストライプブラジャー"
+        },
+        {
+          "en": "vertical-striped bra",
+          "ja": "縦縞ブラジャー"
+        },
+        {
+          "en": "adhesive bra",
+          "ja": "粘着ブラジャー"
+        },
+        {
+          "en": "belt bra",
+          "ja": "ベルトブラ"
+        },
+        {
+          "en": "bow bra",
+          "ja": "ボウブラ"
+        },
+        {
+          "en": "bridgeless bra",
+          "ja": "ブリッジレスブラ"
+        },
+        {
+          "en": "frilled bra",
+          "ja": "フリルブラジャー"
+        },
+        {
+          "en": "front-hook bra",
+          "ja": "フロントホックブラ"
+        },
+        {
+          "en": "front-tie bra",
+          "ja": "フロントタイブラ"
+        },
+        {
+          "en": "nursing bra",
+          "ja": "授乳ブラジャー"
+        },
+        {
+          "en": "sports bra",
+          "ja": "スポーツブラ"
+        },
+        {
+          "en": "strapless bra",
+          "ja": "ストラップレスブラ"
+        },
+        {
+          "en": "training bra",
+          "ja": "トレーニングブラ"
+        },
+        {
+          "en": "bra strap",
+          "ja": "ブラストラップ"
+        },
+        {
+          "en": "cupless bra",
+          "ja": "カップレスブラ"
+        },
+        {
+          "en": "shelf bra",
+          "ja": "シェルフブラ"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "adjusting bra",
+          "ja": "ブラジャーの調整"
+        },
+        {
+          "en": "bra lift",
+          "ja": "ブラジャーリフト"
+        },
+        {
+          "en": "bra on head",
+          "ja": "頭にブラジャー"
+        },
+        {
+          "en": "bra peek",
+          "ja": "ブラジャーの覗き見"
+        },
+        {
+          "en": "bra pull",
+          "ja": "ブラジャーを引っ張る"
+        },
+        {
+          "en": "holding bra",
+          "ja": "ブラジャーを持つ"
+        },
+        {
+          "en": "no bra",
+          "ja": "ブラジャーなし"
+        },
+        {
+          "en": "presenting bra",
+          "ja": "ブラジャーをプレゼント"
+        },
+        {
+          "en": "torn bra",
+          "ja": "破れたブラジャー"
+        },
+        {
+          "en": "unworn bra",
+          "ja": "未使用のブラジャー"
+        },
+        {
+          "en": "bra on ass",
+          "ja": "お尻にブラジャー"
+        },
+        {
+          "en": "hand in bra",
+          "ja": "ブラジャーの中に手を入れる"
+        },
+        {
+          "en": "open bra",
+          "ja": "オープンブラ"
+        }
+      ]
+    },
+    "パンツ": {
+      "タイプ・デザイン": [
+        {
+          "en": "panties",
+          "ja": "パンティー"
+        },
+        {
+          "en": "multiple panties",
+          "ja": "複数のパンティー"
+        },
+        {
+          "en": "multicolored panties",
+          "ja": "色とりどりのパンティー"
+        },
+        {
+          "en": "bear panties",
+          "ja": "クマのパンツ"
+        },
+        {
+          "en": "rabbit panties",
+          "ja": "ウサギのパンツ"
+        },
+        {
+          "en": "cat panties",
+          "ja": "猫のパンツ"
+        },
+        {
+          "en": "checkered panties",
+          "ja": "チェック柄のパンティー"
+        },
+        {
+          "en": "lace panties",
+          "ja": "レースのパンティー"
+        },
+        {
+          "en": "lace-trimmed panties",
+          "ja": "レーストリムのパンティー"
+        },
+        {
+          "en": "plaid panties",
+          "ja": "チェック柄のパンティー"
+        },
+        {
+          "en": "polka dot panties",
+          "ja": "水玉模様のパンティー"
+        },
+        {
+          "en": "print panties",
+          "ja": "プリントパンティー"
+        },
+        {
+          "en": "strawberry panties",
+          "ja": "イチゴパンティー"
+        },
+        {
+          "en": "striped panties",
+          "ja": "縞模様のパンティー"
+        },
+        {
+          "en": "vertical-striped panties",
+          "ja": "縦縞のパンティー"
+        },
+        {
+          "en": "latex panties",
+          "ja": "ラテックスパンティー"
+        },
+        {
+          "en": "leaf panties",
+          "ja": "葉っぱのパンティー"
+        },
+        {
+          "en": "backless panties",
+          "ja": "背中が開いたパンティー"
+        },
+        {
+          "en": "c-string",
+          "ja": "C弦"
+        },
+        {
+          "en": "crotchless panties",
+          "ja": "クロッチレスパンティー"
+        },
+        {
+          "en": "strapless bottom",
+          "ja": "ストラップレスボトム"
+        },
+        {
+          "en": "loose panties",
+          "ja": "ゆるいパンティー"
+        },
+        {
+          "en": "micro panties",
+          "ja": "マイクロパンティー"
+        },
+        {
+          "en": "lowleg panties",
+          "ja": "ローレッグパンティー"
+        },
+        {
+          "en": "highleg panties",
+          "ja": "ハイレグパンティー"
+        },
+        {
+          "en": "high-waist panties",
+          "ja": "ハイウエストパンティー"
+        },
+        {
+          "en": "bow panties",
+          "ja": "リボンパンティー"
+        },
+        {
+          "en": "frilled panties",
+          "ja": "フリルパンティー"
+        },
+        {
+          "en": "side-tie panties",
+          "ja": "サイドタイパンティー"
+        },
+        {
+          "en": "sports panties",
+          "ja": "スポーツパンティー"
+        },
+        {
+          "en": "string panties",
+          "ja": "紐パンティー"
+        },
+        {
+          "en": "multi-strapped panties",
+          "ja": "マルチストラップパンティー"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "blood on panties",
+          "ja": "パンティーの血"
+        },
+        {
+          "en": "stained panties",
+          "ja": "汚れたパンティー"
+        },
+        {
+          "en": "wet panties",
+          "ja": "濡れたパンティー"
+        },
+        {
+          "en": "trefoil",
+          "ja": "三つ葉"
+        },
+        {
+          "en": "crotch seam",
+          "ja": "股の縫い目"
+        },
+        {
+          "en": "pantylines",
+          "ja": "パンティライン"
+        },
+        {
+          "en": "no panties",
+          "ja": "パンツなし"
+        },
+        {
+          "en": "panties over bike shorts",
+          "ja": "バイクショーツの上にパンティーを履く"
+        },
+        {
+          "en": "panties under bike shorts",
+          "ja": "バイクショーツの下に履くパンティー"
+        },
+        {
+          "en": "panties over pantyhose",
+          "ja": "パンストの上のパンティー"
+        },
+        {
+          "en": "panties under pantyhose",
+          "ja": "パンスト下のパンティー"
+        },
+        {
+          "en": "panties under buruma",
+          "ja": "ブルマの下のパンティー"
+        },
+        {
+          "en": "pantyshot",
+          "ja": "パンチラ"
+        },
+        {
+          "en": "implied pantyshot",
+          "ja": "暗示的なパンチラ"
+        },
+        {
+          "en": "upskirt",
+          "ja": "スカートの中"
+        },
+        {
+          "en": "adjusting panties",
+          "ja": "パンティーを調整する"
+        },
+        {
+          "en": "holding panties",
+          "ja": "パンティーを持つ"
+        },
+        {
+          "en": "panties around ankles",
+          "ja": "足首周りのパンティー"
+        },
+        {
+          "en": "panties around one leg",
+          "ja": "片足に巻いたパンティー"
+        },
+        {
+          "en": "panty pull",
+          "ja": "パンティを引っ張る"
+        },
+        {
+          "en": "panties on head",
+          "ja": "頭にパンティーを乗せる"
+        },
+        {
+          "en": "panties around tail",
+          "ja": "尻尾の周りのパンツ"
+        },
+        {
+          "en": "unworn panties",
+          "ja": "未使用のパンティー"
+        },
+        {
+          "en": "panty lift",
+          "ja": "パンティリフト"
+        },
+        {
+          "en": "hand in panties",
+          "ja": "パンティーに手を入れる"
+        },
+        {
+          "en": "panties on breasts",
+          "ja": "胸にパンティーを履く"
+        },
+        {
+          "en": "panties on penis",
+          "ja": "ペニスにパンティーを履かせる"
+        },
+        {
+          "en": "penis in panties",
+          "ja": "パンティーの中のペニス"
+        },
+        {
+          "en": "panties in mouth",
+          "ja": "口の中にパンティー"
+        },
+        {
+          "en": "panty gag",
+          "ja": "パンティギャグ"
+        },
+        {
+          "en": "licking panties",
+          "ja": "パンティーを舐める"
+        },
+        {
+          "en": "panties aside",
+          "ja": "パンティーを脇に置いて"
+        },
+        {
+          "en": "smelling underwear",
+          "ja": "下着の匂いを嗅ぐ"
+        },
+        {
+          "en": "cumdrip onto panties",
+          "ja": "パンティーに精液が滴る"
+        },
+        {
+          "en": "cum in panties",
+          "ja": "パンティーに射精"
+        },
+        {
+          "en": "vibrator under panties",
+          "ja": "パンティーの下のバイブレーター"
+        }
+      ],
+      "その他": [
+        {
+          "en": "they’re not panties",
+          "ja": "それはパンティーではない"
+        }
+      ]
+    },
+    "ヌーディー": {
+      "タイプ・デザイン": [
+        {
+          "en": "completely nude",
+          "ja": "完全に裸"
+        },
+        {
+          "en": "nude",
+          "ja": "ヌード"
+        },
+        {
+          "en": "shoulder cutout",
+          "ja": "肩のカットアウト"
+        },
+        {
+          "en": "sleeveless",
+          "ja": "ノースリーブ"
+        },
+        {
+          "en": "low-cut armhole",
+          "ja": "ローカットのアームホール"
+        },
+        {
+          "en": "armpit cutout",
+          "ja": "脇の下の切り抜き"
+        },
+        {
+          "en": "arm cutout",
+          "ja": "腕の切り抜き"
+        },
+        {
+          "en": "off shoulder",
+          "ja": "オフショルダー"
+        },
+        {
+          "en": "breastless clothes",
+          "ja": "胸のない服"
+        },
+        {
+          "en": "cleavage cutout",
+          "ja": "胸の谷間カットアウト"
+        },
+        {
+          "en": "underboob cutout",
+          "ja": "胸の下の切り抜き"
+        },
+        {
+          "en": "nippleless clothes",
+          "ja": "乳首のない服"
+        },
+        {
+          "en": "back cutout",
+          "ja": "背面の切り抜き"
+        },
+        {
+          "en": "backless outfit",
+          "ja": "背中が開いた衣装"
+        },
+        {
+          "en": "frontless outfit",
+          "ja": "フロントレスの衣装"
+        },
+        {
+          "en": "navel cutout",
+          "ja": "へその切り抜き"
+        },
+        {
+          "en": "side cutout",
+          "ja": "サイドカットアウト"
+        },
+        {
+          "en": "sideless outfit",
+          "ja": "サイドレス衣装"
+        },
+        {
+          "en": "stomach cutout",
+          "ja": "胃の切り抜き"
+        },
+        {
+          "en": "hip vent",
+          "ja": "ヒップベント"
+        },
+        {
+          "en": "leg cutout",
+          "ja": "脚の切り抜き"
+        },
+        {
+          "en": "thigh cutout",
+          "ja": "太ももカットアウト"
+        },
+        {
+          "en": "side slit",
+          "ja": "サイドスリット"
+        },
+        {
+          "en": "ass cutout",
+          "ja": "お尻の切り抜き"
+        },
+        {
+          "en": "crotch cutout",
+          "ja": "股間カットアウト"
+        },
+        {
+          "en": "no bra",
+          "ja": "ブラジャーなし"
+        },
+        {
+          "en": "no pants",
+          "ja": "ズボンなし"
+        },
+        {
+          "en": "bottomless",
+          "ja": "底なし"
+        },
+        {
+          "en": "no panties",
+          "ja": "パンツなし"
+        },
+        {
+          "en": "underwear only",
+          "ja": "下着のみ"
+        },
+        {
+          "en": "topless male",
+          "ja": "トップレスの男性"
+        },
+        {
+          "en": "no shirt",
+          "ja": "シャツなし"
+        },
+        {
+          "en": "naked apron",
+          "ja": "裸エプロン"
+        },
+        {
+          "en": "nearly naked apron",
+          "ja": "ほぼ裸のエプロン"
+        },
+        {
+          "en": "naked bandage",
+          "ja": "裸の包帯"
+        },
+        {
+          "en": "naked cape",
+          "ja": "裸のケープ"
+        },
+        {
+          "en": "naked capelet",
+          "ja": "裸のケープレット"
+        },
+        {
+          "en": "naked cloak",
+          "ja": "裸のマント"
+        },
+        {
+          "en": "naked coat",
+          "ja": "裸のコート"
+        },
+        {
+          "en": "naked hoodie",
+          "ja": "裸のパーカー"
+        },
+        {
+          "en": "naked jacket",
+          "ja": "ネイキッドジャケット"
+        },
+        {
+          "en": "naked overalls",
+          "ja": "裸のオーバーオール"
+        },
+        {
+          "en": "naked robe",
+          "ja": "裸のローブ"
+        },
+        {
+          "en": "naked shirt",
+          "ja": "裸のシャツ"
+        },
+        {
+          "en": "naked suspenders",
+          "ja": "裸のサスペンダー"
+        },
+        {
+          "en": "naked tabard",
+          "ja": "裸のタバード"
+        },
+        {
+          "en": "naked ribbon",
+          "ja": "裸のリボン"
+        },
+        {
+          "en": "naked scarf",
+          "ja": "裸のスカーフ"
+        },
+        {
+          "en": "naked towel",
+          "ja": "裸のタオル"
+        },
+        {
+          "en": "naked chocolate",
+          "ja": "ネイキッドチョコレート"
+        },
+        {
+          "en": "naked sheet",
+          "ja": "裸のシーツ"
+        },
+        {
+          "en": "topless female",
+          "ja": "トップレスの女性"
+        },
+        {
+          "en": "revealing clothes",
+          "ja": "露出度の高い服"
+        },
+        {
+          "en": "see-through clothes",
+          "ja": "透け感のある服"
+        },
+        {
+          "en": "zettai ryouiki",
+          "ja": "絶対領域"
+        }
+      ],
+      "動作・状況": [
+        {
+          "en": "clitoris slip",
+          "ja": "クリトリススリップ"
+        },
+        {
+          "en": "penis peek",
+          "ja": "ペニスの覗き見"
+        },
+        {
+          "en": "pussy peek",
+          "ja": "プッシーピーク"
+        },
+        {
+          "en": "downblouse",
+          "ja": "ダウンブラウス"
+        },
+        {
+          "en": "downpants",
+          "ja": "ダウンパンツ"
+        },
+        {
+          "en": "pantyshot",
+          "ja": "パンチラ"
+        },
+        {
+          "en": "upskirt",
+          "ja": "スカートの中"
+        },
+        {
+          "en": "clothing aside",
+          "ja": "衣服は別として"
+        },
+        {
+          "en": "clothes down",
+          "ja": "服を下ろす"
+        },
+        {
+          "en": "open clothes",
+          "ja": "開いた服"
+        },
+        {
+          "en": "unbuttoned",
+          "ja": "ボタンを外した"
+        },
+        {
+          "en": "undressing",
+          "ja": "脱衣"
+        },
+        {
+          "en": "unfastened",
+          "ja": "緩んだ"
+        },
+        {
+          "en": "untied",
+          "ja": "解かれた"
+        },
+        {
+          "en": "untying",
+          "ja": "解く"
+        },
+        {
+          "en": "unzipped",
+          "ja": "解凍された"
+        },
+        {
+          "en": "unzipping",
+          "ja": "解凍"
+        },
+        {
+          "en": "bikini bottom aside",
+          "ja": "ビキニの裾を横に"
+        },
+        {
+          "en": "bikini pull",
+          "ja": "ビキニプル"
+        },
+        {
+          "en": "cape lift",
+          "ja": "ケープリフト"
+        },
+        {
+          "en": "lifting covers",
+          "ja": "持ち上げカバー"
+        },
+        {
+          "en": "bikini, open",
+          "ja": "ビキニ、オープン"
+        },
+        {
+          "en": "open bra",
+          "ja": "オープンブラ"
+        },
+        {
+          "en": "open kimono",
+          "ja": "開いた着物"
+        },
+        {
+          "en": "robe slip",
+          "ja": "ローブスリップ"
+        },
+        {
+          "en": "strap lift",
+          "ja": "ストラップリフト"
+        },
+        {
+          "en": "strap pull",
+          "ja": "ストラッププル"
+        },
+        {
+          "en": "strap slip",
+          "ja": "ストラップスリップ"
+        },
+        {
+          "en": "swimsuit aside",
+          "ja": "水着は別として"
+        },
+        {
+          "en": "one-piece swimsuit pull",
+          "ja": "ワンピース水着プル"
+        },
+        {
+          "en": "open towel",
+          "ja": "開いたタオル"
+        },
+        {
+          "en": "towel slip",
+          "ja": "タオルスリップ"
+        },
+        {
+          "en": "male underwear pull",
+          "ja": "男性用下着の引っ張り"
+        },
+        {
+          "en": "sleeves rolled up",
+          "ja": "袖をまくった"
+        },
+        {
+          "en": "sleeves pushed up",
+          "ja": "袖をまくった"
+        },
+        {
+          "en": "hood down",
+          "ja": "フードを下ろす"
+        },
+        {
+          "en": "center opening",
+          "ja": "中央開口部"
+        },
+        {
+          "en": "open coat",
+          "ja": "オープンコート"
+        },
+        {
+          "en": "open collar",
+          "ja": "オープンカラー"
+        },
+        {
+          "en": "dress pull",
+          "ja": "ドレスプル"
+        },
+        {
+          "en": "open hoodie",
+          "ja": "オープンパーカー"
+        },
+        {
+          "en": "open jacket",
+          "ja": "オープンジャケット"
+        },
+        {
+          "en": "leotard pull",
+          "ja": "レオタードプル"
+        },
+        {
+          "en": "kimono down",
+          "ja": "着物ダウン"
+        },
+        {
+          "en": "kimono pull",
+          "ja": "着物の引き手"
+        },
+        {
+          "en": "pajamas pull",
+          "ja": "パジャマプル"
+        },
+        {
+          "en": "open robe",
+          "ja": "オープンローブ"
+        },
+        {
+          "en": "shirt aside",
+          "ja": "シャツを脇に"
+        },
+        {
+          "en": "open shirt",
+          "ja": "オープンシャツ"
+        },
+        {
+          "en": "shirt lift",
+          "ja": "シャツリフト"
+        },
+        {
+          "en": "shirt pull",
+          "ja": "シャツを引っ張る"
+        },
+        {
+          "en": "shirt slip",
+          "ja": "シャツスリップ"
+        },
+        {
+          "en": "sweater lift",
+          "ja": "セーターリフト"
+        },
+        {
+          "en": "top pull",
+          "ja": "トッププル"
+        },
+        {
+          "en": "open vest",
+          "ja": "オープンベスト"
+        },
+        {
+          "en": "one breast out",
+          "ja": "片方の胸を外に出す"
+        },
+        {
+          "en": "breast slip",
+          "ja": "胸スリップ"
+        },
+        {
+          "en": "breasts out",
+          "ja": "胸を露出させる"
+        },
+        {
+          "en": "bra lift",
+          "ja": "ブラジャーリフト"
+        },
+        {
+          "en": "bra pull",
+          "ja": "ブラジャーを引っ張る"
+        },
+        {
+          "en": "areola slip",
+          "ja": "乳輪スリップ"
+        },
+        {
+          "en": "nipple slip",
+          "ja": "乳首が見える"
+        },
+        {
+          "en": "dress lift",
+          "ja": "ドレスリフト"
+        },
+        {
+          "en": "shoe pull",
+          "ja": "靴を引っ張る"
+        },
+        {
+          "en": "sock pull",
+          "ja": "靴下を引っ張る"
+        },
+        {
+          "en": "buruma pull",
+          "ja": "ブルマプル"
+        },
+        {
+          "en": "buruma aside",
+          "ja": "ブルマは別として"
+        },
+        {
+          "en": "dress aside",
+          "ja": "ドレスを脇に置いて"
+        },
+        {
+          "en": "leotard aside",
+          "ja": "レオタードを脇に置いて"
+        },
+        {
+          "en": "hakama pull",
+          "ja": "はかま引き"
+        },
+        {
+          "en": "kimono lift",
+          "ja": "着物リフト"
+        },
+        {
+          "en": "yukata lift",
+          "ja": "浴衣リフト"
+        },
+        {
+          "en": "panties aside",
+          "ja": "パンティーを脇に置いて"
+        },
+        {
+          "en": "pants pull",
+          "ja": "ズボンを引っ張る"
+        },
+        {
+          "en": "open pants",
+          "ja": "オープンパンツ"
+        },
+        {
+          "en": "panty lift",
+          "ja": "パンティリフト"
+        },
+        {
+          "en": "panty pull",
+          "ja": "パンティを引っ張る"
+        },
+        {
+          "en": "pantyhose pull",
+          "ja": "パンスト引っ張り"
+        },
+        {
+          "en": "shorts aside",
+          "ja": "ショーツは別として"
+        },
+        {
+          "en": "open shorts",
+          "ja": "オープンショート"
+        },
+        {
+          "en": "shorts pull",
+          "ja": "ショーツを引っ張る"
+        },
+        {
+          "en": "skirt around one leg",
+          "ja": "片足に巻くスカート"
+        },
+        {
+          "en": "skirt around ankles",
+          "ja": "足首までのスカート"
+        },
+        {
+          "en": "open skirt",
+          "ja": "開いたスカート"
+        },
+        {
+          "en": "skirt pull",
+          "ja": "スカートを引っ張る"
+        },
+        {
+          "en": "skirt lift",
+          "ja": "スカートめくり"
+        },
+        {
+          "en": "covering privates",
+          "ja": "プライベートをカバーする"
+        },
+        {
+          "en": "covering head",
+          "ja": "頭を覆う"
+        },
+        {
+          "en": "covering own ears",
+          "ja": "耳を塞ぐ"
+        },
+        {
+          "en": "covering one eye",
+          "ja": "片目を覆う"
+        },
+        {
+          "en": "covering own eyes",
+          "ja": "自分の目を覆う"
+        },
+        {
+          "en": "covering face",
+          "ja": "顔を覆う"
+        },
+        {
+          "en": "covering own mouth",
+          "ja": "自分の口を覆う"
+        },
+        {
+          "en": "adjusting clothes",
+          "ja": "衣服を調整する"
+        },
+        {
+          "en": "clothes grab",
+          "ja": "服を掴む"
+        },
+        {
+          "en": "apron grab",
+          "ja": "エプロングラブ"
+        },
+        {
+          "en": "collar grab",
+          "ja": "襟を掴む"
+        },
+        {
+          "en": "necktie grab",
+          "ja": "ネクタイを掴む"
+        },
+        {
+          "en": "skirt grab",
+          "ja": "スカートを掴む"
+        },
+        {
+          "en": "collar tug",
+          "ja": "首輪を引っ張る"
+        },
+        {
+          "en": "dress tug",
+          "ja": "ドレスを引っ張る"
+        },
+        {
+          "en": "shirt tug",
+          "ja": "シャツを引っ張る"
+        },
+        {
+          "en": "skirt tug",
+          "ja": "スカートを引っ張る"
+        },
+        {
+          "en": "wringing clothes",
+          "ja": "衣服を絞る"
+        },
+        {
+          "en": "covering anus",
+          "ja": "肛門を覆う"
+        },
+        {
+          "en": "covering ass",
+          "ja": "尻を隠す"
+        },
+        {
+          "en": "covering breasts",
+          "ja": "胸を覆う"
+        },
+        {
+          "en": "covering crotch",
+          "ja": "股間を覆う"
+        },
+        {
+          "en": "nude cover",
+          "ja": "ヌードカバー"
+        }
+      ],
+      "その他": [
+        {
+          "en": "cfnf",
+          "ja": "CFNF"
+        },
+        {
+          "en": "cfnm",
+          "ja": "CFNM"
+        },
+        {
+          "en": "cmnf",
+          "ja": "CMNF"
+        },
+        {
+          "en": "cmnm",
+          "ja": "CMNM"
+        },
+        {
+          "en": "nude modeling",
+          "ja": "ヌードモデル"
+        }
+      ]
+    },
+    "ファッションスタイル": {
+      "一般": [
+        {
+          "en": "1950s fashion",
+          "ja": "1950年代のファッション"
+        },
+        {
+          "en": "1960s fashion",
+          "ja": "1960年代のファッション"
+        },
+        {
+          "en": "1970s fashion",
+          "ja": "1970年代のファッション"
+        },
+        {
+          "en": "1980s fashion",
+          "ja": "1980年代のファッション"
+        },
+        {
+          "en": "1990s fashion",
+          "ja": "1990年代のファッション"
+        },
+        {
+          "en": "aristocratic clothes",
+          "ja": "貴族の衣装"
+        },
+        {
+          "en": "casual",
+          "ja": "カジュアル"
+        },
+        {
+          "en": "formal clothes",
+          "ja": "フォーマルな服装"
+        },
+        {
+          "en": "goth fashion",
+          "ja": "ゴスファッション"
+        },
+        {
+          "en": "pastel goth",
+          "ja": "パステルゴス"
+        },
+        {
+          "en": "perky goth",
+          "ja": "元気なゴス"
+        },
+        {
+          "en": "punk",
+          "ja": "パンク"
+        },
+        {
+          "en": "raver",
+          "ja": "レイバー"
+        },
+        {
+          "en": "sportswear",
+          "ja": "スポーツウェア"
+        },
+        {
+          "en": "streetwear",
+          "ja": "ストリートウェア"
+        },
+        {
+          "en": "hip hop",
+          "ja": "ヒップホップ"
+        },
+        {
+          "en": "techwear",
+          "ja": "テックウェア"
+        },
+        {
+          "en": "y2k fashion",
+          "ja": "Y2Kファッション"
+        },
+        {
+          "en": "mcbling",
+          "ja": "マクブリング"
+        }
+      ],
+      "日本": [
+        {
+          "en": "bodycon",
+          "ja": "ボディコン"
+        },
+        {
+          "en": "cyber fashion",
+          "ja": "サイバーファッション"
+        },
+        {
+          "en": "decora",
+          "ja": "デコラ"
+        },
+        {
+          "en": "shinora",
+          "ja": "シノラ"
+        },
+        {
+          "en": "french girly",
+          "ja": "フレンチガーリー"
+        },
+        {
+          "en": "gothic punk",
+          "ja": "ゴシックパンク"
+        },
+        {
+          "en": "gurokawa",
+          "ja": "黒川"
+        },
+        {
+          "en": "gyaru",
+          "ja": "ギャル"
+        },
+        {
+          "en": "agejo gyaru",
+          "ja": "あげじょギャル"
+        },
+        {
+          "en": "amekaji gyaru",
+          "ja": "アメカジギャル"
+        },
+        {
+          "en": "amesuku gyaru",
+          "ja": "アメスクギャル"
+        },
+        {
+          "en": "ganguro",
+          "ja": "ガングロ"
+        },
+        {
+          "en": "gyaruo",
+          "ja": "ギャル男"
+        },
+        {
+          "en": "hime gyaru",
+          "ja": "姫ギャル"
+        },
+        {
+          "en": "kogal",
+          "ja": "コガル"
+        },
+        {
+          "en": "manba gyaru",
+          "ja": "まんばギャル"
+        },
+        {
+          "en": "onee gyaru",
+          "ja": "オネエギャル"
+        },
+        {
+          "en": "hadeko",
+          "ja": "ハデコ"
+        },
+        {
+          "en": "heisei retro",
+          "ja": "平成レトロ"
+        },
+        {
+          "en": "jojifuku",
+          "ja": "じょうじふく"
+        },
+        {
+          "en": "himekaji",
+          "ja": "ひめかじ"
+        },
+        {
+          "en": "jersey maid",
+          "ja": "ジャージメイド"
+        },
+        {
+          "en": "jirai kei",
+          "ja": "自来系"
+        },
+        {
+          "en": "lolita fashion",
+          "ja": "ロリータファッション"
+        },
+        {
+          "en": "classic lolita",
+          "ja": "クラシックロリータ"
+        },
+        {
+          "en": "gothic lolita",
+          "ja": "ゴシックロリータ"
+        },
+        {
+          "en": "qi lolita",
+          "ja": "チーロリータ"
+        },
+        {
+          "en": "sweet lolita",
+          "ja": "スイートロリータ"
+        },
+        {
+          "en": "wa lolita",
+          "ja": "わロリータ"
+        },
+        {
+          "en": "mori kei",
+          "ja": "森けい"
+        },
+        {
+          "en": "ouji fashion",
+          "ja": "王子ファッション"
+        },
+        {
+          "en": "tenshi kaiwai",
+          "ja": "天使かいわい"
+        },
+        {
+          "en": "visual kei",
+          "ja": "ヴィジュアル系"
+        },
+        {
+          "en": "yami kawaii",
+          "ja": "ヤミかわいい"
+        },
+        {
+          "en": "yume kawaii",
+          "ja": "ゆめかわいい"
+        }
+      ],
+      "ウェスタン": [
+        {
+          "en": "balletcore",
+          "ja": "バレエコア"
+        },
+        {
+          "en": "beatnik",
+          "ja": "ビートニク"
+        },
+        {
+          "en": "cybergoth",
+          "ja": "サイバーゴス"
+        },
+        {
+          "en": "e-girl",
+          "ja": "eガール"
+        },
+        {
+          "en": "emo fashion",
+          "ja": "エモファッション"
+        },
+        {
+          "en": "flapper girl",
+          "ja": "フラッパーガール"
+        },
+        {
+          "en": "hipster",
+          "ja": "ヒップスター"
+        },
+        {
+          "en": "mod fashion",
+          "ja": "モッズファッション"
+        },
+        {
+          "en": "office siren",
+          "ja": "オフィスのサイレン"
+        },
+        {
+          "en": "rockabilly",
+          "ja": "ロカビリー"
+        },
+        {
+          "en": "scene fashion",
+          "ja": "シーンファッション"
+        },
+        {
+          "en": "victorian",
+          "ja": "ビクトリア朝"
+        },
+        {
+          "en": "steampunk",
+          "ja": "スチームパンク"
+        },
+        {
+          "en": "yabi fashion",
+          "ja": "ヤビファッション"
+        }
+      ]
+    }
+  }
+}

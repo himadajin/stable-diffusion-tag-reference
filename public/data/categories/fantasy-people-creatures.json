@@ -1,0 +1,2217 @@
+{
+  "id": "fantasy-people-creatures",
+  "name": "幻想人物・生物",
+  "tagCount": 204,
+  "sections": [
+    {
+      "id": "エシ-フ-ト神話",
+      "name": "エジプト神話",
+      "path": [
+        "エジプト神話"
+      ],
+      "tagCount": 12,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "apep",
+          "ja": "アペップ"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "aten",
+          "ja": "アテン"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "bastet",
+          "ja": "バステト"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "horus",
+          "ja": "ホルス"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "isis",
+          "ja": "イシス"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "medjed",
+          "ja": "メジェド"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "ra",
+          "ja": "ラー"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "set",
+          "ja": "セット"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "sobek",
+          "ja": "ソベック"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "thoth",
+          "ja": "トート"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "anubis",
+          "ja": "アヌビス"
+        },
+        {
+          "id": "fantasy-people-creatures__エシ-フ-ト神話__0012",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "エジプト神話"
+          ],
+          "en": "sphinx",
+          "ja": "スフィンクス"
+        }
+      ]
+    },
+    {
+      "id": "キ-リシャ神話",
+      "name": "ギリシャ神話",
+      "path": [
+        "ギリシャ神話"
+      ],
+      "tagCount": 37,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "apollo",
+          "ja": "アポロ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "aphrodite",
+          "ja": "アフロディーテ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "artemis",
+          "ja": "アルテミス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "athena",
+          "ja": "アテナ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "chronos",
+          "ja": "クロノス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "demeter",
+          "ja": "デメテル"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "dionysus",
+          "ja": "ディオニュソス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "eris",
+          "ja": "エリス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "eros",
+          "ja": "エロス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "ganymede",
+          "ja": "ガニメデ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "hades",
+          "ja": "ハデス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0012",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "hecate",
+          "ja": "ヘカテ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0013",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "hephaestus",
+          "ja": "ヘパイストス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0014",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "hera",
+          "ja": "ヘラ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0015",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "heracles",
+          "ja": "ヘラクレス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0016",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "hermes",
+          "ja": "エルメス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0017",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "hestia",
+          "ja": "ヘスティア"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0018",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "iris",
+          "ja": "イリス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0019",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "medea",
+          "ja": "メデア"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0020",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "nike",
+          "ja": "ナイキ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0021",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "oracle",
+          "ja": "オラクル"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0022",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "pythia",
+          "ja": "ピュティア"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0023",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "poseidon",
+          "ja": "ポセイドン"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0024",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "psyche",
+          "ja": "プシューケー"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0025",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "thanatos",
+          "ja": "タナトス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0026",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "zeus",
+          "ja": "ゼウス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0027",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "phoenix",
+          "ja": "フェニックス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0028",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "griffin",
+          "ja": "グリフィン"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0029",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "centaur",
+          "ja": "ケンタウロス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0030",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "cerberus",
+          "ja": "ケルベロス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0031",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "chimera",
+          "ja": "キメラ"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0032",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "pegasus",
+          "ja": "ペガサス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0033",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "cyclops",
+          "ja": "サイクロプス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0034",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "hippocamp",
+          "ja": "ヒッポカンポス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0035",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "satyr",
+          "ja": "サテュロス"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0036",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "harpy",
+          "ja": "ハーピー"
+        },
+        {
+          "id": "fantasy-people-creatures__キ-リシャ神話__0037",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ギリシャ神話"
+          ],
+          "en": "centauroid",
+          "ja": "ケンタウロイド"
+        }
+      ]
+    },
+    {
+      "id": "キリスト教",
+      "name": "キリスト教",
+      "path": [
+        "キリスト教"
+      ],
+      "tagCount": 12,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__キリスト教__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "christianity",
+          "ja": "キリスト教"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "abel",
+          "ja": "アベル"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "adam",
+          "ja": "アダム"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "cain",
+          "ja": "カイン"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "delilah",
+          "ja": "デリラ"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "eve",
+          "ja": "イブ"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "noah",
+          "ja": "ノア"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "jesus",
+          "ja": "イエス"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "samson",
+          "ja": "サムソン"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "virgin mary",
+          "ja": "聖母マリア"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "yahweh",
+          "ja": "ヤハウェ"
+        },
+        {
+          "id": "fantasy-people-creatures__キリスト教__0012",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "キリスト教"
+          ],
+          "en": "leviathan",
+          "ja": "リヴァイアサン"
+        }
+      ]
+    },
+    {
+      "id": "ケルト神話",
+      "name": "ケルト神話",
+      "path": [
+        "ケルト神話"
+      ],
+      "tagCount": 4,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__ケルト神話__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ケルト神話"
+          ],
+          "en": "banshee",
+          "ja": "バンシー"
+        },
+        {
+          "id": "fantasy-people-creatures__ケルト神話__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ケルト神話"
+          ],
+          "en": "selkie",
+          "ja": "セルキー"
+        },
+        {
+          "id": "fantasy-people-creatures__ケルト神話__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ケルト神話"
+          ],
+          "en": "cait sith",
+          "ja": "ケット・シー"
+        },
+        {
+          "id": "fantasy-people-creatures__ケルト神話__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "ケルト神話"
+          ],
+          "en": "brigit",
+          "ja": "ブリジット"
+        }
+      ]
+    },
+    {
+      "id": "北欧神話",
+      "name": "北欧神話",
+      "path": [
+        "北欧神話"
+      ],
+      "tagCount": 5,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__北欧神話__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "北欧神話"
+          ],
+          "en": "dwarf",
+          "ja": "ドワーフ"
+        },
+        {
+          "id": "fantasy-people-creatures__北欧神話__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "北欧神話"
+          ],
+          "en": "troll",
+          "ja": "トロル"
+        },
+        {
+          "id": "fantasy-people-creatures__北欧神話__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "北欧神話"
+          ],
+          "en": "valkyrie",
+          "ja": "ヴァルキリー"
+        },
+        {
+          "id": "fantasy-people-creatures__北欧神話__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "北欧神話"
+          ],
+          "en": "giant",
+          "ja": "巨人"
+        },
+        {
+          "id": "fantasy-people-creatures__北欧神話__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "北欧神話"
+          ],
+          "en": "giantess",
+          "ja": "巨人"
+        }
+      ]
+    },
+    {
+      "id": "その他神話",
+      "name": "その他神話",
+      "path": [
+        "その他神話"
+      ],
+      "tagCount": 11,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__その他神話__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "rusalka",
+          "ja": "ルサルカ"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "kikimora",
+          "ja": "キキモラ"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "astarte",
+          "ja": "アスタルテ"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "baal",
+          "ja": "バアル"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "roc",
+          "ja": "ロック"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "eastern dragon",
+          "ja": "東洋の龍"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "kalavinka",
+          "ja": "カラヴィンカ"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "golem",
+          "ja": "ゴーレム"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "behemoth",
+          "ja": "ベヒーモス"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "qilin",
+          "ja": "麒麟"
+        },
+        {
+          "id": "fantasy-people-creatures__その他神話__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "その他神話"
+          ],
+          "en": "hakutaku",
+          "ja": "白澤"
+        }
+      ]
+    },
+    {
+      "id": "伝承-信仰",
+      "name": "伝承・信仰",
+      "path": [
+        "伝承・信仰"
+      ],
+      "tagCount": 11,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "mermaid",
+          "ja": "マーメイド"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "merman",
+          "ja": "マーマン"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "unicorn",
+          "ja": "ユニコーン"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "goblin",
+          "ja": "ゴブリン"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "hei bai wuchang",
+          "ja": "黒白無常"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "jiangshi",
+          "ja": "キョンシー"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "cockatrice",
+          "ja": "コカトリス"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "basilisk",
+          "ja": "バジリスク"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "shinigami",
+          "ja": "死神"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "shachihoko",
+          "ja": "しゃちほこ"
+        },
+        {
+          "id": "fantasy-people-creatures__伝承-信仰__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "伝承・信仰"
+          ],
+          "en": "enma",
+          "ja": "閻魔"
+        }
+      ]
+    },
+    {
+      "id": "創作",
+      "name": "創作",
+      "path": [
+        "創作"
+      ],
+      "tagCount": 2,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__創作__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "創作"
+          ],
+          "en": "halfling",
+          "ja": "ハーフリング"
+        },
+        {
+          "id": "fantasy-people-creatures__創作__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "創作"
+          ],
+          "en": "hippogriff",
+          "ja": "ヒッポグリフ"
+        }
+      ]
+    },
+    {
+      "id": "アンテ-ット系",
+      "name": "アンデット系",
+      "path": [
+        "アンデット系"
+      ],
+      "tagCount": 15,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "dullahan",
+          "ja": "デュラハン"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "ghost",
+          "ja": "おばけ"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "hitodama",
+          "ja": "ひとだま"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "undead",
+          "ja": "アンデッド"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "frankenstein's monster",
+          "ja": "フランケンシュタイン"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "ghoul",
+          "ja": "グール"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "bongun",
+          "ja": "ボンガン"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "munak",
+          "ja": "ムナク"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "lich",
+          "ja": "リッチ"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "mummy",
+          "ja": "ミイラ"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "vampire",
+          "ja": "吸血鬼"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0012",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "dracula",
+          "ja": "ドラキュラ"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0013",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "count orlok",
+          "ja": "オルロック伯爵"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0014",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "vrykolakas",
+          "ja": "ヴリコラカス"
+        },
+        {
+          "id": "fantasy-people-creatures__アンテ-ット系__0015",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "アンデット系"
+          ],
+          "en": "zombie",
+          "ja": "ゾンビ"
+        }
+      ]
+    },
+    {
+      "id": "獣人系",
+      "name": "獣人系",
+      "path": [
+        "獣人系"
+      ],
+      "tagCount": 3,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__獣人系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "獣人系"
+          ],
+          "en": "therianthrope",
+          "ja": "獣人"
+        },
+        {
+          "id": "fantasy-people-creatures__獣人系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "獣人系"
+          ],
+          "en": "werewolf",
+          "ja": "狼男"
+        },
+        {
+          "id": "fantasy-people-creatures__獣人系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "獣人系"
+          ],
+          "en": "tauren",
+          "ja": "タウレン"
+        }
+      ]
+    },
+    {
+      "id": "神-天使系",
+      "name": "神・天使系",
+      "path": [
+        "神・天使系"
+      ],
+      "tagCount": 13,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__神-天使系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "angel",
+          "ja": "天使"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "archangel",
+          "ja": "大天使"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "cherub",
+          "ja": "ケルビム"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "seraph",
+          "ja": "セラフ"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "cupid",
+          "ja": "キューピッド"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "demon",
+          "ja": "悪魔"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "demon boy",
+          "ja": "悪魔の少年"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "demon girl",
+          "ja": "悪魔の少女"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "baphomet",
+          "ja": "バフォメット"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "belphegor",
+          "ja": "ベルフェゴール"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "lucifer",
+          "ja": "ルシファー"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0012",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "satan",
+          "ja": "サタン"
+        },
+        {
+          "id": "fantasy-people-creatures__神-天使系__0013",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "神・天使系"
+          ],
+          "en": "legion",
+          "ja": "悪霊の集団"
+        }
+      ]
+    },
+    {
+      "id": "都市伝説系",
+      "name": "都市伝説系",
+      "path": [
+        "都市伝説系"
+      ],
+      "tagCount": 8,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "hasshaku-sama",
+          "ja": "八尺様"
+        },
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "kuchisake-onna",
+          "ja": "口裂け女"
+        },
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "kune-kune",
+          "ja": "クネクネ"
+        },
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "mary-san",
+          "ja": "メアリーさん"
+        },
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "siren head",
+          "ja": "サイレンヘッド"
+        },
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "slender man",
+          "ja": "細身の男"
+        },
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "sukima onna",
+          "ja": "スキマ女"
+        },
+        {
+          "id": "fantasy-people-creatures__都市伝説系__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "都市伝説系"
+          ],
+          "en": "turbo baachan",
+          "ja": "ターボばあちゃん"
+        }
+      ]
+    },
+    {
+      "id": "日本妖怪系",
+      "name": "日本妖怪系",
+      "path": [
+        "日本妖怪系"
+      ],
+      "tagCount": 27,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "bakeneko",
+          "ja": "化け猫"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "nekomata",
+          "ja": "猫又"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "kitsune",
+          "ja": "キツネ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "kage-nashi dog",
+          "ja": "影なし犬"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "nue",
+          "ja": "鵺"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "namahage",
+          "ja": "なまはげ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "oni",
+          "ja": "鬼"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "chouchin obake",
+          "ja": "ちょうちんおばけ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "karakasa obake",
+          "ja": "からかさおばけ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "kyuubi",
+          "ja": "キュウビ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "tanuki",
+          "ja": "タヌキ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0012",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "yamata no orochi",
+          "ja": "ヤマタノオロチ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0013",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "akaname",
+          "ja": "垢舐め"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0014",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "amabie",
+          "ja": "アマビエ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0015",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "kappa",
+          "ja": "カッパ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0016",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "rokurokubi",
+          "ja": "ろくろ首"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0017",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "tengu",
+          "ja": "天狗"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0018",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "yuki onna",
+          "ja": "雪女"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0019",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "zashiki-warashi",
+          "ja": "座敷童子"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0020",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "yukinko",
+          "ja": "ゆきんこ"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0021",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "akaname-san",
+          "ja": "あかなめさん"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0022",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "blue oni",
+          "ja": "青鬼"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0023",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "red oni",
+          "ja": "赤鬼"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0024",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "aku bouzu",
+          "ja": "あくぼうず"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0025",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "ibaraki douji",
+          "ja": "茨木童子"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0026",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "ushi-oni",
+          "ja": "牛鬼"
+        },
+        {
+          "id": "fantasy-people-creatures__日本妖怪系__0027",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "日本妖怪系"
+          ],
+          "en": "koropokkuru",
+          "ja": "コロポックル"
+        }
+      ]
+    },
+    {
+      "id": "魔術系",
+      "name": "魔術系",
+      "path": [
+        "魔術系"
+      ],
+      "tagCount": 4,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__魔術系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔術系"
+          ],
+          "en": "elemental",
+          "ja": "エレメンタル"
+        },
+        {
+          "id": "fantasy-people-creatures__魔術系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔術系"
+          ],
+          "en": "genie",
+          "ja": "精霊"
+        },
+        {
+          "id": "fantasy-people-creatures__魔術系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔術系"
+          ],
+          "en": "wizard",
+          "ja": "魔法使い"
+        },
+        {
+          "id": "fantasy-people-creatures__魔術系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔術系"
+          ],
+          "en": "witch",
+          "ja": "魔女"
+        }
+      ]
+    },
+    {
+      "id": "魔物系",
+      "name": "魔物系",
+      "path": [
+        "魔物系"
+      ],
+      "tagCount": 20,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__魔物系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "dragon",
+          "ja": "ドラゴン"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "western dragon",
+          "ja": "西洋のドラゴン"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "vouivre",
+          "ja": "ヴイーヴル"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "wyrm",
+          "ja": "ワーム"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "wyvern",
+          "ja": "ワイバーン"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "hydra",
+          "ja": "ヒドラ"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "minotaur",
+          "ja": "ミノタウロス"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "mimic",
+          "ja": "ミミック"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "mimic chest",
+          "ja": "宝箱型のミミック"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "kraken",
+          "ja": "クラーケン"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "lamia",
+          "ja": "ラミア"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0012",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "medusa",
+          "ja": "メデューサ"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0013",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "longma",
+          "ja": "ロンマ"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0014",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "mandragora",
+          "ja": "マンドラゴラ"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0015",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "ogre",
+          "ja": "鬼"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0016",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "orc",
+          "ja": "オーク"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0017",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "slime",
+          "ja": "スライム"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0018",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "monster",
+          "ja": "モンスター"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0019",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "monster girl",
+          "ja": "モンスター娘"
+        },
+        {
+          "id": "fantasy-people-creatures__魔物系__0020",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "魔物系"
+          ],
+          "en": "monster boy",
+          "ja": "モンスターボーイ"
+        }
+      ]
+    },
+    {
+      "id": "未確認生物系",
+      "name": "未確認生物系",
+      "path": [
+        "未確認生物系"
+      ],
+      "tagCount": 9,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "cryptid",
+          "ja": "未確認生物"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "chupacabra",
+          "ja": "チュパカブラ"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "flatwoods monster",
+          "ja": "フラットウッズモンスター"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "jackalope",
+          "ja": "ジャッカロープ"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "mokele-mbembe",
+          "ja": "モケーレ・ンベンベ"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "loch ness monster",
+          "ja": "ネッシー"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "tsuchinoko",
+          "ja": "ツチノコ"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "yeti",
+          "ja": "イエティ"
+        },
+        {
+          "id": "fantasy-people-creatures__未確認生物系__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "未確認生物系"
+          ],
+          "en": "mothman",
+          "ja": "モスマン"
+        }
+      ]
+    },
+    {
+      "id": "妖精系",
+      "name": "妖精系",
+      "path": [
+        "妖精系"
+      ],
+      "tagCount": 11,
+      "tags": [
+        {
+          "id": "fantasy-people-creatures__妖精系__0001",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "elf",
+          "ja": "エルフ"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0002",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "dark elf",
+          "ja": "ダークエルフ"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0003",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "blood elf",
+          "ja": "ブラッドエルフ"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0004",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "fairy",
+          "ja": "妖精"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0005",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "gnome",
+          "ja": "ノーム"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0006",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "sylph",
+          "ja": "シルフ"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0007",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "undine",
+          "ja": "ウンディーネ"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0008",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "salamander",
+          "ja": "サンショウウオ"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0009",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "spirit",
+          "ja": "精神"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0010",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "nixie",
+          "ja": "ニクシー"
+        },
+        {
+          "id": "fantasy-people-creatures__妖精系__0011",
+          "categoryId": "fantasy-people-creatures",
+          "categoryName": "幻想人物・生物",
+          "path": [
+            "妖精系"
+          ],
+          "en": "nymph",
+          "ja": "ニンフ"
+        }
+      ]
+    }
+  ]
+}
