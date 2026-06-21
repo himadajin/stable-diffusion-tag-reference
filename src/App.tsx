@@ -15,7 +15,7 @@ import {
 } from "@radix-ui/themes";
 import { Heart } from "lucide-react";
 import type { CSSProperties } from "react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { copyText } from "./lib/clipboard";
 import { loadCategory, loadManifest } from "./lib/data";
 import { entryCopyValue, normalizeQuery, searchEntriesFromChunks } from "./lib/search";
@@ -70,6 +70,8 @@ export function App() {
   const [copyState, setCopyState] = useState<CopyState | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [activeTopSectionId, setActiveTopSectionId] = useState<string>("");
+  const [activeSectionId, setActiveSectionId] = useState<string>("");
+  const [manualExpandedTopSectionId, setManualExpandedTopSectionId] = useState<string | null>(null);
   const [sectionJump, setSectionJump] = useState<SectionJump | null>(null);
   const isDrawerLayout = useMediaQuery("(max-width: 959px)");
   const useMobileTagRows = useMediaQuery("(max-width: 620px)");
@@ -170,18 +172,23 @@ export function App() {
     setActiveCategoryId(categoryId);
     setQuery("");
     setActiveTopSectionId("");
+    setActiveSectionId("");
+    setManualExpandedTopSectionId(null);
   }
 
   function selectCategoryFromSidebar(categoryId: string) {
     setActiveCategoryId(categoryId);
     setQuery("");
     setActiveTopSectionId("");
+    setActiveSectionId("");
+    setManualExpandedTopSectionId(null);
   }
 
   function jumpToSection(categoryId: string, sectionId: string) {
     setActiveCategoryId(categoryId);
     setQuery("");
-    setActiveTopSectionId(sectionId);
+    setActiveSectionId(sectionId);
+    setManualExpandedTopSectionId(null);
     setSectionJump((current) => ({
       categoryId,
       sectionId,
@@ -189,6 +196,15 @@ export function App() {
     }));
     if (isDrawerLayout) setIsSidebarOpen(false);
   }
+
+  function toggleTopSection(sectionId: string) {
+    setManualExpandedTopSectionId((current) => (current === sectionId ? null : sectionId));
+  }
+
+  const updateVisibleSection = useCallback((topSectionId: string, sectionId: string) => {
+    setActiveTopSectionId(topSectionId);
+    setActiveSectionId(sectionId);
+  }, []);
 
   return (
     <div className="app-shell">
@@ -198,9 +214,12 @@ export function App() {
             categories={sidebarCategories}
             activeCategory={categoryData}
             activeCategoryId={activeCategoryId}
+            activeSectionId={activeSectionId}
             activeTopSectionId={activeTopSectionId}
+            expandedTopSectionId={manualExpandedTopSectionId ?? activeTopSectionId}
             onSelect={selectCategoryFromSidebar}
             onSelectSection={jumpToSection}
+            onToggleTopSection={toggleTopSection}
           />
         </div>
         <Dialog.Root open={isSidebarOpen} onOpenChange={setIsSidebarOpen}>
@@ -224,9 +243,12 @@ export function App() {
               categories={sidebarCategories}
               activeCategory={categoryData}
               activeCategoryId={activeCategoryId}
+              activeSectionId={activeSectionId}
               activeTopSectionId={activeTopSectionId}
+              expandedTopSectionId={manualExpandedTopSectionId ?? activeTopSectionId}
               onSelect={selectCategoryFromSidebar}
               onSelectSection={jumpToSection}
+              onToggleTopSection={toggleTopSection}
             />
           </Dialog.Content>
         </Dialog.Root>
@@ -240,7 +262,7 @@ export function App() {
           onOpenCategory={openCategory}
           onQueryChange={setQuery}
           onToggleFavorite={toggleFavorite}
-          onVisibleTopSectionChange={setActiveTopSectionId}
+          onVisibleSectionChange={updateVisibleSection}
           query={query}
           searchResults={searchResults}
           sectionJump={sectionJump}
@@ -331,7 +353,7 @@ function MainPanel({
   onOpenCategory,
   onQueryChange,
   onToggleFavorite,
-  onVisibleTopSectionChange,
+  onVisibleSectionChange,
   query,
   searchResults,
   sectionJump,
@@ -347,7 +369,7 @@ function MainPanel({
   onOpenCategory: (categoryId: string) => void;
   onQueryChange: (query: string) => void;
   onToggleFavorite: (tag: TagEntry) => void;
-  onVisibleTopSectionChange: (sectionId: string) => void;
+  onVisibleSectionChange: (topSectionId: string, sectionId: string) => void;
   query: string;
   searchResults: SearchEntry[];
   sectionJump: SectionJump | null;
@@ -381,7 +403,7 @@ function MainPanel({
           onCopy={onCopy}
           favoriteIds={favoriteIds}
           onToggleFavorite={onToggleFavorite}
-          onVisibleTopSectionChange={onVisibleTopSectionChange}
+          onVisibleSectionChange={onVisibleSectionChange}
           copyValue={copyState?.value}
           sectionJump={sectionJump}
           useMobileTagRows={useMobileTagRows}
@@ -399,16 +421,22 @@ function CategorySidebar({
   categories,
   activeCategory,
   activeCategoryId,
+  activeSectionId,
   activeTopSectionId,
+  expandedTopSectionId,
   onSelect,
   onSelectSection,
+  onToggleTopSection,
 }: {
   categories: CategorySummary[];
   activeCategory: CategoryData | null;
   activeCategoryId: string;
+  activeSectionId: string;
   onSelect: (categoryId: string) => void;
   activeTopSectionId: string;
+  expandedTopSectionId: string;
   onSelectSection: (categoryId: string, sectionId: string) => void;
+  onToggleTopSection: (sectionId: string) => void;
 }) {
   const activeTopSections =
     activeCategory && activeCategory.id !== FAVORITES_CATEGORY_ID ? activeCategory.sections : [];
@@ -437,19 +465,50 @@ function CategorySidebar({
                   <span className="category-count">{category.tagCount.toLocaleString()}</span>
                 </button>
                 {isActive && activeTopSections.length > 0 ? (
-                  <nav className="subcategory-list" aria-label={`${category.name} のサブカテゴリ`}>
-                    {activeTopSections.map((section) => (
-                      <button
-                        className="subcategory-button"
-                        data-active={section.id === activeTopSectionId}
-                        key={section.id}
-                        onClick={() => onSelectSection(category.id, section.id)}
-                        type="button"
-                      >
-                        <span>{section.name}</span>
-                        <span className="category-count">{section.tagCount.toLocaleString()}</span>
-                      </button>
-                    ))}
+                  <nav className="section-tree" aria-label={`${category.name} のサブカテゴリ`}>
+                    {activeTopSections.map((section) => {
+                      const isTopActive = section.id === activeTopSectionId;
+                      const isExpanded = section.id === expandedTopSectionId;
+                      const hasChildren = Boolean(section.children?.length);
+                      return (
+                        <div className="section-tree-group" key={section.id}>
+                          <button
+                            className="section-tree-button section-tree-button-top"
+                            data-active={isTopActive}
+                            data-expanded={isExpanded}
+                            onClick={() =>
+                              hasChildren
+                                ? onToggleTopSection(section.id)
+                                : onSelectSection(category.id, section.id)
+                            }
+                            type="button"
+                          >
+                            <span>{section.name}</span>
+                            <span className="category-count">
+                              {section.tagCount.toLocaleString()}
+                            </span>
+                          </button>
+                          {hasChildren && isExpanded ? (
+                            <div className="section-tree-children">
+                              {section.children?.map((child) => (
+                                <button
+                                  className="section-tree-button section-tree-button-child"
+                                  data-active={child.id === activeSectionId}
+                                  key={child.id}
+                                  onClick={() => onSelectSection(category.id, child.id)}
+                                  type="button"
+                                >
+                                  <span>{child.name}</span>
+                                  <span className="category-count">
+                                    {child.tagCount.toLocaleString()}
+                                  </span>
+                                </button>
+                              ))}
+                            </div>
+                          ) : null}
+                        </div>
+                      );
+                    })}
                   </nav>
                 ) : null}
               </div>
@@ -513,7 +572,7 @@ function CategoryView({
   onCopy,
   favoriteIds,
   onToggleFavorite,
-  onVisibleTopSectionChange,
+  onVisibleSectionChange,
   copyValue,
   sectionJump,
   useMobileTagRows,
@@ -522,7 +581,7 @@ function CategoryView({
   onCopy: (value: string) => void;
   favoriteIds: Set<string>;
   onToggleFavorite: (tag: TagEntry) => void;
-  onVisibleTopSectionChange: (sectionId: string) => void;
+  onVisibleSectionChange: (topSectionId: string, sectionId: string) => void;
   copyValue?: string;
   sectionJump: SectionJump | null;
   useMobileTagRows: boolean;
@@ -545,8 +604,8 @@ function CategoryView({
     if (!scrollElement) return;
     scrollElement.scrollTop = 0;
     setScrollTop(0);
-    onVisibleTopSectionChange("");
-  }, [categoryId, onVisibleTopSectionChange]);
+    onVisibleSectionChange("", "");
+  }, [categoryId, onVisibleSectionChange]);
 
   useEffect(() => {
     if (!sectionJump || sectionJump.categoryId !== categoryId) return;
@@ -560,8 +619,8 @@ function CategoryView({
   }, [categoryId, rowHeight, sectionJump, sectionPositions]);
 
   useEffect(() => {
-    onVisibleTopSectionChange(currentPosition?.topSectionId ?? "");
-  }, [currentPosition?.topSectionId, onVisibleTopSectionChange]);
+    onVisibleSectionChange(currentPosition?.topSectionId ?? "", currentPosition?.id ?? "");
+  }, [currentPosition?.id, currentPosition?.topSectionId, onVisibleSectionChange]);
 
   useEffect(() => {
     const scrollElement = scrollRef.current;
