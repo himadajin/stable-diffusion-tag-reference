@@ -53,6 +53,8 @@ export function App() {
   const [selectedTags, setSelectedTags] = useState<SelectedTag[]>([]);
   const [copyState, setCopyState] = useState<CopyState | null>(null);
   const [mobileView, setMobileView] = useState("tags");
+  const isMobileLayout = useMediaQuery("(max-width: 900px)");
+  const useMobileTagRows = useMediaQuery("(max-width: 620px)");
 
   useEffect(() => {
     loadManifest().then((manifest) => {
@@ -65,7 +67,14 @@ export function App() {
 
   useEffect(() => {
     if (!activeCategoryId) return;
-    loadCategory(activeCategoryId).then(setCategoryData);
+    let isCurrent = true;
+    setCategoryData(null);
+    loadCategory(activeCategoryId).then((data) => {
+      if (isCurrent) setCategoryData(data);
+    });
+    return () => {
+      isCurrent = false;
+    };
   }, [activeCategoryId]);
 
   useEffect(() => {
@@ -127,64 +136,10 @@ export function App() {
     setMobileView("tags");
   }
 
-  const sidebar = (
-    <CategorySidebar
-      categories={categories}
-      activeCategoryId={activeCategoryId}
-      onSelect={openCategory}
-    />
-  );
-
-  const mainPanel = (
-    <main className="main-panel" aria-label="タグ一覧">
-      <SearchHeader
-        query={query}
-        onQueryChange={setQuery}
-        copyState={copyState}
-        isLoading={isSearching && !searchIndex}
-      />
-      {isSearching ? (
-        <SearchResults
-          results={searchResults}
-          query={query}
-          onCopy={copyValue}
-          onAdd={addSelected}
-          onOpenCategory={openCategory}
-          copyValue={copyState?.value}
-        />
-      ) : categoryData ? (
-        <CategoryView
-          category={categoryData}
-          onCopy={copyValue}
-          onAdd={addSelected}
-          copyValue={copyState?.value}
-        />
-      ) : (
-        <Box p="4">
-          <Text color="gray">データを読み込んでいます。</Text>
-        </Box>
-      )}
-    </main>
-  );
-
-  const selectionPanel = (
-    <SelectionPanel
-      selectedTags={selectedTags}
-      onCopySelected={copySelected}
-      onRemove={removeSelected}
-      onMove={moveSelected}
-      onClear={() => setSelectedTags([])}
-    />
-  );
-
-  return (
-    <div className="app-shell">
-      <div className="desktop-layout">
-        {sidebar}
-        {mainPanel}
-        {selectionPanel}
-      </div>
-      <div className="mobile-layout">
+  if (isMobileLayout) {
+    return (
+      <div className="app-shell">
+        <div className="mobile-layout">
         <SearchHeader
           query={query}
           onQueryChange={setQuery}
@@ -198,13 +153,164 @@ export function App() {
             <Tabs.Trigger value="selected">選択 ({selectedTags.length})</Tabs.Trigger>
           </Tabs.List>
           <Box pt="3">
-            <Tabs.Content value="categories">{sidebar}</Tabs.Content>
-            <Tabs.Content value="tags">{mainPanel}</Tabs.Content>
-            <Tabs.Content value="selected">{selectionPanel}</Tabs.Content>
+            <Tabs.Content value="categories">
+              {mobileView === "categories" ? (
+                <CategorySidebar
+                  categories={categories}
+                  activeCategoryId={activeCategoryId}
+                  onSelect={openCategory}
+                />
+              ) : null}
+            </Tabs.Content>
+            <Tabs.Content value="tags">
+              {mobileView === "tags" ? (
+                <MainPanel
+                  categoryData={categoryData}
+                  copyState={copyState}
+                  isSearching={isSearching}
+                  isSearchLoading={isSearching && !searchIndex}
+                  onAdd={addSelected}
+                  onCopy={copyValue}
+                  onOpenCategory={openCategory}
+                  onQueryChange={setQuery}
+                  query={query}
+                  searchResults={searchResults}
+                  showSearchHeader={false}
+                  useMobileTagRows={useMobileTagRows}
+                />
+              ) : null}
+            </Tabs.Content>
+            <Tabs.Content value="selected">
+              {mobileView === "selected" ? (
+                <SelectionPanel
+                  selectedTags={selectedTags}
+                  onCopySelected={copySelected}
+                  onRemove={removeSelected}
+                  onMove={moveSelected}
+                  onClear={() => setSelectedTags([])}
+                />
+              ) : null}
+            </Tabs.Content>
           </Box>
         </Tabs.Root>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="app-shell">
+      <div className="desktop-layout">
+        <CategorySidebar
+          categories={categories}
+          activeCategoryId={activeCategoryId}
+          onSelect={openCategory}
+        />
+        <MainPanel
+          categoryData={categoryData}
+          copyState={copyState}
+          isSearching={isSearching}
+          isSearchLoading={isSearching && !searchIndex}
+          onAdd={addSelected}
+          onCopy={copyValue}
+          onOpenCategory={openCategory}
+          onQueryChange={setQuery}
+          query={query}
+          searchResults={searchResults}
+          showSearchHeader
+          useMobileTagRows={false}
+        />
+        <SelectionPanel
+          selectedTags={selectedTags}
+          onCopySelected={copySelected}
+          onRemove={removeSelected}
+          onMove={moveSelected}
+          onClear={() => setSelectedTags([])}
+        />
       </div>
     </div>
+  );
+}
+
+function useMediaQuery(query: string): boolean {
+  const [matches, setMatches] = useState(() => {
+    if (typeof window === "undefined" || !window.matchMedia) return false;
+    return window.matchMedia(query).matches;
+  });
+
+  useEffect(() => {
+    if (!window.matchMedia) return;
+    const mediaQuery = window.matchMedia(query);
+    const updateMatches = () => setMatches(mediaQuery.matches);
+    updateMatches();
+    mediaQuery.addEventListener("change", updateMatches);
+    return () => mediaQuery.removeEventListener("change", updateMatches);
+  }, [query]);
+
+  return matches;
+}
+
+function MainPanel({
+  categoryData,
+  copyState,
+  isSearching,
+  isSearchLoading,
+  onAdd,
+  onCopy,
+  onOpenCategory,
+  onQueryChange,
+  query,
+  searchResults,
+  showSearchHeader,
+  useMobileTagRows,
+}: {
+  categoryData: CategoryData | null;
+  copyState: CopyState | null;
+  isSearching: boolean;
+  isSearchLoading: boolean;
+  onAdd: (tag: SelectedTag) => void;
+  onCopy: (value: string) => void;
+  onOpenCategory: (categoryId: string) => void;
+  onQueryChange: (query: string) => void;
+  query: string;
+  searchResults: SearchEntry[];
+  showSearchHeader: boolean;
+  useMobileTagRows: boolean;
+}) {
+  return (
+    <main className="main-panel" aria-label="タグ一覧">
+      {showSearchHeader ? (
+        <SearchHeader
+          query={query}
+          onQueryChange={onQueryChange}
+          copyState={copyState}
+          isLoading={isSearchLoading}
+        />
+      ) : null}
+      {isSearching ? (
+        <SearchResults
+          results={searchResults}
+          query={query}
+          onCopy={onCopy}
+          onAdd={onAdd}
+          onOpenCategory={onOpenCategory}
+          copyValue={copyState?.value}
+          useMobileTagRows={useMobileTagRows}
+        />
+      ) : categoryData ? (
+        <CategoryView
+          category={categoryData}
+          onCopy={onCopy}
+          onAdd={onAdd}
+          copyValue={copyState?.value}
+          useMobileTagRows={useMobileTagRows}
+        />
+      ) : (
+        <Box p="4">
+          <Text color="gray">データを読み込んでいます。</Text>
+        </Box>
+      )}
+    </main>
   );
 }
 
@@ -297,11 +403,13 @@ function CategoryView({
   onCopy,
   onAdd,
   copyValue,
+  useMobileTagRows,
 }: {
   category: CategoryData;
   onCopy: (value: string) => void;
   onAdd: (tag: SelectedTag) => void;
   copyValue?: string;
+  useMobileTagRows: boolean;
 }) {
   return (
     <ScrollArea className="content-scroll" scrollbars="vertical">
@@ -320,6 +428,7 @@ function CategoryView({
               onCopy={onCopy}
               onAdd={onAdd}
               copyValue={copyValue}
+              useMobileTagRows={useMobileTagRows}
             />
           ))}
         </Flex>
@@ -333,12 +442,14 @@ function SectionTable({
   onCopy,
   onAdd,
   copyValue,
+  useMobileTagRows,
   depth = 0,
 }: {
   section: CategorySection;
   onCopy: (value: string) => void;
   onAdd: (tag: SelectedTag) => void;
   copyValue?: string;
+  useMobileTagRows: boolean;
   depth?: number;
 }) {
   return (
@@ -350,7 +461,13 @@ function SectionTable({
         </Text>
       </Flex>
       {section.tags?.length ? (
-        <TagTable tags={section.tags} onCopy={onCopy} onAdd={onAdd} copyValue={copyValue} />
+        <TagTable
+          tags={section.tags}
+          onCopy={onCopy}
+          onAdd={onAdd}
+          copyValue={copyValue}
+          useMobileTagRows={useMobileTagRows}
+        />
       ) : null}
       {section.children?.length ? (
         <Flex direction="column" gap="3" mt="3">
@@ -361,6 +478,7 @@ function SectionTable({
               onCopy={onCopy}
               onAdd={onAdd}
               copyValue={copyValue}
+              useMobileTagRows={useMobileTagRows}
               depth={depth + 1}
             />
           ))}
@@ -375,48 +493,16 @@ function TagTable({
   onCopy,
   onAdd,
   copyValue,
+  useMobileTagRows,
 }: {
   tags: TagEntry[];
   onCopy: (value: string) => void;
   onAdd: (tag: SelectedTag) => void;
   copyValue?: string;
+  useMobileTagRows: boolean;
 }) {
-  return (
-    <>
-      <Table.Root size="1" variant="surface" className="tag-table">
-        <Table.Header>
-          <Table.Row>
-            <Table.ColumnHeaderCell>English tag</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell>日本語名</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell>カテゴリ文脈</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell className="action-cell">操作</Table.ColumnHeaderCell>
-          </Table.Row>
-        </Table.Header>
-        <Table.Body>
-          {tags.map((tag) => (
-            <Table.Row key={tag.id}>
-              <Table.Cell>
-              <Code color="gray">{tag.en}</Code>
-              </Table.Cell>
-              <Table.Cell>{tag.ja}</Table.Cell>
-              <Table.Cell>
-                <Text color="gray" size="1">
-                  {tag.path.join(" / ")}
-                </Text>
-              </Table.Cell>
-              <Table.Cell className="action-cell">
-                <RowActions
-                  value={tag.en}
-                  selectedTag={{ id: tag.id, label: tag.en, source: "tag" }}
-                  onCopy={onCopy}
-                  onAdd={onAdd}
-                  copied={copyValue === tag.en}
-                />
-              </Table.Cell>
-            </Table.Row>
-          ))}
-        </Table.Body>
-      </Table.Root>
+  if (useMobileTagRows) {
+    return (
       <MobileTagRows
         rows={tags.map((tag) => ({
           id: tag.id,
@@ -429,7 +515,44 @@ function TagTable({
         onAdd={onAdd}
         copyValue={copyValue}
       />
-    </>
+    );
+  }
+
+  return (
+    <Table.Root size="1" variant="surface" className="tag-table">
+      <Table.Header>
+        <Table.Row>
+          <Table.ColumnHeaderCell>English tag</Table.ColumnHeaderCell>
+          <Table.ColumnHeaderCell>日本語名</Table.ColumnHeaderCell>
+          <Table.ColumnHeaderCell>カテゴリ文脈</Table.ColumnHeaderCell>
+          <Table.ColumnHeaderCell className="action-cell">操作</Table.ColumnHeaderCell>
+        </Table.Row>
+      </Table.Header>
+      <Table.Body>
+        {tags.map((tag) => (
+          <Table.Row key={tag.id}>
+            <Table.Cell>
+              <Code color="gray">{tag.en}</Code>
+            </Table.Cell>
+            <Table.Cell>{tag.ja}</Table.Cell>
+            <Table.Cell>
+              <Text color="gray" size="1">
+                {tag.path.join(" / ")}
+              </Text>
+            </Table.Cell>
+            <Table.Cell className="action-cell">
+              <RowActions
+                value={tag.en}
+                selectedTag={{ id: tag.id, label: tag.en, source: "tag" }}
+                onCopy={onCopy}
+                onAdd={onAdd}
+                copied={copyValue === tag.en}
+              />
+            </Table.Cell>
+          </Table.Row>
+        ))}
+      </Table.Body>
+    </Table.Root>
   );
 }
 
@@ -440,6 +563,7 @@ function SearchResults({
   onAdd,
   onOpenCategory,
   copyValue,
+  useMobileTagRows,
 }: {
   results: SearchEntry[];
   query: string;
@@ -447,6 +571,7 @@ function SearchResults({
   onAdd: (tag: SelectedTag) => void;
   onOpenCategory: (categoryId: string) => void;
   copyValue?: string;
+  useMobileTagRows: boolean;
 }) {
   return (
     <ScrollArea className="content-scroll" scrollbars="vertical">
@@ -459,8 +584,28 @@ function SearchResults({
         </Flex>
         {results.length === 0 ? (
           <Text color="gray">「{query}」に一致するタグはありません。</Text>
+        ) : useMobileTagRows ? (
+          <MobileTagRows
+            rows={results.map((entry) => {
+              const value = entryCopyValue(entry);
+              return {
+                id: entry.id,
+                value,
+                label: entry.type === "tag" ? entry.ja : `自由入力候補 / ${entry.count.toLocaleString()}`,
+                context:
+                  entry.type === "tag"
+                    ? `${entry.categoryName} / ${entry.path.join(" / ")}`
+                    : "自由入力候補",
+                selectedTag: { id: entry.id, label: value, source: entry.type },
+                categoryId: entry.type === "tag" ? entry.categoryId : undefined,
+              };
+            })}
+            onCopy={onCopy}
+            onAdd={onAdd}
+            onOpenCategory={onOpenCategory}
+            copyValue={copyValue}
+          />
         ) : (
-          <>
             <Table.Root size="1" variant="surface" className="tag-table">
             <Table.Header>
               <Table.Row>
@@ -518,27 +663,6 @@ function SearchResults({
               })}
             </Table.Body>
           </Table.Root>
-            <MobileTagRows
-              rows={results.map((entry) => {
-                const value = entryCopyValue(entry);
-                return {
-                  id: entry.id,
-                  value,
-                  label: entry.type === "tag" ? entry.ja : `自由入力候補 / ${entry.count.toLocaleString()}`,
-                  context:
-                    entry.type === "tag"
-                      ? `${entry.categoryName} / ${entry.path.join(" / ")}`
-                      : "自由入力候補",
-                  selectedTag: { id: entry.id, label: value, source: entry.type },
-                  categoryId: entry.type === "tag" ? entry.categoryId : undefined,
-                };
-              })}
-              onCopy={onCopy}
-              onAdd={onAdd}
-              onOpenCategory={onOpenCategory}
-              copyValue={copyValue}
-            />
-          </>
         )}
       </Box>
     </ScrollArea>
