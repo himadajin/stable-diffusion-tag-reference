@@ -8,13 +8,12 @@ import {
   Heading,
   IconButton,
   ScrollArea,
-  Table,
   Text,
   TextField,
   Tooltip,
 } from "@radix-ui/themes";
 import { Heart } from "lucide-react";
-import type { CSSProperties } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { copyText } from "./lib/clipboard";
 import { loadCategory, loadManifest } from "./lib/data";
@@ -49,6 +48,8 @@ type VirtualCategoryRow =
 
 const DESKTOP_TAG_ROW_HEIGHT = 40;
 const MOBILE_TAG_ROW_HEIGHT = 64;
+const DESKTOP_CONTEXT_TAG_ROW_HEIGHT = 56;
+const MOBILE_CONTEXT_TAG_ROW_HEIGHT = 78;
 const DESKTOP_SECTION_ROW_HEIGHT = 32;
 const MOBILE_SECTION_ROW_HEIGHT = 36;
 const VIRTUAL_OVERSCAN_ROWS = 12;
@@ -157,6 +158,23 @@ export function App() {
     setCopyState({ value, message });
   }
 
+  async function openTagContext(entry: Extract<SearchEntry, { type: "tag" }>) {
+    const data = await loadCategory(entry.categoryId);
+    const sectionId = findSectionIdByPath(data.sections, entry.path) ?? "";
+    setActiveCategoryId(entry.categoryId);
+    setQuery("");
+    setActiveSectionId(sectionId);
+    setManualExpandedTopSectionId(null);
+    if (sectionId) {
+      setSectionJump((current) => ({
+        categoryId: entry.categoryId,
+        sectionId,
+        requestId: (current?.requestId ?? 0) + 1,
+      }));
+    }
+    if (isDrawerLayout) setIsSidebarOpen(false);
+  }
+
   function toggleFavorite(tag: TagEntry) {
     setFavoriteIds((current) => {
       const next = new Set(current);
@@ -168,14 +186,6 @@ export function App() {
       writeFavoriteIds(next);
       return next;
     });
-  }
-
-  function openCategory(categoryId: string) {
-    setActiveCategoryId(categoryId);
-    setQuery("");
-    setActiveTopSectionId("");
-    setActiveSectionId("");
-    setManualExpandedTopSectionId(null);
   }
 
   function selectCategoryFromSidebar(categoryId: string) {
@@ -255,7 +265,7 @@ export function App() {
           isSearching={isSearching}
           isSearchLoading={isSearchLoading}
           onCopy={copyValue}
-          onOpenCategory={openCategory}
+          onOpenTagContext={openTagContext}
           onOpenSidebar={() => setIsSidebarOpen(true)}
           onQueryChange={setQuery}
           onToggleFavorite={toggleFavorite}
@@ -347,7 +357,7 @@ function MainPanel({
   isSearching,
   isSearchLoading,
   onCopy,
-  onOpenCategory,
+  onOpenTagContext,
   onOpenSidebar,
   onQueryChange,
   onToggleFavorite,
@@ -364,7 +374,7 @@ function MainPanel({
   isSearching: boolean;
   isSearchLoading: boolean;
   onCopy: (value: string) => void;
-  onOpenCategory: (categoryId: string) => void;
+  onOpenTagContext: (entry: Extract<SearchEntry, { type: "tag" }>) => void;
   onOpenSidebar: () => void;
   onQueryChange: (query: string) => void;
   onToggleFavorite: (tag: TagEntry) => void;
@@ -391,11 +401,10 @@ function MainPanel({
           results={searchResults}
           query={query}
           onCopy={onCopy}
-          onOpenCategory={onOpenCategory}
+          onOpenTagContext={onOpenTagContext}
           favoriteIds={favoriteIds}
           onToggleFavorite={onToggleFavorite}
           copyValue={copyState?.value}
-          useMobileTagRows={useMobileTagRows}
         />
       ) : categoryData ? (
         <CategoryView
@@ -625,9 +634,10 @@ function CategoryView({
   const [scrollTop, setScrollTop] = useState(0);
   const [viewportHeight, setViewportHeight] = useState(720);
   const rows = useMemo(() => flattenCategoryRows(category.sections), [category.sections]);
+  const showContext = category.id === FAVORITES_CATEGORY_ID;
   const rowMetrics = useMemo(
-    () => collectRowMetrics(rows, useMobileTagRows),
-    [rows, useMobileTagRows],
+    () => collectRowMetrics(rows, useMobileTagRows, showContext),
+    [rows, showContext, useMobileTagRows],
   );
   const sectionPositions = useMemo(() => collectSectionPositions(rows), [rows]);
   const currentRowIndex = findRowIndexAtScrollTop(rowMetrics, scrollTop);
@@ -711,6 +721,7 @@ function CategoryView({
                   key={row.id}
                   onCopy={onCopy}
                   onToggleFavorite={onToggleFavorite}
+                  showContext={showContext}
                   tag={row.tag}
                 />
               ) : (
@@ -720,6 +731,7 @@ function CategoryView({
                   key={row.id}
                   onCopy={onCopy}
                   onToggleFavorite={onToggleFavorite}
+                  showContext={showContext}
                   tag={row.tag}
                 />
               ),
@@ -766,30 +778,51 @@ function findSectionPath(sections: CategorySection[], sectionId: string): string
   return null;
 }
 
+function findSectionIdByPath(sections: CategorySection[], path: string[]): string | null {
+  for (const section of sections) {
+    if (
+      section.path.length === path.length &&
+      section.path.every((part, index) => part === path[index])
+    ) {
+      return section.id;
+    }
+    const childId = findSectionIdByPath(section.children ?? [], path);
+    if (childId) return childId;
+  }
+  return null;
+}
+
 type RowMetrics = {
   heights: number[];
   tops: number[];
   totalHeight: number;
 };
 
-function collectRowMetrics(rows: VirtualCategoryRow[], useMobileTagRows: boolean): RowMetrics {
+function collectRowMetrics(
+  rows: VirtualCategoryRow[],
+  useMobileTagRows: boolean,
+  showContext: boolean,
+): RowMetrics {
   let totalHeight = 0;
   const heights: number[] = [];
   const tops: number[] = [];
   for (const row of rows) {
     tops.push(totalHeight);
-    const height =
-      row.type === "section"
-        ? useMobileTagRows
-          ? MOBILE_SECTION_ROW_HEIGHT
-          : DESKTOP_SECTION_ROW_HEIGHT
-        : useMobileTagRows
-          ? MOBILE_TAG_ROW_HEIGHT
-          : DESKTOP_TAG_ROW_HEIGHT;
+    const height = rowHeight(row, useMobileTagRows, showContext);
     heights.push(height);
     totalHeight += height;
   }
   return { heights, tops, totalHeight };
+}
+
+function rowHeight(row: VirtualCategoryRow, useMobileTagRows: boolean, showContext: boolean) {
+  if (row.type === "section") {
+    return useMobileTagRows ? MOBILE_SECTION_ROW_HEIGHT : DESKTOP_SECTION_ROW_HEIGHT;
+  }
+  if (showContext) {
+    return useMobileTagRows ? MOBILE_CONTEXT_TAG_ROW_HEIGHT : DESKTOP_CONTEXT_TAG_ROW_HEIGHT;
+  }
+  return useMobileTagRows ? MOBILE_TAG_ROW_HEIGHT : DESKTOP_TAG_ROW_HEIGHT;
 }
 
 function findRowIndexAtScrollTop(metrics: RowMetrics, scrollTop: number): number {
@@ -886,22 +919,33 @@ function VirtualDesktopTagRow({
   favoriteIds,
   onToggleFavorite,
   copyValue,
+  showContext,
 }: {
   tag: TagEntry;
   onCopy: (value: string) => void;
   favoriteIds: Set<string>;
   onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
+  showContext: boolean;
 }) {
   return (
-    <div className="virtual-tag-row">
+    <div className="virtual-tag-row" data-context={showContext}>
       <FavoriteButton
         isFavorite={favoriteIds.has(tag.id)}
         tag={tag}
         onToggleFavorite={onToggleFavorite}
       />
-      <TagCopyButton copied={copyValue === tag.en} value={tag.en} onCopy={onCopy} />
-      <Text size="2">{tag.ja}</Text>
+      <div className="tag-copy-cell">
+        <TagCopyButton copied={copyValue === tag.en} value={tag.en} onCopy={onCopy} />
+      </div>
+      <div className="tag-text-cell">
+        <Text size="2">{tag.ja}</Text>
+        {showContext ? (
+          <Text color="gray" size="1">
+            {tag.categoryName} / {tag.path.join(" / ")}
+          </Text>
+        ) : null}
+      </div>
     </div>
   );
 }
@@ -912,15 +956,17 @@ function VirtualMobileTagRow({
   favoriteIds,
   onToggleFavorite,
   copyValue,
+  showContext,
 }: {
   tag: TagEntry;
   onCopy: (value: string) => void;
   favoriteIds: Set<string>;
   onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
+  showContext: boolean;
 }) {
   return (
-    <div className="virtual-mobile-tag-row">
+    <div className="virtual-mobile-tag-row" data-context={showContext}>
       <FavoriteButton
         isFavorite={favoriteIds.has(tag.id)}
         tag={tag}
@@ -929,6 +975,11 @@ function VirtualMobileTagRow({
       <div className="mobile-tag-main">
         <TagCopyButton copied={copyValue === tag.en} value={tag.en} onCopy={onCopy} />
         <Text size="2">{tag.ja}</Text>
+        {showContext ? (
+          <Text color="gray" size="1">
+            {tag.categoryName} / {tag.path.join(" / ")}
+          </Text>
+        ) : null}
       </div>
     </div>
   );
@@ -938,169 +989,137 @@ function SearchResults({
   results,
   query,
   onCopy,
-  onOpenCategory,
+  onOpenTagContext,
   favoriteIds,
   onToggleFavorite,
   copyValue,
-  useMobileTagRows,
 }: {
   results: SearchEntry[];
   query: string;
   onCopy: (value: string) => void;
-  onOpenCategory: (categoryId: string) => void;
+  onOpenTagContext: (entry: Extract<SearchEntry, { type: "tag" }>) => void;
   favoriteIds: Set<string>;
   onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
-  useMobileTagRows: boolean;
 }) {
+  const tagResults = results.filter(
+    (entry): entry is Extract<SearchEntry, { type: "tag" }> => entry.type === "tag",
+  );
+  const freeResults = results.filter(
+    (entry): entry is Extract<SearchEntry, { type: "free" }> => entry.type === "free",
+  );
+
   return (
     <ScrollArea className="content-scroll" scrollbars="vertical">
       <Box px="5" py="4">
         {results.length === 0 ? (
           <Text color="gray">「{query}」に一致するタグはありません。</Text>
-        ) : useMobileTagRows ? (
-          <MobileTagRows
-            rows={results.map((entry) => {
-              const value = entryCopyValue(entry);
-              return {
-                id: entry.id,
-                entry,
-                value,
-                label:
-                  entry.type === "tag"
-                    ? entry.ja
-                    : `自由入力候補 / ${entry.count.toLocaleString()}`,
-                context:
-                  entry.type === "tag"
-                    ? `${entry.categoryName} / ${entry.path.join(" / ")}`
-                    : "自由入力候補",
-                categoryId: entry.type === "tag" ? entry.categoryId : undefined,
-              };
-            })}
-            onCopy={onCopy}
-            favoriteIds={favoriteIds}
-            onOpenCategory={onOpenCategory}
-            onToggleFavorite={onToggleFavorite}
-            copyValue={copyValue}
-          />
         ) : (
-          <Table.Root size="1" variant="surface" className="tag-table">
-            <Table.Header>
-              <Table.Row>
-                <Table.ColumnHeaderCell className="favorite-cell"></Table.ColumnHeaderCell>
-                <Table.ColumnHeaderCell>English tag</Table.ColumnHeaderCell>
-                <Table.ColumnHeaderCell>日本語名 / 出典</Table.ColumnHeaderCell>
-                <Table.ColumnHeaderCell>カテゴリ文脈</Table.ColumnHeaderCell>
-              </Table.Row>
-            </Table.Header>
-            <Table.Body>
-              {results.map((entry) => {
-                const value = entryCopyValue(entry);
-                return (
-                  <Table.Row key={entry.id}>
-                    <Table.Cell className="favorite-cell">
-                      {entry.type === "tag" ? (
-                        <FavoriteButton
-                          isFavorite={favoriteIds.has(entry.id)}
-                          tag={entry}
-                          onToggleFavorite={onToggleFavorite}
-                        />
-                      ) : null}
-                    </Table.Cell>
-                    <Table.Cell>
-                      <TagCopyButton copied={copyValue === value} value={value} onCopy={onCopy} />
-                    </Table.Cell>
-                    <Table.Cell>
-                      {entry.type === "tag" ? (
-                        entry.ja
-                      ) : (
-                        <Text color="gray">自由入力候補 / {entry.count.toLocaleString()}</Text>
-                      )}
-                    </Table.Cell>
-                    <Table.Cell>
-                      {entry.type === "tag" ? (
-                        <button
-                          className="context-link"
-                          type="button"
-                          onClick={() => onOpenCategory(entry.categoryId)}
-                        >
-                          {entry.categoryName} / {entry.path.join(" / ")}
-                        </button>
-                      ) : (
-                        <Text color="gray" size="1">
-                          自由入力候補
-                        </Text>
-                      )}
-                    </Table.Cell>
-                  </Table.Row>
-                );
-              })}
-            </Table.Body>
-          </Table.Root>
+          <div className="search-groups">
+            <SearchResultGroup title="タグ" count={tagResults.length}>
+              {tagResults.map((entry) => (
+                <SearchResultRow
+                  copyValue={copyValue}
+                  entry={entry}
+                  favoriteIds={favoriteIds}
+                  key={entry.id}
+                  onCopy={onCopy}
+                  onOpenTagContext={onOpenTagContext}
+                  onToggleFavorite={onToggleFavorite}
+                />
+              ))}
+            </SearchResultGroup>
+            <SearchResultGroup title="自由入力候補" count={freeResults.length}>
+              {freeResults.map((entry) => (
+                <SearchResultRow
+                  copyValue={copyValue}
+                  entry={entry}
+                  favoriteIds={favoriteIds}
+                  key={entry.id}
+                  onCopy={onCopy}
+                  onOpenTagContext={onOpenTagContext}
+                  onToggleFavorite={onToggleFavorite}
+                />
+              ))}
+            </SearchResultGroup>
+          </div>
         )}
       </Box>
     </ScrollArea>
   );
 }
 
-function MobileTagRows({
-  rows,
+function SearchResultGroup({
+  title,
+  count,
+  children,
+}: {
+  title: string;
+  count: number;
+  children: ReactNode;
+}) {
+  if (count === 0) return null;
+
+  return (
+    <section className="search-result-group">
+      <div className="search-result-group-heading">
+        <Text size="1" weight="medium">
+          {title}
+        </Text>
+        <Text color="gray" size="1">
+          {count.toLocaleString()}
+        </Text>
+      </div>
+      <ul className="search-result-list">{children}</ul>
+    </section>
+  );
+}
+
+function SearchResultRow({
+  entry,
   onCopy,
   favoriteIds,
-  onOpenCategory,
+  onOpenTagContext,
   onToggleFavorite,
   copyValue,
 }: {
-  rows: Array<{
-    id: string;
-    entry: SearchEntry;
-    value: string;
-    label: string;
-    context: string;
-    categoryId?: string;
-  }>;
+  entry: SearchEntry;
   onCopy: (value: string) => void;
   favoriteIds: Set<string>;
-  onOpenCategory?: (categoryId: string) => void;
+  onOpenTagContext: (entry: Extract<SearchEntry, { type: "tag" }>) => void;
   onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
 }) {
+  const value = entryCopyValue(entry);
+  const isTag = entry.type === "tag";
+
   return (
-    <ul className="mobile-tag-list" aria-label="モバイルタグ一覧">
-      {rows.map((row) => {
-        const categoryId = row.categoryId;
-        return (
-          <li className="mobile-tag-row" key={row.id}>
-            {row.entry.type === "tag" ? (
-              <FavoriteButton
-                isFavorite={favoriteIds.has(row.entry.id)}
-                tag={row.entry}
-                onToggleFavorite={onToggleFavorite}
-              />
-            ) : (
-              <span aria-hidden="true" />
-            )}
-            <div className="mobile-tag-main">
-              <TagCopyButton copied={copyValue === row.value} value={row.value} onCopy={onCopy} />
-              <Text size="2">{row.label}</Text>
-              {categoryId && onOpenCategory ? (
-                <button
-                  className="context-link"
-                  type="button"
-                  onClick={() => onOpenCategory(categoryId)}
-                >
-                  {row.context}
-                </button>
-              ) : (
-                <Text color="gray" size="1">
-                  {row.context}
-                </Text>
-              )}
-            </div>
-          </li>
-        );
-      })}
-    </ul>
+    <li className="search-result-row">
+      {isTag ? (
+        <FavoriteButton
+          isFavorite={favoriteIds.has(entry.id)}
+          tag={entry}
+          onToggleFavorite={onToggleFavorite}
+        />
+      ) : (
+        <span aria-hidden="true" />
+      )}
+      <div className="tag-copy-cell">
+        <TagCopyButton copied={copyValue === value} value={value} onCopy={onCopy} />
+      </div>
+      <div className="tag-text-cell">
+        <Text size="2">{isTag ? entry.ja : `自由入力候補 / ${entry.count.toLocaleString()}`}</Text>
+        {isTag ? (
+          <button className="context-link" type="button" onClick={() => onOpenTagContext(entry)}>
+            {entry.categoryName} / {entry.path.join(" / ")}
+          </button>
+        ) : (
+          <Text color="gray" size="1">
+            自由入力候補
+          </Text>
+        )}
+      </div>
+    </li>
   );
 }
 

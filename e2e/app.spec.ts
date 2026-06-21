@@ -35,9 +35,8 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
 
   await page.locator('input[aria-label="タグ検索"]:visible').fill("cinematic lighting");
   await expect(page.getByRole("heading", { name: "検索結果" })).toBeVisible();
-  await expect(
-    page.getByRole("main").getByRole("columnheader", { name: "カテゴリ文脈" }),
-  ).toBeVisible();
+  await expect(page.getByRole("main").getByText("タグ").first()).toBeVisible();
+  await expect(page.getByRole("button", { name: /ライティング/ }).first()).toBeVisible();
   await page.getByRole("button", { name: "cinematic lighting をコピー" }).first().click();
   await expect
     .poll(() => page.evaluate(() => navigator.clipboard.readText()))
@@ -64,9 +63,8 @@ test("mobile keeps drawer navigation, search, and favorites available", async ({
 
   await page.locator('input[aria-label="タグ検索"]:visible').fill("masterpiece");
   await expect(page.getByRole("heading", { name: "検索結果" })).toBeVisible();
-  await page
-    .locator('.mobile-tag-list button[aria-label="masterpiece をお気に入りに追加"]')
-    .click();
+  await expect(page.getByRole("main").getByText("自由入力候補").first()).toBeVisible();
+  await page.getByRole("button", { name: "masterpiece をお気に入りに追加" }).click();
   await page.getByRole("button", { name: "カテゴリ" }).click();
   await page.getByRole("button", { name: /お気に入り/ }).click();
   await page.getByRole("button", { name: "カテゴリを閉じる" }).click();
