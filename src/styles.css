@@ -355,42 +355,11 @@ button {
   background: var(--slate-1);
 }
 
-.virtual-table-header,
 .virtual-tag-row {
   display: grid;
-  grid-template-columns: 32px minmax(180px, 1.1fr) minmax(160px, 0.9fr) minmax(220px, 1.2fr);
+  grid-template-columns: 32px minmax(180px, 0.9fr) minmax(180px, 1fr);
   align-items: center;
   column-gap: var(--space-3);
-  min-width: 680px;
-}
-
-.virtual-table-header {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  height: 34px;
-  padding: 0 var(--space-5);
-  border-bottom: 1px solid var(--slate-6);
-  background: white;
-}
-
-.current-section-bar {
-  position: sticky;
-  top: 34px;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  min-width: 680px;
-  height: 32px;
-  padding: 0 var(--space-5);
-  border-bottom: 1px solid var(--slate-6);
-  background: var(--slate-2);
-}
-
-.current-section-bar span {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .favorite-cell {
@@ -400,7 +369,6 @@ button {
 
 .virtual-category-list {
   position: relative;
-  min-width: 680px;
 }
 
 .virtual-category-window {
@@ -414,7 +382,7 @@ button {
   display: flex;
   align-items: center;
   gap: var(--space-2);
-  height: 36px;
+  height: 32px;
   padding: 0 var(--space-5);
   padding-left: calc(var(--space-5) + var(--section-depth) * var(--space-4));
   border-bottom: 1px solid var(--slate-5);
@@ -422,7 +390,7 @@ button {
 }
 
 .virtual-tag-row {
-  height: 36px;
+  height: 40px;
   padding: 0 var(--space-5);
   border-bottom: 1px solid var(--slate-5);
   background: white;
@@ -572,24 +540,18 @@ button {
     min-width: 0;
   }
 
-  .current-section-bar {
-    top: 0;
-    min-width: 0;
-    padding: 0 var(--space-3);
-  }
-
   .virtual-section-row-mobile {
-    height: 74px;
+    height: 36px;
     padding: var(--space-2) var(--space-3);
     padding-left: calc(var(--space-3) + var(--section-depth) * var(--space-4));
   }
 
   .virtual-mobile-tag-row {
     display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-columns: auto minmax(0, 1fr);
     align-items: center;
     gap: var(--space-3);
-    height: 74px;
+    height: 64px;
     padding: var(--space-2) var(--space-3);
     border-bottom: 1px solid var(--slate-5);
     background: white;
@@ -636,5 +598,13 @@ button {
     max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .virtual-mobile-tag-row .mobile-tag-main > span,
+  .mobile-tag-row .mobile-tag-main > span {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 }

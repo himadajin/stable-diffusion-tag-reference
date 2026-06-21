@@ -19,7 +19,7 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
     .getByLabel("動作・姿勢 のサブカテゴリ")
     .getByRole("button", { name: /ジェスチャー/ })
     .click();
-  await expect(page.locator(".current-section-bar")).toContainText("ジェスチャー");
+  await expect(page.getByRole("heading", { name: "ジェスチャー" })).toBeVisible();
 
   await page.getByRole("button", { name: /品質/ }).click();
   await page.getByRole("button", { name: "masterpiece をコピー" }).first().click();

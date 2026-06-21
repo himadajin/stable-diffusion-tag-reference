@@ -47,8 +47,10 @@ type VirtualCategoryRow =
       tag: TagEntry;
     };
 
-const DESKTOP_CATEGORY_ROW_HEIGHT = 36;
-const MOBILE_CATEGORY_ROW_HEIGHT = 74;
+const DESKTOP_TAG_ROW_HEIGHT = 40;
+const MOBILE_TAG_ROW_HEIGHT = 64;
+const DESKTOP_SECTION_ROW_HEIGHT = 32;
+const MOBILE_SECTION_ROW_HEIGHT = 36;
 const VIRTUAL_OVERSCAN_ROWS = 12;
 const FAVORITES_CATEGORY_ID = "favorites";
 const FAVORITES_STORAGE_KEY = "prompt-tag-viewer:favorites:v1";
@@ -622,13 +624,14 @@ function CategoryView({
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const [scrollTop, setScrollTop] = useState(0);
   const [viewportHeight, setViewportHeight] = useState(720);
-  const rowHeight = useMobileTagRows ? MOBILE_CATEGORY_ROW_HEIGHT : DESKTOP_CATEGORY_ROW_HEIGHT;
   const rows = useMemo(() => flattenCategoryRows(category.sections), [category.sections]);
-  const sectionPositions = useMemo(() => collectSectionPositions(rows), [rows]);
-  const currentPosition = findCurrentSectionPosition(
-    sectionPositions,
-    Math.floor(scrollTop / rowHeight),
+  const rowMetrics = useMemo(
+    () => collectRowMetrics(rows, useMobileTagRows),
+    [rows, useMobileTagRows],
   );
+  const sectionPositions = useMemo(() => collectSectionPositions(rows), [rows]);
+  const currentRowIndex = findRowIndexAtScrollTop(rowMetrics, scrollTop);
+  const currentPosition = findCurrentSectionPosition(sectionPositions, currentRowIndex);
   const categoryId = category.id;
 
   useEffect(() => {
@@ -646,10 +649,10 @@ function CategoryView({
     if (!scrollElement) return;
     const position = sectionPositions.find((section) => section.id === sectionJump.sectionId);
     if (!position) return;
-    const nextScrollTop = position.index * rowHeight;
+    const nextScrollTop = rowMetrics.tops[position.index] ?? 0;
     scrollElement.scrollTop = nextScrollTop;
     setScrollTop(nextScrollTop);
-  }, [categoryId, rowHeight, sectionJump, sectionPositions]);
+  }, [categoryId, rowMetrics.tops, sectionJump, sectionPositions]);
 
   useEffect(() => {
     onVisibleSectionChange(currentPosition?.topSectionId ?? "", currentPosition?.id ?? "");
@@ -665,12 +668,15 @@ function CategoryView({
     return () => window.removeEventListener("resize", updateViewportHeight);
   }, []);
 
-  const startIndex = Math.max(0, Math.floor(scrollTop / rowHeight) - VIRTUAL_OVERSCAN_ROWS);
-  const visibleCount = Math.ceil(viewportHeight / rowHeight) + VIRTUAL_OVERSCAN_ROWS * 2;
-  const endIndex = Math.min(rows.length, startIndex + visibleCount);
+  const startIndex = Math.max(0, currentRowIndex - VIRTUAL_OVERSCAN_ROWS);
+  const endIndex = findVisibleEndIndex(
+    rowMetrics,
+    scrollTop + viewportHeight,
+    VIRTUAL_OVERSCAN_ROWS,
+  );
   const visibleRows = rows.slice(startIndex, endIndex);
-  const topOffset = startIndex * rowHeight;
-  const totalHeight = rows.length * rowHeight;
+  const topOffset = rowMetrics.tops[startIndex] ?? 0;
+  const totalHeight = rowMetrics.totalHeight;
 
   return (
     <section className="category-view">
@@ -684,27 +690,6 @@ function CategoryView({
         ref={scrollRef}
         onScroll={(event) => setScrollTop(event.currentTarget.scrollTop)}
       >
-        {useMobileTagRows ? null : (
-          <div className="virtual-table-header">
-            <Text aria-hidden="true" color="gray" size="1">
-              {" "}
-            </Text>
-            <Text color="gray" size="1" weight="medium">
-              English tag
-            </Text>
-            <Text color="gray" size="1" weight="medium">
-              日本語名
-            </Text>
-            <Text color="gray" size="1" weight="medium">
-              カテゴリ文脈
-            </Text>
-          </div>
-        )}
-        <div className="current-section-bar" aria-live="polite">
-          <Text color="gray" size="1">
-            {currentPosition ? currentPosition.path.join(" / ") : category.name}
-          </Text>
-        </div>
         <div className="virtual-category-list" style={{ height: totalHeight }}>
           <div
             className="virtual-category-window"
@@ -779,6 +764,55 @@ function findSectionPath(sections: CategorySection[], sectionId: string): string
     if (childPath) return childPath;
   }
   return null;
+}
+
+type RowMetrics = {
+  heights: number[];
+  tops: number[];
+  totalHeight: number;
+};
+
+function collectRowMetrics(rows: VirtualCategoryRow[], useMobileTagRows: boolean): RowMetrics {
+  let totalHeight = 0;
+  const heights: number[] = [];
+  const tops: number[] = [];
+  for (const row of rows) {
+    tops.push(totalHeight);
+    const height =
+      row.type === "section"
+        ? useMobileTagRows
+          ? MOBILE_SECTION_ROW_HEIGHT
+          : DESKTOP_SECTION_ROW_HEIGHT
+        : useMobileTagRows
+          ? MOBILE_TAG_ROW_HEIGHT
+          : DESKTOP_TAG_ROW_HEIGHT;
+    heights.push(height);
+    totalHeight += height;
+  }
+  return { heights, tops, totalHeight };
+}
+
+function findRowIndexAtScrollTop(metrics: RowMetrics, scrollTop: number): number {
+  let low = 0;
+  let high = metrics.tops.length - 1;
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2);
+    const top = metrics.tops[mid] ?? 0;
+    const bottom = top + (metrics.heights[mid] ?? 0);
+    if (scrollTop < top) {
+      high = mid - 1;
+    } else if (scrollTop >= bottom) {
+      low = mid + 1;
+    } else {
+      return mid;
+    }
+  }
+  return Math.max(0, Math.min(metrics.tops.length - 1, low));
+}
+
+function findVisibleEndIndex(metrics: RowMetrics, viewportBottom: number, overscanRows: number) {
+  const visibleEnd = findRowIndexAtScrollTop(metrics, viewportBottom);
+  return Math.min(metrics.tops.length, visibleEnd + overscanRows);
 }
 
 type SectionPosition = {
@@ -868,9 +902,6 @@ function VirtualDesktopTagRow({
       />
       <TagCopyButton copied={copyValue === tag.en} value={tag.en} onCopy={onCopy} />
       <Text size="2">{tag.ja}</Text>
-      <Text color="gray" size="1">
-        {tag.path.join(" / ")}
-      </Text>
     </div>
   );
 }
@@ -898,9 +929,6 @@ function VirtualMobileTagRow({
       <div className="mobile-tag-main">
         <TagCopyButton copied={copyValue === tag.en} value={tag.en} onCopy={onCopy} />
         <Text size="2">{tag.ja}</Text>
-        <Text color="gray" size="1">
-          {tag.path.join(" / ")}
-        </Text>
       </div>
     </div>
   );
