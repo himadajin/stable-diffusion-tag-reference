@@ -26,7 +26,7 @@ import {
   TriangleUpIcon,
 } from "@radix-ui/react-icons";
 import type { CSSProperties } from "react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { copyText } from "./lib/clipboard";
 import { loadCategory, loadManifest, loadSearchIndex } from "./lib/data";
 import { entryCopyValue, normalizeQuery, searchEntries } from "./lib/search";
@@ -43,6 +43,24 @@ type CopyState = {
   value: string;
   message: string;
 };
+
+type VirtualCategoryRow =
+  | {
+      id: string;
+      type: "section";
+      depth: number;
+      name: string;
+      tagCount: number;
+    }
+  | {
+      id: string;
+      type: "tag";
+      tag: TagEntry;
+    };
+
+const DESKTOP_CATEGORY_ROW_HEIGHT = 36;
+const MOBILE_CATEGORY_ROW_HEIGHT = 74;
+const VIRTUAL_OVERSCAN_ROWS = 12;
 
 export function App() {
   const [categories, setCategories] = useState<CategorySummary[]>([]);
@@ -411,148 +429,212 @@ function CategoryView({
   copyValue?: string;
   useMobileTagRows: boolean;
 }) {
+  const scrollRef = useRef<HTMLDivElement | null>(null);
+  const [scrollTop, setScrollTop] = useState(0);
+  const [viewportHeight, setViewportHeight] = useState(720);
+  const rowHeight = useMobileTagRows ? MOBILE_CATEGORY_ROW_HEIGHT : DESKTOP_CATEGORY_ROW_HEIGHT;
+  const rows = useMemo(() => flattenCategoryRows(category.sections), [category.sections]);
+
+  useEffect(() => {
+    const scrollElement = scrollRef.current;
+    if (!scrollElement) return;
+    scrollElement.scrollTop = 0;
+    setScrollTop(0);
+  }, [category.id]);
+
+  useEffect(() => {
+    const scrollElement = scrollRef.current;
+    if (!scrollElement) return;
+
+    const updateViewportHeight = () => setViewportHeight(scrollElement.clientHeight || 720);
+    updateViewportHeight();
+    window.addEventListener("resize", updateViewportHeight);
+    return () => window.removeEventListener("resize", updateViewportHeight);
+  }, [useMobileTagRows]);
+
+  const startIndex = Math.max(0, Math.floor(scrollTop / rowHeight) - VIRTUAL_OVERSCAN_ROWS);
+  const visibleCount = Math.ceil(viewportHeight / rowHeight) + VIRTUAL_OVERSCAN_ROWS * 2;
+  const endIndex = Math.min(rows.length, startIndex + visibleCount);
+  const visibleRows = rows.slice(startIndex, endIndex);
+  const topOffset = startIndex * rowHeight;
+  const totalHeight = rows.length * rowHeight;
+
   return (
-    <ScrollArea className="content-scroll" scrollbars="vertical">
-      <Box px="5" py="4">
+    <section className="category-view">
+      <Box className="category-view-header" px="5" py="4">
         <Flex align="baseline" gap="3" mb="3">
           <Heading size="5">{category.name}</Heading>
           <Badge variant="soft" color="gray">
             {category.tagCount.toLocaleString()} tags
           </Badge>
         </Flex>
-        <Flex direction="column" gap="4">
-          {category.sections.map((section) => (
-            <SectionTable
-              key={section.id}
-              section={section}
-              onCopy={onCopy}
-              onAdd={onAdd}
-              copyValue={copyValue}
-              useMobileTagRows={useMobileTagRows}
-            />
-          ))}
-        </Flex>
       </Box>
-    </ScrollArea>
-  );
-}
-
-function SectionTable({
-  section,
-  onCopy,
-  onAdd,
-  copyValue,
-  useMobileTagRows,
-  depth = 0,
-}: {
-  section: CategorySection;
-  onCopy: (value: string) => void;
-  onAdd: (tag: SelectedTag) => void;
-  copyValue?: string;
-  useMobileTagRows: boolean;
-  depth?: number;
-}) {
-  return (
-    <section className="section-block" style={{ "--section-depth": depth } as CSSProperties}>
-      <Flex align="baseline" gap="2" className="section-heading">
-        <Heading size={depth === 0 ? "4" : "3"}>{section.name}</Heading>
-        <Text color="gray" size="2">
-          {section.tagCount.toLocaleString()}
-        </Text>
-      </Flex>
-      {section.tags?.length ? (
-        <TagTable
-          tags={section.tags}
-          onCopy={onCopy}
-          onAdd={onAdd}
-          copyValue={copyValue}
-          useMobileTagRows={useMobileTagRows}
-        />
-      ) : null}
-      {section.children?.length ? (
-        <Flex direction="column" gap="3" mt="3">
-          {section.children.map((child) => (
-            <SectionTable
-              key={child.id}
-              section={child}
-              onCopy={onCopy}
-              onAdd={onAdd}
-              copyValue={copyValue}
-              useMobileTagRows={useMobileTagRows}
-              depth={depth + 1}
-            />
-          ))}
-        </Flex>
-      ) : null}
+      <div
+        className="virtual-category-scroll"
+        ref={scrollRef}
+        onScroll={(event) => setScrollTop(event.currentTarget.scrollTop)}
+      >
+        {useMobileTagRows ? null : (
+          <div className="virtual-table-header" role="row">
+            <Text color="gray" size="1" weight="medium">
+              English tag
+            </Text>
+            <Text color="gray" size="1" weight="medium">
+              日本語名
+            </Text>
+            <Text color="gray" size="1" weight="medium">
+              カテゴリ文脈
+            </Text>
+            <Text className="virtual-action-heading" color="gray" size="1" weight="medium">
+              操作
+            </Text>
+          </div>
+        )}
+        <div className="virtual-category-list" style={{ height: totalHeight }}>
+          <div className="virtual-category-window" style={{ transform: `translateY(${topOffset}px)` }}>
+            {visibleRows.map((row) =>
+              row.type === "section" ? (
+                <VirtualSectionRow
+                  depth={row.depth}
+                  key={row.id}
+                  name={row.name}
+                  tagCount={row.tagCount}
+                  useMobileTagRows={useMobileTagRows}
+                />
+              ) : useMobileTagRows ? (
+                <VirtualMobileTagRow
+                  copyValue={copyValue}
+                  key={row.id}
+                  onAdd={onAdd}
+                  onCopy={onCopy}
+                  tag={row.tag}
+                />
+              ) : (
+                <VirtualDesktopTagRow
+                  copyValue={copyValue}
+                  key={row.id}
+                  onAdd={onAdd}
+                  onCopy={onCopy}
+                  tag={row.tag}
+                />
+              ),
+            )}
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
 
-function TagTable({
-  tags,
+function flattenCategoryRows(sections: CategorySection[], depth = 0): VirtualCategoryRow[] {
+  return sections.flatMap((section) => {
+    const rows: VirtualCategoryRow[] = [
+      {
+        id: section.id,
+        type: "section",
+        depth,
+        name: section.name,
+        tagCount: section.tagCount,
+      },
+    ];
+
+    if (section.tags?.length) {
+      rows.push(...section.tags.map((tag) => ({ id: tag.id, type: "tag" as const, tag })));
+    }
+
+    if (section.children?.length) {
+      rows.push(...flattenCategoryRows(section.children, depth + 1));
+    }
+
+    return rows;
+  });
+}
+
+function VirtualSectionRow({
+  depth,
+  name,
+  tagCount,
+  useMobileTagRows,
+}: {
+  depth: number;
+  name: string;
+  tagCount: number;
+  useMobileTagRows: boolean;
+}) {
+  return (
+    <div
+      className={useMobileTagRows ? "virtual-section-row virtual-section-row-mobile" : "virtual-section-row"}
+      style={{ "--section-depth": depth } as CSSProperties}
+    >
+      <Text size={useMobileTagRows ? "2" : "1"} weight="medium">
+        {name}
+      </Text>
+      <Text color="gray" size="1">
+        {tagCount.toLocaleString()}
+      </Text>
+    </div>
+  );
+}
+
+function VirtualDesktopTagRow({
+  tag,
   onCopy,
   onAdd,
   copyValue,
-  useMobileTagRows,
 }: {
-  tags: TagEntry[];
+  tag: TagEntry;
   onCopy: (value: string) => void;
   onAdd: (tag: SelectedTag) => void;
   copyValue?: string;
-  useMobileTagRows: boolean;
 }) {
-  if (useMobileTagRows) {
-    return (
-      <MobileTagRows
-        rows={tags.map((tag) => ({
-          id: tag.id,
-          value: tag.en,
-          label: tag.ja,
-          context: tag.path.join(" / "),
-          selectedTag: { id: tag.id, label: tag.en, source: "tag" },
-        }))}
+  return (
+    <div className="virtual-tag-row" role="row">
+      <div>
+        <Code color="gray">{tag.en}</Code>
+      </div>
+      <Text size="2">{tag.ja}</Text>
+      <Text color="gray" size="1">
+        {tag.path.join(" / ")}
+      </Text>
+      <RowActions
+        value={tag.en}
+        selectedTag={{ id: tag.id, label: tag.en, source: "tag" }}
         onCopy={onCopy}
         onAdd={onAdd}
-        copyValue={copyValue}
+        copied={copyValue === tag.en}
       />
-    );
-  }
+    </div>
+  );
+}
 
+function VirtualMobileTagRow({
+  tag,
+  onCopy,
+  onAdd,
+  copyValue,
+}: {
+  tag: TagEntry;
+  onCopy: (value: string) => void;
+  onAdd: (tag: SelectedTag) => void;
+  copyValue?: string;
+}) {
   return (
-    <Table.Root size="1" variant="surface" className="tag-table">
-      <Table.Header>
-        <Table.Row>
-          <Table.ColumnHeaderCell>English tag</Table.ColumnHeaderCell>
-          <Table.ColumnHeaderCell>日本語名</Table.ColumnHeaderCell>
-          <Table.ColumnHeaderCell>カテゴリ文脈</Table.ColumnHeaderCell>
-          <Table.ColumnHeaderCell className="action-cell">操作</Table.ColumnHeaderCell>
-        </Table.Row>
-      </Table.Header>
-      <Table.Body>
-        {tags.map((tag) => (
-          <Table.Row key={tag.id}>
-            <Table.Cell>
-              <Code color="gray">{tag.en}</Code>
-            </Table.Cell>
-            <Table.Cell>{tag.ja}</Table.Cell>
-            <Table.Cell>
-              <Text color="gray" size="1">
-                {tag.path.join(" / ")}
-              </Text>
-            </Table.Cell>
-            <Table.Cell className="action-cell">
-              <RowActions
-                value={tag.en}
-                selectedTag={{ id: tag.id, label: tag.en, source: "tag" }}
-                onCopy={onCopy}
-                onAdd={onAdd}
-                copied={copyValue === tag.en}
-              />
-            </Table.Cell>
-          </Table.Row>
-        ))}
-      </Table.Body>
-    </Table.Root>
+    <div className="virtual-mobile-tag-row">
+      <div className="mobile-tag-main">
+        <Code color="gray">{tag.en}</Code>
+        <Text size="2">{tag.ja}</Text>
+        <Text color="gray" size="1">
+          {tag.path.join(" / ")}
+        </Text>
+      </div>
+      <RowActions
+        value={tag.en}
+        selectedTag={{ id: tag.id, label: tag.en, source: "tag" }}
+        onCopy={onCopy}
+        onAdd={onAdd}
+        copied={copyValue === tag.en}
+      />
+    </div>
   );
 }
 
