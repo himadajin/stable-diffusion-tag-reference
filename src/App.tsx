@@ -1,13 +1,11 @@
 import {
   Badge,
   Box,
-  Button,
   Code,
   Flex,
   Heading,
   IconButton,
   ScrollArea,
-  Separator,
   Table,
   Tabs,
   Text,
@@ -19,12 +17,8 @@ import {
   ClipboardCopyIcon,
   Cross2Icon,
   MagnifyingGlassIcon,
-  PlusIcon,
-  ResetIcon,
-  TrashIcon,
-  TriangleDownIcon,
-  TriangleUpIcon,
 } from "@radix-ui/react-icons";
+import { Heart } from "lucide-react";
 import type { CSSProperties } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { copyText } from "./lib/clipboard";
@@ -35,7 +29,6 @@ import type {
   CategorySection,
   CategorySummary,
   SearchEntry,
-  SelectedTag,
   TagEntry,
 } from "./types";
 
@@ -61,6 +54,8 @@ type VirtualCategoryRow =
 const DESKTOP_CATEGORY_ROW_HEIGHT = 36;
 const MOBILE_CATEGORY_ROW_HEIGHT = 74;
 const VIRTUAL_OVERSCAN_ROWS = 12;
+const FAVORITES_CATEGORY_ID = "favorites";
+const FAVORITES_STORAGE_KEY = "prompt-tag-viewer:favorites:v1";
 
 export function App() {
   const [categories, setCategories] = useState<CategorySummary[]>([]);
@@ -69,7 +64,7 @@ export function App() {
   const [query, setQuery] = useState("");
   const [searchResults, setSearchResults] = useState<SearchEntry[]>([]);
   const [isSearchLoading, setIsSearchLoading] = useState(false);
-  const [selectedTags, setSelectedTags] = useState<SelectedTag[]>([]);
+  const [favoriteIds, setFavoriteIds] = useState<Set<string>>(() => readFavoriteIds());
   const [copyState, setCopyState] = useState<CopyState | null>(null);
   const [mobileView, setMobileView] = useState("tags");
   const isMobileLayout = useMediaQuery("(max-width: 900px)");
@@ -88,13 +83,17 @@ export function App() {
     if (!activeCategoryId) return;
     let isCurrent = true;
     setCategoryData(null);
-    loadCategory(activeCategoryId).then((data) => {
+    const dataPromise =
+      activeCategoryId === FAVORITES_CATEGORY_ID
+        ? loadFavoritesCategory(categories, favoriteIds)
+        : loadCategory(activeCategoryId);
+    dataPromise.then((data) => {
       if (isCurrent) setCategoryData(data);
     });
     return () => {
       isCurrent = false;
     };
-  }, [activeCategoryId]);
+  }, [activeCategoryId, categories, favoriteIds]);
 
   useEffect(() => {
     if (!normalizeQuery(query)) {
@@ -123,40 +122,35 @@ export function App() {
   }, [copyState]);
 
   const isSearching = normalizeQuery(query).length > 0;
+  const sidebarCategories = useMemo(
+    () => [
+      {
+        id: FAVORITES_CATEGORY_ID,
+        name: "お気に入り",
+        file: "",
+        tagCount: favoriteIds.size,
+      },
+      ...categories,
+    ],
+    [categories, favoriteIds.size],
+  );
 
   async function copyValue(value: string, message = "コピーしました") {
     await copyText(value);
     setCopyState({ value, message });
   }
 
-  function addSelected(tag: SelectedTag) {
-    setSelectedTags((current) => {
-      if (current.some((item) => item.id === tag.id)) return current;
-      return [...current, tag];
-    });
-  }
-
-  function removeSelected(id: string) {
-    setSelectedTags((current) => current.filter((item) => item.id !== id));
-  }
-
-  function moveSelected(id: string, direction: -1 | 1) {
-    setSelectedTags((current) => {
-      const index = current.findIndex((item) => item.id === id);
-      const nextIndex = index + direction;
-      if (index < 0 || nextIndex < 0 || nextIndex >= current.length) return current;
-      const next = [...current];
-      [next[index], next[nextIndex]] = [next[nextIndex], next[index]];
+  function toggleFavorite(tag: TagEntry) {
+    setFavoriteIds((current) => {
+      const next = new Set(current);
+      if (next.has(tag.id)) {
+        next.delete(tag.id);
+      } else {
+        next.add(tag.id);
+      }
+      writeFavoriteIds(next);
       return next;
     });
-  }
-
-  async function copySelected() {
-    if (selectedTags.length === 0) return;
-    await copyValue(
-      selectedTags.map((item) => item.label).join(", "),
-      "選択タグをコピーしました",
-    );
   }
 
   function openCategory(categoryId: string) {
@@ -179,13 +173,12 @@ export function App() {
           <Tabs.List>
             <Tabs.Trigger value="categories">カテゴリ</Tabs.Trigger>
             <Tabs.Trigger value="tags">タグ</Tabs.Trigger>
-            <Tabs.Trigger value="selected">選択 ({selectedTags.length})</Tabs.Trigger>
           </Tabs.List>
           <Box pt="3">
             <Tabs.Content value="categories">
               {mobileView === "categories" ? (
                 <CategorySidebar
-                  categories={categories}
+                  categories={sidebarCategories}
                   activeCategoryId={activeCategoryId}
                   onSelect={openCategory}
                 />
@@ -196,27 +189,17 @@ export function App() {
                 <MainPanel
                   categoryData={categoryData}
                   copyState={copyState}
+                  favoriteIds={favoriteIds}
                   isSearching={isSearching}
                   isSearchLoading={isSearchLoading}
-                  onAdd={addSelected}
                   onCopy={copyValue}
                   onOpenCategory={openCategory}
                   onQueryChange={setQuery}
+                  onToggleFavorite={toggleFavorite}
                   query={query}
                   searchResults={searchResults}
                   showSearchHeader={false}
                   useMobileTagRows={useMobileTagRows}
-                />
-              ) : null}
-            </Tabs.Content>
-            <Tabs.Content value="selected">
-              {mobileView === "selected" ? (
-                <SelectionPanel
-                  selectedTags={selectedTags}
-                  onCopySelected={copySelected}
-                  onRemove={removeSelected}
-                  onMove={moveSelected}
-                  onClear={() => setSelectedTags([])}
                 />
               ) : null}
             </Tabs.Content>
@@ -231,30 +214,24 @@ export function App() {
     <div className="app-shell">
       <div className="desktop-layout">
         <CategorySidebar
-          categories={categories}
+          categories={sidebarCategories}
           activeCategoryId={activeCategoryId}
           onSelect={openCategory}
         />
         <MainPanel
           categoryData={categoryData}
           copyState={copyState}
+          favoriteIds={favoriteIds}
           isSearching={isSearching}
           isSearchLoading={isSearchLoading}
-          onAdd={addSelected}
           onCopy={copyValue}
           onOpenCategory={openCategory}
           onQueryChange={setQuery}
+          onToggleFavorite={toggleFavorite}
           query={query}
           searchResults={searchResults}
           showSearchHeader
           useMobileTagRows={false}
-        />
-        <SelectionPanel
-          selectedTags={selectedTags}
-          onCopySelected={copySelected}
-          onRemove={removeSelected}
-          onMove={moveSelected}
-          onClear={() => setSelectedTags([])}
         />
       </div>
     </div>
@@ -279,15 +256,65 @@ function useMediaQuery(query: string): boolean {
   return matches;
 }
 
+function readFavoriteIds(): Set<string> {
+  if (typeof window === "undefined") return new Set();
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(FAVORITES_STORAGE_KEY) ?? "[]");
+    if (!Array.isArray(parsed)) return new Set();
+    return new Set(parsed.filter((id): id is string => typeof id === "string"));
+  } catch {
+    return new Set();
+  }
+}
+
+function writeFavoriteIds(ids: Set<string>) {
+  window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify([...ids]));
+}
+
+async function loadFavoritesCategory(
+  categories: CategorySummary[],
+  favoriteIds: Set<string>,
+): Promise<CategoryData> {
+  if (favoriteIds.size === 0) {
+    return { id: FAVORITES_CATEGORY_ID, name: "お気に入り", tagCount: 0, sections: [] };
+  }
+
+  const sourceCategories = await Promise.all(categories.map((category) => loadCategory(category.id)));
+  const sections = sourceCategories
+    .map((category) => {
+      const tags = flattenCategoryRows(category.sections)
+        .filter((row): row is Extract<VirtualCategoryRow, { type: "tag" }> => row.type === "tag")
+        .map((row) => row.tag)
+        .filter((tag) => favoriteIds.has(tag.id));
+
+      return {
+        id: `favorites__${category.id}`,
+        name: category.name,
+        path: [category.name],
+        tagCount: tags.length,
+        tags,
+      };
+    })
+    .filter((section) => section.tagCount > 0);
+
+  return {
+    id: FAVORITES_CATEGORY_ID,
+    name: "お気に入り",
+    tagCount: sections.reduce((total, section) => total + section.tagCount, 0),
+    sections,
+  };
+}
+
 function MainPanel({
   categoryData,
   copyState,
+  favoriteIds,
   isSearching,
   isSearchLoading,
-  onAdd,
   onCopy,
   onOpenCategory,
   onQueryChange,
+  onToggleFavorite,
   query,
   searchResults,
   showSearchHeader,
@@ -295,12 +322,13 @@ function MainPanel({
 }: {
   categoryData: CategoryData | null;
   copyState: CopyState | null;
+  favoriteIds: Set<string>;
   isSearching: boolean;
   isSearchLoading: boolean;
-  onAdd: (tag: SelectedTag) => void;
   onCopy: (value: string) => void;
   onOpenCategory: (categoryId: string) => void;
   onQueryChange: (query: string) => void;
+  onToggleFavorite: (tag: TagEntry) => void;
   query: string;
   searchResults: SearchEntry[];
   showSearchHeader: boolean;
@@ -321,8 +349,9 @@ function MainPanel({
           results={searchResults}
           query={query}
           onCopy={onCopy}
-          onAdd={onAdd}
           onOpenCategory={onOpenCategory}
+          favoriteIds={favoriteIds}
+          onToggleFavorite={onToggleFavorite}
           copyValue={copyState?.value}
           useMobileTagRows={useMobileTagRows}
         />
@@ -330,7 +359,8 @@ function MainPanel({
         <CategoryView
           category={categoryData}
           onCopy={onCopy}
-          onAdd={onAdd}
+          favoriteIds={favoriteIds}
+          onToggleFavorite={onToggleFavorite}
           copyValue={copyState?.value}
           useMobileTagRows={useMobileTagRows}
         />
@@ -430,13 +460,15 @@ function SearchHeader({
 function CategoryView({
   category,
   onCopy,
-  onAdd,
+  favoriteIds,
+  onToggleFavorite,
   copyValue,
   useMobileTagRows,
 }: {
   category: CategoryData;
   onCopy: (value: string) => void;
-  onAdd: (tag: SelectedTag) => void;
+  favoriteIds: Set<string>;
+  onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
   useMobileTagRows: boolean;
 }) {
@@ -480,6 +512,11 @@ function CategoryView({
           </Badge>
         </Flex>
       </Box>
+      {category.id === FAVORITES_CATEGORY_ID && category.tagCount === 0 ? (
+        <Box px="5" py="4">
+          <Text color="gray">お気に入りに追加したタグはここに表示されます。</Text>
+        </Box>
+      ) : null}
       <div
         className="virtual-category-scroll"
         ref={scrollRef}
@@ -487,6 +524,9 @@ function CategoryView({
       >
         {useMobileTagRows ? null : (
           <div className="virtual-table-header" role="row">
+            <Text aria-hidden="true" color="gray" size="1">
+              {" "}
+            </Text>
             <Text color="gray" size="1" weight="medium">
               English tag
             </Text>
@@ -515,17 +555,19 @@ function CategoryView({
               ) : useMobileTagRows ? (
                 <VirtualMobileTagRow
                   copyValue={copyValue}
+                  favoriteIds={favoriteIds}
                   key={row.id}
-                  onAdd={onAdd}
                   onCopy={onCopy}
+                  onToggleFavorite={onToggleFavorite}
                   tag={row.tag}
                 />
               ) : (
                 <VirtualDesktopTagRow
                   copyValue={copyValue}
+                  favoriteIds={favoriteIds}
                   key={row.id}
-                  onAdd={onAdd}
                   onCopy={onCopy}
+                  onToggleFavorite={onToggleFavorite}
                   tag={row.tag}
                 />
               ),
@@ -590,16 +632,23 @@ function VirtualSectionRow({
 function VirtualDesktopTagRow({
   tag,
   onCopy,
-  onAdd,
+  favoriteIds,
+  onToggleFavorite,
   copyValue,
 }: {
   tag: TagEntry;
   onCopy: (value: string) => void;
-  onAdd: (tag: SelectedTag) => void;
+  favoriteIds: Set<string>;
+  onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
 }) {
   return (
     <div className="virtual-tag-row" role="row">
+      <FavoriteButton
+        isFavorite={favoriteIds.has(tag.id)}
+        tag={tag}
+        onToggleFavorite={onToggleFavorite}
+      />
       <div>
         <Code color="gray">{tag.en}</Code>
       </div>
@@ -609,9 +658,7 @@ function VirtualDesktopTagRow({
       </Text>
       <RowActions
         value={tag.en}
-        selectedTag={{ id: tag.id, label: tag.en, source: "tag" }}
         onCopy={onCopy}
-        onAdd={onAdd}
         copied={copyValue === tag.en}
       />
     </div>
@@ -621,16 +668,23 @@ function VirtualDesktopTagRow({
 function VirtualMobileTagRow({
   tag,
   onCopy,
-  onAdd,
+  favoriteIds,
+  onToggleFavorite,
   copyValue,
 }: {
   tag: TagEntry;
   onCopy: (value: string) => void;
-  onAdd: (tag: SelectedTag) => void;
+  favoriteIds: Set<string>;
+  onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
 }) {
   return (
     <div className="virtual-mobile-tag-row">
+      <FavoriteButton
+        isFavorite={favoriteIds.has(tag.id)}
+        tag={tag}
+        onToggleFavorite={onToggleFavorite}
+      />
       <div className="mobile-tag-main">
         <Code color="gray">{tag.en}</Code>
         <Text size="2">{tag.ja}</Text>
@@ -640,9 +694,7 @@ function VirtualMobileTagRow({
       </div>
       <RowActions
         value={tag.en}
-        selectedTag={{ id: tag.id, label: tag.en, source: "tag" }}
         onCopy={onCopy}
-        onAdd={onAdd}
         copied={copyValue === tag.en}
       />
     </div>
@@ -653,16 +705,18 @@ function SearchResults({
   results,
   query,
   onCopy,
-  onAdd,
   onOpenCategory,
+  favoriteIds,
+  onToggleFavorite,
   copyValue,
   useMobileTagRows,
 }: {
   results: SearchEntry[];
   query: string;
   onCopy: (value: string) => void;
-  onAdd: (tag: SelectedTag) => void;
   onOpenCategory: (categoryId: string) => void;
+  favoriteIds: Set<string>;
+  onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
   useMobileTagRows: boolean;
 }) {
@@ -683,25 +737,27 @@ function SearchResults({
               const value = entryCopyValue(entry);
               return {
                 id: entry.id,
+                entry,
                 value,
                 label: entry.type === "tag" ? entry.ja : `自由入力候補 / ${entry.count.toLocaleString()}`,
                 context:
                   entry.type === "tag"
                     ? `${entry.categoryName} / ${entry.path.join(" / ")}`
                     : "自由入力候補",
-                selectedTag: { id: entry.id, label: value, source: entry.type },
                 categoryId: entry.type === "tag" ? entry.categoryId : undefined,
               };
             })}
             onCopy={onCopy}
-            onAdd={onAdd}
+            favoriteIds={favoriteIds}
             onOpenCategory={onOpenCategory}
+            onToggleFavorite={onToggleFavorite}
             copyValue={copyValue}
           />
         ) : (
             <Table.Root size="1" variant="surface" className="tag-table">
             <Table.Header>
               <Table.Row>
+                <Table.ColumnHeaderCell className="favorite-cell"></Table.ColumnHeaderCell>
                 <Table.ColumnHeaderCell>English tag</Table.ColumnHeaderCell>
                 <Table.ColumnHeaderCell>日本語名 / 出典</Table.ColumnHeaderCell>
                 <Table.ColumnHeaderCell>カテゴリ文脈</Table.ColumnHeaderCell>
@@ -713,6 +769,15 @@ function SearchResults({
                 const value = entryCopyValue(entry);
                 return (
                   <Table.Row key={entry.id}>
+                    <Table.Cell className="favorite-cell">
+                      {entry.type === "tag" ? (
+                        <FavoriteButton
+                          isFavorite={favoriteIds.has(entry.id)}
+                          tag={entry}
+                          onToggleFavorite={onToggleFavorite}
+                        />
+                      ) : null}
+                    </Table.Cell>
                     <Table.Cell>
                       <Code color="gray">{value}</Code>
                     </Table.Cell>
@@ -741,13 +806,7 @@ function SearchResults({
                     <Table.Cell className="action-cell">
                       <RowActions
                         value={value}
-                        selectedTag={{
-                          id: entry.id,
-                          label: value,
-                          source: entry.type,
-                        }}
                         onCopy={onCopy}
-                        onAdd={onAdd}
                         copied={copyValue === value}
                       />
                     </Table.Cell>
@@ -765,27 +824,38 @@ function SearchResults({
 function MobileTagRows({
   rows,
   onCopy,
-  onAdd,
+  favoriteIds,
   onOpenCategory,
+  onToggleFavorite,
   copyValue,
 }: {
   rows: Array<{
     id: string;
+    entry: SearchEntry;
     value: string;
     label: string;
     context: string;
-    selectedTag: SelectedTag;
     categoryId?: string;
   }>;
   onCopy: (value: string) => void;
-  onAdd: (tag: SelectedTag) => void;
+  favoriteIds: Set<string>;
   onOpenCategory?: (categoryId: string) => void;
+  onToggleFavorite: (tag: TagEntry) => void;
   copyValue?: string;
 }) {
   return (
     <div className="mobile-tag-list" aria-label="モバイルタグ一覧">
       {rows.map((row) => (
         <div className="mobile-tag-row" key={row.id}>
+          {row.entry.type === "tag" ? (
+            <FavoriteButton
+              isFavorite={favoriteIds.has(row.entry.id)}
+              tag={row.entry}
+              onToggleFavorite={onToggleFavorite}
+            />
+          ) : (
+            <span aria-hidden="true" />
+          )}
           <div className="mobile-tag-main">
             <Code color="gray">{row.value}</Code>
             <Text size="2">{row.label}</Text>
@@ -801,9 +871,7 @@ function MobileTagRows({
           </div>
           <RowActions
             value={row.value}
-            selectedTag={row.selectedTag}
             onCopy={onCopy}
-            onAdd={onAdd}
             copied={copyValue === row.value}
           />
         </div>
@@ -814,15 +882,11 @@ function MobileTagRows({
 
 function RowActions({
   value,
-  selectedTag,
   onCopy,
-  onAdd,
   copied,
 }: {
   value: string;
-  selectedTag: SelectedTag;
   onCopy: (value: string) => void;
-  onAdd: (tag: SelectedTag) => void;
   copied: boolean;
 }) {
   return (
@@ -832,116 +896,31 @@ function RowActions({
           {copied ? <CheckIcon /> : <ClipboardCopyIcon />}
         </IconButton>
       </Tooltip>
-      <Tooltip content="一時選択リストに追加">
-        <IconButton
-          aria-label={`${value} を選択リストに追加`}
-          color="gray"
-          size="1"
-          variant="soft"
-          onClick={() => onAdd(selectedTag)}
-        >
-          <PlusIcon />
-        </IconButton>
-      </Tooltip>
     </Flex>
   );
 }
 
-function SelectionPanel({
-  selectedTags,
-  onCopySelected,
-  onRemove,
-  onMove,
-  onClear,
+function FavoriteButton({
+  isFavorite,
+  tag,
+  onToggleFavorite,
 }: {
-  selectedTags: SelectedTag[];
-  onCopySelected: () => void;
-  onRemove: (id: string) => void;
-  onMove: (id: string, direction: -1 | 1) => void;
-  onClear: () => void;
+  isFavorite: boolean;
+  tag: TagEntry;
+  onToggleFavorite: (tag: TagEntry) => void;
 }) {
   return (
-    <aside className="selection-panel" aria-label="一時選択リスト">
-      <Flex align="baseline" justify="between" px="4" py="3">
-        <Heading size="3">Selected</Heading>
-        <Badge variant="soft" color="gray">
-          {selectedTags.length}
-        </Badge>
-      </Flex>
-      <Separator size="4" />
-      <Flex gap="2" px="4" py="3">
-        <Button size="2" disabled={selectedTags.length === 0} onClick={onCopySelected}>
-          <ClipboardCopyIcon />
-          まとめてコピー
-        </Button>
-        <Tooltip content="選択をクリア">
-          <IconButton
-            aria-label="選択をクリア"
-            color="gray"
-            disabled={selectedTags.length === 0}
-            onClick={onClear}
-            variant="soft"
-          >
-            <ResetIcon />
-          </IconButton>
-        </Tooltip>
-      </Flex>
-      <ScrollArea className="selection-scroll" scrollbars="vertical">
-        {selectedTags.length === 0 ? (
-          <Box px="4" py="3">
-            <Text color="gray" size="2">
-              タグ行の追加ボタンから、まとめてコピーするタグを一時的に集められます。
-            </Text>
-          </Box>
-        ) : (
-          <Flex direction="column" gap="1" px="2" pb="3">
-            {selectedTags.map((tag, index) => (
-              <Flex align="center" className="selected-row" gap="2" key={tag.id}>
-                <Code className="selected-code" color="gray">
-                  {tag.label}
-                </Code>
-                <Flex gap="1" ml="auto">
-                  <Tooltip content="上へ移動">
-                    <IconButton
-                      aria-label={`${tag.label} を上へ移動`}
-                      color="gray"
-                      disabled={index === 0}
-                      size="1"
-                      variant="ghost"
-                      onClick={() => onMove(tag.id, -1)}
-                    >
-                      <TriangleUpIcon />
-                    </IconButton>
-                  </Tooltip>
-                  <Tooltip content="下へ移動">
-                    <IconButton
-                      aria-label={`${tag.label} を下へ移動`}
-                      color="gray"
-                      disabled={index === selectedTags.length - 1}
-                      size="1"
-                      variant="ghost"
-                      onClick={() => onMove(tag.id, 1)}
-                    >
-                      <TriangleDownIcon />
-                    </IconButton>
-                  </Tooltip>
-                  <Tooltip content="削除">
-                    <IconButton
-                      aria-label={`${tag.label} を削除`}
-                      color="gray"
-                      size="1"
-                      variant="ghost"
-                      onClick={() => onRemove(tag.id)}
-                    >
-                      <TrashIcon />
-                    </IconButton>
-                  </Tooltip>
-                </Flex>
-              </Flex>
-            ))}
-          </Flex>
-        )}
-      </ScrollArea>
-    </aside>
+    <Tooltip content={isFavorite ? "お気に入りから削除" : "お気に入りに追加"}>
+      <IconButton
+        aria-label={`${tag.en} を${isFavorite ? "お気に入りから削除" : "お気に入りに追加"}`}
+        className="favorite-button"
+        color={isFavorite ? "indigo" : "gray"}
+        size="1"
+        variant={isFavorite ? "soft" : "ghost"}
+        onClick={() => onToggleFavorite(tag)}
+      >
+        <Heart aria-hidden="true" fill={isFavorite ? "currentColor" : "none"} size={14} strokeWidth={2} />
+      </IconButton>
+    </Tooltip>
   );
 }

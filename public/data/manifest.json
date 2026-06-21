@@ -2,12 +2,6 @@
   "version": 1,
   "categories": [
     {
-      "id": "my-tags",
-      "name": "Myタグ",
-      "file": "categories/my-tags.json",
-      "tagCount": 0
-    },
-    {
       "id": "quality",
       "name": "品質",
       "file": "categories/quality.json",

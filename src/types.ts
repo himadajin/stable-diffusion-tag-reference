@@ -65,9 +65,3 @@ export type SearchChunk = {
   id: string;
   entries: SearchEntry[];
 };
-
-export type SelectedTag = {
-  id: string;
-  label: string;
-  source: "tag" | "free";
-};
