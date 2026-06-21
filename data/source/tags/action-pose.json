@@ -1,0 +1,4058 @@
+{
+  "id": "action-pose",
+  "name": "動作・姿勢",
+  "tree": {
+    "ジェスチャー": {
+      "自分への接触": [
+        {
+          "en": "adjusting eyewear",
+          "ja": "眼鏡の調整"
+        },
+        {
+          "en": "hand on own ear",
+          "ja": "自分の耳に手を当てる"
+        },
+        {
+          "en": "hand on own head",
+          "ja": "自分の頭に手を当てる"
+        },
+        {
+          "en": "hand on own face",
+          "ja": "自分の顔に手を当てる"
+        },
+        {
+          "en": "hand on own forehead",
+          "ja": "自分の額に手を当てる"
+        },
+        {
+          "en": "hand on own cheek",
+          "ja": "自分の頬に手を当てる"
+        },
+        {
+          "en": "hand on own chin",
+          "ja": "自分の顎に手を当てる"
+        },
+        {
+          "en": "head rest",
+          "ja": "ヘッドレスト"
+        },
+        {
+          "en": "hand on own neck",
+          "ja": "自分の首に手を当てる"
+        },
+        {
+          "en": "hand on own chest",
+          "ja": "自分の胸に手を当てる"
+        },
+        {
+          "en": "hand on own shoulder",
+          "ja": "自分の肩に手を当てる"
+        },
+        {
+          "en": "hand on own stomach",
+          "ja": "自分のお腹に手を当てる"
+        },
+        {
+          "en": "hand on own arm",
+          "ja": "自分の腕に手を当てる"
+        },
+        {
+          "en": "hand on own elbow",
+          "ja": "自分の肘に手を当てる"
+        },
+        {
+          "en": "hand on own hip",
+          "ja": "自分の腰に手を当てる"
+        },
+        {
+          "en": "hands on own hips",
+          "ja": "自分の腰に手を当てる"
+        },
+        {
+          "en": "hand on own leg",
+          "ja": "自分の足に手を当てる"
+        },
+        {
+          "en": "hands on own legs",
+          "ja": "自分の足に手を当てる"
+        },
+        {
+          "en": "hand on own thigh",
+          "ja": "自分の太ももに手を置く"
+        },
+        {
+          "en": "hands on own thighs",
+          "ja": "自分の太ももに手を当てる"
+        },
+        {
+          "en": "hand on own knee",
+          "ja": "自分の膝に手を当てる"
+        },
+        {
+          "en": "hands on own knees",
+          "ja": "自分の膝に手を置く"
+        },
+        {
+          "en": "hand on own foot",
+          "ja": "自分の足に手を当てる"
+        },
+        {
+          "en": "hands on own feet",
+          "ja": "自分の足に手を当てる"
+        }
+      ],
+      "他者への接触": [
+        {
+          "en": "hand on another's waist",
+          "ja": "他人の腰に手を当てる"
+        },
+        {
+          "en": "hands on another's waist",
+          "ja": "他人の腰に手を当てる"
+        },
+        {
+          "en": "hand on another's hip",
+          "ja": "他人の腰に手を当てる"
+        },
+        {
+          "en": "hands on another's hips",
+          "ja": "相手の腰に手を置く"
+        },
+        {
+          "en": "hand on another's leg",
+          "ja": "他人の足に手を置く"
+        },
+        {
+          "en": "hands on another's leg",
+          "ja": "他人の足に手を置く"
+        },
+        {
+          "en": "hand on another's thigh",
+          "ja": "他人の太ももに手を置く"
+        },
+        {
+          "en": "hands on another's thighs",
+          "ja": "相手の太ももに手を置く"
+        },
+        {
+          "en": "hand on another's knee",
+          "ja": "他人の膝に手を置く"
+        },
+        {
+          "en": "hands on another's knees",
+          "ja": "相手の膝に手を置く"
+        },
+        {
+          "en": "hand on another's foot",
+          "ja": "他人の足に手を置く"
+        },
+        {
+          "en": "hands on feet",
+          "ja": "足に手を当てる"
+        },
+        {
+          "en": "hand on another's hand",
+          "ja": "他人の手に手を重ねる"
+        },
+        {
+          "en": "adjusting another's hair",
+          "ja": "他人の髪を整える"
+        },
+        {
+          "en": "hand on another's ear",
+          "ja": "他人の耳に手を当てる"
+        },
+        {
+          "en": "hand on another's head",
+          "ja": "他人の頭に手を置く"
+        },
+        {
+          "en": "headpat",
+          "ja": "頭を撫でる"
+        },
+        {
+          "en": "hand on another's face",
+          "ja": "他人の顔に手を当てる"
+        },
+        {
+          "en": "hand on another's cheek",
+          "ja": "他人の頬に手を当てる"
+        },
+        {
+          "en": "cheek pinch",
+          "ja": "頬をつねる"
+        },
+        {
+          "en": "cheek poking",
+          "ja": "頬を突く"
+        },
+        {
+          "en": "cheek squash",
+          "ja": "頬スカッシュ"
+        },
+        {
+          "en": "hand on another's chin",
+          "ja": "他人の顎に手を置く"
+        },
+        {
+          "en": "hand on another's neck",
+          "ja": "他人の首に手を当てる"
+        },
+        {
+          "en": "strangling",
+          "ja": "絞殺"
+        },
+        {
+          "en": "arm around shoulder",
+          "ja": "肩に腕を回す"
+        },
+        {
+          "en": "hand on another's arm",
+          "ja": "他人の腕に手を置く"
+        },
+        {
+          "en": "hand on another's back",
+          "ja": "他人の背中に手を置く"
+        },
+        {
+          "en": "patting back",
+          "ja": "軽くたたく"
+        },
+        {
+          "en": "hand on another's chest",
+          "ja": "他人の胸に手を置く"
+        },
+        {
+          "en": "hand on another's shoulder",
+          "ja": "他人の肩に手を置く"
+        },
+        {
+          "en": "hand on another's stomach",
+          "ja": "他人のお腹に手を当てる"
+        }
+      ],
+      "手のポーズ・位置": [
+        {
+          "en": "hand on headwear",
+          "ja": "帽子に手を当てる"
+        },
+        {
+          "en": "hand in pocket",
+          "ja": "ポケットに手を入れる"
+        },
+        {
+          "en": "hands in pockets",
+          "ja": "ポケットに手を入れて"
+        }
+      ],
+      "holding系": [
+        {
+          "en": "holding book",
+          "ja": "本を持っている"
+        },
+        {
+          "en": "holding bowl",
+          "ja": "ボウルを持つ"
+        },
+        {
+          "en": "holding card",
+          "ja": "カードを持っている"
+        },
+        {
+          "en": "holding condom",
+          "ja": "コンドームを持っている"
+        },
+        {
+          "en": "holding fishing rod",
+          "ja": "釣り竿を持っている"
+        },
+        {
+          "en": "holding flower",
+          "ja": "花を持つ"
+        },
+        {
+          "en": "holding gift",
+          "ja": "贈り物を持っている"
+        },
+        {
+          "en": "holding hammer",
+          "ja": "ハンマーを持っている"
+        },
+        {
+          "en": "holding phone",
+          "ja": "携帯電話を持っている"
+        },
+        {
+          "en": "holding poke ball",
+          "ja": "ポケボールを持っている"
+        },
+        {
+          "en": "holding weapon",
+          "ja": "武器を持っている"
+        },
+        {
+          "en": "holding tissue",
+          "ja": "組織を保持する"
+        },
+        {
+          "en": "holding candy cane",
+          "ja": "キャンディケインを持っている"
+        },
+        {
+          "en": "holding fruit",
+          "ja": "果物を持っている"
+        },
+        {
+          "en": "holding lollipop",
+          "ja": "ロリポップを持っている"
+        },
+        {
+          "en": "holding pizza",
+          "ja": "ピザを持っている"
+        },
+        {
+          "en": "holding pumpkin",
+          "ja": "カボチャを持っている"
+        },
+        {
+          "en": "holding boots",
+          "ja": "ブーツを持っている"
+        },
+        {
+          "en": "holding bra",
+          "ja": "ブラジャーを持つ"
+        },
+        {
+          "en": "holding removed eyewear",
+          "ja": "外した眼鏡を持っている"
+        },
+        {
+          "en": "holding unworn hat",
+          "ja": "かぶっていない帽子を持っている"
+        },
+        {
+          "en": "holding panties",
+          "ja": "パンティーを持つ"
+        },
+        {
+          "en": "holding sandals",
+          "ja": "サンダルを持っている"
+        },
+        {
+          "en": "holding shoes",
+          "ja": "靴を持っている"
+        },
+        {
+          "en": "holding unworn skirt",
+          "ja": "未使用のスカートを持っている"
+        },
+        {
+          "en": "holding fork",
+          "ja": "フォークを持つ"
+        },
+        {
+          "en": "holding knife",
+          "ja": "ナイフを持っている"
+        },
+        {
+          "en": "holding ladle",
+          "ja": "おたまを持つ"
+        },
+        {
+          "en": "holding rolling pin",
+          "ja": "麺棒を持つ"
+        },
+        {
+          "en": "holding spoon",
+          "ja": "スプーンを持つ"
+        },
+        {
+          "en": "holding bone",
+          "ja": "骨を握る"
+        },
+        {
+          "en": "holding another's hair",
+          "ja": "他人の髪を掴む"
+        },
+        {
+          "en": "holding own hair",
+          "ja": "自分の髪を掴む"
+        },
+        {
+          "en": "holding hands",
+          "ja": "手をつないで"
+        },
+        {
+          "en": "holding another's tail",
+          "ja": "他人の尻尾をつかむ"
+        },
+        {
+          "en": "holding own tail",
+          "ja": "自分の尻尾をつかむ"
+        }
+      ],
+      "両手": [
+        {
+          "en": "air quotes",
+          "ja": "空気引用符"
+        },
+        {
+          "en": "carry me",
+          "ja": "私を運んで"
+        },
+        {
+          "en": "circle hands",
+          "ja": "サークルハンド"
+        },
+        {
+          "en": "clenched hands",
+          "ja": "握りしめた手"
+        },
+        {
+          "en": "cupping hands",
+          "ja": "両手をカップ状にする"
+        },
+        {
+          "en": "double finger gun",
+          "ja": "ダブルフィンガーガン"
+        },
+        {
+          "en": "double thumbs down",
+          "ja": "二重の親指を下へ"
+        },
+        {
+          "en": "double thumbs up",
+          "ja": "ダブルサムズアップ"
+        },
+        {
+          "en": "double v",
+          "ja": "ダブルV"
+        },
+        {
+          "en": "fidgeting",
+          "ja": "そわそわする"
+        },
+        {
+          "en": "finger counting",
+          "ja": "指で数える"
+        },
+        {
+          "en": "finger frame",
+          "ja": "指フレーム"
+        },
+        {
+          "en": "fist bump",
+          "ja": "拳を突き合わせる"
+        },
+        {
+          "en": "fist in hand",
+          "ja": "拳を手に"
+        },
+        {
+          "en": "groping motion",
+          "ja": "手探り動作"
+        },
+        {
+          "en": "hand glasses",
+          "ja": "ハンドグラス"
+        },
+        {
+          "en": "heart arms",
+          "ja": "ハートの腕"
+        },
+        {
+          "en": "heart hands",
+          "ja": "ハートの手"
+        },
+        {
+          "en": "heart hands duo",
+          "ja": "ハートの手デュオ"
+        },
+        {
+          "en": "heart hands trio",
+          "ja": "ハートハンズトリオ"
+        },
+        {
+          "en": "heart hands quartet",
+          "ja": "ハートハンズカルテット"
+        },
+        {
+          "en": "high five",
+          "ja": "ハイタッチ"
+        },
+        {
+          "en": "horns pose",
+          "ja": "角のポーズ"
+        },
+        {
+          "en": "kitsune no mado",
+          "ja": "きつねの窓"
+        },
+        {
+          "en": "noogie",
+          "ja": "ヌーギー"
+        },
+        {
+          "en": "own hands clasped",
+          "ja": "自分の手を握りしめて"
+        },
+        {
+          "en": "palm-fist greeting",
+          "ja": "拳を合わせた挨拶"
+        },
+        {
+          "en": "palm-fist tap",
+          "ja": "手のひらと拳でタップ"
+        },
+        {
+          "en": "pinky swear",
+          "ja": "小指を立てて誓う"
+        },
+        {
+          "en": "rabbit pose",
+          "ja": "ウサギのポーズ"
+        },
+        {
+          "en": "shadow puppet",
+          "ja": "影絵人形"
+        },
+        {
+          "en": "steepled fingers",
+          "ja": "尖った指"
+        },
+        {
+          "en": "tsuki ni kawatte oshioki yo",
+          "ja": "月にかわっておしおきよ"
+        },
+        {
+          "en": "x arms",
+          "ja": "x腕"
+        },
+        {
+          "en": "x fingers",
+          "ja": "x本の指"
+        }
+      ],
+      "片手": [
+        {
+          "en": "akanbe",
+          "ja": "あかんべ"
+        },
+        {
+          "en": "beckoning",
+          "ja": "手招き"
+        },
+        {
+          "en": "twirling hair",
+          "ja": "くるくる回る髪"
+        },
+        {
+          "en": "index finger raised",
+          "ja": "人差し指を立てた"
+        },
+        {
+          "en": "middle finger",
+          "ja": "中指"
+        },
+        {
+          "en": "pinky out",
+          "ja": "小指を立てる"
+        },
+        {
+          "en": "pointing",
+          "ja": "ポインティング"
+        },
+        {
+          "en": "pointing at another",
+          "ja": "他の人を指差す"
+        },
+        {
+          "en": "pointing at self",
+          "ja": "自分を指差す"
+        },
+        {
+          "en": "pointing at viewer",
+          "ja": "視聴者を指差して"
+        },
+        {
+          "en": "pointing spider-man (meme)",
+          "ja": "指さしスパイダーマン（ミーム）"
+        },
+        {
+          "en": "pointing down",
+          "ja": "下を指して"
+        },
+        {
+          "en": "pointing forward",
+          "ja": "前を指して"
+        },
+        {
+          "en": "pointing up",
+          "ja": "上を向いて"
+        },
+        {
+          "en": "kamina pose",
+          "ja": "カミナポーズ"
+        },
+        {
+          "en": "saturday night fever",
+          "ja": "サタデーナイトフィーバー"
+        },
+        {
+          "en": "shushing",
+          "ja": "シーッ"
+        },
+        {
+          "en": "slit throat (gesture)",
+          "ja": "喉を切り裂く（ジェスチャー）"
+        },
+        {
+          "en": "thumbs down",
+          "ja": "親指を下に向けて"
+        },
+        {
+          "en": "thumbs up",
+          "ja": "いいぞ"
+        },
+        {
+          "en": "\\n/",
+          "ja": "\\n/"
+        },
+        {
+          "en": "crossed fingers",
+          "ja": "指を交差させて"
+        },
+        {
+          "en": "finger gun",
+          "ja": "指銃"
+        },
+        {
+          "en": "finger heart",
+          "ja": "指ハート"
+        },
+        {
+          "en": "fox shadow puppet",
+          "ja": "キツネの影絵"
+        },
+        {
+          "en": "shaka sign",
+          "ja": "シャカサイン"
+        },
+        {
+          "en": "two-finger salute",
+          "ja": "二本指の敬礼"
+        },
+        {
+          "en": "l hand",
+          "ja": "左手"
+        },
+        {
+          "en": "v",
+          "ja": "v"
+        },
+        {
+          "en": "gyaru v",
+          "ja": "ギャルv"
+        },
+        {
+          "en": "inward v",
+          "ja": "内向きのV"
+        },
+        {
+          "en": "v over eye",
+          "ja": "目の上のv"
+        },
+        {
+          "en": "v over mouth",
+          "ja": "口の上のv"
+        },
+        {
+          "en": "\\m/",
+          "ja": "\\m/"
+        },
+        {
+          "en": "middle w",
+          "ja": "真ん中のw"
+        },
+        {
+          "en": "money gesture",
+          "ja": "お金のジェスチャー"
+        },
+        {
+          "en": "ok sign",
+          "ja": "OKサイン"
+        },
+        {
+          "en": "pinching gesture",
+          "ja": "つまむジェスチャー"
+        },
+        {
+          "en": "w",
+          "ja": "わ"
+        },
+        {
+          "en": "number four (asl)",
+          "ja": "数字の4（ASL）"
+        },
+        {
+          "en": "\\||/",
+          "ja": "\\||/"
+        },
+        {
+          "en": "\\|||/",
+          "ja": "\\|||/"
+        },
+        {
+          "en": "claw pose",
+          "ja": "爪のポーズ"
+        },
+        {
+          "en": "facepalm",
+          "ja": "顔面を手で覆う"
+        },
+        {
+          "en": "ohikaenasutte",
+          "ja": "おひかえなすって"
+        },
+        {
+          "en": "open hand",
+          "ja": "開いた手"
+        },
+        {
+          "en": "reaching",
+          "ja": "到達"
+        },
+        {
+          "en": "salute",
+          "ja": "敬礼"
+        },
+        {
+          "en": "spread fingers",
+          "ja": "指を広げる"
+        },
+        {
+          "en": "stop (gesture)",
+          "ja": "止まれ（ジェスチャー）"
+        },
+        {
+          "en": "straight-arm salute",
+          "ja": "まっすぐな敬礼"
+        },
+        {
+          "en": "vulcan salute",
+          "ja": "バルカンの敬礼"
+        },
+        {
+          "en": "waving",
+          "ja": "手を振る"
+        },
+        {
+          "en": "clenched hand",
+          "ja": "握りしめた手"
+        },
+        {
+          "en": "curled fingers",
+          "ja": "曲がった指"
+        },
+        {
+          "en": "dojikko pose",
+          "ja": "どじっこポーズ"
+        },
+        {
+          "en": "fig sign",
+          "ja": "イチジクの記号"
+        },
+        {
+          "en": "paw pose",
+          "ja": "前足のポーズ"
+        },
+        {
+          "en": "power fist",
+          "ja": "パワーフィスト"
+        },
+        {
+          "en": "raised fist",
+          "ja": "拳を上げた"
+        },
+        {
+          "en": "che vuoi?",
+          "ja": "チェ・ヴォイ？"
+        },
+        {
+          "en": "hat tip",
+          "ja": "帽子のヒント"
+        },
+        {
+          "en": "stroking own chin",
+          "ja": "自分の顎を撫でる"
+        }
+      ],
+      "その他": [
+        {
+          "en": "air guitar",
+          "ja": "エアギター"
+        },
+        {
+          "en": "bowing",
+          "ja": "お辞儀"
+        },
+        {
+          "en": "curtsey",
+          "ja": "お辞儀"
+        },
+        {
+          "en": "distress hand signal",
+          "ja": "遭難手信号"
+        },
+        {
+          "en": "kuji-in",
+          "ja": "九字印"
+        },
+        {
+          "en": "orchid fingers",
+          "ja": "蘭の指"
+        },
+        {
+          "en": "shrugging",
+          "ja": "肩をすくめる"
+        },
+        {
+          "en": "victory pose",
+          "ja": "勝利ポーズ"
+        },
+        {
+          "en": "holding with gesture",
+          "ja": "ジェスチャーで持つ"
+        }
+      ],
+      "NSFW": [
+        {
+          "en": "breast hold",
+          "ja": "胸抱き"
+        },
+        {
+          "en": "grabbing own breast",
+          "ja": "自分の胸をつかむ"
+        },
+        {
+          "en": "grabbing another's breast",
+          "ja": "他人の胸をつかむ"
+        },
+        {
+          "en": "flat chest grab",
+          "ja": "フラットチェストグラブ"
+        },
+        {
+          "en": "guided breast grab",
+          "ja": "誘導胸掴み"
+        },
+        {
+          "en": "breast lift",
+          "ja": "乳房リフト"
+        },
+        {
+          "en": "breast poke",
+          "ja": "胸突き"
+        },
+        {
+          "en": "breasts squeezed together",
+          "ja": "胸を寄せ合う"
+        },
+        {
+          "en": "breast suppress",
+          "ja": "胸の抑制"
+        },
+        {
+          "en": "groping",
+          "ja": "模索"
+        },
+        {
+          "en": "arm between breasts",
+          "ja": "胸の間に腕を置く"
+        },
+        {
+          "en": "hand in bra",
+          "ja": "ブラジャーの中に手を入れる"
+        },
+        {
+          "en": "nipple tweak",
+          "ja": "乳首をつまむ"
+        },
+        {
+          "en": "hand on own crotch",
+          "ja": "自分の股間に手を当てる"
+        },
+        {
+          "en": "hand on another's crotch",
+          "ja": "他人の股間に手を当てる"
+        },
+        {
+          "en": "hands on own crotch",
+          "ja": "自分の股間に手を当てる"
+        },
+        {
+          "en": "hands on another's crotch",
+          "ja": "他人の股間に手を当てる"
+        },
+        {
+          "en": "hand on own ass",
+          "ja": "自分のお尻に手を当てる"
+        },
+        {
+          "en": "hand on another's ass",
+          "ja": "他人の尻に手をやる"
+        },
+        {
+          "en": "hand between legs",
+          "ja": "脚の間に手を置く"
+        },
+        {
+          "en": "penetration gesture",
+          "ja": "挿入ジェスチャー"
+        },
+        {
+          "en": "cunnilingus gesture",
+          "ja": "クンニリングスのジェスチャー"
+        },
+        {
+          "en": "fellatio gesture",
+          "ja": "フェラチオのジェスチャー"
+        },
+        {
+          "en": "handjob gesture",
+          "ja": "手コキのジェスチャー"
+        },
+        {
+          "en": "oral invitation",
+          "ja": "口頭での招待"
+        },
+        {
+          "en": "oral simulation",
+          "ja": "口頭シミュレーション"
+        },
+        {
+          "en": "shocker (gesture)",
+          "ja": "ショッカー（ジェスチャー）"
+        }
+      ]
+    },
+    "姿勢・ポーズ": {
+      "座り": [
+        {
+          "en": "sitting",
+          "ja": "座っている"
+        },
+        {
+          "en": "sitting backwards",
+          "ja": "後ろ向きに座る"
+        },
+        {
+          "en": "sitting sideways",
+          "ja": "横向きに座る"
+        },
+        {
+          "en": "seiza",
+          "ja": "正座"
+        },
+        {
+          "en": "wariza",
+          "ja": "割座"
+        },
+        {
+          "en": "yokozuwari",
+          "ja": "横づわり"
+        },
+        {
+          "en": "lotus position",
+          "ja": "蓮華座"
+        },
+        {
+          "en": "butterfly sitting",
+          "ja": "蝶が座っている"
+        },
+        {
+          "en": "figure four sitting",
+          "ja": "四の字座り"
+        },
+        {
+          "en": "indian style",
+          "ja": "インド風"
+        },
+        {
+          "en": "sitting on throne",
+          "ja": "玉座に座っている"
+        },
+        {
+          "en": "sitting in tree",
+          "ja": "木に座っている"
+        },
+        {
+          "en": "sitting on object",
+          "ja": "物体に座る"
+        },
+        {
+          "en": "sitting on box",
+          "ja": "箱に座っている"
+        },
+        {
+          "en": "sitting on ball",
+          "ja": "ボールに座る"
+        },
+        {
+          "en": "sitting on stairs",
+          "ja": "階段に座っている"
+        }
+      ],
+      "立ち": [
+        {
+          "en": "kneeling",
+          "ja": "ひざまずく"
+        },
+        {
+          "en": "on one knee",
+          "ja": "片膝をついて"
+        },
+        {
+          "en": "standing",
+          "ja": "立っている"
+        },
+        {
+          "en": "fighting stance",
+          "ja": "戦闘姿勢"
+        },
+        {
+          "en": "squatting",
+          "ja": "しゃがむ"
+        },
+        {
+          "en": "contrapposto",
+          "ja": "コントラポスト"
+        },
+        {
+          "en": "invisible chair",
+          "ja": "見えない椅子"
+        },
+        {
+          "en": "body bridge",
+          "ja": "ボディブリッジ"
+        },
+        {
+          "en": "cowering",
+          "ja": "身をすくめる"
+        },
+        {
+          "en": "prostration",
+          "ja": "衰弱"
+        },
+        {
+          "en": "standing on bed",
+          "ja": "ベッドの上に立っている"
+        },
+        {
+          "en": "standing on chair",
+          "ja": "椅子の上に立つ"
+        },
+        {
+          "en": "standing on desk",
+          "ja": "机の上に立っている"
+        },
+        {
+          "en": "standing on roof",
+          "ja": "屋根の上に立つ"
+        }
+      ],
+      "寝転び": [
+        {
+          "en": "lying",
+          "ja": "嘘をつく"
+        },
+        {
+          "en": "fetal position",
+          "ja": "胎児の姿勢"
+        },
+        {
+          "en": "reclining",
+          "ja": "リクライニング"
+        }
+      ],
+      "on系": [
+        {
+          "en": "on floor",
+          "ja": "床の上"
+        },
+        {
+          "en": "on ground",
+          "ja": "地上で"
+        },
+        {
+          "en": "on bench",
+          "ja": "ベンチで"
+        },
+        {
+          "en": "on couch",
+          "ja": "ソファで"
+        },
+        {
+          "en": "on chair",
+          "ja": "椅子の上"
+        },
+        {
+          "en": "on desk",
+          "ja": "机の上"
+        },
+        {
+          "en": "on railing",
+          "ja": "手すりの上"
+        },
+        {
+          "en": "on stomach",
+          "ja": "お腹の上"
+        },
+        {
+          "en": "on side",
+          "ja": "横に"
+        },
+        {
+          "en": "on back",
+          "ja": "背中に"
+        },
+        {
+          "en": "on bed",
+          "ja": "ベッドの上"
+        },
+        {
+          "en": "on boat",
+          "ja": "ボートに乗って"
+        },
+        {
+          "en": "on bus",
+          "ja": "バスに乗って"
+        },
+        {
+          "en": "on car",
+          "ja": "車に"
+        },
+        {
+          "en": "on motorcycle",
+          "ja": "バイクに乗って"
+        },
+        {
+          "en": "on train",
+          "ja": "電車の中で"
+        },
+        {
+          "en": "on truck",
+          "ja": "トラックに乗って"
+        },
+        {
+          "en": "on van",
+          "ja": "バンに乗って"
+        },
+        {
+          "en": "on roof",
+          "ja": "屋根の上"
+        },
+        {
+          "en": "on table",
+          "ja": "テーブルの上"
+        },
+        {
+          "en": "on umbrella",
+          "ja": "傘の上"
+        },
+        {
+          "en": "on flower",
+          "ja": "花の上"
+        },
+        {
+          "en": "on grass",
+          "ja": "芝生の上"
+        },
+        {
+          "en": "on weapon",
+          "ja": "武器について"
+        },
+        {
+          "en": "on person",
+          "ja": "人に対して"
+        },
+        {
+          "en": "on head",
+          "ja": "頭の上"
+        },
+        {
+          "en": "on animal",
+          "ja": "動物について"
+        },
+        {
+          "en": "on lap",
+          "ja": "膝の上"
+        }
+      ],
+      "against系": [
+        {
+          "en": "against bed",
+          "ja": "ベッドに寄りかかって"
+        },
+        {
+          "en": "against chair",
+          "ja": "椅子に対して"
+        },
+        {
+          "en": "against desk",
+          "ja": "机に向かって"
+        }
+      ],
+      "頭・首": [
+        {
+          "en": "head rest",
+          "ja": "ヘッドレスト"
+        },
+        {
+          "en": "head down",
+          "ja": "頭を下げる"
+        },
+        {
+          "en": "head tilt",
+          "ja": "頭を傾ける"
+        },
+        {
+          "en": "head back",
+          "ja": "頭を後ろに"
+        }
+      ],
+      "腕・手": [
+        {
+          "en": "hugging tail",
+          "ja": "抱きしめる尻尾"
+        },
+        {
+          "en": "hugging object",
+          "ja": "抱きしめる物体"
+        },
+        {
+          "en": "shrugging",
+          "ja": "肩をすくめる"
+        },
+        {
+          "en": "interlocked fingers",
+          "ja": "絡み合った指"
+        },
+        {
+          "en": "own hands clasped",
+          "ja": "自分の手を握りしめて"
+        },
+        {
+          "en": "own hands together",
+          "ja": "自らの手で"
+        },
+        {
+          "en": "outstretched hand",
+          "ja": "差し出された手"
+        },
+        {
+          "en": "arm support",
+          "ja": "アームサポート"
+        },
+        {
+          "en": "arm behind back",
+          "ja": "腕を背中の後ろに回す"
+        },
+        {
+          "en": "arms behind back",
+          "ja": "腕を背中の後ろで組む"
+        },
+        {
+          "en": "arm up",
+          "ja": "腕を上げる"
+        },
+        {
+          "en": "arm behind head",
+          "ja": "腕を頭の後ろに回す"
+        },
+        {
+          "en": "arms up",
+          "ja": "腕を上げる"
+        },
+        {
+          "en": "arms behind head",
+          "ja": "腕を頭の後ろに回す"
+        },
+        {
+          "en": "outstretched arm",
+          "ja": "伸ばした腕"
+        },
+        {
+          "en": "outstretched arms",
+          "ja": "伸ばした腕"
+        },
+        {
+          "en": "spread arms",
+          "ja": "腕を広げる"
+        },
+        {
+          "en": "arm at side",
+          "ja": "腕を横に伸ばす"
+        },
+        {
+          "en": "arms at sides",
+          "ja": "両腕を横に伸ばす"
+        },
+        {
+          "en": "airplane arms",
+          "ja": "飛行機の武器"
+        },
+        {
+          "en": "crossed arms",
+          "ja": "腕を組んだ"
+        },
+        {
+          "en": "flexing",
+          "ja": "屈曲"
+        }
+      ],
+      "脚": [
+        {
+          "en": "knees to chest",
+          "ja": "膝を胸につける"
+        },
+        {
+          "en": "knees apart feet together",
+          "ja": "膝を広げ、足を揃える"
+        },
+        {
+          "en": "split",
+          "ja": "スプリット"
+        },
+        {
+          "en": "standing split",
+          "ja": "スタンディングスプリット"
+        },
+        {
+          "en": "crossed legs",
+          "ja": "足を組む"
+        },
+        {
+          "en": "standing on one leg",
+          "ja": "片足で立つ"
+        },
+        {
+          "en": "hugging own legs",
+          "ja": "自分の足を抱きしめる"
+        },
+        {
+          "en": "crossed ankles",
+          "ja": "足首を組む"
+        },
+        {
+          "en": "folded",
+          "ja": "折り畳まれた"
+        },
+        {
+          "en": "leg up",
+          "ja": "足を上げる"
+        },
+        {
+          "en": "legs up",
+          "ja": "足を上げる"
+        },
+        {
+          "en": "leg lift",
+          "ja": "脚上げ"
+        },
+        {
+          "en": "outstretched leg",
+          "ja": "伸ばした足"
+        },
+        {
+          "en": "knees together feet apart",
+          "ja": "膝を合わせて足を広げる"
+        },
+        {
+          "en": "knee up",
+          "ja": "膝を上げる"
+        },
+        {
+          "en": "knees up",
+          "ja": "膝を上げる"
+        },
+        {
+          "en": "pigeon-toed",
+          "ja": "内股"
+        },
+        {
+          "en": "tiptoes",
+          "ja": "つま先立ち"
+        },
+        {
+          "en": "pigeon pose",
+          "ja": "鳩のポーズ"
+        },
+        {
+          "en": "tiptoe kiss",
+          "ja": "つま先キス"
+        },
+        {
+          "en": "captain morgan pose",
+          "ja": "キャプテン・モーガンのポーズ"
+        },
+        {
+          "en": "watson cross",
+          "ja": "ワトソン・クロス"
+        },
+        {
+          "en": "bowlegged pose",
+          "ja": "O脚のポーズ"
+        },
+        {
+          "en": "dorsiflexion",
+          "ja": "背屈"
+        },
+        {
+          "en": "plantar flexion",
+          "ja": "足底屈曲"
+        }
+      ],
+      "腰・胴体": [
+        {
+          "en": "twisted torso",
+          "ja": "ねじれた胴体"
+        },
+        {
+          "en": "bent back",
+          "ja": "背中を曲げた"
+        },
+        {
+          "en": "leaning back",
+          "ja": "後ろに寄りかかる"
+        },
+        {
+          "en": "leaning forward",
+          "ja": "前かがみになる"
+        },
+        {
+          "en": "slouching",
+          "ja": "猫背"
+        },
+        {
+          "en": "arched back",
+          "ja": "背中を反らした"
+        },
+        {
+          "en": "sway back",
+          "ja": "後ろに反る"
+        }
+      ],
+      "動き": [
+        {
+          "en": "balancing",
+          "ja": "バランスをとる"
+        },
+        {
+          "en": "crawling",
+          "ja": "這う"
+        },
+        {
+          "en": "idle animation",
+          "ja": "アイドルアニメーション"
+        },
+        {
+          "en": "midair",
+          "ja": "中空"
+        },
+        {
+          "en": "falling",
+          "ja": "落ちる"
+        },
+        {
+          "en": "floating",
+          "ja": "フローティング"
+        },
+        {
+          "en": "flying",
+          "ja": "フライング"
+        },
+        {
+          "en": "jumping",
+          "ja": "ジャンプ"
+        },
+        {
+          "en": "hopping",
+          "ja": "ホッピング"
+        },
+        {
+          "en": "pouncing",
+          "ja": "飛びかかる"
+        },
+        {
+          "en": "running",
+          "ja": "ランニング"
+        },
+        {
+          "en": "walking",
+          "ja": "歩く"
+        },
+        {
+          "en": "walk cycle",
+          "ja": "ウォーキングサイクル"
+        },
+        {
+          "en": "wallwalking",
+          "ja": "壁歩き"
+        },
+        {
+          "en": "upside-down",
+          "ja": "逆さまに"
+        },
+        {
+          "en": "handstand",
+          "ja": "逆立ち"
+        },
+        {
+          "en": "headstand",
+          "ja": "逆立ち"
+        },
+        {
+          "en": "stroking own chin",
+          "ja": "自分の顎を撫でる"
+        },
+        {
+          "en": "reaching",
+          "ja": "到達"
+        },
+        {
+          "en": "stretching",
+          "ja": "ストレッチ"
+        },
+        {
+          "en": "faceplant",
+          "ja": "顔面落下"
+        }
+      ],
+      "ポーズ": [
+        {
+          "en": "rabbit pose",
+          "ja": "ウサギのポーズ"
+        },
+        {
+          "en": "horns pose",
+          "ja": "角のポーズ"
+        },
+        {
+          "en": "paw pose",
+          "ja": "前足のポーズ"
+        },
+        {
+          "en": "claw pose",
+          "ja": "爪のポーズ"
+        },
+        {
+          "en": "archer pose",
+          "ja": "アーチャーポーズ"
+        },
+        {
+          "en": "dojikko pose",
+          "ja": "どじっこポーズ"
+        },
+        {
+          "en": "ghost pose",
+          "ja": "ゴーストポーズ"
+        },
+        {
+          "en": "ojou-sama pose",
+          "ja": "お嬢様ポーズ"
+        },
+        {
+          "en": "saboten pose",
+          "ja": "サボテンポーズ"
+        },
+        {
+          "en": "symmetrical hand pose",
+          "ja": "対称的な手のポーズ"
+        },
+        {
+          "en": "victory pose",
+          "ja": "勝利ポーズ"
+        },
+        {
+          "en": "villain pose",
+          "ja": "悪役ポーズ"
+        },
+        {
+          "en": "zombie pose",
+          "ja": "ゾンビポーズ"
+        },
+        {
+          "en": "superhero landing",
+          "ja": "スーパーヒーロー着陸"
+        },
+        {
+          "en": "ruppelbend",
+          "ja": "ルッペルベンド"
+        },
+        {
+          "en": "quadfold",
+          "ja": "四つ折り"
+        },
+        {
+          "en": "scorpion pose",
+          "ja": "蠍座のポーズ"
+        },
+        {
+          "en": "full scorpion",
+          "ja": "完全なサソリ"
+        },
+        {
+          "en": "yoga",
+          "ja": "ヨガ"
+        },
+        {
+          "en": "triplefold",
+          "ja": "三つ折り"
+        },
+        {
+          "en": "bras d’honneur",
+          "ja": "ブラス・ドヌール"
+        },
+        {
+          "en": "battoujutsu stance",
+          "ja": "抜刀術の構え"
+        },
+        {
+          "en": "letter pose",
+          "ja": "文字のポーズ"
+        },
+        {
+          "en": "praise the sun",
+          "ja": "太陽を賛美する"
+        },
+        {
+          "en": "v",
+          "ja": "v"
+        },
+        {
+          "en": "w arms",
+          "ja": "腕"
+        },
+        {
+          "en": "t-pose",
+          "ja": "Tポーズ"
+        },
+        {
+          "en": "a-pose",
+          "ja": "Aポーズ"
+        },
+        {
+          "en": "\\o/",
+          "ja": "\\o/"
+        },
+        {
+          "en": "star hands",
+          "ja": "スターハンズ"
+        },
+        {
+          "en": "v arms",
+          "ja": "vアームズ"
+        },
+        {
+          "en": "chest stand",
+          "ja": "チェストスタンド"
+        },
+        {
+          "en": "chest stand handstand",
+          "ja": "チェストスタンド逆立ち"
+        }
+      ],
+      "版権ポーズ": [
+        {
+          "en": "inugami-ke no ichizoku pose",
+          "ja": "犬神家の一族のポーズ"
+        },
+        {
+          "en": "gendou pose",
+          "ja": "ゲンドウのポーズ"
+        },
+        {
+          "en": "jojo pose",
+          "ja": "ジョジョポーズ"
+        },
+        {
+          "en": "dio brando’s pose",
+          "ja": "ディオ・ブランドのポーズ"
+        },
+        {
+          "en": "giorno giovanna’s pose",
+          "ja": "ジョルノ・ジョヴァンナのポーズ"
+        },
+        {
+          "en": "jonathan joestar’s pose",
+          "ja": "ジョナサン・ジョースターのポーズ"
+        },
+        {
+          "en": "kujo jotaro’s pose",
+          "ja": "空条承太郎のポーズ"
+        },
+        {
+          "en": "kongou pose",
+          "ja": "金剛ポーズ"
+        },
+        {
+          "en": "kujou karen pose",
+          "ja": "九条カレンポーズ"
+        }
+      ],
+      "関係ポーズ": [
+        {
+          "en": "back-to-back",
+          "ja": "連続して"
+        },
+        {
+          "en": "belly-to-belly",
+          "ja": "腹を合わせて"
+        },
+        {
+          "en": "cheek-to-cheek",
+          "ja": "頬を合わせる"
+        },
+        {
+          "en": "eye contact",
+          "ja": "アイコンタクト"
+        },
+        {
+          "en": "face-to-face",
+          "ja": "対面"
+        },
+        {
+          "en": "forehead-to-forehead",
+          "ja": "額から額まで"
+        },
+        {
+          "en": "head on chest",
+          "ja": "頭を胸につける"
+        },
+        {
+          "en": "heads together",
+          "ja": "頭を合わせて"
+        },
+        {
+          "en": "holding hands",
+          "ja": "手をつないで"
+        },
+        {
+          "en": "locked arms",
+          "ja": "腕を組んだ"
+        },
+        {
+          "en": "noses touching",
+          "ja": "鼻が触れ合う"
+        },
+        {
+          "en": "shoulder-to-shoulder",
+          "ja": "肩を並べて"
+        },
+        {
+          "en": "tail lock",
+          "ja": "テールロック"
+        },
+        {
+          "en": "group hug",
+          "ja": "グループハグ"
+        },
+        {
+          "en": "hug",
+          "ja": "ハグ"
+        },
+        {
+          "en": "arm hug",
+          "ja": "腕を組む"
+        },
+        {
+          "en": "hug from behind",
+          "ja": "後ろから抱きしめる"
+        },
+        {
+          "en": "waist hug",
+          "ja": "ウエストハグ"
+        },
+        {
+          "en": "standing on shoulder",
+          "ja": "肩の上に立つ"
+        },
+        {
+          "en": "baby carry",
+          "ja": "ベビーキャリー"
+        },
+        {
+          "en": "carrying",
+          "ja": "運ぶ"
+        },
+        {
+          "en": "carrying over shoulder",
+          "ja": "肩にかけて運ぶ"
+        },
+        {
+          "en": "carrying under arm",
+          "ja": "脇に抱えて運ぶ"
+        },
+        {
+          "en": "child carry",
+          "ja": "チャイルドキャリー"
+        },
+        {
+          "en": "fireman’s carry",
+          "ja": "消防士の担ぎ"
+        },
+        {
+          "en": "piggyback",
+          "ja": "ピギーバック"
+        },
+        {
+          "en": "princess carry",
+          "ja": "プリンセスキャリー"
+        },
+        {
+          "en": "shoulder carry",
+          "ja": "肩掛け"
+        },
+        {
+          "en": "crucifixion",
+          "ja": "十字架刑"
+        },
+        {
+          "en": "sitting on shoulder",
+          "ja": "肩に座る"
+        },
+        {
+          "en": "sitting on person",
+          "ja": "人の上に座っている"
+        },
+        {
+          "en": "sitting on lap",
+          "ja": "膝の上に座っている"
+        },
+        {
+          "en": "circle formation",
+          "ja": "円陣"
+        },
+        {
+          "en": "wing hug",
+          "ja": "ウィングハグ"
+        },
+        {
+          "en": "sitting on head",
+          "ja": "頭の上に座っている"
+        },
+        {
+          "en": "human chair",
+          "ja": "人間椅子"
+        }
+      ],
+      "ダンス": [
+        {
+          "en": "arabesque (pose)",
+          "ja": "アラベスク（ポーズ）"
+        },
+        {
+          "en": "body roll",
+          "ja": "ボディロール"
+        },
+        {
+          "en": "dabbing",
+          "ja": "ダビング"
+        },
+        {
+          "en": "flossing",
+          "ja": "フロス"
+        },
+        {
+          "en": "griddy",
+          "ja": "グリッディ"
+        },
+        {
+          "en": "moonwalk",
+          "ja": "ムーンウォーク"
+        },
+        {
+          "en": "nae nae",
+          "ja": "なあなあ"
+        },
+        {
+          "en": "the monkey",
+          "ja": "猿"
+        },
+        {
+          "en": "twerking",
+          "ja": "トゥワーク"
+        },
+        {
+          "en": "whip",
+          "ja": "ホイップ"
+        },
+        {
+          "en": "worm",
+          "ja": "ワーム"
+        },
+        {
+          "en": "dip (dance move)",
+          "ja": "ディップ（ダンスの動き）"
+        },
+        {
+          "en": "algorithm march",
+          "ja": "アルゴリズムの行進"
+        },
+        {
+          "en": "choo choo train",
+          "ja": "機関車"
+        },
+        {
+          "en": "circle dance",
+          "ja": "サークルダンス"
+        },
+        {
+          "en": "awa odori tokushima",
+          "ja": "阿波おどり 徳島"
+        },
+        {
+          "en": "ballet",
+          "ja": "バレエ"
+        },
+        {
+          "en": "belly dancing",
+          "ja": "ベリーダンス"
+        },
+        {
+          "en": "breakdancing",
+          "ja": "ブレイクダンス"
+        },
+        {
+          "en": "cancan",
+          "ja": "カンカン"
+        },
+        {
+          "en": "cossack dance",
+          "ja": "コサックダンス"
+        },
+        {
+          "en": "dunhuang dancing",
+          "ja": "敦煌ダンス"
+        },
+        {
+          "en": "flamenco",
+          "ja": "フラメンコ"
+        },
+        {
+          "en": "folk dancing",
+          "ja": "フォークダンス"
+        },
+        {
+          "en": "gato",
+          "ja": "ガト"
+        },
+        {
+          "en": "hula",
+          "ja": "フラ"
+        },
+        {
+          "en": "lap dance",
+          "ja": "ラップダンス"
+        },
+        {
+          "en": "para para",
+          "ja": "パラパラ"
+        },
+        {
+          "en": "pole dancing",
+          "ja": "ポールダンス"
+        },
+        {
+          "en": "samba",
+          "ja": "サンバ"
+        },
+        {
+          "en": "tango",
+          "ja": "タンゴ"
+        },
+        {
+          "en": "tap dancing",
+          "ja": "タップダンス"
+        },
+        {
+          "en": "taue odori",
+          "ja": "田上踊り"
+        },
+        {
+          "en": "waltz",
+          "ja": "ワルツ"
+        },
+        {
+          "en": "wotagei",
+          "ja": "ヲタ芸"
+        },
+        {
+          "en": "yosakoi",
+          "ja": "よさこい"
+        },
+        {
+          "en": "dance robot dance",
+          "ja": "ダンスロボットダンス"
+        },
+        {
+          "en": "easy breezy",
+          "ja": "気楽な"
+        },
+        {
+          "en": "hanamaru sensation",
+          "ja": "はなまるセンセーション"
+        },
+        {
+          "en": "hare hare yukai",
+          "ja": "ハレハレユカイ"
+        },
+        {
+          "en": "hoshino ruby dance",
+          "ja": "星野ルビーダンス"
+        },
+        {
+          "en": "icchae popotan",
+          "ja": "イッチェポポタン"
+        },
+        {
+          "en": "internet overdose",
+          "ja": "インターネットの過剰摂取"
+        },
+        {
+          "en": "internet yamero",
+          "ja": "インターネットやめろ"
+        },
+        {
+          "en": "kill me dance",
+          "ja": "キルミーダンス"
+        },
+        {
+          "en": "love&joy",
+          "ja": "愛と喜び"
+        },
+        {
+          "en": "macarena",
+          "ja": "マカレナ"
+        },
+        {
+          "en": "mesmerizer",
+          "ja": "魅惑的な"
+        },
+        {
+          "en": "motteke! serafuku",
+          "ja": "もってけ！セラフク"
+        },
+        {
+          "en": "oddloop",
+          "ja": "奇妙なループ"
+        },
+        {
+          "en": "roulette roulette",
+          "ja": "ルーレット ルーレット"
+        },
+        {
+          "en": "shukusei!! loli-kami requiem",
+          "ja": "シュクセイ!!ロリカミレクイエム"
+        },
+        {
+          "en": "soran bushi",
+          "ja": "ソーラン節"
+        },
+        {
+          "en": "sugar song and bitter step",
+          "ja": "シュガーソングとビターステップ"
+        },
+        {
+          "en": "turing love",
+          "ja": "チューリングラブ"
+        },
+        {
+          "en": "ugoku ugoku",
+          "ja": "うごくうごく"
+        },
+        {
+          "en": "anglerfish dance",
+          "ja": "アンコウのダンス"
+        },
+        {
+          "en": "aris dance",
+          "ja": "アリスダンス"
+        },
+        {
+          "en": "basilisk time",
+          "ja": "バジリスクの時間"
+        },
+        {
+          "en": "brazil dog dance",
+          "ja": "ブラジルの犬のダンス"
+        },
+        {
+          "en": "buri hamachi",
+          "ja": "ブリハマチ"
+        },
+        {
+          "en": "caipirinha",
+          "ja": "カイピリーニャ"
+        },
+        {
+          "en": "caipirinha dears dance",
+          "ja": "カイピリーニャ・ディアーズ・ダンス"
+        },
+        {
+          "en": "caramelldansen",
+          "ja": "キャラメルダンセン"
+        },
+        {
+          "en": "carson shearer's dance",
+          "ja": "カーソン・シアラーのダンス"
+        },
+        {
+          "en": "cat breakdancing",
+          "ja": "猫のブレイクダンス"
+        },
+        {
+          "en": "chads dancing to california gurls",
+          "ja": "カリフォルニア・ガールズに合わせて踊るチャドたち"
+        },
+        {
+          "en": "chipi chipi chapa chapa",
+          "ja": "チピチピチャパチャパ"
+        },
+        {
+          "en": "club penguin dance",
+          "ja": "クラブペンギンダンス"
+        },
+        {
+          "en": "dancing kasukabe tsumugi",
+          "ja": "踊る春日部つむぎ"
+        },
+        {
+          "en": "dancing pallbearers",
+          "ja": "踊る棺担ぎ"
+        },
+        {
+          "en": "dancing toothless",
+          "ja": "歯のないダンス"
+        },
+        {
+          "en": "daten route",
+          "ja": "データルート"
+        },
+        {
+          "en": "default fortnite dance",
+          "ja": "デフォルトのフォートナイトダンス"
+        },
+        {
+          "en": "distraction dance",
+          "ja": "気をそらすダンス"
+        },
+        {
+          "en": "donbei dance",
+          "ja": "どん兵衛ダンス"
+        },
+        {
+          "en": "fukkireta",
+          "ja": "ふっ切れた"
+        },
+        {
+          "en": "gangnam style",
+          "ja": "江南スタイル"
+        },
+        {
+          "en": "get down",
+          "ja": "降りる"
+        },
+        {
+          "en": "hamster dance",
+          "ja": "ハムスターダンス"
+        },
+        {
+          "en": "helltaker dance",
+          "ja": "ヘルテイカーダンス"
+        },
+        {
+          "en": "kitsune dance",
+          "ja": "キツネダンス"
+        },
+        {
+          "en": "koi dance",
+          "ja": "鯉の舞"
+        },
+        {
+          "en": "nyan-nyan dance",
+          "ja": "ニャンニャンダンス"
+        },
+        {
+          "en": "maitake dance",
+          "ja": "舞茸ダンス"
+        },
+        {
+          "en": "marcille breakdance",
+          "ja": "マルシル・ブレイクダンス"
+        },
+        {
+          "en": "me!me!me! dance",
+          "ja": "私！私！私！ダンス"
+        },
+        {
+          "en": "mochi mochi dance",
+          "ja": "もちもちダンス"
+        },
+        {
+          "en": "nekonyan dance",
+          "ja": "ネコニャンダンス"
+        },
+        {
+          "en": "no one's around to help",
+          "ja": "助けてくれる人は誰もいない"
+        },
+        {
+          "en": "numa numa",
+          "ja": "沼沼"
+        },
+        {
+          "en": "orange justice",
+          "ja": "オレンジの正義"
+        },
+        {
+          "en": "paffendorf",
+          "ja": "パフェンドルフ"
+        },
+        {
+          "en": "pen-pineapple-apple-pen",
+          "ja": "ペン、パイナップル、アップル、ペン"
+        },
+        {
+          "en": "pokedance",
+          "ja": "ポケダンス"
+        },
+        {
+          "en": "pumpkin dance",
+          "ja": "カボチャダンス"
+        },
+        {
+          "en": "ran ran ru",
+          "ja": "ランランル"
+        },
+        {
+          "en": "raccoon dancing in a circle",
+          "ja": "輪になって踊るアライグマ"
+        },
+        {
+          "en": "rin stripper dance",
+          "ja": "リン・ストリッパー・ダンス"
+        },
+        {
+          "en": "sad cat dance",
+          "ja": "悲しい猫のダンス"
+        },
+        {
+          "en": "shikairo days dance",
+          "ja": "四海郎デイズダンス"
+        },
+        {
+          "en": "shoot dance",
+          "ja": "ダンスを撮影する"
+        },
+        {
+          "en": "soda shake",
+          "ja": "ソーダシェイク"
+        },
+        {
+          "en": "spooky dance",
+          "ja": "不気味なダンス"
+        },
+        {
+          "en": "toca toca toca dance",
+          "ja": "トカトカトカダンス"
+        },
+        {
+          "en": "torture dance",
+          "ja": "拷問ダンス"
+        },
+        {
+          "en": "zui zui dance",
+          "ja": "ズイズイダンス"
+        }
+      ],
+      "その他": [
+        {
+          "en": "umbrella riding",
+          "ja": "傘に乗る"
+        },
+        {
+          "en": "broom riding",
+          "ja": "ほうきに乗る"
+        },
+        {
+          "en": "broom surfing",
+          "ja": "ほうきサーフィン"
+        },
+        {
+          "en": "in umbrella",
+          "ja": "傘の中で"
+        }
+      ]
+    },
+    "動詞・動名詞": {
+      "動詞": [
+        {
+          "en": "aiming",
+          "ja": "目指す"
+        },
+        {
+          "en": "aiming at viewer",
+          "ja": "視聴者を狙う"
+        },
+        {
+          "en": "animal milking",
+          "ja": "動物の搾乳"
+        },
+        {
+          "en": "apologizing",
+          "ja": "謝罪する"
+        },
+        {
+          "en": "applying makeup",
+          "ja": "化粧をする"
+        },
+        {
+          "en": "balancing",
+          "ja": "バランスをとる"
+        },
+        {
+          "en": "bathing",
+          "ja": "入浴"
+        },
+        {
+          "en": "beckoning",
+          "ja": "手招き"
+        },
+        {
+          "en": "begging",
+          "ja": "物乞い"
+        },
+        {
+          "en": "biting",
+          "ja": "噛む"
+        },
+        {
+          "en": "biting ass",
+          "ja": "尻を噛む"
+        },
+        {
+          "en": "biting another's tail",
+          "ja": "他人の尻尾を噛む"
+        },
+        {
+          "en": "mutual tail biting",
+          "ja": "互いに尻尾を噛む"
+        },
+        {
+          "en": "biting own tail",
+          "ja": "自分の尻尾を噛む"
+        },
+        {
+          "en": "breast biting",
+          "ja": "胸を噛む"
+        },
+        {
+          "en": "biting cheek",
+          "ja": "頬を噛む"
+        },
+        {
+          "en": "biting ear",
+          "ja": "耳を噛む"
+        },
+        {
+          "en": "biting finger",
+          "ja": "噛む指"
+        },
+        {
+          "en": "biting foreskin",
+          "ja": "包皮を噛む"
+        },
+        {
+          "en": "biting glove",
+          "ja": "噛みつき手袋"
+        },
+        {
+          "en": "biting another's hand",
+          "ja": "他人の手を噛む"
+        },
+        {
+          "en": "biting head",
+          "ja": "頭を噛む"
+        },
+        {
+          "en": "biting own lip",
+          "ja": "自分の唇を噛む"
+        },
+        {
+          "en": "nail biting",
+          "ja": "爪を噛む"
+        },
+        {
+          "en": "biting own thumb",
+          "ja": "自分の親指を噛む"
+        },
+        {
+          "en": "blinking",
+          "ja": "点滅"
+        },
+        {
+          "en": "blocking",
+          "ja": "ブロッキング"
+        },
+        {
+          "en": "bouncing",
+          "ja": "跳ねる"
+        },
+        {
+          "en": "bouncing breasts",
+          "ja": "揺れる胸"
+        },
+        {
+          "en": "bowing",
+          "ja": "お辞儀"
+        },
+        {
+          "en": "breaking",
+          "ja": "破壊する"
+        },
+        {
+          "en": "breastfeeding",
+          "ja": "母乳育児"
+        },
+        {
+          "en": "breathing",
+          "ja": "呼吸"
+        },
+        {
+          "en": "heavy breathing",
+          "ja": "激しい呼吸"
+        },
+        {
+          "en": "blowing bubbles",
+          "ja": "シャボン玉を吹く"
+        },
+        {
+          "en": "bumping",
+          "ja": "ぶつかる"
+        },
+        {
+          "en": "carrying",
+          "ja": "運ぶ"
+        },
+        {
+          "en": "catching",
+          "ja": "キャッチ"
+        },
+        {
+          "en": "chasing",
+          "ja": "追いかける"
+        },
+        {
+          "en": "cheering",
+          "ja": "歓声"
+        },
+        {
+          "en": "stroking own chin",
+          "ja": "自分の顎を撫でる"
+        },
+        {
+          "en": "cleaning",
+          "ja": "クリーニング"
+        },
+        {
+          "en": "dishwashing",
+          "ja": "食器洗い"
+        },
+        {
+          "en": "sweeping",
+          "ja": "掃除する"
+        },
+        {
+          "en": "climbing",
+          "ja": "クライミング"
+        },
+        {
+          "en": "comforting",
+          "ja": "慰めとなる"
+        },
+        {
+          "en": "concentrating",
+          "ja": "集中する"
+        },
+        {
+          "en": "cooking",
+          "ja": "料理"
+        },
+        {
+          "en": "baking",
+          "ja": "ベーキング"
+        },
+        {
+          "en": "chocolate making",
+          "ja": "チョコレート作り"
+        },
+        {
+          "en": "roasting",
+          "ja": "焙煎"
+        },
+        {
+          "en": "stirring",
+          "ja": "撹拌"
+        },
+        {
+          "en": "coughing",
+          "ja": "咳をする"
+        },
+        {
+          "en": "covering privates",
+          "ja": "プライベートをカバーする"
+        },
+        {
+          "en": "cowering",
+          "ja": "身をすくめる"
+        },
+        {
+          "en": "crawling",
+          "ja": "這う"
+        },
+        {
+          "en": "crushing",
+          "ja": "粉砕"
+        },
+        {
+          "en": "crying",
+          "ja": "泣いている"
+        },
+        {
+          "en": "sobbing",
+          "ja": "すすり泣く"
+        },
+        {
+          "en": "cuddling",
+          "ja": "抱き合う"
+        },
+        {
+          "en": "cupping",
+          "ja": "カッピング"
+        },
+        {
+          "en": "cutting",
+          "ja": "切断"
+        },
+        {
+          "en": "wrist cutting",
+          "ja": "リストカット"
+        },
+        {
+          "en": "dancing",
+          "ja": "ダンシング"
+        },
+        {
+          "en": "pole dancing",
+          "ja": "ポールダンス"
+        },
+        {
+          "en": "digging",
+          "ja": "掘る"
+        },
+        {
+          "en": "diving",
+          "ja": "ダイビング"
+        },
+        {
+          "en": "dodging",
+          "ja": "回避"
+        },
+        {
+          "en": "dragging",
+          "ja": "ドラッグ"
+        },
+        {
+          "en": "dreaming",
+          "ja": "夢"
+        },
+        {
+          "en": "dressing",
+          "ja": "ドレッシング"
+        },
+        {
+          "en": "forced dressing",
+          "ja": "強制的なドレッシング"
+        },
+        {
+          "en": "undressing",
+          "ja": "脱衣"
+        },
+        {
+          "en": "drinking",
+          "ja": "飲酒"
+        },
+        {
+          "en": "dripping",
+          "ja": "滴る"
+        },
+        {
+          "en": "driving",
+          "ja": "運転"
+        },
+        {
+          "en": "drooling",
+          "ja": "よだれを垂らす"
+        },
+        {
+          "en": "dropping",
+          "ja": "落下"
+        },
+        {
+          "en": "drying",
+          "ja": "乾燥"
+        },
+        {
+          "en": "dual wielding",
+          "ja": "二刀流"
+        },
+        {
+          "en": "quadruple wielding",
+          "ja": "四刀流"
+        },
+        {
+          "en": "triple wielding",
+          "ja": "三刀流"
+        },
+        {
+          "en": "dying",
+          "ja": "死にかけている"
+        },
+        {
+          "en": "ear cleaning",
+          "ja": "耳掃除"
+        },
+        {
+          "en": "eating",
+          "ja": "食べる"
+        },
+        {
+          "en": "chewing",
+          "ja": "噛む"
+        },
+        {
+          "en": "swallowing",
+          "ja": "嚥下"
+        },
+        {
+          "en": "tasting",
+          "ja": "試飲"
+        },
+        {
+          "en": "eavesdropping",
+          "ja": "盗聴"
+        },
+        {
+          "en": "elbowing",
+          "ja": "肘打ち"
+        },
+        {
+          "en": "drawing on another's face",
+          "ja": "他人の顔に絵を描く"
+        },
+        {
+          "en": "fainting",
+          "ja": "失神"
+        },
+        {
+          "en": "falling",
+          "ja": "落ちる"
+        },
+        {
+          "en": "fanning",
+          "ja": "扇ぐ"
+        },
+        {
+          "en": "fan speaking",
+          "ja": "ファンの声"
+        },
+        {
+          "en": "fanning face",
+          "ja": "扇ぐ顔"
+        },
+        {
+          "en": "feeding",
+          "ja": "給餌"
+        },
+        {
+          "en": "pov feeding",
+          "ja": "POV給餌"
+        },
+        {
+          "en": "fidgeting",
+          "ja": "そわそわする"
+        },
+        {
+          "en": "fighting",
+          "ja": "ファインティング"
+        },
+        {
+          "en": "firing",
+          "ja": "発砲"
+        },
+        {
+          "en": "flailing",
+          "ja": "もがく"
+        },
+        {
+          "en": "flapping",
+          "ja": "羽ばたき"
+        },
+        {
+          "en": "flirting",
+          "ja": "いちゃつく"
+        },
+        {
+          "en": "floating",
+          "ja": "フローティング"
+        },
+        {
+          "en": "flying",
+          "ja": "フライング"
+        },
+        {
+          "en": "gardening",
+          "ja": "園芸"
+        },
+        {
+          "en": "watering",
+          "ja": "水やり"
+        },
+        {
+          "en": "giving",
+          "ja": "与える"
+        },
+        {
+          "en": "glaring",
+          "ja": "睨みつける"
+        },
+        {
+          "en": "glowing",
+          "ja": "輝く"
+        },
+        {
+          "en": "grabbing",
+          "ja": "つかむ"
+        },
+        {
+          "en": "hairdressing",
+          "ja": "美容師"
+        },
+        {
+          "en": "brushing hair",
+          "ja": "髪をブラッシングする"
+        },
+        {
+          "en": "tucking hair",
+          "ja": "髪をまとめる"
+        },
+        {
+          "en": "twirling hair",
+          "ja": "くるくる回る髪"
+        },
+        {
+          "en": "hanging",
+          "ja": "ぶら下がっている"
+        },
+        {
+          "en": "hatching",
+          "ja": "孵化"
+        },
+        {
+          "en": "healing",
+          "ja": "ヒーリング"
+        },
+        {
+          "en": "hiding",
+          "ja": "隠蔽"
+        },
+        {
+          "en": "hitting",
+          "ja": "打撃"
+        },
+        {
+          "en": "holding",
+          "ja": "保持"
+        },
+        {
+          "en": "imagining",
+          "ja": "想像する"
+        },
+        {
+          "en": "imitating",
+          "ja": "模倣"
+        },
+        {
+          "en": "juggling",
+          "ja": "ジャグリング"
+        },
+        {
+          "en": "jumping",
+          "ja": "ジャンプ"
+        },
+        {
+          "en": "hopping",
+          "ja": "ホッピング"
+        },
+        {
+          "en": "pouncing",
+          "ja": "飛びかかる"
+        },
+        {
+          "en": "kicking",
+          "ja": "蹴る"
+        },
+        {
+          "en": "kneeing",
+          "ja": "ひざまずく"
+        },
+        {
+          "en": "knocking",
+          "ja": "ノッキング"
+        },
+        {
+          "en": "landing",
+          "ja": "着陸"
+        },
+        {
+          "en": "laughing",
+          "ja": "笑い"
+        },
+        {
+          "en": "giggling",
+          "ja": "くすくす笑う"
+        },
+        {
+          "en": "launching",
+          "ja": "打ち上げ"
+        },
+        {
+          "en": "leaning",
+          "ja": "傾く"
+        },
+        {
+          "en": "licking",
+          "ja": "舐める"
+        },
+        {
+          "en": "licking armpit",
+          "ja": "脇の下を舐める"
+        },
+        {
+          "en": "licking breast",
+          "ja": "乳房を舐める"
+        },
+        {
+          "en": "licking another's cheek",
+          "ja": "他人の頬を舐める"
+        },
+        {
+          "en": "licking ear",
+          "ja": "耳を舐める"
+        },
+        {
+          "en": "licking eye",
+          "ja": "目を舐める"
+        },
+        {
+          "en": "licking another's face",
+          "ja": "他人の顔を舐める"
+        },
+        {
+          "en": "licking finger",
+          "ja": "指を舐める"
+        },
+        {
+          "en": "licking floor",
+          "ja": "床を舐める"
+        },
+        {
+          "en": "licking foot",
+          "ja": "足を舐める"
+        },
+        {
+          "en": "licking blade",
+          "ja": "舐める刃"
+        },
+        {
+          "en": "licking leg",
+          "ja": "足を舐める"
+        },
+        {
+          "en": "licking navel",
+          "ja": "へそを舐める"
+        },
+        {
+          "en": "licking panties",
+          "ja": "パンティーを舐める"
+        },
+        {
+          "en": "licking thigh",
+          "ja": "太ももを舐める"
+        },
+        {
+          "en": "lifting",
+          "ja": "持ち上げる"
+        },
+        {
+          "en": "looking",
+          "ja": "見ている"
+        },
+        {
+          "en": "looking at viewer",
+          "ja": "視聴者を見ている"
+        },
+        {
+          "en": "looking back",
+          "ja": "振り返って"
+        },
+        {
+          "en": "looking down",
+          "ja": "下を向いて"
+        },
+        {
+          "en": "looking up",
+          "ja": "見上げる"
+        },
+        {
+          "en": "lying",
+          "ja": "嘘をつく"
+        },
+        {
+          "en": "measuring",
+          "ja": "測定"
+        },
+        {
+          "en": "bust measuring",
+          "ja": "バスト測定"
+        },
+        {
+          "en": "waist measuring",
+          "ja": "ウエスト測定"
+        },
+        {
+          "en": "melting",
+          "ja": "溶融"
+        },
+        {
+          "en": "mind reading",
+          "ja": "心を読む"
+        },
+        {
+          "en": "moaning",
+          "ja": "うめき声"
+        },
+        {
+          "en": "multitasking",
+          "ja": "マルチタスク"
+        },
+        {
+          "en": "nose picking",
+          "ja": "鼻ほじり"
+        },
+        {
+          "en": "opening",
+          "ja": "オープニング"
+        },
+        {
+          "en": "pantsing",
+          "ja": "パンツング"
+        },
+        {
+          "en": "patting",
+          "ja": "パッティング"
+        },
+        {
+          "en": "peeing",
+          "ja": "おしっこ"
+        },
+        {
+          "en": "bedwetting",
+          "ja": "おねしょ"
+        },
+        {
+          "en": "peeking",
+          "ja": "覗き見"
+        },
+        {
+          "en": "peeling",
+          "ja": "ピーリング"
+        },
+        {
+          "en": "headpat",
+          "ja": "頭を撫でる"
+        },
+        {
+          "en": "pinching",
+          "ja": "つまむ"
+        },
+        {
+          "en": "cheek pinching",
+          "ja": "頬をつねる"
+        },
+        {
+          "en": "pitching",
+          "ja": "ピッチング"
+        },
+        {
+          "en": "playing",
+          "ja": "遊んでいる"
+        },
+        {
+          "en": "playing games",
+          "ja": "ゲームをする"
+        },
+        {
+          "en": "playing instrument",
+          "ja": "楽器を演奏する"
+        },
+        {
+          "en": "playing sports",
+          "ja": "スポーツをする"
+        },
+        {
+          "en": "pointing",
+          "ja": "ポインティング"
+        },
+        {
+          "en": "pointing at viewer",
+          "ja": "視聴者を指差して"
+        },
+        {
+          "en": "poking",
+          "ja": "突っつく"
+        },
+        {
+          "en": "cheek poking",
+          "ja": "頬を突く"
+        },
+        {
+          "en": "polishing",
+          "ja": "研磨"
+        },
+        {
+          "en": "pouring",
+          "ja": "注ぐ"
+        },
+        {
+          "en": "decantering",
+          "ja": "デカンタリング"
+        },
+        {
+          "en": "praying",
+          "ja": "祈る"
+        },
+        {
+          "en": "presenting",
+          "ja": "発表する"
+        },
+        {
+          "en": "programming",
+          "ja": "プログラミング"
+        },
+        {
+          "en": "protecting",
+          "ja": "保護"
+        },
+        {
+          "en": "pulling",
+          "ja": "引っ張る"
+        },
+        {
+          "en": "punching",
+          "ja": "パンチ"
+        },
+        {
+          "en": "pushing",
+          "ja": "押す"
+        },
+        {
+          "en": "rappelling",
+          "ja": "懸垂下降"
+        },
+        {
+          "en": "reaching",
+          "ja": "到達"
+        },
+        {
+          "en": "reading",
+          "ja": "読む"
+        },
+        {
+          "en": "reloading",
+          "ja": "リロード"
+        },
+        {
+          "en": "repairing",
+          "ja": "修理"
+        },
+        {
+          "en": "resisting",
+          "ja": "抵抗する"
+        },
+        {
+          "en": "resting",
+          "ja": "休憩中"
+        },
+        {
+          "en": "riding",
+          "ja": "乗馬"
+        },
+        {
+          "en": "broom riding",
+          "ja": "ほうきに乗る"
+        },
+        {
+          "en": "umbrella riding",
+          "ja": "傘に乗る"
+        },
+        {
+          "en": "ripping",
+          "ja": "引き裂く"
+        },
+        {
+          "en": "roaring",
+          "ja": "轟音"
+        },
+        {
+          "en": "rolling",
+          "ja": "ローリング"
+        },
+        {
+          "en": "rubbing",
+          "ja": "こする"
+        },
+        {
+          "en": "running",
+          "ja": "ランニング"
+        },
+        {
+          "en": "scratching",
+          "ja": "引っ掻く"
+        },
+        {
+          "en": "screaming",
+          "ja": "叫ぶ"
+        },
+        {
+          "en": "searching",
+          "ja": "検索"
+        },
+        {
+          "en": "shading eyes",
+          "ja": "目を陰影にする"
+        },
+        {
+          "en": "shaking",
+          "ja": "揺れ"
+        },
+        {
+          "en": "sharing",
+          "ja": "共有"
+        },
+        {
+          "en": "shaving",
+          "ja": "シェービング"
+        },
+        {
+          "en": "shopping",
+          "ja": "買い物"
+        },
+        {
+          "en": "shouting",
+          "ja": "叫ぶ"
+        },
+        {
+          "en": "shushing",
+          "ja": "シーッ"
+        },
+        {
+          "en": "singing",
+          "ja": "歌う"
+        },
+        {
+          "en": "sinking",
+          "ja": "沈没"
+        },
+        {
+          "en": "sitting",
+          "ja": "座っている"
+        },
+        {
+          "en": "reclining",
+          "ja": "リクライニング"
+        },
+        {
+          "en": "sketching",
+          "ja": "スケッチ"
+        },
+        {
+          "en": "skipping",
+          "ja": "スキップ"
+        },
+        {
+          "en": "slashing",
+          "ja": "斬撃"
+        },
+        {
+          "en": "sleeping",
+          "ja": "眠っている"
+        },
+        {
+          "en": "sliding",
+          "ja": "スライディング"
+        },
+        {
+          "en": "slipping",
+          "ja": "滑る"
+        },
+        {
+          "en": "smelling",
+          "ja": "匂いを嗅ぐ"
+        },
+        {
+          "en": "smelling clothes",
+          "ja": "服の匂いを嗅ぐ"
+        },
+        {
+          "en": "smelling pantyhose",
+          "ja": "パンストの匂いを嗅ぐ"
+        },
+        {
+          "en": "smelling underwear",
+          "ja": "下着の匂いを嗅ぐ"
+        },
+        {
+          "en": "smoking",
+          "ja": "喫煙"
+        },
+        {
+          "en": "sneezing",
+          "ja": "くしゃみ"
+        },
+        {
+          "en": "snowing",
+          "ja": "雪が降る"
+        },
+        {
+          "en": "spanking",
+          "ja": "スパンキング"
+        },
+        {
+          "en": "spilling",
+          "ja": "こぼれる"
+        },
+        {
+          "en": "spinning",
+          "ja": "紡糸"
+        },
+        {
+          "en": "pen spinning",
+          "ja": "ペン回し"
+        },
+        {
+          "en": "spitting",
+          "ja": "唾を吐く"
+        },
+        {
+          "en": "splashing",
+          "ja": "水しぶき"
+        },
+        {
+          "en": "spooning",
+          "ja": "スプーン"
+        },
+        {
+          "en": "spraying",
+          "ja": "噴霧"
+        },
+        {
+          "en": "squeezing",
+          "ja": "圧迫する"
+        },
+        {
+          "en": "squinting",
+          "ja": "目を細める"
+        },
+        {
+          "en": "squirting liquid",
+          "ja": "噴出する液体"
+        },
+        {
+          "en": "stacking",
+          "ja": "スタッキング"
+        },
+        {
+          "en": "standing",
+          "ja": "立っている"
+        },
+        {
+          "en": "staring",
+          "ja": "見つめる"
+        },
+        {
+          "en": "stepping",
+          "ja": "ステッピング"
+        },
+        {
+          "en": "stomping",
+          "ja": "踏み鳴らす"
+        },
+        {
+          "en": "strangling",
+          "ja": "絞殺"
+        },
+        {
+          "en": "struggling",
+          "ja": "もがく"
+        },
+        {
+          "en": "studying",
+          "ja": "勉強する"
+        },
+        {
+          "en": "blood sucking",
+          "ja": "吸血"
+        },
+        {
+          "en": "finger sucking",
+          "ja": "指しゃぶり"
+        },
+        {
+          "en": "thumb sucking",
+          "ja": "指しゃぶり"
+        },
+        {
+          "en": "toe sucking",
+          "ja": "つま先しゃぶり"
+        },
+        {
+          "en": "sulking",
+          "ja": "ふくれっ面"
+        },
+        {
+          "en": "summoning",
+          "ja": "召喚"
+        },
+        {
+          "en": "sunbathing",
+          "ja": "日光浴"
+        },
+        {
+          "en": "surfing",
+          "ja": "サーフィン"
+        },
+        {
+          "en": "broom surfing",
+          "ja": "ほうきサーフィン"
+        },
+        {
+          "en": "sky surfing",
+          "ja": "スカイサーフィン"
+        },
+        {
+          "en": "swaying",
+          "ja": "揺れる"
+        },
+        {
+          "en": "swinging another",
+          "ja": "別のものを振る"
+        },
+        {
+          "en": "swinging arm",
+          "ja": "スイングアーム"
+        },
+        {
+          "en": "swinging arms",
+          "ja": "腕を振る"
+        },
+        {
+          "en": "swinging baseball bat",
+          "ja": "野球のバットを振る"
+        },
+        {
+          "en": "swinging golf club",
+          "ja": "スイングするゴルフクラブ"
+        },
+        {
+          "en": "swinging legs",
+          "ja": "足を振り回す"
+        },
+        {
+          "en": "swinging object",
+          "ja": "揺れる物体"
+        },
+        {
+          "en": "swinging on rope",
+          "ja": "ロープで揺れる"
+        },
+        {
+          "en": "swinging on swing",
+          "ja": "ブランコで揺れる"
+        },
+        {
+          "en": "swinging tennis racket",
+          "ja": "スイングするテニスラケット"
+        },
+        {
+          "en": "swinging weapon",
+          "ja": "振り回す武器"
+        },
+        {
+          "en": "swinging (relationship)",
+          "ja": "スウィンギング（関係）"
+        },
+        {
+          "en": "tail fondling",
+          "ja": "尻尾を撫でる"
+        },
+        {
+          "en": "talking",
+          "ja": "話している"
+        },
+        {
+          "en": "sleep talking",
+          "ja": "寝言"
+        },
+        {
+          "en": "teaching",
+          "ja": "教える"
+        },
+        {
+          "en": "text messaging",
+          "ja": "テキストメッセージ"
+        },
+        {
+          "en": "thinking",
+          "ja": "考え"
+        },
+        {
+          "en": "throwing",
+          "ja": "投げる"
+        },
+        {
+          "en": "tickling",
+          "ja": "くすぐり"
+        },
+        {
+          "en": "tickling feet",
+          "ja": "足をくすぐる"
+        },
+        {
+          "en": "touching",
+          "ja": "触れる"
+        },
+        {
+          "en": "training",
+          "ja": "トレーニング"
+        },
+        {
+          "en": "trembling",
+          "ja": "震え"
+        },
+        {
+          "en": "trolling",
+          "ja": "荒らし"
+        },
+        {
+          "en": "twitching",
+          "ja": "けいれん"
+        },
+        {
+          "en": "tying",
+          "ja": "結び目"
+        },
+        {
+          "en": "scarf tying",
+          "ja": "スカーフの結び方"
+        },
+        {
+          "en": "tying footwear",
+          "ja": "履物を結ぶ"
+        },
+        {
+          "en": "untying",
+          "ja": "解く"
+        },
+        {
+          "en": "typing",
+          "ja": "タイピング"
+        },
+        {
+          "en": "unsheathing",
+          "ja": "抜刀"
+        },
+        {
+          "en": "unzipping with mouth",
+          "ja": "口でジッパーを開ける"
+        },
+        {
+          "en": "unzipping",
+          "ja": "解凍"
+        },
+        {
+          "en": "vomiting",
+          "ja": "嘔吐"
+        },
+        {
+          "en": "wading",
+          "ja": "水遊び"
+        },
+        {
+          "en": "skinny dipping",
+          "ja": "裸で泳ぐ"
+        },
+        {
+          "en": "waiting",
+          "ja": "待っている"
+        },
+        {
+          "en": "walking",
+          "ja": "歩く"
+        },
+        {
+          "en": "pet walking",
+          "ja": "ペットの散歩"
+        },
+        {
+          "en": "rope walking",
+          "ja": "ロープウォーキング"
+        },
+        {
+          "en": "wallwalking",
+          "ja": "壁歩き"
+        },
+        {
+          "en": "warming",
+          "ja": "温暖化"
+        },
+        {
+          "en": "washing",
+          "ja": "洗浄"
+        },
+        {
+          "en": "body soaping",
+          "ja": "ボディソープ"
+        },
+        {
+          "en": "watching",
+          "ja": "見ている"
+        },
+        {
+          "en": "watching television",
+          "ja": "テレビを見る"
+        },
+        {
+          "en": "waving",
+          "ja": "手を振る"
+        },
+        {
+          "en": "whipping",
+          "ja": "鞭打ち"
+        },
+        {
+          "en": "whisking",
+          "ja": "泡立てる"
+        },
+        {
+          "en": "whispering",
+          "ja": "ささやき声"
+        },
+        {
+          "en": "whistling",
+          "ja": "口笛"
+        },
+        {
+          "en": "working",
+          "ja": "働く"
+        },
+        {
+          "en": "wringing",
+          "ja": "絞り"
+        },
+        {
+          "en": "zipping",
+          "ja": "ジッパー"
+        }
+      ],
+      "動名詞": [
+        {
+          "en": "battle",
+          "ja": "戦い"
+        },
+        {
+          "en": "bleeding",
+          "ja": "出血"
+        },
+        {
+          "en": "blowing",
+          "ja": "吹く"
+        },
+        {
+          "en": "bowling",
+          "ja": "ボーリング"
+        },
+        {
+          "en": "boxing",
+          "ja": "ボクシング"
+        },
+        {
+          "en": "mind control",
+          "ja": "マインドコントロール"
+        },
+        {
+          "en": "breast padding",
+          "ja": "胸パッド"
+        },
+        {
+          "en": "building",
+          "ja": "建物"
+        },
+        {
+          "en": "model building",
+          "ja": "模型作り"
+        },
+        {
+          "en": "bullfighting",
+          "ja": "闘牛"
+        },
+        {
+          "en": "burning",
+          "ja": "燃焼"
+        },
+        {
+          "en": "camping",
+          "ja": "キャンプ"
+        },
+        {
+          "en": "carving",
+          "ja": "彫刻"
+        },
+        {
+          "en": "cheating",
+          "ja": "不正行為"
+        },
+        {
+          "en": "clapping",
+          "ja": "拍手"
+        },
+        {
+          "en": "cling",
+          "ja": "しがみつく"
+        },
+        {
+          "en": "breast clinging",
+          "ja": "胸にしがみつく"
+        },
+        {
+          "en": "crossdressing",
+          "ja": "女装"
+        },
+        {
+          "en": "dating",
+          "ja": "デート"
+        },
+        {
+          "en": "2d dating",
+          "ja": "2Dデート"
+        },
+        {
+          "en": "dissolving",
+          "ja": "溶解"
+        },
+        {
+          "en": "drawing (action)",
+          "ja": "描画（アクション）"
+        },
+        {
+          "en": "drawing (object)",
+          "ja": "描画（オブジェクト）"
+        },
+        {
+          "en": "child's drawing",
+          "ja": "子供の絵"
+        },
+        {
+          "en": "drowning",
+          "ja": "溺死"
+        },
+        {
+          "en": "face stretching",
+          "ja": "顔ストレッチ"
+        },
+        {
+          "en": "fading",
+          "ja": "フェードアウト"
+        },
+        {
+          "en": "fencing",
+          "ja": "フェンシング"
+        },
+        {
+          "en": "fishing",
+          "ja": "釣り"
+        },
+        {
+          "en": "flexing",
+          "ja": "屈曲"
+        },
+        {
+          "en": "foreshortening",
+          "ja": "短縮法"
+        },
+        {
+          "en": "goldfish scooping",
+          "ja": "金魚すくい"
+        },
+        {
+          "en": "grilling",
+          "ja": "グリル"
+        },
+        {
+          "en": "hiking",
+          "ja": "ハイキング"
+        },
+        {
+          "en": "hitchhiking",
+          "ja": "ヒッチハイク"
+        },
+        {
+          "en": "horseback riding",
+          "ja": "乗馬"
+        },
+        {
+          "en": "kidnapping",
+          "ja": "誘拐"
+        },
+        {
+          "en": "kiss",
+          "ja": "キス"
+        },
+        {
+          "en": "knitting",
+          "ja": "編み物"
+        },
+        {
+          "en": "marching",
+          "ja": "行進"
+        },
+        {
+          "en": "misunderstanding",
+          "ja": "誤解"
+        },
+        {
+          "en": "mooning",
+          "ja": "お尻を突き出す"
+        },
+        {
+          "en": "painting",
+          "ja": "絵画"
+        },
+        {
+          "en": "drawing on another's face",
+          "ja": "他人の顔に絵を描く"
+        },
+        {
+          "en": "panicking",
+          "ja": "パニックに陥る"
+        },
+        {
+          "en": "pose",
+          "ja": "ポーズ"
+        },
+        {
+          "en": "pout",
+          "ja": "ふくれっ面"
+        },
+        {
+          "en": "racing",
+          "ja": "レース"
+        },
+        {
+          "en": "recording",
+          "ja": "録音"
+        },
+        {
+          "en": "shipping",
+          "ja": "配送"
+        },
+        {
+          "en": "rotting",
+          "ja": "腐敗している"
+        },
+        {
+          "en": "rowing",
+          "ja": "ボート漕ぎ"
+        },
+        {
+          "en": "scolding",
+          "ja": "叱責"
+        },
+        {
+          "en": "lecturing",
+          "ja": "講義"
+        },
+        {
+          "en": "sewing",
+          "ja": "縫い"
+        },
+        {
+          "en": "shoplifting",
+          "ja": "万引き"
+        },
+        {
+          "en": "skating",
+          "ja": "スケート"
+        },
+        {
+          "en": "figure skating",
+          "ja": "フィギュアスケート"
+        },
+        {
+          "en": "ice skating",
+          "ja": "アイススケート"
+        },
+        {
+          "en": "skiing",
+          "ja": "スキー"
+        },
+        {
+          "en": "slapping",
+          "ja": "平手打ち"
+        },
+        {
+          "en": "smother",
+          "ja": "窒息させる"
+        },
+        {
+          "en": "stalking",
+          "ja": "ストーカー行為"
+        },
+        {
+          "en": "straddling",
+          "ja": "またがる"
+        },
+        {
+          "en": "pillow straddling",
+          "ja": "枕にまたがる"
+        },
+        {
+          "en": "thigh straddling",
+          "ja": "太ももをまたぐ"
+        },
+        {
+          "en": "swimming",
+          "ja": "水泳"
+        },
+        {
+          "en": "freediving",
+          "ja": "フリーダイビング"
+        },
+        {
+          "en": "tail wagging",
+          "ja": "尻尾を振る"
+        },
+        {
+          "en": "theft",
+          "ja": "盗難"
+        },
+        {
+          "en": "wedding",
+          "ja": "結婚式"
+        },
+        {
+          "en": "welding",
+          "ja": "溶接"
+        },
+        {
+          "en": "wrestling",
+          "ja": "レスリング"
+        },
+        {
+          "en": "arm wrestling",
+          "ja": "腕相撲"
+        },
+        {
+          "en": "writing",
+          "ja": "書き込み"
+        },
+        {
+          "en": "yawning",
+          "ja": "あくび"
+        }
+      ],
+      "その他": [
+        {
+          "en": "egg laying",
+          "ja": "産卵"
+        },
+        {
+          "en": "pipelining",
+          "ja": "パイプライン"
+        },
+        {
+          "en": "symmetrical docking",
+          "ja": "対称ドッキング"
+        },
+        {
+          "en": "asymmetrical docking",
+          "ja": "非対称ドッキング"
+        },
+        {
+          "en": "squatting",
+          "ja": "しゃがむ"
+        },
+        {
+          "en": "taunting",
+          "ja": "挑発"
+        },
+        {
+          "en": "teasing",
+          "ja": "からかい"
+        }
+      ],
+      "NSFW": [
+        {
+          "en": "biting penis",
+          "ja": "ペニスを噛む"
+        },
+        {
+          "en": "diaper changing",
+          "ja": "おむつ交換"
+        },
+        {
+          "en": "fanning crotch",
+          "ja": "股間を扇ぐ"
+        },
+        {
+          "en": "fingering",
+          "ja": "運指"
+        },
+        {
+          "en": "anal fingering",
+          "ja": "アナルフィンガーリング"
+        },
+        {
+          "en": "fisting",
+          "ja": "フィスティング"
+        },
+        {
+          "en": "anal fisting",
+          "ja": "アナルフィスティング"
+        },
+        {
+          "en": "grinding",
+          "ja": "研削"
+        },
+        {
+          "en": "cooperative grinding",
+          "ja": "協力的な粉砕"
+        },
+        {
+          "en": "groping",
+          "ja": "模索"
+        },
+        {
+          "en": "humping",
+          "ja": "交尾"
+        },
+        {
+          "en": "dry humping",
+          "ja": "ドライハンピング"
+        },
+        {
+          "en": "licking cum",
+          "ja": "精液を舐める"
+        },
+        {
+          "en": "licking nipple",
+          "ja": "乳首を舐める"
+        },
+        {
+          "en": "licking testicle",
+          "ja": "睾丸を舐める"
+        },
+        {
+          "en": "penis measuring",
+          "ja": "ペニス測定"
+        },
+        {
+          "en": "crotch rub",
+          "ja": "股間をこする"
+        },
+        {
+          "en": "breast sucking",
+          "ja": "乳房を吸う"
+        },
+        {
+          "en": "sucking own breasts",
+          "ja": "自分の胸を吸う"
+        },
+        {
+          "en": "flashing",
+          "ja": "点滅"
+        },
+        {
+          "en": "mooning",
+          "ja": "お尻を突き出す"
+        },
+        {
+          "en": "streaking",
+          "ja": "ストリーキング"
+        },
+        {
+          "en": "frottage",
+          "ja": "フロッタージュ"
+        },
+        {
+          "en": "masturbation",
+          "ja": "オナニー"
+        },
+        {
+          "en": "mixed-sex bathing",
+          "ja": "混浴"
+        },
+        {
+          "en": "tribadism",
+          "ja": "三面性"
+        },
+        {
+          "en": "unbirthing",
+          "ja": "出産しない"
+        },
+        {
+          "en": "voyeurism",
+          "ja": "盗撮"
+        },
+        {
+          "en": "pegging",
+          "ja": "ペッギング"
+        },
+        {
+          "en": "penises touching",
+          "ja": "ペニスが触れ合う"
+        },
+        {
+          "en": "sounding",
+          "ja": "響き渡る"
+        },
+        {
+          "en": "prostate milking",
+          "ja": "前立腺ミルキング"
+        }
+      ]
+    }
+  }
+}

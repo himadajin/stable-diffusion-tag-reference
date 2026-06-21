@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "importedFrom": "tmp/prompt-alchemy-assets",
+  "categories": [
+    {
+      "id": "my-tags",
+      "name": "Myタグ",
+      "file": "tags/my-tags.json"
+    },
+    {
+      "id": "quality",
+      "name": "品質",
+      "file": "tags/quality.json"
+    },
+    {
+      "id": "character",
+      "name": "キャラ",
+      "file": "tags/character.json"
+    },
+    {
+      "id": "composition",
+      "name": "構図",
+      "file": "tags/composition.json"
+    },
+    {
+      "id": "style",
+      "name": "スタイル",
+      "file": "tags/style.json"
+    },
+    {
+      "id": "lighting",
+      "name": "ライティング",
+      "file": "tags/lighting.json"
+    },
+    {
+      "id": "color",
+      "name": "色",
+      "file": "tags/color.json"
+    },
+    {
+      "id": "body",
+      "name": "身体",
+      "file": "tags/body.json"
+    },
+    {
+      "id": "action-pose",
+      "name": "動作・姿勢",
+      "file": "tags/action-pose.json"
+    },
+    {
+      "id": "clothing",
+      "name": "服飾",
+      "file": "tags/clothing.json"
+    },
+    {
+      "id": "objects",
+      "name": "オブジェクト系",
+      "file": "tags/objects.json"
+    },
+    {
+      "id": "marks-symbols",
+      "name": "マーク・シンボル",
+      "file": "tags/marks-symbols.json"
+    },
+    {
+      "id": "fantasy-people-creatures",
+      "name": "幻想人物・生物",
+      "file": "tags/fantasy-people-creatures.json"
+    },
+    {
+      "id": "animals-creatures",
+      "name": "動物・生物",
+      "file": "tags/animals-creatures.json"
+    },
+    {
+      "id": "plants",
+      "name": "植物",
+      "file": "tags/plants.json"
+    },
+    {
+      "id": "food",
+      "name": "食べ物系",
+      "file": "tags/food.json"
+    },
+    {
+      "id": "nature-elements",
+      "name": "自然系要素",
+      "file": "tags/nature-elements.json"
+    },
+    {
+      "id": "background",
+      "name": "背景",
+      "file": "tags/background.json"
+    }
+  ],
+  "freeInputTags": {
+    "chunkSize": 2000,
+    "chunks": [
+      {
+        "id": "chunk-001",
+        "file": "free-input-tags/chunk-001.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-002",
+        "file": "free-input-tags/chunk-002.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-003",
+        "file": "free-input-tags/chunk-003.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-004",
+        "file": "free-input-tags/chunk-004.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-005",
+        "file": "free-input-tags/chunk-005.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-006",
+        "file": "free-input-tags/chunk-006.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-007",
+        "file": "free-input-tags/chunk-007.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-008",
+        "file": "free-input-tags/chunk-008.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-009",
+        "file": "free-input-tags/chunk-009.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-010",
+        "file": "free-input-tags/chunk-010.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-011",
+        "file": "free-input-tags/chunk-011.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-012",
+        "file": "free-input-tags/chunk-012.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-013",
+        "file": "free-input-tags/chunk-013.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-014",
+        "file": "free-input-tags/chunk-014.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-015",
+        "file": "free-input-tags/chunk-015.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-016",
+        "file": "free-input-tags/chunk-016.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-017",
+        "file": "free-input-tags/chunk-017.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-018",
+        "file": "free-input-tags/chunk-018.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-019",
+        "file": "free-input-tags/chunk-019.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-020",
+        "file": "free-input-tags/chunk-020.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-021",
+        "file": "free-input-tags/chunk-021.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-022",
+        "file": "free-input-tags/chunk-022.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-023",
+        "file": "free-input-tags/chunk-023.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-024",
+        "file": "free-input-tags/chunk-024.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-025",
+        "file": "free-input-tags/chunk-025.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-026",
+        "file": "free-input-tags/chunk-026.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-027",
+        "file": "free-input-tags/chunk-027.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-028",
+        "file": "free-input-tags/chunk-028.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-029",
+        "file": "free-input-tags/chunk-029.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-030",
+        "file": "free-input-tags/chunk-030.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-031",
+        "file": "free-input-tags/chunk-031.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-032",
+        "file": "free-input-tags/chunk-032.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-033",
+        "file": "free-input-tags/chunk-033.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-034",
+        "file": "free-input-tags/chunk-034.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-035",
+        "file": "free-input-tags/chunk-035.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-036",
+        "file": "free-input-tags/chunk-036.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-037",
+        "file": "free-input-tags/chunk-037.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-038",
+        "file": "free-input-tags/chunk-038.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-039",
+        "file": "free-input-tags/chunk-039.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-040",
+        "file": "free-input-tags/chunk-040.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-041",
+        "file": "free-input-tags/chunk-041.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-042",
+        "file": "free-input-tags/chunk-042.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-043",
+        "file": "free-input-tags/chunk-043.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-044",
+        "file": "free-input-tags/chunk-044.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-045",
+        "file": "free-input-tags/chunk-045.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-046",
+        "file": "free-input-tags/chunk-046.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-047",
+        "file": "free-input-tags/chunk-047.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-048",
+        "file": "free-input-tags/chunk-048.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-049",
+        "file": "free-input-tags/chunk-049.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-050",
+        "file": "free-input-tags/chunk-050.json",
+        "count": 2000
+      },
+      {
+        "id": "chunk-051",
+        "file": "free-input-tags/chunk-051.json",
+        "count": 628
+      }
+    ]
+  }
+}

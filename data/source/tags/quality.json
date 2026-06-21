@@ -1,0 +1,756 @@
+{
+  "id": "quality",
+  "name": "品質",
+  "tree": {
+    "ポジティブ": [
+      {
+        "en": "masterpiece",
+        "ja": "傑作"
+      },
+      {
+        "en": "best quality",
+        "ja": "最高品質"
+      },
+      {
+        "en": "highres",
+        "ja": "高解像度"
+      },
+      {
+        "en": "absurdres",
+        "ja": "不条理な"
+      },
+      {
+        "en": "incredibly absurdres",
+        "ja": "信じられないほど不条理な"
+      },
+      {
+        "en": "ultra detailed",
+        "ja": "超詳細"
+      },
+      {
+        "en": "intricate details",
+        "ja": "複雑な詳細"
+      },
+      {
+        "en": "hyper detailed",
+        "ja": "超詳細な"
+      },
+      {
+        "en": "professional art",
+        "ja": "プロの芸術"
+      },
+      {
+        "en": "award-winning",
+        "ja": "受賞歴のある"
+      },
+      {
+        "en": "4k",
+        "ja": "4k"
+      },
+      {
+        "en": "8k",
+        "ja": "8k"
+      },
+      {
+        "en": "4k wallpaper",
+        "ja": "4K壁紙"
+      },
+      {
+        "en": "cinematic lighting",
+        "ja": "映画照明"
+      },
+      {
+        "en": "perfect lighting",
+        "ja": "完璧な照明"
+      },
+      {
+        "en": "perfect shadow",
+        "ja": "完璧な影"
+      },
+      {
+        "en": "dynamic lighting",
+        "ja": "ダイナミック照明"
+      },
+      {
+        "en": "ray tracing",
+        "ja": "レイトレーシング"
+      },
+      {
+        "en": "depth rendering",
+        "ja": "深度レンダリング"
+      },
+      {
+        "en": "studio quality",
+        "ja": "スタジオ品質"
+      },
+      {
+        "en": "realistic skin",
+        "ja": "リアルな肌"
+      },
+      {
+        "en": "flawless face",
+        "ja": "完璧な顔"
+      },
+      {
+        "en": "photorealistic",
+        "ja": "フォトリアリスティック"
+      },
+      {
+        "en": "painterly",
+        "ja": "絵画的な"
+      },
+      {
+        "en": "realistic",
+        "ja": "現実的"
+      },
+      {
+        "en": "sketch",
+        "ja": "スケッチ"
+      },
+      {
+        "en": "outline",
+        "ja": "概要"
+      },
+      {
+        "en": "vector trace",
+        "ja": "ベクトルトレース"
+      },
+      {
+        "en": "smooth edges",
+        "ja": "滑らかなエッジ"
+      },
+      {
+        "en": "crisp edges",
+        "ja": "鮮明なエッジ"
+      },
+      {
+        "en": "super fine detail",
+        "ja": "超微細ディテール"
+      },
+      {
+        "en": "traditional media",
+        "ja": "従来のメディア"
+      },
+      {
+        "en": "faux traditional media",
+        "ja": "偽の伝統メディア"
+      }
+    ],
+    "ネガティブ": [
+      {
+        "en": "lowres",
+        "ja": "低解像度"
+      },
+      {
+        "en": "jpeg artifacts on purpose",
+        "ja": "意図的なJPEGアーティファクト"
+      },
+      {
+        "en": "has bad revision",
+        "ja": "修正が悪い"
+      },
+      {
+        "en": "has adversarial noise revision",
+        "ja": "敵対的ノイズ修正あり"
+      },
+      {
+        "en": "has artifacted revision",
+        "ja": "修正アーティファクトあり"
+      },
+      {
+        "en": "has censored revision",
+        "ja": "改訂版を検閲した"
+      },
+      {
+        "en": "has cropped revision",
+        "ja": "トリミングされた修正があります"
+      },
+      {
+        "en": "has downscaled revision",
+        "ja": "改訂版を縮小した"
+      },
+      {
+        "en": "has lossy revision",
+        "ja": "非可逆修正あり"
+      },
+      {
+        "en": "has watermarked revision",
+        "ja": "透かし入りの改訂版"
+      },
+      {
+        "en": "tileable",
+        "ja": "タイル化可能"
+      },
+      {
+        "en": "wallpaper forced",
+        "ja": "壁紙強制"
+      },
+      {
+        "en": "no lineart",
+        "ja": "線画なし"
+      },
+      {
+        "en": "unfinished",
+        "ja": "未完成"
+      },
+      {
+        "en": "bad anatomy",
+        "ja": "解剖学的に悪い"
+      },
+      {
+        "en": "bad hands",
+        "ja": "悪い手"
+      },
+      {
+        "en": "deformed",
+        "ja": "変形した"
+      },
+      {
+        "en": "mutated hands",
+        "ja": "変異した手"
+      },
+      {
+        "en": "missing fingers",
+        "ja": "指がない"
+      },
+      {
+        "en": "extra fingers",
+        "ja": "余分な指"
+      },
+      {
+        "en": "cropped",
+        "ja": "切り取られた"
+      },
+      {
+        "en": "text",
+        "ja": "文章"
+      },
+      {
+        "en": "error",
+        "ja": "エラー"
+      },
+      {
+        "en": "signature",
+        "ja": "サイン"
+      },
+      {
+        "en": "watermark",
+        "ja": "透かし"
+      },
+      {
+        "en": "username",
+        "ja": "ユーザー名"
+      },
+      {
+        "en": "adversarial noise",
+        "ja": "敵対的なノイズ"
+      },
+      {
+        "en": "aliasing",
+        "ja": "エイリアシング"
+      },
+      {
+        "en": "gif artifacts",
+        "ja": "GIFアーティファクト"
+      },
+      {
+        "en": "scan artifacts",
+        "ja": "スキャンアーティファクト"
+      },
+      {
+        "en": "bleed through",
+        "ja": "にじみ出る"
+      },
+      {
+        "en": "crease",
+        "ja": "折り目"
+      },
+      {
+        "en": "vhs artifacts",
+        "ja": "VHSアーティファクト"
+      },
+      {
+        "en": "artistic error",
+        "ja": "芸術的な誤り"
+      },
+      {
+        "en": "bad reflection",
+        "ja": "悪い反射"
+      },
+      {
+        "en": "extra digits",
+        "ja": "余分な数字"
+      },
+      {
+        "en": "typo",
+        "ja": "タイプミス"
+      },
+      {
+        "en": "bad aspect ratio",
+        "ja": "アスペクト比が悪い"
+      },
+      {
+        "en": "blurry",
+        "ja": "ぼやけた"
+      },
+      {
+        "en": "censored/uncensored",
+        "ja": "検閲済み/無修正"
+      },
+      {
+        "en": "decensored",
+        "ja": "検閲されていない"
+      },
+      {
+        "en": "derivative work",
+        "ja": "派生作品"
+      },
+      {
+        "en": "photo-referenced",
+        "ja": "写真参照"
+      },
+      {
+        "en": "reference photo",
+        "ja": "参考写真"
+      },
+      {
+        "en": "reference work",
+        "ja": "参考文献"
+      },
+      {
+        "en": "screenshot redraw",
+        "ja": "スクリーンショットの再描画"
+      },
+      {
+        "en": "duplicate",
+        "ja": "重複"
+      },
+      {
+        "en": "pixel-perfect duplicate",
+        "ja": "ピクセルパーフェクトな複製"
+      },
+      {
+        "en": "image macro",
+        "ja": "画像マクロ"
+      },
+      {
+        "en": "lossless-lossy",
+        "ja": "ロスレス-ロスレス"
+      },
+      {
+        "en": "lossy-lossless",
+        "ja": "ロスレス"
+      },
+      {
+        "en": "md5 mismatch",
+        "ja": "md5不一致"
+      },
+      {
+        "en": "missing thumbnail",
+        "ja": "サムネイルがありません"
+      },
+      {
+        "en": "moire",
+        "ja": "モアレ"
+      },
+      {
+        "en": "anatomical nonsense",
+        "ja": "解剖学的なナンセンス"
+      },
+      {
+        "en": "bad feet",
+        "ja": "足が悪い"
+      },
+      {
+        "en": "bad proportions",
+        "ja": "悪い比率"
+      },
+      {
+        "en": "quality",
+        "ja": "品質"
+      },
+      {
+        "en": "ranguage",
+        "ja": "言語"
+      },
+      {
+        "en": "resized",
+        "ja": "サイズ変更"
+      },
+      {
+        "en": "image sample",
+        "ja": "画像サンプル"
+      },
+      {
+        "en": "upscaled",
+        "ja": "アップスケール"
+      },
+      {
+        "en": "waifu2x",
+        "ja": "ワイフ2x"
+      },
+      {
+        "en": "reversed",
+        "ja": "逆転した"
+      },
+      {
+        "en": "rotated",
+        "ja": "回転した"
+      },
+      {
+        "en": "solid color thumbnail",
+        "ja": "単色のサムネイル"
+      },
+      {
+        "en": "third-party edit",
+        "ja": "サードパーティ編集"
+      },
+      {
+        "en": "detexted",
+        "ja": "テキスト削除"
+      },
+      {
+        "en": "hard-translated",
+        "ja": "ハード翻訳"
+      },
+      {
+        "en": "nude filter",
+        "ja": "ヌードフィルター"
+      },
+      {
+        "en": "third-party extraction",
+        "ja": "サードパーティ抽出"
+      },
+      {
+        "en": "unmoving pattern",
+        "ja": "動かないパターン"
+      },
+      {
+        "en": "third-party watermark",
+        "ja": "サードパーティの透かし"
+      },
+      {
+        "en": "web address",
+        "ja": "ウェブアドレス"
+      }
+    ],
+    "修正": [
+      {
+        "en": "censored",
+        "ja": "検閲済み"
+      },
+      {
+        "en": "censored background",
+        "ja": "検閲された背景"
+      },
+      {
+        "en": "censored anus",
+        "ja": "検閲された肛門"
+      },
+      {
+        "en": "censored nipples",
+        "ja": "修正された乳首"
+      },
+      {
+        "en": "censored clitoris",
+        "ja": "修正されたクリトリス"
+      },
+      {
+        "en": "censored testicles",
+        "ja": "検閲された睾丸"
+      },
+      {
+        "en": "censored urethra",
+        "ja": "検閲された尿道"
+      },
+      {
+        "en": "censored gesture",
+        "ja": "検閲されたジェスチャー"
+      },
+      {
+        "en": "censored poop",
+        "ja": "検閲されたうんち"
+      },
+      {
+        "en": "censored profanity",
+        "ja": "検閲された冒とく語"
+      },
+      {
+        "en": "censored symbol",
+        "ja": "検閲された記号"
+      },
+      {
+        "en": "censored text",
+        "ja": "検閲されたテキスト"
+      },
+      {
+        "en": "redaction",
+        "ja": "編集"
+      },
+      {
+        "en": "censored violence",
+        "ja": "検閲された暴力"
+      },
+      {
+        "en": "fake censor",
+        "ja": "偽の検閲官"
+      },
+      {
+        "en": "bubble filter",
+        "ja": "バブルフィルター"
+      },
+      {
+        "en": "censored eyebrows",
+        "ja": "検閲された眉毛"
+      },
+      {
+        "en": "censored feet",
+        "ja": "検閲された足"
+      },
+      {
+        "en": "censored food",
+        "ja": "検閲された食品"
+      },
+      {
+        "en": "censored hands",
+        "ja": "検閲された手"
+      },
+      {
+        "en": "censored insect",
+        "ja": "検閲された昆虫"
+      },
+      {
+        "en": "censored identity",
+        "ja": "検閲されたアイデンティティ"
+      },
+      {
+        "en": "uncensored",
+        "ja": "無修正"
+      },
+      {
+        "en": "decensored",
+        "ja": "検閲されていない"
+      },
+      {
+        "en": "blood censor",
+        "ja": "血液検閲官"
+      },
+      {
+        "en": "censored with cum",
+        "ja": "精液で検閲"
+      },
+      {
+        "en": "convenient censoring",
+        "ja": "都合の良い検閲"
+      },
+      {
+        "en": "convenient arm",
+        "ja": "便利なアーム"
+      },
+      {
+        "en": "convenient head",
+        "ja": "便利なヘッド"
+      },
+      {
+        "en": "convenient leg",
+        "ja": "便利な脚"
+      },
+      {
+        "en": "soap censor",
+        "ja": "石鹸検閲官"
+      },
+      {
+        "en": "steam censor",
+        "ja": "蒸気検閲"
+      },
+      {
+        "en": "feather censor",
+        "ja": "羽根検閲官"
+      },
+      {
+        "en": "fire censor",
+        "ja": "火検閲官"
+      },
+      {
+        "en": "flower censor",
+        "ja": "花の検閲官"
+      },
+      {
+        "en": "petal censor",
+        "ja": "花びら検閲官"
+      },
+      {
+        "en": "food censor",
+        "ja": "食品検閲官"
+      },
+      {
+        "en": "hair censor",
+        "ja": "髪の毛検閲官"
+      },
+      {
+        "en": "light censor",
+        "ja": "光検閲"
+      },
+      {
+        "en": "necklace censor",
+        "ja": "ネックレス検閲官"
+      },
+      {
+        "en": "one finger selfie challenge",
+        "ja": "一本指で自撮りチャレンジ"
+      },
+      {
+        "en": "ribbon censor",
+        "ja": "リボン検閲"
+      },
+      {
+        "en": "slime censor",
+        "ja": "スライム検閲官"
+      },
+      {
+        "en": "smoke censor",
+        "ja": "煙感知器"
+      },
+      {
+        "en": "tail censor",
+        "ja": "テールセンサー"
+      },
+      {
+        "en": "tentacle censor",
+        "ja": "触手検閲官"
+      },
+      {
+        "en": "water censor",
+        "ja": "水検閲官"
+      },
+      {
+        "en": "wing censor",
+        "ja": "翼検閲官"
+      },
+      {
+        "en": "fake scrollbar",
+        "ja": "偽のスクロールバー"
+      },
+      {
+        "en": "out-of-frame censoring",
+        "ja": "フレーム外検閲"
+      },
+      {
+        "en": "bar censor",
+        "ja": "バー検閲官"
+      },
+      {
+        "en": "blank censor",
+        "ja": "空白の検閲"
+      },
+      {
+        "en": "blur censor",
+        "ja": "ぼかし検閲"
+      },
+      {
+        "en": "censored by text",
+        "ja": "テキストによる検閲"
+      },
+      {
+        "en": "emoji censor",
+        "ja": "絵文字検閲"
+      },
+      {
+        "en": "glitch censor",
+        "ja": "グリッチ検閲"
+      },
+      {
+        "en": "heart censor",
+        "ja": "ハート検閲官"
+      },
+      {
+        "en": "novelty censor",
+        "ja": "新奇性検閲官"
+      },
+      {
+        "en": "can't show this",
+        "ja": "これを表示できません"
+      },
+      {
+        "en": "character censor",
+        "ja": "文字検閲官"
+      },
+      {
+        "en": "interface censor",
+        "ja": "インターフェース検閲"
+      },
+      {
+        "en": "laughing man",
+        "ja": "笑う男"
+      },
+      {
+        "en": "patreon logo censor",
+        "ja": "Patreonのロゴ検閲"
+      },
+      {
+        "en": "rabbit censor",
+        "ja": "ウサギの検閲官"
+      },
+      {
+        "en": "tape censor",
+        "ja": "テープ検閲官"
+      },
+      {
+        "en": "treasure mark censor",
+        "ja": "宝マーク検閲官"
+      },
+      {
+        "en": "scribble censor",
+        "ja": "落書き検閲官"
+      },
+      {
+        "en": "shadow censor",
+        "ja": "影の検閲官"
+      },
+      {
+        "en": "silhouette censor",
+        "ja": "シルエット検閲官"
+      },
+      {
+        "en": "sparkle censor",
+        "ja": "スパークル検閲官"
+      },
+      {
+        "en": "speech bubble censor",
+        "ja": "吹き出し検閲"
+      },
+      {
+        "en": "star censor",
+        "ja": "スター検閲官"
+      },
+      {
+        "en": "checkered censor",
+        "ja": "チェック柄の検閲官"
+      },
+      {
+        "en": "inconsistent censoring",
+        "ja": "一貫性のない検閲"
+      },
+      {
+        "en": "mosaic censoring",
+        "ja": "モザイク検閲"
+      },
+      {
+        "en": "pointless censoring",
+        "ja": "無意味な検閲"
+      },
+      {
+        "en": "removable censorship",
+        "ja": "削除可能な検閲"
+      },
+      {
+        "en": "invert color censor",
+        "ja": "色反転検閲"
+      },
+      {
+        "en": "transparent censoring",
+        "ja": "透明な検閲"
+      }
+    ]
+  }
+}

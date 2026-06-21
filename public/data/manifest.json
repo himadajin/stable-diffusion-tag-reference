@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "my-tags",
+      "name": "Myタグ",
+      "file": "categories/my-tags.json",
+      "tagCount": 0
+    },
+    {
+      "id": "quality",
+      "name": "品質",
+      "file": "categories/quality.json",
+      "tagCount": 186
+    },
+    {
+      "id": "character",
+      "name": "キャラ",
+      "file": "categories/character.json",
+      "tagCount": 145
+    },
+    {
+      "id": "composition",
+      "name": "構図",
+      "file": "categories/composition.json",
+      "tagCount": 124
+    },
+    {
+      "id": "style",
+      "name": "スタイル",
+      "file": "categories/style.json",
+      "tagCount": 176
+    },
+    {
+      "id": "lighting",
+      "name": "ライティング",
+      "file": "categories/lighting.json",
+      "tagCount": 55
+    },
+    {
+      "id": "color",
+      "name": "色",
+      "file": "categories/color.json",
+      "tagCount": 168
+    },
+    {
+      "id": "body",
+      "name": "身体",
+      "file": "categories/body.json",
+      "tagCount": 1272
+    },
+    {
+      "id": "action-pose",
+      "name": "動作・姿勢",
+      "file": "categories/action-pose.json",
+      "tagCount": 998
+    },
+    {
+      "id": "clothing",
+      "name": "服飾",
+      "file": "categories/clothing.json",
+      "tagCount": 2186
+    },
+    {
+      "id": "objects",
+      "name": "オブジェクト系",
+      "file": "categories/objects.json",
+      "tagCount": 1509
+    },
+    {
+      "id": "marks-symbols",
+      "name": "マーク・シンボル",
+      "file": "categories/marks-symbols.json",
+      "tagCount": 248
+    },
+    {
+      "id": "fantasy-people-creatures",
+      "name": "幻想人物・生物",
+      "file": "categories/fantasy-people-creatures.json",
+      "tagCount": 204
+    },
+    {
+      "id": "animals-creatures",
+      "name": "動物・生物",
+      "file": "categories/animals-creatures.json",
+      "tagCount": 592
+    },
+    {
+      "id": "plants",
+      "name": "植物",
+      "file": "categories/plants.json",
+      "tagCount": 282
+    },
+    {
+      "id": "food",
+      "name": "食べ物系",
+      "file": "categories/food.json",
+      "tagCount": 958
+    },
+    {
+      "id": "nature-elements",
+      "name": "自然系要素",
+      "file": "categories/nature-elements.json",
+      "tagCount": 118
+    },
+    {
+      "id": "background",
+      "name": "背景",
+      "file": "categories/background.json",
+      "tagCount": 225
+    }
+  ],
+  "search": {
+    "chunks": [
+      {
+        "id": "chunk-001",
+        "file": "search/chunk-001.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-002",
+        "file": "search/chunk-002.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-003",
+        "file": "search/chunk-003.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-004",
+        "file": "search/chunk-004.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-005",
+        "file": "search/chunk-005.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-006",
+        "file": "search/chunk-006.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-007",
+        "file": "search/chunk-007.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-008",
+        "file": "search/chunk-008.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-009",
+        "file": "search/chunk-009.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-010",
+        "file": "search/chunk-010.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-011",
+        "file": "search/chunk-011.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-012",
+        "file": "search/chunk-012.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-013",
+        "file": "search/chunk-013.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-014",
+        "file": "search/chunk-014.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-015",
+        "file": "search/chunk-015.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-016",
+        "file": "search/chunk-016.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-017",
+        "file": "search/chunk-017.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-018",
+        "file": "search/chunk-018.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-019",
+        "file": "search/chunk-019.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-020",
+        "file": "search/chunk-020.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-021",
+        "file": "search/chunk-021.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-022",
+        "file": "search/chunk-022.json",
+        "count": 5000
+      },
+      {
+        "id": "chunk-023",
+        "file": "search/chunk-023.json",
+        "count": 74
+      }
+    ],
+    "totalCount": 110074
+  }
+}

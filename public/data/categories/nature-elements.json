@@ -1,0 +1,1435 @@
+{
+  "id": "nature-elements",
+  "name": "自然系要素",
+  "tagCount": 118,
+  "sections": [
+    {
+      "id": "火",
+      "name": "火",
+      "path": [
+        "火"
+      ],
+      "tagCount": 66,
+      "children": [
+        {
+          "id": "火__火そのもの",
+          "name": "火そのもの",
+          "path": [
+            "火",
+            "火そのもの"
+          ],
+          "tagCount": 17,
+          "tags": [
+            {
+              "id": "nature-elements__火__火そのもの__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "candle",
+              "ja": "キャンドル"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "flare",
+              "ja": "フレア"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "lantern",
+              "ja": "ランタン"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "torch",
+              "ja": "トーチ"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "lava",
+              "ja": "溶岩"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0006",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "sparks",
+              "ja": "火花"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0007",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "no fire",
+              "ja": "火気厳禁"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0008",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "fire",
+              "ja": "火"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0009",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "fireball",
+              "ja": "火の玉"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0010",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "fireworks",
+              "ja": "花火"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0011",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "black fire",
+              "ja": "黒い炎"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0012",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "blue fire",
+              "ja": "青い炎"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0013",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "green fire",
+              "ja": "緑の火"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0014",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "pink fire",
+              "ja": "ピンクの火"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0015",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "purple fire",
+              "ja": "紫色の火"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0016",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "white fire",
+              "ja": "白い火"
+            },
+            {
+              "id": "nature-elements__火__火そのもの__0017",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火そのもの"
+              ],
+              "en": "fireflies",
+              "ja": "ホタル"
+            }
+          ]
+        },
+        {
+          "id": "火__火にまつわる行動-現象",
+          "name": "火にまつわる行動・現象",
+          "path": [
+            "火",
+            "火にまつわる行動・現象"
+          ],
+          "tagCount": 33,
+          "tags": [
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "alcohol burner",
+              "ja": "アルコールバーナー"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "blowtorch",
+              "ja": "バーナー"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "bunsen burner",
+              "ja": "ブンゼンバーナー"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "brazier",
+              "ja": "火鉢"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "fireplace",
+              "ja": "暖炉"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0006",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "furnace",
+              "ja": "炉"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0007",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "gunpowder",
+              "ja": "火薬"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0008",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "grill",
+              "ja": "グリル"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0009",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "lighter",
+              "ja": "ライター"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0010",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "wand lighter",
+              "ja": "ワンドライター"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0011",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "zippo lighter",
+              "ja": "ジッポーライター"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0012",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "matches",
+              "ja": "マッチ"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0013",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "matchbox",
+              "ja": "マッチ箱"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0014",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "oven",
+              "ja": "オーブン"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0015",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "brick oven",
+              "ja": "レンガ窯"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0016",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "stove",
+              "ja": "レンジ"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0017",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "flamethrower",
+              "ja": "火炎放射器"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0018",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "molotov cocktail",
+              "ja": "火炎瓶"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0019",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "thermite grenade",
+              "ja": "テルミット手榴弾"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0020",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "white phosphorus",
+              "ja": "白リン"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0021",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "fire extinguisher",
+              "ja": "消火器"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0022",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "fire hydrant",
+              "ja": "消火栓"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0023",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "campfire",
+              "ja": "キャンプファイヤー"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0024",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "arson",
+              "ja": "放火"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0025",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "burning",
+              "ja": "燃焼"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0026",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "cooking",
+              "ja": "料理"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0027",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "grilling",
+              "ja": "グリル"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0028",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "cremation",
+              "ja": "火葬"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0029",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "explosion",
+              "ja": "爆発"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0030",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "firemaking",
+              "ja": "火起こし"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0031",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "flaring",
+              "ja": "フレアリング"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0032",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "smoking",
+              "ja": "喫煙"
+            },
+            {
+              "id": "nature-elements__火__火にまつわる行動-現象__0033",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火にまつわる行動・現象"
+              ],
+              "en": "wildfire",
+              "ja": "山火事"
+            }
+          ]
+        },
+        {
+          "id": "火__火の影響を受けた対象",
+          "name": "火の影響を受けた対象",
+          "path": [
+            "火",
+            "火の影響を受けた対象"
+          ],
+          "tagCount": 5,
+          "tags": [
+            {
+              "id": "nature-elements__火__火の影響を受けた対象__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火の影響を受けた対象"
+              ],
+              "en": "charcoal",
+              "ja": "木炭"
+            },
+            {
+              "id": "nature-elements__火__火の影響を受けた対象__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火の影響を受けた対象"
+              ],
+              "en": "coal",
+              "ja": "石炭"
+            },
+            {
+              "id": "nature-elements__火__火の影響を受けた対象__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火の影響を受けた対象"
+              ],
+              "en": "burn scar",
+              "ja": "火傷の跡"
+            },
+            {
+              "id": "nature-elements__火__火の影響を受けた対象__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火の影響を受けた対象"
+              ],
+              "en": "burning building",
+              "ja": "燃えている建物"
+            },
+            {
+              "id": "nature-elements__火__火の影響を受けた対象__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火の影響を受けた対象"
+              ],
+              "en": "burning photo",
+              "ja": "燃えている写真"
+            }
+          ]
+        },
+        {
+          "id": "火__火の能力-魔法",
+          "name": "火の能力・魔法",
+          "path": [
+            "火",
+            "火の能力・魔法"
+          ],
+          "tagCount": 1,
+          "tags": [
+            {
+              "id": "nature-elements__火__火の能力-魔法__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火の能力・魔法"
+              ],
+              "en": "pyrokinesis",
+              "ja": "パイロキネシス"
+            }
+          ]
+        },
+        {
+          "id": "火__火をまとう存在-装飾",
+          "name": "火をまとう存在・装飾",
+          "path": [
+            "火",
+            "火をまとう存在・装飾"
+          ],
+          "tagCount": 10,
+          "tags": [
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "flammable symbol",
+              "ja": "可燃性シンボル"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "flame print",
+              "ja": "炎のプリント"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "fire flower",
+              "ja": "火の花"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "fire body",
+              "ja": "火体"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "fire on chest",
+              "ja": "胸に火"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0006",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "fiery hair",
+              "ja": "燃えるような髪"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0007",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "fiery tail",
+              "ja": "燃える尾"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0008",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "fiery wings",
+              "ja": "燃える翼"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0009",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "flame-tipped tail",
+              "ja": "炎の先端を持つ尾"
+            },
+            {
+              "id": "nature-elements__火__火をまとう存在-装飾__0010",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "火",
+                "火をまとう存在・装飾"
+              ],
+              "en": "breathing fire",
+              "ja": "火を吐く"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "水",
+      "name": "水",
+      "path": [
+        "水"
+      ],
+      "tagCount": 52,
+      "children": [
+        {
+          "id": "水__水そのもの",
+          "name": "水そのもの",
+          "path": [
+            "水",
+            "水そのもの"
+          ],
+          "tagCount": 6,
+          "tags": [
+            {
+              "id": "nature-elements__水__水そのもの__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水そのもの"
+              ],
+              "en": "water",
+              "ja": "水"
+            },
+            {
+              "id": "nature-elements__水__水そのもの__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水そのもの"
+              ],
+              "en": "steam",
+              "ja": "スチーム"
+            },
+            {
+              "id": "nature-elements__水__水そのもの__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水そのもの"
+              ],
+              "en": "ice",
+              "ja": "氷"
+            },
+            {
+              "id": "nature-elements__水__水そのもの__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水そのもの"
+              ],
+              "en": "underwater",
+              "ja": "水中"
+            },
+            {
+              "id": "nature-elements__水__水そのもの__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水そのもの"
+              ],
+              "en": "rain",
+              "ja": "雨"
+            },
+            {
+              "id": "nature-elements__水__水そのもの__0006",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水そのもの"
+              ],
+              "en": "snow",
+              "ja": "雪"
+            }
+          ]
+        },
+        {
+          "id": "水__濡れ-水による状態",
+          "name": "濡れ・水による状態",
+          "path": [
+            "水",
+            "濡れ・水による状態"
+          ],
+          "tagCount": 15,
+          "tags": [
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet",
+              "ja": "濡れた"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet clothes",
+              "ja": "濡れた服"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet dress",
+              "ja": "濡れたドレス"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet skirt",
+              "ja": "濡れたスカート"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet shirt",
+              "ja": "濡れたシャツ"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0006",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet panties",
+              "ja": "濡れたパンティー"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0007",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet swimsuit",
+              "ja": "濡れた水着"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0008",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet towel",
+              "ja": "濡れたタオル"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0009",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wet hair",
+              "ja": "濡れた髪"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0010",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "showering",
+              "ja": "シャワー"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0011",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "spilling",
+              "ja": "こぼれる"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0012",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "splashing",
+              "ja": "水しぶき"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0013",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "wading",
+              "ja": "水遊び"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0014",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "washing",
+              "ja": "洗浄"
+            },
+            {
+              "id": "nature-elements__水__濡れ-水による状態__0015",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "濡れ・水による状態"
+              ],
+              "en": "drinking",
+              "ja": "飲酒"
+            }
+          ]
+        },
+        {
+          "id": "水__水をまとう存在-装飾",
+          "name": "水をまとう存在・装飾",
+          "path": [
+            "水",
+            "水をまとう存在・装飾"
+          ],
+          "tagCount": 10,
+          "tags": [
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "ice sculpture",
+              "ja": "氷の彫刻"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "ice flower",
+              "ja": "氷の花"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "bikini",
+              "ja": "ビキニ"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "goggles",
+              "ja": "ゴーグル"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "swimsuit",
+              "ja": "水着"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0006",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "bottle",
+              "ja": "ボトル"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0007",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "cup",
+              "ja": "カップ"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0008",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "mug",
+              "ja": "マグ"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0009",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "glass",
+              "ja": "ガラス"
+            },
+            {
+              "id": "nature-elements__水__水をまとう存在-装飾__0010",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水をまとう存在・装飾"
+              ],
+              "en": "umbrella",
+              "ja": "傘"
+            }
+          ]
+        },
+        {
+          "id": "水__水辺-環境-乗り物",
+          "name": "水辺・環境・乗り物",
+          "path": [
+            "水",
+            "水辺・環境・乗り物"
+          ],
+          "tagCount": 20,
+          "tags": [
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "lake",
+              "ja": "湖"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0002",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "ocean",
+              "ja": "海"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0003",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "river",
+              "ja": "川"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0004",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "stream",
+              "ja": "ストリーム"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0005",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "beach",
+              "ja": "ビーチ"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0006",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "island",
+              "ja": "島"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0007",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "boat",
+              "ja": "ボート"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0008",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "rowboat",
+              "ja": "手漕ぎボート"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0009",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "sailboat",
+              "ja": "ヨット"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0010",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "ship",
+              "ja": "船"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0011",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "battleship",
+              "ja": "戦艦"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0012",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "submarine",
+              "ja": "潜水艦"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0013",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "bath",
+              "ja": "バス"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0014",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "bathtub",
+              "ja": "バスタブ"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0015",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "mixed-sex bathing",
+              "ja": "混浴"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0016",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "freediving",
+              "ja": "フリーダイビング"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0017",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "pool",
+              "ja": "プール"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0018",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "poolside",
+              "ja": "プールサイド"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0019",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "shower (place)",
+              "ja": "シャワー（場所）"
+            },
+            {
+              "id": "nature-elements__水__水辺-環境-乗り物__0020",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水辺・環境・乗り物"
+              ],
+              "en": "swimming",
+              "ja": "水泳"
+            }
+          ]
+        },
+        {
+          "id": "水__水の能力-魔法",
+          "name": "水の能力・魔法",
+          "path": [
+            "水",
+            "水の能力・魔法"
+          ],
+          "tagCount": 1,
+          "tags": [
+            {
+              "id": "nature-elements__水__水の能力-魔法__0001",
+              "categoryId": "nature-elements",
+              "categoryName": "自然系要素",
+              "path": [
+                "水",
+                "水の能力・魔法"
+              ],
+              "en": "hydrokinesis",
+              "ja": "ハイドロキネシス"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6395 @@
+{
+  "id": "animals-creatures",
+  "name": "動物・生物",
+  "tagCount": 592,
+  "sections": [
+    {
+      "id": "虫",
+      "name": "虫",
+      "path": [
+        "虫"
+      ],
+      "tagCount": 30,
+      "tags": [
+        {
+          "id": "animals-creatures__虫__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "bug",
+          "ja": "虫"
+        },
+        {
+          "id": "animals-creatures__虫__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "ant",
+          "ja": "アリ"
+        },
+        {
+          "id": "animals-creatures__虫__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "bee",
+          "ja": "蜂"
+        },
+        {
+          "id": "animals-creatures__虫__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "beetle",
+          "ja": "甲虫"
+        },
+        {
+          "id": "animals-creatures__虫__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "butterfly",
+          "ja": "蝶"
+        },
+        {
+          "id": "animals-creatures__虫__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "caterpillar",
+          "ja": "毛虫"
+        },
+        {
+          "id": "animals-creatures__虫__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "centipede",
+          "ja": "ムカデ"
+        },
+        {
+          "id": "animals-creatures__虫__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "cicada",
+          "ja": "蝉"
+        },
+        {
+          "id": "animals-creatures__虫__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "cockroach",
+          "ja": "ゴキブリ"
+        },
+        {
+          "id": "animals-creatures__虫__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "cricket",
+          "ja": "クリケット"
+        },
+        {
+          "id": "animals-creatures__虫__0011",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "cave cricket",
+          "ja": "洞窟コオロギ"
+        },
+        {
+          "id": "animals-creatures__虫__0012",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "dragonfly",
+          "ja": "トンボ"
+        },
+        {
+          "id": "animals-creatures__虫__0013",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "firefly",
+          "ja": "ホタル"
+        },
+        {
+          "id": "animals-creatures__虫__0014",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "fireflies",
+          "ja": "ホタル"
+        },
+        {
+          "id": "animals-creatures__虫__0015",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "fly",
+          "ja": "飛ぶ"
+        },
+        {
+          "id": "animals-creatures__虫__0016",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "grasshopper",
+          "ja": "バッタ"
+        },
+        {
+          "id": "animals-creatures__虫__0017",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "ladybug",
+          "ja": "てんとう虫"
+        },
+        {
+          "id": "animals-creatures__虫__0018",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "leucochloridium paradoxum",
+          "ja": "ロイコクロリジウム・パラドクスム"
+        },
+        {
+          "id": "animals-creatures__虫__0019",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "millipede",
+          "ja": "ヤスデ"
+        },
+        {
+          "id": "animals-creatures__虫__0020",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "mosquito",
+          "ja": "蚊"
+        },
+        {
+          "id": "animals-creatures__虫__0021",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "moth",
+          "ja": "蛾"
+        },
+        {
+          "id": "animals-creatures__虫__0022",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "pillbug",
+          "ja": "ダンゴムシ"
+        },
+        {
+          "id": "animals-creatures__虫__0023",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "wasp",
+          "ja": "スズメバチ"
+        },
+        {
+          "id": "animals-creatures__虫__0024",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "arachnid",
+          "ja": "クモ類"
+        },
+        {
+          "id": "animals-creatures__虫__0025",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "spider",
+          "ja": "スパイダー"
+        },
+        {
+          "id": "animals-creatures__虫__0026",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "scorpion",
+          "ja": "サソリ"
+        },
+        {
+          "id": "animals-creatures__虫__0027",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "camel spider",
+          "ja": "ラクダグモ"
+        },
+        {
+          "id": "animals-creatures__虫__0028",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "amblypygi",
+          "ja": "弱視"
+        },
+        {
+          "id": "animals-creatures__虫__0029",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "larva",
+          "ja": "幼虫"
+        },
+        {
+          "id": "animals-creatures__虫__0030",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "虫"
+          ],
+          "en": "maggot",
+          "ja": "ウジ虫"
+        }
+      ]
+    },
+    {
+      "id": "鳥",
+      "name": "鳥",
+      "path": [
+        "鳥"
+      ],
+      "tagCount": 231,
+      "tags": [
+        {
+          "id": "animals-creatures__鳥__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "bird",
+          "ja": "鳥"
+        },
+        {
+          "id": "animals-creatures__鳥__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "albatross",
+          "ja": "アルバトロス"
+        },
+        {
+          "id": "animals-creatures__鳥__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "southern royal albatross",
+          "ja": "ミナミオオアホウドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "barred buttonquail",
+          "ja": "縞ボタンウズラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "bittern",
+          "ja": "にがり"
+        },
+        {
+          "id": "animals-creatures__鳥__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "yellow bittern",
+          "ja": "キビタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "blue jay",
+          "ja": "アオカケス"
+        },
+        {
+          "id": "animals-creatures__鳥__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "bluebird",
+          "ja": "青い鳥"
+        },
+        {
+          "id": "animals-creatures__鳥__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "blue-footed booby",
+          "ja": "アオアシカツオドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "brown-eared bulbul",
+          "ja": "ヒヨドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0011",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "bustards",
+          "ja": "ノガン"
+        },
+        {
+          "id": "animals-creatures__鳥__0012",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "kori bustard",
+          "ja": "コリノガン"
+        },
+        {
+          "id": "animals-creatures__鳥__0013",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "cardinal (animal)",
+          "ja": "カーディナル（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0014",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "northern cardinal",
+          "ja": "ノーザンカーディナル"
+        },
+        {
+          "id": "animals-creatures__鳥__0015",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "chick",
+          "ja": "ひよこ"
+        },
+        {
+          "id": "animals-creatures__鳥__0016",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "chicken",
+          "ja": "チキン"
+        },
+        {
+          "id": "animals-creatures__鳥__0017",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "rooster",
+          "ja": "雄鶏"
+        },
+        {
+          "id": "animals-creatures__鳥__0018",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "condor",
+          "ja": "コンドル"
+        },
+        {
+          "id": "animals-creatures__鳥__0019",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "andean condor",
+          "ja": "アンデスコンドル"
+        },
+        {
+          "id": "animals-creatures__鳥__0020",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "cormorant",
+          "ja": "鵜"
+        },
+        {
+          "id": "animals-creatures__鳥__0021",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "crane (animal)",
+          "ja": "鶴（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0022",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black crowned crane",
+          "ja": "クロカンムリヅル"
+        },
+        {
+          "id": "animals-creatures__鳥__0023",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "grey crowned crane",
+          "ja": "ハイイロカンムリヅル"
+        },
+        {
+          "id": "animals-creatures__鳥__0024",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "red-crowned crane",
+          "ja": "タンチョウヅル"
+        },
+        {
+          "id": "animals-creatures__鳥__0025",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "siberian crane",
+          "ja": "シベリアヅル"
+        },
+        {
+          "id": "animals-creatures__鳥__0026",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "crow",
+          "ja": "カラス"
+        },
+        {
+          "id": "animals-creatures__鳥__0027",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "carrion crow",
+          "ja": "腐肉を食べるカラス"
+        },
+        {
+          "id": "animals-creatures__鳥__0028",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "hooded crow",
+          "ja": "フード付きカラス"
+        },
+        {
+          "id": "animals-creatures__鳥__0029",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "cuckoo",
+          "ja": "カッコウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0030",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "duck",
+          "ja": "アヒル"
+        },
+        {
+          "id": "animals-creatures__鳥__0031",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "duckling",
+          "ja": "アヒルの子"
+        },
+        {
+          "id": "animals-creatures__鳥__0032",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "mallard",
+          "ja": "マガモ"
+        },
+        {
+          "id": "animals-creatures__鳥__0033",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "dusky thrush",
+          "ja": "ツグミ"
+        },
+        {
+          "id": "animals-creatures__鳥__0034",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "dusky warbler",
+          "ja": "ムシクイ"
+        },
+        {
+          "id": "animals-creatures__鳥__0035",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "eagle",
+          "ja": "イーグル"
+        },
+        {
+          "id": "animals-creatures__鳥__0036",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "bald eagle",
+          "ja": "ハクトウワシ"
+        },
+        {
+          "id": "animals-creatures__鳥__0037",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "†haast's eagle",
+          "ja": "†ハーストの鷲"
+        },
+        {
+          "id": "animals-creatures__鳥__0038",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "egret (animal)",
+          "ja": "サギ（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0039",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "little egret",
+          "ja": "コサギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0040",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "falcon",
+          "ja": "ハヤブサ"
+        },
+        {
+          "id": "animals-creatures__鳥__0041",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "peregrine falcon",
+          "ja": "ハヤブサ"
+        },
+        {
+          "id": "animals-creatures__鳥__0042",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "finch",
+          "ja": "フィンチ"
+        },
+        {
+          "id": "animals-creatures__鳥__0043",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "eurasian bullfinch",
+          "ja": "ウソ"
+        },
+        {
+          "id": "animals-creatures__鳥__0044",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese grosbeak",
+          "ja": "アトリ科"
+        },
+        {
+          "id": "animals-creatures__鳥__0045",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "double-barred finch",
+          "ja": "ダブルバードフィンチ"
+        },
+        {
+          "id": "animals-creatures__鳥__0046",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "gouldian finch",
+          "ja": "コキンチョウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0047",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "java sparrow",
+          "ja": "文鳥"
+        },
+        {
+          "id": "animals-creatures__鳥__0048",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "zebra finch",
+          "ja": "キンカチョウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0049",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "flamingo",
+          "ja": "フラミンゴ"
+        },
+        {
+          "id": "animals-creatures__鳥__0050",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "frogmouth",
+          "ja": "ガマグチヨタカ"
+        },
+        {
+          "id": "animals-creatures__鳥__0051",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "flycatcher (animal)",
+          "ja": "ヒタキ（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0052",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "blue-and-white flycatcher",
+          "ja": "オオルリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0053",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "hill blue flycatcher",
+          "ja": "ヒルブルーヒタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0054",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "narcissus flycatcher",
+          "ja": "キビタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0055",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "verditer flycatcher",
+          "ja": "ベニヒタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0056",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "yellow-rumped flycatcher",
+          "ja": "キオビヒタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0057",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "goose",
+          "ja": "ガチョウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0058",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "greater white-fronted goose",
+          "ja": "オオマガン"
+        },
+        {
+          "id": "animals-creatures__鳥__0059",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "canada goose",
+          "ja": "カナダグース"
+        },
+        {
+          "id": "animals-creatures__鳥__0060",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "seagull",
+          "ja": "カモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0061",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "audouin's gull",
+          "ja": "オードゥアンカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0062",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "belchers's gull",
+          "ja": "ベルチャーズカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0063",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-billed gull",
+          "ja": "カモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0064",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-headed gull",
+          "ja": "ユリカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0065",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-tailed gull",
+          "ja": "ウミネコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0066",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "california gull",
+          "ja": "カリフォルニアカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0067",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "glaucous gull",
+          "ja": "オオカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0068",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "great black-backed gull",
+          "ja": "オオカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0069",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "grey gull",
+          "ja": "カモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0070",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "grey-headed gull",
+          "ja": "ハイガモ"
+        },
+        {
+          "id": "animals-creatures__鳥__0071",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "heermann's gull",
+          "ja": "ヒメカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0072",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "herring gull",
+          "ja": "セグロカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0073",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "ivory gull",
+          "ja": "ハジロカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0074",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "lava gull",
+          "ja": "溶岩カモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0075",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "little gull",
+          "ja": "小さなカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0076",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "mediterranean gull",
+          "ja": "地中海カモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0077",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "pallas's gull",
+          "ja": "オオカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0078",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "ring-billed gull",
+          "ja": "ハシブトカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0079",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "ross's gull",
+          "ja": "ロスカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0080",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "sabine's gull",
+          "ja": "サビヌカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0081",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "slaty-backed gull",
+          "ja": "オオセグロカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0082",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "sooty gull",
+          "ja": "ススカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0083",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "swallow-tailed gull",
+          "ja": "アゲハ尾カモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0084",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "vega gull",
+          "ja": "ベガガル"
+        },
+        {
+          "id": "animals-creatures__鳥__0085",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "white-eyed gull",
+          "ja": "メジロカモメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0086",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "hawk",
+          "ja": "鷹"
+        },
+        {
+          "id": "animals-creatures__鳥__0087",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "goshawk",
+          "ja": "オオタカ"
+        },
+        {
+          "id": "animals-creatures__鳥__0088",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese sparrowhawk",
+          "ja": "ハイタカ"
+        },
+        {
+          "id": "animals-creatures__鳥__0089",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "harris's hawk",
+          "ja": "ハリスホーク"
+        },
+        {
+          "id": "animals-creatures__鳥__0090",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "heron",
+          "ja": "サギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0091",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "chinese pond heron",
+          "ja": "中国の池のサギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0092",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "great blue heron",
+          "ja": "オオアオサギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0093",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "grey heron",
+          "ja": "アオサギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0094",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "striated heron",
+          "ja": "縞サギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0095",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "hummingbird",
+          "ja": "ハチドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0096",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese bush warbler",
+          "ja": "ウグイス"
+        },
+        {
+          "id": "animals-creatures__鳥__0097",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese white-eye",
+          "ja": "メジロ"
+        },
+        {
+          "id": "animals-creatures__鳥__0098",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "kingfisher",
+          "ja": "カワセミ"
+        },
+        {
+          "id": "animals-creatures__鳥__0099",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "common kingfisher",
+          "ja": "カワセミ"
+        },
+        {
+          "id": "animals-creatures__鳥__0100",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "crested kingfisher",
+          "ja": "カワセミ"
+        },
+        {
+          "id": "animals-creatures__鳥__0101",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "kookaburra",
+          "ja": "ワライカワセミ"
+        },
+        {
+          "id": "animals-creatures__鳥__0102",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "lilac-breasted roller",
+          "ja": "ライラックニシブッポウソウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0103",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "long-tailed widowbird",
+          "ja": "オナガゴメドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0104",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "magpie",
+          "ja": "カササギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0105",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "azure-winged magpie",
+          "ja": "ルリカササギ"
+        },
+        {
+          "id": "animals-creatures__鳥__0106",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-throated magpie-jay",
+          "ja": "ノドグロカケス"
+        },
+        {
+          "id": "animals-creatures__鳥__0107",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "taiwan blue magpie",
+          "ja": "タイワンアオカケス"
+        },
+        {
+          "id": "animals-creatures__鳥__0108",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "meadow bunting",
+          "ja": "メドウホオジロ"
+        },
+        {
+          "id": "animals-creatures__鳥__0109",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "nightingale (bird)",
+          "ja": "ナイチンゲール（鳥）"
+        },
+        {
+          "id": "animals-creatures__鳥__0110",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "northern lapwing",
+          "ja": "タゲリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0111",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "nuthatch",
+          "ja": "ゴジュウカラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0112",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "oriental dollarbird",
+          "ja": "オリエンタルドルバード"
+        },
+        {
+          "id": "animals-creatures__鳥__0113",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "oriole",
+          "ja": "オリオール"
+        },
+        {
+          "id": "animals-creatures__鳥__0114",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-headed oriole",
+          "ja": "コウライウグイス"
+        },
+        {
+          "id": "animals-creatures__鳥__0115",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-naped oriole",
+          "ja": "コウライウグイス"
+        },
+        {
+          "id": "animals-creatures__鳥__0116",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "bullock's oriole",
+          "ja": "ウグイス"
+        },
+        {
+          "id": "animals-creatures__鳥__0117",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "osprey",
+          "ja": "ミサゴ"
+        },
+        {
+          "id": "animals-creatures__鳥__0118",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "ratites",
+          "ja": "走鳥類"
+        },
+        {
+          "id": "animals-creatures__鳥__0119",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "cassowary",
+          "ja": "ヒクイドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0120",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "southern cassowary",
+          "ja": "ヒクイドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0121",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "emu",
+          "ja": "エミュー"
+        },
+        {
+          "id": "animals-creatures__鳥__0122",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "moa (animal)",
+          "ja": "モア（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0123",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "south island giant moa",
+          "ja": "南島の巨大モア"
+        },
+        {
+          "id": "animals-creatures__鳥__0124",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "kiwi",
+          "ja": "キウイ"
+        },
+        {
+          "id": "animals-creatures__鳥__0125",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "southern brown kiwi",
+          "ja": "サザンブラウンキーウィ"
+        },
+        {
+          "id": "animals-creatures__鳥__0126",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "ostrich",
+          "ja": "ダチョウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0127",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "owl",
+          "ja": "フクロウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0128",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "barn owl",
+          "ja": "メンフクロウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0129",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "burrowing owl",
+          "ja": "アナホリフクロウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0130",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "snowy owl",
+          "ja": "シロフクロウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0131",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "southern boobook",
+          "ja": "南部ブーブー"
+        },
+        {
+          "id": "animals-creatures__鳥__0132",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "parakeet",
+          "ja": "インコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0133",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "golden parakeet",
+          "ja": "ゴールデンインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0134",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "jandaya parakeet",
+          "ja": "ジャンダヤインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0135",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "rose-ringed parakeet",
+          "ja": "バラ色のインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0136",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "parrot",
+          "ja": "オウム"
+        },
+        {
+          "id": "animals-creatures__鳥__0137",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "african grey parrot",
+          "ja": "ヨウム"
+        },
+        {
+          "id": "animals-creatures__鳥__0138",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-headed parrot",
+          "ja": "クロガシラオウム"
+        },
+        {
+          "id": "animals-creatures__鳥__0139",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "cockatiel",
+          "ja": "オカメインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0140",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "cockatoo",
+          "ja": "オウム"
+        },
+        {
+          "id": "animals-creatures__鳥__0141",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "blue-eyed cockatoo",
+          "ja": "青い目のオウム"
+        },
+        {
+          "id": "animals-creatures__鳥__0142",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "major mitchell's cockatoo",
+          "ja": "メジャーミッチェルオウム"
+        },
+        {
+          "id": "animals-creatures__鳥__0143",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "palm cockatoo",
+          "ja": "ヤシオウム"
+        },
+        {
+          "id": "animals-creatures__鳥__0144",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "sulphur-crested cockatoo",
+          "ja": "キバタン"
+        },
+        {
+          "id": "animals-creatures__鳥__0145",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "yellowtip cockatoo",
+          "ja": "キバタン"
+        },
+        {
+          "id": "animals-creatures__鳥__0146",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "eclectus parrot",
+          "ja": "オオハナインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0147",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "kakapo",
+          "ja": "カカポ"
+        },
+        {
+          "id": "animals-creatures__鳥__0148",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "kea (animal)",
+          "ja": "ケア（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0149",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "lovebird",
+          "ja": "ラブバード"
+        },
+        {
+          "id": "animals-creatures__鳥__0150",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "macaw",
+          "ja": "コンゴウインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0151",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "blue-and-yellow macaw",
+          "ja": "ルリコンゴウインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0152",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "hyacinth macaw",
+          "ja": "スミレコンゴウインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0153",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "red-and-green macaw",
+          "ja": "赤と緑のコンゴウインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0154",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "scarlet macaw",
+          "ja": "アカコンゴウインコ"
+        },
+        {
+          "id": "animals-creatures__鳥__0155",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "pacific parrotlet",
+          "ja": "パシフィックパロットレット"
+        },
+        {
+          "id": "animals-creatures__鳥__0156",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "yellow-headed amazon",
+          "ja": "キガシラアマゾン"
+        },
+        {
+          "id": "animals-creatures__鳥__0157",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "peacock",
+          "ja": "孔雀"
+        },
+        {
+          "id": "animals-creatures__鳥__0158",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "pelican",
+          "ja": "ペリカン"
+        },
+        {
+          "id": "animals-creatures__鳥__0159",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "penguin",
+          "ja": "ペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0160",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "adelie penguin",
+          "ja": "アデリーペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0161",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "african penguin",
+          "ja": "アフリカペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0162",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "emperor penguin",
+          "ja": "皇帝ペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0163",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "fiordland penguin",
+          "ja": "フィヨルドランドペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0164",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "galapagos penguin",
+          "ja": "ガラパゴスペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0165",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "humboldt penguin",
+          "ja": "フンボルトペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0166",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "little penguin",
+          "ja": "小さなペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0167",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "rockhopper penguin",
+          "ja": "イワトビペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0168",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "yellow-eyed penguin",
+          "ja": "キバシリペンギン"
+        },
+        {
+          "id": "animals-creatures__鳥__0169",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "palaeeudyptinae",
+          "ja": "palaeeudyptinae"
+        },
+        {
+          "id": "animals-creatures__鳥__0170",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "anthropornis",
+          "ja": "アントロポルニス"
+        },
+        {
+          "id": "animals-creatures__鳥__0171",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "pheasant",
+          "ja": "キジ"
+        },
+        {
+          "id": "animals-creatures__鳥__0172",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "copper pheasant",
+          "ja": "銅雉"
+        },
+        {
+          "id": "animals-creatures__鳥__0173",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "ijima copper pheasant",
+          "ja": "イジマヤマキジ"
+        },
+        {
+          "id": "animals-creatures__鳥__0174",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "golden pheasant",
+          "ja": "キジ"
+        },
+        {
+          "id": "animals-creatures__鳥__0175",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "green pheasant",
+          "ja": "キジ"
+        },
+        {
+          "id": "animals-creatures__鳥__0176",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "lady amherst's pheasant",
+          "ja": "レディ・アマーストのキジ"
+        },
+        {
+          "id": "animals-creatures__鳥__0177",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "pheasant-tailed jacana",
+          "ja": "キジバト"
+        },
+        {
+          "id": "animals-creatures__鳥__0178",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "pigeon",
+          "ja": "鳩"
+        },
+        {
+          "id": "animals-creatures__鳥__0179",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "dove",
+          "ja": "鳩"
+        },
+        {
+          "id": "animals-creatures__鳥__0180",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "dodo (bird)",
+          "ja": "ドードー（鳥）"
+        },
+        {
+          "id": "animals-creatures__鳥__0181",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "fantail pigeon",
+          "ja": "オオバト"
+        },
+        {
+          "id": "animals-creatures__鳥__0182",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "passenger pigeon",
+          "ja": "リョコウバト"
+        },
+        {
+          "id": "animals-creatures__鳥__0183",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "victoria_crowned_pigeon",
+          "ja": "ビクトリア冠鳩"
+        },
+        {
+          "id": "animals-creatures__鳥__0184",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "white-bellied green pigeon",
+          "ja": "白腹の緑鳩"
+        },
+        {
+          "id": "animals-creatures__鳥__0185",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "plover (animal)",
+          "ja": "チドリ（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0186",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "little ringed plover",
+          "ja": "コチドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0187",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "potoo",
+          "ja": "ポトゥー"
+        },
+        {
+          "id": "animals-creatures__鳥__0188",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "puffin",
+          "ja": "ツノメドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0189",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "quail",
+          "ja": "ウズラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0190",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "barred_buttonquail",
+          "ja": "縞ボタンウズラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0191",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese quail",
+          "ja": "ウズラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0192",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "raggiana bird-of-paradise",
+          "ja": "ラギアナ極楽鳥"
+        },
+        {
+          "id": "animals-creatures__鳥__0193",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "red-flanked bluetail",
+          "ja": "ルリビタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0194",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "blue-fronted redstart",
+          "ja": "アオジョウビタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0195",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "daurian redstart",
+          "ja": "ジョウビタキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0196",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "resplendent quetzal",
+          "ja": "輝くケツァール"
+        },
+        {
+          "id": "animals-creatures__鳥__0197",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "robin (animal)",
+          "ja": "コマドリ（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0198",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese robin",
+          "ja": "コマドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0199",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "roadrunner (animal)",
+          "ja": "ロードランナー（動物）"
+        },
+        {
+          "id": "animals-creatures__鳥__0200",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "ryukyu minivet",
+          "ja": "琉球ミニベット"
+        },
+        {
+          "id": "animals-creatures__鳥__0201",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "secretarybird",
+          "ja": "ヘビウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0202",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "shoebill",
+          "ja": "ハシビロコウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0203",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "siberian rubythroat",
+          "ja": "シベリアルビースロート"
+        },
+        {
+          "id": "animals-creatures__鳥__0204",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "sparrow",
+          "ja": "スズメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0205",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "eurasian tree sparrow",
+          "ja": "スズメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0206",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "house sparrow",
+          "ja": "スズメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0207",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "stork",
+          "ja": "コウノトリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0208",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "oriental stork",
+          "ja": "コウノトリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0209",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "swallow",
+          "ja": "飲み込む"
+        },
+        {
+          "id": "animals-creatures__鳥__0210",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "tree swallow",
+          "ja": "ツバメ"
+        },
+        {
+          "id": "animals-creatures__鳥__0211",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "swan",
+          "ja": "白鳥"
+        },
+        {
+          "id": "animals-creatures__鳥__0212",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black swan (bird)",
+          "ja": "黒い白鳥（鳥）"
+        },
+        {
+          "id": "animals-creatures__鳥__0213",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "mute swan",
+          "ja": "コブハクチョウ"
+        },
+        {
+          "id": "animals-creatures__鳥__0214",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "takahe",
+          "ja": "タカヘ"
+        },
+        {
+          "id": "animals-creatures__鳥__0215",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "tit birds",
+          "ja": "シジュウカラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0216",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "great tit",
+          "ja": "シジュウカラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0217",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese tit",
+          "ja": "シジュウカラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0218",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "long-tailed tit",
+          "ja": "エナガ"
+        },
+        {
+          "id": "animals-creatures__鳥__0219",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "tomtit",
+          "ja": "トムティット"
+        },
+        {
+          "id": "animals-creatures__鳥__0220",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "toucan",
+          "ja": "オオハシ"
+        },
+        {
+          "id": "animals-creatures__鳥__0221",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "vulture",
+          "ja": "ハゲワシ"
+        },
+        {
+          "id": "animals-creatures__鳥__0222",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "black-backed wagtail",
+          "ja": "セグロセキレイ"
+        },
+        {
+          "id": "animals-creatures__鳥__0223",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "grey wagtail",
+          "ja": "キセキレイ"
+        },
+        {
+          "id": "animals-creatures__鳥__0224",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "white wagtail",
+          "ja": "ハクセキレイ"
+        },
+        {
+          "id": "animals-creatures__鳥__0225",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "japanese wagtail",
+          "ja": "セキレイ"
+        },
+        {
+          "id": "animals-creatures__鳥__0226",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "white-bellied go-away-bird",
+          "ja": "シロハラヒバリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0227",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "white-cheeked starling",
+          "ja": "シロホシムクドリ"
+        },
+        {
+          "id": "animals-creatures__鳥__0228",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "woodpecker",
+          "ja": "キツツキ"
+        },
+        {
+          "id": "animals-creatures__鳥__0229",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "great spotted woodpecker",
+          "ja": "アカゲラ"
+        },
+        {
+          "id": "animals-creatures__鳥__0230",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "fenghuang",
+          "ja": "鳳凰"
+        },
+        {
+          "id": "animals-creatures__鳥__0231",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "鳥"
+          ],
+          "en": "phoenix",
+          "ja": "フェニックス"
+        }
+      ]
+    },
+    {
+      "id": "ネコ",
+      "name": "ネコ",
+      "path": [
+        "ネコ"
+      ],
+      "tagCount": 143,
+      "children": [
+        {
+          "id": "ネコ__タイフ",
+          "name": "タイプ",
+          "path": [
+            "ネコ",
+            "タイプ"
+          ],
+          "tagCount": 8,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__タイフ__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "cat",
+              "ja": "猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__タイフ__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "black cat",
+              "ja": "黒猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__タイフ__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "black panther",
+              "ja": "ブラックパンサー"
+            },
+            {
+              "id": "animals-creatures__ネコ__タイフ__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "kitten",
+              "ja": "子猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__タイフ__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "cheetah",
+              "ja": "チーター"
+            },
+            {
+              "id": "animals-creatures__ネコ__タイフ__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "leopard",
+              "ja": "ヒョウ"
+            },
+            {
+              "id": "animals-creatures__ネコ__タイフ__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "lion",
+              "ja": "ライオン"
+            },
+            {
+              "id": "animals-creatures__ネコ__タイフ__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "タイプ"
+              ],
+              "en": "tiger",
+              "ja": "虎"
+            }
+          ]
+        },
+        {
+          "id": "ネコ__猫種-模様",
+          "name": "猫種・模様",
+          "path": [
+            "ネコ",
+            "猫種・模様"
+          ],
+          "tagCount": 24,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "american curl",
+              "ja": "アメリカンカール"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "american shorthair",
+              "ja": "アメリカンショートヘア"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "bengal cat",
+              "ja": "ベンガル猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "bombay cat",
+              "ja": "ボンベイ猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "british shorthair",
+              "ja": "ブリティッシュショートヘア"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "golden british shorthair",
+              "ja": "ゴールデンブリティッシュショートヘア"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "dragon li cat",
+              "ja": "ドラゴンリーキャット"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "exotic shorthair",
+              "ja": "エキゾチックショートヘア"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "maine coon",
+              "ja": "メインクーン"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "munchkin cat",
+              "ja": "マンチカン猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "norwegian forest cat",
+              "ja": "ノルウェージャンフォレストキャット"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "persian cat",
+              "ja": "ペルシャ猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0013",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "ragdoll",
+              "ja": "ラグドール"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0014",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "russian blue cat",
+              "ja": "ロシアンブルーの猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0015",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "scottish fold",
+              "ja": "スコティッシュフォールド"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0016",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "siamese cat",
+              "ja": "シャム猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0017",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "siberian forest cat",
+              "ja": "シベリアの森の猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0018",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "somali cat",
+              "ja": "ソマリ猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0019",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "sphynx cat",
+              "ja": "スフィンクス猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0020",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "calico",
+              "ja": "カリコ"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0021",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "calico cat",
+              "ja": "三毛猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0022",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "tortoiseshell cat",
+              "ja": "三毛猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0023",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "tuxedo cat",
+              "ja": "タキシード猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__猫種-模様__0024",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "猫種・模様"
+              ],
+              "en": "tabby cat",
+              "ja": "トラ猫"
+            }
+          ]
+        },
+        {
+          "id": "ネコ__ネコの動作",
+          "name": "ネコの動作",
+          "path": [
+            "ネコ",
+            "ネコの動作"
+          ],
+          "tagCount": 17,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "cat loaf",
+              "ja": "猫のパン"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "cats are liquid",
+              "ja": "猫は液体だ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "cats are scared of cucumbers",
+              "ja": "猫はキュウリを怖がる"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "hissing",
+              "ja": "シューという音"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "kneading",
+              "ja": "こねる"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "nuzzling",
+              "ja": "こすりつける"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "puffing up",
+              "ja": "膨らむ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "purring",
+              "ja": "ごろごろ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "rejected kiss",
+              "ja": "拒絶されたキス"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "scratching",
+              "ja": "引っ掻く"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "stretching",
+              "ja": "ストレッチ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "cat stretch",
+              "ja": "猫のストレッチ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0013",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "holding animal",
+              "ja": "動物を抱く"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0014",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "armpit carry",
+              "ja": "脇の下持ち"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0015",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "huffing",
+              "ja": "怒鳴り声"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0016",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "petting",
+              "ja": "ペッティング"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの動作__0017",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの動作"
+              ],
+              "en": "headpat",
+              "ja": "頭を撫でる"
+            }
+          ]
+        },
+        {
+          "id": "ネコ__ネコ科動物",
+          "name": "ネコ科動物",
+          "path": [
+            "ネコ",
+            "ネコ科動物"
+          ],
+          "tagCount": 15,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "black-footed cat",
+              "ja": "クロアシネコ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "caracal",
+              "ja": "カラカル"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "cougar",
+              "ja": "クーガー"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "geoffroy's cat",
+              "ja": "ジョフロワの猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "iriomote cat",
+              "ja": "イリオモテヤマネコ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "jaguar",
+              "ja": "ジャガー"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "leopard cat",
+              "ja": "ヒョウ猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "chinese leopard cat",
+              "ja": "中国ヒョウ猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "lynx",
+              "ja": "オオヤマネコ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "margay",
+              "ja": "マーゲイ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "ocelot",
+              "ja": "オセロット"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "pallas's cat",
+              "ja": "パラスの猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0013",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "sand cat",
+              "ja": "スナネコ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0014",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "serval",
+              "ja": "サーバル"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ科動物__0015",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ科動物"
+              ],
+              "en": "snow leopard",
+              "ja": "ユキヒョウ"
+            }
+          ]
+        },
+        {
+          "id": "ネコ__ネコの位置",
+          "name": "ネコの位置",
+          "path": [
+            "ネコ",
+            "ネコの位置"
+          ],
+          "tagCount": 7,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__ネコの位置__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの位置"
+              ],
+              "en": "cat between legs",
+              "ja": "足の間にいる猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの位置__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの位置"
+              ],
+              "en": "cat in mouth",
+              "ja": "口の中に猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの位置__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの位置"
+              ],
+              "en": "cat on ass",
+              "ja": "お尻の上の猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの位置__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの位置"
+              ],
+              "en": "cat on head",
+              "ja": "頭の上の猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの位置__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの位置"
+              ],
+              "en": "cat on lap",
+              "ja": "膝の上の猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの位置__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの位置"
+              ],
+              "en": "cat on person",
+              "ja": "猫が人の上にいる"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコの位置__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコの位置"
+              ],
+              "en": "cat on shoulder",
+              "ja": "肩に乗った猫"
+            }
+          ]
+        },
+        {
+          "id": "ネコ__ネコモチーフ衣類等",
+          "name": "ネコモチーフ衣類等",
+          "path": [
+            "ネコ",
+            "ネコモチーフ衣類等"
+          ],
+          "tagCount": 33,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat bag",
+              "ja": "猫バッグ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat band",
+              "ja": "猫バンド"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat band footwear",
+              "ja": "猫バンドの履物"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat band gloves",
+              "ja": "猫バンド手袋"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat ear legwear",
+              "ja": "猫耳レッグウェア"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat bra",
+              "ja": "猫ブラ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat button",
+              "ja": "猫ボタン"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat choker",
+              "ja": "猫のチョーカー"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat costume",
+              "ja": "猫のコスチューム"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat cutout",
+              "ja": "猫の切り抜き"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat cutout panties",
+              "ja": "猫の切り抜きパンティー"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat ear bikini",
+              "ja": "猫耳ビキニ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0013",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat ear headphones",
+              "ja": "猫耳ヘッドフォン"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0014",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat ear panties",
+              "ja": "猫耳パンツ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0015",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat earrings",
+              "ja": "猫のイヤリング"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0016",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat gloves",
+              "ja": "猫用手袋"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0017",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat hair ornament",
+              "ja": "猫の髪飾り"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0018",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat hat",
+              "ja": "猫の帽子"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0019",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat helmet",
+              "ja": "猫のヘルメット"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0020",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat hood",
+              "ja": "猫フード"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0021",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat lingerie",
+              "ja": "猫のランジェリー"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0022",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat mask",
+              "ja": "猫のマスク"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0023",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat ornament",
+              "ja": "猫の飾り"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0024",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat pajamas",
+              "ja": "猫のパジャマ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0025",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat panties",
+              "ja": "猫のパンツ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0026",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat pasties",
+              "ja": "猫用ペースト"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0027",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat pendant",
+              "ja": "猫のペンダント"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0028",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat print",
+              "ja": "猫のプリント"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0029",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat skull",
+              "ja": "猫の頭蓋骨"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0030",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat slippers",
+              "ja": "猫用スリッパ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0031",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat symbol",
+              "ja": "猫のシンボル"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0032",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat thigh strap",
+              "ja": "猫の太ももストラップ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコモチーフ衣類等__0033",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコモチーフ衣類等"
+              ],
+              "en": "cat zipper",
+              "ja": "猫のジッパー"
+            }
+          ]
+        },
+        {
+          "id": "ネコ__ネコ擬人化系",
+          "name": "ネコ擬人化系",
+          "path": [
+            "ネコ",
+            "ネコ擬人化系"
+          ],
+          "tagCount": 12,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat boy",
+              "ja": "猫の男の子"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat ears",
+              "ja": "猫耳"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "slit pupils",
+              "ja": "細長い瞳孔"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat feet",
+              "ja": "猫の足"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat girl",
+              "ja": "猫娘"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "animal hair",
+              "ja": "動物の毛"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat nose",
+              "ja": "猫の鼻"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat paw",
+              "ja": "猫の足"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat paws",
+              "ja": "猫の足"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "cat tail",
+              "ja": "ネコヤナギ"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "barbed tongue",
+              "ja": "とげのある舌"
+            },
+            {
+              "id": "animals-creatures__ネコ__ネコ擬人化系__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "ネコ擬人化系"
+              ],
+              "en": "whiskers",
+              "ja": "ひげ"
+            }
+          ]
+        },
+        {
+          "id": "ネコ__その他",
+          "name": "その他",
+          "path": [
+            "ネコ",
+            "その他"
+          ],
+          "tagCount": 27,
+          "tags": [
+            {
+              "id": "animals-creatures__ネコ__その他__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "a cat is fine too",
+              "ja": "猫でもいいよ"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "bongo cat",
+              "ja": "ボンゴキャット"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat cafe",
+              "ja": "猫カフェ"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat day",
+              "ja": "猫の日"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat detector",
+              "ja": "猫検出器"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat furniture",
+              "ja": "猫用家具"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat burger",
+              "ja": "猫バーガー"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat litter",
+              "ja": "猫砂"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat o' nine tails",
+              "ja": "九尾の猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat-shaped pillow",
+              "ja": "猫の形をした枕"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat shooting lightning",
+              "ja": "雷を放つ猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat teaser",
+              "ja": "猫のからかい"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0013",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat tower",
+              "ja": "キャットタワー"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0014",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat transcendence",
+              "ja": "猫の超越"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0015",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "catfight",
+              "ja": "キャットファイト"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0016",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "catfish",
+              "ja": "ナマズ"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0017",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cat's cradle",
+              "ja": "猫のゆりかご"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0018",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cats ringing bell",
+              "ja": "ベルを鳴らす猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0019",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "helicopter cat",
+              "ja": "ヘリコプター猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0020",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "maneki-neko",
+              "ja": "招き猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0021",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "pet food",
+              "ja": "ペットフード"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0022",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "pet bowl",
+              "ja": "ペットボウル"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0023",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "snow cat",
+              "ja": "スノーキャット"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0024",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "woman yelling at cat",
+              "ja": "猫に怒鳴る女性"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0025",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "cathead",
+              "ja": "猫頭"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0026",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "giant cat",
+              "ja": "巨大な猫"
+            },
+            {
+              "id": "animals-creatures__ネコ__その他__0027",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "ネコ",
+                "その他"
+              ],
+              "en": "too many cats",
+              "ja": "猫が多すぎる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "イヌ",
+      "name": "イヌ",
+      "path": [
+        "イヌ"
+      ],
+      "tagCount": 63,
+      "children": [
+        {
+          "id": "イヌ__タイフ",
+          "name": "タイプ",
+          "path": [
+            "イヌ",
+            "タイプ"
+          ],
+          "tagCount": 3,
+          "tags": [
+            {
+              "id": "animals-creatures__イヌ__タイフ__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "タイプ"
+              ],
+              "en": "dog",
+              "ja": "犬"
+            },
+            {
+              "id": "animals-creatures__イヌ__タイフ__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "タイプ"
+              ],
+              "en": "puppy",
+              "ja": "子犬"
+            },
+            {
+              "id": "animals-creatures__イヌ__タイフ__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "タイプ"
+              ],
+              "en": "wolf",
+              "ja": "狼"
+            }
+          ]
+        },
+        {
+          "id": "イヌ__犬種",
+          "name": "犬種",
+          "path": [
+            "イヌ",
+            "犬種"
+          ],
+          "tagCount": 40,
+          "tags": [
+            {
+              "id": "animals-creatures__イヌ__犬種__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "afghan hound",
+              "ja": "アフガンハウンド"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "akita inu",
+              "ja": "秋田犬"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "australian kelpie",
+              "ja": "オーストラリアンケルピー"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "basset hound",
+              "ja": "バセットハウンド"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "beagle",
+              "ja": "ビーグル"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "bernese mountain dog",
+              "ja": "バーニーズ・マウンテン・ドッグ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "border collie",
+              "ja": "ボーダーコリー"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "borzoi",
+              "ja": "ボルゾイ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "boston terrier",
+              "ja": "ボストンテリア"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "briard",
+              "ja": "ブリアード"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "bulldog",
+              "ja": "ブルドッグ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "bull terrier",
+              "ja": "ブルテリア"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0013",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "chihuahua",
+              "ja": "チワワ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0014",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "chinese crested dog",
+              "ja": "チャイニーズ・クレステッド・ドッグ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0015",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "chow chow",
+              "ja": "チャウチャウ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0016",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "dachshund",
+              "ja": "ダックスフント"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0017",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "dalmatian",
+              "ja": "ダルメシアン"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0018",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "dobermann",
+              "ja": "ドーベルマン"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0019",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "english springer spaniel",
+              "ja": "イングリッシュ・スプリンガー・スパニエル"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0020",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "german shepherd",
+              "ja": "ジャーマンシェパード"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0021",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "golden retriever",
+              "ja": "ゴールデンレトリバー"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0022",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "great dane",
+              "ja": "グレートデーン"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0023",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "greyhound",
+              "ja": "グレイハウンド"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0024",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "husky",
+              "ja": "ハスキー"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0025",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "irish setter",
+              "ja": "アイリッシュ・セッター"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0026",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "japanese spitz",
+              "ja": "日本スピッツ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0027",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "kishu ken",
+              "ja": "紀州県"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0028",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "maltese",
+              "ja": "マルタ人"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0029",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "mastiff",
+              "ja": "マスティフ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0030",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "old english sheepdog",
+              "ja": "オールドイングリッシュシープドッグ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0031",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "papillon",
+              "ja": "パピヨン"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0032",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "pomeranian",
+              "ja": "ポメラニアン"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0033",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "poodle",
+              "ja": "プードル"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0034",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "pug",
+              "ja": "パグ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0035",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "schnauzer",
+              "ja": "シュナウザー"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0036",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "shar pei",
+              "ja": "シャーペイ"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0037",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "shiba inu",
+              "ja": "柴犬"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0038",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "st. bernard",
+              "ja": "セントバーナード"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0039",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "welsh corgi",
+              "ja": "ウェルシュ・コーギー"
+            },
+            {
+              "id": "animals-creatures__イヌ__犬種__0040",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "犬種"
+              ],
+              "en": "yorkshire terrier",
+              "ja": "ヨークシャーテリア"
+            }
+          ]
+        },
+        {
+          "id": "イヌ__類似動物",
+          "name": "類似動物",
+          "path": [
+            "イヌ",
+            "類似動物"
+          ],
+          "tagCount": 7,
+          "tags": [
+            {
+              "id": "animals-creatures__イヌ__類似動物__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "類似動物"
+              ],
+              "en": "african wild dog",
+              "ja": "アフリカリカオン"
+            },
+            {
+              "id": "animals-creatures__イヌ__類似動物__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "類似動物"
+              ],
+              "en": "coyote",
+              "ja": "コヨーテ"
+            },
+            {
+              "id": "animals-creatures__イヌ__類似動物__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "類似動物"
+              ],
+              "en": "dhole",
+              "ja": "ドール"
+            },
+            {
+              "id": "animals-creatures__イヌ__類似動物__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "類似動物"
+              ],
+              "en": "dingo",
+              "ja": "ディンゴ"
+            },
+            {
+              "id": "animals-creatures__イヌ__類似動物__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "類似動物"
+              ],
+              "en": "fox",
+              "ja": "キツネ"
+            },
+            {
+              "id": "animals-creatures__イヌ__類似動物__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "類似動物"
+              ],
+              "en": "jackal",
+              "ja": "ジャッカル"
+            },
+            {
+              "id": "animals-creatures__イヌ__類似動物__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "類似動物"
+              ],
+              "en": "maned wolf",
+              "ja": "タテガミオオカミ"
+            }
+          ]
+        },
+        {
+          "id": "イヌ__その他",
+          "name": "その他",
+          "path": [
+            "イヌ",
+            "その他"
+          ],
+          "tagCount": 13,
+          "tags": [
+            {
+              "id": "animals-creatures__イヌ__その他__0001",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog on head",
+              "ja": "頭の上の犬"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0002",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "k9 (dog)",
+              "ja": "k9（犬）"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0003",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "guide dog",
+              "ja": "盲導犬"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0004",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "multiple dogs",
+              "ja": "複数の犬"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0005",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "too many dogs",
+              "ja": "犬が多すぎる"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0006",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "pet walking",
+              "ja": "ペットの散歩"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0007",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog costume",
+              "ja": "犬のコスチューム"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0008",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog ears",
+              "ja": "犬の耳"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0009",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog hat",
+              "ja": "犬の帽子"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0010",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog paws",
+              "ja": "犬の足"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0011",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog tail",
+              "ja": "犬のしっぽ"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0012",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog biscuit",
+              "ja": "犬用ビスケット"
+            },
+            {
+              "id": "animals-creatures__イヌ__その他__0013",
+              "categoryId": "animals-creatures",
+              "categoryName": "動物・生物",
+              "path": [
+                "イヌ",
+                "その他"
+              ],
+              "en": "dog paddle",
+              "ja": "犬かき"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "爬虫類-両生類",
+      "name": "爬虫類・両生類",
+      "path": [
+        "爬虫類・両生類"
+      ],
+      "tagCount": 11,
+      "tags": [
+        {
+          "id": "animals-creatures__爬虫類-両生類__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "crocodile",
+          "ja": "クロコダイル"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "frog",
+          "ja": "蛙"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "tadpole",
+          "ja": "オタマジャクシ"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "iguana",
+          "ja": "イグアナ"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "lizard",
+          "ja": "トカゲ"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "frill-necked lizard",
+          "ja": "エリマキトカゲ"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "snake",
+          "ja": "蛇"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "turtle",
+          "ja": "カメ"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "salamander",
+          "ja": "サンショウウオ"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "axolotl",
+          "ja": "アホロートル"
+        },
+        {
+          "id": "animals-creatures__爬虫類-両生類__0011",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "爬虫類・両生類"
+          ],
+          "en": "hellbender",
+          "ja": "ヘルベンダー"
+        }
+      ]
+    },
+    {
+      "id": "魚",
+      "name": "魚",
+      "path": [
+        "魚"
+      ],
+      "tagCount": 45,
+      "tags": [
+        {
+          "id": "animals-creatures__魚__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "fish",
+          "ja": "魚"
+        },
+        {
+          "id": "animals-creatures__魚__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "alligator gar",
+          "ja": "アリゲーターガー"
+        },
+        {
+          "id": "animals-creatures__魚__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "angelfish",
+          "ja": "エンゼルフィッシュ"
+        },
+        {
+          "id": "animals-creatures__魚__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "anglerfish",
+          "ja": "アンコウ"
+        },
+        {
+          "id": "animals-creatures__魚__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "arapaima",
+          "ja": "アラパイマ"
+        },
+        {
+          "id": "animals-creatures__魚__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "arowana",
+          "ja": "アロワナ"
+        },
+        {
+          "id": "animals-creatures__魚__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "bichir",
+          "ja": "ビチル"
+        },
+        {
+          "id": "animals-creatures__魚__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "butterflyfish",
+          "ja": "チョウチョウウオ"
+        },
+        {
+          "id": "animals-creatures__魚__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "catfish",
+          "ja": "ナマズ"
+        },
+        {
+          "id": "animals-creatures__魚__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "carp",
+          "ja": "鯉"
+        },
+        {
+          "id": "animals-creatures__魚__0011",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "goldfish",
+          "ja": "金魚"
+        },
+        {
+          "id": "animals-creatures__魚__0012",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "koi",
+          "ja": "鯉"
+        },
+        {
+          "id": "animals-creatures__魚__0013",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "clownfish",
+          "ja": "カクレクマノミ"
+        },
+        {
+          "id": "animals-creatures__魚__0014",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "coelacanth",
+          "ja": "シーラカンス"
+        },
+        {
+          "id": "animals-creatures__魚__0015",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "dunkleosteus",
+          "ja": "ダンクルオステウス"
+        },
+        {
+          "id": "animals-creatures__魚__0016",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "eel",
+          "ja": "うなぎ"
+        },
+        {
+          "id": "animals-creatures__魚__0017",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "leopard eel",
+          "ja": "ヒョウウナギ"
+        },
+        {
+          "id": "animals-creatures__魚__0018",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "moray eel",
+          "ja": "ウツボ"
+        },
+        {
+          "id": "animals-creatures__魚__0019",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "flying fish",
+          "ja": "トビウオ"
+        },
+        {
+          "id": "animals-creatures__魚__0020",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "lamprey",
+          "ja": "ヤツメウナギ"
+        },
+        {
+          "id": "animals-creatures__魚__0021",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "leafy seadragon",
+          "ja": "リーフィーシードラゴン"
+        },
+        {
+          "id": "animals-creatures__魚__0022",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "manta ray",
+          "ja": "マンタ"
+        },
+        {
+          "id": "animals-creatures__魚__0023",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "needlefish",
+          "ja": "ダツ"
+        },
+        {
+          "id": "animals-creatures__魚__0024",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "oarfish",
+          "ja": "リュウグウノツカイ"
+        },
+        {
+          "id": "animals-creatures__魚__0025",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "oilfish",
+          "ja": "油魚"
+        },
+        {
+          "id": "animals-creatures__魚__0026",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "puffer fish",
+          "ja": "フグ"
+        },
+        {
+          "id": "animals-creatures__魚__0027",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "sailfish",
+          "ja": "バショウカジキ"
+        },
+        {
+          "id": "animals-creatures__魚__0028",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "saury",
+          "ja": "サンマ"
+        },
+        {
+          "id": "animals-creatures__魚__0029",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "sawfish",
+          "ja": "ノコギリエイ"
+        },
+        {
+          "id": "animals-creatures__魚__0030",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "seahorse",
+          "ja": "タツノオトシゴ"
+        },
+        {
+          "id": "animals-creatures__魚__0031",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "shark",
+          "ja": "サメ"
+        },
+        {
+          "id": "animals-creatures__魚__0032",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "edestus",
+          "ja": "エデストゥス"
+        },
+        {
+          "id": "animals-creatures__魚__0033",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "goblin shark",
+          "ja": "ミツキザメ"
+        },
+        {
+          "id": "animals-creatures__魚__0034",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "great white shark",
+          "ja": "ホホジロザメ"
+        },
+        {
+          "id": "animals-creatures__魚__0035",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "hammerhead shark",
+          "ja": "シュモクザメ"
+        },
+        {
+          "id": "animals-creatures__魚__0036",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "helicoprion",
+          "ja": "ヘリコプリオン"
+        },
+        {
+          "id": "animals-creatures__魚__0037",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "saw shark",
+          "ja": "ノコギリザメ"
+        },
+        {
+          "id": "animals-creatures__魚__0038",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "whale shark",
+          "ja": "ジンベイザメ"
+        },
+        {
+          "id": "animals-creatures__魚__0039",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "siamese fighting fish",
+          "ja": "ベタ"
+        },
+        {
+          "id": "animals-creatures__魚__0040",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "swordfish",
+          "ja": "メカジキ"
+        },
+        {
+          "id": "animals-creatures__魚__0041",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "ocean sunfish",
+          "ja": "マンボウ"
+        },
+        {
+          "id": "animals-creatures__魚__0042",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "surgeonfish",
+          "ja": "クロハギ"
+        },
+        {
+          "id": "animals-creatures__魚__0043",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "regal blue tang",
+          "ja": "リーガルブルータン"
+        },
+        {
+          "id": "animals-creatures__魚__0044",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "yellow tang",
+          "ja": "キバハギ"
+        },
+        {
+          "id": "animals-creatures__魚__0045",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "魚"
+          ],
+          "en": "tuna",
+          "ja": "マグロ"
+        }
+      ]
+    },
+    {
+      "id": "クシ-ラ",
+      "name": "クジラ",
+      "path": [
+        "クジラ"
+      ],
+      "tagCount": 7,
+      "tags": [
+        {
+          "id": "animals-creatures__クシ-ラ__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "クジラ"
+          ],
+          "en": "whale",
+          "ja": "鯨"
+        },
+        {
+          "id": "animals-creatures__クシ-ラ__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "クジラ"
+          ],
+          "en": "beluga whale",
+          "ja": "シロイルカ"
+        },
+        {
+          "id": "animals-creatures__クシ-ラ__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "クジラ"
+          ],
+          "en": "blue whale",
+          "ja": "シロナガスクジラ"
+        },
+        {
+          "id": "animals-creatures__クシ-ラ__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "クジラ"
+          ],
+          "en": "dolphin",
+          "ja": "イルカ"
+        },
+        {
+          "id": "animals-creatures__クシ-ラ__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "クジラ"
+          ],
+          "en": "humpback whale",
+          "ja": "ザトウクジラ"
+        },
+        {
+          "id": "animals-creatures__クシ-ラ__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "クジラ"
+          ],
+          "en": "narwhal",
+          "ja": "イッカク"
+        },
+        {
+          "id": "animals-creatures__クシ-ラ__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "クジラ"
+          ],
+          "en": "orca",
+          "ja": "シャチ"
+        }
+      ]
+    },
+    {
+      "id": "甲殻類",
+      "name": "甲殻類",
+      "path": [
+        "甲殻類"
+      ],
+      "tagCount": 9,
+      "tags": [
+        {
+          "id": "animals-creatures__甲殻類__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "crustacean",
+          "ja": "甲殻類"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "crab",
+          "ja": "カニ"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "crayfish",
+          "ja": "ザリガニ"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "hermit crab",
+          "ja": "ヤドカリ"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "horseshoe crab",
+          "ja": "カブトガニ"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "isopod",
+          "ja": "等脚類"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "cymothoa exigua",
+          "ja": "シモトア・エクシグア"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "lobster",
+          "ja": "ロブスター"
+        },
+        {
+          "id": "animals-creatures__甲殻類__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "甲殻類"
+          ],
+          "en": "shrimp",
+          "ja": "エビ"
+        }
+      ]
+    },
+    {
+      "id": "水中生物",
+      "name": "水中生物",
+      "path": [
+        "水中生物"
+      ],
+      "tagCount": 12,
+      "tags": [
+        {
+          "id": "animals-creatures__水中生物__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "abalone",
+          "ja": "アワビ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "clam",
+          "ja": "ハマグリ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "coral",
+          "ja": "コーラル"
+        },
+        {
+          "id": "animals-creatures__水中生物__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "cuttlefish",
+          "ja": "イカ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "octopus",
+          "ja": "タコ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "oyster",
+          "ja": "カキ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "sea anemone",
+          "ja": "イソギンチャク"
+        },
+        {
+          "id": "animals-creatures__水中生物__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "sea cucumber",
+          "ja": "ナマコ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "sea slug",
+          "ja": "ウミウシ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "sea urchin",
+          "ja": "ウニ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0011",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "squid",
+          "ja": "イカ"
+        },
+        {
+          "id": "animals-creatures__水中生物__0012",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "水中生物"
+          ],
+          "en": "starfish",
+          "ja": "ヒトデ"
+        }
+      ]
+    },
+    {
+      "id": "け-っ歯類",
+      "name": "げっ歯類",
+      "path": [
+        "げっ歯類"
+      ],
+      "tagCount": 10,
+      "tags": [
+        {
+          "id": "animals-creatures__け-っ歯類__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "beaver",
+          "ja": "ビーバー"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "capybara",
+          "ja": "カピバラ"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "chipmunk",
+          "ja": "シマリス"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "ferret",
+          "ja": "フェレット"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "guinea pig",
+          "ja": "モルモット"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "hamster",
+          "ja": "ハムスター"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "mouse",
+          "ja": "ねずみ"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "naked mole rat",
+          "ja": "ハダカデバネズミ"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "squirrel",
+          "ja": "リス"
+        },
+        {
+          "id": "animals-creatures__け-っ歯類__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "げっ歯類"
+          ],
+          "en": "weasel",
+          "ja": "イタチ"
+        }
+      ]
+    },
+    {
+      "id": "大型動物",
+      "name": "大型動物",
+      "path": [
+        "大型動物"
+      ],
+      "tagCount": 12,
+      "tags": [
+        {
+          "id": "animals-creatures__大型動物__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "alpaca",
+          "ja": "アルパカ"
+        },
+        {
+          "id": "animals-creatures__大型動物__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "bear",
+          "ja": "クマ"
+        },
+        {
+          "id": "animals-creatures__大型動物__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "bull",
+          "ja": "ブル"
+        },
+        {
+          "id": "animals-creatures__大型動物__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "cow",
+          "ja": "牛"
+        },
+        {
+          "id": "animals-creatures__大型動物__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "deer",
+          "ja": "鹿"
+        },
+        {
+          "id": "animals-creatures__大型動物__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "elephant",
+          "ja": "象"
+        },
+        {
+          "id": "animals-creatures__大型動物__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "giraffe",
+          "ja": "キリン"
+        },
+        {
+          "id": "animals-creatures__大型動物__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "gorilla",
+          "ja": "ゴリラ"
+        },
+        {
+          "id": "animals-creatures__大型動物__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "horse",
+          "ja": "馬"
+        },
+        {
+          "id": "animals-creatures__大型動物__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "kangaroo",
+          "ja": "カンガルー"
+        },
+        {
+          "id": "animals-creatures__大型動物__0011",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "mammoth",
+          "ja": "マンモス"
+        },
+        {
+          "id": "animals-creatures__大型動物__0012",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "大型動物"
+          ],
+          "en": "panda",
+          "ja": "パンダ"
+        }
+      ]
+    },
+    {
+      "id": "小動物-中動物",
+      "name": "小動物 / 中動物",
+      "path": [
+        "小動物 / 中動物"
+      ],
+      "tagCount": 14,
+      "tags": [
+        {
+          "id": "animals-creatures__小動物-中動物__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "boar",
+          "ja": "イノシシ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "echidna",
+          "ja": "ハリモグラ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "fox",
+          "ja": "キツネ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "red fox",
+          "ja": "アカギツネ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "goat",
+          "ja": "ヤギ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0006",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "hedgehog",
+          "ja": "ハリネズミ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0007",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "monkey",
+          "ja": "猿"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0008",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "platypus",
+          "ja": "カモノハシ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0009",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "pig",
+          "ja": "豚"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0010",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "piglet",
+          "ja": "子豚"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0011",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "rabbit",
+          "ja": "うさぎ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0012",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "angora rabbit",
+          "ja": "アンゴラウサギ"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0013",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "sheep",
+          "ja": "羊"
+        },
+        {
+          "id": "animals-creatures__小動物-中動物__0014",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "小動物 / 中動物"
+          ],
+          "en": "lamb",
+          "ja": "子羊"
+        }
+      ]
+    },
+    {
+      "id": "その他",
+      "name": "その他",
+      "path": [
+        "その他"
+      ],
+      "tagCount": 5,
+      "tags": [
+        {
+          "id": "animals-creatures__その他__0001",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "その他"
+          ],
+          "en": "anomalocaris",
+          "ja": "アノマロカリス"
+        },
+        {
+          "id": "animals-creatures__その他__0002",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "その他"
+          ],
+          "en": "hallucigenia",
+          "ja": "ハルキゲニア"
+        },
+        {
+          "id": "animals-creatures__その他__0003",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "その他"
+          ],
+          "en": "opabinia",
+          "ja": "オパビニア"
+        },
+        {
+          "id": "animals-creatures__その他__0004",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "その他"
+          ],
+          "en": "pambdelurion",
+          "ja": "パンデルリオン"
+        },
+        {
+          "id": "animals-creatures__その他__0005",
+          "categoryId": "animals-creatures",
+          "categoryName": "動物・生物",
+          "path": [
+            "その他"
+          ],
+          "en": "xidazoon",
+          "ja": "シダゾーン"
+        }
+      ]
+    }
+  ]
+}

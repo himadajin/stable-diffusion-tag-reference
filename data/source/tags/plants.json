@@ -1,0 +1,1166 @@
+{
+  "id": "plants",
+  "name": "植物",
+  "tree": {
+    "植物": {
+      "タイプ": [
+        {
+          "en": "flower",
+          "ja": "花"
+        },
+        {
+          "en": "bush",
+          "ja": "ブッシュ"
+        },
+        {
+          "en": "rose bush",
+          "ja": "バラの茂み"
+        },
+        {
+          "en": "carnivorous plant",
+          "ja": "食虫植物"
+        },
+        {
+          "en": "pitcher plant",
+          "ja": "ウツボカズラ"
+        },
+        {
+          "en": "venus flytrap",
+          "ja": "ハエトリグサ"
+        },
+        {
+          "en": "grass",
+          "ja": "草"
+        },
+        {
+          "en": "bamboo",
+          "ja": "竹"
+        },
+        {
+          "en": "herb",
+          "ja": "ハーブ"
+        },
+        {
+          "en": "cattail",
+          "ja": "ガマ"
+        },
+        {
+          "en": "marijuana",
+          "ja": "マリファナ"
+        },
+        {
+          "en": "holly",
+          "ja": "ヒイラギ"
+        },
+        {
+          "en": "moss",
+          "ja": "苔"
+        },
+        {
+          "en": "seaweed",
+          "ja": "海藻"
+        },
+        {
+          "en": "succulent plant",
+          "ja": "多肉植物"
+        },
+        {
+          "en": "agave",
+          "ja": "アガベ"
+        },
+        {
+          "en": "cactus",
+          "ja": "カクタス"
+        },
+        {
+          "en": "tree",
+          "ja": "木"
+        },
+        {
+          "en": "vines",
+          "ja": "ブドウの木"
+        },
+        {
+          "en": "ivy",
+          "ja": "ツタ"
+        },
+        {
+          "en": "golden pothos",
+          "ja": "ゴールデンポトス"
+        },
+        {
+          "en": "fern",
+          "ja": "シダ"
+        }
+      ],
+      "パーツ": [
+        {
+          "en": "fruit",
+          "ja": "フルーツ"
+        },
+        {
+          "en": "plant cell",
+          "ja": "植物細胞"
+        },
+        {
+          "en": "aerial root",
+          "ja": "気根"
+        },
+        {
+          "en": "seed",
+          "ja": "シード"
+        }
+      ],
+      "その他": [
+        {
+          "en": "floral arch",
+          "ja": "花のアーチ"
+        },
+        {
+          "en": "foliage",
+          "ja": "葉"
+        },
+        {
+          "en": "plant boy",
+          "ja": "植物少年"
+        },
+        {
+          "en": "plant girl",
+          "ja": "植物少女"
+        },
+        {
+          "en": "plant monster",
+          "ja": "植物モンスター"
+        },
+        {
+          "en": "plant wings",
+          "ja": "植物の羽"
+        },
+        {
+          "en": "flower pot",
+          "ja": "植木鉢"
+        },
+        {
+          "en": "hanging plant",
+          "ja": "吊り下げ式植物"
+        },
+        {
+          "en": "planter",
+          "ja": "プランター"
+        },
+        {
+          "en": "sprout",
+          "ja": "芽生え"
+        },
+        {
+          "en": "topiary",
+          "ja": "トピアリー"
+        },
+        {
+          "en": "farming",
+          "ja": "農業"
+        }
+      ],
+      "場所": [
+        {
+          "en": "farm",
+          "ja": "農場"
+        },
+        {
+          "en": "bamboo forest",
+          "ja": "竹林"
+        },
+        {
+          "en": "grasslands",
+          "ja": "草原"
+        },
+        {
+          "en": "greenhouse",
+          "ja": "温室"
+        },
+        {
+          "en": "nature",
+          "ja": "自然"
+        }
+      ]
+    },
+    "木": {
+      "パーツ": [
+        {
+          "en": "branch",
+          "ja": "支店"
+        },
+        {
+          "en": "leaf",
+          "ja": "葉"
+        },
+        {
+          "en": "log",
+          "ja": "ログ"
+        },
+        {
+          "en": "petals",
+          "ja": "花びら"
+        },
+        {
+          "en": "plant roots",
+          "ja": "植物の根"
+        },
+        {
+          "en": "stick",
+          "ja": "スティック"
+        },
+        {
+          "en": "tree hollow",
+          "ja": "木の洞"
+        },
+        {
+          "en": "tree stump",
+          "ja": "木の切り株"
+        }
+      ],
+      "場所": [
+        {
+          "en": "forest",
+          "ja": "森"
+        },
+        {
+          "en": "rainforest",
+          "ja": "熱帯雨林"
+        },
+        {
+          "en": "jungle",
+          "ja": "ジャングル"
+        },
+        {
+          "en": "wetland",
+          "ja": "湿地"
+        }
+      ],
+      "タイプ": [
+        {
+          "en": "baobab",
+          "ja": "バオバブ"
+        },
+        {
+          "en": "birch tree",
+          "ja": "白樺の木"
+        },
+        {
+          "en": "bonsai",
+          "ja": "盆栽"
+        },
+        {
+          "en": "cherry blossoms",
+          "ja": "桜"
+        },
+        {
+          "en": "christmas tree",
+          "ja": "クリスマスツリー"
+        },
+        {
+          "en": "fir tree",
+          "ja": "モミの木"
+        },
+        {
+          "en": "fruit tree",
+          "ja": "果樹"
+        },
+        {
+          "en": "ginkgo tree",
+          "ja": "イチョウの木"
+        },
+        {
+          "en": "ginkgo nut",
+          "ja": "イチョウの実"
+        },
+        {
+          "en": "maple leaf",
+          "ja": "カエデの葉"
+        },
+        {
+          "en": "palm tree",
+          "ja": "ヤシの木"
+        },
+        {
+          "en": "coconut tree",
+          "ja": "ココナッツの木"
+        },
+        {
+          "en": "pine tree",
+          "ja": "松"
+        },
+        {
+          "en": "plum blossoms",
+          "ja": "梅の花"
+        },
+        {
+          "en": "willow",
+          "ja": "柳"
+        }
+      ],
+      "その他": [
+        {
+          "en": "autumn",
+          "ja": "秋"
+        },
+        {
+          "en": "bare tree",
+          "ja": "裸木"
+        },
+        {
+          "en": "fallen tree",
+          "ja": "倒木"
+        },
+        {
+          "en": "giant tree",
+          "ja": "巨大な木"
+        },
+        {
+          "en": "treehouse",
+          "ja": "ツリーハウス"
+        },
+        {
+          "en": "tree shade",
+          "ja": "木陰"
+        },
+        {
+          "en": "against tree",
+          "ja": "木に対して"
+        },
+        {
+          "en": "in tree",
+          "ja": "木の中で"
+        },
+        {
+          "en": "sitting in tree",
+          "ja": "木に座っている"
+        },
+        {
+          "en": "under tree",
+          "ja": "木の下"
+        }
+      ]
+    },
+    "花": {
+      "種類": [
+        {
+          "en": "allium (flower)",
+          "ja": "アリウム（花）"
+        },
+        {
+          "en": "alstroemeria (flower)",
+          "ja": "アルストロメリア（花）"
+        },
+        {
+          "en": "amaryllis (flower)",
+          "ja": "アマリリス（花）"
+        },
+        {
+          "en": "anemone",
+          "ja": "アネモネ"
+        },
+        {
+          "en": "angel's trumpet",
+          "ja": "天使のトランペット"
+        },
+        {
+          "en": "anthurium",
+          "ja": "アンスリウム"
+        },
+        {
+          "en": "azalea",
+          "ja": "つつじ"
+        },
+        {
+          "en": "baby's-breath",
+          "ja": "カスミソウ"
+        },
+        {
+          "en": "begonia",
+          "ja": "ベゴニア"
+        },
+        {
+          "en": "bellflower",
+          "ja": "キキョウ"
+        },
+        {
+          "en": "chinese bellflower",
+          "ja": "桔梗"
+        },
+        {
+          "en": "bird of paradise flower",
+          "ja": "極楽鳥花"
+        },
+        {
+          "en": "black-eyed susan",
+          "ja": "ブラックアイドスーザン"
+        },
+        {
+          "en": "bleeding heart",
+          "ja": "出血している心臓"
+        },
+        {
+          "en": "blueberry blossoms",
+          "ja": "ブルーベリーの花"
+        },
+        {
+          "en": "bougainvillea",
+          "ja": "ブーゲンビリア"
+        },
+        {
+          "en": "calla lily",
+          "ja": "カラーリリー"
+        },
+        {
+          "en": "camellia",
+          "ja": "カメリア"
+        },
+        {
+          "en": "carnation",
+          "ja": "カーネーション"
+        },
+        {
+          "en": "red carnation",
+          "ja": "赤いカーネーション"
+        },
+        {
+          "en": "cerastium",
+          "ja": "セラスチウム"
+        },
+        {
+          "en": "chamomile",
+          "ja": "カモミール"
+        },
+        {
+          "en": "chinese lantern",
+          "ja": "中国のランタン"
+        },
+        {
+          "en": "chrysanthemum",
+          "ja": "菊"
+        },
+        {
+          "en": "clivia",
+          "ja": "クリビア"
+        },
+        {
+          "en": "clematis",
+          "ja": "クレマチス"
+        },
+        {
+          "en": "clover",
+          "ja": "クローバー"
+        },
+        {
+          "en": "columbine",
+          "ja": "コロンバイン"
+        },
+        {
+          "en": "cockscomb (flower)",
+          "ja": "ケイトウ（花）"
+        },
+        {
+          "en": "coffee blossom",
+          "ja": "コーヒーの花"
+        },
+        {
+          "en": "cornflower",
+          "ja": "ヤグルマギク"
+        },
+        {
+          "en": "cosmos",
+          "ja": "コスモス"
+        },
+        {
+          "en": "crocus",
+          "ja": "クロッカス"
+        },
+        {
+          "en": "cymbidium",
+          "ja": "シンビジウム"
+        },
+        {
+          "en": "daffodil",
+          "ja": "水仙"
+        },
+        {
+          "en": "dahlia",
+          "ja": "ダリア"
+        },
+        {
+          "en": "daisy",
+          "ja": "デイジー"
+        },
+        {
+          "en": "dimorphotheca",
+          "ja": "ディモルフォセカ"
+        },
+        {
+          "en": "dandelion",
+          "ja": "タンポポ"
+        },
+        {
+          "en": "dianthus",
+          "ja": "ナデシコ"
+        },
+        {
+          "en": "dipsacaceae",
+          "ja": "ディプサカ科"
+        },
+        {
+          "en": "dusty miller",
+          "ja": "ダスティ・ミラー"
+        },
+        {
+          "en": "edelweiss",
+          "ja": "エーデルワイス"
+        },
+        {
+          "en": "epiphyllum",
+          "ja": "エピフィラム"
+        },
+        {
+          "en": "eustoma",
+          "ja": "トルコギキョウ"
+        },
+        {
+          "en": "flax",
+          "ja": "亜麻"
+        },
+        {
+          "en": "forget-me-not",
+          "ja": "ワスレナグサ"
+        },
+        {
+          "en": "forsythia",
+          "ja": "レンギョウ"
+        },
+        {
+          "en": "four o'clock (flower)",
+          "ja": "四時草（花）"
+        },
+        {
+          "en": "foxglove",
+          "ja": "ジギタリス"
+        },
+        {
+          "en": "freesia",
+          "ja": "フリージア"
+        },
+        {
+          "en": "fuchsia",
+          "ja": "フクシア"
+        },
+        {
+          "en": "hawthorn_(plant)",
+          "ja": "サンザシ（植物）"
+        },
+        {
+          "en": "hellebore",
+          "ja": "ヘレボルス"
+        },
+        {
+          "en": "hibiscus",
+          "ja": "ハイビスカス"
+        },
+        {
+          "en": "heliconia",
+          "ja": "ヘリコニア"
+        },
+        {
+          "en": "hollyhock",
+          "ja": "タチアオイ"
+        },
+        {
+          "en": "hyacinth",
+          "ja": "ヒヤシンス"
+        },
+        {
+          "en": "hydrangea",
+          "ja": "アジサイ"
+        },
+        {
+          "en": "genista (flower)",
+          "ja": "ジェニスタ（花）"
+        },
+        {
+          "en": "gentiana (flower)",
+          "ja": "リンドウ（花）"
+        },
+        {
+          "en": "geranium",
+          "ja": "ゼラニウム"
+        },
+        {
+          "en": "gerbera",
+          "ja": "ガーベラ"
+        },
+        {
+          "en": "gladiolus",
+          "ja": "グラジオラス"
+        },
+        {
+          "en": "gloriosa (flower)",
+          "ja": "グロリオサ（花）"
+        },
+        {
+          "en": "grass lily",
+          "ja": "草百合"
+        },
+        {
+          "en": "great burnet",
+          "ja": "オオバーネット"
+        },
+        {
+          "en": "jasmine",
+          "ja": "ジャスミン"
+        },
+        {
+          "en": "iris",
+          "ja": "虹彩"
+        },
+        {
+          "en": "kalanchoe",
+          "ja": "カランコエ"
+        },
+        {
+          "en": "kerria japonica",
+          "ja": "ヤマブキ"
+        },
+        {
+          "en": "lantana (flower)",
+          "ja": "ランタナ（花）"
+        },
+        {
+          "en": "larkspur",
+          "ja": "ラークスパー"
+        },
+        {
+          "en": "lavender",
+          "ja": "ラベンダー"
+        },
+        {
+          "en": "lilac",
+          "ja": "ライラック"
+        },
+        {
+          "en": "lily",
+          "ja": "ユリ"
+        },
+        {
+          "en": "tiger lily",
+          "ja": "タイガーリリー"
+        },
+        {
+          "en": "lily of the valley",
+          "ja": "スズラン"
+        },
+        {
+          "en": "lisianthus (flower)",
+          "ja": "リシアンサス（花）"
+        },
+        {
+          "en": "lemon blossoms",
+          "ja": "レモンの花"
+        },
+        {
+          "en": "magnolia",
+          "ja": "マグノリア"
+        },
+        {
+          "en": "marigold",
+          "ja": "マリーゴールド"
+        },
+        {
+          "en": "marsh marigold",
+          "ja": "マーシュマリーゴールド"
+        },
+        {
+          "en": "mimosa (flower)",
+          "ja": "ミモザ（花）"
+        },
+        {
+          "en": "morning glory",
+          "ja": "朝顔"
+        },
+        {
+          "en": "moonflower",
+          "ja": "ムーンフラワー"
+        },
+        {
+          "en": "gourd blossom",
+          "ja": "ひょうたんの花"
+        },
+        {
+          "en": "nemophila",
+          "ja": "ネモフィラ"
+        },
+        {
+          "en": "nigella",
+          "ja": "ニゲラ"
+        },
+        {
+          "en": "oleander",
+          "ja": "キョウチクトウ"
+        },
+        {
+          "en": "orange blossoms",
+          "ja": "オレンジの花"
+        },
+        {
+          "en": "orchid",
+          "ja": "蘭"
+        },
+        {
+          "en": "oncidium",
+          "ja": "オンシジウム"
+        },
+        {
+          "en": "osmanthus",
+          "ja": "キンモクセイ"
+        },
+        {
+          "en": "gold osmanthus",
+          "ja": "金木犀"
+        },
+        {
+          "en": "pansy",
+          "ja": "パンジー"
+        },
+        {
+          "en": "passion flower",
+          "ja": "パッションフラワー"
+        },
+        {
+          "en": "paulownia",
+          "ja": "桐"
+        },
+        {
+          "en": "peach blossom",
+          "ja": "桃の花"
+        },
+        {
+          "en": "pentas (flower)",
+          "ja": "ペンタス（花）"
+        },
+        {
+          "en": "peony",
+          "ja": "牡丹"
+        },
+        {
+          "en": "perennial",
+          "ja": "多年生"
+        },
+        {
+          "en": "periwinkle",
+          "ja": "ツルニチニチソウ"
+        },
+        {
+          "en": "persian speedwell",
+          "ja": "ペルシャスピードウェル"
+        },
+        {
+          "en": "petunia (flower)",
+          "ja": "ペチュニア（花）"
+        },
+        {
+          "en": "pieris japonica",
+          "ja": "モンシロチョウ"
+        },
+        {
+          "en": "plant",
+          "ja": "植物"
+        },
+        {
+          "en": "lotus",
+          "ja": "蓮"
+        },
+        {
+          "en": "lily pad",
+          "ja": "スイレンの葉"
+        },
+        {
+          "en": "potted plant",
+          "ja": "鉢植え"
+        },
+        {
+          "en": "plumeria",
+          "ja": "プルメリア"
+        },
+        {
+          "en": "poinsettia",
+          "ja": "ポインセチア"
+        },
+        {
+          "en": "pomegranate flower",
+          "ja": "ザクロの花"
+        },
+        {
+          "en": "poppy",
+          "ja": "ポピー"
+        },
+        {
+          "en": "portulaca",
+          "ja": "スベリヒユ"
+        },
+        {
+          "en": "potato flower",
+          "ja": "ジャガイモの花"
+        },
+        {
+          "en": "potentilla",
+          "ja": "ポテンティラ"
+        },
+        {
+          "en": "rafflesia",
+          "ja": "ラフレシア"
+        },
+        {
+          "en": "ranunculus",
+          "ja": "ラナンキュラス"
+        },
+        {
+          "en": "buttercup",
+          "ja": "キンポウゲ"
+        },
+        {
+          "en": "rapeseed blossoms",
+          "ja": "菜の花"
+        },
+        {
+          "en": "red ginger",
+          "ja": "赤ショウガ"
+        },
+        {
+          "en": "reimu",
+          "ja": "霊夢"
+        },
+        {
+          "en": "rhododendron",
+          "ja": "シャクナゲ"
+        },
+        {
+          "en": "rose",
+          "ja": "薔薇"
+        },
+        {
+          "en": "black rose",
+          "ja": "黒いバラ"
+        },
+        {
+          "en": "blue rose",
+          "ja": "青いバラ"
+        },
+        {
+          "en": "brown rose",
+          "ja": "茶色のバラ"
+        },
+        {
+          "en": "green rose",
+          "ja": "緑のバラ"
+        },
+        {
+          "en": "grey rose",
+          "ja": "グレーローズ"
+        },
+        {
+          "en": "orange rose",
+          "ja": "オレンジ色のバラ"
+        },
+        {
+          "en": "pink rose",
+          "ja": "ピンクのバラ"
+        },
+        {
+          "en": "purple rose",
+          "ja": "紫のバラ"
+        },
+        {
+          "en": "red rose",
+          "ja": "赤いバラ"
+        },
+        {
+          "en": "white rose",
+          "ja": "白いバラ"
+        },
+        {
+          "en": "yellow rose",
+          "ja": "黄色いバラ"
+        },
+        {
+          "en": "multicolored rose",
+          "ja": "色とりどりのバラ"
+        },
+        {
+          "en": "rudbeckia",
+          "ja": "ルドベキア"
+        },
+        {
+          "en": "snapdragon",
+          "ja": "キンギョソウ"
+        },
+        {
+          "en": "snowbell",
+          "ja": "スノーベル"
+        },
+        {
+          "en": "snowdrop",
+          "ja": "スノードロップ"
+        },
+        {
+          "en": "spathiphyllum",
+          "ja": "スパティフィラム"
+        },
+        {
+          "en": "spider lily",
+          "ja": "ヒガンバナ"
+        },
+        {
+          "en": "strawberry blossoms",
+          "ja": "イチゴの花"
+        },
+        {
+          "en": "sunflower",
+          "ja": "ひまわり"
+        },
+        {
+          "en": "thistle",
+          "ja": "アザミ"
+        },
+        {
+          "en": "trumpet creeper",
+          "ja": "トランペットクリーパー"
+        },
+        {
+          "en": "tulip",
+          "ja": "チューリップ"
+        },
+        {
+          "en": "orange tulip",
+          "ja": "オレンジ色のチューリップ"
+        },
+        {
+          "en": "pink tulip",
+          "ja": "ピンクのチューリップ"
+        },
+        {
+          "en": "purple tulip",
+          "ja": "紫色のチューリップ"
+        },
+        {
+          "en": "red tulip",
+          "ja": "赤いチューリップ"
+        },
+        {
+          "en": "white tulip",
+          "ja": "白いチューリップ"
+        },
+        {
+          "en": "yellow tulip",
+          "ja": "黄色いチューリップ"
+        },
+        {
+          "en": "water lily flower",
+          "ja": "睡蓮の花"
+        },
+        {
+          "en": "wax flower",
+          "ja": "ワックスフラワー"
+        },
+        {
+          "en": "wisteria",
+          "ja": "藤"
+        },
+        {
+          "en": "wolfsbane",
+          "ja": "ウルフズベイン"
+        },
+        {
+          "en": "violet",
+          "ja": "バイオレット"
+        },
+        {
+          "en": "zinnia",
+          "ja": "ジニア"
+        },
+        {
+          "en": "fictional flowers",
+          "ja": "架空の花"
+        },
+        {
+          "en": "black lotus",
+          "ja": "ブラックロータス"
+        },
+        {
+          "en": "fire flower",
+          "ja": "火の花"
+        },
+        {
+          "en": "glaze lily",
+          "ja": "グレイズリリー"
+        },
+        {
+          "en": "gracidea",
+          "ja": "グラシデア"
+        },
+        {
+          "en": "ice flower",
+          "ja": "氷の花"
+        },
+        {
+          "en": "inteyvat flower",
+          "ja": "インテイワットの花"
+        },
+        {
+          "en": "lunar tear",
+          "ja": "月の涙"
+        },
+        {
+          "en": "qingxin flower",
+          "ja": "清新の花"
+        },
+        {
+          "en": "silent princess",
+          "ja": "沈黙の王女"
+        },
+        {
+          "en": "silk flower",
+          "ja": "シルクフラワー"
+        },
+        {
+          "en": "sweet flower",
+          "ja": "甘い花"
+        },
+        {
+          "en": "wither rose",
+          "ja": "枯れたバラ"
+        }
+      ],
+      "装飾": [
+        {
+          "en": "bouquet",
+          "ja": "花束"
+        },
+        {
+          "en": "boutonniere",
+          "ja": "ブートニア"
+        },
+        {
+          "en": "corsage",
+          "ja": "コサージュ"
+        },
+        {
+          "en": "flower bracelet",
+          "ja": "花のブレスレット"
+        },
+        {
+          "en": "flower necklace",
+          "ja": "花のネックレス"
+        },
+        {
+          "en": "flower on head",
+          "ja": "頭の花"
+        },
+        {
+          "en": "flower trim",
+          "ja": "花飾り"
+        },
+        {
+          "en": "hair flower",
+          "ja": "髪の花"
+        },
+        {
+          "en": "hat flower",
+          "ja": "帽子の花"
+        },
+        {
+          "en": "lei",
+          "ja": "レイ"
+        },
+        {
+          "en": "wreath",
+          "ja": "花輪"
+        },
+        {
+          "en": "head wreath",
+          "ja": "頭花輪"
+        }
+      ],
+      "場所": [
+        {
+          "en": "field",
+          "ja": "分野"
+        },
+        {
+          "en": "flower field",
+          "ja": "花畑"
+        },
+        {
+          "en": "meadow",
+          "ja": "牧草地"
+        },
+        {
+          "en": "flower bed",
+          "ja": "花壇"
+        },
+        {
+          "en": "garden",
+          "ja": "庭"
+        }
+      ],
+      "動作": [
+        {
+          "en": "coughing flowers",
+          "ja": "咳をする花"
+        },
+        {
+          "en": "flower in mouth",
+          "ja": "口の中に花"
+        },
+        {
+          "en": "flower on liquid",
+          "ja": "液体上の花"
+        },
+        {
+          "en": "holding flower",
+          "ja": "花を持つ"
+        },
+        {
+          "en": "gardening",
+          "ja": "園芸"
+        },
+        {
+          "en": "on flower",
+          "ja": "花の上"
+        },
+        {
+          "en": "rose petals",
+          "ja": "バラの花びら"
+        },
+        {
+          "en": "petals on liquid",
+          "ja": "液体の上の花びら"
+        },
+        {
+          "en": "smelling flower",
+          "ja": "香りの花"
+        }
+      ],
+      "その他": [
+        {
+          "en": "flower symbol",
+          "ja": "花のシンボル"
+        },
+        {
+          "en": "floral print",
+          "ja": "花柄"
+        },
+        {
+          "en": "hanafuda",
+          "ja": "花札"
+        }
+      ]
+    }
+  }
+}
