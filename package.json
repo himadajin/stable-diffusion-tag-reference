@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "import:tmp": "node scripts/import-tmp-assets.mjs",
     "generate:data": "node scripts/generate-data.mjs",
     "predev": "npm run generate:data",
     "dev": "vite",
