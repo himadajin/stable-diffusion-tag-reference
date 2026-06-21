@@ -2,7 +2,6 @@ import { CheckIcon, Cross2Icon, MagnifyingGlassIcon } from "@radix-ui/react-icon
 import {
   Badge,
   Box,
-  Code,
   Dialog,
   Flex,
   Heading,
@@ -28,7 +27,6 @@ import type {
 
 type CopyState = {
   value: string;
-  message: string;
 };
 
 type VirtualCategoryRow =
@@ -135,7 +133,7 @@ export function App() {
 
   useEffect(() => {
     if (!copyState) return;
-    const timeout = window.setTimeout(() => setCopyState(null), 1600);
+    const timeout = window.setTimeout(() => setCopyState(null), 1000);
     return () => window.clearTimeout(timeout);
   }, [copyState]);
 
@@ -153,9 +151,9 @@ export function App() {
     [categories, favoriteIds.size],
   );
 
-  async function copyValue(value: string, message = "コピーしました") {
+  async function copyValue(value: string) {
     await copyText(value);
-    setCopyState({ value, message });
+    setCopyState({ value });
   }
 
   async function openTagContext(entry: Extract<SearchEntry, { type: "tag" }>) {
@@ -1140,7 +1138,7 @@ function TagCopyButton({
       type="button"
       onClick={() => onCopy(value)}
     >
-      <Code color="gray">{value}</Code>
+      <span className="tag-copy-value">{value}</span>
       {copied ? <CheckIcon aria-hidden="true" /> : null}
     </button>
   );
@@ -1160,7 +1158,8 @@ function FavoriteButton({
       <IconButton
         aria-label={`${tag.en} を${isFavorite ? "お気に入りから削除" : "お気に入りに追加"}`}
         className="favorite-button"
-        color={isFavorite ? "indigo" : "gray"}
+        color="gray"
+        data-favorite={isFavorite}
         size="1"
         variant="ghost"
         onClick={() => onToggleFavorite(tag)}

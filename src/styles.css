@@ -168,6 +168,7 @@ button {
 }
 
 .category-button {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -193,9 +194,21 @@ button {
 }
 
 .category-button[data-active="true"] {
-  border-color: var(--indigo-6);
-  background: var(--indigo-3);
-  color: var(--indigo-12);
+  border-color: transparent;
+  background: var(--slate-3);
+  color: var(--slate-12);
+  font-weight: 600;
+}
+
+.category-button[data-active="true"]::before {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 0;
+  width: 2px;
+  border-radius: 999px;
+  background: var(--indigo-9);
+  content: "";
 }
 
 .category-tree-item {
@@ -406,6 +419,10 @@ button {
   height: 24px;
 }
 
+.favorite-button[data-favorite="true"] {
+  color: var(--ruby-9);
+}
+
 .virtual-tag-row > * {
   min-width: 0;
   overflow: hidden;
@@ -423,13 +440,15 @@ button {
   padding: 1px var(--space-2);
   border: 1px solid var(--slate-6);
   border-radius: var(--radius-2);
-  background: var(--slate-3);
+  background: transparent;
   color: var(--slate-12);
   cursor: pointer;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 14px;
 }
 
 .tag-copy-button:hover {
-  background: var(--slate-4);
+  background: var(--slate-3);
   border-color: var(--slate-7);
 }
 
@@ -440,15 +459,16 @@ button {
 
 .tag-copy-button[data-copied="true"] {
   border-color: var(--indigo-6);
-  background: var(--indigo-3);
+  background: transparent;
   color: var(--indigo-11);
 }
 
-.tag-copy-button code {
+.tag-copy-value {
   max-width: 100%;
   overflow: hidden;
   color: inherit;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .tag-copy-cell {
@@ -516,12 +536,6 @@ button {
 
 .mobile-tag-list {
   display: none;
-}
-
-.tag-table code,
-.virtual-tag-row code,
-.virtual-mobile-tag-row code {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 .context-link {
@@ -676,7 +690,7 @@ button {
     gap: 2px;
   }
 
-  .mobile-tag-main code {
+  .mobile-tag-main .tag-copy-value {
     width: fit-content;
     max-width: 100%;
     overflow: hidden;
