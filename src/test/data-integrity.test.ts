@@ -22,7 +22,7 @@ type SourceTag = {
 
 type GeneratedManifest = {
   categories: Array<{ id: string; file: string; tagCount: number }>;
-  search: { chunks: Array<{ id: string; file: string; count: number }>; totalCount: number };
+  search: { chunks: Array<{ id: string; file: string; count: number }>; tokenIndexFile?: string; totalCount: number };
 };
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -130,6 +130,10 @@ describe("generated data integrity", () => {
 
     expect(generatedSearchCount).toBe(sourceTagCount + sourceFreeCount);
     expect(generatedManifest.search.totalCount).toBe(generatedSearchCount);
+    expect(generatedManifest.search.tokenIndexFile).toBe("search/token-index.json");
+    const tokenIndex = readJson<Record<string, string[]>>(path.join(generatedRoot, generatedManifest.search.tokenIndexFile!));
+    const chunkIds = new Set(generatedManifest.search.chunks.map((chunk) => chunk.id));
+    expect(tokenIndex.masterpiece?.every((chunkId) => chunkIds.has(chunkId))).toBe(true);
     expect(sampleTagEntry).toEqual(
       expect.objectContaining({
         type: "tag",

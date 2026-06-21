@@ -80,6 +80,10 @@ function normalizeSearchText(value) {
   return value.normalize("NFKC").toLowerCase();
 }
 
+function searchTokens(value) {
+  return new Set(normalizeSearchText(value).split(/\s+/).filter((word) => word.length >= 3));
+}
+
 async function main() {
   const manifest = await readJson(path.join(sourceDir, "manifest.json"));
 
@@ -139,6 +143,7 @@ async function main() {
   }
 
   const searchChunks = [];
+  const tokenChunks = new Map();
   for (let start = 0; start < searchEntries.length; start += SEARCH_CHUNK_SIZE) {
     const index = searchChunks.length + 1;
     const id = `chunk-${String(index).padStart(3, "0")}`;
@@ -146,13 +151,28 @@ async function main() {
     const entries = searchEntries.slice(start, start + SEARCH_CHUNK_SIZE);
     await writeJson(path.join(outputDir, file), { id, entries });
     searchChunks.push({ id, file, count: entries.length });
+
+    for (const entry of entries) {
+      for (const token of searchTokens(entry.searchText)) {
+        if (!tokenChunks.has(token)) tokenChunks.set(token, new Set());
+        tokenChunks.get(token).add(id);
+      }
+    }
   }
+
+  const tokenIndex = Object.fromEntries(
+    [...tokenChunks.entries()]
+      .sort(([left], [right]) => left.localeCompare(right))
+      .map(([token, chunkIds]) => [token, [...chunkIds].sort()]),
+  );
+  await writeJson(path.join(searchOutputDir, "token-index.json"), tokenIndex);
 
   await writeJson(path.join(outputDir, "manifest.json"), {
     version: 1,
     categories: categorySummaries,
     search: {
       chunks: searchChunks,
+      tokenIndexFile: "search/token-index.json",
       totalCount: searchEntries.length,
     },
   });

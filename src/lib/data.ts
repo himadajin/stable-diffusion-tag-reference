@@ -4,7 +4,8 @@ const baseUrl = import.meta.env.BASE_URL;
 
 let manifestPromise: Promise<DataManifest> | null = null;
 const categoryCache = new Map<string, Promise<CategoryData>>();
-let searchPromise: Promise<SearchEntry[]> | null = null;
+const searchChunkCache = new Map<string, Promise<SearchEntry[]>>();
+let searchTokenIndexPromise: Promise<Record<string, string[]>> | null = null;
 
 async function fetchJson<T>(path: string): Promise<T> {
   const response = await fetch(`${baseUrl}${path}`);
@@ -32,12 +33,23 @@ export async function loadCategory(categoryId: string): Promise<CategoryData> {
 }
 
 export async function loadSearchIndex(): Promise<SearchEntry[]> {
-  searchPromise ??= (async () => {
+  const manifest = await loadManifest();
+  const chunks = await Promise.all(manifest.search.chunks.map((chunk) => loadSearchChunk(chunk.file)));
+  return chunks.flat();
+}
+
+export async function loadSearchChunk(file: string): Promise<SearchEntry[]> {
+  if (!searchChunkCache.has(file)) {
+    searchChunkCache.set(file, fetchJson<SearchChunk>(`data/${file}`).then((chunk) => chunk.entries));
+  }
+  return searchChunkCache.get(file)!;
+}
+
+export async function loadSearchTokenIndex(): Promise<Record<string, string[]>> {
+  searchTokenIndexPromise ??= (async () => {
     const manifest = await loadManifest();
-    const chunks = await Promise.all(
-      manifest.search.chunks.map((chunk) => fetchJson<SearchChunk>(`data/${chunk.file}`)),
-    );
-    return chunks.flatMap((chunk) => chunk.entries);
+    if (!manifest.search.tokenIndexFile) return {};
+    return fetchJson<Record<string, string[]>>(`data/${manifest.search.tokenIndexFile}`);
   })();
-  return searchPromise;
+  return searchTokenIndexPromise;
 }

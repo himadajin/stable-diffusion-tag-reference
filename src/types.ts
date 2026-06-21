@@ -10,6 +10,7 @@ export type DataManifest = {
   categories: CategorySummary[];
   search: {
     chunks: Array<{ id: string; file: string; count: number }>;
+    tokenIndexFile?: string;
     totalCount: number;
   };
 };

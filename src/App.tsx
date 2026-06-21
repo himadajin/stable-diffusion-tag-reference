@@ -28,8 +28,8 @@ import {
 import type { CSSProperties } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { copyText } from "./lib/clipboard";
-import { loadCategory, loadManifest, loadSearchIndex } from "./lib/data";
-import { entryCopyValue, normalizeQuery, searchEntries } from "./lib/search";
+import { loadCategory, loadManifest } from "./lib/data";
+import { entryCopyValue, normalizeQuery, searchEntriesFromChunks } from "./lib/search";
 import type {
   CategoryData,
   CategorySection,
@@ -67,7 +67,8 @@ export function App() {
   const [activeCategoryId, setActiveCategoryId] = useState<string>("");
   const [categoryData, setCategoryData] = useState<CategoryData | null>(null);
   const [query, setQuery] = useState("");
-  const [searchIndex, setSearchIndex] = useState<SearchEntry[] | null>(null);
+  const [searchResults, setSearchResults] = useState<SearchEntry[]>([]);
+  const [isSearchLoading, setIsSearchLoading] = useState(false);
   const [selectedTags, setSelectedTags] = useState<SelectedTag[]>([]);
   const [copyState, setCopyState] = useState<CopyState | null>(null);
   const [mobileView, setMobileView] = useState("tags");
@@ -96,20 +97,30 @@ export function App() {
   }, [activeCategoryId]);
 
   useEffect(() => {
-    if (!normalizeQuery(query) || searchIndex) return;
-    loadSearchIndex().then(setSearchIndex);
-  }, [query, searchIndex]);
+    if (!normalizeQuery(query)) {
+      setSearchResults([]);
+      setIsSearchLoading(false);
+      return;
+    }
+
+    let isCurrent = true;
+    setIsSearchLoading(true);
+    searchEntriesFromChunks(query).then((results) => {
+      if (!isCurrent) return;
+      setSearchResults(results);
+      setIsSearchLoading(false);
+    });
+
+    return () => {
+      isCurrent = false;
+    };
+  }, [query]);
 
   useEffect(() => {
     if (!copyState) return;
     const timeout = window.setTimeout(() => setCopyState(null), 1600);
     return () => window.clearTimeout(timeout);
   }, [copyState]);
-
-  const searchResults = useMemo(() => {
-    if (!searchIndex) return [];
-    return searchEntries(searchIndex, query);
-  }, [query, searchIndex]);
 
   const isSearching = normalizeQuery(query).length > 0;
 
@@ -162,7 +173,7 @@ export function App() {
           query={query}
           onQueryChange={setQuery}
           copyState={copyState}
-          isLoading={isSearching && !searchIndex}
+          isLoading={isSearchLoading}
         />
         <Tabs.Root value={mobileView} onValueChange={setMobileView}>
           <Tabs.List>
@@ -186,7 +197,7 @@ export function App() {
                   categoryData={categoryData}
                   copyState={copyState}
                   isSearching={isSearching}
-                  isSearchLoading={isSearching && !searchIndex}
+                  isSearchLoading={isSearchLoading}
                   onAdd={addSelected}
                   onCopy={copyValue}
                   onOpenCategory={openCategory}
@@ -228,7 +239,7 @@ export function App() {
           categoryData={categoryData}
           copyState={copyState}
           isSearching={isSearching}
-          isSearchLoading={isSearching && !searchIndex}
+          isSearchLoading={isSearchLoading}
           onAdd={addSelected}
           onCopy={copyValue}
           onOpenCategory={openCategory}
