@@ -325,6 +325,14 @@ button {
   font-size: 13px;
 }
 
+.tree-overview-button {
+  padding-left: var(--space-3);
+}
+
+.tree-overview-button[data-active="true"]::before {
+  content: none;
+}
+
 .section-tree-children {
   display: flex;
   flex-direction: column;

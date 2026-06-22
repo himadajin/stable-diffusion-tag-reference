@@ -828,7 +828,7 @@ function CategorySidebar({
                     >
                       <span className="tree-disclosure-spacer" />
                       <button
-                        className="tree-node-button section-tree-button"
+                        className="tree-node-button section-tree-button tree-overview-button"
                         data-active={isActive && !activeSectionId}
                         onClick={() => onSelect(category.id)}
                         type="button"
@@ -930,7 +930,7 @@ function SectionTreeNode({
           >
             <span className="tree-disclosure-spacer" />
             <button
-              className="tree-node-button section-tree-button"
+              className="tree-node-button section-tree-button tree-overview-button"
               data-active={isSelected}
               onClick={() => onSelectSection(categoryId, section.id)}
               type="button"
