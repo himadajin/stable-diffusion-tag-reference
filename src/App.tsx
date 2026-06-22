@@ -106,7 +106,6 @@ export function App() {
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(() => readFavoriteIds());
   const [copyState, setCopyState] = useState<CopyState | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [activeTopSectionId, setActiveTopSectionId] = useState<string>("");
   const [activeSectionId, setActiveSectionId] = useState<string>("");
   const [expandedCategoryIds, setExpandedCategoryIds] = useState<Set<string>>(() => new Set());
   const [expandedSectionKeys, setExpandedSectionKeys] = useState<Set<string>>(() => new Set());
@@ -227,9 +226,20 @@ export function App() {
     [categories, favoriteIds.size],
   );
   const activeSectionKey = activeSectionId ? sectionTreeKey(activeCategoryId, activeSectionId) : "";
-  const activeTopSectionKey = activeTopSectionId
-    ? sectionTreeKey(activeCategoryId, activeTopSectionId)
-    : "";
+  const activeSectionAncestorKeys = useMemo(() => {
+    if (
+      !activeCategory ||
+      activeCategory.id === FAVORITES_CATEGORY_ID ||
+      !activeShareSectionPath.length
+    ) {
+      return new Set<string>();
+    }
+    return new Set(
+      findSectionAncestorIdsByPath(activeCategory.sections, activeShareSectionPath).map(
+        (sectionId) => sectionTreeKey(activeCategory.id, sectionId),
+      ),
+    );
+  }, [activeCategory, activeShareSectionPath]);
 
   const cacheCategoryData = useCallback((data: CategoryData) => {
     categoryDataCacheRef.current.set(data.id, data);
@@ -331,7 +341,6 @@ export function App() {
     if (cachedCategory) setCategoryData(cachedCategory);
     setActiveCategoryId(categoryId);
     setQuery("");
-    setActiveTopSectionId("");
     setActiveSectionId("");
     if (categoryId !== FAVORITES_CATEGORY_ID) {
       setExpandedCategoryIds((current) => {
@@ -417,7 +426,6 @@ export function App() {
     });
 
     if (sectionPath.length === 0) {
-      setActiveTopSectionId("");
       setActiveSectionId("");
     }
 
@@ -448,7 +456,6 @@ export function App() {
     setPendingUrlLocation(null);
 
     if (!sectionId) {
-      setActiveTopSectionId("");
       setActiveSectionId("");
       writeCategoryHash({ categoryId: pendingUrlLocation.categoryId, sectionPath: [] }, "replace");
       return;
@@ -465,8 +472,7 @@ export function App() {
   }, [categoryData, expandSectionPath, pendingUrlLocation]);
 
   const updateVisibleSection = useCallback(
-    (topSectionId: string, sectionId: string) => {
-      setActiveTopSectionId(topSectionId);
+    (_topSectionId: string, sectionId: string) => {
       setActiveSectionId(sectionId);
 
       if (pendingUrlLocation || normalizeQuery(query)) return;
@@ -495,8 +501,8 @@ export function App() {
             activeCategory={activeCategory}
             activeCategoryId={activeCategoryId}
             activeSectionId={activeSectionId}
+            activeSectionAncestorKeys={activeSectionAncestorKeys}
             activeSectionKey={activeSectionKey}
-            activeTopSectionKey={activeTopSectionKey}
             categoryDataById={sidebarCategoryData}
             expandedCategoryIds={expandedCategoryIds}
             expandedSectionKeys={expandedSectionKeys}
@@ -521,8 +527,8 @@ export function App() {
               activeCategory={activeCategory}
               activeCategoryId={activeCategoryId}
               activeSectionId={activeSectionId}
+              activeSectionAncestorKeys={activeSectionAncestorKeys}
               activeSectionKey={activeSectionKey}
-              activeTopSectionKey={activeTopSectionKey}
               categoryDataById={sidebarCategoryData}
               expandedCategoryIds={expandedCategoryIds}
               expandedSectionKeys={expandedSectionKeys}
@@ -742,8 +748,8 @@ function CategorySidebar({
   activeCategory,
   activeCategoryId,
   activeSectionId,
+  activeSectionAncestorKeys,
   activeSectionKey,
-  activeTopSectionKey,
   categoryDataById,
   expandedCategoryIds,
   expandedSectionKeys,
@@ -756,8 +762,8 @@ function CategorySidebar({
   activeCategory: CategoryData | null;
   activeCategoryId: string;
   activeSectionId: string;
+  activeSectionAncestorKeys: Set<string>;
   activeSectionKey: string;
-  activeTopSectionKey: string;
   categoryDataById: Map<string, CategoryData>;
   expandedCategoryIds: Set<string>;
   expandedSectionKeys: Set<string>;
@@ -801,7 +807,8 @@ function CategorySidebar({
                   )}
                   <button
                     className="tree-node-button category-button"
-                    data-active={isActive}
+                    data-active={isActive && !activeSectionId}
+                    data-ancestor={isActive && Boolean(activeSectionId)}
                     data-current-child={isActive && !isExpanded && Boolean(activeSectionId)}
                     onClick={() => onSelect(category.id)}
                     type="button"
@@ -814,8 +821,8 @@ function CategorySidebar({
                   <nav className="section-tree" aria-label={`${category.name} のサブカテゴリ`}>
                     {categoryData.sections.map((section) => (
                       <SectionTreeNode
+                        activeSectionAncestorKeys={activeSectionAncestorKeys}
                         activeSectionKey={activeSectionKey}
-                        activeTopSectionKey={activeTopSectionKey}
                         categoryId={category.id}
                         depth={0}
                         expandedSectionKeys={expandedSectionKeys}
@@ -837,8 +844,8 @@ function CategorySidebar({
 }
 
 function SectionTreeNode({
+  activeSectionAncestorKeys,
   activeSectionKey,
-  activeTopSectionKey,
   categoryId,
   depth,
   expandedSectionKeys,
@@ -846,8 +853,8 @@ function SectionTreeNode({
   onToggleSection,
   section,
 }: {
+  activeSectionAncestorKeys: Set<string>;
   activeSectionKey: string;
-  activeTopSectionKey: string;
   categoryId: string;
   depth: number;
   expandedSectionKeys: Set<string>;
@@ -858,7 +865,7 @@ function SectionTreeNode({
   const sectionKey = sectionTreeKey(categoryId, section.id);
   const hasChildren = Boolean(section.children?.length);
   const isSelected = sectionKey === activeSectionKey;
-  const isAncestor = sectionKey === activeTopSectionKey && !isSelected;
+  const isAncestor = activeSectionAncestorKeys.has(sectionKey) && !isSelected;
   const isExpanded = hasChildren && expandedSectionKeys.has(sectionKey);
 
   return (
@@ -883,6 +890,7 @@ function SectionTreeNode({
         <button
           className="tree-node-button section-tree-button"
           data-active={isSelected}
+          data-ancestor={isAncestor}
           data-current-child={isAncestor && !isExpanded}
           onClick={() => onSelectSection(categoryId, section.id)}
           type="button"
@@ -895,8 +903,8 @@ function SectionTreeNode({
         <div className="section-tree-children">
           {section.children?.map((child) => (
             <SectionTreeNode
+              activeSectionAncestorKeys={activeSectionAncestorKeys}
               activeSectionKey={activeSectionKey}
-              activeTopSectionKey={activeTopSectionKey}
               categoryId={categoryId}
               depth={depth + 1}
               expandedSectionKeys={expandedSectionKeys}

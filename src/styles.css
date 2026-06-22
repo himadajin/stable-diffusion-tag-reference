@@ -163,6 +163,7 @@ button {
 }
 
 .tree-node-row {
+  position: relative;
   display: grid;
   grid-template-columns: 22px minmax(0, 1fr);
   align-items: center;
@@ -187,18 +188,22 @@ button {
   border: 0;
   border-radius: var(--radius-2);
   background: transparent;
-  color: var(--slate-10);
+  color: var(--slate-9);
   cursor: pointer;
 }
 
 .tree-disclosure-button:hover {
   background: var(--slate-3);
-  color: var(--slate-12);
+  color: var(--slate-11);
 }
 
 .tree-disclosure-button:focus-visible {
-  outline: 2px solid var(--indigo-8);
+  outline: 2px solid var(--focus-8);
   outline-offset: 1px;
+}
+
+.tree-disclosure-button:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .tree-disclosure-button svg {
@@ -217,22 +222,28 @@ button {
   gap: var(--space-2);
   width: 100%;
   min-height: 32px;
-  padding: 0 var(--space-2);
+  padding: 0 var(--space-2) 0 var(--space-3);
   border: 1px solid transparent;
   border-radius: var(--radius-2);
   background: transparent;
   color: var(--slate-11);
+  font-weight: 400;
   text-align: left;
   cursor: pointer;
 }
 
 .tree-node-button:hover {
-  background: var(--slate-3);
+  background: var(--slate-2);
+  color: var(--slate-12);
 }
 
 .tree-node-button:focus-visible {
-  outline: 2px solid var(--indigo-8);
+  outline: 2px solid var(--focus-8);
   outline-offset: 1px;
+}
+
+.tree-node-button:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .tree-node-label {
@@ -246,18 +257,27 @@ button {
   min-height: 32px;
 }
 
-.category-button[data-active="true"] {
-  border-color: transparent;
-  background: var(--slate-3);
+.tree-node-button[data-active="true"] {
+  border-color: var(--indigo-5);
+  background: var(--indigo-3);
   color: var(--slate-12);
   font-weight: 600;
 }
 
-.category-button[data-active="true"]::before,
-.category-button[data-current-child="true"]::before {
+.tree-node-button[data-ancestor="true"] {
+  color: var(--slate-12);
+  font-weight: 500;
+}
+
+.tree-node-button[data-current-child="true"]:not([data-active="true"]) {
+  background: var(--indigo-2);
+}
+
+.tree-node-button[data-active="true"]::before,
+.tree-node-button[data-current-child="true"]::before {
   position: absolute;
-  top: 6px;
-  bottom: 6px;
+  top: 5px;
+  bottom: 5px;
   left: 0;
   width: 2px;
   border-radius: 999px;
@@ -272,10 +292,21 @@ button {
 }
 
 .section-tree {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 1px;
   margin: 1px 0 var(--space-2) 22px;
+}
+
+.section-tree::before {
+  position: absolute;
+  top: 3px;
+  bottom: 6px;
+  left: 10px;
+  width: 1px;
+  background: var(--slate-5);
+  content: "";
 }
 
 .section-tree-group {
@@ -294,28 +325,6 @@ button {
   font-size: 13px;
 }
 
-.section-tree-button[data-active="true"] {
-  background: var(--slate-3);
-  color: var(--slate-12);
-  font-weight: 500;
-}
-
-.section-tree-button[data-active="true"]::before,
-.section-tree-button[data-current-child="true"]::before {
-  position: absolute;
-  top: 6px;
-  bottom: 6px;
-  left: 0;
-  width: 2px;
-  border-radius: 999px;
-  background: var(--indigo-9);
-  content: "";
-}
-
-.section-tree-button[data-current-child="true"]:not([data-active="true"]) {
-  color: var(--slate-12);
-}
-
 .section-tree-children {
   display: flex;
   flex-direction: column;
@@ -323,9 +332,15 @@ button {
 }
 
 .category-count {
-  color: var(--slate-10);
+  color: var(--slate-9);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
+  font-weight: 400;
+}
+
+.tree-node-button[data-active="true"] .category-count,
+.tree-node-button[data-ancestor="true"] .category-count {
+  color: var(--slate-10);
 }
 
 .category-view {

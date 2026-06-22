@@ -72,6 +72,14 @@ The active category branch is open by default. Users may also expand inactive so
 
 If a selected section is inside a collapsed branch, the ancestor branch should keep a subtle current-child state so users do not lose orientation.
 
+The sidebar tree should distinguish navigation states visually:
+
+- The currently displayed category or deepest section is the only strong active node.
+- Ancestors of the current section are shown as path context, not as equally active selections.
+- Expanded state is shown by caret direction and lightweight tree guides, not by strong selected backgrounds.
+- Counts are secondary metadata and should stay visually weaker than labels.
+- Mouse clicks should not leave prominent focus rings; keep strong focus outlines for keyboard `focus-visible` states.
+
 On mobile, selecting a top-level category may close the Drawer because the primary content has changed. Section jumps should also return focus to the content by closing the Drawer.
 
 ## Tag List Design
