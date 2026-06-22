@@ -9,6 +9,7 @@ const entries: SearchEntry[] = [
     categoryId: "quality",
     categoryName: "品質",
     path: ["ポジティブ"],
+    sectionPath: ["positive"],
     en: "masterpiece",
     ja: "傑作",
     searchText: "masterpiece 傑作 品質 ポジティブ",

@@ -4,179 +4,233 @@
   "tagCount": 124,
   "sections": [
     {
-      "id": "視点",
+      "id": "viewpoint",
       "name": "視点",
       "path": [
         "視点"
       ],
+      "sectionPath": [
+        "viewpoint"
+      ],
       "tagCount": 17,
       "tags": [
         {
-          "id": "composition__視点__0001",
+          "id": "composition__viewpoint__0001",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "dutch angle",
           "ja": "ダッチアングル"
         },
         {
-          "id": "composition__視点__0002",
+          "id": "composition__viewpoint__0002",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "from above",
           "ja": "上から"
         },
         {
-          "id": "composition__視点__0003",
+          "id": "composition__viewpoint__0003",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "from behind",
           "ja": "後ろから"
         },
         {
-          "id": "composition__視点__0004",
+          "id": "composition__viewpoint__0004",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "from below",
           "ja": "下から"
         },
         {
-          "id": "composition__視点__0005",
+          "id": "composition__viewpoint__0005",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "from side",
           "ja": "横から"
         },
         {
-          "id": "composition__視点__0006",
+          "id": "composition__viewpoint__0006",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "high up",
           "ja": "高いところ"
         },
         {
-          "id": "composition__視点__0007",
+          "id": "composition__viewpoint__0007",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "multiple views",
           "ja": "複数のビュー"
         },
         {
-          "id": "composition__視点__0008",
+          "id": "composition__viewpoint__0008",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "sideways",
           "ja": "横向き"
         },
         {
-          "id": "composition__視点__0009",
+          "id": "composition__viewpoint__0009",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "straight-on",
           "ja": "まっすぐに"
         },
         {
-          "id": "composition__視点__0010",
+          "id": "composition__viewpoint__0010",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "upside-down",
           "ja": "逆さまに"
         },
         {
-          "id": "composition__視点__0011",
+          "id": "composition__viewpoint__0011",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "atmospheric perspective",
           "ja": "大気遠近法"
         },
         {
-          "id": "composition__視点__0012",
+          "id": "composition__viewpoint__0012",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "fisheye",
           "ja": "魚眼レンズ"
         },
         {
-          "id": "composition__視点__0013",
+          "id": "composition__viewpoint__0013",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "panorama",
           "ja": "パノラマ"
         },
         {
-          "id": "composition__視点__0014",
+          "id": "composition__viewpoint__0014",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "perspective",
           "ja": "視点"
         },
         {
-          "id": "composition__視点__0015",
+          "id": "composition__viewpoint__0015",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "vanishing point",
           "ja": "消失点"
         },
         {
-          "id": "composition__視点__0016",
+          "id": "composition__viewpoint__0016",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
           ],
+          "sectionPath": [
+            "viewpoint"
+          ],
           "en": "variations",
           "ja": "バリエーション"
         },
         {
-          "id": "composition__視点__0017",
+          "id": "composition__viewpoint__0017",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "視点"
+          ],
+          "sectionPath": [
+            "viewpoint"
           ],
           "en": "eyewear view",
           "ja": "眼鏡の見方"
@@ -184,229 +238,298 @@
       ]
     },
     {
-      "id": "構図",
+      "id": "composition",
       "name": "構図",
       "path": [
         "構図"
       ],
+      "sectionPath": [
+        "composition"
+      ],
       "tagCount": 22,
       "tags": [
         {
-          "id": "composition__構図__0001",
+          "id": "composition__composition__0001",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "collage",
           "ja": "コラージュ"
         },
         {
-          "id": "composition__構図__0002",
+          "id": "composition__composition__0002",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "column lineup",
           "ja": "コラムラインナップ"
         },
         {
-          "id": "composition__構図__0003",
+          "id": "composition__composition__0003",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "diorama",
           "ja": "ジオラマ"
         },
         {
-          "id": "composition__構図__0004",
+          "id": "composition__composition__0004",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "lineup",
           "ja": "並ぶ"
         },
         {
-          "id": "composition__構図__0005",
+          "id": "composition__composition__0005",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "negative space",
           "ja": "ネガティブスペース"
         },
         {
-          "id": "composition__構図__0006",
+          "id": "composition__composition__0006",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "social media composition",
           "ja": "ソーシャルメディアの構成"
         },
         {
-          "id": "composition__構図__0007",
+          "id": "composition__composition__0007",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "symmetry",
           "ja": "対称"
         },
         {
-          "id": "composition__構図__0008",
+          "id": "composition__composition__0008",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "polar opposites",
           "ja": "正反対"
         },
         {
-          "id": "composition__構図__0009",
+          "id": "composition__composition__0009",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "rotational symmetry",
           "ja": "回転対称性"
         },
         {
-          "id": "composition__構図__0010",
+          "id": "composition__composition__0010",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "tachi-e",
           "ja": "立絵"
         },
         {
-          "id": "composition__構図__0011",
+          "id": "composition__composition__0011",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "thumbnail collage",
           "ja": "サムネイルコラージュ"
         },
         {
-          "id": "composition__構図__0012",
+          "id": "composition__composition__0012",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "wide shot",
           "ja": "ワイドショット"
         },
         {
-          "id": "composition__構図__0013",
+          "id": "composition__composition__0013",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "very wide shot",
           "ja": "非常にワイドショット"
         },
         {
-          "id": "composition__構図__0014",
+          "id": "composition__composition__0014",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "cityscape",
           "ja": "都市景観"
         },
         {
-          "id": "composition__構図__0015",
+          "id": "composition__composition__0015",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "everyone",
           "ja": "みんな"
         },
         {
-          "id": "composition__構図__0016",
+          "id": "composition__composition__0016",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "absolutely everyone",
           "ja": "絶対に全員"
         },
         {
-          "id": "composition__構図__0017",
+          "id": "composition__composition__0017",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "group picture",
           "ja": "集合写真"
         },
         {
-          "id": "composition__構図__0018",
+          "id": "composition__composition__0018",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "landscape",
           "ja": "風景"
         },
         {
-          "id": "composition__構図__0019",
+          "id": "composition__composition__0019",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "nature",
           "ja": "自然"
         },
         {
-          "id": "composition__構図__0020",
+          "id": "composition__composition__0020",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "no humans",
           "ja": "人間はいない"
         },
         {
-          "id": "composition__構図__0021",
+          "id": "composition__composition__0021",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
           ],
+          "sectionPath": [
+            "composition"
+          ],
           "en": "scenery",
           "ja": "景色"
         },
         {
-          "id": "composition__構図__0022",
+          "id": "composition__composition__0022",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "構図"
+          ],
+          "sectionPath": [
+            "composition"
           ],
           "en": "still life",
           "ja": "静物"
@@ -414,189 +537,246 @@
       ]
     },
     {
-      "id": "図解",
+      "id": "diagrams",
       "name": "図解",
       "path": [
         "図解"
       ],
+      "sectionPath": [
+        "diagrams"
+      ],
       "tagCount": 18,
       "tags": [
         {
-          "id": "composition__図解__0001",
+          "id": "composition__diagrams__0001",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "chart",
           "ja": "チャート"
         },
         {
-          "id": "composition__図解__0002",
+          "id": "composition__diagrams__0002",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "bust chart",
           "ja": "バストチャート"
         },
         {
-          "id": "composition__図解__0003",
+          "id": "composition__diagrams__0003",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "character chart",
           "ja": "キャラクターチャート"
         },
         {
-          "id": "composition__図解__0004",
+          "id": "composition__diagrams__0004",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "reference sheet",
           "ja": "参照シート"
         },
         {
-          "id": "composition__図解__0005",
+          "id": "composition__diagrams__0005",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "diagram",
           "ja": "図"
         },
         {
-          "id": "composition__図解__0006",
+          "id": "composition__diagrams__0006",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "move chart",
           "ja": "移動チャート"
         },
         {
-          "id": "composition__図解__0007",
+          "id": "composition__diagrams__0007",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "relationship graph",
           "ja": "関係グラフ"
         },
         {
-          "id": "composition__図解__0008",
+          "id": "composition__diagrams__0008",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "seating chart",
           "ja": "座席表"
         },
         {
-          "id": "composition__図解__0009",
+          "id": "composition__diagrams__0009",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "stats",
           "ja": "統計"
         },
         {
-          "id": "composition__図解__0010",
+          "id": "composition__diagrams__0010",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "1koma",
           "ja": "1コマ"
         },
         {
-          "id": "composition__図解__0011",
+          "id": "composition__diagrams__0011",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "2koma",
           "ja": "2コマ"
         },
         {
-          "id": "composition__図解__0012",
+          "id": "composition__diagrams__0012",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "3koma",
           "ja": "3コマ"
         },
         {
-          "id": "composition__図解__0013",
+          "id": "composition__diagrams__0013",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "4koma",
           "ja": "4コマ"
         },
         {
-          "id": "composition__図解__0014",
+          "id": "composition__diagrams__0014",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "multiple 4koma",
           "ja": "複数の4コマ"
         },
         {
-          "id": "composition__図解__0015",
+          "id": "composition__diagrams__0015",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "5koma",
           "ja": "5コマ"
         },
         {
-          "id": "composition__図解__0016",
+          "id": "composition__diagrams__0016",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "left-to-right manga",
           "ja": "左から右へのマンガ"
         },
         {
-          "id": "composition__図解__0017",
+          "id": "composition__diagrams__0017",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
           ],
+          "sectionPath": [
+            "diagrams"
+          ],
           "en": "right-to-left comic",
           "ja": "右から左に読む漫画"
         },
         {
-          "id": "composition__図解__0018",
+          "id": "composition__diagrams__0018",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "図解"
+          ],
+          "sectionPath": [
+            "diagrams"
           ],
           "en": "silent comic",
           "ja": "サイレントコミック"
@@ -604,419 +784,545 @@
       ]
     },
     {
-      "id": "トリミンク",
+      "id": "cropping",
       "name": "トリミング",
       "path": [
         "トリミング"
       ],
+      "sectionPath": [
+        "cropping"
+      ],
       "tagCount": 41,
       "tags": [
         {
-          "id": "composition__トリミンク__0001",
+          "id": "composition__cropping__0001",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "border",
           "ja": "国境"
         },
         {
-          "id": "composition__トリミンク__0002",
+          "id": "composition__cropping__0002",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "fading border",
           "ja": "消えゆく境界線"
         },
         {
-          "id": "composition__トリミンク__0003",
+          "id": "composition__cropping__0003",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "inset border",
           "ja": "インセットボーダー"
         },
         {
-          "id": "composition__トリミンク__0004",
+          "id": "composition__cropping__0004",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "ornate border",
           "ja": "華やかな縁取り"
         },
         {
-          "id": "composition__トリミンク__0005",
+          "id": "composition__cropping__0005",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "outside border",
           "ja": "国境の外"
         },
         {
-          "id": "composition__トリミンク__0006",
+          "id": "composition__cropping__0006",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "rounded corners",
           "ja": "丸い角"
         },
         {
-          "id": "composition__トリミンク__0007",
+          "id": "composition__cropping__0007",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "viewfinder",
           "ja": "ファインダー"
         },
         {
-          "id": "composition__トリミンク__0008",
+          "id": "composition__cropping__0008",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "borderless panels",
           "ja": "ボーダーレスパネル"
         },
         {
-          "id": "composition__トリミンク__0009",
+          "id": "composition__cropping__0009",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "out of frame",
           "ja": "フレーム外"
         },
         {
-          "id": "composition__トリミンク__0010",
+          "id": "composition__cropping__0010",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "fake scrollbar",
           "ja": "偽のスクロールバー"
         },
         {
-          "id": "composition__トリミンク__0011",
+          "id": "composition__cropping__0011",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "feet out of frame",
           "ja": "フレームから外れた足"
         },
         {
-          "id": "composition__トリミンク__0012",
+          "id": "composition__cropping__0012",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "foot out of frame",
           "ja": "足がフレームから外れている"
         },
         {
-          "id": "composition__トリミンク__0013",
+          "id": "composition__cropping__0013",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "head out of frame",
           "ja": "頭がフレームから外れている"
         },
         {
-          "id": "composition__トリミンク__0014",
+          "id": "composition__cropping__0014",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "eyes out of frame",
           "ja": "フレーム外の目"
         },
         {
-          "id": "composition__トリミンク__0015",
+          "id": "composition__cropping__0015",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "knees out of frame",
           "ja": "膝がフレームから外れている"
         },
         {
-          "id": "composition__トリミンク__0016",
+          "id": "composition__cropping__0016",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "out-of-frame censoring",
           "ja": "フレーム外検閲"
         },
         {
-          "id": "composition__トリミンク__0017",
+          "id": "composition__cropping__0017",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "letterboxed",
           "ja": "レターボックス"
         },
         {
-          "id": "composition__トリミンク__0018",
+          "id": "composition__cropping__0018",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "pillarboxed",
           "ja": "ピラーボックス"
         },
         {
-          "id": "composition__トリミンク__0019",
+          "id": "composition__cropping__0019",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "trim marks",
           "ja": "トリムマーク"
         },
         {
-          "id": "composition__トリミンク__0020",
+          "id": "composition__cropping__0020",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "projected inset",
           "ja": "投影されたインセット"
         },
         {
-          "id": "composition__トリミンク__0021",
+          "id": "composition__cropping__0021",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "tall image",
           "ja": "背の高い画像"
         },
         {
-          "id": "composition__トリミンク__0022",
+          "id": "composition__cropping__0022",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "transparent background",
           "ja": "透明な背景"
         },
         {
-          "id": "composition__トリミンク__0023",
+          "id": "composition__cropping__0023",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "triptych (art)",
           "ja": "三連祭壇画（美術）"
         },
         {
-          "id": "composition__トリミンク__0024",
+          "id": "composition__cropping__0024",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "widescreen",
           "ja": "ワイドスクリーン"
         },
         {
-          "id": "composition__トリミンク__0025",
+          "id": "composition__cropping__0025",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "wide image",
           "ja": "ワイド画像"
         },
         {
-          "id": "composition__トリミンク__0026",
+          "id": "composition__cropping__0026",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "portrait",
           "ja": "肖像画"
         },
         {
-          "id": "composition__トリミンク__0027",
+          "id": "composition__cropping__0027",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "upper body",
           "ja": "上半身"
         },
         {
-          "id": "composition__トリミンク__0028",
+          "id": "composition__cropping__0028",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "lower body",
           "ja": "下半身"
         },
         {
-          "id": "composition__トリミンク__0029",
+          "id": "composition__cropping__0029",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cowboy shot",
           "ja": "カウボーイショット"
         },
         {
-          "id": "composition__トリミンク__0030",
+          "id": "composition__cropping__0030",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "full body",
           "ja": "全身"
         },
         {
-          "id": "composition__トリミンク__0031",
+          "id": "composition__cropping__0031",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "close-up",
           "ja": "閉じる"
         },
         {
-          "id": "composition__トリミンク__0032",
+          "id": "composition__cropping__0032",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cropped",
           "ja": "切り取られた"
         },
         {
-          "id": "composition__トリミンク__0033",
+          "id": "composition__cropping__0033",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cropped legs",
           "ja": "クロップドレッグ"
         },
         {
-          "id": "composition__トリミンク__0034",
+          "id": "composition__cropping__0034",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cropped torso",
           "ja": "胴体を切り取った"
         },
         {
-          "id": "composition__トリミンク__0035",
+          "id": "composition__cropping__0035",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cropped arms",
           "ja": "切り取られた腕"
         },
         {
-          "id": "composition__トリミンク__0036",
+          "id": "composition__cropping__0036",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cropped shoulders",
           "ja": "クロップドショルダー"
         },
         {
-          "id": "composition__トリミンク__0037",
+          "id": "composition__cropping__0037",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cropped head",
           "ja": "切り頭"
         },
         {
-          "id": "composition__トリミンク__0038",
+          "id": "composition__cropping__0038",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "cut-in",
           "ja": "カットイン"
         },
         {
-          "id": "composition__トリミンク__0039",
+          "id": "composition__cropping__0039",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "profile",
           "ja": "プロフィール"
         },
         {
-          "id": "composition__トリミンク__0040",
+          "id": "composition__cropping__0040",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
           ],
+          "sectionPath": [
+            "cropping"
+          ],
           "en": "group profile",
           "ja": "グループプロフィール"
         },
         {
-          "id": "composition__トリミンク__0041",
+          "id": "composition__cropping__0041",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "トリミング"
+          ],
+          "sectionPath": [
+            "cropping"
           ],
           "en": "split crop",
           "ja": "分割作物"
@@ -1024,269 +1330,350 @@
       ]
     },
     {
-      "id": "フォーカス",
+      "id": "focus",
       "name": "フォーカス",
       "path": [
         "フォーカス"
       ],
+      "sectionPath": [
+        "focus"
+      ],
       "tagCount": 26,
       "tags": [
         {
-          "id": "composition__フォーカス__0001",
+          "id": "composition__focus__0001",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "animal focus",
           "ja": "動物に焦点を当てる"
         },
         {
-          "id": "composition__フォーカス__0002",
+          "id": "composition__focus__0002",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "armpit focus",
           "ja": "脇の下に焦点を当てる"
         },
         {
-          "id": "composition__フォーカス__0003",
+          "id": "composition__focus__0003",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "ass focus",
           "ja": "お尻フォーカス"
         },
         {
-          "id": "composition__フォーカス__0004",
+          "id": "composition__focus__0004",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "back focus",
           "ja": "バックフォーカス"
         },
         {
-          "id": "composition__フォーカス__0005",
+          "id": "composition__focus__0005",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "book focus",
           "ja": "本の焦点"
         },
         {
-          "id": "composition__フォーカス__0006",
+          "id": "composition__focus__0006",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "breast focus",
           "ja": "乳房フォーカス"
         },
         {
-          "id": "composition__フォーカス__0007",
+          "id": "composition__focus__0007",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "cloud focus",
           "ja": "クラウドフォーカス"
         },
         {
-          "id": "composition__フォーカス__0008",
+          "id": "composition__focus__0008",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "eye focus",
           "ja": "目の焦点"
         },
         {
-          "id": "composition__フォーカス__0009",
+          "id": "composition__focus__0009",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "food focus",
           "ja": "食に焦点を当てる"
         },
         {
-          "id": "composition__フォーカス__0010",
+          "id": "composition__focus__0010",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "foot focus",
           "ja": "足のフォーカス"
         },
         {
-          "id": "composition__フォーカス__0011",
+          "id": "composition__focus__0011",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "hand focus",
           "ja": "手フォーカス"
         },
         {
-          "id": "composition__フォーカス__0012",
+          "id": "composition__focus__0012",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "hip focus",
           "ja": "ヒップフォーカス"
         },
         {
-          "id": "composition__フォーカス__0013",
+          "id": "composition__focus__0013",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "male focus",
           "ja": "男性中心"
         },
         {
-          "id": "composition__フォーカス__0014",
+          "id": "composition__focus__0014",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "monster focus",
           "ja": "モンスターフォーカス"
         },
         {
-          "id": "composition__フォーカス__0015",
+          "id": "composition__focus__0015",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "navel focus",
           "ja": "へそに焦点を当てる"
         },
         {
-          "id": "composition__フォーカス__0016",
+          "id": "composition__focus__0016",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "object focus",
           "ja": "オブジェクトフォーカス"
         },
         {
-          "id": "composition__フォーカス__0017",
+          "id": "composition__focus__0017",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "other focus",
           "ja": "その他の焦点"
         },
         {
-          "id": "composition__フォーカス__0018",
+          "id": "composition__focus__0018",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "plant focus",
           "ja": "植物に焦点を当てる"
         },
         {
-          "id": "composition__フォーカス__0019",
+          "id": "composition__focus__0019",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "pectoral focus",
           "ja": "胸筋の焦点"
         },
         {
-          "id": "composition__フォーカス__0020",
+          "id": "composition__focus__0020",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "penis focus",
           "ja": "ペニスフォーカス"
         },
         {
-          "id": "composition__フォーカス__0021",
+          "id": "composition__focus__0021",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "solo focus",
           "ja": "ソロフォーカス"
         },
         {
-          "id": "composition__フォーカス__0022",
+          "id": "composition__focus__0022",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "vehicle focus",
           "ja": "車両フォーカス"
         },
         {
-          "id": "composition__フォーカス__0023",
+          "id": "composition__focus__0023",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "text focus",
           "ja": "テキストフォーカス"
         },
         {
-          "id": "composition__フォーカス__0024",
+          "id": "composition__focus__0024",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "thigh focus",
           "ja": "太ももに焦点を当てる"
         },
         {
-          "id": "composition__フォーカス__0025",
+          "id": "composition__focus__0025",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
           ],
+          "sectionPath": [
+            "focus"
+          ],
           "en": "weapon focus",
           "ja": "武器の焦点"
         },
         {
-          "id": "composition__フォーカス__0026",
+          "id": "composition__focus__0026",
           "categoryId": "composition",
           "categoryName": "構図",
           "path": [
             "フォーカス"
+          ],
+          "sectionPath": [
+            "focus"
           ],
           "en": "wind chime focus",
           "ja": "風鈴フォーカス"

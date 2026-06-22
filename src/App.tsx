@@ -36,6 +36,7 @@ type VirtualCategoryRow =
       depth: number;
       name: string;
       path: string[];
+      sectionPath: string[];
       tagCount: number;
     }
   | {
@@ -52,7 +53,7 @@ const DESKTOP_SECTION_ROW_HEIGHT = 32;
 const MOBILE_SECTION_ROW_HEIGHT = 36;
 const VIRTUAL_OVERSCAN_ROWS = 12;
 const FAVORITES_CATEGORY_ID = "favorites";
-const FAVORITES_STORAGE_KEY = "prompt-tag-viewer:favorites:v1";
+const FAVORITES_STORAGE_KEY = "prompt-tag-viewer:favorites:v2";
 
 type SectionJump = {
   categoryId: string;
@@ -173,7 +174,7 @@ export function App() {
   async function openTagContext(entry: Extract<SearchEntry, { type: "tag" }>) {
     const data = await loadCategory(entry.categoryId);
     categoryDataCacheRef.current.set(entry.categoryId, data);
-    const sectionId = findSectionIdByPath(data.sections, entry.path) ?? "";
+    const sectionId = findSectionIdBySectionPath(data.sections, entry.sectionPath) ?? "";
     setActiveCategoryId(entry.categoryId);
     setQuery("");
     setActiveSectionId(sectionId);
@@ -367,6 +368,7 @@ async function loadFavoritesCategory(
         id: `favorites__${category.id}`,
         name: category.name,
         path: [category.name],
+        sectionPath: [category.id],
         tagCount: tags.length,
         tags,
       };
@@ -795,6 +797,7 @@ function flattenCategoryRows(sections: CategorySection[], depth = 0): VirtualCat
         depth,
         name: section.name,
         path: section.path,
+        sectionPath: section.sectionPath,
         tagCount: section.tagCount,
       },
     ];
@@ -821,15 +824,18 @@ function findSectionPath(sections: CategorySection[], sectionId: string): string
   return null;
 }
 
-function findSectionIdByPath(sections: CategorySection[], path: string[]): string | null {
+function findSectionIdBySectionPath(
+  sections: CategorySection[],
+  sectionPath: string[],
+): string | null {
   for (const section of sections) {
     if (
-      section.path.length === path.length &&
-      section.path.every((part, index) => part === path[index])
+      section.sectionPath.length === sectionPath.length &&
+      section.sectionPath.every((part, index) => part === sectionPath[index])
     ) {
       return section.id;
     }
-    const childId = findSectionIdByPath(section.children ?? [], path);
+    const childId = findSectionIdBySectionPath(section.children ?? [], sectionPath);
     if (childId) return childId;
   }
   return null;
@@ -896,6 +902,7 @@ type SectionPosition = {
   index: number;
   depth: number;
   path: string[];
+  sectionPath: string[];
   topSectionId: string;
 };
 
@@ -910,6 +917,7 @@ function collectSectionPositions(rows: VirtualCategoryRow[]): SectionPosition[] 
         index,
         depth: row.depth,
         path: row.path,
+        sectionPath: row.sectionPath,
         topSectionId,
       },
     ];

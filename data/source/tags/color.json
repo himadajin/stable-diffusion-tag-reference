@@ -1,686 +1,702 @@
 {
   "id": "color",
   "name": "色",
-  "tree": {
-    "テーマ": [
-      {
-        "en": "aqua theme",
-        "ja": "アクアテーマ"
-      },
-      {
-        "en": "black theme",
-        "ja": "黒のテーマ"
-      },
-      {
-        "en": "blue theme",
-        "ja": "青のテーマ"
-      },
-      {
-        "en": "brown theme",
-        "ja": "茶色のテーマ"
-      },
-      {
-        "en": "green theme",
-        "ja": "緑のテーマ"
-      },
-      {
-        "en": "grey theme",
-        "ja": "グレーテーマ"
-      },
-      {
-        "en": "orange theme",
-        "ja": "オレンジテーマ"
-      },
-      {
-        "en": "pink theme",
-        "ja": "ピンクのテーマ"
-      },
-      {
-        "en": "purple theme",
-        "ja": "紫のテーマ"
-      },
-      {
-        "en": "red theme",
-        "ja": "赤のテーマ"
-      },
-      {
-        "en": "white theme",
-        "ja": "白のテーマ"
-      },
-      {
-        "en": "yellow theme",
-        "ja": "黄色のテーマ"
-      },
-      {
-        "en": "cool colored",
-        "ja": "クールな色"
-      },
-      {
-        "en": "warm colored",
-        "ja": "暖色系"
-      },
-      {
-        "en": "colorful",
-        "ja": "カラフル"
-      },
-      {
-        "en": "analogous colors",
-        "ja": "類似色"
-      },
-      {
-        "en": "color contrast",
-        "ja": "色のコントラスト"
-      },
-      {
-        "en": "color coordination",
-        "ja": "色彩調整"
-      },
-      {
-        "en": "monochrome",
-        "ja": "モノクロ"
-      }
-    ],
-    "効果": [
-      {
-        "en": "monochrome",
-        "ja": "モノクロ"
-      },
-      {
-        "en": "dark",
-        "ja": "暗い"
-      },
-      {
-        "en": "muted color",
-        "ja": "落ち着いた色"
-      },
-      {
-        "en": "pale color",
-        "ja": "淡い色"
-      },
-      {
-        "en": "partially colored",
-        "ja": "部分的に着色された"
-      },
-      {
-        "en": "greyscale with colored background",
-        "ja": "色付きの背景のグレースケール"
-      },
-      {
-        "en": "spot color",
-        "ja": "スポットカラー"
-      },
-      {
-        "en": "high contrast",
-        "ja": "高コントラスト"
-      },
-      {
-        "en": "sepia",
-        "ja": "セピア"
-      },
-      {
-        "en": "limited palette",
-        "ja": "限られたパレット"
-      },
-      {
-        "en": "multiple monochrome",
-        "ja": "複数のモノクロ"
-      },
-      {
-        "en": "pastel colors",
-        "ja": "パステルカラー"
-      },
-      {
-        "en": "inverted colors",
-        "ja": "反転した色"
-      },
-      {
-        "en": "neon palette",
-        "ja": "ネオンパレット"
-      },
-      {
-        "en": "double exposure",
-        "ja": "二重曝露"
-      },
-      {
-        "en": "vignetting",
-        "ja": "ケラレ"
-      },
-      {
-        "en": "cool colored",
-        "ja": "クールな色"
-      },
-      {
-        "en": "warm colored",
-        "ja": "暖色系"
-      },
-      {
-        "en": "colorful",
-        "ja": "カラフル"
-      },
-      {
-        "en": "analogous colors",
-        "ja": "類似色"
-      },
-      {
-        "en": "color contrast",
-        "ja": "色のコントラスト"
-      },
-      {
-        "en": "color coordination",
-        "ja": "色彩調整"
-      }
-    ],
-    "パターン": [
-      {
-        "en": "argyle",
-        "ja": "アーガイル"
-      },
-      {
-        "en": "asa no ha",
-        "ja": "朝の葉"
-      },
-      {
-        "en": "camouflage",
-        "ja": "迷彩"
-      },
-      {
-        "en": "checkered",
-        "ja": "市松"
-      },
-      {
-        "en": "honeycomb",
-        "ja": "ハニカム"
-      },
-      {
-        "en": "houndstooth",
-        "ja": "千鳥格子"
-      },
-      {
-        "en": "pinstripe pattern",
-        "ja": "ピンストライプ柄"
-      },
-      {
-        "en": "plaid",
-        "ja": "チェック柄"
-      },
-      {
-        "en": "gingham",
-        "ja": "ギンガム"
-      },
-      {
-        "en": "polka dot",
-        "ja": "水玉模様"
-      },
-      {
-        "en": "sayagata",
-        "ja": "サヤガタ"
-      },
-      {
-        "en": "seigaiha",
-        "ja": "青海波"
-      },
-      {
-        "en": "striped",
-        "ja": "縞模様"
-      },
-      {
-        "en": "diagonal stripes",
-        "ja": "斜めのストライプ"
-      },
-      {
-        "en": "horizontal stripes",
-        "ja": "横縞"
-      },
-      {
-        "en": "vertical stripes",
-        "ja": "縦縞"
-      },
-      {
-        "en": "colored stripes",
-        "ja": "色のストライプ"
-      },
-      {
-        "en": "multicolored stripes",
-        "ja": "多色のストライプ"
-      },
-      {
-        "en": "tiger stripes",
-        "ja": "トラの縞模様"
-      },
-      {
-        "en": "double vertical stripe",
-        "ja": "二重縦縞"
-      },
-      {
-        "en": "invasion stripes",
-        "ja": "侵略ストライプ"
-      },
-      {
-        "en": "yagasuri",
-        "ja": "矢絣"
-      },
-      {
-        "en": "asa no ha (pattern)",
-        "ja": "朝の葉"
-      },
-      {
-        "en": "egasumi",
-        "ja": "えがすみ"
-      },
-      {
-        "en": "genjiguruma",
-        "ja": "源氏車"
-      },
-      {
-        "en": "goshoguruma",
-        "ja": "御所車"
-      },
-      {
-        "en": "igeta (pattern)",
-        "ja": "井桁（いげた）"
-      },
-      {
-        "en": "kagome (pattern)",
-        "ja": "籠目（かごめ）"
-      },
-      {
-        "en": "kanoko (pattern)",
-        "ja": "鹿の子（柄）"
-      },
-      {
-        "en": "karakusa (pattern)",
-        "ja": "唐草（文様）"
-      },
-      {
-        "en": "kikumon",
-        "ja": "菊門"
-      },
-      {
-        "en": "kikkoumon",
-        "ja": "亀甲門"
-      },
-      {
-        "en": "kojitsunagi (pattern)",
-        "ja": "柄つなぎ（こうじつなぎ）"
-      },
-      {
-        "en": "matsu symbol",
-        "ja": "松のシンボル"
-      },
-      {
-        "en": "sakuramon",
-        "ja": "桜門"
-      },
-      {
-        "en": "shima (pattern)",
-        "ja": "縞（模様）"
-      },
-      {
-        "en": "shippou (pattern)",
-        "ja": "七宝（しっぽう）"
-      },
-      {
-        "en": "uchiwa",
-        "ja": "団扇"
-      },
-      {
-        "en": "uroko (pattern)",
-        "ja": "ウロコ（模様）"
-      },
-      {
-        "en": "tatewaku",
-        "ja": "たてわく"
-      },
-      {
-        "en": "shark print",
-        "ja": "サメのプリント"
-      },
-      {
-        "en": "cross print",
-        "ja": "クロスプリント"
-      },
-      {
-        "en": "double happiness",
-        "ja": "二重の幸せ"
-      },
-      {
-        "en": "fleur-de-lis",
-        "ja": "フルール・ド・リス"
-      },
-      {
-        "en": "flower of life",
-        "ja": "生命の花"
-      },
-      {
-        "en": "meandros",
-        "ja": "メアンドロス"
-      },
-      {
-        "en": "paisley",
-        "ja": "ペイズリー"
-      },
-      {
-        "en": "xiangyun",
-        "ja": "翔雲"
-      }
-    ],
-    "プリント": [
-      {
-        "en": "animal print",
-        "ja": "アニマルプリント"
-      },
-      {
-        "en": "bat print",
-        "ja": "コウモリの足跡"
-      },
-      {
-        "en": "bear print",
-        "ja": "クマのプリント"
-      },
-      {
-        "en": "bird print",
-        "ja": "鳥のプリント"
-      },
-      {
-        "en": "cow print",
-        "ja": "牛柄"
-      },
-      {
-        "en": "leopard print",
-        "ja": "ヒョウ柄"
-      },
-      {
-        "en": "tiger print",
-        "ja": "虎柄"
-      },
-      {
-        "en": "snake print",
-        "ja": "蛇紋岩"
-      },
-      {
-        "en": "zebra print",
-        "ja": "ゼブラ柄"
-      },
-      {
-        "en": "fireworks print",
-        "ja": "花火プリント"
-      },
-      {
-        "en": "flag print",
-        "ja": "旗のプリント"
-      },
-      {
-        "en": "floral print",
-        "ja": "花柄"
-      },
-      {
-        "en": "cherry blossom print",
-        "ja": "桜のプリント"
-      },
-      {
-        "en": "food print",
-        "ja": "食品プリント"
-      },
-      {
-        "en": "game controller print",
-        "ja": "ゲームコントローラーの印刷"
-      },
-      {
-        "en": "grid print",
-        "ja": "グリッドプリント"
-      },
-      {
-        "en": "moon print",
-        "ja": "月のプリント"
-      },
-      {
-        "en": "crescent print",
-        "ja": "三日月柄"
-      },
-      {
-        "en": "handprint",
-        "ja": "手形"
-      },
-      {
-        "en": "leaf print",
-        "ja": "葉っぱのプリント"
-      },
-      {
-        "en": "musical note print",
-        "ja": "音符プリント"
-      },
-      {
-        "en": "piano print",
-        "ja": "ピアノプリント"
-      },
-      {
-        "en": "watermelon print",
-        "ja": "スイカプリント"
-      },
-      {
-        "en": "print ascot",
-        "ja": "プリントアスコット"
-      },
-      {
-        "en": "print boots",
-        "ja": "プリントブーツ"
-      },
-      {
-        "en": "print bow",
-        "ja": "プリントリボン"
-      },
-      {
-        "en": "print bowtie",
-        "ja": "プリント蝶ネクタイ"
-      },
-      {
-        "en": "print eyepatch",
-        "ja": "プリント眼帯"
-      },
-      {
-        "en": "print gloves",
-        "ja": "プリント手袋"
-      },
-      {
-        "en": "print hakama",
-        "ja": "プリントの袴"
-      },
-      {
-        "en": "print headwear",
-        "ja": "プリントヘッドウェア"
-      },
-      {
-        "en": "print kimono",
-        "ja": "プリント着物"
-      },
-      {
-        "en": "print leggings",
-        "ja": "プリントレギンス"
-      },
-      {
-        "en": "print necktie",
-        "ja": "プリントネクタイ"
-      },
-      {
-        "en": "print neckerchief",
-        "ja": "プリントネッカチーフ"
-      },
-      {
-        "en": "print panties",
-        "ja": "プリントパンティー"
-      },
-      {
-        "en": "print pantyhose",
-        "ja": "プリントパンスト"
-      },
-      {
-        "en": "print ribbon",
-        "ja": "プリントリボン"
-      },
-      {
-        "en": "print sandals",
-        "ja": "プリントサンダル"
-      },
-      {
-        "en": "print shirt",
-        "ja": "プリントシャツ"
-      },
-      {
-        "en": "print shoes",
-        "ja": "プリントシューズ"
-      },
-      {
-        "en": "print shorts",
-        "ja": "プリントショーツ"
-      },
-      {
-        "en": "print slippers",
-        "ja": "プリントスリッパ"
-      },
-      {
-        "en": "print socks",
-        "ja": "プリントソックス"
-      },
-      {
-        "en": "print swimsuit",
-        "ja": "プリント水着"
-      },
-      {
-        "en": "print bikini",
-        "ja": "プリントビキニ"
-      },
-      {
-        "en": "print thighhighs",
-        "ja": "プリントサイハイソックス"
-      },
-      {
-        "en": "print umbrella",
-        "ja": "プリント傘"
-      },
-      {
-        "en": "butterfly print",
-        "ja": "蝶のプリント"
-      },
-      {
-        "en": "bone print",
-        "ja": "骨の跡"
-      },
-      {
-        "en": "clover print",
-        "ja": "クローバープリント"
-      },
-      {
-        "en": "rose print",
-        "ja": "バラのプリント"
-      },
-      {
-        "en": "camellia print",
-        "ja": "椿のプリント"
-      },
-      {
-        "en": "chrysanthemum print",
-        "ja": "菊のプリント"
-      },
-      {
-        "en": "lily print",
-        "ja": "ユリ柄"
-      },
-      {
-        "en": "morning glory print",
-        "ja": "朝顔プリント"
-      },
-      {
-        "en": "peony print",
-        "ja": "牡丹柄"
-      },
-      {
-        "en": "plum blossom print",
-        "ja": "梅の花のプリント"
-      },
-      {
-        "en": "spider lily print",
-        "ja": "スパイダーリリープリント"
-      },
-      {
-        "en": "sunflower print",
-        "ja": "ひまわりプリント"
-      },
-      {
-        "en": "fruit pattern",
-        "ja": "フルーツ柄"
-      },
-      {
-        "en": "apple print",
-        "ja": "リンゴのプリント"
-      },
-      {
-        "en": "blueberry print",
-        "ja": "ブルーベリープリント"
-      },
-      {
-        "en": "cherry print",
-        "ja": "チェリープリント"
-      },
-      {
-        "en": "kiwi print",
-        "ja": "キウイプリント"
-      },
-      {
-        "en": "lemon print",
-        "ja": "レモンプリント"
-      },
-      {
-        "en": "pineapple print",
-        "ja": "パイナップルプリント"
-      },
-      {
-        "en": "orange print",
-        "ja": "オレンジ色のプリント"
-      },
-      {
-        "en": "strawberry print",
-        "ja": "イチゴプリント"
-      },
-      {
-        "en": "maple leaf print",
-        "ja": "メープルリーフプリント"
-      },
-      {
-        "en": "paw print",
-        "ja": "足跡"
-      },
-      {
-        "en": "petal print",
-        "ja": "花びらプリント"
-      },
-      {
-        "en": "sparkle print",
-        "ja": "スパークルプリント"
-      },
-      {
-        "en": "triangle print",
-        "ja": "三角形のプリント"
-      },
-      {
-        "en": "space print",
-        "ja": "宇宙プリント"
-      },
-      {
-        "en": "starry sky print",
-        "ja": "星空プリント"
-      },
-      {
-        "en": "star print",
-        "ja": "星柄"
-      },
-      {
-        "en": "wave print",
-        "ja": "波模様"
-      },
-      {
-        "en": "wing print",
-        "ja": "翼のプリント"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "themes",
+      "name": "テーマ",
+      "tags": [
+        {
+          "en": "aqua theme",
+          "ja": "アクアテーマ"
+        },
+        {
+          "en": "black theme",
+          "ja": "黒のテーマ"
+        },
+        {
+          "en": "blue theme",
+          "ja": "青のテーマ"
+        },
+        {
+          "en": "brown theme",
+          "ja": "茶色のテーマ"
+        },
+        {
+          "en": "green theme",
+          "ja": "緑のテーマ"
+        },
+        {
+          "en": "grey theme",
+          "ja": "グレーテーマ"
+        },
+        {
+          "en": "orange theme",
+          "ja": "オレンジテーマ"
+        },
+        {
+          "en": "pink theme",
+          "ja": "ピンクのテーマ"
+        },
+        {
+          "en": "purple theme",
+          "ja": "紫のテーマ"
+        },
+        {
+          "en": "red theme",
+          "ja": "赤のテーマ"
+        },
+        {
+          "en": "white theme",
+          "ja": "白のテーマ"
+        },
+        {
+          "en": "yellow theme",
+          "ja": "黄色のテーマ"
+        },
+        {
+          "en": "cool colored",
+          "ja": "クールな色"
+        },
+        {
+          "en": "warm colored",
+          "ja": "暖色系"
+        },
+        {
+          "en": "colorful",
+          "ja": "カラフル"
+        },
+        {
+          "en": "analogous colors",
+          "ja": "類似色"
+        },
+        {
+          "en": "color contrast",
+          "ja": "色のコントラスト"
+        },
+        {
+          "en": "color coordination",
+          "ja": "色彩調整"
+        },
+        {
+          "en": "monochrome",
+          "ja": "モノクロ"
+        }
+      ]
+    },
+    {
+      "id": "effects",
+      "name": "効果",
+      "tags": [
+        {
+          "en": "monochrome",
+          "ja": "モノクロ"
+        },
+        {
+          "en": "dark",
+          "ja": "暗い"
+        },
+        {
+          "en": "muted color",
+          "ja": "落ち着いた色"
+        },
+        {
+          "en": "pale color",
+          "ja": "淡い色"
+        },
+        {
+          "en": "partially colored",
+          "ja": "部分的に着色された"
+        },
+        {
+          "en": "greyscale with colored background",
+          "ja": "色付きの背景のグレースケール"
+        },
+        {
+          "en": "spot color",
+          "ja": "スポットカラー"
+        },
+        {
+          "en": "high contrast",
+          "ja": "高コントラスト"
+        },
+        {
+          "en": "sepia",
+          "ja": "セピア"
+        },
+        {
+          "en": "limited palette",
+          "ja": "限られたパレット"
+        },
+        {
+          "en": "multiple monochrome",
+          "ja": "複数のモノクロ"
+        },
+        {
+          "en": "pastel colors",
+          "ja": "パステルカラー"
+        },
+        {
+          "en": "inverted colors",
+          "ja": "反転した色"
+        },
+        {
+          "en": "neon palette",
+          "ja": "ネオンパレット"
+        },
+        {
+          "en": "double exposure",
+          "ja": "二重曝露"
+        },
+        {
+          "en": "vignetting",
+          "ja": "ケラレ"
+        },
+        {
+          "en": "cool colored",
+          "ja": "クールな色"
+        },
+        {
+          "en": "warm colored",
+          "ja": "暖色系"
+        },
+        {
+          "en": "colorful",
+          "ja": "カラフル"
+        },
+        {
+          "en": "analogous colors",
+          "ja": "類似色"
+        },
+        {
+          "en": "color contrast",
+          "ja": "色のコントラスト"
+        },
+        {
+          "en": "color coordination",
+          "ja": "色彩調整"
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "name": "パターン",
+      "tags": [
+        {
+          "en": "argyle",
+          "ja": "アーガイル"
+        },
+        {
+          "en": "asa no ha",
+          "ja": "朝の葉"
+        },
+        {
+          "en": "camouflage",
+          "ja": "迷彩"
+        },
+        {
+          "en": "checkered",
+          "ja": "市松"
+        },
+        {
+          "en": "honeycomb",
+          "ja": "ハニカム"
+        },
+        {
+          "en": "houndstooth",
+          "ja": "千鳥格子"
+        },
+        {
+          "en": "pinstripe pattern",
+          "ja": "ピンストライプ柄"
+        },
+        {
+          "en": "plaid",
+          "ja": "チェック柄"
+        },
+        {
+          "en": "gingham",
+          "ja": "ギンガム"
+        },
+        {
+          "en": "polka dot",
+          "ja": "水玉模様"
+        },
+        {
+          "en": "sayagata",
+          "ja": "サヤガタ"
+        },
+        {
+          "en": "seigaiha",
+          "ja": "青海波"
+        },
+        {
+          "en": "striped",
+          "ja": "縞模様"
+        },
+        {
+          "en": "diagonal stripes",
+          "ja": "斜めのストライプ"
+        },
+        {
+          "en": "horizontal stripes",
+          "ja": "横縞"
+        },
+        {
+          "en": "vertical stripes",
+          "ja": "縦縞"
+        },
+        {
+          "en": "colored stripes",
+          "ja": "色のストライプ"
+        },
+        {
+          "en": "multicolored stripes",
+          "ja": "多色のストライプ"
+        },
+        {
+          "en": "tiger stripes",
+          "ja": "トラの縞模様"
+        },
+        {
+          "en": "double vertical stripe",
+          "ja": "二重縦縞"
+        },
+        {
+          "en": "invasion stripes",
+          "ja": "侵略ストライプ"
+        },
+        {
+          "en": "yagasuri",
+          "ja": "矢絣"
+        },
+        {
+          "en": "asa no ha (pattern)",
+          "ja": "朝の葉"
+        },
+        {
+          "en": "egasumi",
+          "ja": "えがすみ"
+        },
+        {
+          "en": "genjiguruma",
+          "ja": "源氏車"
+        },
+        {
+          "en": "goshoguruma",
+          "ja": "御所車"
+        },
+        {
+          "en": "igeta (pattern)",
+          "ja": "井桁（いげた）"
+        },
+        {
+          "en": "kagome (pattern)",
+          "ja": "籠目（かごめ）"
+        },
+        {
+          "en": "kanoko (pattern)",
+          "ja": "鹿の子（柄）"
+        },
+        {
+          "en": "karakusa (pattern)",
+          "ja": "唐草（文様）"
+        },
+        {
+          "en": "kikumon",
+          "ja": "菊門"
+        },
+        {
+          "en": "kikkoumon",
+          "ja": "亀甲門"
+        },
+        {
+          "en": "kojitsunagi (pattern)",
+          "ja": "柄つなぎ（こうじつなぎ）"
+        },
+        {
+          "en": "matsu symbol",
+          "ja": "松のシンボル"
+        },
+        {
+          "en": "sakuramon",
+          "ja": "桜門"
+        },
+        {
+          "en": "shima (pattern)",
+          "ja": "縞（模様）"
+        },
+        {
+          "en": "shippou (pattern)",
+          "ja": "七宝（しっぽう）"
+        },
+        {
+          "en": "uchiwa",
+          "ja": "団扇"
+        },
+        {
+          "en": "uroko (pattern)",
+          "ja": "ウロコ（模様）"
+        },
+        {
+          "en": "tatewaku",
+          "ja": "たてわく"
+        },
+        {
+          "en": "shark print",
+          "ja": "サメのプリント"
+        },
+        {
+          "en": "cross print",
+          "ja": "クロスプリント"
+        },
+        {
+          "en": "double happiness",
+          "ja": "二重の幸せ"
+        },
+        {
+          "en": "fleur-de-lis",
+          "ja": "フルール・ド・リス"
+        },
+        {
+          "en": "flower of life",
+          "ja": "生命の花"
+        },
+        {
+          "en": "meandros",
+          "ja": "メアンドロス"
+        },
+        {
+          "en": "paisley",
+          "ja": "ペイズリー"
+        },
+        {
+          "en": "xiangyun",
+          "ja": "翔雲"
+        }
+      ]
+    },
+    {
+      "id": "prints",
+      "name": "プリント",
+      "tags": [
+        {
+          "en": "animal print",
+          "ja": "アニマルプリント"
+        },
+        {
+          "en": "bat print",
+          "ja": "コウモリの足跡"
+        },
+        {
+          "en": "bear print",
+          "ja": "クマのプリント"
+        },
+        {
+          "en": "bird print",
+          "ja": "鳥のプリント"
+        },
+        {
+          "en": "cow print",
+          "ja": "牛柄"
+        },
+        {
+          "en": "leopard print",
+          "ja": "ヒョウ柄"
+        },
+        {
+          "en": "tiger print",
+          "ja": "虎柄"
+        },
+        {
+          "en": "snake print",
+          "ja": "蛇紋岩"
+        },
+        {
+          "en": "zebra print",
+          "ja": "ゼブラ柄"
+        },
+        {
+          "en": "fireworks print",
+          "ja": "花火プリント"
+        },
+        {
+          "en": "flag print",
+          "ja": "旗のプリント"
+        },
+        {
+          "en": "floral print",
+          "ja": "花柄"
+        },
+        {
+          "en": "cherry blossom print",
+          "ja": "桜のプリント"
+        },
+        {
+          "en": "food print",
+          "ja": "食品プリント"
+        },
+        {
+          "en": "game controller print",
+          "ja": "ゲームコントローラーの印刷"
+        },
+        {
+          "en": "grid print",
+          "ja": "グリッドプリント"
+        },
+        {
+          "en": "moon print",
+          "ja": "月のプリント"
+        },
+        {
+          "en": "crescent print",
+          "ja": "三日月柄"
+        },
+        {
+          "en": "handprint",
+          "ja": "手形"
+        },
+        {
+          "en": "leaf print",
+          "ja": "葉っぱのプリント"
+        },
+        {
+          "en": "musical note print",
+          "ja": "音符プリント"
+        },
+        {
+          "en": "piano print",
+          "ja": "ピアノプリント"
+        },
+        {
+          "en": "watermelon print",
+          "ja": "スイカプリント"
+        },
+        {
+          "en": "print ascot",
+          "ja": "プリントアスコット"
+        },
+        {
+          "en": "print boots",
+          "ja": "プリントブーツ"
+        },
+        {
+          "en": "print bow",
+          "ja": "プリントリボン"
+        },
+        {
+          "en": "print bowtie",
+          "ja": "プリント蝶ネクタイ"
+        },
+        {
+          "en": "print eyepatch",
+          "ja": "プリント眼帯"
+        },
+        {
+          "en": "print gloves",
+          "ja": "プリント手袋"
+        },
+        {
+          "en": "print hakama",
+          "ja": "プリントの袴"
+        },
+        {
+          "en": "print headwear",
+          "ja": "プリントヘッドウェア"
+        },
+        {
+          "en": "print kimono",
+          "ja": "プリント着物"
+        },
+        {
+          "en": "print leggings",
+          "ja": "プリントレギンス"
+        },
+        {
+          "en": "print necktie",
+          "ja": "プリントネクタイ"
+        },
+        {
+          "en": "print neckerchief",
+          "ja": "プリントネッカチーフ"
+        },
+        {
+          "en": "print panties",
+          "ja": "プリントパンティー"
+        },
+        {
+          "en": "print pantyhose",
+          "ja": "プリントパンスト"
+        },
+        {
+          "en": "print ribbon",
+          "ja": "プリントリボン"
+        },
+        {
+          "en": "print sandals",
+          "ja": "プリントサンダル"
+        },
+        {
+          "en": "print shirt",
+          "ja": "プリントシャツ"
+        },
+        {
+          "en": "print shoes",
+          "ja": "プリントシューズ"
+        },
+        {
+          "en": "print shorts",
+          "ja": "プリントショーツ"
+        },
+        {
+          "en": "print slippers",
+          "ja": "プリントスリッパ"
+        },
+        {
+          "en": "print socks",
+          "ja": "プリントソックス"
+        },
+        {
+          "en": "print swimsuit",
+          "ja": "プリント水着"
+        },
+        {
+          "en": "print bikini",
+          "ja": "プリントビキニ"
+        },
+        {
+          "en": "print thighhighs",
+          "ja": "プリントサイハイソックス"
+        },
+        {
+          "en": "print umbrella",
+          "ja": "プリント傘"
+        },
+        {
+          "en": "butterfly print",
+          "ja": "蝶のプリント"
+        },
+        {
+          "en": "bone print",
+          "ja": "骨の跡"
+        },
+        {
+          "en": "clover print",
+          "ja": "クローバープリント"
+        },
+        {
+          "en": "rose print",
+          "ja": "バラのプリント"
+        },
+        {
+          "en": "camellia print",
+          "ja": "椿のプリント"
+        },
+        {
+          "en": "chrysanthemum print",
+          "ja": "菊のプリント"
+        },
+        {
+          "en": "lily print",
+          "ja": "ユリ柄"
+        },
+        {
+          "en": "morning glory print",
+          "ja": "朝顔プリント"
+        },
+        {
+          "en": "peony print",
+          "ja": "牡丹柄"
+        },
+        {
+          "en": "plum blossom print",
+          "ja": "梅の花のプリント"
+        },
+        {
+          "en": "spider lily print",
+          "ja": "スパイダーリリープリント"
+        },
+        {
+          "en": "sunflower print",
+          "ja": "ひまわりプリント"
+        },
+        {
+          "en": "fruit pattern",
+          "ja": "フルーツ柄"
+        },
+        {
+          "en": "apple print",
+          "ja": "リンゴのプリント"
+        },
+        {
+          "en": "blueberry print",
+          "ja": "ブルーベリープリント"
+        },
+        {
+          "en": "cherry print",
+          "ja": "チェリープリント"
+        },
+        {
+          "en": "kiwi print",
+          "ja": "キウイプリント"
+        },
+        {
+          "en": "lemon print",
+          "ja": "レモンプリント"
+        },
+        {
+          "en": "pineapple print",
+          "ja": "パイナップルプリント"
+        },
+        {
+          "en": "orange print",
+          "ja": "オレンジ色のプリント"
+        },
+        {
+          "en": "strawberry print",
+          "ja": "イチゴプリント"
+        },
+        {
+          "en": "maple leaf print",
+          "ja": "メープルリーフプリント"
+        },
+        {
+          "en": "paw print",
+          "ja": "足跡"
+        },
+        {
+          "en": "petal print",
+          "ja": "花びらプリント"
+        },
+        {
+          "en": "sparkle print",
+          "ja": "スパークルプリント"
+        },
+        {
+          "en": "triangle print",
+          "ja": "三角形のプリント"
+        },
+        {
+          "en": "space print",
+          "ja": "宇宙プリント"
+        },
+        {
+          "en": "starry sky print",
+          "ja": "星空プリント"
+        },
+        {
+          "en": "star print",
+          "ja": "星柄"
+        },
+        {
+          "en": "wave print",
+          "ja": "波模様"
+        },
+        {
+          "en": "wing print",
+          "ja": "翼のプリント"
+        }
+      ]
+    }
+  ]
 }

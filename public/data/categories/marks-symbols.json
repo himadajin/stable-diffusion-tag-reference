@@ -4,419 +4,545 @@
   "tagCount": 248,
   "sections": [
     {
-      "id": "幾何学的形状",
+      "id": "geometric-shapes",
       "name": "幾何学的形状",
       "path": [
         "幾何学的形状"
       ],
+      "sectionPath": [
+        "geometric-shapes"
+      ],
       "tagCount": 41,
       "tags": [
         {
-          "id": "marks-symbols__幾何学的形状__0001",
+          "id": "marks-symbols__geometric-shapes__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "circle",
           "ja": "丸"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0002",
+          "id": "marks-symbols__geometric-shapes__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "crescent",
           "ja": "三日月"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0003",
+          "id": "marks-symbols__geometric-shapes__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "arrow",
           "ja": "矢印"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0004",
+          "id": "marks-symbols__geometric-shapes__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "heptagon",
           "ja": "七角形"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0005",
+          "id": "marks-symbols__geometric-shapes__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "hexagon",
           "ja": "六角形"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0006",
+          "id": "marks-symbols__geometric-shapes__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "octagon",
           "ja": "八角形"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0007",
+          "id": "marks-symbols__geometric-shapes__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "pentagon",
           "ja": "五角形"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0008",
+          "id": "marks-symbols__geometric-shapes__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "rectangle",
           "ja": "矩形"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0009",
+          "id": "marks-symbols__geometric-shapes__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "diamond",
           "ja": "ダイヤモンド"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0010",
+          "id": "marks-symbols__geometric-shapes__0010",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "triangle",
           "ja": "三角形"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0011",
+          "id": "marks-symbols__geometric-shapes__0011",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "square",
           "ja": "四角"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0012",
+          "id": "marks-symbols__geometric-shapes__0012",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "star",
           "ja": "星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0013",
+          "id": "marks-symbols__geometric-shapes__0013",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "asterisk",
           "ja": "アスタリスク"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0014",
+          "id": "marks-symbols__geometric-shapes__0014",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "red star",
           "ja": "赤い星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0015",
+          "id": "marks-symbols__geometric-shapes__0015",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "spoken star",
           "ja": "スポークンスター"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0016",
+          "id": "marks-symbols__geometric-shapes__0016",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "pentagram",
           "ja": "五芒星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0017",
+          "id": "marks-symbols__geometric-shapes__0017",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "druze star",
           "ja": "ドゥルーズ派の星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0018",
+          "id": "marks-symbols__geometric-shapes__0018",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "inverted pentagram",
           "ja": "逆五芒星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0019",
+          "id": "marks-symbols__geometric-shapes__0019",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "hexagram",
           "ja": "六十四卦"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0020",
+          "id": "marks-symbols__geometric-shapes__0020",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "star of david",
           "ja": "ダビデの星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0021",
+          "id": "marks-symbols__geometric-shapes__0021",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "heptagram",
           "ja": "七芒星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0022",
+          "id": "marks-symbols__geometric-shapes__0022",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "octagram",
           "ja": "八芒星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0023",
+          "id": "marks-symbols__geometric-shapes__0023",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "star of lakshmi",
           "ja": "ラクシュミの星"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0024",
+          "id": "marks-symbols__geometric-shapes__0024",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "enneagram",
           "ja": "エニアグラム"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0025",
+          "id": "marks-symbols__geometric-shapes__0025",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "decagram",
           "ja": "デカグラム"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0026",
+          "id": "marks-symbols__geometric-shapes__0026",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "hendecagram",
           "ja": "十卦"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0027",
+          "id": "marks-symbols__geometric-shapes__0027",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "dodecagram",
           "ja": "十二卦"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0028",
+          "id": "marks-symbols__geometric-shapes__0028",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "cone",
           "ja": "円錐"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0029",
+          "id": "marks-symbols__geometric-shapes__0029",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "tetrahedron",
           "ja": "四面体"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0030",
+          "id": "marks-symbols__geometric-shapes__0030",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "cube",
           "ja": "キューブ"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0031",
+          "id": "marks-symbols__geometric-shapes__0031",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "octahedron",
           "ja": "八面体"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0032",
+          "id": "marks-symbols__geometric-shapes__0032",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "dodecahedron",
           "ja": "十二面体"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0033",
+          "id": "marks-symbols__geometric-shapes__0033",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "icosahedron",
           "ja": "二十面体"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0034",
+          "id": "marks-symbols__geometric-shapes__0034",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "prism",
           "ja": "プリズム"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0035",
+          "id": "marks-symbols__geometric-shapes__0035",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "pyramid",
           "ja": "ピラミッド"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0036",
+          "id": "marks-symbols__geometric-shapes__0036",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "orb",
           "ja": "オーブ"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0037",
+          "id": "marks-symbols__geometric-shapes__0037",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "great dodecahedron",
           "ja": "大十二面体"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0038",
+          "id": "marks-symbols__geometric-shapes__0038",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "small stellated dodecahedron",
           "ja": "小さな星型十二面体"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0039",
+          "id": "marks-symbols__geometric-shapes__0039",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "stellated octahedron",
           "ja": "星型八面体"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0040",
+          "id": "marks-symbols__geometric-shapes__0040",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
           ],
+          "sectionPath": [
+            "geometric-shapes"
+          ],
           "en": "mobius strip",
           "ja": "メビウスの帯"
         },
         {
-          "id": "marks-symbols__幾何学的形状__0041",
+          "id": "marks-symbols__geometric-shapes__0041",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "幾何学的形状"
+          ],
+          "sectionPath": [
+            "geometric-shapes"
           ],
           "en": "klein bottle",
           "ja": "クラインの瓶"
@@ -424,229 +550,298 @@
       ]
     },
     {
-      "id": "感情",
+      "id": "emotions",
       "name": "感情",
       "path": [
         "感情"
       ],
+      "sectionPath": [
+        "emotions"
+      ],
       "tagCount": 22,
       "tags": [
         {
-          "id": "marks-symbols__感情__0001",
+          "id": "marks-symbols__emotions__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "^^^",
           "ja": "^^^"
         },
         {
-          "id": "marks-symbols__感情__0002",
+          "id": "marks-symbols__emotions__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "#ERROR!",
           "ja": "#ERROR!"
         },
         {
-          "id": "marks-symbols__感情__0003",
+          "id": "marks-symbols__emotions__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "puff of air",
           "ja": "空気の一吹き"
         },
         {
-          "id": "marks-symbols__感情__0004",
+          "id": "marks-symbols__emotions__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "anger vein",
           "ja": "怒りの静脈"
         },
         {
-          "id": "marks-symbols__感情__0005",
+          "id": "marks-symbols__emotions__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "spoken anger vein",
           "ja": "怒りの表情"
         },
         {
-          "id": "marks-symbols__感情__0006",
+          "id": "marks-symbols__emotions__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "blush",
           "ja": "赤面"
         },
         {
-          "id": "marks-symbols__感情__0007",
+          "id": "marks-symbols__emotions__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "spoken blush",
           "ja": "口先だけの赤面"
         },
         {
-          "id": "marks-symbols__感情__0008",
+          "id": "marks-symbols__emotions__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "heart",
           "ja": "心臓"
         },
         {
-          "id": "marks-symbols__感情__0009",
+          "id": "marks-symbols__emotions__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "arrow through heart",
           "ja": "心臓を貫く矢"
         },
         {
-          "id": "marks-symbols__感情__0010",
+          "id": "marks-symbols__emotions__0010",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "broken heart",
           "ja": "失恋"
         },
         {
-          "id": "marks-symbols__感情__0011",
+          "id": "marks-symbols__emotions__0011",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "spoken heart",
           "ja": "心の声"
         },
         {
-          "id": "marks-symbols__感情__0012",
+          "id": "marks-symbols__emotions__0012",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "notice lines",
           "ja": "注目の行"
         },
         {
-          "id": "marks-symbols__感情__0013",
+          "id": "marks-symbols__emotions__0013",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "shout lines",
           "ja": "叫び声"
         },
         {
-          "id": "marks-symbols__感情__0014",
+          "id": "marks-symbols__emotions__0014",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "smiley face",
           "ja": "スマイリーフェイス"
         },
         {
-          "id": "marks-symbols__感情__0015",
+          "id": "marks-symbols__emotions__0015",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "squiggle",
           "ja": "くねくねした線"
         },
         {
-          "id": "marks-symbols__感情__0016",
+          "id": "marks-symbols__emotions__0016",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "spoken squiggle",
           "ja": "話し言葉のくねくねした文字"
         },
         {
-          "id": "marks-symbols__感情__0017",
+          "id": "marks-symbols__emotions__0017",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "symbol ba-90",
           "ja": "シンボル ba-90"
         },
         {
-          "id": "marks-symbols__感情__0018",
+          "id": "marks-symbols__emotions__0018",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "sweatdrop",
           "ja": "汗滴"
         },
         {
-          "id": "marks-symbols__感情__0019",
+          "id": "marks-symbols__emotions__0019",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "comedic sweatdrop",
           "ja": "喜劇的な汗だく"
         },
         {
-          "id": "marks-symbols__感情__0020",
+          "id": "marks-symbols__emotions__0020",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "flying sweatdrops",
           "ja": "飛んでくる汗"
         },
         {
-          "id": "marks-symbols__感情__0021",
+          "id": "marks-symbols__emotions__0021",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
           ],
+          "sectionPath": [
+            "emotions"
+          ],
           "en": "spoken sweatdrop",
           "ja": "口から出た汗滴"
         },
         {
-          "id": "marks-symbols__感情__0022",
+          "id": "marks-symbols__emotions__0022",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "感情"
+          ],
+          "sectionPath": [
+            "emotions"
           ],
           "en": "squeans",
           "ja": "きしむ"
@@ -654,339 +849,441 @@
       ]
     },
     {
-      "id": "音楽記号",
+      "id": "music-symbols",
       "name": "音楽記号",
       "path": [
         "音楽記号"
       ],
+      "sectionPath": [
+        "music-symbols"
+      ],
       "tagCount": 33,
       "tags": [
         {
-          "id": "marks-symbols__音楽記号__0001",
+          "id": "marks-symbols__music-symbols__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "bass clef",
           "ja": "低音部記号"
         },
         {
-          "id": "marks-symbols__音楽記号__0002",
+          "id": "marks-symbols__music-symbols__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "flat sign",
           "ja": "フラットサイン"
         },
         {
-          "id": "marks-symbols__音楽記号__0003",
+          "id": "marks-symbols__music-symbols__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "musical note",
           "ja": "音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0004",
+          "id": "marks-symbols__music-symbols__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "whole note",
           "ja": "全音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0005",
+          "id": "marks-symbols__music-symbols__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "whole rest",
           "ja": "残りの部分"
         },
         {
-          "id": "marks-symbols__音楽記号__0006",
+          "id": "marks-symbols__music-symbols__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "half note",
           "ja": "二分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0007",
+          "id": "marks-symbols__music-symbols__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "half rest",
           "ja": "半分休憩"
         },
         {
-          "id": "marks-symbols__音楽記号__0008",
+          "id": "marks-symbols__music-symbols__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "dotted half note",
           "ja": "付点二分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0009",
+          "id": "marks-symbols__music-symbols__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "quarter note",
           "ja": "四分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0010",
+          "id": "marks-symbols__music-symbols__0010",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "quarter rest",
           "ja": "四分の一休憩"
         },
         {
-          "id": "marks-symbols__音楽記号__0011",
+          "id": "marks-symbols__music-symbols__0011",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "dotted quarter note",
           "ja": "付点四分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0012",
+          "id": "marks-symbols__music-symbols__0012",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "eighth note",
           "ja": "八分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0013",
+          "id": "marks-symbols__music-symbols__0013",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "beamed eighth notes",
           "ja": "連桁八分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0014",
+          "id": "marks-symbols__music-symbols__0014",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "eighth rest",
           "ja": "8分休符"
         },
         {
-          "id": "marks-symbols__音楽記号__0015",
+          "id": "marks-symbols__music-symbols__0015",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "dotted eighth note",
           "ja": "付点八分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0016",
+          "id": "marks-symbols__music-symbols__0016",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "sixteenth note",
           "ja": "16分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0017",
+          "id": "marks-symbols__music-symbols__0017",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "beamed sixteenth notes",
           "ja": "16分音符の連桁"
         },
         {
-          "id": "marks-symbols__音楽記号__0018",
+          "id": "marks-symbols__music-symbols__0018",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "sixteenth rest",
           "ja": "16番目の休符"
         },
         {
-          "id": "marks-symbols__音楽記号__0019",
+          "id": "marks-symbols__music-symbols__0019",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "dotted sixteenth note",
           "ja": "付点十六分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0020",
+          "id": "marks-symbols__music-symbols__0020",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "thirty-second note",
           "ja": "32分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0021",
+          "id": "marks-symbols__music-symbols__0021",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "beamed thirty-second notes",
           "ja": "32分音符のビーム"
         },
         {
-          "id": "marks-symbols__音楽記号__0022",
+          "id": "marks-symbols__music-symbols__0022",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "thirty-second rest",
           "ja": "30秒の休憩"
         },
         {
-          "id": "marks-symbols__音楽記号__0023",
+          "id": "marks-symbols__music-symbols__0023",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "dotted thirty-second note",
           "ja": "付点32分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0024",
+          "id": "marks-symbols__music-symbols__0024",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "sixty-fourth note",
           "ja": "64分音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0025",
+          "id": "marks-symbols__music-symbols__0025",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "beamed sixty-fourth notes",
           "ja": "64分音符の連桁"
         },
         {
-          "id": "marks-symbols__音楽記号__0026",
+          "id": "marks-symbols__music-symbols__0026",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "ghost note",
           "ja": "ゴーストノート"
         },
         {
-          "id": "marks-symbols__音楽記号__0027",
+          "id": "marks-symbols__music-symbols__0027",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "grace note",
           "ja": "装飾音符"
         },
         {
-          "id": "marks-symbols__音楽記号__0028",
+          "id": "marks-symbols__music-symbols__0028",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "spoken musical note",
           "ja": "音符の発音"
         },
         {
-          "id": "marks-symbols__音楽記号__0029",
+          "id": "marks-symbols__music-symbols__0029",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "natural sign",
           "ja": "自然な兆候"
         },
         {
-          "id": "marks-symbols__音楽記号__0030",
+          "id": "marks-symbols__music-symbols__0030",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "sharp sign",
           "ja": "鋭い兆候"
         },
         {
-          "id": "marks-symbols__音楽記号__0031",
+          "id": "marks-symbols__music-symbols__0031",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "musical staff",
           "ja": "音楽スタッフ"
         },
         {
-          "id": "marks-symbols__音楽記号__0032",
+          "id": "marks-symbols__music-symbols__0032",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
           ],
+          "sectionPath": [
+            "music-symbols"
+          ],
           "en": "time signature",
           "ja": "拍子記号"
         },
         {
-          "id": "marks-symbols__音楽記号__0033",
+          "id": "marks-symbols__music-symbols__0033",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "音楽記号"
+          ],
+          "sectionPath": [
+            "music-symbols"
           ],
           "en": "treble clef",
           "ja": "ト音記号"
@@ -994,59 +1291,77 @@
       ]
     },
     {
-      "id": "カート-マーク",
+      "id": "card-suits",
       "name": "カードマーク",
       "path": [
         "カードマーク"
       ],
+      "sectionPath": [
+        "card-suits"
+      ],
       "tagCount": 5,
       "tags": [
         {
-          "id": "marks-symbols__カート-マーク__0001",
+          "id": "marks-symbols__card-suits__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "カードマーク"
+          ],
+          "sectionPath": [
+            "card-suits"
           ],
           "en": "clubs",
           "ja": "クラブ"
         },
         {
-          "id": "marks-symbols__カート-マーク__0002",
+          "id": "marks-symbols__card-suits__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "カードマーク"
+          ],
+          "sectionPath": [
+            "card-suits"
           ],
           "en": "diamonds",
           "ja": "ダイヤモンド"
         },
         {
-          "id": "marks-symbols__カート-マーク__0003",
+          "id": "marks-symbols__card-suits__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "カードマーク"
+          ],
+          "sectionPath": [
+            "card-suits"
           ],
           "en": "hearts",
           "ja": "ハート"
         },
         {
-          "id": "marks-symbols__カート-マーク__0004",
+          "id": "marks-symbols__card-suits__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "カードマーク"
           ],
+          "sectionPath": [
+            "card-suits"
+          ],
           "en": "spades",
           "ja": "スペード"
         },
         {
-          "id": "marks-symbols__カート-マーク__0005",
+          "id": "marks-symbols__card-suits__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "カードマーク"
+          ],
+          "sectionPath": [
+            "card-suits"
           ],
           "en": "playing card theme",
           "ja": "トランプテーマ"
@@ -1054,259 +1369,337 @@
       ]
     },
     {
-      "id": "テキスト等",
+      "id": "text",
       "name": "テキスト等",
       "path": [
         "テキスト等"
       ],
+      "sectionPath": [
+        "text"
+      ],
       "tagCount": 25,
       "tags": [
         {
-          "id": "marks-symbols__テキスト等__0001",
+          "id": "marks-symbols__text__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "!",
           "ja": "！"
         },
         {
-          "id": "marks-symbols__テキスト等__0002",
+          "id": "marks-symbols__text__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "spoken exclamation mark",
           "ja": "感嘆符の発音"
         },
         {
-          "id": "marks-symbols__テキスト等__0003",
+          "id": "marks-symbols__text__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "!?",
           "ja": "！？"
         },
         {
-          "id": "marks-symbols__テキスト等__0004",
+          "id": "marks-symbols__text__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "spoken interrobang",
           "ja": "音声質問"
         },
         {
-          "id": "marks-symbols__テキスト等__0005",
+          "id": "marks-symbols__text__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "?",
           "ja": "？"
         },
         {
-          "id": "marks-symbols__テキスト等__0006",
+          "id": "marks-symbols__text__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "spoken question mark",
           "ja": "口語の疑問符"
         },
         {
-          "id": "marks-symbols__テキスト等__0007",
+          "id": "marks-symbols__text__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "...",
           "ja": "..."
         },
         {
-          "id": "marks-symbols__テキスト等__0008",
+          "id": "marks-symbols__text__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "spoken ellipsis",
           "ja": "音声省略記号"
         },
         {
-          "id": "marks-symbols__テキスト等__0009",
+          "id": "marks-symbols__text__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "@",
           "ja": "@"
         },
         {
-          "id": "marks-symbols__テキスト等__0010",
+          "id": "marks-symbols__text__0010",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "equal sign",
           "ja": "等号"
         },
         {
-          "id": "marks-symbols__テキスト等__0011",
+          "id": "marks-symbols__text__0011",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "infinity symbol",
           "ja": "無限大記号"
         },
         {
-          "id": "marks-symbols__テキスト等__0012",
+          "id": "marks-symbols__text__0012",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "double happiness",
           "ja": "二重の幸せ"
         },
         {
-          "id": "marks-symbols__テキスト等__0013",
+          "id": "marks-symbols__text__0013",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "shou",
           "ja": "ショウ"
         },
         {
-          "id": "marks-symbols__テキスト等__0014",
+          "id": "marks-symbols__text__0014",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "good fortune symbol",
           "ja": "幸運のシンボル"
         },
         {
-          "id": "marks-symbols__テキスト等__0015",
+          "id": "marks-symbols__text__0015",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "dao fu",
           "ja": "ダオフー"
         },
         {
-          "id": "marks-symbols__テキスト等__0016",
+          "id": "marks-symbols__text__0016",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "heaven kanji",
           "ja": "天の漢字"
         },
         {
-          "id": "marks-symbols__テキスト等__0017",
+          "id": "marks-symbols__text__0017",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "two-legged horse kanji",
           "ja": "二足馬の漢字"
         },
         {
-          "id": "marks-symbols__テキスト等__0018",
+          "id": "marks-symbols__text__0018",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "minus sign",
           "ja": "マイナス記号"
         },
         {
-          "id": "marks-symbols__テキスト等__0019",
+          "id": "marks-symbols__text__0019",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "omega symbol",
           "ja": "オメガ記号"
         },
         {
-          "id": "marks-symbols__テキスト等__0020",
+          "id": "marks-symbols__text__0020",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "pi (math)",
           "ja": "円周率（数学）"
         },
         {
-          "id": "marks-symbols__テキスト等__0021",
+          "id": "marks-symbols__text__0021",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "runes",
           "ja": "ルーン文字"
         },
         {
-          "id": "marks-symbols__テキスト等__0022",
+          "id": "marks-symbols__text__0022",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "siegrunen",
           "ja": "ジーグルネン"
         },
         {
-          "id": "marks-symbols__テキスト等__0023",
+          "id": "marks-symbols__text__0023",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "segment display",
           "ja": "セグメント表示"
         },
         {
-          "id": "marks-symbols__テキスト等__0024",
+          "id": "marks-symbols__text__0024",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
           ],
+          "sectionPath": [
+            "text"
+          ],
           "en": "seven-segment display",
           "ja": "7セグメントディスプレイ"
         },
         {
-          "id": "marks-symbols__テキスト等__0025",
+          "id": "marks-symbols__text__0025",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "テキスト等"
+          ],
+          "sectionPath": [
+            "text"
           ],
           "en": "z (russian symbol)",
           "ja": "z（ロシア語の記号）"
@@ -1314,89 +1707,116 @@
       ]
     },
     {
-      "id": "通貨記号",
+      "id": "currency-symbols",
       "name": "通貨記号",
       "path": [
         "通貨記号"
       ],
+      "sectionPath": [
+        "currency-symbols"
+      ],
       "tagCount": 8,
       "tags": [
         {
-          "id": "marks-symbols__通貨記号__0001",
+          "id": "marks-symbols__currency-symbols__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
+          ],
+          "sectionPath": [
+            "currency-symbols"
           ],
           "en": "dollar sign",
           "ja": "ドル記号"
         },
         {
-          "id": "marks-symbols__通貨記号__0002",
+          "id": "marks-symbols__currency-symbols__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
+          ],
+          "sectionPath": [
+            "currency-symbols"
           ],
           "en": "euro sign",
           "ja": "ユーロ記号"
         },
         {
-          "id": "marks-symbols__通貨記号__0003",
+          "id": "marks-symbols__currency-symbols__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
+          ],
+          "sectionPath": [
+            "currency-symbols"
           ],
           "en": "franc sign",
           "ja": "フラン記号"
         },
         {
-          "id": "marks-symbols__通貨記号__0004",
+          "id": "marks-symbols__currency-symbols__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
+          ],
+          "sectionPath": [
+            "currency-symbols"
           ],
           "en": "indian rupee sign",
           "ja": "インドルピーの通貨記号"
         },
         {
-          "id": "marks-symbols__通貨記号__0005",
+          "id": "marks-symbols__currency-symbols__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
+          ],
+          "sectionPath": [
+            "currency-symbols"
           ],
           "en": "pound sign",
           "ja": "ポンド記号"
         },
         {
-          "id": "marks-symbols__通貨記号__0006",
+          "id": "marks-symbols__currency-symbols__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
+          ],
+          "sectionPath": [
+            "currency-symbols"
           ],
           "en": "ruble sign",
           "ja": "ルーブル記号"
         },
         {
-          "id": "marks-symbols__通貨記号__0007",
+          "id": "marks-symbols__currency-symbols__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
           ],
+          "sectionPath": [
+            "currency-symbols"
+          ],
           "en": "won sign",
           "ja": "勝利のサイン"
         },
         {
-          "id": "marks-symbols__通貨記号__0008",
+          "id": "marks-symbols__currency-symbols__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "通貨記号"
+          ],
+          "sectionPath": [
+            "currency-symbols"
           ],
           "en": "yen sign",
           "ja": "円記号"
@@ -1404,229 +1824,298 @@
       ]
     },
     {
-      "id": "クロス記号",
+      "id": "cross-symbols",
       "name": "クロス記号",
       "path": [
         "クロス記号"
       ],
+      "sectionPath": [
+        "cross-symbols"
+      ],
       "tagCount": 22,
       "tags": [
         {
-          "id": "marks-symbols__クロス記号__0001",
+          "id": "marks-symbols__cross-symbols__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "arrow cross",
           "ja": "矢印十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0002",
+          "id": "marks-symbols__cross-symbols__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "balkenkreuz",
           "ja": "バルケンクロイツ"
         },
         {
-          "id": "marks-symbols__クロス記号__0003",
+          "id": "marks-symbols__cross-symbols__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "celtic cross",
           "ja": "ケルト十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0004",
+          "id": "marks-symbols__cross-symbols__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross bottony",
           "ja": "クロス・ボトニー"
         },
         {
-          "id": "marks-symbols__クロス記号__0005",
+          "id": "marks-symbols__cross-symbols__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross crosslet",
           "ja": "十字架"
         },
         {
-          "id": "marks-symbols__クロス記号__0006",
+          "id": "marks-symbols__cross-symbols__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross fitchy",
           "ja": "クロスフィット"
         },
         {
-          "id": "marks-symbols__クロス記号__0007",
+          "id": "marks-symbols__cross-symbols__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross fleury",
           "ja": "クロスフルーリー"
         },
         {
-          "id": "marks-symbols__クロス記号__0008",
+          "id": "marks-symbols__cross-symbols__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross moline",
           "ja": "クロスモリーン"
         },
         {
-          "id": "marks-symbols__クロス記号__0009",
+          "id": "marks-symbols__cross-symbols__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross patonce",
           "ja": "クロスパトンス"
         },
         {
-          "id": "marks-symbols__クロス記号__0010",
+          "id": "marks-symbols__cross-symbols__0010",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross patty",
           "ja": "クロスパティ"
         },
         {
-          "id": "marks-symbols__クロス記号__0011",
+          "id": "marks-symbols__cross-symbols__0011",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "cross potent",
           "ja": "クロスポテンシャル"
         },
         {
-          "id": "marks-symbols__クロス記号__0012",
+          "id": "marks-symbols__cross-symbols__0012",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "crucifix",
           "ja": "十字架"
         },
         {
-          "id": "marks-symbols__クロス記号__0013",
+          "id": "marks-symbols__cross-symbols__0013",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "greek cross",
           "ja": "ギリシャ十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0014",
+          "id": "marks-symbols__cross-symbols__0014",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "red cross",
           "ja": "赤十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0015",
+          "id": "marks-symbols__cross-symbols__0015",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "inverted cross",
           "ja": "逆十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0016",
+          "id": "marks-symbols__cross-symbols__0016",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "iron cross",
           "ja": "鉄十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0017",
+          "id": "marks-symbols__cross-symbols__0017",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "latin cross",
           "ja": "ラテン十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0018",
+          "id": "marks-symbols__cross-symbols__0018",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "maltese cross",
           "ja": "マルタ十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0019",
+          "id": "marks-symbols__cross-symbols__0019",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "orthodox cross",
           "ja": "正教会の十字架"
         },
         {
-          "id": "marks-symbols__クロス記号__0020",
+          "id": "marks-symbols__cross-symbols__0020",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "plus sign",
           "ja": "プラス記号"
         },
         {
-          "id": "marks-symbols__クロス記号__0021",
+          "id": "marks-symbols__cross-symbols__0021",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
           ],
+          "sectionPath": [
+            "cross-symbols"
+          ],
           "en": "sun cross",
           "ja": "太陽十字"
         },
         {
-          "id": "marks-symbols__クロス記号__0022",
+          "id": "marks-symbols__cross-symbols__0022",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "クロス記号"
+          ],
+          "sectionPath": [
+            "cross-symbols"
           ],
           "en": "two-barred cross",
           "ja": "2本の棒の十字架"
@@ -1634,79 +2123,103 @@
       ]
     },
     {
-      "id": "シ-ェンタ-ー記号",
+      "id": "gender-symbols",
       "name": "ジェンダー記号",
       "path": [
         "ジェンダー記号"
       ],
+      "sectionPath": [
+        "gender-symbols"
+      ],
       "tagCount": 7,
       "tags": [
         {
-          "id": "marks-symbols__シ-ェンタ-ー記号__0001",
+          "id": "marks-symbols__gender-symbols__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "ジェンダー記号"
+          ],
+          "sectionPath": [
+            "gender-symbols"
           ],
           "en": "androgyne symbol",
           "ja": "両性具有のシンボル"
         },
         {
-          "id": "marks-symbols__シ-ェンタ-ー記号__0002",
+          "id": "marks-symbols__gender-symbols__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "ジェンダー記号"
+          ],
+          "sectionPath": [
+            "gender-symbols"
           ],
           "en": "interlocked mars symbols",
           "ja": "連結された火星のシンボル"
         },
         {
-          "id": "marks-symbols__シ-ェンタ-ー記号__0003",
+          "id": "marks-symbols__gender-symbols__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "ジェンダー記号"
+          ],
+          "sectionPath": [
+            "gender-symbols"
           ],
           "en": "interlocked mars and venus symbols",
           "ja": "絡み合った火星と金星のシンボル"
         },
         {
-          "id": "marks-symbols__シ-ェンタ-ー記号__0004",
+          "id": "marks-symbols__gender-symbols__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "ジェンダー記号"
+          ],
+          "sectionPath": [
+            "gender-symbols"
           ],
           "en": "interlocked venus symbols",
           "ja": "絡み合った金星のシンボル"
         },
         {
-          "id": "marks-symbols__シ-ェンタ-ー記号__0005",
+          "id": "marks-symbols__gender-symbols__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "ジェンダー記号"
+          ],
+          "sectionPath": [
+            "gender-symbols"
           ],
           "en": "male-female symbol",
           "ja": "男女のシンボル"
         },
         {
-          "id": "marks-symbols__シ-ェンタ-ー記号__0006",
+          "id": "marks-symbols__gender-symbols__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "ジェンダー記号"
           ],
+          "sectionPath": [
+            "gender-symbols"
+          ],
           "en": "neutered symbol",
           "ja": "去勢されたシンボル"
         },
         {
-          "id": "marks-symbols__シ-ェンタ-ー記号__0007",
+          "id": "marks-symbols__gender-symbols__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "ジェンダー記号"
+          ],
+          "sectionPath": [
+            "gender-symbols"
           ],
           "en": "transgender symbol",
           "ja": "トランスジェンダーのシンボル"
@@ -1714,229 +2227,298 @@
       ]
     },
     {
-      "id": "道路標識",
+      "id": "road-signs",
       "name": "道路標識",
       "path": [
         "道路標識"
       ],
+      "sectionPath": [
+        "road-signs"
+      ],
       "tagCount": 22,
       "tags": [
         {
-          "id": "marks-symbols__道路標識__0001",
+          "id": "marks-symbols__road-signs__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "bicycles only sign",
           "ja": "自転車専用標識"
         },
         {
-          "id": "marks-symbols__道路標識__0002",
+          "id": "marks-symbols__road-signs__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "bus stop",
           "ja": "バス停"
         },
         {
-          "id": "marks-symbols__道路標識__0003",
+          "id": "marks-symbols__road-signs__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "falling rocks sign",
           "ja": "落石の標識"
         },
         {
-          "id": "marks-symbols__道路標識__0004",
+          "id": "marks-symbols__road-signs__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "motor vehicles only sign",
           "ja": "自動車専用標識"
         },
         {
-          "id": "marks-symbols__道路標識__0005",
+          "id": "marks-symbols__road-signs__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "no parking sign",
           "ja": "駐車禁止標識"
         },
         {
-          "id": "marks-symbols__道路標識__0006",
+          "id": "marks-symbols__road-signs__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "no pedestrian crossing sign",
           "ja": "横断禁止標識"
         },
         {
-          "id": "marks-symbols__道路標識__0007",
+          "id": "marks-symbols__road-signs__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "no stopping sign",
           "ja": "停止標識なし"
         },
         {
-          "id": "marks-symbols__道路標識__0008",
+          "id": "marks-symbols__road-signs__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "no u-turn sign",
           "ja": "Uターン標識なし"
         },
         {
-          "id": "marks-symbols__道路標識__0009",
+          "id": "marks-symbols__road-signs__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "one way sign",
           "ja": "一方通行標識"
         },
         {
-          "id": "marks-symbols__道路標識__0010",
+          "id": "marks-symbols__road-signs__0010",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "parking permissive sign",
           "ja": "駐車許可標識"
         },
         {
-          "id": "marks-symbols__道路標識__0011",
+          "id": "marks-symbols__road-signs__0011",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "pedestrian crossing sign",
           "ja": "横断歩道標識"
         },
         {
-          "id": "marks-symbols__道路標識__0012",
+          "id": "marks-symbols__road-signs__0012",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "pedestrians only sign",
           "ja": "歩行者専用標識"
         },
         {
-          "id": "marks-symbols__道路標識__0013",
+          "id": "marks-symbols__road-signs__0013",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "railroad crossing ahead sign",
           "ja": "踏切標識"
         },
         {
-          "id": "marks-symbols__道路標識__0014",
+          "id": "marks-symbols__road-signs__0014",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "road closed to vehicles sign",
           "ja": "車両通行止めの標識"
         },
         {
-          "id": "marks-symbols__道路標識__0015",
+          "id": "marks-symbols__road-signs__0015",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "road narrows sign",
           "ja": "道路狭窄標識"
         },
         {
-          "id": "marks-symbols__道路標識__0016",
+          "id": "marks-symbols__road-signs__0016",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "school crossing sign",
           "ja": "学校横断標識"
         },
         {
-          "id": "marks-symbols__道路標識__0017",
+          "id": "marks-symbols__road-signs__0017",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "speed limit sign",
           "ja": "速度制限標識"
         },
         {
-          "id": "marks-symbols__道路標識__0018",
+          "id": "marks-symbols__road-signs__0018",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "stop sign",
           "ja": "一時停止の標識"
         },
         {
-          "id": "marks-symbols__道路標識__0019",
+          "id": "marks-symbols__road-signs__0019",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "straight or left turn sign",
           "ja": "直進または左折の標識"
         },
         {
-          "id": "marks-symbols__道路標識__0020",
+          "id": "marks-symbols__road-signs__0020",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "straight or right turn sign",
           "ja": "直進または右折の標識"
         },
         {
-          "id": "marks-symbols__道路標識__0021",
+          "id": "marks-symbols__road-signs__0021",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
           ],
+          "sectionPath": [
+            "road-signs"
+          ],
           "en": "turn left sign",
           "ja": "左折標識"
         },
         {
-          "id": "marks-symbols__道路標識__0022",
+          "id": "marks-symbols__road-signs__0022",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "道路標識"
+          ],
+          "sectionPath": [
+            "road-signs"
           ],
           "en": "turn right sign",
           "ja": "右折標識"
@@ -1944,99 +2526,129 @@
       ]
     },
     {
-      "id": "天体記号",
+      "id": "celestial-symbols",
       "name": "天体記号",
       "path": [
         "天体記号"
       ],
+      "sectionPath": [
+        "celestial-symbols"
+      ],
       "tagCount": 9,
       "tags": [
         {
-          "id": "marks-symbols__天体記号__0001",
+          "id": "marks-symbols__celestial-symbols__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "sun symbol",
           "ja": "太陽のシンボル"
         },
         {
-          "id": "marks-symbols__天体記号__0002",
+          "id": "marks-symbols__celestial-symbols__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "mercury symbol",
           "ja": "水銀記号"
         },
         {
-          "id": "marks-symbols__天体記号__0003",
+          "id": "marks-symbols__celestial-symbols__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "venus symbol",
           "ja": "金星のシンボル"
         },
         {
-          "id": "marks-symbols__天体記号__0004",
+          "id": "marks-symbols__celestial-symbols__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "mars symbol",
           "ja": "火星のシンボル"
         },
         {
-          "id": "marks-symbols__天体記号__0005",
+          "id": "marks-symbols__celestial-symbols__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "jupiter symbol",
           "ja": "木星のシンボル"
         },
         {
-          "id": "marks-symbols__天体記号__0006",
+          "id": "marks-symbols__celestial-symbols__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "saturn symbol",
           "ja": "土星のシンボル"
         },
         {
-          "id": "marks-symbols__天体記号__0007",
+          "id": "marks-symbols__celestial-symbols__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "uranus symbol",
           "ja": "天王星の記号"
         },
         {
-          "id": "marks-symbols__天体記号__0008",
+          "id": "marks-symbols__celestial-symbols__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
           ],
+          "sectionPath": [
+            "celestial-symbols"
+          ],
           "en": "neptune symbol",
           "ja": "海王星のシンボル"
         },
         {
-          "id": "marks-symbols__天体記号__0009",
+          "id": "marks-symbols__celestial-symbols__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "天体記号"
+          ],
+          "sectionPath": [
+            "celestial-symbols"
           ],
           "en": "pluto symbol",
           "ja": "冥王星のシンボル"
@@ -2044,549 +2656,714 @@
       ]
     },
     {
-      "id": "その他",
+      "id": "other",
       "name": "その他",
       "path": [
         "その他"
       ],
+      "sectionPath": [
+        "other"
+      ],
       "tagCount": 54,
       "tags": [
         {
-          "id": "marks-symbols__その他__0001",
+          "id": "marks-symbols__other__0001",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "anarchy symbol",
           "ja": "無政府主義の象徴"
         },
         {
-          "id": "marks-symbols__その他__0002",
+          "id": "marks-symbols__other__0002",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "ankh",
           "ja": "アンク"
         },
         {
-          "id": "marks-symbols__その他__0003",
+          "id": "marks-symbols__other__0003",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "ars goetia",
           "ja": "アルス・ゴエティア"
         },
         {
-          "id": "marks-symbols__その他__0004",
+          "id": "marks-symbols__other__0004",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "battery indicator",
           "ja": "バッテリーインジケーター"
         },
         {
-          "id": "marks-symbols__その他__0005",
+          "id": "marks-symbols__other__0005",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "biohazard symbol",
           "ja": "バイオハザードシンボル"
         },
         {
-          "id": "marks-symbols__その他__0006",
+          "id": "marks-symbols__other__0006",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "black sun",
           "ja": "黒い太陽"
         },
         {
-          "id": "marks-symbols__その他__0007",
+          "id": "marks-symbols__other__0007",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "caduceus",
           "ja": "カドゥケウス"
         },
         {
-          "id": "marks-symbols__その他__0008",
+          "id": "marks-symbols__other__0008",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "compass rose",
           "ja": "コンパスローズ"
         },
         {
-          "id": "marks-symbols__その他__0009",
+          "id": "marks-symbols__other__0009",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "digital rain",
           "ja": "デジタルレイン"
         },
         {
-          "id": "marks-symbols__その他__0010",
+          "id": "marks-symbols__other__0010",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "fasces",
           "ja": "束"
         },
         {
-          "id": "marks-symbols__その他__0011",
+          "id": "marks-symbols__other__0011",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "flammable symbol",
           "ja": "可燃性シンボル"
         },
         {
-          "id": "marks-symbols__その他__0012",
+          "id": "marks-symbols__other__0012",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "fleur-de-lis",
           "ja": "フルール・ド・リス"
         },
         {
-          "id": "marks-symbols__その他__0013",
+          "id": "marks-symbols__other__0013",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "fragile symbol",
           "ja": "壊れやすいシンボル"
         },
         {
-          "id": "marks-symbols__その他__0014",
+          "id": "marks-symbols__other__0014",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "hammer and sickle",
           "ja": "ハンマーと鎌"
         },
         {
-          "id": "marks-symbols__その他__0015",
+          "id": "marks-symbols__other__0015",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "kolovrat",
           "ja": "コロヴラット"
         },
         {
-          "id": "marks-symbols__その他__0016",
+          "id": "marks-symbols__other__0016",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "lightning bolt symbol",
           "ja": "稲妻のシンボル"
         },
         {
-          "id": "marks-symbols__その他__0017",
+          "id": "marks-symbols__other__0017",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "no symbol",
           "ja": "シンボルなし"
         },
         {
-          "id": "marks-symbols__その他__0018",
+          "id": "marks-symbols__other__0018",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "no entry sign",
           "ja": "進入禁止標識"
         },
         {
-          "id": "marks-symbols__その他__0019",
+          "id": "marks-symbols__other__0019",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "no smoking",
           "ja": "禁煙"
         },
         {
-          "id": "marks-symbols__その他__0020",
+          "id": "marks-symbols__other__0020",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "onsen symbol",
           "ja": "温泉のシンボル"
         },
         {
-          "id": "marks-symbols__その他__0021",
+          "id": "marks-symbols__other__0021",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "om",
           "ja": "オム"
         },
         {
-          "id": "marks-symbols__その他__0022",
+          "id": "marks-symbols__other__0022",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "ouroboros",
           "ja": "ウロボロス"
         },
         {
-          "id": "marks-symbols__その他__0023",
+          "id": "marks-symbols__other__0023",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "parental advisory",
           "ja": "保護者の助言"
         },
         {
-          "id": "marks-symbols__その他__0024",
+          "id": "marks-symbols__other__0024",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "peace symbol",
           "ja": "平和のシンボル"
         },
         {
-          "id": "marks-symbols__その他__0025",
+          "id": "marks-symbols__other__0025",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "power symbol",
           "ja": "パワーシンボル"
         },
         {
-          "id": "marks-symbols__その他__0026",
+          "id": "marks-symbols__other__0026",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "radiation symbol",
           "ja": "放射線記号"
         },
         {
-          "id": "marks-symbols__その他__0027",
+          "id": "marks-symbols__other__0027",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "recycling symbol",
           "ja": "リサイクルシンボル"
         },
         {
-          "id": "marks-symbols__その他__0028",
+          "id": "marks-symbols__other__0028",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "reichsadler",
           "ja": "ライヒスザードラー"
         },
         {
-          "id": "marks-symbols__その他__0029",
+          "id": "marks-symbols__other__0029",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "restroom symbol",
           "ja": "トイレのシンボル"
         },
         {
-          "id": "marks-symbols__その他__0030",
+          "id": "marks-symbols__other__0030",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "rod of asclepius",
           "ja": "アスクレピオスの杖"
         },
         {
-          "id": "marks-symbols__その他__0031",
+          "id": "marks-symbols__other__0031",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "star of life",
           "ja": "生命の星"
         },
         {
-          "id": "marks-symbols__その他__0032",
+          "id": "marks-symbols__other__0032",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "sigil of lucifer",
           "ja": "ルシファーの印章"
         },
         {
-          "id": "marks-symbols__その他__0033",
+          "id": "marks-symbols__other__0033",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "signal bar",
           "ja": "信号バー"
         },
         {
-          "id": "marks-symbols__その他__0034",
+          "id": "marks-symbols__other__0034",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "skull and crossbones",
           "ja": "髑髏と骨"
         },
         {
-          "id": "marks-symbols__その他__0035",
+          "id": "marks-symbols__other__0035",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "jolly roger",
           "ja": "ジョリーロジャー"
         },
         {
-          "id": "marks-symbols__その他__0036",
+          "id": "marks-symbols__other__0036",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "totenkopf",
           "ja": "トーテンコップ"
         },
         {
-          "id": "marks-symbols__その他__0037",
+          "id": "marks-symbols__other__0037",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "star and crescent",
           "ja": "星と三日月"
         },
         {
-          "id": "marks-symbols__その他__0038",
+          "id": "marks-symbols__other__0038",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "swastika",
           "ja": "卍"
         },
         {
-          "id": "marks-symbols__その他__0039",
+          "id": "marks-symbols__other__0039",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "trigram",
           "ja": "トリグラム"
         },
         {
-          "id": "marks-symbols__その他__0040",
+          "id": "marks-symbols__other__0040",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "bagua",
           "ja": "八卦"
         },
         {
-          "id": "marks-symbols__その他__0041",
+          "id": "marks-symbols__other__0041",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "tryzub",
           "ja": "トライズブ"
         },
         {
-          "id": "marks-symbols__その他__0042",
+          "id": "marks-symbols__other__0042",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "tomoe",
           "ja": "巴"
         },
         {
-          "id": "marks-symbols__その他__0043",
+          "id": "marks-symbols__other__0043",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "mitsudomoe",
           "ja": "みつどもえ"
         },
         {
-          "id": "marks-symbols__その他__0044",
+          "id": "marks-symbols__other__0044",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "warning sign",
           "ja": "警告サイン"
         },
         {
-          "id": "marks-symbols__その他__0045",
+          "id": "marks-symbols__other__0045",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "wheelchair sign",
           "ja": "車椅子の標識"
         },
         {
-          "id": "marks-symbols__その他__0046",
+          "id": "marks-symbols__other__0046",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "wheel of dharma",
           "ja": "法輪"
         },
         {
-          "id": "marks-symbols__その他__0047",
+          "id": "marks-symbols__other__0047",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "wi-fi symbol",
           "ja": "Wi-Fiシンボル"
         },
         {
-          "id": "marks-symbols__その他__0048",
+          "id": "marks-symbols__other__0048",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "wolfsangel",
           "ja": "ウルフサンジェル"
         },
         {
-          "id": "marks-symbols__その他__0049",
+          "id": "marks-symbols__other__0049",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "x mark",
           "ja": "×マーク"
         },
         {
-          "id": "marks-symbols__その他__0050",
+          "id": "marks-symbols__other__0050",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "spoken x",
           "ja": "話し言葉 x"
         },
         {
-          "id": "marks-symbols__その他__0051",
+          "id": "marks-symbols__other__0051",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "yin yang",
           "ja": "陰陽"
         },
         {
-          "id": "marks-symbols__その他__0052",
+          "id": "marks-symbols__other__0052",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "zodiac",
           "ja": "星座"
         },
         {
-          "id": "marks-symbols__その他__0053",
+          "id": "marks-symbols__other__0053",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
           ],
+          "sectionPath": [
+            "other"
+          ],
           "en": "barcode",
           "ja": "バーコード"
         },
         {
-          "id": "marks-symbols__その他__0054",
+          "id": "marks-symbols__other__0054",
           "categoryId": "marks-symbols",
           "categoryName": "マーク・シンボル",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "qr code",
           "ja": "QRコード"

@@ -1,1020 +1,1064 @@
 {
   "id": "marks-symbols",
   "name": "マーク・シンボル",
-  "tree": {
-    "幾何学的形状": [
-      {
-        "en": "circle",
-        "ja": "丸"
-      },
-      {
-        "en": "crescent",
-        "ja": "三日月"
-      },
-      {
-        "en": "arrow",
-        "ja": "矢印"
-      },
-      {
-        "en": "heptagon",
-        "ja": "七角形"
-      },
-      {
-        "en": "hexagon",
-        "ja": "六角形"
-      },
-      {
-        "en": "octagon",
-        "ja": "八角形"
-      },
-      {
-        "en": "pentagon",
-        "ja": "五角形"
-      },
-      {
-        "en": "rectangle",
-        "ja": "矩形"
-      },
-      {
-        "en": "diamond",
-        "ja": "ダイヤモンド"
-      },
-      {
-        "en": "triangle",
-        "ja": "三角形"
-      },
-      {
-        "en": "square",
-        "ja": "四角"
-      },
-      {
-        "en": "star",
-        "ja": "星"
-      },
-      {
-        "en": "asterisk",
-        "ja": "アスタリスク"
-      },
-      {
-        "en": "red star",
-        "ja": "赤い星"
-      },
-      {
-        "en": "spoken star",
-        "ja": "スポークンスター"
-      },
-      {
-        "en": "pentagram",
-        "ja": "五芒星"
-      },
-      {
-        "en": "druze star",
-        "ja": "ドゥルーズ派の星"
-      },
-      {
-        "en": "inverted pentagram",
-        "ja": "逆五芒星"
-      },
-      {
-        "en": "hexagram",
-        "ja": "六十四卦"
-      },
-      {
-        "en": "star of david",
-        "ja": "ダビデの星"
-      },
-      {
-        "en": "heptagram",
-        "ja": "七芒星"
-      },
-      {
-        "en": "octagram",
-        "ja": "八芒星"
-      },
-      {
-        "en": "star of lakshmi",
-        "ja": "ラクシュミの星"
-      },
-      {
-        "en": "enneagram",
-        "ja": "エニアグラム"
-      },
-      {
-        "en": "decagram",
-        "ja": "デカグラム"
-      },
-      {
-        "en": "hendecagram",
-        "ja": "十卦"
-      },
-      {
-        "en": "dodecagram",
-        "ja": "十二卦"
-      },
-      {
-        "en": "cone",
-        "ja": "円錐"
-      },
-      {
-        "en": "tetrahedron",
-        "ja": "四面体"
-      },
-      {
-        "en": "cube",
-        "ja": "キューブ"
-      },
-      {
-        "en": "octahedron",
-        "ja": "八面体"
-      },
-      {
-        "en": "dodecahedron",
-        "ja": "十二面体"
-      },
-      {
-        "en": "icosahedron",
-        "ja": "二十面体"
-      },
-      {
-        "en": "prism",
-        "ja": "プリズム"
-      },
-      {
-        "en": "pyramid",
-        "ja": "ピラミッド"
-      },
-      {
-        "en": "orb",
-        "ja": "オーブ"
-      },
-      {
-        "en": "great dodecahedron",
-        "ja": "大十二面体"
-      },
-      {
-        "en": "small stellated dodecahedron",
-        "ja": "小さな星型十二面体"
-      },
-      {
-        "en": "stellated octahedron",
-        "ja": "星型八面体"
-      },
-      {
-        "en": "mobius strip",
-        "ja": "メビウスの帯"
-      },
-      {
-        "en": "klein bottle",
-        "ja": "クラインの瓶"
-      }
-    ],
-    "感情": [
-      {
-        "en": "^^^",
-        "ja": "^^^"
-      },
-      {
-        "en": "#ERROR!",
-        "ja": "#ERROR!"
-      },
-      {
-        "en": "puff of air",
-        "ja": "空気の一吹き"
-      },
-      {
-        "en": "anger vein",
-        "ja": "怒りの静脈"
-      },
-      {
-        "en": "spoken anger vein",
-        "ja": "怒りの表情"
-      },
-      {
-        "en": "blush",
-        "ja": "赤面"
-      },
-      {
-        "en": "spoken blush",
-        "ja": "口先だけの赤面"
-      },
-      {
-        "en": "heart",
-        "ja": "心臓"
-      },
-      {
-        "en": "arrow through heart",
-        "ja": "心臓を貫く矢"
-      },
-      {
-        "en": "broken heart",
-        "ja": "失恋"
-      },
-      {
-        "en": "spoken heart",
-        "ja": "心の声"
-      },
-      {
-        "en": "notice lines",
-        "ja": "注目の行"
-      },
-      {
-        "en": "shout lines",
-        "ja": "叫び声"
-      },
-      {
-        "en": "smiley face",
-        "ja": "スマイリーフェイス"
-      },
-      {
-        "en": "squiggle",
-        "ja": "くねくねした線"
-      },
-      {
-        "en": "spoken squiggle",
-        "ja": "話し言葉のくねくねした文字"
-      },
-      {
-        "en": "symbol ba-90",
-        "ja": "シンボル ba-90"
-      },
-      {
-        "en": "sweatdrop",
-        "ja": "汗滴"
-      },
-      {
-        "en": "comedic sweatdrop",
-        "ja": "喜劇的な汗だく"
-      },
-      {
-        "en": "flying sweatdrops",
-        "ja": "飛んでくる汗"
-      },
-      {
-        "en": "spoken sweatdrop",
-        "ja": "口から出た汗滴"
-      },
-      {
-        "en": "squeans",
-        "ja": "きしむ"
-      }
-    ],
-    "音楽記号": [
-      {
-        "en": "bass clef",
-        "ja": "低音部記号"
-      },
-      {
-        "en": "flat sign",
-        "ja": "フラットサイン"
-      },
-      {
-        "en": "musical note",
-        "ja": "音符"
-      },
-      {
-        "en": "whole note",
-        "ja": "全音符"
-      },
-      {
-        "en": "whole rest",
-        "ja": "残りの部分"
-      },
-      {
-        "en": "half note",
-        "ja": "二分音符"
-      },
-      {
-        "en": "half rest",
-        "ja": "半分休憩"
-      },
-      {
-        "en": "dotted half note",
-        "ja": "付点二分音符"
-      },
-      {
-        "en": "quarter note",
-        "ja": "四分音符"
-      },
-      {
-        "en": "quarter rest",
-        "ja": "四分の一休憩"
-      },
-      {
-        "en": "dotted quarter note",
-        "ja": "付点四分音符"
-      },
-      {
-        "en": "eighth note",
-        "ja": "八分音符"
-      },
-      {
-        "en": "beamed eighth notes",
-        "ja": "連桁八分音符"
-      },
-      {
-        "en": "eighth rest",
-        "ja": "8分休符"
-      },
-      {
-        "en": "dotted eighth note",
-        "ja": "付点八分音符"
-      },
-      {
-        "en": "sixteenth note",
-        "ja": "16分音符"
-      },
-      {
-        "en": "beamed sixteenth notes",
-        "ja": "16分音符の連桁"
-      },
-      {
-        "en": "sixteenth rest",
-        "ja": "16番目の休符"
-      },
-      {
-        "en": "dotted sixteenth note",
-        "ja": "付点十六分音符"
-      },
-      {
-        "en": "thirty-second note",
-        "ja": "32分音符"
-      },
-      {
-        "en": "beamed thirty-second notes",
-        "ja": "32分音符のビーム"
-      },
-      {
-        "en": "thirty-second rest",
-        "ja": "30秒の休憩"
-      },
-      {
-        "en": "dotted thirty-second note",
-        "ja": "付点32分音符"
-      },
-      {
-        "en": "sixty-fourth note",
-        "ja": "64分音符"
-      },
-      {
-        "en": "beamed sixty-fourth notes",
-        "ja": "64分音符の連桁"
-      },
-      {
-        "en": "ghost note",
-        "ja": "ゴーストノート"
-      },
-      {
-        "en": "grace note",
-        "ja": "装飾音符"
-      },
-      {
-        "en": "spoken musical note",
-        "ja": "音符の発音"
-      },
-      {
-        "en": "natural sign",
-        "ja": "自然な兆候"
-      },
-      {
-        "en": "sharp sign",
-        "ja": "鋭い兆候"
-      },
-      {
-        "en": "musical staff",
-        "ja": "音楽スタッフ"
-      },
-      {
-        "en": "time signature",
-        "ja": "拍子記号"
-      },
-      {
-        "en": "treble clef",
-        "ja": "ト音記号"
-      }
-    ],
-    "カードマーク": [
-      {
-        "en": "clubs",
-        "ja": "クラブ"
-      },
-      {
-        "en": "diamonds",
-        "ja": "ダイヤモンド"
-      },
-      {
-        "en": "hearts",
-        "ja": "ハート"
-      },
-      {
-        "en": "spades",
-        "ja": "スペード"
-      },
-      {
-        "en": "playing card theme",
-        "ja": "トランプテーマ"
-      }
-    ],
-    "テキスト等": [
-      {
-        "en": "!",
-        "ja": "！"
-      },
-      {
-        "en": "spoken exclamation mark",
-        "ja": "感嘆符の発音"
-      },
-      {
-        "en": "!?",
-        "ja": "！？"
-      },
-      {
-        "en": "spoken interrobang",
-        "ja": "音声質問"
-      },
-      {
-        "en": "?",
-        "ja": "？"
-      },
-      {
-        "en": "spoken question mark",
-        "ja": "口語の疑問符"
-      },
-      {
-        "en": "...",
-        "ja": "..."
-      },
-      {
-        "en": "spoken ellipsis",
-        "ja": "音声省略記号"
-      },
-      {
-        "en": "@",
-        "ja": "@"
-      },
-      {
-        "en": "equal sign",
-        "ja": "等号"
-      },
-      {
-        "en": "infinity symbol",
-        "ja": "無限大記号"
-      },
-      {
-        "en": "double happiness",
-        "ja": "二重の幸せ"
-      },
-      {
-        "en": "shou",
-        "ja": "ショウ"
-      },
-      {
-        "en": "good fortune symbol",
-        "ja": "幸運のシンボル"
-      },
-      {
-        "en": "dao fu",
-        "ja": "ダオフー"
-      },
-      {
-        "en": "heaven kanji",
-        "ja": "天の漢字"
-      },
-      {
-        "en": "two-legged horse kanji",
-        "ja": "二足馬の漢字"
-      },
-      {
-        "en": "minus sign",
-        "ja": "マイナス記号"
-      },
-      {
-        "en": "omega symbol",
-        "ja": "オメガ記号"
-      },
-      {
-        "en": "pi (math)",
-        "ja": "円周率（数学）"
-      },
-      {
-        "en": "runes",
-        "ja": "ルーン文字"
-      },
-      {
-        "en": "siegrunen",
-        "ja": "ジーグルネン"
-      },
-      {
-        "en": "segment display",
-        "ja": "セグメント表示"
-      },
-      {
-        "en": "seven-segment display",
-        "ja": "7セグメントディスプレイ"
-      },
-      {
-        "en": "z (russian symbol)",
-        "ja": "z（ロシア語の記号）"
-      }
-    ],
-    "通貨記号": [
-      {
-        "en": "dollar sign",
-        "ja": "ドル記号"
-      },
-      {
-        "en": "euro sign",
-        "ja": "ユーロ記号"
-      },
-      {
-        "en": "franc sign",
-        "ja": "フラン記号"
-      },
-      {
-        "en": "indian rupee sign",
-        "ja": "インドルピーの通貨記号"
-      },
-      {
-        "en": "pound sign",
-        "ja": "ポンド記号"
-      },
-      {
-        "en": "ruble sign",
-        "ja": "ルーブル記号"
-      },
-      {
-        "en": "won sign",
-        "ja": "勝利のサイン"
-      },
-      {
-        "en": "yen sign",
-        "ja": "円記号"
-      }
-    ],
-    "クロス記号": [
-      {
-        "en": "arrow cross",
-        "ja": "矢印十字"
-      },
-      {
-        "en": "balkenkreuz",
-        "ja": "バルケンクロイツ"
-      },
-      {
-        "en": "celtic cross",
-        "ja": "ケルト十字"
-      },
-      {
-        "en": "cross bottony",
-        "ja": "クロス・ボトニー"
-      },
-      {
-        "en": "cross crosslet",
-        "ja": "十字架"
-      },
-      {
-        "en": "cross fitchy",
-        "ja": "クロスフィット"
-      },
-      {
-        "en": "cross fleury",
-        "ja": "クロスフルーリー"
-      },
-      {
-        "en": "cross moline",
-        "ja": "クロスモリーン"
-      },
-      {
-        "en": "cross patonce",
-        "ja": "クロスパトンス"
-      },
-      {
-        "en": "cross patty",
-        "ja": "クロスパティ"
-      },
-      {
-        "en": "cross potent",
-        "ja": "クロスポテンシャル"
-      },
-      {
-        "en": "crucifix",
-        "ja": "十字架"
-      },
-      {
-        "en": "greek cross",
-        "ja": "ギリシャ十字"
-      },
-      {
-        "en": "red cross",
-        "ja": "赤十字"
-      },
-      {
-        "en": "inverted cross",
-        "ja": "逆十字"
-      },
-      {
-        "en": "iron cross",
-        "ja": "鉄十字"
-      },
-      {
-        "en": "latin cross",
-        "ja": "ラテン十字"
-      },
-      {
-        "en": "maltese cross",
-        "ja": "マルタ十字"
-      },
-      {
-        "en": "orthodox cross",
-        "ja": "正教会の十字架"
-      },
-      {
-        "en": "plus sign",
-        "ja": "プラス記号"
-      },
-      {
-        "en": "sun cross",
-        "ja": "太陽十字"
-      },
-      {
-        "en": "two-barred cross",
-        "ja": "2本の棒の十字架"
-      }
-    ],
-    "ジェンダー記号": [
-      {
-        "en": "androgyne symbol",
-        "ja": "両性具有のシンボル"
-      },
-      {
-        "en": "interlocked mars symbols",
-        "ja": "連結された火星のシンボル"
-      },
-      {
-        "en": "interlocked mars and venus symbols",
-        "ja": "絡み合った火星と金星のシンボル"
-      },
-      {
-        "en": "interlocked venus symbols",
-        "ja": "絡み合った金星のシンボル"
-      },
-      {
-        "en": "male-female symbol",
-        "ja": "男女のシンボル"
-      },
-      {
-        "en": "neutered symbol",
-        "ja": "去勢されたシンボル"
-      },
-      {
-        "en": "transgender symbol",
-        "ja": "トランスジェンダーのシンボル"
-      }
-    ],
-    "道路標識": [
-      {
-        "en": "bicycles only sign",
-        "ja": "自転車専用標識"
-      },
-      {
-        "en": "bus stop",
-        "ja": "バス停"
-      },
-      {
-        "en": "falling rocks sign",
-        "ja": "落石の標識"
-      },
-      {
-        "en": "motor vehicles only sign",
-        "ja": "自動車専用標識"
-      },
-      {
-        "en": "no parking sign",
-        "ja": "駐車禁止標識"
-      },
-      {
-        "en": "no pedestrian crossing sign",
-        "ja": "横断禁止標識"
-      },
-      {
-        "en": "no stopping sign",
-        "ja": "停止標識なし"
-      },
-      {
-        "en": "no u-turn sign",
-        "ja": "Uターン標識なし"
-      },
-      {
-        "en": "one way sign",
-        "ja": "一方通行標識"
-      },
-      {
-        "en": "parking permissive sign",
-        "ja": "駐車許可標識"
-      },
-      {
-        "en": "pedestrian crossing sign",
-        "ja": "横断歩道標識"
-      },
-      {
-        "en": "pedestrians only sign",
-        "ja": "歩行者専用標識"
-      },
-      {
-        "en": "railroad crossing ahead sign",
-        "ja": "踏切標識"
-      },
-      {
-        "en": "road closed to vehicles sign",
-        "ja": "車両通行止めの標識"
-      },
-      {
-        "en": "road narrows sign",
-        "ja": "道路狭窄標識"
-      },
-      {
-        "en": "school crossing sign",
-        "ja": "学校横断標識"
-      },
-      {
-        "en": "speed limit sign",
-        "ja": "速度制限標識"
-      },
-      {
-        "en": "stop sign",
-        "ja": "一時停止の標識"
-      },
-      {
-        "en": "straight or left turn sign",
-        "ja": "直進または左折の標識"
-      },
-      {
-        "en": "straight or right turn sign",
-        "ja": "直進または右折の標識"
-      },
-      {
-        "en": "turn left sign",
-        "ja": "左折標識"
-      },
-      {
-        "en": "turn right sign",
-        "ja": "右折標識"
-      }
-    ],
-    "天体記号": [
-      {
-        "en": "sun symbol",
-        "ja": "太陽のシンボル"
-      },
-      {
-        "en": "mercury symbol",
-        "ja": "水銀記号"
-      },
-      {
-        "en": "venus symbol",
-        "ja": "金星のシンボル"
-      },
-      {
-        "en": "mars symbol",
-        "ja": "火星のシンボル"
-      },
-      {
-        "en": "jupiter symbol",
-        "ja": "木星のシンボル"
-      },
-      {
-        "en": "saturn symbol",
-        "ja": "土星のシンボル"
-      },
-      {
-        "en": "uranus symbol",
-        "ja": "天王星の記号"
-      },
-      {
-        "en": "neptune symbol",
-        "ja": "海王星のシンボル"
-      },
-      {
-        "en": "pluto symbol",
-        "ja": "冥王星のシンボル"
-      }
-    ],
-    "その他": [
-      {
-        "en": "anarchy symbol",
-        "ja": "無政府主義の象徴"
-      },
-      {
-        "en": "ankh",
-        "ja": "アンク"
-      },
-      {
-        "en": "ars goetia",
-        "ja": "アルス・ゴエティア"
-      },
-      {
-        "en": "battery indicator",
-        "ja": "バッテリーインジケーター"
-      },
-      {
-        "en": "biohazard symbol",
-        "ja": "バイオハザードシンボル"
-      },
-      {
-        "en": "black sun",
-        "ja": "黒い太陽"
-      },
-      {
-        "en": "caduceus",
-        "ja": "カドゥケウス"
-      },
-      {
-        "en": "compass rose",
-        "ja": "コンパスローズ"
-      },
-      {
-        "en": "digital rain",
-        "ja": "デジタルレイン"
-      },
-      {
-        "en": "fasces",
-        "ja": "束"
-      },
-      {
-        "en": "flammable symbol",
-        "ja": "可燃性シンボル"
-      },
-      {
-        "en": "fleur-de-lis",
-        "ja": "フルール・ド・リス"
-      },
-      {
-        "en": "fragile symbol",
-        "ja": "壊れやすいシンボル"
-      },
-      {
-        "en": "hammer and sickle",
-        "ja": "ハンマーと鎌"
-      },
-      {
-        "en": "kolovrat",
-        "ja": "コロヴラット"
-      },
-      {
-        "en": "lightning bolt symbol",
-        "ja": "稲妻のシンボル"
-      },
-      {
-        "en": "no symbol",
-        "ja": "シンボルなし"
-      },
-      {
-        "en": "no entry sign",
-        "ja": "進入禁止標識"
-      },
-      {
-        "en": "no smoking",
-        "ja": "禁煙"
-      },
-      {
-        "en": "onsen symbol",
-        "ja": "温泉のシンボル"
-      },
-      {
-        "en": "om",
-        "ja": "オム"
-      },
-      {
-        "en": "ouroboros",
-        "ja": "ウロボロス"
-      },
-      {
-        "en": "parental advisory",
-        "ja": "保護者の助言"
-      },
-      {
-        "en": "peace symbol",
-        "ja": "平和のシンボル"
-      },
-      {
-        "en": "power symbol",
-        "ja": "パワーシンボル"
-      },
-      {
-        "en": "radiation symbol",
-        "ja": "放射線記号"
-      },
-      {
-        "en": "recycling symbol",
-        "ja": "リサイクルシンボル"
-      },
-      {
-        "en": "reichsadler",
-        "ja": "ライヒスザードラー"
-      },
-      {
-        "en": "restroom symbol",
-        "ja": "トイレのシンボル"
-      },
-      {
-        "en": "rod of asclepius",
-        "ja": "アスクレピオスの杖"
-      },
-      {
-        "en": "star of life",
-        "ja": "生命の星"
-      },
-      {
-        "en": "sigil of lucifer",
-        "ja": "ルシファーの印章"
-      },
-      {
-        "en": "signal bar",
-        "ja": "信号バー"
-      },
-      {
-        "en": "skull and crossbones",
-        "ja": "髑髏と骨"
-      },
-      {
-        "en": "jolly roger",
-        "ja": "ジョリーロジャー"
-      },
-      {
-        "en": "totenkopf",
-        "ja": "トーテンコップ"
-      },
-      {
-        "en": "star and crescent",
-        "ja": "星と三日月"
-      },
-      {
-        "en": "swastika",
-        "ja": "卍"
-      },
-      {
-        "en": "trigram",
-        "ja": "トリグラム"
-      },
-      {
-        "en": "bagua",
-        "ja": "八卦"
-      },
-      {
-        "en": "tryzub",
-        "ja": "トライズブ"
-      },
-      {
-        "en": "tomoe",
-        "ja": "巴"
-      },
-      {
-        "en": "mitsudomoe",
-        "ja": "みつどもえ"
-      },
-      {
-        "en": "warning sign",
-        "ja": "警告サイン"
-      },
-      {
-        "en": "wheelchair sign",
-        "ja": "車椅子の標識"
-      },
-      {
-        "en": "wheel of dharma",
-        "ja": "法輪"
-      },
-      {
-        "en": "wi-fi symbol",
-        "ja": "Wi-Fiシンボル"
-      },
-      {
-        "en": "wolfsangel",
-        "ja": "ウルフサンジェル"
-      },
-      {
-        "en": "x mark",
-        "ja": "×マーク"
-      },
-      {
-        "en": "spoken x",
-        "ja": "話し言葉 x"
-      },
-      {
-        "en": "yin yang",
-        "ja": "陰陽"
-      },
-      {
-        "en": "zodiac",
-        "ja": "星座"
-      },
-      {
-        "en": "barcode",
-        "ja": "バーコード"
-      },
-      {
-        "en": "qr code",
-        "ja": "QRコード"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "geometric-shapes",
+      "name": "幾何学的形状",
+      "tags": [
+        {
+          "en": "circle",
+          "ja": "丸"
+        },
+        {
+          "en": "crescent",
+          "ja": "三日月"
+        },
+        {
+          "en": "arrow",
+          "ja": "矢印"
+        },
+        {
+          "en": "heptagon",
+          "ja": "七角形"
+        },
+        {
+          "en": "hexagon",
+          "ja": "六角形"
+        },
+        {
+          "en": "octagon",
+          "ja": "八角形"
+        },
+        {
+          "en": "pentagon",
+          "ja": "五角形"
+        },
+        {
+          "en": "rectangle",
+          "ja": "矩形"
+        },
+        {
+          "en": "diamond",
+          "ja": "ダイヤモンド"
+        },
+        {
+          "en": "triangle",
+          "ja": "三角形"
+        },
+        {
+          "en": "square",
+          "ja": "四角"
+        },
+        {
+          "en": "star",
+          "ja": "星"
+        },
+        {
+          "en": "asterisk",
+          "ja": "アスタリスク"
+        },
+        {
+          "en": "red star",
+          "ja": "赤い星"
+        },
+        {
+          "en": "spoken star",
+          "ja": "スポークンスター"
+        },
+        {
+          "en": "pentagram",
+          "ja": "五芒星"
+        },
+        {
+          "en": "druze star",
+          "ja": "ドゥルーズ派の星"
+        },
+        {
+          "en": "inverted pentagram",
+          "ja": "逆五芒星"
+        },
+        {
+          "en": "hexagram",
+          "ja": "六十四卦"
+        },
+        {
+          "en": "star of david",
+          "ja": "ダビデの星"
+        },
+        {
+          "en": "heptagram",
+          "ja": "七芒星"
+        },
+        {
+          "en": "octagram",
+          "ja": "八芒星"
+        },
+        {
+          "en": "star of lakshmi",
+          "ja": "ラクシュミの星"
+        },
+        {
+          "en": "enneagram",
+          "ja": "エニアグラム"
+        },
+        {
+          "en": "decagram",
+          "ja": "デカグラム"
+        },
+        {
+          "en": "hendecagram",
+          "ja": "十卦"
+        },
+        {
+          "en": "dodecagram",
+          "ja": "十二卦"
+        },
+        {
+          "en": "cone",
+          "ja": "円錐"
+        },
+        {
+          "en": "tetrahedron",
+          "ja": "四面体"
+        },
+        {
+          "en": "cube",
+          "ja": "キューブ"
+        },
+        {
+          "en": "octahedron",
+          "ja": "八面体"
+        },
+        {
+          "en": "dodecahedron",
+          "ja": "十二面体"
+        },
+        {
+          "en": "icosahedron",
+          "ja": "二十面体"
+        },
+        {
+          "en": "prism",
+          "ja": "プリズム"
+        },
+        {
+          "en": "pyramid",
+          "ja": "ピラミッド"
+        },
+        {
+          "en": "orb",
+          "ja": "オーブ"
+        },
+        {
+          "en": "great dodecahedron",
+          "ja": "大十二面体"
+        },
+        {
+          "en": "small stellated dodecahedron",
+          "ja": "小さな星型十二面体"
+        },
+        {
+          "en": "stellated octahedron",
+          "ja": "星型八面体"
+        },
+        {
+          "en": "mobius strip",
+          "ja": "メビウスの帯"
+        },
+        {
+          "en": "klein bottle",
+          "ja": "クラインの瓶"
+        }
+      ]
+    },
+    {
+      "id": "emotions",
+      "name": "感情",
+      "tags": [
+        {
+          "en": "^^^",
+          "ja": "^^^"
+        },
+        {
+          "en": "#ERROR!",
+          "ja": "#ERROR!"
+        },
+        {
+          "en": "puff of air",
+          "ja": "空気の一吹き"
+        },
+        {
+          "en": "anger vein",
+          "ja": "怒りの静脈"
+        },
+        {
+          "en": "spoken anger vein",
+          "ja": "怒りの表情"
+        },
+        {
+          "en": "blush",
+          "ja": "赤面"
+        },
+        {
+          "en": "spoken blush",
+          "ja": "口先だけの赤面"
+        },
+        {
+          "en": "heart",
+          "ja": "心臓"
+        },
+        {
+          "en": "arrow through heart",
+          "ja": "心臓を貫く矢"
+        },
+        {
+          "en": "broken heart",
+          "ja": "失恋"
+        },
+        {
+          "en": "spoken heart",
+          "ja": "心の声"
+        },
+        {
+          "en": "notice lines",
+          "ja": "注目の行"
+        },
+        {
+          "en": "shout lines",
+          "ja": "叫び声"
+        },
+        {
+          "en": "smiley face",
+          "ja": "スマイリーフェイス"
+        },
+        {
+          "en": "squiggle",
+          "ja": "くねくねした線"
+        },
+        {
+          "en": "spoken squiggle",
+          "ja": "話し言葉のくねくねした文字"
+        },
+        {
+          "en": "symbol ba-90",
+          "ja": "シンボル ba-90"
+        },
+        {
+          "en": "sweatdrop",
+          "ja": "汗滴"
+        },
+        {
+          "en": "comedic sweatdrop",
+          "ja": "喜劇的な汗だく"
+        },
+        {
+          "en": "flying sweatdrops",
+          "ja": "飛んでくる汗"
+        },
+        {
+          "en": "spoken sweatdrop",
+          "ja": "口から出た汗滴"
+        },
+        {
+          "en": "squeans",
+          "ja": "きしむ"
+        }
+      ]
+    },
+    {
+      "id": "music-symbols",
+      "name": "音楽記号",
+      "tags": [
+        {
+          "en": "bass clef",
+          "ja": "低音部記号"
+        },
+        {
+          "en": "flat sign",
+          "ja": "フラットサイン"
+        },
+        {
+          "en": "musical note",
+          "ja": "音符"
+        },
+        {
+          "en": "whole note",
+          "ja": "全音符"
+        },
+        {
+          "en": "whole rest",
+          "ja": "残りの部分"
+        },
+        {
+          "en": "half note",
+          "ja": "二分音符"
+        },
+        {
+          "en": "half rest",
+          "ja": "半分休憩"
+        },
+        {
+          "en": "dotted half note",
+          "ja": "付点二分音符"
+        },
+        {
+          "en": "quarter note",
+          "ja": "四分音符"
+        },
+        {
+          "en": "quarter rest",
+          "ja": "四分の一休憩"
+        },
+        {
+          "en": "dotted quarter note",
+          "ja": "付点四分音符"
+        },
+        {
+          "en": "eighth note",
+          "ja": "八分音符"
+        },
+        {
+          "en": "beamed eighth notes",
+          "ja": "連桁八分音符"
+        },
+        {
+          "en": "eighth rest",
+          "ja": "8分休符"
+        },
+        {
+          "en": "dotted eighth note",
+          "ja": "付点八分音符"
+        },
+        {
+          "en": "sixteenth note",
+          "ja": "16分音符"
+        },
+        {
+          "en": "beamed sixteenth notes",
+          "ja": "16分音符の連桁"
+        },
+        {
+          "en": "sixteenth rest",
+          "ja": "16番目の休符"
+        },
+        {
+          "en": "dotted sixteenth note",
+          "ja": "付点十六分音符"
+        },
+        {
+          "en": "thirty-second note",
+          "ja": "32分音符"
+        },
+        {
+          "en": "beamed thirty-second notes",
+          "ja": "32分音符のビーム"
+        },
+        {
+          "en": "thirty-second rest",
+          "ja": "30秒の休憩"
+        },
+        {
+          "en": "dotted thirty-second note",
+          "ja": "付点32分音符"
+        },
+        {
+          "en": "sixty-fourth note",
+          "ja": "64分音符"
+        },
+        {
+          "en": "beamed sixty-fourth notes",
+          "ja": "64分音符の連桁"
+        },
+        {
+          "en": "ghost note",
+          "ja": "ゴーストノート"
+        },
+        {
+          "en": "grace note",
+          "ja": "装飾音符"
+        },
+        {
+          "en": "spoken musical note",
+          "ja": "音符の発音"
+        },
+        {
+          "en": "natural sign",
+          "ja": "自然な兆候"
+        },
+        {
+          "en": "sharp sign",
+          "ja": "鋭い兆候"
+        },
+        {
+          "en": "musical staff",
+          "ja": "音楽スタッフ"
+        },
+        {
+          "en": "time signature",
+          "ja": "拍子記号"
+        },
+        {
+          "en": "treble clef",
+          "ja": "ト音記号"
+        }
+      ]
+    },
+    {
+      "id": "card-suits",
+      "name": "カードマーク",
+      "tags": [
+        {
+          "en": "clubs",
+          "ja": "クラブ"
+        },
+        {
+          "en": "diamonds",
+          "ja": "ダイヤモンド"
+        },
+        {
+          "en": "hearts",
+          "ja": "ハート"
+        },
+        {
+          "en": "spades",
+          "ja": "スペード"
+        },
+        {
+          "en": "playing card theme",
+          "ja": "トランプテーマ"
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "name": "テキスト等",
+      "tags": [
+        {
+          "en": "!",
+          "ja": "！"
+        },
+        {
+          "en": "spoken exclamation mark",
+          "ja": "感嘆符の発音"
+        },
+        {
+          "en": "!?",
+          "ja": "！？"
+        },
+        {
+          "en": "spoken interrobang",
+          "ja": "音声質問"
+        },
+        {
+          "en": "?",
+          "ja": "？"
+        },
+        {
+          "en": "spoken question mark",
+          "ja": "口語の疑問符"
+        },
+        {
+          "en": "...",
+          "ja": "..."
+        },
+        {
+          "en": "spoken ellipsis",
+          "ja": "音声省略記号"
+        },
+        {
+          "en": "@",
+          "ja": "@"
+        },
+        {
+          "en": "equal sign",
+          "ja": "等号"
+        },
+        {
+          "en": "infinity symbol",
+          "ja": "無限大記号"
+        },
+        {
+          "en": "double happiness",
+          "ja": "二重の幸せ"
+        },
+        {
+          "en": "shou",
+          "ja": "ショウ"
+        },
+        {
+          "en": "good fortune symbol",
+          "ja": "幸運のシンボル"
+        },
+        {
+          "en": "dao fu",
+          "ja": "ダオフー"
+        },
+        {
+          "en": "heaven kanji",
+          "ja": "天の漢字"
+        },
+        {
+          "en": "two-legged horse kanji",
+          "ja": "二足馬の漢字"
+        },
+        {
+          "en": "minus sign",
+          "ja": "マイナス記号"
+        },
+        {
+          "en": "omega symbol",
+          "ja": "オメガ記号"
+        },
+        {
+          "en": "pi (math)",
+          "ja": "円周率（数学）"
+        },
+        {
+          "en": "runes",
+          "ja": "ルーン文字"
+        },
+        {
+          "en": "siegrunen",
+          "ja": "ジーグルネン"
+        },
+        {
+          "en": "segment display",
+          "ja": "セグメント表示"
+        },
+        {
+          "en": "seven-segment display",
+          "ja": "7セグメントディスプレイ"
+        },
+        {
+          "en": "z (russian symbol)",
+          "ja": "z（ロシア語の記号）"
+        }
+      ]
+    },
+    {
+      "id": "currency-symbols",
+      "name": "通貨記号",
+      "tags": [
+        {
+          "en": "dollar sign",
+          "ja": "ドル記号"
+        },
+        {
+          "en": "euro sign",
+          "ja": "ユーロ記号"
+        },
+        {
+          "en": "franc sign",
+          "ja": "フラン記号"
+        },
+        {
+          "en": "indian rupee sign",
+          "ja": "インドルピーの通貨記号"
+        },
+        {
+          "en": "pound sign",
+          "ja": "ポンド記号"
+        },
+        {
+          "en": "ruble sign",
+          "ja": "ルーブル記号"
+        },
+        {
+          "en": "won sign",
+          "ja": "勝利のサイン"
+        },
+        {
+          "en": "yen sign",
+          "ja": "円記号"
+        }
+      ]
+    },
+    {
+      "id": "cross-symbols",
+      "name": "クロス記号",
+      "tags": [
+        {
+          "en": "arrow cross",
+          "ja": "矢印十字"
+        },
+        {
+          "en": "balkenkreuz",
+          "ja": "バルケンクロイツ"
+        },
+        {
+          "en": "celtic cross",
+          "ja": "ケルト十字"
+        },
+        {
+          "en": "cross bottony",
+          "ja": "クロス・ボトニー"
+        },
+        {
+          "en": "cross crosslet",
+          "ja": "十字架"
+        },
+        {
+          "en": "cross fitchy",
+          "ja": "クロスフィット"
+        },
+        {
+          "en": "cross fleury",
+          "ja": "クロスフルーリー"
+        },
+        {
+          "en": "cross moline",
+          "ja": "クロスモリーン"
+        },
+        {
+          "en": "cross patonce",
+          "ja": "クロスパトンス"
+        },
+        {
+          "en": "cross patty",
+          "ja": "クロスパティ"
+        },
+        {
+          "en": "cross potent",
+          "ja": "クロスポテンシャル"
+        },
+        {
+          "en": "crucifix",
+          "ja": "十字架"
+        },
+        {
+          "en": "greek cross",
+          "ja": "ギリシャ十字"
+        },
+        {
+          "en": "red cross",
+          "ja": "赤十字"
+        },
+        {
+          "en": "inverted cross",
+          "ja": "逆十字"
+        },
+        {
+          "en": "iron cross",
+          "ja": "鉄十字"
+        },
+        {
+          "en": "latin cross",
+          "ja": "ラテン十字"
+        },
+        {
+          "en": "maltese cross",
+          "ja": "マルタ十字"
+        },
+        {
+          "en": "orthodox cross",
+          "ja": "正教会の十字架"
+        },
+        {
+          "en": "plus sign",
+          "ja": "プラス記号"
+        },
+        {
+          "en": "sun cross",
+          "ja": "太陽十字"
+        },
+        {
+          "en": "two-barred cross",
+          "ja": "2本の棒の十字架"
+        }
+      ]
+    },
+    {
+      "id": "gender-symbols",
+      "name": "ジェンダー記号",
+      "tags": [
+        {
+          "en": "androgyne symbol",
+          "ja": "両性具有のシンボル"
+        },
+        {
+          "en": "interlocked mars symbols",
+          "ja": "連結された火星のシンボル"
+        },
+        {
+          "en": "interlocked mars and venus symbols",
+          "ja": "絡み合った火星と金星のシンボル"
+        },
+        {
+          "en": "interlocked venus symbols",
+          "ja": "絡み合った金星のシンボル"
+        },
+        {
+          "en": "male-female symbol",
+          "ja": "男女のシンボル"
+        },
+        {
+          "en": "neutered symbol",
+          "ja": "去勢されたシンボル"
+        },
+        {
+          "en": "transgender symbol",
+          "ja": "トランスジェンダーのシンボル"
+        }
+      ]
+    },
+    {
+      "id": "road-signs",
+      "name": "道路標識",
+      "tags": [
+        {
+          "en": "bicycles only sign",
+          "ja": "自転車専用標識"
+        },
+        {
+          "en": "bus stop",
+          "ja": "バス停"
+        },
+        {
+          "en": "falling rocks sign",
+          "ja": "落石の標識"
+        },
+        {
+          "en": "motor vehicles only sign",
+          "ja": "自動車専用標識"
+        },
+        {
+          "en": "no parking sign",
+          "ja": "駐車禁止標識"
+        },
+        {
+          "en": "no pedestrian crossing sign",
+          "ja": "横断禁止標識"
+        },
+        {
+          "en": "no stopping sign",
+          "ja": "停止標識なし"
+        },
+        {
+          "en": "no u-turn sign",
+          "ja": "Uターン標識なし"
+        },
+        {
+          "en": "one way sign",
+          "ja": "一方通行標識"
+        },
+        {
+          "en": "parking permissive sign",
+          "ja": "駐車許可標識"
+        },
+        {
+          "en": "pedestrian crossing sign",
+          "ja": "横断歩道標識"
+        },
+        {
+          "en": "pedestrians only sign",
+          "ja": "歩行者専用標識"
+        },
+        {
+          "en": "railroad crossing ahead sign",
+          "ja": "踏切標識"
+        },
+        {
+          "en": "road closed to vehicles sign",
+          "ja": "車両通行止めの標識"
+        },
+        {
+          "en": "road narrows sign",
+          "ja": "道路狭窄標識"
+        },
+        {
+          "en": "school crossing sign",
+          "ja": "学校横断標識"
+        },
+        {
+          "en": "speed limit sign",
+          "ja": "速度制限標識"
+        },
+        {
+          "en": "stop sign",
+          "ja": "一時停止の標識"
+        },
+        {
+          "en": "straight or left turn sign",
+          "ja": "直進または左折の標識"
+        },
+        {
+          "en": "straight or right turn sign",
+          "ja": "直進または右折の標識"
+        },
+        {
+          "en": "turn left sign",
+          "ja": "左折標識"
+        },
+        {
+          "en": "turn right sign",
+          "ja": "右折標識"
+        }
+      ]
+    },
+    {
+      "id": "celestial-symbols",
+      "name": "天体記号",
+      "tags": [
+        {
+          "en": "sun symbol",
+          "ja": "太陽のシンボル"
+        },
+        {
+          "en": "mercury symbol",
+          "ja": "水銀記号"
+        },
+        {
+          "en": "venus symbol",
+          "ja": "金星のシンボル"
+        },
+        {
+          "en": "mars symbol",
+          "ja": "火星のシンボル"
+        },
+        {
+          "en": "jupiter symbol",
+          "ja": "木星のシンボル"
+        },
+        {
+          "en": "saturn symbol",
+          "ja": "土星のシンボル"
+        },
+        {
+          "en": "uranus symbol",
+          "ja": "天王星の記号"
+        },
+        {
+          "en": "neptune symbol",
+          "ja": "海王星のシンボル"
+        },
+        {
+          "en": "pluto symbol",
+          "ja": "冥王星のシンボル"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "その他",
+      "tags": [
+        {
+          "en": "anarchy symbol",
+          "ja": "無政府主義の象徴"
+        },
+        {
+          "en": "ankh",
+          "ja": "アンク"
+        },
+        {
+          "en": "ars goetia",
+          "ja": "アルス・ゴエティア"
+        },
+        {
+          "en": "battery indicator",
+          "ja": "バッテリーインジケーター"
+        },
+        {
+          "en": "biohazard symbol",
+          "ja": "バイオハザードシンボル"
+        },
+        {
+          "en": "black sun",
+          "ja": "黒い太陽"
+        },
+        {
+          "en": "caduceus",
+          "ja": "カドゥケウス"
+        },
+        {
+          "en": "compass rose",
+          "ja": "コンパスローズ"
+        },
+        {
+          "en": "digital rain",
+          "ja": "デジタルレイン"
+        },
+        {
+          "en": "fasces",
+          "ja": "束"
+        },
+        {
+          "en": "flammable symbol",
+          "ja": "可燃性シンボル"
+        },
+        {
+          "en": "fleur-de-lis",
+          "ja": "フルール・ド・リス"
+        },
+        {
+          "en": "fragile symbol",
+          "ja": "壊れやすいシンボル"
+        },
+        {
+          "en": "hammer and sickle",
+          "ja": "ハンマーと鎌"
+        },
+        {
+          "en": "kolovrat",
+          "ja": "コロヴラット"
+        },
+        {
+          "en": "lightning bolt symbol",
+          "ja": "稲妻のシンボル"
+        },
+        {
+          "en": "no symbol",
+          "ja": "シンボルなし"
+        },
+        {
+          "en": "no entry sign",
+          "ja": "進入禁止標識"
+        },
+        {
+          "en": "no smoking",
+          "ja": "禁煙"
+        },
+        {
+          "en": "onsen symbol",
+          "ja": "温泉のシンボル"
+        },
+        {
+          "en": "om",
+          "ja": "オム"
+        },
+        {
+          "en": "ouroboros",
+          "ja": "ウロボロス"
+        },
+        {
+          "en": "parental advisory",
+          "ja": "保護者の助言"
+        },
+        {
+          "en": "peace symbol",
+          "ja": "平和のシンボル"
+        },
+        {
+          "en": "power symbol",
+          "ja": "パワーシンボル"
+        },
+        {
+          "en": "radiation symbol",
+          "ja": "放射線記号"
+        },
+        {
+          "en": "recycling symbol",
+          "ja": "リサイクルシンボル"
+        },
+        {
+          "en": "reichsadler",
+          "ja": "ライヒスザードラー"
+        },
+        {
+          "en": "restroom symbol",
+          "ja": "トイレのシンボル"
+        },
+        {
+          "en": "rod of asclepius",
+          "ja": "アスクレピオスの杖"
+        },
+        {
+          "en": "star of life",
+          "ja": "生命の星"
+        },
+        {
+          "en": "sigil of lucifer",
+          "ja": "ルシファーの印章"
+        },
+        {
+          "en": "signal bar",
+          "ja": "信号バー"
+        },
+        {
+          "en": "skull and crossbones",
+          "ja": "髑髏と骨"
+        },
+        {
+          "en": "jolly roger",
+          "ja": "ジョリーロジャー"
+        },
+        {
+          "en": "totenkopf",
+          "ja": "トーテンコップ"
+        },
+        {
+          "en": "star and crescent",
+          "ja": "星と三日月"
+        },
+        {
+          "en": "swastika",
+          "ja": "卍"
+        },
+        {
+          "en": "trigram",
+          "ja": "トリグラム"
+        },
+        {
+          "en": "bagua",
+          "ja": "八卦"
+        },
+        {
+          "en": "tryzub",
+          "ja": "トライズブ"
+        },
+        {
+          "en": "tomoe",
+          "ja": "巴"
+        },
+        {
+          "en": "mitsudomoe",
+          "ja": "みつどもえ"
+        },
+        {
+          "en": "warning sign",
+          "ja": "警告サイン"
+        },
+        {
+          "en": "wheelchair sign",
+          "ja": "車椅子の標識"
+        },
+        {
+          "en": "wheel of dharma",
+          "ja": "法輪"
+        },
+        {
+          "en": "wi-fi symbol",
+          "ja": "Wi-Fiシンボル"
+        },
+        {
+          "en": "wolfsangel",
+          "ja": "ウルフサンジェル"
+        },
+        {
+          "en": "x mark",
+          "ja": "×マーク"
+        },
+        {
+          "en": "spoken x",
+          "ja": "話し言葉 x"
+        },
+        {
+          "en": "yin yang",
+          "ja": "陰陽"
+        },
+        {
+          "en": "zodiac",
+          "ja": "星座"
+        },
+        {
+          "en": "barcode",
+          "ja": "バーコード"
+        },
+        {
+          "en": "qr code",
+          "ja": "QRコード"
+        }
+      ]
+    }
+  ]
 }

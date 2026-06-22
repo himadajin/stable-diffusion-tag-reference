@@ -4,19 +4,25 @@
   "tagCount": 225,
   "sections": [
     {
-      "id": "背景",
+      "id": "background",
       "name": "背景",
       "path": [
         "背景"
       ],
+      "sectionPath": [
+        "background"
+      ],
       "tagCount": 1,
       "tags": [
         {
-          "id": "background__背景__0001",
+          "id": "background__background__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "背景"
+          ],
+          "sectionPath": [
+            "background"
           ],
           "en": "background",
           "ja": "背景"
@@ -24,129 +30,168 @@
       ]
     },
     {
-      "id": "室内",
+      "id": "indoors",
       "name": "室内",
       "path": [
         "室内"
       ],
+      "sectionPath": [
+        "indoors"
+      ],
       "tagCount": 12,
       "tags": [
         {
-          "id": "background__室内__0001",
+          "id": "background__indoors__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "bedroom",
           "ja": "寝室"
         },
         {
-          "id": "background__室内__0002",
+          "id": "background__indoors__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "hotel room",
           "ja": "ホテルの部屋"
         },
         {
-          "id": "background__室内__0003",
+          "id": "background__indoors__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "messy room",
           "ja": "散らかった部屋"
         },
         {
-          "id": "background__室内__0004",
+          "id": "background__indoors__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "otaku room",
           "ja": "オタク部屋"
         },
         {
-          "id": "background__室内__0005",
+          "id": "background__indoors__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "living room",
           "ja": "リビングルーム"
         },
         {
-          "id": "background__室内__0006",
+          "id": "background__indoors__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "dining room",
           "ja": "ダイニングルーム"
         },
         {
-          "id": "background__室内__0007",
+          "id": "background__indoors__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "bathroom",
           "ja": "バスルーム"
         },
         {
-          "id": "background__室内__0008",
+          "id": "background__indoors__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "bathtub",
           "ja": "バスタブ"
         },
         {
-          "id": "background__室内__0009",
+          "id": "background__indoors__0009",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "toilet stall",
           "ja": "トイレの個室"
         },
         {
-          "id": "background__室内__0010",
+          "id": "background__indoors__0010",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "shower",
           "ja": "シャワー"
         },
         {
-          "id": "background__室内__0011",
+          "id": "background__indoors__0011",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
           ],
+          "sectionPath": [
+            "indoors"
+          ],
           "en": "closet",
           "ja": "クローゼット"
         },
         {
-          "id": "background__室内__0012",
+          "id": "background__indoors__0012",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "室内"
+          ],
+          "sectionPath": [
+            "indoors"
           ],
           "en": "indoors",
           "ja": "屋内"
@@ -154,269 +199,350 @@
       ]
     },
     {
-      "id": "施設内",
+      "id": "facilities",
       "name": "施設内",
       "path": [
         "施設内"
       ],
+      "sectionPath": [
+        "facilities"
+      ],
       "tagCount": 26,
       "tags": [
         {
-          "id": "background__施設内__0001",
+          "id": "background__facilities__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "ballroom",
           "ja": "ボールルーム"
         },
         {
-          "id": "background__施設内__0002",
+          "id": "background__facilities__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "cafeteria",
           "ja": "カフェテリア"
         },
         {
-          "id": "background__施設内__0003",
+          "id": "background__facilities__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "changing room",
           "ja": "更衣室"
         },
         {
-          "id": "background__施設内__0004",
+          "id": "background__facilities__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "classroom",
           "ja": "教室"
         },
         {
-          "id": "background__施設内__0005",
+          "id": "background__facilities__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "clubroom",
           "ja": "部室"
         },
         {
-          "id": "background__施設内__0006",
+          "id": "background__facilities__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "conservatory",
           "ja": "音楽院"
         },
         {
-          "id": "background__施設内__0007",
+          "id": "background__facilities__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "courtroom",
           "ja": "法廷"
         },
         {
-          "id": "background__施設内__0008",
+          "id": "background__facilities__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "dressing room",
           "ja": "更衣室"
         },
         {
-          "id": "background__施設内__0009",
+          "id": "background__facilities__0009",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "dungeon",
           "ja": "ダンジョン"
         },
         {
-          "id": "background__施設内__0010",
+          "id": "background__facilities__0010",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "prison cell",
           "ja": "刑務所の独房"
         },
         {
-          "id": "background__施設内__0011",
+          "id": "background__facilities__0011",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "fitting room",
           "ja": "試着室"
         },
         {
-          "id": "background__施設内__0012",
+          "id": "background__facilities__0012",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "gym",
           "ja": "ジム"
         },
         {
-          "id": "background__施設内__0013",
+          "id": "background__facilities__0013",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "gym storeroom",
           "ja": "ジムの倉庫"
         },
         {
-          "id": "background__施設内__0014",
+          "id": "background__facilities__0014",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "locker room",
           "ja": "ロッカールーム"
         },
         {
-          "id": "background__施設内__0015",
+          "id": "background__facilities__0015",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "infirmary",
           "ja": "診療所"
         },
         {
-          "id": "background__施設内__0016",
+          "id": "background__facilities__0016",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "kitchen",
           "ja": "台所"
         },
         {
-          "id": "background__施設内__0017",
+          "id": "background__facilities__0017",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "laboratory",
           "ja": "研究室"
         },
         {
-          "id": "background__施設内__0018",
+          "id": "background__facilities__0018",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "library",
           "ja": "図書館"
         },
         {
-          "id": "background__施設内__0019",
+          "id": "background__facilities__0019",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "office",
           "ja": "オフィス"
         },
         {
-          "id": "background__施設内__0020",
+          "id": "background__facilities__0020",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "cubicle",
           "ja": "キュービクル"
         },
         {
-          "id": "background__施設内__0021",
+          "id": "background__facilities__0021",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "pool",
           "ja": "プール"
         },
         {
-          "id": "background__施設内__0022",
+          "id": "background__facilities__0022",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "stage",
           "ja": "ステージ"
         },
         {
-          "id": "background__施設内__0023",
+          "id": "background__facilities__0023",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "staff room",
           "ja": "職員室"
         },
         {
-          "id": "background__施設内__0024",
+          "id": "background__facilities__0024",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "storage room",
           "ja": "保管室"
         },
         {
-          "id": "background__施設内__0025",
+          "id": "background__facilities__0025",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
           ],
+          "sectionPath": [
+            "facilities"
+          ],
           "en": "armory",
           "ja": "武器庫"
         },
         {
-          "id": "background__施設内__0026",
+          "id": "background__facilities__0026",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "施設内"
+          ],
+          "sectionPath": [
+            "facilities"
           ],
           "en": "workshop",
           "ja": "ワークショップ"
@@ -424,369 +550,480 @@
       ]
     },
     {
-      "id": "自然",
+      "id": "nature",
       "name": "自然",
       "path": [
         "自然"
       ],
+      "sectionPath": [
+        "nature"
+      ],
       "tagCount": 36,
       "tags": [
         {
-          "id": "background__自然__0001",
+          "id": "background__nature__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "outdoors",
           "ja": "屋外"
         },
         {
-          "id": "background__自然__0002",
+          "id": "background__nature__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "beach",
           "ja": "ビーチ"
         },
         {
-          "id": "background__自然__0003",
+          "id": "background__nature__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "shore",
           "ja": "海岸"
         },
         {
-          "id": "background__自然__0004",
+          "id": "background__nature__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "canyon",
           "ja": "峡谷"
         },
         {
-          "id": "background__自然__0005",
+          "id": "background__nature__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "cave",
           "ja": "洞窟"
         },
         {
-          "id": "background__自然__0006",
+          "id": "background__nature__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "cliff",
           "ja": "崖"
         },
         {
-          "id": "background__自然__0007",
+          "id": "background__nature__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "desert",
           "ja": "砂漠"
         },
         {
-          "id": "background__自然__0008",
+          "id": "background__nature__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "oasis",
           "ja": "オアシス"
         },
         {
-          "id": "background__自然__0009",
+          "id": "background__nature__0009",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "forest",
           "ja": "森"
         },
         {
-          "id": "background__自然__0010",
+          "id": "background__nature__0010",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "bamboo forest",
           "ja": "竹林"
         },
         {
-          "id": "background__自然__0011",
+          "id": "background__nature__0011",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "glacier",
           "ja": "氷河"
         },
         {
-          "id": "background__自然__0012",
+          "id": "background__nature__0012",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "hill",
           "ja": "丘"
         },
         {
-          "id": "background__自然__0013",
+          "id": "background__nature__0013",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "island",
           "ja": "島"
         },
         {
-          "id": "background__自然__0014",
+          "id": "background__nature__0014",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "floating island",
           "ja": "浮島"
         },
         {
-          "id": "background__自然__0015",
+          "id": "background__nature__0015",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "jungle",
           "ja": "ジャングル"
         },
         {
-          "id": "background__自然__0016",
+          "id": "background__nature__0016",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "meadow",
           "ja": "牧草地"
         },
         {
-          "id": "background__自然__0017",
+          "id": "background__nature__0017",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "mountain",
           "ja": "山"
         },
         {
-          "id": "background__自然__0018",
+          "id": "background__nature__0018",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "volcano",
           "ja": "火山"
         },
         {
-          "id": "background__自然__0019",
+          "id": "background__nature__0019",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "nature",
           "ja": "自然"
         },
         {
-          "id": "background__自然__0020",
+          "id": "background__nature__0020",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "plain",
           "ja": "無地"
         },
         {
-          "id": "background__自然__0021",
+          "id": "background__nature__0021",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "savannah",
           "ja": "サバンナ"
         },
         {
-          "id": "background__自然__0022",
+          "id": "background__nature__0022",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "wetland",
           "ja": "湿地"
         },
         {
-          "id": "background__自然__0023",
+          "id": "background__nature__0023",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "water",
           "ja": "水"
         },
         {
-          "id": "background__自然__0024",
+          "id": "background__nature__0024",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "geyser",
           "ja": "間欠泉"
         },
         {
-          "id": "background__自然__0025",
+          "id": "background__nature__0025",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "lake",
           "ja": "湖"
         },
         {
-          "id": "background__自然__0026",
+          "id": "background__nature__0026",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "ocean",
           "ja": "海"
         },
         {
-          "id": "background__自然__0027",
+          "id": "background__nature__0027",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "seafloor",
           "ja": "海底"
         },
         {
-          "id": "background__自然__0028",
+          "id": "background__nature__0028",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "pond",
           "ja": "池"
         },
         {
-          "id": "background__自然__0029",
+          "id": "background__nature__0029",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "river",
           "ja": "川"
         },
         {
-          "id": "background__自然__0030",
+          "id": "background__nature__0030",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "stream",
           "ja": "ストリーム"
         },
         {
-          "id": "background__自然__0031",
+          "id": "background__nature__0031",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "waterfall",
           "ja": "滝"
         },
         {
-          "id": "background__自然__0032",
+          "id": "background__nature__0032",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "wasteland",
           "ja": "荒れ地"
         },
         {
-          "id": "background__自然__0033",
+          "id": "background__nature__0033",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "field",
           "ja": "分野"
         },
         {
-          "id": "background__自然__0034",
+          "id": "background__nature__0034",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "flower field",
           "ja": "花畑"
         },
         {
-          "id": "background__自然__0035",
+          "id": "background__nature__0035",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
           ],
+          "sectionPath": [
+            "nature"
+          ],
           "en": "rice paddy",
           "ja": "田んぼ"
         },
         {
-          "id": "background__自然__0036",
+          "id": "background__nature__0036",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "自然"
+          ],
+          "sectionPath": [
+            "nature"
           ],
           "en": "wheat field",
           "ja": "小麦畑"
@@ -794,519 +1031,675 @@
       ]
     },
     {
-      "id": "都市",
+      "id": "urban",
       "name": "都市",
       "path": [
         "都市"
       ],
+      "sectionPath": [
+        "urban"
+      ],
       "tagCount": 51,
       "tags": [
         {
-          "id": "background__都市__0001",
+          "id": "background__urban__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "park",
           "ja": "公園"
         },
         {
-          "id": "background__都市__0002",
+          "id": "background__urban__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "playground",
           "ja": "遊び場"
         },
         {
-          "id": "background__都市__0003",
+          "id": "background__urban__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "parking lot",
           "ja": "駐車場"
         },
         {
-          "id": "background__都市__0004",
+          "id": "background__urban__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "airfield",
           "ja": "飛行場"
         },
         {
-          "id": "background__都市__0005",
+          "id": "background__urban__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "runway",
           "ja": "滑走路"
         },
         {
-          "id": "background__都市__0006",
+          "id": "background__urban__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "amusement park",
           "ja": "遊園地"
         },
         {
-          "id": "background__都市__0007",
+          "id": "background__urban__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "carousel",
           "ja": "カルーセル"
         },
         {
-          "id": "background__都市__0008",
+          "id": "background__urban__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "ferris wheel",
           "ja": "観覧車"
         },
         {
-          "id": "background__都市__0009",
+          "id": "background__urban__0009",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "roller coaster",
           "ja": "ジェットコースター"
         },
         {
-          "id": "background__都市__0010",
+          "id": "background__urban__0010",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "aqueduct",
           "ja": "水道橋"
         },
         {
-          "id": "background__都市__0011",
+          "id": "background__urban__0011",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "bridge",
           "ja": "橋"
         },
         {
-          "id": "background__都市__0012",
+          "id": "background__urban__0012",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "rope bridge",
           "ja": "ロープ橋"
         },
         {
-          "id": "background__都市__0013",
+          "id": "background__urban__0013",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "wooden bridge",
           "ja": "木製の橋"
         },
         {
-          "id": "background__都市__0014",
+          "id": "background__urban__0014",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "canal",
           "ja": "運河"
         },
         {
-          "id": "background__都市__0015",
+          "id": "background__urban__0015",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "city",
           "ja": "市"
         },
         {
-          "id": "background__都市__0016",
+          "id": "background__urban__0016",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "floating city",
           "ja": "水上都市"
         },
         {
-          "id": "background__都市__0017",
+          "id": "background__urban__0017",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "rural",
           "ja": "田舎"
         },
         {
-          "id": "background__都市__0018",
+          "id": "background__urban__0018",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "town",
           "ja": "町"
         },
         {
-          "id": "background__都市__0019",
+          "id": "background__urban__0019",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "village",
           "ja": "村"
         },
         {
-          "id": "background__都市__0020",
+          "id": "background__urban__0020",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "dam",
           "ja": "ダム"
         },
         {
-          "id": "background__都市__0021",
+          "id": "background__urban__0021",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "dock",
           "ja": "ドック"
         },
         {
-          "id": "background__都市__0022",
+          "id": "background__urban__0022",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "drydock",
           "ja": "乾ドック"
         },
         {
-          "id": "background__都市__0023",
+          "id": "background__urban__0023",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "shipyard",
           "ja": "造船所"
         },
         {
-          "id": "background__都市__0024",
+          "id": "background__urban__0024",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "garden",
           "ja": "庭"
         },
         {
-          "id": "background__都市__0025",
+          "id": "background__urban__0025",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "graveyard",
           "ja": "墓地"
         },
         {
-          "id": "background__都市__0026",
+          "id": "background__urban__0026",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "jetty",
           "ja": "桟橋"
         },
         {
-          "id": "background__都市__0027",
+          "id": "background__urban__0027",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "fountain",
           "ja": "噴水"
         },
         {
-          "id": "background__都市__0028",
+          "id": "background__urban__0028",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "harbor",
           "ja": "港"
         },
         {
-          "id": "background__都市__0029",
+          "id": "background__urban__0029",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "market",
           "ja": "市場"
         },
         {
-          "id": "background__都市__0030",
+          "id": "background__urban__0030",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "market stall",
           "ja": "市場の屋台"
         },
         {
-          "id": "background__都市__0031",
+          "id": "background__urban__0031",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "pier",
           "ja": "桟橋"
         },
         {
-          "id": "background__都市__0032",
+          "id": "background__urban__0032",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "phone booth",
           "ja": "電話ボックス"
         },
         {
-          "id": "background__都市__0033",
+          "id": "background__urban__0033",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "poolside",
           "ja": "プールサイド"
         },
         {
-          "id": "background__都市__0034",
+          "id": "background__urban__0034",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "waterpark",
           "ja": "ウォーターパーク"
         },
         {
-          "id": "background__都市__0035",
+          "id": "background__urban__0035",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "railroad tracks",
           "ja": "鉄道の線路"
         },
         {
-          "id": "background__都市__0036",
+          "id": "background__urban__0036",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "railroad crossing",
           "ja": "踏み切り"
         },
         {
-          "id": "background__都市__0037",
+          "id": "background__urban__0037",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "road",
           "ja": "道"
         },
         {
-          "id": "background__都市__0038",
+          "id": "background__urban__0038",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "alley",
           "ja": "路地"
         },
         {
-          "id": "background__都市__0039",
+          "id": "background__urban__0039",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "crosswalk",
           "ja": "横断歩道"
         },
         {
-          "id": "background__都市__0040",
+          "id": "background__urban__0040",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "dirt road",
           "ja": "未舗装道路"
         },
         {
-          "id": "background__都市__0041",
+          "id": "background__urban__0041",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "highway",
           "ja": "高速道路"
         },
         {
-          "id": "background__都市__0042",
+          "id": "background__urban__0042",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "path",
           "ja": "パス"
         },
         {
-          "id": "background__都市__0043",
+          "id": "background__urban__0043",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "sidewalk",
           "ja": "歩道"
         },
         {
-          "id": "background__都市__0044",
+          "id": "background__urban__0044",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "stone walkway",
           "ja": "石畳の歩道"
         },
         {
-          "id": "background__都市__0045",
+          "id": "background__urban__0045",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "street",
           "ja": "通り"
         },
         {
-          "id": "background__都市__0046",
+          "id": "background__urban__0046",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "soccer field",
           "ja": "サッカー場"
         },
         {
-          "id": "background__都市__0047",
+          "id": "background__urban__0047",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "running track",
           "ja": "ランニングトラック"
         },
         {
-          "id": "background__都市__0048",
+          "id": "background__urban__0048",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "trench",
           "ja": "溝"
         },
         {
-          "id": "background__都市__0049",
+          "id": "background__urban__0049",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "tunnel",
           "ja": "トンネル"
         },
         {
-          "id": "background__都市__0050",
+          "id": "background__urban__0050",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
           ],
+          "sectionPath": [
+            "urban"
+          ],
           "en": "well",
           "ja": "良い"
         },
         {
-          "id": "background__都市__0051",
+          "id": "background__urban__0051",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "都市"
+          ],
+          "sectionPath": [
+            "urban"
           ],
           "en": "zoo",
           "ja": "動物園"
@@ -1314,69 +1707,90 @@
       ]
     },
     {
-      "id": "住宅",
+      "id": "residential",
       "name": "住宅",
       "path": [
         "住宅"
       ],
+      "sectionPath": [
+        "residential"
+      ],
       "tagCount": 6,
       "tags": [
         {
-          "id": "background__住宅__0001",
+          "id": "background__residential__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "住宅"
+          ],
+          "sectionPath": [
+            "residential"
           ],
           "en": "apartment",
           "ja": "アパート"
         },
         {
-          "id": "background__住宅__0002",
+          "id": "background__residential__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "住宅"
+          ],
+          "sectionPath": [
+            "residential"
           ],
           "en": "house",
           "ja": "家"
         },
         {
-          "id": "background__住宅__0003",
+          "id": "background__residential__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "住宅"
+          ],
+          "sectionPath": [
+            "residential"
           ],
           "en": "hut",
           "ja": "小屋"
         },
         {
-          "id": "background__住宅__0004",
+          "id": "background__residential__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "住宅"
+          ],
+          "sectionPath": [
+            "residential"
           ],
           "en": "shack",
           "ja": "小屋"
         },
         {
-          "id": "background__住宅__0005",
+          "id": "background__residential__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "住宅"
           ],
+          "sectionPath": [
+            "residential"
+          ],
           "en": "stilt house",
           "ja": "高床式住宅"
         },
         {
-          "id": "background__住宅__0006",
+          "id": "background__residential__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "住宅"
+          ],
+          "sectionPath": [
+            "residential"
           ],
           "en": "treehouse",
           "ja": "ツリーハウス"
@@ -1384,699 +1798,909 @@
       ]
     },
     {
-      "id": "公共-商業施設",
+      "id": "public-commercial-facilities",
       "name": "公共・商業施設",
       "path": [
         "公共・商業施設"
       ],
+      "sectionPath": [
+        "public-commercial-facilities"
+      ],
       "tagCount": 69,
       "tags": [
         {
-          "id": "background__公共-商業施設__0001",
+          "id": "background__public-commercial-facilities__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "airport",
           "ja": "空港"
         },
         {
-          "id": "background__公共-商業施設__0002",
+          "id": "background__public-commercial-facilities__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "control tower",
           "ja": "管制塔"
         },
         {
-          "id": "background__公共-商業施設__0003",
+          "id": "background__public-commercial-facilities__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "hangar",
           "ja": "ハンガー"
         },
         {
-          "id": "background__公共-商業施設__0004",
+          "id": "background__public-commercial-facilities__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "aquarium",
           "ja": "水族館"
         },
         {
-          "id": "background__公共-商業施設__0005",
+          "id": "background__public-commercial-facilities__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "arcade",
           "ja": "アーケード"
         },
         {
-          "id": "background__公共-商業施設__0006",
+          "id": "background__public-commercial-facilities__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "bar",
           "ja": "バー"
         },
         {
-          "id": "background__公共-商業施設__0007",
+          "id": "background__public-commercial-facilities__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "izakaya",
           "ja": "居酒屋"
         },
         {
-          "id": "background__公共-商業施設__0008",
+          "id": "background__public-commercial-facilities__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "tavern",
           "ja": "居酒屋"
         },
         {
-          "id": "background__公共-商業施設__0009",
+          "id": "background__public-commercial-facilities__0009",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "barn",
           "ja": "納屋"
         },
         {
-          "id": "background__公共-商業施設__0010",
+          "id": "background__public-commercial-facilities__0010",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "bunker",
           "ja": "バンカー"
         },
         {
-          "id": "background__公共-商業施設__0011",
+          "id": "background__public-commercial-facilities__0011",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "bus stop",
           "ja": "バス停"
         },
         {
-          "id": "background__公共-商業施設__0012",
+          "id": "background__public-commercial-facilities__0012",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "bowling alley",
           "ja": "ボウリング場"
         },
         {
-          "id": "background__公共-商業施設__0013",
+          "id": "background__public-commercial-facilities__0013",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "cafe",
           "ja": "カフェ"
         },
         {
-          "id": "background__公共-商業施設__0014",
+          "id": "background__public-commercial-facilities__0014",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "casino",
           "ja": "カジノ"
         },
         {
-          "id": "background__公共-商業施設__0015",
+          "id": "background__public-commercial-facilities__0015",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "construction site",
           "ja": "建設現場"
         },
         {
-          "id": "background__公共-商業施設__0016",
+          "id": "background__public-commercial-facilities__0016",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "convention",
           "ja": "大会"
         },
         {
-          "id": "background__公共-商業施設__0017",
+          "id": "background__public-commercial-facilities__0017",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "garage",
           "ja": "ガレージ"
         },
         {
-          "id": "background__公共-商業施設__0018",
+          "id": "background__public-commercial-facilities__0018",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "gas station",
           "ja": "ガソリンスタンド"
         },
         {
-          "id": "background__公共-商業施設__0019",
+          "id": "background__public-commercial-facilities__0019",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "gazebo",
           "ja": "ガゼボ"
         },
         {
-          "id": "background__公共-商業施設__0020",
+          "id": "background__public-commercial-facilities__0020",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "greenhouse",
           "ja": "温室"
         },
         {
-          "id": "background__公共-商業施設__0021",
+          "id": "background__public-commercial-facilities__0021",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "hospital",
           "ja": "病院"
         },
         {
-          "id": "background__公共-商業施設__0022",
+          "id": "background__public-commercial-facilities__0022",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "hotel",
           "ja": "ホテル"
         },
         {
-          "id": "background__公共-商業施設__0023",
+          "id": "background__public-commercial-facilities__0023",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "industrial",
           "ja": "工業用"
         },
         {
-          "id": "background__公共-商業施設__0024",
+          "id": "background__public-commercial-facilities__0024",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "factory",
           "ja": "工場"
         },
         {
-          "id": "background__公共-商業施設__0025",
+          "id": "background__public-commercial-facilities__0025",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "refinery",
           "ja": "製油所"
         },
         {
-          "id": "background__公共-商業施設__0026",
+          "id": "background__public-commercial-facilities__0026",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "power plant",
           "ja": "発電所"
         },
         {
-          "id": "background__公共-商業施設__0027",
+          "id": "background__public-commercial-facilities__0027",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "nuclear powerplant",
           "ja": "原子力発電所"
         },
         {
-          "id": "background__公共-商業施設__0028",
+          "id": "background__public-commercial-facilities__0028",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "cooling tower",
           "ja": "冷却塔"
         },
         {
-          "id": "background__公共-商業施設__0029",
+          "id": "background__public-commercial-facilities__0029",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "warehouse",
           "ja": "倉庫"
         },
         {
-          "id": "background__公共-商業施設__0030",
+          "id": "background__public-commercial-facilities__0030",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "lighthouse",
           "ja": "灯台"
         },
         {
-          "id": "background__公共-商業施設__0031",
+          "id": "background__public-commercial-facilities__0031",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "mall",
           "ja": "モール"
         },
         {
-          "id": "background__公共-商業施設__0032",
+          "id": "background__public-commercial-facilities__0032",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "megastructure",
           "ja": "巨大構造物"
         },
         {
-          "id": "background__公共-商業施設__0033",
+          "id": "background__public-commercial-facilities__0033",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "space elevator",
           "ja": "宇宙エレベーター"
         },
         {
-          "id": "background__公共-商業施設__0034",
+          "id": "background__public-commercial-facilities__0034",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "military base",
           "ja": "軍事基地"
         },
         {
-          "id": "background__公共-商業施設__0035",
+          "id": "background__public-commercial-facilities__0035",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "museum",
           "ja": "博物館"
         },
         {
-          "id": "background__公共-商業施設__0036",
+          "id": "background__public-commercial-facilities__0036",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "art gallery",
           "ja": "アートギャラリー"
         },
         {
-          "id": "background__公共-商業施設__0037",
+          "id": "background__public-commercial-facilities__0037",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "nightclub",
           "ja": "ナイトクラブ"
         },
         {
-          "id": "background__公共-商業施設__0038",
+          "id": "background__public-commercial-facilities__0038",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "observatory",
           "ja": "天文台"
         },
         {
-          "id": "background__公共-商業施設__0039",
+          "id": "background__public-commercial-facilities__0039",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "onsen",
           "ja": "温泉"
         },
         {
-          "id": "background__公共-商業施設__0040",
+          "id": "background__public-commercial-facilities__0040",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "planetarium",
           "ja": "プラネタリウム"
         },
         {
-          "id": "background__公共-商業施設__0041",
+          "id": "background__public-commercial-facilities__0041",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "prison",
           "ja": "刑務所"
         },
         {
-          "id": "background__公共-商業施設__0042",
+          "id": "background__public-commercial-facilities__0042",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "restaurant",
           "ja": "レストラン"
         },
         {
-          "id": "background__公共-商業施設__0043",
+          "id": "background__public-commercial-facilities__0043",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "rooftop",
           "ja": "屋上"
         },
         {
-          "id": "background__公共-商業施設__0044",
+          "id": "background__public-commercial-facilities__0044",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "ruins",
           "ja": "遺跡"
         },
         {
-          "id": "background__公共-商業施設__0045",
+          "id": "background__public-commercial-facilities__0045",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "school",
           "ja": "学校"
         },
         {
-          "id": "background__公共-商業施設__0046",
+          "id": "background__public-commercial-facilities__0046",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "skating rink",
           "ja": "スケートリンク"
         },
         {
-          "id": "background__公共-商業施設__0047",
+          "id": "background__public-commercial-facilities__0047",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "shop",
           "ja": "店"
         },
         {
-          "id": "background__公共-商業施設__0048",
+          "id": "background__public-commercial-facilities__0048",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "bakery",
           "ja": "ベーカリー"
         },
         {
-          "id": "background__公共-商業施設__0049",
+          "id": "background__public-commercial-facilities__0049",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "bookstore",
           "ja": "書店"
         },
         {
-          "id": "background__公共-商業施設__0050",
+          "id": "background__public-commercial-facilities__0050",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "convenience store",
           "ja": "コンビニエンスストア"
         },
         {
-          "id": "background__公共-商業施設__0051",
+          "id": "background__public-commercial-facilities__0051",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "flower shop",
           "ja": "花屋"
         },
         {
-          "id": "background__公共-商業施設__0052",
+          "id": "background__public-commercial-facilities__0052",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "pharmacy",
           "ja": "薬局"
         },
         {
-          "id": "background__公共-商業施設__0053",
+          "id": "background__public-commercial-facilities__0053",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "salon",
           "ja": "サロン"
         },
         {
-          "id": "background__公共-商業施設__0054",
+          "id": "background__public-commercial-facilities__0054",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "sex shop",
           "ja": "セックスショップ"
         },
         {
-          "id": "background__公共-商業施設__0055",
+          "id": "background__public-commercial-facilities__0055",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "supermarket",
           "ja": "スーパーマーケット"
         },
         {
-          "id": "background__公共-商業施設__0056",
+          "id": "background__public-commercial-facilities__0056",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "weapon shop",
           "ja": "武器屋"
         },
         {
-          "id": "background__公共-商業施設__0057",
+          "id": "background__public-commercial-facilities__0057",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "skyscraper",
           "ja": "超高層ビル"
         },
         {
-          "id": "background__公共-商業施設__0058",
+          "id": "background__public-commercial-facilities__0058",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "stadium",
           "ja": "スタジアム"
         },
         {
-          "id": "background__公共-商業施設__0059",
+          "id": "background__public-commercial-facilities__0059",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "arena",
           "ja": "アリーナ"
         },
         {
-          "id": "background__公共-商業施設__0060",
+          "id": "background__public-commercial-facilities__0060",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "theater",
           "ja": "劇場"
         },
         {
-          "id": "background__公共-商業施設__0061",
+          "id": "background__public-commercial-facilities__0061",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "amphitheater",
           "ja": "円形劇場"
         },
         {
-          "id": "background__公共-商業施設__0062",
+          "id": "background__public-commercial-facilities__0062",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "movie theater",
           "ja": "映画館"
         },
         {
-          "id": "background__公共-商業施設__0063",
+          "id": "background__public-commercial-facilities__0063",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "tower",
           "ja": "タワー"
         },
         {
-          "id": "background__公共-商業施設__0064",
+          "id": "background__public-commercial-facilities__0064",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "bell tower",
           "ja": "鐘楼"
         },
         {
-          "id": "background__公共-商業施設__0065",
+          "id": "background__public-commercial-facilities__0065",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "clock tower",
           "ja": "時計塔"
         },
         {
-          "id": "background__公共-商業施設__0066",
+          "id": "background__public-commercial-facilities__0066",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "watchtower",
           "ja": "監視塔"
         },
         {
-          "id": "background__公共-商業施設__0067",
+          "id": "background__public-commercial-facilities__0067",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "train station",
           "ja": "駅"
         },
         {
-          "id": "background__公共-商業施設__0068",
+          "id": "background__public-commercial-facilities__0068",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
           ],
+          "sectionPath": [
+            "public-commercial-facilities"
+          ],
           "en": "windmill",
           "ja": "風車"
         },
         {
-          "id": "background__公共-商業施設__0069",
+          "id": "background__public-commercial-facilities__0069",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "公共・商業施設"
+          ],
+          "sectionPath": [
+            "public-commercial-facilities"
           ],
           "en": "buildings",
           "ja": "建物"
@@ -2084,89 +2708,116 @@
       ]
     },
     {
-      "id": "宗教-伝統施設",
+      "id": "religious-traditional-facilities",
       "name": "宗教・伝統施設",
       "path": [
         "宗教・伝統施設"
       ],
+      "sectionPath": [
+        "religious-traditional-facilities"
+      ],
       "tagCount": 8,
       "tags": [
         {
-          "id": "background__宗教-伝統施設__0001",
+          "id": "background__religious-traditional-facilities__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
+          ],
+          "sectionPath": [
+            "religious-traditional-facilities"
           ],
           "en": "castle",
           "ja": "城"
         },
         {
-          "id": "background__宗教-伝統施設__0002",
+          "id": "background__religious-traditional-facilities__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
+          ],
+          "sectionPath": [
+            "religious-traditional-facilities"
           ],
           "en": "floating castle",
           "ja": "浮かぶ城"
         },
         {
-          "id": "background__宗教-伝統施設__0003",
+          "id": "background__religious-traditional-facilities__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
+          ],
+          "sectionPath": [
+            "religious-traditional-facilities"
           ],
           "en": "church",
           "ja": "教会"
         },
         {
-          "id": "background__宗教-伝統施設__0004",
+          "id": "background__religious-traditional-facilities__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
+          ],
+          "sectionPath": [
+            "religious-traditional-facilities"
           ],
           "en": "mosque",
           "ja": "モスク"
         },
         {
-          "id": "background__宗教-伝統施設__0005",
+          "id": "background__religious-traditional-facilities__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
+          ],
+          "sectionPath": [
+            "religious-traditional-facilities"
           ],
           "en": "pagoda",
           "ja": "パゴダ"
         },
         {
-          "id": "background__宗教-伝統施設__0006",
+          "id": "background__religious-traditional-facilities__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
+          ],
+          "sectionPath": [
+            "religious-traditional-facilities"
           ],
           "en": "shrine",
           "ja": "神社"
         },
         {
-          "id": "background__宗教-伝統施設__0007",
+          "id": "background__religious-traditional-facilities__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
           ],
+          "sectionPath": [
+            "religious-traditional-facilities"
+          ],
           "en": "temple",
           "ja": "寺"
         },
         {
-          "id": "background__宗教-伝統施設__0008",
+          "id": "background__religious-traditional-facilities__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "宗教・伝統施設"
+          ],
+          "sectionPath": [
+            "religious-traditional-facilities"
           ],
           "en": "minaret",
           "ja": "ミナレット"
@@ -2174,89 +2825,116 @@
       ]
     },
     {
-      "id": "乗り物",
+      "id": "vehicles",
       "name": "乗り物",
       "path": [
         "乗り物"
       ],
+      "sectionPath": [
+        "vehicles"
+      ],
       "tagCount": 8,
       "tags": [
         {
-          "id": "background__乗り物__0001",
+          "id": "background__vehicles__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
+          ],
+          "sectionPath": [
+            "vehicles"
           ],
           "en": "vehicle interior",
           "ja": "車内"
         },
         {
-          "id": "background__乗り物__0002",
+          "id": "background__vehicles__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
+          ],
+          "sectionPath": [
+            "vehicles"
           ],
           "en": "airplane interior",
           "ja": "飛行機の内部"
         },
         {
-          "id": "background__乗り物__0003",
+          "id": "background__vehicles__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
+          ],
+          "sectionPath": [
+            "vehicles"
           ],
           "en": "bus interior",
           "ja": "バスの内装"
         },
         {
-          "id": "background__乗り物__0004",
+          "id": "background__vehicles__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
+          ],
+          "sectionPath": [
+            "vehicles"
           ],
           "en": "car interior",
           "ja": "車内"
         },
         {
-          "id": "background__乗り物__0005",
+          "id": "background__vehicles__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
+          ],
+          "sectionPath": [
+            "vehicles"
           ],
           "en": "cockpit",
           "ja": "コックピット"
         },
         {
-          "id": "background__乗り物__0006",
+          "id": "background__vehicles__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
+          ],
+          "sectionPath": [
+            "vehicles"
           ],
           "en": "spacecraft interior",
           "ja": "宇宙船内部"
         },
         {
-          "id": "background__乗り物__0007",
+          "id": "background__vehicles__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
           ],
+          "sectionPath": [
+            "vehicles"
+          ],
           "en": "tank interior",
           "ja": "タンク内部"
         },
         {
-          "id": "background__乗り物__0008",
+          "id": "background__vehicles__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "乗り物"
+          ],
+          "sectionPath": [
+            "vehicles"
           ],
           "en": "train interior",
           "ja": "電車内"
@@ -2264,89 +2942,116 @@
       ]
     },
     {
-      "id": "風景",
+      "id": "scenery",
       "name": "風景",
       "path": [
         "風景"
       ],
+      "sectionPath": [
+        "scenery"
+      ],
       "tagCount": 8,
       "tags": [
         {
-          "id": "background__風景__0001",
+          "id": "background__scenery__0001",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
+          ],
+          "sectionPath": [
+            "scenery"
           ],
           "en": "architecture",
           "ja": "建築"
         },
         {
-          "id": "background__風景__0002",
+          "id": "background__scenery__0002",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
+          ],
+          "sectionPath": [
+            "scenery"
           ],
           "en": "cityscape",
           "ja": "都市景観"
         },
         {
-          "id": "background__風景__0003",
+          "id": "background__scenery__0003",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
+          ],
+          "sectionPath": [
+            "scenery"
           ],
           "en": "landscape",
           "ja": "風景"
         },
         {
-          "id": "background__風景__0004",
+          "id": "background__scenery__0004",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
+          ],
+          "sectionPath": [
+            "scenery"
           ],
           "en": "space",
           "ja": "空間"
         },
         {
-          "id": "background__風景__0005",
+          "id": "background__scenery__0005",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
+          ],
+          "sectionPath": [
+            "scenery"
           ],
           "en": "asteroid",
           "ja": "小惑星"
         },
         {
-          "id": "background__風景__0006",
+          "id": "background__scenery__0006",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
+          ],
+          "sectionPath": [
+            "scenery"
           ],
           "en": "moon",
           "ja": "月"
         },
         {
-          "id": "background__風景__0007",
+          "id": "background__scenery__0007",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
           ],
+          "sectionPath": [
+            "scenery"
+          ],
           "en": "planet",
           "ja": "惑星"
         },
         {
-          "id": "background__風景__0008",
+          "id": "background__scenery__0008",
           "categoryId": "background",
           "categoryName": "背景",
           "path": [
             "風景"
+          ],
+          "sectionPath": [
+            "scenery"
           ],
           "en": "space station",
           "ja": "宇宙ステーション"

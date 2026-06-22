@@ -4,199 +4,259 @@
   "tagCount": 168,
   "sections": [
     {
-      "id": "テーマ",
+      "id": "themes",
       "name": "テーマ",
       "path": [
         "テーマ"
       ],
+      "sectionPath": [
+        "themes"
+      ],
       "tagCount": 19,
       "tags": [
         {
-          "id": "color__テーマ__0001",
+          "id": "color__themes__0001",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "aqua theme",
           "ja": "アクアテーマ"
         },
         {
-          "id": "color__テーマ__0002",
+          "id": "color__themes__0002",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "black theme",
           "ja": "黒のテーマ"
         },
         {
-          "id": "color__テーマ__0003",
+          "id": "color__themes__0003",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "blue theme",
           "ja": "青のテーマ"
         },
         {
-          "id": "color__テーマ__0004",
+          "id": "color__themes__0004",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "brown theme",
           "ja": "茶色のテーマ"
         },
         {
-          "id": "color__テーマ__0005",
+          "id": "color__themes__0005",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "green theme",
           "ja": "緑のテーマ"
         },
         {
-          "id": "color__テーマ__0006",
+          "id": "color__themes__0006",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "grey theme",
           "ja": "グレーテーマ"
         },
         {
-          "id": "color__テーマ__0007",
+          "id": "color__themes__0007",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "orange theme",
           "ja": "オレンジテーマ"
         },
         {
-          "id": "color__テーマ__0008",
+          "id": "color__themes__0008",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "pink theme",
           "ja": "ピンクのテーマ"
         },
         {
-          "id": "color__テーマ__0009",
+          "id": "color__themes__0009",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "purple theme",
           "ja": "紫のテーマ"
         },
         {
-          "id": "color__テーマ__0010",
+          "id": "color__themes__0010",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "red theme",
           "ja": "赤のテーマ"
         },
         {
-          "id": "color__テーマ__0011",
+          "id": "color__themes__0011",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "white theme",
           "ja": "白のテーマ"
         },
         {
-          "id": "color__テーマ__0012",
+          "id": "color__themes__0012",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "yellow theme",
           "ja": "黄色のテーマ"
         },
         {
-          "id": "color__テーマ__0013",
+          "id": "color__themes__0013",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "cool colored",
           "ja": "クールな色"
         },
         {
-          "id": "color__テーマ__0014",
+          "id": "color__themes__0014",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "warm colored",
           "ja": "暖色系"
         },
         {
-          "id": "color__テーマ__0015",
+          "id": "color__themes__0015",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "colorful",
           "ja": "カラフル"
         },
         {
-          "id": "color__テーマ__0016",
+          "id": "color__themes__0016",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "analogous colors",
           "ja": "類似色"
         },
         {
-          "id": "color__テーマ__0017",
+          "id": "color__themes__0017",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "color contrast",
           "ja": "色のコントラスト"
         },
         {
-          "id": "color__テーマ__0018",
+          "id": "color__themes__0018",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
           ],
+          "sectionPath": [
+            "themes"
+          ],
           "en": "color coordination",
           "ja": "色彩調整"
         },
         {
-          "id": "color__テーマ__0019",
+          "id": "color__themes__0019",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "テーマ"
+          ],
+          "sectionPath": [
+            "themes"
           ],
           "en": "monochrome",
           "ja": "モノクロ"
@@ -204,229 +264,298 @@
       ]
     },
     {
-      "id": "効果",
+      "id": "effects",
       "name": "効果",
       "path": [
         "効果"
       ],
+      "sectionPath": [
+        "effects"
+      ],
       "tagCount": 22,
       "tags": [
         {
-          "id": "color__効果__0001",
+          "id": "color__effects__0001",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
           ],
+          "sectionPath": [
+            "effects"
+          ],
           "en": "monochrome",
           "ja": "モノクロ"
         },
         {
-          "id": "color__効果__0002",
+          "id": "color__effects__0002",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "dark",
           "ja": "暗い"
         },
         {
-          "id": "color__効果__0003",
+          "id": "color__effects__0003",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "muted color",
           "ja": "落ち着いた色"
         },
         {
-          "id": "color__効果__0004",
+          "id": "color__effects__0004",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "pale color",
           "ja": "淡い色"
         },
         {
-          "id": "color__効果__0005",
+          "id": "color__effects__0005",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "partially colored",
           "ja": "部分的に着色された"
         },
         {
-          "id": "color__効果__0006",
+          "id": "color__effects__0006",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "greyscale with colored background",
           "ja": "色付きの背景のグレースケール"
         },
         {
-          "id": "color__効果__0007",
+          "id": "color__effects__0007",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "spot color",
           "ja": "スポットカラー"
         },
         {
-          "id": "color__効果__0008",
+          "id": "color__effects__0008",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "high contrast",
           "ja": "高コントラスト"
         },
         {
-          "id": "color__効果__0009",
+          "id": "color__effects__0009",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "sepia",
           "ja": "セピア"
         },
         {
-          "id": "color__効果__0010",
+          "id": "color__effects__0010",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "limited palette",
           "ja": "限られたパレット"
         },
         {
-          "id": "color__効果__0011",
+          "id": "color__effects__0011",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "multiple monochrome",
           "ja": "複数のモノクロ"
         },
         {
-          "id": "color__効果__0012",
+          "id": "color__effects__0012",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "pastel colors",
           "ja": "パステルカラー"
         },
         {
-          "id": "color__効果__0013",
+          "id": "color__effects__0013",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "inverted colors",
           "ja": "反転した色"
         },
         {
-          "id": "color__効果__0014",
+          "id": "color__effects__0014",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "neon palette",
           "ja": "ネオンパレット"
         },
         {
-          "id": "color__効果__0015",
+          "id": "color__effects__0015",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "double exposure",
           "ja": "二重曝露"
         },
         {
-          "id": "color__効果__0016",
+          "id": "color__effects__0016",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "vignetting",
           "ja": "ケラレ"
         },
         {
-          "id": "color__効果__0017",
+          "id": "color__effects__0017",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "cool colored",
           "ja": "クールな色"
         },
         {
-          "id": "color__効果__0018",
+          "id": "color__effects__0018",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "warm colored",
           "ja": "暖色系"
         },
         {
-          "id": "color__効果__0019",
+          "id": "color__effects__0019",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "colorful",
           "ja": "カラフル"
         },
         {
-          "id": "color__効果__0020",
+          "id": "color__effects__0020",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "analogous colors",
           "ja": "類似色"
         },
         {
-          "id": "color__効果__0021",
+          "id": "color__effects__0021",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
           ],
+          "sectionPath": [
+            "effects"
+          ],
           "en": "color contrast",
           "ja": "色のコントラスト"
         },
         {
-          "id": "color__効果__0022",
+          "id": "color__effects__0022",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "効果"
+          ],
+          "sectionPath": [
+            "effects"
           ],
           "en": "color coordination",
           "ja": "色彩調整"
@@ -434,489 +563,636 @@
       ]
     },
     {
-      "id": "ハ-ターン",
+      "id": "patterns",
       "name": "パターン",
       "path": [
         "パターン"
       ],
+      "sectionPath": [
+        "patterns"
+      ],
       "tagCount": 48,
       "tags": [
         {
-          "id": "color__ハ-ターン__0001",
+          "id": "color__patterns__0001",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "argyle",
           "ja": "アーガイル"
         },
         {
-          "id": "color__ハ-ターン__0002",
+          "id": "color__patterns__0002",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "asa no ha",
           "ja": "朝の葉"
         },
         {
-          "id": "color__ハ-ターン__0003",
+          "id": "color__patterns__0003",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "camouflage",
           "ja": "迷彩"
         },
         {
-          "id": "color__ハ-ターン__0004",
+          "id": "color__patterns__0004",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "checkered",
           "ja": "市松"
         },
         {
-          "id": "color__ハ-ターン__0005",
+          "id": "color__patterns__0005",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "honeycomb",
           "ja": "ハニカム"
         },
         {
-          "id": "color__ハ-ターン__0006",
+          "id": "color__patterns__0006",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "houndstooth",
           "ja": "千鳥格子"
         },
         {
-          "id": "color__ハ-ターン__0007",
+          "id": "color__patterns__0007",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "pinstripe pattern",
           "ja": "ピンストライプ柄"
         },
         {
-          "id": "color__ハ-ターン__0008",
+          "id": "color__patterns__0008",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "plaid",
           "ja": "チェック柄"
         },
         {
-          "id": "color__ハ-ターン__0009",
+          "id": "color__patterns__0009",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "gingham",
           "ja": "ギンガム"
         },
         {
-          "id": "color__ハ-ターン__0010",
+          "id": "color__patterns__0010",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "polka dot",
           "ja": "水玉模様"
         },
         {
-          "id": "color__ハ-ターン__0011",
+          "id": "color__patterns__0011",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "sayagata",
           "ja": "サヤガタ"
         },
         {
-          "id": "color__ハ-ターン__0012",
+          "id": "color__patterns__0012",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "seigaiha",
           "ja": "青海波"
         },
         {
-          "id": "color__ハ-ターン__0013",
+          "id": "color__patterns__0013",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "striped",
           "ja": "縞模様"
         },
         {
-          "id": "color__ハ-ターン__0014",
+          "id": "color__patterns__0014",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "diagonal stripes",
           "ja": "斜めのストライプ"
         },
         {
-          "id": "color__ハ-ターン__0015",
+          "id": "color__patterns__0015",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "horizontal stripes",
           "ja": "横縞"
         },
         {
-          "id": "color__ハ-ターン__0016",
+          "id": "color__patterns__0016",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "vertical stripes",
           "ja": "縦縞"
         },
         {
-          "id": "color__ハ-ターン__0017",
+          "id": "color__patterns__0017",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "colored stripes",
           "ja": "色のストライプ"
         },
         {
-          "id": "color__ハ-ターン__0018",
+          "id": "color__patterns__0018",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "multicolored stripes",
           "ja": "多色のストライプ"
         },
         {
-          "id": "color__ハ-ターン__0019",
+          "id": "color__patterns__0019",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "tiger stripes",
           "ja": "トラの縞模様"
         },
         {
-          "id": "color__ハ-ターン__0020",
+          "id": "color__patterns__0020",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "double vertical stripe",
           "ja": "二重縦縞"
         },
         {
-          "id": "color__ハ-ターン__0021",
+          "id": "color__patterns__0021",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "invasion stripes",
           "ja": "侵略ストライプ"
         },
         {
-          "id": "color__ハ-ターン__0022",
+          "id": "color__patterns__0022",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "yagasuri",
           "ja": "矢絣"
         },
         {
-          "id": "color__ハ-ターン__0023",
+          "id": "color__patterns__0023",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "asa no ha (pattern)",
           "ja": "朝の葉"
         },
         {
-          "id": "color__ハ-ターン__0024",
+          "id": "color__patterns__0024",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "egasumi",
           "ja": "えがすみ"
         },
         {
-          "id": "color__ハ-ターン__0025",
+          "id": "color__patterns__0025",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "genjiguruma",
           "ja": "源氏車"
         },
         {
-          "id": "color__ハ-ターン__0026",
+          "id": "color__patterns__0026",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "goshoguruma",
           "ja": "御所車"
         },
         {
-          "id": "color__ハ-ターン__0027",
+          "id": "color__patterns__0027",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "igeta (pattern)",
           "ja": "井桁（いげた）"
         },
         {
-          "id": "color__ハ-ターン__0028",
+          "id": "color__patterns__0028",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "kagome (pattern)",
           "ja": "籠目（かごめ）"
         },
         {
-          "id": "color__ハ-ターン__0029",
+          "id": "color__patterns__0029",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "kanoko (pattern)",
           "ja": "鹿の子（柄）"
         },
         {
-          "id": "color__ハ-ターン__0030",
+          "id": "color__patterns__0030",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "karakusa (pattern)",
           "ja": "唐草（文様）"
         },
         {
-          "id": "color__ハ-ターン__0031",
+          "id": "color__patterns__0031",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "kikumon",
           "ja": "菊門"
         },
         {
-          "id": "color__ハ-ターン__0032",
+          "id": "color__patterns__0032",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "kikkoumon",
           "ja": "亀甲門"
         },
         {
-          "id": "color__ハ-ターン__0033",
+          "id": "color__patterns__0033",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "kojitsunagi (pattern)",
           "ja": "柄つなぎ（こうじつなぎ）"
         },
         {
-          "id": "color__ハ-ターン__0034",
+          "id": "color__patterns__0034",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "matsu symbol",
           "ja": "松のシンボル"
         },
         {
-          "id": "color__ハ-ターン__0035",
+          "id": "color__patterns__0035",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "sakuramon",
           "ja": "桜門"
         },
         {
-          "id": "color__ハ-ターン__0036",
+          "id": "color__patterns__0036",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "shima (pattern)",
           "ja": "縞（模様）"
         },
         {
-          "id": "color__ハ-ターン__0037",
+          "id": "color__patterns__0037",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "shippou (pattern)",
           "ja": "七宝（しっぽう）"
         },
         {
-          "id": "color__ハ-ターン__0038",
+          "id": "color__patterns__0038",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "uchiwa",
           "ja": "団扇"
         },
         {
-          "id": "color__ハ-ターン__0039",
+          "id": "color__patterns__0039",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "uroko (pattern)",
           "ja": "ウロコ（模様）"
         },
         {
-          "id": "color__ハ-ターン__0040",
+          "id": "color__patterns__0040",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "tatewaku",
           "ja": "たてわく"
         },
         {
-          "id": "color__ハ-ターン__0041",
+          "id": "color__patterns__0041",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "shark print",
           "ja": "サメのプリント"
         },
         {
-          "id": "color__ハ-ターン__0042",
+          "id": "color__patterns__0042",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "cross print",
           "ja": "クロスプリント"
         },
         {
-          "id": "color__ハ-ターン__0043",
+          "id": "color__patterns__0043",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "double happiness",
           "ja": "二重の幸せ"
         },
         {
-          "id": "color__ハ-ターン__0044",
+          "id": "color__patterns__0044",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "fleur-de-lis",
           "ja": "フルール・ド・リス"
         },
         {
-          "id": "color__ハ-ターン__0045",
+          "id": "color__patterns__0045",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "flower of life",
           "ja": "生命の花"
         },
         {
-          "id": "color__ハ-ターン__0046",
+          "id": "color__patterns__0046",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "meandros",
           "ja": "メアンドロス"
         },
         {
-          "id": "color__ハ-ターン__0047",
+          "id": "color__patterns__0047",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
           ],
+          "sectionPath": [
+            "patterns"
+          ],
           "en": "paisley",
           "ja": "ペイズリー"
         },
         {
-          "id": "color__ハ-ターン__0048",
+          "id": "color__patterns__0048",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "パターン"
+          ],
+          "sectionPath": [
+            "patterns"
           ],
           "en": "xiangyun",
           "ja": "翔雲"
@@ -924,799 +1200,1039 @@
       ]
     },
     {
-      "id": "フ-リント",
+      "id": "prints",
       "name": "プリント",
       "path": [
         "プリント"
       ],
+      "sectionPath": [
+        "prints"
+      ],
       "tagCount": 79,
       "tags": [
         {
-          "id": "color__フ-リント__0001",
+          "id": "color__prints__0001",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "animal print",
           "ja": "アニマルプリント"
         },
         {
-          "id": "color__フ-リント__0002",
+          "id": "color__prints__0002",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "bat print",
           "ja": "コウモリの足跡"
         },
         {
-          "id": "color__フ-リント__0003",
+          "id": "color__prints__0003",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "bear print",
           "ja": "クマのプリント"
         },
         {
-          "id": "color__フ-リント__0004",
+          "id": "color__prints__0004",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "bird print",
           "ja": "鳥のプリント"
         },
         {
-          "id": "color__フ-リント__0005",
+          "id": "color__prints__0005",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "cow print",
           "ja": "牛柄"
         },
         {
-          "id": "color__フ-リント__0006",
+          "id": "color__prints__0006",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "leopard print",
           "ja": "ヒョウ柄"
         },
         {
-          "id": "color__フ-リント__0007",
+          "id": "color__prints__0007",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "tiger print",
           "ja": "虎柄"
         },
         {
-          "id": "color__フ-リント__0008",
+          "id": "color__prints__0008",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "snake print",
           "ja": "蛇紋岩"
         },
         {
-          "id": "color__フ-リント__0009",
+          "id": "color__prints__0009",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "zebra print",
           "ja": "ゼブラ柄"
         },
         {
-          "id": "color__フ-リント__0010",
+          "id": "color__prints__0010",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "fireworks print",
           "ja": "花火プリント"
         },
         {
-          "id": "color__フ-リント__0011",
+          "id": "color__prints__0011",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "flag print",
           "ja": "旗のプリント"
         },
         {
-          "id": "color__フ-リント__0012",
+          "id": "color__prints__0012",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "floral print",
           "ja": "花柄"
         },
         {
-          "id": "color__フ-リント__0013",
+          "id": "color__prints__0013",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "cherry blossom print",
           "ja": "桜のプリント"
         },
         {
-          "id": "color__フ-リント__0014",
+          "id": "color__prints__0014",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "food print",
           "ja": "食品プリント"
         },
         {
-          "id": "color__フ-リント__0015",
+          "id": "color__prints__0015",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "game controller print",
           "ja": "ゲームコントローラーの印刷"
         },
         {
-          "id": "color__フ-リント__0016",
+          "id": "color__prints__0016",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "grid print",
           "ja": "グリッドプリント"
         },
         {
-          "id": "color__フ-リント__0017",
+          "id": "color__prints__0017",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "moon print",
           "ja": "月のプリント"
         },
         {
-          "id": "color__フ-リント__0018",
+          "id": "color__prints__0018",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "crescent print",
           "ja": "三日月柄"
         },
         {
-          "id": "color__フ-リント__0019",
+          "id": "color__prints__0019",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "handprint",
           "ja": "手形"
         },
         {
-          "id": "color__フ-リント__0020",
+          "id": "color__prints__0020",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "leaf print",
           "ja": "葉っぱのプリント"
         },
         {
-          "id": "color__フ-リント__0021",
+          "id": "color__prints__0021",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "musical note print",
           "ja": "音符プリント"
         },
         {
-          "id": "color__フ-リント__0022",
+          "id": "color__prints__0022",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "piano print",
           "ja": "ピアノプリント"
         },
         {
-          "id": "color__フ-リント__0023",
+          "id": "color__prints__0023",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "watermelon print",
           "ja": "スイカプリント"
         },
         {
-          "id": "color__フ-リント__0024",
+          "id": "color__prints__0024",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print ascot",
           "ja": "プリントアスコット"
         },
         {
-          "id": "color__フ-リント__0025",
+          "id": "color__prints__0025",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print boots",
           "ja": "プリントブーツ"
         },
         {
-          "id": "color__フ-リント__0026",
+          "id": "color__prints__0026",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print bow",
           "ja": "プリントリボン"
         },
         {
-          "id": "color__フ-リント__0027",
+          "id": "color__prints__0027",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print bowtie",
           "ja": "プリント蝶ネクタイ"
         },
         {
-          "id": "color__フ-リント__0028",
+          "id": "color__prints__0028",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print eyepatch",
           "ja": "プリント眼帯"
         },
         {
-          "id": "color__フ-リント__0029",
+          "id": "color__prints__0029",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print gloves",
           "ja": "プリント手袋"
         },
         {
-          "id": "color__フ-リント__0030",
+          "id": "color__prints__0030",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print hakama",
           "ja": "プリントの袴"
         },
         {
-          "id": "color__フ-リント__0031",
+          "id": "color__prints__0031",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print headwear",
           "ja": "プリントヘッドウェア"
         },
         {
-          "id": "color__フ-リント__0032",
+          "id": "color__prints__0032",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print kimono",
           "ja": "プリント着物"
         },
         {
-          "id": "color__フ-リント__0033",
+          "id": "color__prints__0033",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print leggings",
           "ja": "プリントレギンス"
         },
         {
-          "id": "color__フ-リント__0034",
+          "id": "color__prints__0034",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print necktie",
           "ja": "プリントネクタイ"
         },
         {
-          "id": "color__フ-リント__0035",
+          "id": "color__prints__0035",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print neckerchief",
           "ja": "プリントネッカチーフ"
         },
         {
-          "id": "color__フ-リント__0036",
+          "id": "color__prints__0036",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print panties",
           "ja": "プリントパンティー"
         },
         {
-          "id": "color__フ-リント__0037",
+          "id": "color__prints__0037",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print pantyhose",
           "ja": "プリントパンスト"
         },
         {
-          "id": "color__フ-リント__0038",
+          "id": "color__prints__0038",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print ribbon",
           "ja": "プリントリボン"
         },
         {
-          "id": "color__フ-リント__0039",
+          "id": "color__prints__0039",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print sandals",
           "ja": "プリントサンダル"
         },
         {
-          "id": "color__フ-リント__0040",
+          "id": "color__prints__0040",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print shirt",
           "ja": "プリントシャツ"
         },
         {
-          "id": "color__フ-リント__0041",
+          "id": "color__prints__0041",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print shoes",
           "ja": "プリントシューズ"
         },
         {
-          "id": "color__フ-リント__0042",
+          "id": "color__prints__0042",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print shorts",
           "ja": "プリントショーツ"
         },
         {
-          "id": "color__フ-リント__0043",
+          "id": "color__prints__0043",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print slippers",
           "ja": "プリントスリッパ"
         },
         {
-          "id": "color__フ-リント__0044",
+          "id": "color__prints__0044",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print socks",
           "ja": "プリントソックス"
         },
         {
-          "id": "color__フ-リント__0045",
+          "id": "color__prints__0045",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print swimsuit",
           "ja": "プリント水着"
         },
         {
-          "id": "color__フ-リント__0046",
+          "id": "color__prints__0046",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print bikini",
           "ja": "プリントビキニ"
         },
         {
-          "id": "color__フ-リント__0047",
+          "id": "color__prints__0047",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print thighhighs",
           "ja": "プリントサイハイソックス"
         },
         {
-          "id": "color__フ-リント__0048",
+          "id": "color__prints__0048",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "print umbrella",
           "ja": "プリント傘"
         },
         {
-          "id": "color__フ-リント__0049",
+          "id": "color__prints__0049",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "butterfly print",
           "ja": "蝶のプリント"
         },
         {
-          "id": "color__フ-リント__0050",
+          "id": "color__prints__0050",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "bone print",
           "ja": "骨の跡"
         },
         {
-          "id": "color__フ-リント__0051",
+          "id": "color__prints__0051",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "clover print",
           "ja": "クローバープリント"
         },
         {
-          "id": "color__フ-リント__0052",
+          "id": "color__prints__0052",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "rose print",
           "ja": "バラのプリント"
         },
         {
-          "id": "color__フ-リント__0053",
+          "id": "color__prints__0053",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "camellia print",
           "ja": "椿のプリント"
         },
         {
-          "id": "color__フ-リント__0054",
+          "id": "color__prints__0054",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "chrysanthemum print",
           "ja": "菊のプリント"
         },
         {
-          "id": "color__フ-リント__0055",
+          "id": "color__prints__0055",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "lily print",
           "ja": "ユリ柄"
         },
         {
-          "id": "color__フ-リント__0056",
+          "id": "color__prints__0056",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "morning glory print",
           "ja": "朝顔プリント"
         },
         {
-          "id": "color__フ-リント__0057",
+          "id": "color__prints__0057",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "peony print",
           "ja": "牡丹柄"
         },
         {
-          "id": "color__フ-リント__0058",
+          "id": "color__prints__0058",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "plum blossom print",
           "ja": "梅の花のプリント"
         },
         {
-          "id": "color__フ-リント__0059",
+          "id": "color__prints__0059",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "spider lily print",
           "ja": "スパイダーリリープリント"
         },
         {
-          "id": "color__フ-リント__0060",
+          "id": "color__prints__0060",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "sunflower print",
           "ja": "ひまわりプリント"
         },
         {
-          "id": "color__フ-リント__0061",
+          "id": "color__prints__0061",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "fruit pattern",
           "ja": "フルーツ柄"
         },
         {
-          "id": "color__フ-リント__0062",
+          "id": "color__prints__0062",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "apple print",
           "ja": "リンゴのプリント"
         },
         {
-          "id": "color__フ-リント__0063",
+          "id": "color__prints__0063",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "blueberry print",
           "ja": "ブルーベリープリント"
         },
         {
-          "id": "color__フ-リント__0064",
+          "id": "color__prints__0064",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "cherry print",
           "ja": "チェリープリント"
         },
         {
-          "id": "color__フ-リント__0065",
+          "id": "color__prints__0065",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "kiwi print",
           "ja": "キウイプリント"
         },
         {
-          "id": "color__フ-リント__0066",
+          "id": "color__prints__0066",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "lemon print",
           "ja": "レモンプリント"
         },
         {
-          "id": "color__フ-リント__0067",
+          "id": "color__prints__0067",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "pineapple print",
           "ja": "パイナップルプリント"
         },
         {
-          "id": "color__フ-リント__0068",
+          "id": "color__prints__0068",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "orange print",
           "ja": "オレンジ色のプリント"
         },
         {
-          "id": "color__フ-リント__0069",
+          "id": "color__prints__0069",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "strawberry print",
           "ja": "イチゴプリント"
         },
         {
-          "id": "color__フ-リント__0070",
+          "id": "color__prints__0070",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "maple leaf print",
           "ja": "メープルリーフプリント"
         },
         {
-          "id": "color__フ-リント__0071",
+          "id": "color__prints__0071",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "paw print",
           "ja": "足跡"
         },
         {
-          "id": "color__フ-リント__0072",
+          "id": "color__prints__0072",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "petal print",
           "ja": "花びらプリント"
         },
         {
-          "id": "color__フ-リント__0073",
+          "id": "color__prints__0073",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "sparkle print",
           "ja": "スパークルプリント"
         },
         {
-          "id": "color__フ-リント__0074",
+          "id": "color__prints__0074",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "triangle print",
           "ja": "三角形のプリント"
         },
         {
-          "id": "color__フ-リント__0075",
+          "id": "color__prints__0075",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "space print",
           "ja": "宇宙プリント"
         },
         {
-          "id": "color__フ-リント__0076",
+          "id": "color__prints__0076",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "starry sky print",
           "ja": "星空プリント"
         },
         {
-          "id": "color__フ-リント__0077",
+          "id": "color__prints__0077",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "star print",
           "ja": "星柄"
         },
         {
-          "id": "color__フ-リント__0078",
+          "id": "color__prints__0078",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
           ],
+          "sectionPath": [
+            "prints"
+          ],
           "en": "wave print",
           "ja": "波模様"
         },
         {
-          "id": "color__フ-リント__0079",
+          "id": "color__prints__0079",
           "categoryId": "color",
           "categoryName": "色",
           "path": [
             "プリント"
+          ],
+          "sectionPath": [
+            "prints"
           ],
           "en": "wing print",
           "ja": "翼のプリント"

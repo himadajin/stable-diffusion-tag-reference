@@ -1,3916 +1,4072 @@
 {
   "id": "food",
   "name": "食べ物系",
-  "tree": {
-    "フルーツ": [
-      {
-        "en": "akebia fruit",
-        "ja": "アケビの実"
-      },
-      {
-        "en": "apple",
-        "ja": "りんご"
-      },
-      {
-        "en": "apple core",
-        "ja": "リンゴの芯"
-      },
-      {
-        "en": "apple peel",
-        "ja": "リンゴの皮"
-      },
-      {
-        "en": "apple rabbit",
-        "ja": "リンゴウサギ"
-      },
-      {
-        "en": "bitten apple",
-        "ja": "かじられたリンゴ"
-      },
-      {
-        "en": "candy apple",
-        "ja": "キャンディアップル"
-      },
-      {
-        "en": "golden apple",
-        "ja": "黄金のリンゴ"
-      },
-      {
-        "en": "green apple",
-        "ja": "青リンゴ"
-      },
-      {
-        "en": "yellow apple",
-        "ja": "黄色いリンゴ"
-      },
-      {
-        "en": "apricot",
-        "ja": "アプリコット"
-      },
-      {
-        "en": "avocado",
-        "ja": "アボカド"
-      },
-      {
-        "en": "banana",
-        "ja": "バナナ"
-      },
-      {
-        "en": "banana boat",
-        "ja": "バナナボート"
-      },
-      {
-        "en": "banana peel",
-        "ja": "バナナの皮"
-      },
-      {
-        "en": "banana popsicle",
-        "ja": "バナナアイスキャンディー"
-      },
-      {
-        "en": "banana slice",
-        "ja": "バナナスライス"
-      },
-      {
-        "en": "chocolate banana",
-        "ja": "チョコレートバナナ"
-      },
-      {
-        "en": "gel banana",
-        "ja": "ジェルバナナ"
-      },
-      {
-        "en": "on banana",
-        "ja": "バナナに"
-      },
-      {
-        "en": "berry",
-        "ja": "ベリー"
-      },
-      {
-        "en": "blackberry",
-        "ja": "ブラックベリー"
-      },
-      {
-        "en": "blueberry",
-        "ja": "ブルーベリー"
-      },
-      {
-        "en": "mulberry",
-        "ja": "桑"
-      },
-      {
-        "en": "pineberry",
-        "ja": "パインベリー"
-      },
-      {
-        "en": "raspberry",
-        "ja": "ラズベリー"
-      },
-      {
-        "en": "strawberry",
-        "ja": "いちご"
-      },
-      {
-        "en": "chocolate strawberry",
-        "ja": "チョコレートストロベリー"
-      },
-      {
-        "en": "strawberry slice",
-        "ja": "イチゴスライス"
-      },
-      {
-        "en": "white strawberry",
-        "ja": "白いイチゴ"
-      },
-      {
-        "en": "breadfruit",
-        "ja": "パンノキ"
-      },
-      {
-        "en": "cacao fruit",
-        "ja": "カカオの実"
-      },
-      {
-        "en": "cherry",
-        "ja": "チェリー"
-      },
-      {
-        "en": "chokecherry",
-        "ja": "チョークチェリー"
-      },
-      {
-        "en": "chinese lantern",
-        "ja": "中国のランタン"
-      },
-      {
-        "en": "custard apple",
-        "ja": "カスタードアップル"
-      },
-      {
-        "en": "dragon fruit",
-        "ja": "ドラゴンフルーツ"
-      },
-      {
-        "en": "fig",
-        "ja": "イチジク"
-      },
-      {
-        "en": "fruit bowl",
-        "ja": "フルーツボウル"
-      },
-      {
-        "en": "fruit cup",
-        "ja": "フルーツカップ"
-      },
-      {
-        "en": "gooseberry",
-        "ja": "グーズベリー"
-      },
-      {
-        "en": "grapefruit",
-        "ja": "グレープフルーツ"
-      },
-      {
-        "en": "grapes",
-        "ja": "ブドウ"
-      },
-      {
-        "en": "currant",
-        "ja": "カラント"
-      },
-      {
-        "en": "grape stomping",
-        "ja": "ブドウ踏み"
-      },
-      {
-        "en": "raisin",
-        "ja": "レーズン"
-      },
-      {
-        "en": "guava",
-        "ja": "グアバ"
-      },
-      {
-        "en": "jackfruit",
-        "ja": "ジャックフルーツ"
-      },
-      {
-        "en": "java apple",
-        "ja": "ジャバアップル"
-      },
-      {
-        "en": "kiwi",
-        "ja": "キウイ"
-      },
-      {
-        "en": "kiwi slice",
-        "ja": "キウイスライス"
-      },
-      {
-        "en": "lemon",
-        "ja": "レモン"
-      },
-      {
-        "en": "lemon slice",
-        "ja": "レモンスライス"
-      },
-      {
-        "en": "lemonade",
-        "ja": "レモネード"
-      },
-      {
-        "en": "lime",
-        "ja": "ライム"
-      },
-      {
-        "en": "lime slice",
-        "ja": "ライムスライス"
-      },
-      {
-        "en": "longan",
-        "ja": "リュウガン"
-      },
-      {
-        "en": "loquat",
-        "ja": "ビワ"
-      },
-      {
-        "en": "lychee",
-        "ja": "ライチ"
-      },
-      {
-        "en": "mango",
-        "ja": "マンゴー"
-      },
-      {
-        "en": "mangosteen",
-        "ja": "マンゴスチン"
-      },
-      {
-        "en": "melon",
-        "ja": "メロン"
-      },
-      {
-        "en": "cantaloupe",
-        "ja": "カンタロープ"
-      },
-      {
-        "en": "yuubari king melon",
-        "ja": "夕張キングメロン"
-      },
-      {
-        "en": "galia melon",
-        "ja": "ガリアメロン"
-      },
-      {
-        "en": "honeydew",
-        "ja": "甘露"
-      },
-      {
-        "en": "horned melon",
-        "ja": "角メロン"
-      },
-      {
-        "en": "watermelon",
-        "ja": "スイカ"
-      },
-      {
-        "en": "cectarine",
-        "ja": "セクタリン"
-      },
-      {
-        "en": "olive",
-        "ja": "オリーブ"
-      },
-      {
-        "en": "orange",
-        "ja": "オレンジ"
-      },
-      {
-        "en": "dekopon",
-        "ja": "デコポン"
-      },
-      {
-        "en": "mandarin orange",
-        "ja": "マンダリンオレンジ"
-      },
-      {
-        "en": "orangette",
-        "ja": "オランジェット"
-      },
-      {
-        "en": "orange juice",
-        "ja": "オレンジジュース"
-      },
-      {
-        "en": "orange slice",
-        "ja": "オレンジスライス"
-      },
-      {
-        "en": "papaya",
-        "ja": "パパイヤ"
-      },
-      {
-        "en": "passion fruit",
-        "ja": "パッションフルーツ"
-      },
-      {
-        "en": "peach",
-        "ja": "桃"
-      },
-      {
-        "en": "peach slice",
-        "ja": "桃のスライス"
-      },
-      {
-        "en": "pear",
-        "ja": "梨"
-      },
-      {
-        "en": "nashi pear",
-        "ja": "梨"
-      },
-      {
-        "en": "persimmon",
-        "ja": "柿"
-      },
-      {
-        "en": "pineapple",
-        "ja": "パイナップル"
-      },
-      {
-        "en": "pineapple slice",
-        "ja": "パイナップルスライス"
-      },
-      {
-        "en": "pomegranate",
-        "ja": "ザクロ"
-      },
-      {
-        "en": "rambutan",
-        "ja": "ランブータン"
-      },
-      {
-        "en": "shanzha",
-        "ja": "シャンザ"
-      },
-      {
-        "en": "snakefruit",
-        "ja": "スネークフルーツ"
-      },
-      {
-        "en": "starfruit",
-        "ja": "スターフルーツ"
-      },
-      {
-        "en": "tamarind",
-        "ja": "タマリンド"
-      }
-    ],
-    "野菜・ナッツ等": {
-      "野菜": [
-        {
-          "en": "asparagus",
-          "ja": "アスパラガス"
-        },
-        {
-          "en": "bacon-wrapped asparagus",
-          "ja": "ベーコン巻きアスパラガス"
-        },
-        {
-          "en": "beans",
-          "ja": "豆"
-        },
-        {
-          "en": "green bean",
-          "ja": "インゲン豆"
-        },
-        {
-          "en": "red bean paste",
-          "ja": "あんこ"
-        },
-        {
-          "en": "nattou",
-          "ja": "納豆"
-        },
-        {
-          "en": "bell pepper",
-          "ja": "ピーマン"
-        },
-        {
-          "en": "bell pepper plant",
-          "ja": "ピーマンの植物"
-        },
-        {
-          "en": "bell pepper slice",
-          "ja": "ピーマンのスライス"
-        },
-        {
-          "en": "green bell pepper",
-          "ja": "ピーマン"
-        },
-        {
-          "en": "orange pepper",
-          "ja": "オレンジペッパー"
-        },
-        {
-          "en": "red pepper",
-          "ja": "赤唐辛子"
-        },
-        {
-          "en": "yellow pepper",
-          "ja": "黄ピーマン"
-        },
-        {
-          "en": "bitter melon",
-          "ja": "ゴーヤ"
-        },
-        {
-          "en": "broccoli",
-          "ja": "ブロッコリー"
-        },
-        {
-          "en": "cabbage",
-          "ja": "キャベツ"
-        },
-        {
-          "en": "bok choy",
-          "ja": "チンゲン菜"
-        },
-        {
-          "en": "carrot",
-          "ja": "ニンジン"
-        },
-        {
-          "en": "carrot slice",
-          "ja": "ニンジンスライス"
-        },
-        {
-          "en": "carrot sticks",
-          "ja": "ニンジンスティック"
-        },
-        {
-          "en": "cauliflower",
-          "ja": "カリフラワー"
-        },
-        {
-          "en": "chili pepper",
-          "ja": "唐辛子"
-        },
-        {
-          "en": "habanero pepper",
-          "ja": "ハバネロ"
-        },
-        {
-          "en": "jalapeno pepper",
-          "ja": "ハラペーニョ"
-        },
-        {
-          "en": "coconut",
-          "ja": "ココナッツ"
-        },
-        {
-          "en": "corn",
-          "ja": "トウモロコシ"
-        },
-        {
-          "en": "cucumber",
-          "ja": "キュウリ"
-        },
-        {
-          "en": "pickle",
-          "ja": "ピクルス"
-        },
-        {
-          "en": "eggplant",
-          "ja": "ナス"
-        },
-        {
-          "en": "garlic",
-          "ja": "ニンニク"
-        },
-        {
-          "en": "kimchi",
-          "ja": "キムチ"
-        },
-        {
-          "en": "lettuce",
-          "ja": "レタス"
-        },
-        {
-          "en": "lotus root",
-          "ja": "レンコン"
-        },
-        {
-          "en": "mushroom",
-          "ja": "キノコ"
-        },
-        {
-          "en": "shiitake",
-          "ja": "椎茸"
-        },
-        {
-          "en": "okra",
-          "ja": "オクラ"
-        },
-        {
-          "en": "onion",
-          "ja": "タマネギ"
-        },
-        {
-          "en": "onion rings",
-          "ja": "オニオンリング"
-        },
-        {
-          "en": "peas",
-          "ja": "エンドウ豆"
-        },
-        {
-          "en": "pea pod",
-          "ja": "エンドウ豆の鞘"
-        },
-        {
-          "en": "potato",
-          "ja": "じゃがいも"
-        },
-        {
-          "en": "mashed potatoes",
-          "ja": "マッシュポテト"
-        },
-        {
-          "en": "radish",
-          "ja": "大根"
-        },
-        {
-          "en": "daikon",
-          "ja": "大根"
-        },
-        {
-          "en": "spring onion",
-          "ja": "ネギ"
-        },
-        {
-          "en": "chopped spring onion",
-          "ja": "みじん切りにしたネギ"
-        },
-        {
-          "en": "squash",
-          "ja": "カボチャ"
-        },
-        {
-          "en": "pumpkin",
-          "ja": "パンプキン"
-        },
-        {
-          "en": "jack-o'-lantern",
-          "ja": "ジャック・オー・ランタン"
-        },
-        {
-          "en": "sweet potato",
-          "ja": "サツマイモ"
-        },
-        {
-          "en": "roasted sweet potato",
-          "ja": "焼き芋"
+  "tree": [
+    {
+      "id": "fruits",
+      "name": "フルーツ",
+      "tags": [
+        {
+          "en": "akebia fruit",
+          "ja": "アケビの実"
+        },
+        {
+          "en": "apple",
+          "ja": "りんご"
+        },
+        {
+          "en": "apple core",
+          "ja": "リンゴの芯"
+        },
+        {
+          "en": "apple peel",
+          "ja": "リンゴの皮"
+        },
+        {
+          "en": "apple rabbit",
+          "ja": "リンゴウサギ"
+        },
+        {
+          "en": "bitten apple",
+          "ja": "かじられたリンゴ"
+        },
+        {
+          "en": "candy apple",
+          "ja": "キャンディアップル"
+        },
+        {
+          "en": "golden apple",
+          "ja": "黄金のリンゴ"
+        },
+        {
+          "en": "green apple",
+          "ja": "青リンゴ"
+        },
+        {
+          "en": "yellow apple",
+          "ja": "黄色いリンゴ"
+        },
+        {
+          "en": "apricot",
+          "ja": "アプリコット"
+        },
+        {
+          "en": "avocado",
+          "ja": "アボカド"
+        },
+        {
+          "en": "banana",
+          "ja": "バナナ"
+        },
+        {
+          "en": "banana boat",
+          "ja": "バナナボート"
+        },
+        {
+          "en": "banana peel",
+          "ja": "バナナの皮"
+        },
+        {
+          "en": "banana popsicle",
+          "ja": "バナナアイスキャンディー"
+        },
+        {
+          "en": "banana slice",
+          "ja": "バナナスライス"
+        },
+        {
+          "en": "chocolate banana",
+          "ja": "チョコレートバナナ"
+        },
+        {
+          "en": "gel banana",
+          "ja": "ジェルバナナ"
+        },
+        {
+          "en": "on banana",
+          "ja": "バナナに"
+        },
+        {
+          "en": "berry",
+          "ja": "ベリー"
+        },
+        {
+          "en": "blackberry",
+          "ja": "ブラックベリー"
+        },
+        {
+          "en": "blueberry",
+          "ja": "ブルーベリー"
+        },
+        {
+          "en": "mulberry",
+          "ja": "桑"
+        },
+        {
+          "en": "pineberry",
+          "ja": "パインベリー"
+        },
+        {
+          "en": "raspberry",
+          "ja": "ラズベリー"
+        },
+        {
+          "en": "strawberry",
+          "ja": "いちご"
+        },
+        {
+          "en": "chocolate strawberry",
+          "ja": "チョコレートストロベリー"
+        },
+        {
+          "en": "strawberry slice",
+          "ja": "イチゴスライス"
+        },
+        {
+          "en": "white strawberry",
+          "ja": "白いイチゴ"
+        },
+        {
+          "en": "breadfruit",
+          "ja": "パンノキ"
+        },
+        {
+          "en": "cacao fruit",
+          "ja": "カカオの実"
+        },
+        {
+          "en": "cherry",
+          "ja": "チェリー"
+        },
+        {
+          "en": "chokecherry",
+          "ja": "チョークチェリー"
+        },
+        {
+          "en": "chinese lantern",
+          "ja": "中国のランタン"
         },
         {
-          "en": "tomato",
-          "ja": "トマト"
+          "en": "custard apple",
+          "ja": "カスタードアップル"
         },
         {
-          "en": "cherry tomato",
-          "ja": "チェリートマト"
+          "en": "dragon fruit",
+          "ja": "ドラゴンフルーツ"
         },
         {
-          "en": "tomato plant",
-          "ja": "トマトの苗"
+          "en": "fig",
+          "ja": "イチジク"
         },
         {
-          "en": "turnip",
-          "ja": "カブ"
+          "en": "fruit bowl",
+          "ja": "フルーツボウル"
         },
         {
-          "en": "warabi",
-          "ja": "わらび"
-        }
-      ],
-      "ナッツ": [
+          "en": "fruit cup",
+          "ja": "フルーツカップ"
+        },
+        {
+          "en": "gooseberry",
+          "ja": "グーズベリー"
+        },
+        {
+          "en": "grapefruit",
+          "ja": "グレープフルーツ"
+        },
+        {
+          "en": "grapes",
+          "ja": "ブドウ"
+        },
+        {
+          "en": "currant",
+          "ja": "カラント"
+        },
+        {
+          "en": "grape stomping",
+          "ja": "ブドウ踏み"
+        },
+        {
+          "en": "raisin",
+          "ja": "レーズン"
+        },
+        {
+          "en": "guava",
+          "ja": "グアバ"
+        },
+        {
+          "en": "jackfruit",
+          "ja": "ジャックフルーツ"
+        },
+        {
+          "en": "java apple",
+          "ja": "ジャバアップル"
+        },
+        {
+          "en": "kiwi",
+          "ja": "キウイ"
+        },
+        {
+          "en": "kiwi slice",
+          "ja": "キウイスライス"
+        },
+        {
+          "en": "lemon",
+          "ja": "レモン"
+        },
+        {
+          "en": "lemon slice",
+          "ja": "レモンスライス"
+        },
+        {
+          "en": "lemonade",
+          "ja": "レモネード"
+        },
+        {
+          "en": "lime",
+          "ja": "ライム"
+        },
+        {
+          "en": "lime slice",
+          "ja": "ライムスライス"
+        },
+        {
+          "en": "longan",
+          "ja": "リュウガン"
+        },
         {
-          "en": "nuts",
-          "ja": "ナッツ"
+          "en": "loquat",
+          "ja": "ビワ"
         },
         {
-          "en": "almond",
-          "ja": "アーモンド"
+          "en": "lychee",
+          "ja": "ライチ"
         },
         {
-          "en": "cashew",
-          "ja": "カシュー"
+          "en": "mango",
+          "ja": "マンゴー"
         },
         {
-          "en": "chestnut",
-          "ja": "栗"
+          "en": "mangosteen",
+          "ja": "マンゴスチン"
         },
         {
-          "en": "hazelnut",
-          "ja": "ヘーゼルナッツ"
+          "en": "melon",
+          "ja": "メロン"
         },
         {
-          "en": "peanut",
-          "ja": "落花生"
+          "en": "cantaloupe",
+          "ja": "カンタロープ"
         },
         {
-          "en": "pecan",
-          "ja": "ピーカン"
+          "en": "yuubari king melon",
+          "ja": "夕張キングメロン"
         },
         {
-          "en": "pistachio",
-          "ja": "ピスタチオ"
+          "en": "galia melon",
+          "ja": "ガリアメロン"
         },
         {
-          "en": "walnut",
-          "ja": "クルミ"
-        }
-      ],
-      "海藻": [
+          "en": "honeydew",
+          "ja": "甘露"
+        },
+        {
+          "en": "horned melon",
+          "ja": "角メロン"
+        },
+        {
+          "en": "watermelon",
+          "ja": "スイカ"
+        },
+        {
+          "en": "cectarine",
+          "ja": "セクタリン"
+        },
+        {
+          "en": "olive",
+          "ja": "オリーブ"
+        },
+        {
+          "en": "orange",
+          "ja": "オレンジ"
+        },
+        {
+          "en": "dekopon",
+          "ja": "デコポン"
+        },
+        {
+          "en": "mandarin orange",
+          "ja": "マンダリンオレンジ"
+        },
+        {
+          "en": "orangette",
+          "ja": "オランジェット"
+        },
         {
-          "en": "hijiki",
-          "ja": "ひじき"
+          "en": "orange juice",
+          "ja": "オレンジジュース"
         },
         {
-          "en": "nori",
-          "ja": "海苔"
+          "en": "orange slice",
+          "ja": "オレンジスライス"
         },
         {
-          "en": "seaweed",
-          "ja": "海藻"
-        }
-      ],
-      "ハーブ": [
+          "en": "papaya",
+          "ja": "パパイヤ"
+        },
+        {
+          "en": "passion fruit",
+          "ja": "パッションフルーツ"
+        },
+        {
+          "en": "peach",
+          "ja": "桃"
+        },
+        {
+          "en": "peach slice",
+          "ja": "桃のスライス"
+        },
+        {
+          "en": "pear",
+          "ja": "梨"
+        },
         {
-          "en": "mint",
-          "ja": "ミント"
+          "en": "nashi pear",
+          "ja": "梨"
         },
         {
-          "en": "parsley",
-          "ja": "パセリ"
-        }
-      ],
-      "その他": [
+          "en": "persimmon",
+          "ja": "柿"
+        },
+        {
+          "en": "pineapple",
+          "ja": "パイナップル"
+        },
+        {
+          "en": "pineapple slice",
+          "ja": "パイナップルスライス"
+        },
+        {
+          "en": "pomegranate",
+          "ja": "ザクロ"
+        },
+        {
+          "en": "rambutan",
+          "ja": "ランブータン"
+        },
         {
-          "en": "plum",
-          "ja": "梅"
+          "en": "shanzha",
+          "ja": "シャンザ"
         },
         {
-          "en": "umeboshi",
-          "ja": "梅干し"
+          "en": "snakefruit",
+          "ja": "スネークフルーツ"
         },
         {
-          "en": "sudachi",
-          "ja": "すだち"
+          "en": "starfruit",
+          "ja": "スターフルーツ"
         },
         {
-          "en": "yuzu",
-          "ja": "柚子"
+          "en": "tamarind",
+          "ja": "タマリンド"
         }
       ]
     },
-    "肉・魚・卵": {
-      "肉": [
-        {
-          "en": "bacon",
-          "ja": "ベーコン"
-        },
-        {
-          "en": "boned meat",
-          "ja": "骨付き肉"
-        },
-        {
-          "en": "chicken",
-          "ja": "チキン"
-        },
-        {
-          "en": "chicken leg",
-          "ja": "鶏もも肉"
-        },
-        {
-          "en": "chicken nuggets",
-          "ja": "チキンナゲット"
-        },
-        {
-          "en": "fried chicken",
-          "ja": "フライドチキン"
-        },
-        {
-          "en": "yakitori",
-          "ja": "焼き鳥"
-        },
-        {
-          "en": "gyuudon",
-          "ja": "牛丼"
-        },
-        {
-          "en": "hamburger steak",
-          "ja": "ハンバーグステーキ"
-        },
-        {
-          "en": "shish kebab",
-          "ja": "シシケバブ"
-        },
-        {
-          "en": "meatball",
-          "ja": "ミートボール"
-        },
-        {
-          "en": "pork",
-          "ja": "豚肉"
-        },
-        {
-          "en": "ham",
-          "ja": "ハム"
-        },
-        {
-          "en": "raw meat",
-          "ja": "生の肉"
-        },
-        {
-          "en": "tartare",
-          "ja": "タルタル"
-        },
-        {
-          "en": "yokhoe",
-          "ja": "ヨッホエ"
-        },
-        {
-          "en": "sausage",
-          "ja": "ソーセージ"
-        },
-        {
-          "en": "pepperoni",
-          "ja": "ペパロニ"
-        },
-        {
-          "en": "doner kebab",
-          "ja": "ドネルケバブ"
-        },
-        {
-          "en": "sliced meat",
-          "ja": "スライスした肉"
-        },
-        {
-          "en": "steak",
-          "ja": "ステーキ"
-        },
-        {
-          "en": "tako-san wiener",
-          "ja": "たこさんウィンナー"
-        },
-        {
-          "en": "kani-san wiener",
-          "ja": "カニさんウィンナー"
-        },
-        {
-          "en": "turkey",
-          "ja": "七面鳥"
-        },
-        {
-          "en": "turkey leg",
-          "ja": "七面鳥の脚"
-        }
-      ],
-      "魚": [
-        {
-          "en": "crab",
-          "ja": "カニ"
-        },
-        {
-          "en": "eel",
-          "ja": "うなぎ"
-        },
-        {
-          "en": "kabayaki",
-          "ja": "かば焼き"
-        },
-        {
-          "en": "fish",
-          "ja": "魚"
-        },
-        {
-          "en": "fish skeleton",
-          "ja": "魚の骨格"
-        },
-        {
-          "en": "sashimi",
-          "ja": "刺身"
-        },
-        {
-          "en": "katsuo no tataki",
-          "ja": "かつおのたたき"
-        },
-        {
-          "en": "roe",
-          "ja": "卵"
-        },
-        {
-          "en": "caviar",
-          "ja": "キャビア"
-        },
-        {
-          "en": "ikura",
-          "ja": "イクラ"
-        },
-        {
-          "en": "kamaboko",
-          "ja": "かまぼこ"
-        },
-        {
-          "en": "lobster",
-          "ja": "ロブスター"
-        },
-        {
-          "en": "shrimp",
-          "ja": "エビ"
-        },
-        {
-          "en": "shrimp tempura",
-          "ja": "エビの天ぷら"
-        }
-      ],
-      "卵": [
-        {
-          "en": "egg",
-          "ja": "卵"
-        },
-        {
-          "en": "broken egg",
-          "ja": "割れた卵"
-        },
-        {
-          "en": "egg yolk",
-          "ja": "卵黄"
-        },
-        {
-          "en": "eggshell",
-          "ja": "卵殻"
-        },
-        {
-          "en": "eggshell hat",
-          "ja": "卵殻帽子"
-        },
-        {
-          "en": "fried egg",
-          "ja": "目玉焼き"
-        },
-        {
-          "en": "century egg",
-          "ja": "センチュリーエッグ"
-        },
-        {
-          "en": "hardboiled egg",
-          "ja": "ゆで卵"
-        },
-        {
-          "en": "softboiled egg",
-          "ja": "半熟卵"
-        },
-        {
-          "en": "omelet",
-          "ja": "オムレツ"
-        },
-        {
-          "en": "omurice",
-          "ja": "オムライス"
-        },
-        {
-          "en": "tamagoyaki",
-          "ja": "玉子焼き"
-        },
-        {
-          "en": "scrambled egg",
-          "ja": "スクランブルエッグ"
-        },
-        {
-          "en": "sliced egg",
-          "ja": "スライスした卵"
-        },
-        {
-          "en": "raw egg",
-          "ja": "生卵"
-        },
-        {
-          "en": "tamagokake gohan",
-          "ja": "卵かけご飯"
-        }
-      ]
-    },
-    "パン・米・麺等": {
-      "パン類": [
-        {
-          "en": "bread",
-          "ja": "パン"
-        },
-        {
-          "en": "bagel",
-          "ja": "ベーグル"
-        },
-        {
-          "en": "baguette",
-          "ja": "バゲット"
-        },
-        {
-          "en": "biscuit",
-          "ja": "ビスケット"
-        },
-        {
-          "en": "bread bun",
-          "ja": "パン"
-        },
-        {
-          "en": "bread crust",
-          "ja": "パンの皮"
-        },
-        {
-          "en": "bread eating race",
-          "ja": "パン食い競争"
-        },
-        {
-          "en": "bread slice",
-          "ja": "パンのスライス"
-        },
-        {
-          "en": "toast",
-          "ja": "トースト"
-        },
-        {
-          "en": "french toast",
-          "ja": "フレンチトースト"
-        },
-        {
-          "en": "pizza toast",
-          "ja": "ピザトースト"
-        },
-        {
-          "en": "croissant",
-          "ja": "クロワッサン"
-        },
-        {
-          "en": "japari bun",
-          "ja": "ジャパリパン"
-        },
-        {
-          "en": "loaf of bread",
-          "ja": "パン一斤"
-        },
-        {
-          "en": "yakisobapan",
-          "ja": "焼きそばパン"
-        },
-        {
-          "en": "scone",
-          "ja": "スコーン"
-        },
-        {
-          "en": "cracker",
-          "ja": "クラッカー"
-        }
-      ],
-      "米類": [
-        {
-          "en": "cereal",
-          "ja": "穀物"
-        },
-        {
-          "en": "arare",
-          "ja": "アラレ"
-        },
-        {
-          "en": "senbei",
-          "ja": "煎餅"
-        },
-        {
-          "en": "rice",
-          "ja": "米"
-        },
-        {
-          "en": "curry rice",
-          "ja": "カレーライス"
-        },
-        {
-          "en": "fried rice",
-          "ja": "炒飯"
-        },
-        {
-          "en": "jumeok-bap",
-          "ja": "ジュモクパプ"
-        },
-        {
-          "en": "onigiri",
-          "ja": "おにぎり"
-        },
-        {
-          "en": "rice on face",
-          "ja": "顔に米"
-        },
-        {
-          "en": "rice paddy",
-          "ja": "田んぼ"
-        },
-        {
-          "en": "rice porridge",
-          "ja": "お粥"
-        },
-        {
-          "en": "nanakusa-no-sekku",
-          "ja": "七草の節供"
-        },
-        {
-          "en": "risotto",
-          "ja": "リゾット"
-        }
-      ],
-      "麺類": [
-        {
-          "en": "noodles",
-          "ja": "麺"
-        },
-        {
-          "en": "pasta",
-          "ja": "パスタ"
-        },
-        {
-          "en": "lasagne",
-          "ja": "ラザニア"
-        },
-        {
-          "en": "spaghetti",
-          "ja": "スパゲッティ"
-        },
-        {
-          "en": "black spaghetti",
-          "ja": "黒いスパゲッティ"
-        },
-        {
-          "en": "spaghetti and meatballs",
-          "ja": "スパゲッティとミートボール"
-        },
-        {
-          "en": "ramen",
-          "ja": "ラーメン"
-        },
-        {
-          "en": "cup ramen",
-          "ja": "カップラーメン"
-        },
-        {
-          "en": "instant ramen",
-          "ja": "インスタントラーメン"
-        },
-        {
-          "en": "jirou",
-          "ja": "二郎系"
-        },
-        {
-          "en": "soba",
-          "ja": "そば"
-        },
-        {
-          "en": "yakisoba",
-          "ja": "焼きそば"
-        },
-        {
-          "en": "soumen",
-          "ja": "そうめん"
-        },
-        {
-          "en": "udon",
-          "ja": "うどん"
-        },
-        {
-          "en": "kitsune udon",
-          "ja": "きつねうどん"
+    {
+      "id": "vegetables-nuts",
+      "name": "野菜・ナッツ等",
+      "children": [
+        {
+          "id": "vegetables",
+          "name": "野菜",
+          "tags": [
+            {
+              "en": "asparagus",
+              "ja": "アスパラガス"
+            },
+            {
+              "en": "bacon-wrapped asparagus",
+              "ja": "ベーコン巻きアスパラガス"
+            },
+            {
+              "en": "beans",
+              "ja": "豆"
+            },
+            {
+              "en": "green bean",
+              "ja": "インゲン豆"
+            },
+            {
+              "en": "red bean paste",
+              "ja": "あんこ"
+            },
+            {
+              "en": "nattou",
+              "ja": "納豆"
+            },
+            {
+              "en": "bell pepper",
+              "ja": "ピーマン"
+            },
+            {
+              "en": "bell pepper plant",
+              "ja": "ピーマンの植物"
+            },
+            {
+              "en": "bell pepper slice",
+              "ja": "ピーマンのスライス"
+            },
+            {
+              "en": "green bell pepper",
+              "ja": "ピーマン"
+            },
+            {
+              "en": "orange pepper",
+              "ja": "オレンジペッパー"
+            },
+            {
+              "en": "red pepper",
+              "ja": "赤唐辛子"
+            },
+            {
+              "en": "yellow pepper",
+              "ja": "黄ピーマン"
+            },
+            {
+              "en": "bitter melon",
+              "ja": "ゴーヤ"
+            },
+            {
+              "en": "broccoli",
+              "ja": "ブロッコリー"
+            },
+            {
+              "en": "cabbage",
+              "ja": "キャベツ"
+            },
+            {
+              "en": "bok choy",
+              "ja": "チンゲン菜"
+            },
+            {
+              "en": "carrot",
+              "ja": "ニンジン"
+            },
+            {
+              "en": "carrot slice",
+              "ja": "ニンジンスライス"
+            },
+            {
+              "en": "carrot sticks",
+              "ja": "ニンジンスティック"
+            },
+            {
+              "en": "cauliflower",
+              "ja": "カリフラワー"
+            },
+            {
+              "en": "chili pepper",
+              "ja": "唐辛子"
+            },
+            {
+              "en": "habanero pepper",
+              "ja": "ハバネロ"
+            },
+            {
+              "en": "jalapeno pepper",
+              "ja": "ハラペーニョ"
+            },
+            {
+              "en": "coconut",
+              "ja": "ココナッツ"
+            },
+            {
+              "en": "corn",
+              "ja": "トウモロコシ"
+            },
+            {
+              "en": "cucumber",
+              "ja": "キュウリ"
+            },
+            {
+              "en": "pickle",
+              "ja": "ピクルス"
+            },
+            {
+              "en": "eggplant",
+              "ja": "ナス"
+            },
+            {
+              "en": "garlic",
+              "ja": "ニンニク"
+            },
+            {
+              "en": "kimchi",
+              "ja": "キムチ"
+            },
+            {
+              "en": "lettuce",
+              "ja": "レタス"
+            },
+            {
+              "en": "lotus root",
+              "ja": "レンコン"
+            },
+            {
+              "en": "mushroom",
+              "ja": "キノコ"
+            },
+            {
+              "en": "shiitake",
+              "ja": "椎茸"
+            },
+            {
+              "en": "okra",
+              "ja": "オクラ"
+            },
+            {
+              "en": "onion",
+              "ja": "タマネギ"
+            },
+            {
+              "en": "onion rings",
+              "ja": "オニオンリング"
+            },
+            {
+              "en": "peas",
+              "ja": "エンドウ豆"
+            },
+            {
+              "en": "pea pod",
+              "ja": "エンドウ豆の鞘"
+            },
+            {
+              "en": "potato",
+              "ja": "じゃがいも"
+            },
+            {
+              "en": "mashed potatoes",
+              "ja": "マッシュポテト"
+            },
+            {
+              "en": "radish",
+              "ja": "大根"
+            },
+            {
+              "en": "daikon",
+              "ja": "大根"
+            },
+            {
+              "en": "spring onion",
+              "ja": "ネギ"
+            },
+            {
+              "en": "chopped spring onion",
+              "ja": "みじん切りにしたネギ"
+            },
+            {
+              "en": "squash",
+              "ja": "カボチャ"
+            },
+            {
+              "en": "pumpkin",
+              "ja": "パンプキン"
+            },
+            {
+              "en": "jack-o'-lantern",
+              "ja": "ジャック・オー・ランタン"
+            },
+            {
+              "en": "sweet potato",
+              "ja": "サツマイモ"
+            },
+            {
+              "en": "roasted sweet potato",
+              "ja": "焼き芋"
+            },
+            {
+              "en": "tomato",
+              "ja": "トマト"
+            },
+            {
+              "en": "cherry tomato",
+              "ja": "チェリートマト"
+            },
+            {
+              "en": "tomato plant",
+              "ja": "トマトの苗"
+            },
+            {
+              "en": "turnip",
+              "ja": "カブ"
+            },
+            {
+              "en": "warabi",
+              "ja": "わらび"
+            }
+          ]
+        },
+        {
+          "id": "nuts",
+          "name": "ナッツ",
+          "tags": [
+            {
+              "en": "nuts",
+              "ja": "ナッツ"
+            },
+            {
+              "en": "almond",
+              "ja": "アーモンド"
+            },
+            {
+              "en": "cashew",
+              "ja": "カシュー"
+            },
+            {
+              "en": "chestnut",
+              "ja": "栗"
+            },
+            {
+              "en": "hazelnut",
+              "ja": "ヘーゼルナッツ"
+            },
+            {
+              "en": "peanut",
+              "ja": "落花生"
+            },
+            {
+              "en": "pecan",
+              "ja": "ピーカン"
+            },
+            {
+              "en": "pistachio",
+              "ja": "ピスタチオ"
+            },
+            {
+              "en": "walnut",
+              "ja": "クルミ"
+            }
+          ]
+        },
+        {
+          "id": "seaweed",
+          "name": "海藻",
+          "tags": [
+            {
+              "en": "hijiki",
+              "ja": "ひじき"
+            },
+            {
+              "en": "nori",
+              "ja": "海苔"
+            },
+            {
+              "en": "seaweed",
+              "ja": "海藻"
+            }
+          ]
+        },
+        {
+          "id": "herbs",
+          "name": "ハーブ",
+          "tags": [
+            {
+              "en": "mint",
+              "ja": "ミント"
+            },
+            {
+              "en": "parsley",
+              "ja": "パセリ"
+            }
+          ]
+        },
+        {
+          "id": "other",
+          "name": "その他",
+          "tags": [
+            {
+              "en": "plum",
+              "ja": "梅"
+            },
+            {
+              "en": "umeboshi",
+              "ja": "梅干し"
+            },
+            {
+              "en": "sudachi",
+              "ja": "すだち"
+            },
+            {
+              "en": "yuzu",
+              "ja": "柚子"
+            }
+          ]
         }
       ]
     },
-    "乳製品": [
-      {
-        "en": "butter",
-        "ja": "バター"
-      },
-      {
-        "en": "cheese",
-        "ja": "チーズ"
-      },
-      {
-        "en": "blue cheese",
-        "ja": "ブルーチーズ"
-      },
-      {
-        "en": "cheesestick",
-        "ja": "チーズスティック"
-      },
-      {
-        "en": "cheese wheel",
-        "ja": "チーズホイール"
-      },
-      {
-        "en": "cream cheese",
-        "ja": "クリームチーズ"
-      },
-      {
-        "en": "parmesan cheese",
-        "ja": "パルメザンチーズ"
-      },
-      {
-        "en": "sliced cheese",
-        "ja": "スライスチーズ"
-      },
-      {
-        "en": "smoked cheese",
-        "ja": "スモークチーズ"
-      },
-      {
-        "en": "swiss cheese",
-        "ja": "スイスチーズ"
-      },
-      {
-        "en": "cream",
-        "ja": "クリーム"
-      },
-      {
-        "en": "whipped cream",
-        "ja": "ホイップクリーム"
-      },
-      {
-        "en": "eggnog",
-        "ja": "エッグノッグ"
-      },
-      {
-        "en": "kefir",
-        "ja": "ケフィア"
-      },
-      {
-        "en": "milk",
-        "ja": "牛乳"
-      },
-      {
-        "en": "baby bottle",
-        "ja": "哺乳瓶"
-      },
-      {
-        "en": "condensed milk",
-        "ja": "練乳"
-      },
-      {
-        "en": "chocolate milk",
-        "ja": "チョコレートミルク"
-      },
-      {
-        "en": "milk bag",
-        "ja": "牛乳パック"
-      },
-      {
-        "en": "milk bottle",
-        "ja": "牛乳瓶"
-      },
-      {
-        "en": "milk carton",
-        "ja": "牛乳パック"
-      },
-      {
-        "en": "milk churn",
-        "ja": "ミルクチャーン"
-      },
-      {
-        "en": "milk mustache",
-        "ja": "ミルク口ひげ"
-      },
-      {
-        "en": "milkshake",
-        "ja": "ミルクセーキ"
-      },
-      {
-        "en": "strawberry milk",
-        "ja": "いちごミルク"
-      },
-      {
-        "en": "yakult",
-        "ja": "ヤクルト"
-      },
-      {
-        "en": "yogurt",
-        "ja": "ヨーグルト"
-      }
-    ],
-    "スイーツ・お菓子": {
-      "スイーツ": [
-        {
-          "en": "sweets",
-          "ja": "スイーツ"
-        },
-        {
-          "en": "desserts",
-          "ja": "デザート"
-        },
-        {
-          "en": "anmitsu",
-          "ja": "あんみつ"
-        },
-        {
-          "en": "mitsumame",
-          "ja": "みつ豆"
-        },
-        {
-          "en": "anman",
-          "ja": "あんまん"
-        },
-        {
-          "en": "longevity peach bun",
-          "ja": "長寿桃パン"
-        },
-        {
-          "en": "momiji manjuu",
-          "ja": "もみじ饅頭"
-        },
-        {
-          "en": "usagi manjuu",
-          "ja": "うさぎ饅頭"
-        },
-        {
-          "en": "batter",
-          "ja": "ケーキなどの生地"
-        },
-        {
-          "en": "anpan",
-          "ja": "あんぱん"
-        },
-        {
-          "en": "cinnamon roll",
-          "ja": "シナモンロール"
-        },
-        {
-          "en": "hot cross bun",
-          "ja": "ホットクロスバン"
-        },
-        {
-          "en": "melon bread",
-          "ja": "メロンパン"
-        },
-        {
-          "en": "noppo bread",
-          "ja": "ノッポパン"
-        },
-        {
-          "en": "pastry box",
-          "ja": "ペストリーボックス"
-        },
-        {
-          "en": "brownie",
-          "ja": "ブラウニー"
-        },
-        {
-          "en": "cosmic brownies",
-          "ja": "コズミックブラウニー"
-        },
-        {
-          "en": "cake",
-          "ja": "ケーキ"
-        },
-        {
-          "en": "angel food cake",
-          "ja": "エンジェルフードケーキ"
-        },
-        {
-          "en": "baumkuchen",
-          "ja": "バウムクーヘン"
-        },
-        {
-          "en": "birthday cake",
-          "ja": "誕生日ケーキ"
-        },
-        {
-          "en": "black forest cake",
-          "ja": "ブラックフォレストケーキ"
-        },
-        {
-          "en": "bundt cake",
-          "ja": "バントケーキ"
-        },
-        {
-          "en": "cake batter",
-          "ja": "ケーキ生地"
-        },
-        {
-          "en": "cake pop",
-          "ja": "ケーキポップ"
-        },
-        {
-          "en": "carrot cake",
-          "ja": "キャロットケーキ"
-        },
-        {
-          "en": "castella",
-          "ja": "カステラ"
-        },
-        {
-          "en": "charlotte cake",
-          "ja": "シャーロットケーキ"
-        },
-        {
-          "en": "cheesecake",
-          "ja": "チーズケーキ"
-        },
-        {
-          "en": "rare cheesecake",
-          "ja": "レアチーズケーキ"
-        },
-        {
-          "en": "chocolate cake",
-          "ja": "チョコレートケーキ"
-        },
-        {
-          "en": "chocolate framboise",
-          "ja": "チョコレートフランボワーズ"
-        },
-        {
-          "en": "chiffon cake",
-          "ja": "シフォンケーキ"
-        },
-        {
-          "en": "cherry blossom chiffon cake",
-          "ja": "桜のシフォンケーキ"
-        },
-        {
-          "en": "christmas cake",
-          "ja": "クリスマスケーキ"
-        },
-        {
-          "en": "crepe cake",
-          "ja": "クレープケーキ"
-        },
-        {
-          "en": "cupcake",
-          "ja": "カップケーキ"
-        },
-        {
-          "en": "fondant au chocolat",
-          "ja": "フォンダンショコラ"
-        },
-        {
-          "en": "fruitcake",
-          "ja": "フルーツケーキ"
-        },
-        {
-          "en": "funfetti cake",
-          "ja": "ファンフェッティケーキ"
-        },
-        {
-          "en": "heart-shaped cake",
-          "ja": "ハート型のケーキ"
-        },
-        {
-          "en": "ice cream cake",
-          "ja": "アイスクリームケーキ"
-        },
-        {
-          "en": "jar cake",
-          "ja": "ジャーケーキ"
-        },
-        {
-          "en": "lava cake",
-          "ja": "溶岩ケーキ"
-        },
-        {
-          "en": "layer cake",
-          "ja": "レイヤーケーキ"
-        },
-        {
-          "en": "lemon cake",
-          "ja": "レモンケーキ"
-        },
-        {
-          "en": "madeleine",
-          "ja": "マドレーヌ"
-        },
-        {
-          "en": "marble cake",
-          "ja": "マーブルケーキ"
-        },
-        {
-          "en": "mille-feuille",
-          "ja": "ミルフィーユ"
-        },
-        {
-          "en": "mont blanc",
-          "ja": "モンブラン"
-        },
-        {
-          "en": "opera cake",
-          "ja": "オペラケーキ"
-        },
-        {
-          "en": "pancake",
-          "ja": "パンケーキ"
-        },
-        {
-          "en": "pancake stack",
-          "ja": "パンケーキスタック"
-        },
-        {
-          "en": "souffle pancake",
-          "ja": "スフレパンケーキ"
-        },
-        {
-          "en": "pound cake",
-          "ja": "パウンドケーキ"
-        },
-        {
-          "en": "rainbow cake",
-          "ja": "レインボーケーキ"
-        },
-        {
-          "en": "red velvet cake",
-          "ja": "レッドベルベットケーキ"
-        },
-        {
-          "en": "shortcake",
-          "ja": "ショートケーキ"
-        },
-        {
-          "en": "sponge cake",
-          "ja": "スポンジケーキ"
-        },
-        {
-          "en": "stollen",
-          "ja": "シュトレン"
-        },
-        {
-          "en": "strawberry cake",
-          "ja": "イチゴケーキ"
-        },
-        {
-          "en": "strawberry shortcake",
-          "ja": "イチゴのショートケーキ"
-        },
-        {
-          "en": "sweet potato cake",
-          "ja": "サツマイモケーキ"
-        },
-        {
-          "en": "swiss roll",
-          "ja": "ロールケーキ"
-        },
-        {
-          "en": "strawberry swiss roll",
-          "ja": "イチゴのロールケーキ"
-        },
-        {
-          "en": "tiramisu",
-          "ja": "ティラミス"
-        },
-        {
-          "en": "upside-down cake",
-          "ja": "アップサイドダウンケーキ"
-        },
-        {
-          "en": "wedding cake",
-          "ja": "ウェディングケーキ"
-        },
-        {
-          "en": "yule log",
-          "ja": "クリスマスのログ"
-        },
-        {
-          "en": "fruit sandwich",
-          "ja": "フルーツサンドイッチ"
-        },
-        {
-          "en": "cannoli",
-          "ja": "カノーリ"
-        },
-        {
-          "en": "chocolate fondue",
-          "ja": "チョコレートフォンデュ"
-        },
-        {
-          "en": "chocolate fountain",
-          "ja": "チョコレートファウンテン"
-        },
-        {
-          "en": "chocolate icing",
-          "ja": "チョコレートアイシング"
-        },
-        {
-          "en": "chocolate marquise",
-          "ja": "チョコレートマーキス"
-        },
-        {
-          "en": "chocolate syrup",
-          "ja": "チョコレートシロップ"
-        },
-        {
-          "en": "chocolate bread",
-          "ja": "チョコレートパン"
-        },
-        {
-          "en": "choco pie",
-          "ja": "チョコパイ"
-        },
-        {
-          "en": "churro",
-          "ja": "チュロス"
-        },
-        {
-          "en": "bavarois",
-          "ja": "ババロア"
-        },
-        {
-          "en": "icing",
-          "ja": "アイシング"
-        },
-        {
-          "en": "mirror glaze",
-          "ja": "ミラーグレーズ"
-        },
-        {
-          "en": "crepe",
-          "ja": "クレープ"
-        },
-        {
-          "en": "croquembouche",
-          "ja": "クロカンブッシュ"
-        },
-        {
-          "en": "dorayaki",
-          "ja": "どら焼き"
-        },
-        {
-          "en": "dough",
-          "ja": "生地"
-        },
-        {
-          "en": "donut",
-          "ja": "ドーナツ"
-        },
-        {
-          "en": "chocolate donut",
-          "ja": "チョコレートドーナツ"
-        },
-        {
-          "en": "french cruller",
-          "ja": "フレンチクルーラー"
-        },
-        {
-          "en": "sakura french",
-          "ja": "桜フレンチ"
-        },
-        {
-          "en": "glazed donut",
-          "ja": "グレーズドドーナツ"
-        },
-        {
-          "en": "honey cake donut",
-          "ja": "ハニーケーキドーナツ"
-        },
-        {
-          "en": "jelly donut",
-          "ja": "ジェリードーナツ"
-        },
-        {
-          "en": "old-fashioned donut",
-          "ja": "昔ながらのドーナツ"
-        },
-        {
-          "en": "choco fashion",
-          "ja": "チョコファッション"
-        },
-        {
-          "en": "pon de ring",
-          "ja": "ポン・デ・リング"
-        },
-        {
-          "en": "pon de chocolat",
-          "ja": "ポン・デ・ショコラ"
-        },
-        {
-          "en": "pon de strawberry",
-          "ja": "ポン・デ・ストロベリー"
-        },
-        {
-          "en": "fudge",
-          "ja": "ファッジ"
-        },
-        {
-          "en": "gelatin",
-          "ja": "ゼラチン"
-        },
-        {
-          "en": "ice cream",
-          "ja": "アイスクリーム"
-        },
-        {
-          "en": "affogato",
-          "ja": "アフォガート"
-        },
-        {
-          "en": "banana split",
-          "ja": "バナナスプリット"
-        },
-        {
-          "en": "choco monaka jumbo",
-          "ja": "チョコモナカジャンボ"
-        },
-        {
-          "en": "coolish",
-          "ja": "クーリッシュ"
-        },
-        {
-          "en": "dondurma",
-          "ja": "ドンドゥルマ"
-        },
-        {
-          "en": "gelato",
-          "ja": "ジェラート"
-        },
-        {
-          "en": "ice cream cone",
-          "ja": "アイスクリームコーン"
-        },
-        {
-          "en": "waffle cone",
-          "ja": "ワッフルコーン"
-        },
-        {
-          "en": "ice cream float",
-          "ja": "アイスクリームフロート"
-        },
-        {
-          "en": "ice cream sandwich",
-          "ja": "アイスクリームサンドイッチ"
-        },
-        {
-          "en": "parfait",
-          "ja": "パフェ"
-        },
-        {
-          "en": "strawberry parfait",
-          "ja": "イチゴパフェ"
-        },
-        {
-          "en": "single scoop",
-          "ja": "シングルスクープ"
-        },
-        {
-          "en": "multiple scoops",
-          "ja": "複数のスクープ"
-        },
-        {
-          "en": "too many scoops",
-          "ja": "スクープが多すぎる"
-        },
-        {
-          "en": "soft serve",
-          "ja": "ソフトクリーム"
-        },
-        {
-          "en": "sundae",
-          "ja": "サンデー"
-        },
-        {
-          "en": "imagawayaki",
-          "ja": "今川焼き"
-        },
-        {
-          "en": "mooncake",
-          "ja": "月餅"
-        },
-        {
-          "en": "muffin",
-          "ja": "マフィン"
-        },
-        {
-          "en": "osmanthus cake",
-          "ja": "キンモクセイケーキ"
-        },
-        {
-          "en": "pastry",
-          "ja": "ペストリー"
-        },
-        {
-          "en": "canele",
-          "ja": "カヌレ"
-        },
-        {
-          "en": "chocolate cornet",
-          "ja": "チョコレートコルネット"
-        },
-        {
-          "en": "cream cornet",
-          "ja": "クリームコルネット"
-        },
-        {
-          "en": "cream puff",
-          "ja": "シュークリーム"
-        },
-        {
-          "en": "eclair",
-          "ja": "エクレア"
-        },
-        {
-          "en": "macaron",
-          "ja": "マカロン"
-        },
-        {
-          "en": "maritozzo",
-          "ja": "マリトッツォ"
-        },
-        {
-          "en": "pie",
-          "ja": "パイ"
-        },
-        {
-          "en": "cherry pie",
-          "ja": "チェリーパイ"
-        },
-        {
-          "en": "chocolate pie",
-          "ja": "チョコレートパイ"
-        },
-        {
-          "en": "apple pie",
-          "ja": "アップルパイ"
-        },
-        {
-          "en": "red bean pie",
-          "ja": "小豆パイ"
-        },
-        {
-          "en": "popsicle",
-          "ja": "アイスキャンディー"
-        },
-        {
-          "en": "tupet",
-          "ja": "チューペット"
-        },
-        {
-          "en": "watermelon bar",
-          "ja": "スイカバー"
-        },
-        {
-          "en": "pudding",
-          "ja": "プリン"
-        },
-        {
-          "en": "custard",
-          "ja": "カスタード"
-        },
-        {
-          "en": "pudding a la mode",
-          "ja": "プリン・ア・ラ・モード"
-        },
-        {
-          "en": "souffle",
-          "ja": "スフレ"
-        },
-        {
-          "en": "shaved ice",
-          "ja": "かき氷"
-        },
-        {
-          "en": "slushie",
-          "ja": "スラッシュ"
-        },
-        {
-          "en": "tart",
-          "ja": "タルト"
-        },
-        {
-          "en": "chocolate tart",
-          "ja": "チョコレートタルト"
-        },
-        {
-          "en": "egg tart",
-          "ja": "エッグタルト"
-        },
-        {
-          "en": "fruit tart",
-          "ja": "フルーツタルト"
-        },
-        {
-          "en": "blueberry tart",
-          "ja": "ブルーベリータルト"
-        },
-        {
-          "en": "strawberry tart",
-          "ja": "イチゴタルト"
-        },
-        {
-          "en": "pumpkin pie",
-          "ja": "パンプキンパイ"
-        },
-        {
-          "en": "waffle",
-          "ja": "ワッフル"
-        },
-        {
-          "en": "wagashi",
-          "ja": "和菓子"
-        },
-        {
-          "en": "mochi",
-          "ja": "餅"
-        },
-        {
-          "en": "dango",
-          "ja": "団子"
-        },
-        {
-          "en": "daifuku",
-          "ja": "大福"
-        },
-        {
-          "en": "ichigo daifuku",
-          "ja": "いちご大福"
-        },
-        {
-          "en": "kashiwa mochi",
-          "ja": "柏餅"
-        },
-        {
-          "en": "namagashi",
-          "ja": "生菓子"
-        },
-        {
-          "en": "raindrop cake",
-          "ja": "レインドロップケーキ"
-        },
-        {
-          "en": "sakura mochi",
-          "ja": "桜餅"
-        },
-        {
-          "en": "songpyeon",
-          "ja": "ソンピョン"
-        },
-        {
-          "en": "suama",
-          "ja": "スアマ"
-        },
-        {
-          "en": "taiyaki",
-          "ja": "たい焼き"
-        },
-        {
-          "en": "uirou",
-          "ja": "ういろう"
-        },
-        {
-          "en": "warabimochi",
-          "ja": "わらび餅"
-        },
-        {
-          "en": "youkan",
-          "ja": "ようかん"
-        }
-      ],
-      "お菓子": [
-        {
-          "en": "snacks",
-          "ja": "スナック"
-        },
-        {
-          "en": "candy",
-          "ja": "あめ"
-        },
-        {
-          "en": "candy cane",
-          "ja": "キャンディケイン"
-        },
-        {
-          "en": "chitose ame",
-          "ja": "千歳飴"
-        },
-        {
-          "en": "cigarette candy",
-          "ja": "タバコキャンディー"
-        },
-        {
-          "en": "creme egg",
-          "ja": "クリームエッグ"
-        },
-        {
-          "en": "chewing gum",
-          "ja": "チューインガム"
-        },
-        {
-          "en": "gumball",
-          "ja": "ガムボール"
-        },
-        {
-          "en": "jelly bean",
-          "ja": "ゼリービーン"
-        },
-        {
-          "en": "kitkat",
-          "ja": "キットカット"
-        },
-        {
-          "en": "konpeitou",
-          "ja": "金平糖"
-        },
-        {
-          "en": "lollipop",
-          "ja": "ロリポップ"
-        },
-        {
-          "en": "chupa chups",
-          "ja": "チュッパチャップス"
-        },
-        {
-          "en": "shaped lollipop",
-          "ja": "形のロリポップ"
-        },
-        {
-          "en": "swirl lollipop",
-          "ja": "渦巻きロリポップ"
-        },
-        {
-          "en": "m&m's",
-          "ja": "m&m's"
-        },
-        {
-          "en": "marble chocolate",
-          "ja": "マーブルチョコレート"
-        },
-        {
-          "en": "nerunerunerune",
-          "ja": "ねるねるねるね"
-        },
-        {
-          "en": "pinata",
-          "ja": "ピニャータ"
-        },
-        {
-          "en": "tootsweets",
-          "ja": "トゥーススイーツ"
-        },
-        {
-          "en": "caramel",
-          "ja": "キャラメル"
-        },
-        {
-          "en": "chocolate",
-          "ja": "チョコレート"
-        },
-        {
-          "en": "apollo chocolate",
-          "ja": "アポロチョコレート"
-        },
-        {
-          "en": "chocolate almond",
-          "ja": "チョコレートアーモンド"
-        },
-        {
-          "en": "chocolate bar",
-          "ja": "チョコレートバー"
-        },
-        {
-          "en": "chocolate chip",
-          "ja": "チョコレートチップ"
-        },
-        {
-          "en": "chocolate coin",
-          "ja": "チョコレートコイン"
-        },
-        {
-          "en": "chocolate curls",
-          "ja": "チョコレートカール"
-        },
-        {
-          "en": "chocolate egg",
-          "ja": "チョコレートエッグ"
-        },
-        {
-          "en": "chocolate rabbit",
-          "ja": "チョコレートラビット"
-        },
-        {
-          "en": "dark chocolate",
-          "ja": "ダークチョコレート"
-        },
-        {
-          "en": "heart-shaped chocolate",
-          "ja": "ハート型のチョコレート"
-        },
-        {
-          "en": "kinoko no yama",
-          "ja": "きのこの山"
-        },
-        {
-          "en": "morinaga chocoball",
-          "ja": "森永チョコボール"
-        },
-        {
-          "en": "strawberry chocolate",
-          "ja": "ストロベリーチョコレート"
-        },
-        {
-          "en": "takenoko no sato",
-          "ja": "たけのこの里"
-        },
-        {
-          "en": "white chocolate",
-          "ja": "ホワイトチョコレート"
-        },
-        {
-          "en": "cookie",
-          "ja": "クッキー"
-        },
-        {
-          "en": "checkerboard cookie",
-          "ja": "チェッカーボードクッキー"
-        },
-        {
-          "en": "chocolate chip cookie",
-          "ja": "チョコチップクッキー"
-        },
-        {
-          "en": "country ma'am",
-          "ja": "カントリーマアム"
-        },
-        {
-          "en": "gingerbread cookie",
-          "ja": "ジンジャーブレッドクッキー"
-        },
-        {
-          "en": "gingerbread house",
-          "ja": "ジンジャーブレッドハウス"
-        },
-        {
-          "en": "gingerbread man",
-          "ja": "ジンジャーブレッドマン"
-        },
-        {
-          "en": "pocky",
-          "ja": "ポッキー"
-        },
-        {
-          "en": "sandwich cookie",
-          "ja": "サンドイッチクッキー"
-        },
-        {
-          "en": "oreo",
-          "ja": "オレオ"
-        },
-        {
-          "en": "thumbprint cookie",
-          "ja": "サムプリントクッキー"
-        },
-        {
-          "en": "toppo",
-          "ja": "トッポ"
-        },
-        {
-          "en": "wafer",
-          "ja": "ウエハース"
-        },
-        {
-          "en": "wafer stick",
-          "ja": "ウエハーススティック"
-        },
-        {
-          "en": "cotton candy",
-          "ja": "綿菓子"
-        },
-        {
-          "en": "sprinkles",
-          "ja": "スプリンクル"
-        },
-        {
-          "en": "marshmallow",
-          "ja": "マシュマロ"
-        },
-        {
-          "en": "popsicle stick",
-          "ja": "アイスキャンディーの棒"
-        },
-        {
-          "en": "tanghulu",
-          "ja": "タンフル"
-        },
-        {
-          "en": "cheese puffs",
-          "ja": "チーズパフ"
-        },
-        {
-          "en": "cheese curls",
-          "ja": "チーズカール"
-        },
-        {
-          "en": "chikuwa",
-          "ja": "ちくわ"
-        },
-        {
-          "en": "chips",
-          "ja": "チップス"
-        },
-        {
-          "en": "bugles",
-          "ja": "ラッパ"
-        },
-        {
-          "en": "doritos",
-          "ja": "ドリトス"
-        },
-        {
-          "en": "potato chips",
-          "ja": "ポテトチップス"
-        },
-        {
-          "en": "pringles",
-          "ja": "プリングルス"
-        },
-        {
-          "en": "french fries",
-          "ja": "フライドポテト"
-        },
-        {
-          "en": "cheese fries",
-          "ja": "チーズフライ"
-        },
-        {
-          "en": "popcorn",
-          "ja": "ポップコーン"
-        },
-        {
-          "en": "pretzel",
-          "ja": "プレッツェル"
-        },
-        {
-          "en": "tohato caramel corn",
-          "ja": "東ハトキャラメルコーン"
-        },
-        {
-          "en": "umaibou",
-          "ja": "うまい棒"
+    {
+      "id": "meat-fish-eggs",
+      "name": "肉・魚・卵",
+      "children": [
+        {
+          "id": "meat",
+          "name": "肉",
+          "tags": [
+            {
+              "en": "bacon",
+              "ja": "ベーコン"
+            },
+            {
+              "en": "boned meat",
+              "ja": "骨付き肉"
+            },
+            {
+              "en": "chicken",
+              "ja": "チキン"
+            },
+            {
+              "en": "chicken leg",
+              "ja": "鶏もも肉"
+            },
+            {
+              "en": "chicken nuggets",
+              "ja": "チキンナゲット"
+            },
+            {
+              "en": "fried chicken",
+              "ja": "フライドチキン"
+            },
+            {
+              "en": "yakitori",
+              "ja": "焼き鳥"
+            },
+            {
+              "en": "gyuudon",
+              "ja": "牛丼"
+            },
+            {
+              "en": "hamburger steak",
+              "ja": "ハンバーグステーキ"
+            },
+            {
+              "en": "shish kebab",
+              "ja": "シシケバブ"
+            },
+            {
+              "en": "meatball",
+              "ja": "ミートボール"
+            },
+            {
+              "en": "pork",
+              "ja": "豚肉"
+            },
+            {
+              "en": "ham",
+              "ja": "ハム"
+            },
+            {
+              "en": "raw meat",
+              "ja": "生の肉"
+            },
+            {
+              "en": "tartare",
+              "ja": "タルタル"
+            },
+            {
+              "en": "yokhoe",
+              "ja": "ヨッホエ"
+            },
+            {
+              "en": "sausage",
+              "ja": "ソーセージ"
+            },
+            {
+              "en": "pepperoni",
+              "ja": "ペパロニ"
+            },
+            {
+              "en": "doner kebab",
+              "ja": "ドネルケバブ"
+            },
+            {
+              "en": "sliced meat",
+              "ja": "スライスした肉"
+            },
+            {
+              "en": "steak",
+              "ja": "ステーキ"
+            },
+            {
+              "en": "tako-san wiener",
+              "ja": "たこさんウィンナー"
+            },
+            {
+              "en": "kani-san wiener",
+              "ja": "カニさんウィンナー"
+            },
+            {
+              "en": "turkey",
+              "ja": "七面鳥"
+            },
+            {
+              "en": "turkey leg",
+              "ja": "七面鳥の脚"
+            }
+          ]
+        },
+        {
+          "id": "fish",
+          "name": "魚",
+          "tags": [
+            {
+              "en": "crab",
+              "ja": "カニ"
+            },
+            {
+              "en": "eel",
+              "ja": "うなぎ"
+            },
+            {
+              "en": "kabayaki",
+              "ja": "かば焼き"
+            },
+            {
+              "en": "fish",
+              "ja": "魚"
+            },
+            {
+              "en": "fish skeleton",
+              "ja": "魚の骨格"
+            },
+            {
+              "en": "sashimi",
+              "ja": "刺身"
+            },
+            {
+              "en": "katsuo no tataki",
+              "ja": "かつおのたたき"
+            },
+            {
+              "en": "roe",
+              "ja": "卵"
+            },
+            {
+              "en": "caviar",
+              "ja": "キャビア"
+            },
+            {
+              "en": "ikura",
+              "ja": "イクラ"
+            },
+            {
+              "en": "kamaboko",
+              "ja": "かまぼこ"
+            },
+            {
+              "en": "lobster",
+              "ja": "ロブスター"
+            },
+            {
+              "en": "shrimp",
+              "ja": "エビ"
+            },
+            {
+              "en": "shrimp tempura",
+              "ja": "エビの天ぷら"
+            }
+          ]
+        },
+        {
+          "id": "eggs",
+          "name": "卵",
+          "tags": [
+            {
+              "en": "egg",
+              "ja": "卵"
+            },
+            {
+              "en": "broken egg",
+              "ja": "割れた卵"
+            },
+            {
+              "en": "egg yolk",
+              "ja": "卵黄"
+            },
+            {
+              "en": "eggshell",
+              "ja": "卵殻"
+            },
+            {
+              "en": "eggshell hat",
+              "ja": "卵殻帽子"
+            },
+            {
+              "en": "fried egg",
+              "ja": "目玉焼き"
+            },
+            {
+              "en": "century egg",
+              "ja": "センチュリーエッグ"
+            },
+            {
+              "en": "hardboiled egg",
+              "ja": "ゆで卵"
+            },
+            {
+              "en": "softboiled egg",
+              "ja": "半熟卵"
+            },
+            {
+              "en": "omelet",
+              "ja": "オムレツ"
+            },
+            {
+              "en": "omurice",
+              "ja": "オムライス"
+            },
+            {
+              "en": "tamagoyaki",
+              "ja": "玉子焼き"
+            },
+            {
+              "en": "scrambled egg",
+              "ja": "スクランブルエッグ"
+            },
+            {
+              "en": "sliced egg",
+              "ja": "スライスした卵"
+            },
+            {
+              "en": "raw egg",
+              "ja": "生卵"
+            },
+            {
+              "en": "tamagokake gohan",
+              "ja": "卵かけご飯"
+            }
+          ]
         }
       ]
     },
-    "調味料等": [
-      {
-        "en": "anise",
-        "ja": "アニス"
-      },
-      {
-        "en": "basil leaf",
-        "ja": "バジルの葉"
-      },
-      {
-        "en": "cinnamon stick",
-        "ja": "シナモンスティック"
-      },
-      {
-        "en": "clove",
-        "ja": "クローブ"
-      },
-      {
-        "en": "furikake",
-        "ja": "ふりかけ"
-      },
-      {
-        "en": "ginger root",
-        "ja": "ショウガの根"
-      },
-      {
-        "en": "honey",
-        "ja": "ハニー"
-      },
-      {
-        "en": "jam",
-        "ja": "ジャム"
-      },
-      {
-        "en": "marmalade",
-        "ja": "マーマレード"
-      },
-      {
-        "en": "ketchup",
-        "ja": "ケチャップ"
-      },
-      {
-        "en": "mayonnaise",
-        "ja": "マヨネーズ"
-      },
-      {
-        "en": "mustard",
-        "ja": "マスタード"
-      },
-      {
-        "en": "peanut butter",
-        "ja": "ピーナッツバター"
-      },
-      {
-        "en": "pepper (spice)",
-        "ja": "コショウ（スパイス）"
-      },
-      {
-        "en": "pepper mill",
-        "ja": "ペッパーミル"
-      },
-      {
-        "en": "pepper shaker",
-        "ja": "ペッパーシェーカー"
-      },
-      {
-        "en": "rosemary",
-        "ja": "ローズマリー"
-      },
-      {
-        "en": "salt",
-        "ja": "塩"
-      },
-      {
-        "en": "salt shaker",
-        "ja": "塩入れ"
-      },
-      {
-        "en": "sauce",
-        "ja": "ソース"
-      },
-      {
-        "en": "bagna cauda",
-        "ja": "バーニャカウダ"
-      },
-      {
-        "en": "hot sauce",
-        "ja": "ホットソース"
-      },
-      {
-        "en": "soy sauce",
-        "ja": "しょうゆ"
-      },
-      {
-        "en": "tomato sauce",
-        "ja": "トマトソース"
-      },
-      {
-        "en": "sesame seeds",
-        "ja": "ゴマ"
-      },
-      {
-        "en": "granulated sugar",
-        "ja": "グラニュー糖"
-      },
-      {
-        "en": "sugar cube",
-        "ja": "角砂糖"
-      },
-      {
-        "en": "syrup",
-        "ja": "シロップ"
-      },
-      {
-        "en": "strawberry syrup",
-        "ja": "イチゴシロップ"
-      },
-      {
-        "en": "wasabi",
-        "ja": "わさび"
-      },
-      {
-        "en": "zha cai",
-        "ja": "ザーサイ"
-      },
-      {
-        "en": "cooking oil",
-        "ja": "食用油"
-      },
-      {
-        "en": "crumbs",
-        "ja": "パン粉"
-      },
-      {
-        "en": "flour",
-        "ja": "小麦粉"
-      }
-    ],
-    "料理・食事": {
-      "料理": [
+    {
+      "id": "bread-rice-noodles",
+      "name": "パン・米・麺等",
+      "children": [
         {
-          "en": "canned food",
-          "ja": "缶詰"
+          "id": "bread",
+          "name": "パン類",
+          "tags": [
+            {
+              "en": "bread",
+              "ja": "パン"
+            },
+            {
+              "en": "bagel",
+              "ja": "ベーグル"
+            },
+            {
+              "en": "baguette",
+              "ja": "バゲット"
+            },
+            {
+              "en": "biscuit",
+              "ja": "ビスケット"
+            },
+            {
+              "en": "bread bun",
+              "ja": "パン"
+            },
+            {
+              "en": "bread crust",
+              "ja": "パンの皮"
+            },
+            {
+              "en": "bread eating race",
+              "ja": "パン食い競争"
+            },
+            {
+              "en": "bread slice",
+              "ja": "パンのスライス"
+            },
+            {
+              "en": "toast",
+              "ja": "トースト"
+            },
+            {
+              "en": "french toast",
+              "ja": "フレンチトースト"
+            },
+            {
+              "en": "pizza toast",
+              "ja": "ピザトースト"
+            },
+            {
+              "en": "croissant",
+              "ja": "クロワッサン"
+            },
+            {
+              "en": "japari bun",
+              "ja": "ジャパリパン"
+            },
+            {
+              "en": "loaf of bread",
+              "ja": "パン一斤"
+            },
+            {
+              "en": "yakisobapan",
+              "ja": "焼きそばパン"
+            },
+            {
+              "en": "scone",
+              "ja": "スコーン"
+            },
+            {
+              "en": "cracker",
+              "ja": "クラッカー"
+            }
+          ]
         },
         {
-          "en": "curry",
-          "ja": "カレー"
+          "id": "rice",
+          "name": "米類",
+          "tags": [
+            {
+              "en": "cereal",
+              "ja": "穀物"
+            },
+            {
+              "en": "arare",
+              "ja": "アラレ"
+            },
+            {
+              "en": "senbei",
+              "ja": "煎餅"
+            },
+            {
+              "en": "rice",
+              "ja": "米"
+            },
+            {
+              "en": "curry rice",
+              "ja": "カレーライス"
+            },
+            {
+              "en": "fried rice",
+              "ja": "炒飯"
+            },
+            {
+              "en": "jumeok-bap",
+              "ja": "ジュモクパプ"
+            },
+            {
+              "en": "onigiri",
+              "ja": "おにぎり"
+            },
+            {
+              "en": "rice on face",
+              "ja": "顔に米"
+            },
+            {
+              "en": "rice paddy",
+              "ja": "田んぼ"
+            },
+            {
+              "en": "rice porridge",
+              "ja": "お粥"
+            },
+            {
+              "en": "nanakusa-no-sekku",
+              "ja": "七草の節供"
+            },
+            {
+              "en": "risotto",
+              "ja": "リゾット"
+            }
+          ]
         },
         {
-          "en": "dumpling",
-          "ja": "団子"
-        },
-        {
-          "en": "croquette",
-          "ja": "コロッケ"
-        },
-        {
-          "en": "har gow",
-          "ja": "ハーガウ"
-        },
-        {
-          "en": "jiaozi",
-          "ja": "餃子"
-        },
-        {
-          "en": "tangyuan",
-          "ja": "湯源"
-        },
-        {
-          "en": "wonton",
-          "ja": "ワンタン"
-        },
-        {
-          "en": "zongzi",
-          "ja": "粽"
-        },
-        {
-          "en": "english breakfast",
-          "ja": "イングリッシュブレックファースト"
-        },
-        {
-          "en": "fish and chips",
-          "ja": "フィッシュアンドチップス"
-        },
-        {
-          "en": "fondue",
-          "ja": "フォンデュ"
-        },
-        {
-          "en": "burger",
-          "ja": "バーガー"
-        },
-        {
-          "en": "megamac",
-          "ja": "メガマック"
-        },
-        {
-          "en": "tsukimi burger",
-          "ja": "月見バーガー"
-        },
-        {
-          "en": "hot dog",
-          "ja": "ホットドッグ"
-        },
-        {
-          "en": "corn dog",
-          "ja": "コーンドッグ"
-        },
-        {
-          "en": "katsu",
-          "ja": "カツ"
-        },
-        {
-          "en": "katsudon",
-          "ja": "カツ丼"
-        },
-        {
-          "en": "konnyaku",
-          "ja": "こんにゃく"
-        },
-        {
-          "en": "dim sum",
-          "ja": "点心"
-        },
-        {
-          "en": "bento",
-          "ja": "弁当"
-        },
-        {
-          "en": "okosama lunch",
-          "ja": "おこさまランチ"
-        },
-        {
-          "en": "osechi",
-          "ja": "おせち"
-        },
-        {
-          "en": "nabe",
-          "ja": "鍋"
-        },
-        {
-          "en": "oden",
-          "ja": "おでん"
-        },
-        {
-          "en": "sukiyaki",
-          "ja": "すき焼き"
-        },
-        {
-          "en": "narutomaki",
-          "ja": "ナルトマキ"
-        },
-        {
-          "en": "ochazuke",
-          "ja": "お茶漬け"
-        },
-        {
-          "en": "okonomiyaki",
-          "ja": "お好み焼き"
-        },
-        {
-          "en": "pizza",
-          "ja": "ピザ"
-        },
-        {
-          "en": "pizza slice",
-          "ja": "ピザのスライス"
-        },
-        {
-          "en": "margherita pizza",
-          "ja": "マルゲリータピザ"
-        },
-        {
-          "en": "ribs",
-          "ja": "肋骨"
-        },
-        {
-          "en": "salad",
-          "ja": "サラダ"
-        },
-        {
-          "en": "sandwich",
-          "ja": "サンドイッチ"
-        },
-        {
-          "en": "shakshuka",
-          "ja": "シャクシュカ"
-        },
-        {
-          "en": "soup",
-          "ja": "スープ"
-        },
-        {
-          "en": "miso soup",
-          "ja": "味噌汁"
-        },
-        {
-          "en": "zouni soup",
-          "ja": "雑煮"
-        },
-        {
-          "en": "sushi",
-          "ja": "寿司"
-        },
-        {
-          "en": "gunkanmaki",
-          "ja": "軍艦巻き"
-        },
-        {
-          "en": "inarizushi",
-          "ja": "いなり寿司"
-        },
-        {
-          "en": "makizushi",
-          "ja": "巻き寿司"
-        },
-        {
-          "en": "nigirizushi",
-          "ja": "握り寿司"
-        },
-        {
-          "en": "taco",
-          "ja": "タコス"
-        },
-        {
-          "en": "takoyaki",
-          "ja": "たこ焼き"
-        },
-        {
-          "en": "takuan",
-          "ja": "たくあん"
-        },
-        {
-          "en": "tempura",
-          "ja": "天ぷら"
-        },
-        {
-          "en": "tofu",
-          "ja": "豆腐"
-        },
-        {
-          "en": "aburaage",
-          "ja": "油揚げ"
-        },
-        {
-          "en": "hiyayakko",
-          "ja": "冷奴"
-        },
-        {
-          "en": "mapo tofu",
-          "ja": "麻婆豆腐"
-        },
-        {
-          "en": "stinky tofu",
-          "ja": "臭豆腐"
-        },
-        {
-          "en": "twice cooked pork",
-          "ja": "二度煮豚肉"
-        },
-        {
-          "en": "unadon",
-          "ja": "うな丼"
-        },
-        {
-          "en": "empanada",
-          "ja": "エンパナーダ"
-        },
-        {
-          "en": "shumai",
-          "ja": "シュウマイ"
-        },
-        {
-          "en": "steamed bun",
-          "ja": "肉まん等"
-        }
-      ],
-      "食事": [
-        {
-          "en": "meal",
-          "ja": "食事"
-        },
-        {
-          "en": "breakfast",
-          "ja": "朝食"
-        },
-        {
-          "en": "dinner",
-          "ja": "夕食"
-        },
-        {
-          "en": "feast",
-          "ja": "ごちそう"
-        },
-        {
-          "en": "lunch",
-          "ja": "ランチ"
-        },
-        {
-          "en": "tea party",
-          "ja": "お茶会"
+          "id": "noodles",
+          "name": "麺類",
+          "tags": [
+            {
+              "en": "noodles",
+              "ja": "麺"
+            },
+            {
+              "en": "pasta",
+              "ja": "パスタ"
+            },
+            {
+              "en": "lasagne",
+              "ja": "ラザニア"
+            },
+            {
+              "en": "spaghetti",
+              "ja": "スパゲッティ"
+            },
+            {
+              "en": "black spaghetti",
+              "ja": "黒いスパゲッティ"
+            },
+            {
+              "en": "spaghetti and meatballs",
+              "ja": "スパゲッティとミートボール"
+            },
+            {
+              "en": "ramen",
+              "ja": "ラーメン"
+            },
+            {
+              "en": "cup ramen",
+              "ja": "カップラーメン"
+            },
+            {
+              "en": "instant ramen",
+              "ja": "インスタントラーメン"
+            },
+            {
+              "en": "jirou",
+              "ja": "二郎系"
+            },
+            {
+              "en": "soba",
+              "ja": "そば"
+            },
+            {
+              "en": "yakisoba",
+              "ja": "焼きそば"
+            },
+            {
+              "en": "soumen",
+              "ja": "そうめん"
+            },
+            {
+              "en": "udon",
+              "ja": "うどん"
+            },
+            {
+              "en": "kitsune udon",
+              "ja": "きつねうどん"
+            }
+          ]
         }
       ]
     },
-    "飲み物": {
-      "アルコール": [
+    {
+      "id": "dairy",
+      "name": "乳製品",
+      "tags": [
         {
-          "en": "alcohol",
-          "ja": "アルコール"
+          "en": "butter",
+          "ja": "バター"
         },
         {
-          "en": "beer",
-          "ja": "ビール"
+          "en": "cheese",
+          "ja": "チーズ"
         },
         {
-          "en": "non-alcoholic beer",
-          "ja": "ノンアルコールビール"
+          "en": "blue cheese",
+          "ja": "ブルーチーズ"
         },
         {
-          "en": "guinness (beer)",
-          "ja": "ギネス（ビール）"
+          "en": "cheesestick",
+          "ja": "チーズスティック"
         },
         {
-          "en": "champagne",
-          "ja": "シャンパン"
+          "en": "cheese wheel",
+          "ja": "チーズホイール"
         },
         {
-          "en": "cocktail",
-          "ja": "カクテル"
+          "en": "cream cheese",
+          "ja": "クリームチーズ"
         },
         {
-          "en": "blue hawaii",
-          "ja": "ブルーハワイ"
+          "en": "parmesan cheese",
+          "ja": "パルメザンチーズ"
         },
         {
-          "en": "caesar (drink)",
-          "ja": "シーザー（ドリンク）"
+          "en": "sliced cheese",
+          "ja": "スライスチーズ"
         },
         {
-          "en": "cocktail umbrella",
-          "ja": "カクテルアンブレラ"
+          "en": "smoked cheese",
+          "ja": "スモークチーズ"
         },
         {
-          "en": "margarita",
-          "ja": "マルガリータ"
+          "en": "swiss cheese",
+          "ja": "スイスチーズ"
         },
         {
-          "en": "martini",
-          "ja": "マティーニ"
+          "en": "cream",
+          "ja": "クリーム"
         },
         {
-          "en": "mojito",
-          "ja": "モヒート"
+          "en": "whipped cream",
+          "ja": "ホイップクリーム"
         },
         {
-          "en": "pina colada",
-          "ja": "ピニャコラーダ"
+          "en": "eggnog",
+          "ja": "エッグノッグ"
         },
         {
-          "en": "white russian",
-          "ja": "ホワイト・ルシアン"
+          "en": "kefir",
+          "ja": "ケフィア"
         },
         {
-          "en": "gluhwein",
-          "ja": "グリューワイン"
+          "en": "milk",
+          "ja": "牛乳"
         },
         {
-          "en": "liquor",
-          "ja": "リカー"
+          "en": "baby bottle",
+          "ja": "哺乳瓶"
         },
         {
-          "en": "sake",
-          "ja": "酒"
+          "en": "condensed milk",
+          "ja": "練乳"
         },
         {
-          "en": "tequila",
-          "ja": "テキーラ"
+          "en": "chocolate milk",
+          "ja": "チョコレートミルク"
         },
         {
-          "en": "vodka",
-          "ja": "ウォッカ"
+          "en": "milk bag",
+          "ja": "牛乳パック"
         },
         {
-          "en": "whiskey",
-          "ja": "ウィスキー"
+          "en": "milk bottle",
+          "ja": "牛乳瓶"
         },
         {
-          "en": "wine",
-          "ja": "ワイン"
-        }
-      ],
-      "お茶": [
-        {
-          "en": "tea",
-          "ja": "お茶"
+          "en": "milk carton",
+          "ja": "牛乳パック"
         },
         {
-          "en": "barley tea",
-          "ja": "麦茶"
+          "en": "milk churn",
+          "ja": "ミルクチャーン"
         },
         {
-          "en": "black tea",
-          "ja": "紅茶"
+          "en": "milk mustache",
+          "ja": "ミルク口ひげ"
         },
         {
-          "en": "bubble tea",
-          "ja": "タピオカティー"
+          "en": "milkshake",
+          "ja": "ミルクセーキ"
         },
         {
-          "en": "chamomile tea",
-          "ja": "カモミールティー"
+          "en": "strawberry milk",
+          "ja": "いちごミルク"
         },
         {
-          "en": "darjeeling tea",
-          "ja": "ダージリンティー"
+          "en": "yakult",
+          "ja": "ヤクルト"
         },
         {
-          "en": "earl grey tea",
-          "ja": "アールグレイティー"
-        },
-        {
-          "en": "green tea",
-          "ja": "緑茶"
-        },
-        {
-          "en": "herbal tea",
-          "ja": "ハーブティー"
-        },
-        {
-          "en": "iced tea",
-          "ja": "アイスティー"
-        },
-        {
-          "en": "milk tea",
-          "ja": "ミルクティー"
-        },
-        {
-          "en": "rose hip tea",
-          "ja": "ローズヒップティー"
-        },
-        {
-          "en": "spear mint tea",
-          "ja": "スピアミントティー"
-        }
-      ],
-      "コーヒー": [
-        {
-          "en": "coffee",
-          "ja": "コーヒー"
-        },
-        {
-          "en": "cafe au lait",
-          "ja": "カフェオレ"
-        },
-        {
-          "en": "canned coffee",
-          "ja": "缶コーヒー"
-        },
-        {
-          "en": "cappuccino",
-          "ja": "カプチーノ"
-        },
-        {
-          "en": "coffee beans",
-          "ja": "コーヒー豆"
-        },
-        {
-          "en": "dandelion coffee",
-          "ja": "タンポポコーヒー"
-        },
-        {
-          "en": "georgia max coffee",
-          "ja": "ジョージアマックスコーヒー"
-        },
-        {
-          "en": "latte art",
-          "ja": "ラテアート"
-        },
-        {
-          "en": "starbucks",
-          "ja": "スターバックス"
-        }
-      ],
-      "ジュース": [
-        {
-          "en": "juice",
-          "ja": "ジュース"
-        },
-        {
-          "en": "amazake",
-          "ja": "甘酒"
-        },
-        {
-          "en": "strawberry juice",
-          "ja": "イチゴジュース"
-        },
-        {
-          "en": "soda",
-          "ja": "ソーダ"
-        },
-        {
-          "en": "7up",
-          "ja": "セブンアップ"
-        },
-        {
-          "en": "calpis",
-          "ja": "カルピス"
-        },
-        {
-          "en": "coca-cola",
-          "ja": "コカコーラ"
-        },
-        {
-          "en": "dr pepper",
-          "ja": "ドクターペッパー"
-        },
-        {
-          "en": "fanta",
-          "ja": "ファンタ"
-        },
-        {
-          "en": "melon soda",
-          "ja": "メロンソーダ"
-        },
-        {
-          "en": "mountain dew",
-          "ja": "マウンテンデュー"
-        },
-        {
-          "en": "pepsi",
-          "ja": "ペプシ"
-        },
-        {
-          "en": "pepsi ice cucumber",
-          "ja": "ペプシアイスキュウリ"
-        },
-        {
-          "en": "ramune",
-          "ja": "ラムネ"
-        },
-        {
-          "en": "root beer",
-          "ja": "ルートビア"
-        },
-        {
-          "en": "soda can",
-          "ja": "ソーダ缶"
-        },
-        {
-          "en": "tropical drink",
-          "ja": "トロピカルドリンク"
-        }
-      ],
-      "その他": [
-        {
-          "en": "drink",
-          "ja": "飲み物"
-        },
-        {
-          "en": "water",
-          "ja": "水"
+          "en": "yogurt",
+          "ja": "ヨーグルト"
         }
       ]
     },
-    "容器・器具": {
-      "容器": [
+    {
+      "id": "sweets-snacks",
+      "name": "スイーツ・お菓子",
+      "children": [
         {
-          "en": "pizza box",
-          "ja": "ピザの箱"
+          "id": "sweets",
+          "name": "スイーツ",
+          "tags": [
+            {
+              "en": "sweets",
+              "ja": "スイーツ"
+            },
+            {
+              "en": "desserts",
+              "ja": "デザート"
+            },
+            {
+              "en": "anmitsu",
+              "ja": "あんみつ"
+            },
+            {
+              "en": "mitsumame",
+              "ja": "みつ豆"
+            },
+            {
+              "en": "anman",
+              "ja": "あんまん"
+            },
+            {
+              "en": "longevity peach bun",
+              "ja": "長寿桃パン"
+            },
+            {
+              "en": "momiji manjuu",
+              "ja": "もみじ饅頭"
+            },
+            {
+              "en": "usagi manjuu",
+              "ja": "うさぎ饅頭"
+            },
+            {
+              "en": "batter",
+              "ja": "ケーキなどの生地"
+            },
+            {
+              "en": "anpan",
+              "ja": "あんぱん"
+            },
+            {
+              "en": "cinnamon roll",
+              "ja": "シナモンロール"
+            },
+            {
+              "en": "hot cross bun",
+              "ja": "ホットクロスバン"
+            },
+            {
+              "en": "melon bread",
+              "ja": "メロンパン"
+            },
+            {
+              "en": "noppo bread",
+              "ja": "ノッポパン"
+            },
+            {
+              "en": "pastry box",
+              "ja": "ペストリーボックス"
+            },
+            {
+              "en": "brownie",
+              "ja": "ブラウニー"
+            },
+            {
+              "en": "cosmic brownies",
+              "ja": "コズミックブラウニー"
+            },
+            {
+              "en": "cake",
+              "ja": "ケーキ"
+            },
+            {
+              "en": "angel food cake",
+              "ja": "エンジェルフードケーキ"
+            },
+            {
+              "en": "baumkuchen",
+              "ja": "バウムクーヘン"
+            },
+            {
+              "en": "birthday cake",
+              "ja": "誕生日ケーキ"
+            },
+            {
+              "en": "black forest cake",
+              "ja": "ブラックフォレストケーキ"
+            },
+            {
+              "en": "bundt cake",
+              "ja": "バントケーキ"
+            },
+            {
+              "en": "cake batter",
+              "ja": "ケーキ生地"
+            },
+            {
+              "en": "cake pop",
+              "ja": "ケーキポップ"
+            },
+            {
+              "en": "carrot cake",
+              "ja": "キャロットケーキ"
+            },
+            {
+              "en": "castella",
+              "ja": "カステラ"
+            },
+            {
+              "en": "charlotte cake",
+              "ja": "シャーロットケーキ"
+            },
+            {
+              "en": "cheesecake",
+              "ja": "チーズケーキ"
+            },
+            {
+              "en": "rare cheesecake",
+              "ja": "レアチーズケーキ"
+            },
+            {
+              "en": "chocolate cake",
+              "ja": "チョコレートケーキ"
+            },
+            {
+              "en": "chocolate framboise",
+              "ja": "チョコレートフランボワーズ"
+            },
+            {
+              "en": "chiffon cake",
+              "ja": "シフォンケーキ"
+            },
+            {
+              "en": "cherry blossom chiffon cake",
+              "ja": "桜のシフォンケーキ"
+            },
+            {
+              "en": "christmas cake",
+              "ja": "クリスマスケーキ"
+            },
+            {
+              "en": "crepe cake",
+              "ja": "クレープケーキ"
+            },
+            {
+              "en": "cupcake",
+              "ja": "カップケーキ"
+            },
+            {
+              "en": "fondant au chocolat",
+              "ja": "フォンダンショコラ"
+            },
+            {
+              "en": "fruitcake",
+              "ja": "フルーツケーキ"
+            },
+            {
+              "en": "funfetti cake",
+              "ja": "ファンフェッティケーキ"
+            },
+            {
+              "en": "heart-shaped cake",
+              "ja": "ハート型のケーキ"
+            },
+            {
+              "en": "ice cream cake",
+              "ja": "アイスクリームケーキ"
+            },
+            {
+              "en": "jar cake",
+              "ja": "ジャーケーキ"
+            },
+            {
+              "en": "lava cake",
+              "ja": "溶岩ケーキ"
+            },
+            {
+              "en": "layer cake",
+              "ja": "レイヤーケーキ"
+            },
+            {
+              "en": "lemon cake",
+              "ja": "レモンケーキ"
+            },
+            {
+              "en": "madeleine",
+              "ja": "マドレーヌ"
+            },
+            {
+              "en": "marble cake",
+              "ja": "マーブルケーキ"
+            },
+            {
+              "en": "mille-feuille",
+              "ja": "ミルフィーユ"
+            },
+            {
+              "en": "mont blanc",
+              "ja": "モンブラン"
+            },
+            {
+              "en": "opera cake",
+              "ja": "オペラケーキ"
+            },
+            {
+              "en": "pancake",
+              "ja": "パンケーキ"
+            },
+            {
+              "en": "pancake stack",
+              "ja": "パンケーキスタック"
+            },
+            {
+              "en": "souffle pancake",
+              "ja": "スフレパンケーキ"
+            },
+            {
+              "en": "pound cake",
+              "ja": "パウンドケーキ"
+            },
+            {
+              "en": "rainbow cake",
+              "ja": "レインボーケーキ"
+            },
+            {
+              "en": "red velvet cake",
+              "ja": "レッドベルベットケーキ"
+            },
+            {
+              "en": "shortcake",
+              "ja": "ショートケーキ"
+            },
+            {
+              "en": "sponge cake",
+              "ja": "スポンジケーキ"
+            },
+            {
+              "en": "stollen",
+              "ja": "シュトレン"
+            },
+            {
+              "en": "strawberry cake",
+              "ja": "イチゴケーキ"
+            },
+            {
+              "en": "strawberry shortcake",
+              "ja": "イチゴのショートケーキ"
+            },
+            {
+              "en": "sweet potato cake",
+              "ja": "サツマイモケーキ"
+            },
+            {
+              "en": "swiss roll",
+              "ja": "ロールケーキ"
+            },
+            {
+              "en": "strawberry swiss roll",
+              "ja": "イチゴのロールケーキ"
+            },
+            {
+              "en": "tiramisu",
+              "ja": "ティラミス"
+            },
+            {
+              "en": "upside-down cake",
+              "ja": "アップサイドダウンケーキ"
+            },
+            {
+              "en": "wedding cake",
+              "ja": "ウェディングケーキ"
+            },
+            {
+              "en": "yule log",
+              "ja": "クリスマスのログ"
+            },
+            {
+              "en": "fruit sandwich",
+              "ja": "フルーツサンドイッチ"
+            },
+            {
+              "en": "cannoli",
+              "ja": "カノーリ"
+            },
+            {
+              "en": "chocolate fondue",
+              "ja": "チョコレートフォンデュ"
+            },
+            {
+              "en": "chocolate fountain",
+              "ja": "チョコレートファウンテン"
+            },
+            {
+              "en": "chocolate icing",
+              "ja": "チョコレートアイシング"
+            },
+            {
+              "en": "chocolate marquise",
+              "ja": "チョコレートマーキス"
+            },
+            {
+              "en": "chocolate syrup",
+              "ja": "チョコレートシロップ"
+            },
+            {
+              "en": "chocolate bread",
+              "ja": "チョコレートパン"
+            },
+            {
+              "en": "choco pie",
+              "ja": "チョコパイ"
+            },
+            {
+              "en": "churro",
+              "ja": "チュロス"
+            },
+            {
+              "en": "bavarois",
+              "ja": "ババロア"
+            },
+            {
+              "en": "icing",
+              "ja": "アイシング"
+            },
+            {
+              "en": "mirror glaze",
+              "ja": "ミラーグレーズ"
+            },
+            {
+              "en": "crepe",
+              "ja": "クレープ"
+            },
+            {
+              "en": "croquembouche",
+              "ja": "クロカンブッシュ"
+            },
+            {
+              "en": "dorayaki",
+              "ja": "どら焼き"
+            },
+            {
+              "en": "dough",
+              "ja": "生地"
+            },
+            {
+              "en": "donut",
+              "ja": "ドーナツ"
+            },
+            {
+              "en": "chocolate donut",
+              "ja": "チョコレートドーナツ"
+            },
+            {
+              "en": "french cruller",
+              "ja": "フレンチクルーラー"
+            },
+            {
+              "en": "sakura french",
+              "ja": "桜フレンチ"
+            },
+            {
+              "en": "glazed donut",
+              "ja": "グレーズドドーナツ"
+            },
+            {
+              "en": "honey cake donut",
+              "ja": "ハニーケーキドーナツ"
+            },
+            {
+              "en": "jelly donut",
+              "ja": "ジェリードーナツ"
+            },
+            {
+              "en": "old-fashioned donut",
+              "ja": "昔ながらのドーナツ"
+            },
+            {
+              "en": "choco fashion",
+              "ja": "チョコファッション"
+            },
+            {
+              "en": "pon de ring",
+              "ja": "ポン・デ・リング"
+            },
+            {
+              "en": "pon de chocolat",
+              "ja": "ポン・デ・ショコラ"
+            },
+            {
+              "en": "pon de strawberry",
+              "ja": "ポン・デ・ストロベリー"
+            },
+            {
+              "en": "fudge",
+              "ja": "ファッジ"
+            },
+            {
+              "en": "gelatin",
+              "ja": "ゼラチン"
+            },
+            {
+              "en": "ice cream",
+              "ja": "アイスクリーム"
+            },
+            {
+              "en": "affogato",
+              "ja": "アフォガート"
+            },
+            {
+              "en": "banana split",
+              "ja": "バナナスプリット"
+            },
+            {
+              "en": "choco monaka jumbo",
+              "ja": "チョコモナカジャンボ"
+            },
+            {
+              "en": "coolish",
+              "ja": "クーリッシュ"
+            },
+            {
+              "en": "dondurma",
+              "ja": "ドンドゥルマ"
+            },
+            {
+              "en": "gelato",
+              "ja": "ジェラート"
+            },
+            {
+              "en": "ice cream cone",
+              "ja": "アイスクリームコーン"
+            },
+            {
+              "en": "waffle cone",
+              "ja": "ワッフルコーン"
+            },
+            {
+              "en": "ice cream float",
+              "ja": "アイスクリームフロート"
+            },
+            {
+              "en": "ice cream sandwich",
+              "ja": "アイスクリームサンドイッチ"
+            },
+            {
+              "en": "parfait",
+              "ja": "パフェ"
+            },
+            {
+              "en": "strawberry parfait",
+              "ja": "イチゴパフェ"
+            },
+            {
+              "en": "single scoop",
+              "ja": "シングルスクープ"
+            },
+            {
+              "en": "multiple scoops",
+              "ja": "複数のスクープ"
+            },
+            {
+              "en": "too many scoops",
+              "ja": "スクープが多すぎる"
+            },
+            {
+              "en": "soft serve",
+              "ja": "ソフトクリーム"
+            },
+            {
+              "en": "sundae",
+              "ja": "サンデー"
+            },
+            {
+              "en": "imagawayaki",
+              "ja": "今川焼き"
+            },
+            {
+              "en": "mooncake",
+              "ja": "月餅"
+            },
+            {
+              "en": "muffin",
+              "ja": "マフィン"
+            },
+            {
+              "en": "osmanthus cake",
+              "ja": "キンモクセイケーキ"
+            },
+            {
+              "en": "pastry",
+              "ja": "ペストリー"
+            },
+            {
+              "en": "canele",
+              "ja": "カヌレ"
+            },
+            {
+              "en": "chocolate cornet",
+              "ja": "チョコレートコルネット"
+            },
+            {
+              "en": "cream cornet",
+              "ja": "クリームコルネット"
+            },
+            {
+              "en": "cream puff",
+              "ja": "シュークリーム"
+            },
+            {
+              "en": "eclair",
+              "ja": "エクレア"
+            },
+            {
+              "en": "macaron",
+              "ja": "マカロン"
+            },
+            {
+              "en": "maritozzo",
+              "ja": "マリトッツォ"
+            },
+            {
+              "en": "pie",
+              "ja": "パイ"
+            },
+            {
+              "en": "cherry pie",
+              "ja": "チェリーパイ"
+            },
+            {
+              "en": "chocolate pie",
+              "ja": "チョコレートパイ"
+            },
+            {
+              "en": "apple pie",
+              "ja": "アップルパイ"
+            },
+            {
+              "en": "red bean pie",
+              "ja": "小豆パイ"
+            },
+            {
+              "en": "popsicle",
+              "ja": "アイスキャンディー"
+            },
+            {
+              "en": "tupet",
+              "ja": "チューペット"
+            },
+            {
+              "en": "watermelon bar",
+              "ja": "スイカバー"
+            },
+            {
+              "en": "pudding",
+              "ja": "プリン"
+            },
+            {
+              "en": "custard",
+              "ja": "カスタード"
+            },
+            {
+              "en": "pudding a la mode",
+              "ja": "プリン・ア・ラ・モード"
+            },
+            {
+              "en": "souffle",
+              "ja": "スフレ"
+            },
+            {
+              "en": "shaved ice",
+              "ja": "かき氷"
+            },
+            {
+              "en": "slushie",
+              "ja": "スラッシュ"
+            },
+            {
+              "en": "tart",
+              "ja": "タルト"
+            },
+            {
+              "en": "chocolate tart",
+              "ja": "チョコレートタルト"
+            },
+            {
+              "en": "egg tart",
+              "ja": "エッグタルト"
+            },
+            {
+              "en": "fruit tart",
+              "ja": "フルーツタルト"
+            },
+            {
+              "en": "blueberry tart",
+              "ja": "ブルーベリータルト"
+            },
+            {
+              "en": "strawberry tart",
+              "ja": "イチゴタルト"
+            },
+            {
+              "en": "pumpkin pie",
+              "ja": "パンプキンパイ"
+            },
+            {
+              "en": "waffle",
+              "ja": "ワッフル"
+            },
+            {
+              "en": "wagashi",
+              "ja": "和菓子"
+            },
+            {
+              "en": "mochi",
+              "ja": "餅"
+            },
+            {
+              "en": "dango",
+              "ja": "団子"
+            },
+            {
+              "en": "daifuku",
+              "ja": "大福"
+            },
+            {
+              "en": "ichigo daifuku",
+              "ja": "いちご大福"
+            },
+            {
+              "en": "kashiwa mochi",
+              "ja": "柏餅"
+            },
+            {
+              "en": "namagashi",
+              "ja": "生菓子"
+            },
+            {
+              "en": "raindrop cake",
+              "ja": "レインドロップケーキ"
+            },
+            {
+              "en": "sakura mochi",
+              "ja": "桜餅"
+            },
+            {
+              "en": "songpyeon",
+              "ja": "ソンピョン"
+            },
+            {
+              "en": "suama",
+              "ja": "スアマ"
+            },
+            {
+              "en": "taiyaki",
+              "ja": "たい焼き"
+            },
+            {
+              "en": "uirou",
+              "ja": "ういろう"
+            },
+            {
+              "en": "warabimochi",
+              "ja": "わらび餅"
+            },
+            {
+              "en": "youkan",
+              "ja": "ようかん"
+            }
+          ]
         },
         {
-          "en": "sushi geta",
-          "ja": "寿司下駄"
-        },
-        {
-          "en": "bottle",
-          "ja": "ボトル"
-        },
-        {
-          "en": "ketchup bottle",
-          "ja": "ケチャップの瓶"
-        },
-        {
-          "en": "mayonnaise bottle",
-          "ja": "マヨネーズボトル"
-        },
-        {
-          "en": "mustard bottle",
-          "ja": "マスタードボトル"
-        },
-        {
-          "en": "soda bottle",
-          "ja": "ソーダボトル"
-        },
-        {
-          "en": "soy sauce bottle",
-          "ja": "醤油瓶"
-        },
-        {
-          "en": "can",
-          "ja": "できる"
-        },
-        {
-          "en": "condiment packet",
-          "ja": "調味料パック"
-        },
-        {
-          "en": "cup",
-          "ja": "カップ"
-        },
-        {
-          "en": "mug",
-          "ja": "マグ"
-        },
-        {
-          "en": "sakazuki",
-          "ja": "盃"
-        },
-        {
-          "en": "yunomi",
-          "ja": "ゆのみ"
-        },
-        {
-          "en": "drinking glass",
-          "ja": "飲み物のグラス"
-        },
-        {
-          "en": "champagne coupe",
-          "ja": "シャンパンクープ"
-        },
-        {
-          "en": "champagne flute",
-          "ja": "シャンパンフルート"
-        },
-        {
-          "en": "cocktail glass",
-          "ja": "カクテルグラス"
-        },
-        {
-          "en": "hurricane glass",
-          "ja": "ハリケーンガラス"
-        },
-        {
-          "en": "shot glass",
-          "ja": "ショットグラス"
-        },
-        {
-          "en": "snifter",
-          "ja": "スニフター"
-        },
-        {
-          "en": "wine glass",
-          "ja": "ワイングラス"
-        },
-        {
-          "en": "disposable coffee cup",
-          "ja": "使い捨てコーヒーカップ"
-        },
-        {
-          "en": "coffee mug",
-          "ja": "コーヒーマグ"
-        },
-        {
-          "en": "gaiwan",
-          "ja": "ガイワン"
-        },
-        {
-          "en": "gourd",
-          "ja": "ひょうたん"
-        },
-        {
-          "en": "jar",
-          "ja": "瓶"
-        },
-        {
-          "en": "jug",
-          "ja": "水差し"
-        },
-        {
-          "en": "juice box",
-          "ja": "ジュースボックス"
-        },
-        {
-          "en": "beer mug",
-          "ja": "ビールジョッキ"
-        },
-        {
-          "en": "mamezara",
-          "ja": "豆皿"
-        },
-        {
-          "en": "canned tea",
-          "ja": "缶入りのお茶"
-        },
-        {
-          "en": "saucer",
-          "ja": "受け皿"
-        },
-        {
-          "en": "teacup",
-          "ja": "ティーカップ"
-        },
-        {
-          "en": "thermos",
-          "ja": "魔法瓶"
+          "id": "snacks",
+          "name": "お菓子",
+          "tags": [
+            {
+              "en": "snacks",
+              "ja": "スナック"
+            },
+            {
+              "en": "candy",
+              "ja": "あめ"
+            },
+            {
+              "en": "candy cane",
+              "ja": "キャンディケイン"
+            },
+            {
+              "en": "chitose ame",
+              "ja": "千歳飴"
+            },
+            {
+              "en": "cigarette candy",
+              "ja": "タバコキャンディー"
+            },
+            {
+              "en": "creme egg",
+              "ja": "クリームエッグ"
+            },
+            {
+              "en": "chewing gum",
+              "ja": "チューインガム"
+            },
+            {
+              "en": "gumball",
+              "ja": "ガムボール"
+            },
+            {
+              "en": "jelly bean",
+              "ja": "ゼリービーン"
+            },
+            {
+              "en": "kitkat",
+              "ja": "キットカット"
+            },
+            {
+              "en": "konpeitou",
+              "ja": "金平糖"
+            },
+            {
+              "en": "lollipop",
+              "ja": "ロリポップ"
+            },
+            {
+              "en": "chupa chups",
+              "ja": "チュッパチャップス"
+            },
+            {
+              "en": "shaped lollipop",
+              "ja": "形のロリポップ"
+            },
+            {
+              "en": "swirl lollipop",
+              "ja": "渦巻きロリポップ"
+            },
+            {
+              "en": "m&m's",
+              "ja": "m&m's"
+            },
+            {
+              "en": "marble chocolate",
+              "ja": "マーブルチョコレート"
+            },
+            {
+              "en": "nerunerunerune",
+              "ja": "ねるねるねるね"
+            },
+            {
+              "en": "pinata",
+              "ja": "ピニャータ"
+            },
+            {
+              "en": "tootsweets",
+              "ja": "トゥーススイーツ"
+            },
+            {
+              "en": "caramel",
+              "ja": "キャラメル"
+            },
+            {
+              "en": "chocolate",
+              "ja": "チョコレート"
+            },
+            {
+              "en": "apollo chocolate",
+              "ja": "アポロチョコレート"
+            },
+            {
+              "en": "chocolate almond",
+              "ja": "チョコレートアーモンド"
+            },
+            {
+              "en": "chocolate bar",
+              "ja": "チョコレートバー"
+            },
+            {
+              "en": "chocolate chip",
+              "ja": "チョコレートチップ"
+            },
+            {
+              "en": "chocolate coin",
+              "ja": "チョコレートコイン"
+            },
+            {
+              "en": "chocolate curls",
+              "ja": "チョコレートカール"
+            },
+            {
+              "en": "chocolate egg",
+              "ja": "チョコレートエッグ"
+            },
+            {
+              "en": "chocolate rabbit",
+              "ja": "チョコレートラビット"
+            },
+            {
+              "en": "dark chocolate",
+              "ja": "ダークチョコレート"
+            },
+            {
+              "en": "heart-shaped chocolate",
+              "ja": "ハート型のチョコレート"
+            },
+            {
+              "en": "kinoko no yama",
+              "ja": "きのこの山"
+            },
+            {
+              "en": "morinaga chocoball",
+              "ja": "森永チョコボール"
+            },
+            {
+              "en": "strawberry chocolate",
+              "ja": "ストロベリーチョコレート"
+            },
+            {
+              "en": "takenoko no sato",
+              "ja": "たけのこの里"
+            },
+            {
+              "en": "white chocolate",
+              "ja": "ホワイトチョコレート"
+            },
+            {
+              "en": "cookie",
+              "ja": "クッキー"
+            },
+            {
+              "en": "checkerboard cookie",
+              "ja": "チェッカーボードクッキー"
+            },
+            {
+              "en": "chocolate chip cookie",
+              "ja": "チョコチップクッキー"
+            },
+            {
+              "en": "country ma'am",
+              "ja": "カントリーマアム"
+            },
+            {
+              "en": "gingerbread cookie",
+              "ja": "ジンジャーブレッドクッキー"
+            },
+            {
+              "en": "gingerbread house",
+              "ja": "ジンジャーブレッドハウス"
+            },
+            {
+              "en": "gingerbread man",
+              "ja": "ジンジャーブレッドマン"
+            },
+            {
+              "en": "pocky",
+              "ja": "ポッキー"
+            },
+            {
+              "en": "sandwich cookie",
+              "ja": "サンドイッチクッキー"
+            },
+            {
+              "en": "oreo",
+              "ja": "オレオ"
+            },
+            {
+              "en": "thumbprint cookie",
+              "ja": "サムプリントクッキー"
+            },
+            {
+              "en": "toppo",
+              "ja": "トッポ"
+            },
+            {
+              "en": "wafer",
+              "ja": "ウエハース"
+            },
+            {
+              "en": "wafer stick",
+              "ja": "ウエハーススティック"
+            },
+            {
+              "en": "cotton candy",
+              "ja": "綿菓子"
+            },
+            {
+              "en": "sprinkles",
+              "ja": "スプリンクル"
+            },
+            {
+              "en": "marshmallow",
+              "ja": "マシュマロ"
+            },
+            {
+              "en": "popsicle stick",
+              "ja": "アイスキャンディーの棒"
+            },
+            {
+              "en": "tanghulu",
+              "ja": "タンフル"
+            },
+            {
+              "en": "cheese puffs",
+              "ja": "チーズパフ"
+            },
+            {
+              "en": "cheese curls",
+              "ja": "チーズカール"
+            },
+            {
+              "en": "chikuwa",
+              "ja": "ちくわ"
+            },
+            {
+              "en": "chips",
+              "ja": "チップス"
+            },
+            {
+              "en": "bugles",
+              "ja": "ラッパ"
+            },
+            {
+              "en": "doritos",
+              "ja": "ドリトス"
+            },
+            {
+              "en": "potato chips",
+              "ja": "ポテトチップス"
+            },
+            {
+              "en": "pringles",
+              "ja": "プリングルス"
+            },
+            {
+              "en": "french fries",
+              "ja": "フライドポテト"
+            },
+            {
+              "en": "cheese fries",
+              "ja": "チーズフライ"
+            },
+            {
+              "en": "popcorn",
+              "ja": "ポップコーン"
+            },
+            {
+              "en": "pretzel",
+              "ja": "プレッツェル"
+            },
+            {
+              "en": "tohato caramel corn",
+              "ja": "東ハトキャラメルコーン"
+            },
+            {
+              "en": "umaibou",
+              "ja": "うまい棒"
+            }
+          ]
         }
-      ],
-      "器具・アイテム": [
+      ]
+    },
+    {
+      "id": "seasonings",
+      "name": "調味料等",
+      "tags": [
         {
-          "en": "baking sheet",
-          "ja": "ベーキングシート"
+          "en": "anise",
+          "ja": "アニス"
         },
         {
-          "en": "bamboo steamer",
-          "ja": "竹蒸し器"
+          "en": "basil leaf",
+          "ja": "バジルの葉"
         },
         {
-          "en": "basket",
-          "ja": "バスケット"
+          "en": "cinnamon stick",
+          "ja": "シナモンスティック"
         },
         {
-          "en": "picnic basket",
-          "ja": "ピクニックバスケット"
+          "en": "clove",
+          "ja": "クローブ"
         },
         {
-          "en": "shopping basket",
-          "ja": "買い物かご"
+          "en": "furikake",
+          "ja": "ふりかけ"
         },
         {
-          "en": "shopping cart",
-          "ja": "ショッピングカート"
+          "en": "ginger root",
+          "ja": "ショウガの根"
         },
         {
-          "en": "squeeze bottle",
-          "ja": "スクイーズボトル"
+          "en": "honey",
+          "ja": "ハニー"
         },
         {
-          "en": "bowl",
-          "ja": "ボウル"
+          "en": "jam",
+          "ja": "ジャム"
         },
         {
-          "en": "plate",
-          "ja": "皿"
+          "en": "marmalade",
+          "ja": "マーマレード"
         },
         {
-          "en": "cake pan",
-          "ja": "ケーキ型"
+          "en": "ketchup",
+          "ja": "ケチャップ"
         },
         {
-          "en": "chopsticks",
-          "ja": "箸"
+          "en": "mayonnaise",
+          "ja": "マヨネーズ"
         },
         {
-          "en": "chopstick rest",
-          "ja": "箸置き"
+          "en": "mustard",
+          "ja": "マスタード"
         },
         {
-          "en": "cocktail flower",
-          "ja": "カクテルフラワー"
+          "en": "peanut butter",
+          "ja": "ピーナッツバター"
         },
         {
-          "en": "coffee grinder",
-          "ja": "コーヒーグラインダー"
+          "en": "pepper (spice)",
+          "ja": "コショウ（スパイス）"
         },
         {
-          "en": "cookie cutter",
-          "ja": "クッキーカッター"
+          "en": "pepper mill",
+          "ja": "ペッパーミル"
         },
         {
-          "en": "cutting board",
-          "ja": "まな板"
+          "en": "pepper shaker",
+          "ja": "ペッパーシェーカー"
         },
         {
-          "en": "dishes",
+          "en": "rosemary",
+          "ja": "ローズマリー"
+        },
+        {
+          "en": "salt",
+          "ja": "塩"
+        },
+        {
+          "en": "salt shaker",
+          "ja": "塩入れ"
+        },
+        {
+          "en": "sauce",
+          "ja": "ソース"
+        },
+        {
+          "en": "bagna cauda",
+          "ja": "バーニャカウダ"
+        },
+        {
+          "en": "hot sauce",
+          "ja": "ホットソース"
+        },
+        {
+          "en": "soy sauce",
+          "ja": "しょうゆ"
+        },
+        {
+          "en": "tomato sauce",
+          "ja": "トマトソース"
+        },
+        {
+          "en": "sesame seeds",
+          "ja": "ゴマ"
+        },
+        {
+          "en": "granulated sugar",
+          "ja": "グラニュー糖"
+        },
+        {
+          "en": "sugar cube",
+          "ja": "角砂糖"
+        },
+        {
+          "en": "syrup",
+          "ja": "シロップ"
+        },
+        {
+          "en": "strawberry syrup",
+          "ja": "イチゴシロップ"
+        },
+        {
+          "en": "wasabi",
+          "ja": "わさび"
+        },
+        {
+          "en": "zha cai",
+          "ja": "ザーサイ"
+        },
+        {
+          "en": "cooking oil",
+          "ja": "食用油"
+        },
+        {
+          "en": "crumbs",
+          "ja": "パン粉"
+        },
+        {
+          "en": "flour",
+          "ja": "小麦粉"
+        }
+      ]
+    },
+    {
+      "id": "cooking-eating",
+      "name": "料理・食事",
+      "children": [
+        {
+          "id": "dishes",
+          "name": "料理",
+          "tags": [
+            {
+              "en": "canned food",
+              "ja": "缶詰"
+            },
+            {
+              "en": "curry",
+              "ja": "カレー"
+            },
+            {
+              "en": "dumpling",
+              "ja": "団子"
+            },
+            {
+              "en": "croquette",
+              "ja": "コロッケ"
+            },
+            {
+              "en": "har gow",
+              "ja": "ハーガウ"
+            },
+            {
+              "en": "jiaozi",
+              "ja": "餃子"
+            },
+            {
+              "en": "tangyuan",
+              "ja": "湯源"
+            },
+            {
+              "en": "wonton",
+              "ja": "ワンタン"
+            },
+            {
+              "en": "zongzi",
+              "ja": "粽"
+            },
+            {
+              "en": "english breakfast",
+              "ja": "イングリッシュブレックファースト"
+            },
+            {
+              "en": "fish and chips",
+              "ja": "フィッシュアンドチップス"
+            },
+            {
+              "en": "fondue",
+              "ja": "フォンデュ"
+            },
+            {
+              "en": "burger",
+              "ja": "バーガー"
+            },
+            {
+              "en": "megamac",
+              "ja": "メガマック"
+            },
+            {
+              "en": "tsukimi burger",
+              "ja": "月見バーガー"
+            },
+            {
+              "en": "hot dog",
+              "ja": "ホットドッグ"
+            },
+            {
+              "en": "corn dog",
+              "ja": "コーンドッグ"
+            },
+            {
+              "en": "katsu",
+              "ja": "カツ"
+            },
+            {
+              "en": "katsudon",
+              "ja": "カツ丼"
+            },
+            {
+              "en": "konnyaku",
+              "ja": "こんにゃく"
+            },
+            {
+              "en": "dim sum",
+              "ja": "点心"
+            },
+            {
+              "en": "bento",
+              "ja": "弁当"
+            },
+            {
+              "en": "okosama lunch",
+              "ja": "おこさまランチ"
+            },
+            {
+              "en": "osechi",
+              "ja": "おせち"
+            },
+            {
+              "en": "nabe",
+              "ja": "鍋"
+            },
+            {
+              "en": "oden",
+              "ja": "おでん"
+            },
+            {
+              "en": "sukiyaki",
+              "ja": "すき焼き"
+            },
+            {
+              "en": "narutomaki",
+              "ja": "ナルトマキ"
+            },
+            {
+              "en": "ochazuke",
+              "ja": "お茶漬け"
+            },
+            {
+              "en": "okonomiyaki",
+              "ja": "お好み焼き"
+            },
+            {
+              "en": "pizza",
+              "ja": "ピザ"
+            },
+            {
+              "en": "pizza slice",
+              "ja": "ピザのスライス"
+            },
+            {
+              "en": "margherita pizza",
+              "ja": "マルゲリータピザ"
+            },
+            {
+              "en": "ribs",
+              "ja": "肋骨"
+            },
+            {
+              "en": "salad",
+              "ja": "サラダ"
+            },
+            {
+              "en": "sandwich",
+              "ja": "サンドイッチ"
+            },
+            {
+              "en": "shakshuka",
+              "ja": "シャクシュカ"
+            },
+            {
+              "en": "soup",
+              "ja": "スープ"
+            },
+            {
+              "en": "miso soup",
+              "ja": "味噌汁"
+            },
+            {
+              "en": "zouni soup",
+              "ja": "雑煮"
+            },
+            {
+              "en": "sushi",
+              "ja": "寿司"
+            },
+            {
+              "en": "gunkanmaki",
+              "ja": "軍艦巻き"
+            },
+            {
+              "en": "inarizushi",
+              "ja": "いなり寿司"
+            },
+            {
+              "en": "makizushi",
+              "ja": "巻き寿司"
+            },
+            {
+              "en": "nigirizushi",
+              "ja": "握り寿司"
+            },
+            {
+              "en": "taco",
+              "ja": "タコス"
+            },
+            {
+              "en": "takoyaki",
+              "ja": "たこ焼き"
+            },
+            {
+              "en": "takuan",
+              "ja": "たくあん"
+            },
+            {
+              "en": "tempura",
+              "ja": "天ぷら"
+            },
+            {
+              "en": "tofu",
+              "ja": "豆腐"
+            },
+            {
+              "en": "aburaage",
+              "ja": "油揚げ"
+            },
+            {
+              "en": "hiyayakko",
+              "ja": "冷奴"
+            },
+            {
+              "en": "mapo tofu",
+              "ja": "麻婆豆腐"
+            },
+            {
+              "en": "stinky tofu",
+              "ja": "臭豆腐"
+            },
+            {
+              "en": "twice cooked pork",
+              "ja": "二度煮豚肉"
+            },
+            {
+              "en": "unadon",
+              "ja": "うな丼"
+            },
+            {
+              "en": "empanada",
+              "ja": "エンパナーダ"
+            },
+            {
+              "en": "shumai",
+              "ja": "シュウマイ"
+            },
+            {
+              "en": "steamed bun",
+              "ja": "肉まん等"
+            }
+          ]
+        },
+        {
+          "id": "meals",
+          "name": "食事",
+          "tags": [
+            {
+              "en": "meal",
+              "ja": "食事"
+            },
+            {
+              "en": "breakfast",
+              "ja": "朝食"
+            },
+            {
+              "en": "dinner",
+              "ja": "夕食"
+            },
+            {
+              "en": "feast",
+              "ja": "ごちそう"
+            },
+            {
+              "en": "lunch",
+              "ja": "ランチ"
+            },
+            {
+              "en": "tea party",
+              "ja": "お茶会"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "飲み物",
+      "children": [
+        {
+          "id": "alcohol",
+          "name": "アルコール",
+          "tags": [
+            {
+              "en": "alcohol",
+              "ja": "アルコール"
+            },
+            {
+              "en": "beer",
+              "ja": "ビール"
+            },
+            {
+              "en": "non-alcoholic beer",
+              "ja": "ノンアルコールビール"
+            },
+            {
+              "en": "guinness (beer)",
+              "ja": "ギネス（ビール）"
+            },
+            {
+              "en": "champagne",
+              "ja": "シャンパン"
+            },
+            {
+              "en": "cocktail",
+              "ja": "カクテル"
+            },
+            {
+              "en": "blue hawaii",
+              "ja": "ブルーハワイ"
+            },
+            {
+              "en": "caesar (drink)",
+              "ja": "シーザー（ドリンク）"
+            },
+            {
+              "en": "cocktail umbrella",
+              "ja": "カクテルアンブレラ"
+            },
+            {
+              "en": "margarita",
+              "ja": "マルガリータ"
+            },
+            {
+              "en": "martini",
+              "ja": "マティーニ"
+            },
+            {
+              "en": "mojito",
+              "ja": "モヒート"
+            },
+            {
+              "en": "pina colada",
+              "ja": "ピニャコラーダ"
+            },
+            {
+              "en": "white russian",
+              "ja": "ホワイト・ルシアン"
+            },
+            {
+              "en": "gluhwein",
+              "ja": "グリューワイン"
+            },
+            {
+              "en": "liquor",
+              "ja": "リカー"
+            },
+            {
+              "en": "sake",
+              "ja": "酒"
+            },
+            {
+              "en": "tequila",
+              "ja": "テキーラ"
+            },
+            {
+              "en": "vodka",
+              "ja": "ウォッカ"
+            },
+            {
+              "en": "whiskey",
+              "ja": "ウィスキー"
+            },
+            {
+              "en": "wine",
+              "ja": "ワイン"
+            }
+          ]
+        },
+        {
+          "id": "tea",
+          "name": "お茶",
+          "tags": [
+            {
+              "en": "tea",
+              "ja": "お茶"
+            },
+            {
+              "en": "barley tea",
+              "ja": "麦茶"
+            },
+            {
+              "en": "black tea",
+              "ja": "紅茶"
+            },
+            {
+              "en": "bubble tea",
+              "ja": "タピオカティー"
+            },
+            {
+              "en": "chamomile tea",
+              "ja": "カモミールティー"
+            },
+            {
+              "en": "darjeeling tea",
+              "ja": "ダージリンティー"
+            },
+            {
+              "en": "earl grey tea",
+              "ja": "アールグレイティー"
+            },
+            {
+              "en": "green tea",
+              "ja": "緑茶"
+            },
+            {
+              "en": "herbal tea",
+              "ja": "ハーブティー"
+            },
+            {
+              "en": "iced tea",
+              "ja": "アイスティー"
+            },
+            {
+              "en": "milk tea",
+              "ja": "ミルクティー"
+            },
+            {
+              "en": "rose hip tea",
+              "ja": "ローズヒップティー"
+            },
+            {
+              "en": "spear mint tea",
+              "ja": "スピアミントティー"
+            }
+          ]
+        },
+        {
+          "id": "coffee",
+          "name": "コーヒー",
+          "tags": [
+            {
+              "en": "coffee",
+              "ja": "コーヒー"
+            },
+            {
+              "en": "cafe au lait",
+              "ja": "カフェオレ"
+            },
+            {
+              "en": "canned coffee",
+              "ja": "缶コーヒー"
+            },
+            {
+              "en": "cappuccino",
+              "ja": "カプチーノ"
+            },
+            {
+              "en": "coffee beans",
+              "ja": "コーヒー豆"
+            },
+            {
+              "en": "dandelion coffee",
+              "ja": "タンポポコーヒー"
+            },
+            {
+              "en": "georgia max coffee",
+              "ja": "ジョージアマックスコーヒー"
+            },
+            {
+              "en": "latte art",
+              "ja": "ラテアート"
+            },
+            {
+              "en": "starbucks",
+              "ja": "スターバックス"
+            }
+          ]
+        },
+        {
+          "id": "juice",
+          "name": "ジュース",
+          "tags": [
+            {
+              "en": "juice",
+              "ja": "ジュース"
+            },
+            {
+              "en": "amazake",
+              "ja": "甘酒"
+            },
+            {
+              "en": "strawberry juice",
+              "ja": "イチゴジュース"
+            },
+            {
+              "en": "soda",
+              "ja": "ソーダ"
+            },
+            {
+              "en": "7up",
+              "ja": "セブンアップ"
+            },
+            {
+              "en": "calpis",
+              "ja": "カルピス"
+            },
+            {
+              "en": "coca-cola",
+              "ja": "コカコーラ"
+            },
+            {
+              "en": "dr pepper",
+              "ja": "ドクターペッパー"
+            },
+            {
+              "en": "fanta",
+              "ja": "ファンタ"
+            },
+            {
+              "en": "melon soda",
+              "ja": "メロンソーダ"
+            },
+            {
+              "en": "mountain dew",
+              "ja": "マウンテンデュー"
+            },
+            {
+              "en": "pepsi",
+              "ja": "ペプシ"
+            },
+            {
+              "en": "pepsi ice cucumber",
+              "ja": "ペプシアイスキュウリ"
+            },
+            {
+              "en": "ramune",
+              "ja": "ラムネ"
+            },
+            {
+              "en": "root beer",
+              "ja": "ルートビア"
+            },
+            {
+              "en": "soda can",
+              "ja": "ソーダ缶"
+            },
+            {
+              "en": "tropical drink",
+              "ja": "トロピカルドリンク"
+            }
+          ]
+        },
+        {
+          "id": "other",
+          "name": "その他",
+          "tags": [
+            {
+              "en": "drink",
+              "ja": "飲み物"
+            },
+            {
+              "en": "water",
+              "ja": "水"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "containers-utensils",
+      "name": "容器・器具",
+      "children": [
+        {
+          "id": "containers",
+          "name": "容器",
+          "tags": [
+            {
+              "en": "pizza box",
+              "ja": "ピザの箱"
+            },
+            {
+              "en": "sushi geta",
+              "ja": "寿司下駄"
+            },
+            {
+              "en": "bottle",
+              "ja": "ボトル"
+            },
+            {
+              "en": "ketchup bottle",
+              "ja": "ケチャップの瓶"
+            },
+            {
+              "en": "mayonnaise bottle",
+              "ja": "マヨネーズボトル"
+            },
+            {
+              "en": "mustard bottle",
+              "ja": "マスタードボトル"
+            },
+            {
+              "en": "soda bottle",
+              "ja": "ソーダボトル"
+            },
+            {
+              "en": "soy sauce bottle",
+              "ja": "醤油瓶"
+            },
+            {
+              "en": "can",
+              "ja": "できる"
+            },
+            {
+              "en": "condiment packet",
+              "ja": "調味料パック"
+            },
+            {
+              "en": "cup",
+              "ja": "カップ"
+            },
+            {
+              "en": "mug",
+              "ja": "マグ"
+            },
+            {
+              "en": "sakazuki",
+              "ja": "盃"
+            },
+            {
+              "en": "yunomi",
+              "ja": "ゆのみ"
+            },
+            {
+              "en": "drinking glass",
+              "ja": "飲み物のグラス"
+            },
+            {
+              "en": "champagne coupe",
+              "ja": "シャンパンクープ"
+            },
+            {
+              "en": "champagne flute",
+              "ja": "シャンパンフルート"
+            },
+            {
+              "en": "cocktail glass",
+              "ja": "カクテルグラス"
+            },
+            {
+              "en": "hurricane glass",
+              "ja": "ハリケーンガラス"
+            },
+            {
+              "en": "shot glass",
+              "ja": "ショットグラス"
+            },
+            {
+              "en": "snifter",
+              "ja": "スニフター"
+            },
+            {
+              "en": "wine glass",
+              "ja": "ワイングラス"
+            },
+            {
+              "en": "disposable coffee cup",
+              "ja": "使い捨てコーヒーカップ"
+            },
+            {
+              "en": "coffee mug",
+              "ja": "コーヒーマグ"
+            },
+            {
+              "en": "gaiwan",
+              "ja": "ガイワン"
+            },
+            {
+              "en": "gourd",
+              "ja": "ひょうたん"
+            },
+            {
+              "en": "jar",
+              "ja": "瓶"
+            },
+            {
+              "en": "jug",
+              "ja": "水差し"
+            },
+            {
+              "en": "juice box",
+              "ja": "ジュースボックス"
+            },
+            {
+              "en": "beer mug",
+              "ja": "ビールジョッキ"
+            },
+            {
+              "en": "mamezara",
+              "ja": "豆皿"
+            },
+            {
+              "en": "canned tea",
+              "ja": "缶入りのお茶"
+            },
+            {
+              "en": "saucer",
+              "ja": "受け皿"
+            },
+            {
+              "en": "teacup",
+              "ja": "ティーカップ"
+            },
+            {
+              "en": "thermos",
+              "ja": "魔法瓶"
+            }
+          ]
+        },
+        {
+          "id": "utensils-items",
+          "name": "器具・アイテム",
+          "tags": [
+            {
+              "en": "baking sheet",
+              "ja": "ベーキングシート"
+            },
+            {
+              "en": "bamboo steamer",
+              "ja": "竹蒸し器"
+            },
+            {
+              "en": "basket",
+              "ja": "バスケット"
+            },
+            {
+              "en": "picnic basket",
+              "ja": "ピクニックバスケット"
+            },
+            {
+              "en": "shopping basket",
+              "ja": "買い物かご"
+            },
+            {
+              "en": "shopping cart",
+              "ja": "ショッピングカート"
+            },
+            {
+              "en": "squeeze bottle",
+              "ja": "スクイーズボトル"
+            },
+            {
+              "en": "bowl",
+              "ja": "ボウル"
+            },
+            {
+              "en": "plate",
+              "ja": "皿"
+            },
+            {
+              "en": "cake pan",
+              "ja": "ケーキ型"
+            },
+            {
+              "en": "chopsticks",
+              "ja": "箸"
+            },
+            {
+              "en": "chopstick rest",
+              "ja": "箸置き"
+            },
+            {
+              "en": "cocktail flower",
+              "ja": "カクテルフラワー"
+            },
+            {
+              "en": "coffee grinder",
+              "ja": "コーヒーグラインダー"
+            },
+            {
+              "en": "cookie cutter",
+              "ja": "クッキーカッター"
+            },
+            {
+              "en": "cutting board",
+              "ja": "まな板"
+            },
+            {
+              "en": "dishes",
+              "ja": "料理"
+            },
+            {
+              "en": "drinking straw",
+              "ja": "ストロー"
+            },
+            {
+              "en": "bendy straw",
+              "ja": "曲がるストロー"
+            },
+            {
+              "en": "crazy straw",
+              "ja": "クレイジーストロー"
+            },
+            {
+              "en": "heart straw",
+              "ja": "ハートストロー"
+            },
+            {
+              "en": "egg carton",
+              "ja": "卵パック"
+            },
+            {
+              "en": "food packaging",
+              "ja": "食品包装"
+            },
+            {
+              "en": "food wrapper",
+              "ja": "食品包装紙"
+            },
+            {
+              "en": "fork",
+              "ja": "フォーク"
+            },
+            {
+              "en": "spork",
+              "ja": "スポーク"
+            },
+            {
+              "en": "frying pan",
+              "ja": "フライパン"
+            },
+            {
+              "en": "tamagoyaki pan",
+              "ja": "玉子焼きパン"
+            },
+            {
+              "en": "gravy boat",
+              "ja": "グレイビーボート"
+            },
+            {
+              "en": "griddle",
+              "ja": "グリドル"
+            },
+            {
+              "en": "grill",
+              "ja": "グリル"
+            },
+            {
+              "en": "shichirin",
+              "ja": "七輪"
+            },
+            {
+              "en": "honey dipper",
+              "ja": "ハニーディッパー"
+            },
+            {
+              "en": "hot plate",
+              "ja": "ホットプレート"
+            },
+            {
+              "en": "ice cream scoop",
+              "ja": "アイスクリームスクープ"
+            },
+            {
+              "en": "kitchen scale",
+              "ja": "キッチンスケール"
+            },
+            {
+              "en": "knife",
+              "ja": "ナイフ"
+            },
+            {
+              "en": "butter knife",
+              "ja": "バターナイフ"
+            },
+            {
+              "en": "cleaver",
+              "ja": "包丁"
+            },
+            {
+              "en": "kettle",
+              "ja": "ケトル"
+            },
+            {
+              "en": "ladle",
+              "ja": "ひしゃく"
+            },
+            {
+              "en": "lunchbox",
+              "ja": "弁当箱"
+            },
+            {
+              "en": "makisu",
+              "ja": "まきす"
+            },
+            {
+              "en": "measuring cup",
+              "ja": "計量カップ"
+            },
+            {
+              "en": "mess kit",
+              "ja": "メスキット"
+            },
+            {
+              "en": "microwave",
+              "ja": "電子レンジ"
+            },
+            {
+              "en": "milking machine",
+              "ja": "搾乳機"
+            },
+            {
+              "en": "mini flag",
+              "ja": "ミニフラッグ"
+            },
+            {
+              "en": "mixer",
+              "ja": "ミキサー"
+            },
+            {
+              "en": "napkin",
+              "ja": "ナプキン"
+            },
+            {
+              "en": "oven",
+              "ja": "オーブン"
+            },
+            {
+              "en": "brick oven",
+              "ja": "レンガ窯"
+            },
+            {
+              "en": "oven mitts",
+              "ja": "オーブンミット"
+            },
+            {
+              "en": "pastry bag",
+              "ja": "ペストリーバッグ"
+            },
+            {
+              "en": "peel",
+              "ja": "皮をむく"
+            },
+            {
+              "en": "holding plate",
+              "ja": "保持プレート"
+            },
+            {
+              "en": "plate stack",
+              "ja": "プレートスタック"
+            },
+            {
+              "en": "pot",
+              "ja": "ポット"
+            },
+            {
+              "en": "honeypot",
+              "ja": "ハニーポット"
+            },
+            {
+              "en": "cauldron",
+              "ja": "大釜"
+            },
+            {
+              "en": "recipe",
+              "ja": "レシピ"
+            },
+            {
+              "en": "refrigerator",
+              "ja": "冷蔵庫"
+            },
+            {
+              "en": "rice cooker",
+              "ja": "炊飯器"
+            },
+            {
+              "en": "rolling pin",
+              "ja": "麺棒"
+            },
+            {
+              "en": "serving dome",
+              "ja": "サービングドーム"
+            },
+            {
+              "en": "sink",
+              "ja": "シンク"
+            },
+            {
+              "en": "sizzler plate",
+              "ja": "シズラープレート"
+            },
+            {
+              "en": "soda fountain",
+              "ja": "ソーダファウンテン"
+            },
+            {
+              "en": "spatula",
+              "ja": "ヘラ"
+            },
+            {
+              "en": "serving spatula",
+              "ja": "サービングスパチュラ"
+            },
+            {
+              "en": "spoon",
+              "ja": "スプーン"
+            },
+            {
+              "en": "shamoji",
+              "ja": "しゃもじ"
+            },
+            {
+              "en": "chinese spoon",
+              "ja": "中国のスプーン"
+            },
+            {
+              "en": "stove",
+              "ja": "レンジ"
+            },
+            {
+              "en": "sugar bowl",
+              "ja": "砂糖入れ"
+            },
+            {
+              "en": "takeout container",
+              "ja": "テイクアウト容器"
+            },
+            {
+              "en": "oyster pail",
+              "ja": "牡蠣の桶"
+            },
+            {
+              "en": "teapot heater",
+              "ja": "ティーポットヒーター"
+            },
+            {
+              "en": "toaster",
+              "ja": "トースター"
+            },
+            {
+              "en": "tongs",
+              "ja": "トング"
+            },
+            {
+              "en": "tray",
+              "ja": "トレイ"
+            },
+            {
+              "en": "cake stand",
+              "ja": "ケーキスタンド"
+            },
+            {
+              "en": "tiered tray",
+              "ja": "段付きトレイ"
+            },
+            {
+              "en": "utensil rack",
+              "ja": "調理器具ラック"
+            },
+            {
+              "en": "whisk",
+              "ja": "泡立て器"
+            },
+            {
+              "en": "wok",
+              "ja": "中華鍋"
+            },
+            {
+              "en": "coffee pot",
+              "ja": "コーヒーポット"
+            },
+            {
+              "en": "coffee press",
+              "ja": "コーヒープレス"
+            },
+            {
+              "en": "teapot",
+              "ja": "ティーポット"
+            },
+            {
+              "en": "long spout teapot",
+              "ja": "長い注ぎ口のティーポット"
+            },
+            {
+              "en": "side handle teapot",
+              "ja": "サイドハンドルティーポット"
+            },
+            {
+              "en": "tea set",
+              "ja": "ティーセット"
+            },
+            {
+              "en": "tea strainer",
+              "ja": "茶こし"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "name": "動作",
+      "tags": [
+        {
+          "en": "breaking pasta",
+          "ja": "パスタを折る"
+        },
+        {
+          "en": "cannibalism",
+          "ja": "共食い"
+        },
+        {
+          "en": "cooking",
           "ja": "料理"
         },
         {
-          "en": "drinking straw",
-          "ja": "ストロー"
+          "en": "baking",
+          "ja": "ベーキング"
         },
         {
-          "en": "bendy straw",
-          "ja": "曲がるストロー"
+          "en": "barbecue",
+          "ja": "バーベキュー"
         },
         {
-          "en": "crazy straw",
-          "ja": "クレイジーストロー"
+          "en": "chocolate making",
+          "ja": "チョコレート作り"
         },
         {
-          "en": "heart straw",
-          "ja": "ハートストロー"
-        },
-        {
-          "en": "egg carton",
-          "ja": "卵パック"
-        },
-        {
-          "en": "food packaging",
-          "ja": "食品包装"
-        },
-        {
-          "en": "food wrapper",
-          "ja": "食品包装紙"
-        },
-        {
-          "en": "fork",
-          "ja": "フォーク"
-        },
-        {
-          "en": "spork",
-          "ja": "スポーク"
-        },
-        {
-          "en": "frying pan",
-          "ja": "フライパン"
-        },
-        {
-          "en": "tamagoyaki pan",
-          "ja": "玉子焼きパン"
-        },
-        {
-          "en": "gravy boat",
-          "ja": "グレイビーボート"
-        },
-        {
-          "en": "griddle",
-          "ja": "グリドル"
-        },
-        {
-          "en": "grill",
+          "en": "grilling",
           "ja": "グリル"
         },
         {
-          "en": "shichirin",
-          "ja": "七輪"
+          "en": "roasting",
+          "ja": "焙煎"
         },
         {
-          "en": "honey dipper",
-          "ja": "ハニーディッパー"
+          "en": "cupping glass",
+          "ja": "カッピンググラス"
         },
         {
-          "en": "hot plate",
-          "ja": "ホットプレート"
+          "en": "dishwashing",
+          "ja": "食器洗い"
         },
         {
-          "en": "ice cream scoop",
-          "ja": "アイスクリームスクープ"
+          "en": "drinking",
+          "ja": "飲酒"
         },
         {
-          "en": "kitchen scale",
-          "ja": "キッチンスケール"
+          "en": "drunk",
+          "ja": "酔っ払い"
         },
         {
-          "en": "knife",
-          "ja": "ナイフ"
+          "en": "jiao bei jiu",
+          "ja": "焦北九"
         },
         {
-          "en": "butter knife",
-          "ja": "バターナイフ"
+          "en": "eating",
+          "ja": "食べる"
         },
         {
-          "en": "cleaver",
-          "ja": "包丁"
+          "en": "eating during class",
+          "ja": "授業中に食べる"
         },
         {
-          "en": "kettle",
-          "ja": "ケトル"
+          "en": "feeding",
+          "ja": "給餌"
         },
         {
-          "en": "ladle",
-          "ja": "ひしゃく"
+          "en": "force-feeding",
+          "ja": "強制給餌"
         },
         {
-          "en": "lunchbox",
-          "ja": "弁当箱"
+          "en": "incoming food",
+          "ja": "入ってくる食べ物"
         },
         {
-          "en": "makisu",
-          "ja": "まきす"
+          "en": "flipping food",
+          "ja": "食べ物をひっくり返す"
         },
         {
-          "en": "measuring cup",
-          "ja": "計量カップ"
+          "en": "food fight",
+          "ja": "フードファイト"
         },
         {
-          "en": "mess kit",
-          "ja": "メスキット"
+          "en": "foodgasm",
+          "ja": "フードガズム"
         },
         {
-          "en": "microwave",
-          "ja": "電子レンジ"
+          "en": "full mouth",
+          "ja": "口いっぱいに"
         },
         {
-          "en": "milking machine",
-          "ja": "搾乳機"
+          "en": "hanging food",
+          "ja": "吊り下げ式食品"
         },
         {
-          "en": "mini flag",
-          "ja": "ミニフラッグ"
+          "en": "hungry",
+          "ja": "お腹がすいた"
         },
         {
-          "en": "mixer",
-          "ja": "ミキサー"
+          "en": "hunger hallucination",
+          "ja": "空腹幻覚"
         },
         {
-          "en": "napkin",
-          "ja": "ナプキン"
+          "en": "in food",
+          "ja": "食品中"
         },
         {
-          "en": "oven",
-          "ja": "オーブン"
+          "en": "licking",
+          "ja": "舐める"
         },
         {
-          "en": "brick oven",
-          "ja": "レンガ窯"
+          "en": "picnic",
+          "ja": "ピクニック"
         },
         {
-          "en": "oven mitts",
-          "ja": "オーブンミット"
+          "en": "pouring",
+          "ja": "注ぐ"
         },
         {
-          "en": "pastry bag",
-          "ja": "ペストリーバッグ"
+          "en": "decantering",
+          "ja": "デカンタリング"
         },
         {
-          "en": "peel",
-          "ja": "皮をむく"
+          "en": "shop",
+          "ja": "店"
         },
         {
-          "en": "holding plate",
-          "ja": "保持プレート"
+          "en": "shopping",
+          "ja": "買い物"
         },
         {
-          "en": "plate stack",
-          "ja": "プレートスタック"
+          "en": "shinkon santaku",
+          "ja": "しんこんさんたく"
         },
         {
-          "en": "pot",
-          "ja": "ポット"
+          "en": "spill",
+          "ja": "こぼれる"
         },
         {
-          "en": "honeypot",
-          "ja": "ハニーポット"
+          "en": "tasting",
+          "ja": "試飲"
         },
         {
-          "en": "cauldron",
-          "ja": "大釜"
+          "en": "tea ceremony",
+          "ja": "茶道"
         },
         {
-          "en": "recipe",
-          "ja": "レシピ"
+          "en": "toast in mouth",
+          "ja": "口の中のトースト"
         },
         {
-          "en": "refrigerator",
-          "ja": "冷蔵庫"
+          "en": "the last supper",
+          "ja": "最後の晩餐"
         },
         {
-          "en": "rice cooker",
-          "ja": "炊飯器"
+          "en": "vore",
+          "ja": "ボア"
         },
         {
-          "en": "rolling pin",
-          "ja": "麺棒"
+          "en": "whisking",
+          "ja": "泡立てる"
         },
         {
-          "en": "serving dome",
-          "ja": "サービングドーム"
+          "en": "holding pizza",
+          "ja": "ピザを持っている"
         },
         {
-          "en": "sink",
-          "ja": "シンク"
-        },
-        {
-          "en": "sizzler plate",
-          "ja": "シズラープレート"
-        },
-        {
-          "en": "soda fountain",
-          "ja": "ソーダファウンテン"
-        },
-        {
-          "en": "spatula",
-          "ja": "ヘラ"
-        },
-        {
-          "en": "serving spatula",
-          "ja": "サービングスパチュラ"
-        },
-        {
-          "en": "spoon",
-          "ja": "スプーン"
-        },
-        {
-          "en": "shamoji",
-          "ja": "しゃもじ"
-        },
-        {
-          "en": "chinese spoon",
-          "ja": "中国のスプーン"
-        },
-        {
-          "en": "stove",
-          "ja": "レンジ"
-        },
-        {
-          "en": "sugar bowl",
-          "ja": "砂糖入れ"
-        },
-        {
-          "en": "takeout container",
-          "ja": "テイクアウト容器"
-        },
-        {
-          "en": "oyster pail",
-          "ja": "牡蠣の桶"
-        },
-        {
-          "en": "teapot heater",
-          "ja": "ティーポットヒーター"
-        },
-        {
-          "en": "toaster",
-          "ja": "トースター"
-        },
-        {
-          "en": "tongs",
-          "ja": "トング"
-        },
-        {
-          "en": "tray",
-          "ja": "トレイ"
-        },
-        {
-          "en": "cake stand",
-          "ja": "ケーキスタンド"
-        },
-        {
-          "en": "tiered tray",
-          "ja": "段付きトレイ"
-        },
-        {
-          "en": "utensil rack",
-          "ja": "調理器具ラック"
-        },
-        {
-          "en": "whisk",
-          "ja": "泡立て器"
-        },
-        {
-          "en": "wok",
-          "ja": "中華鍋"
-        },
-        {
-          "en": "coffee pot",
-          "ja": "コーヒーポット"
-        },
-        {
-          "en": "coffee press",
-          "ja": "コーヒープレス"
-        },
-        {
-          "en": "teapot",
-          "ja": "ティーポット"
-        },
-        {
-          "en": "long spout teapot",
-          "ja": "長い注ぎ口のティーポット"
-        },
-        {
-          "en": "side handle teapot",
-          "ja": "サイドハンドルティーポット"
-        },
-        {
-          "en": "tea set",
-          "ja": "ティーセット"
-        },
-        {
-          "en": "tea strainer",
-          "ja": "茶こし"
+          "en": "pizza delivery",
+          "ja": "ピザの配達"
         }
       ]
     },
-    "動作": [
-      {
-        "en": "breaking pasta",
-        "ja": "パスタを折る"
-      },
-      {
-        "en": "cannibalism",
-        "ja": "共食い"
-      },
-      {
-        "en": "cooking",
-        "ja": "料理"
-      },
-      {
-        "en": "baking",
-        "ja": "ベーキング"
-      },
-      {
-        "en": "barbecue",
-        "ja": "バーベキュー"
-      },
-      {
-        "en": "chocolate making",
-        "ja": "チョコレート作り"
-      },
-      {
-        "en": "grilling",
-        "ja": "グリル"
-      },
-      {
-        "en": "roasting",
-        "ja": "焙煎"
-      },
-      {
-        "en": "cupping glass",
-        "ja": "カッピンググラス"
-      },
-      {
-        "en": "dishwashing",
-        "ja": "食器洗い"
-      },
-      {
-        "en": "drinking",
-        "ja": "飲酒"
-      },
-      {
-        "en": "drunk",
-        "ja": "酔っ払い"
-      },
-      {
-        "en": "jiao bei jiu",
-        "ja": "焦北九"
-      },
-      {
-        "en": "eating",
-        "ja": "食べる"
-      },
-      {
-        "en": "eating during class",
-        "ja": "授業中に食べる"
-      },
-      {
-        "en": "feeding",
-        "ja": "給餌"
-      },
-      {
-        "en": "force-feeding",
-        "ja": "強制給餌"
-      },
-      {
-        "en": "incoming food",
-        "ja": "入ってくる食べ物"
-      },
-      {
-        "en": "flipping food",
-        "ja": "食べ物をひっくり返す"
-      },
-      {
-        "en": "food fight",
-        "ja": "フードファイト"
-      },
-      {
-        "en": "foodgasm",
-        "ja": "フードガズム"
-      },
-      {
-        "en": "full mouth",
-        "ja": "口いっぱいに"
-      },
-      {
-        "en": "hanging food",
-        "ja": "吊り下げ式食品"
-      },
-      {
-        "en": "hungry",
-        "ja": "お腹がすいた"
-      },
-      {
-        "en": "hunger hallucination",
-        "ja": "空腹幻覚"
-      },
-      {
-        "en": "in food",
-        "ja": "食品中"
-      },
-      {
-        "en": "licking",
-        "ja": "舐める"
-      },
-      {
-        "en": "picnic",
-        "ja": "ピクニック"
-      },
-      {
-        "en": "pouring",
-        "ja": "注ぐ"
-      },
-      {
-        "en": "decantering",
-        "ja": "デカンタリング"
-      },
-      {
-        "en": "shop",
-        "ja": "店"
-      },
-      {
-        "en": "shopping",
-        "ja": "買い物"
-      },
-      {
-        "en": "shinkon santaku",
-        "ja": "しんこんさんたく"
-      },
-      {
-        "en": "spill",
-        "ja": "こぼれる"
-      },
-      {
-        "en": "tasting",
-        "ja": "試飲"
-      },
-      {
-        "en": "tea ceremony",
-        "ja": "茶道"
-      },
-      {
-        "en": "toast in mouth",
-        "ja": "口の中のトースト"
-      },
-      {
-        "en": "the last supper",
-        "ja": "最後の晩餐"
-      },
-      {
-        "en": "vore",
-        "ja": "ボア"
-      },
-      {
-        "en": "whisking",
-        "ja": "泡立てる"
-      },
-      {
-        "en": "holding pizza",
-        "ja": "ピザを持っている"
-      },
-      {
-        "en": "pizza delivery",
-        "ja": "ピザの配達"
-      }
-    ],
-    "場所": [
-      {
-        "en": "conveyor belt sushi",
-        "ja": "回転寿司"
-      },
-      {
-        "en": "bakery",
-        "ja": "ベーカリー"
-      },
-      {
-        "en": "food stand",
-        "ja": "屋台"
-      },
-      {
-        "en": "ice cream stand",
-        "ja": "アイスクリームスタンド"
-      },
-      {
-        "en": "yatai",
-        "ja": "屋台"
-      },
-      {
-        "en": "kitchen",
-        "ja": "台所"
-      },
-      {
-        "en": "restaurant",
-        "ja": "レストラン"
-      },
-      {
-        "en": "bar",
-        "ja": "バー"
-      },
-      {
-        "en": "cafe",
-        "ja": "カフェ"
-      },
-      {
-        "en": "maid cafe",
-        "ja": "メイドカフェ"
-      },
-      {
-        "en": "cafeteria",
-        "ja": "カフェテリア"
-      },
-      {
-        "en": "diner",
-        "ja": "ダイナー"
-      },
-      {
-        "en": "fast food",
-        "ja": "ファーストフード"
-      },
-      {
-        "en": "izakaya",
-        "ja": "居酒屋"
-      },
-      {
-        "en": "menu",
-        "ja": "メニュー"
-      },
-      {
-        "en": "angel mort",
-        "ja": "エンジェル・モート"
-      },
-      {
-        "en": "anna miller",
-        "ja": "アンナ・ミラー"
-      },
-      {
-        "en": "bronze parrot",
-        "ja": "ブロンズのオウム"
-      },
-      {
-        "en": "hooters",
-        "ja": "フーターズ"
-      },
-      {
-        "en": "koubeya",
-        "ja": "コウベヤ"
-      },
-      {
-        "en": "yoshinoya",
-        "ja": "吉野家"
-      },
-      {
-        "en": "tavern",
-        "ja": "居酒屋"
-      },
-      {
-        "en": "yakiniku",
-        "ja": "焼肉"
-      },
-      {
-        "en": "market",
-        "ja": "市場"
-      },
-      {
-        "en": "supermarket",
-        "ja": "スーパーマーケット"
-      },
-      {
-        "en": "groceries",
-        "ja": "食料品"
-      }
-    ],
-    "その他": {
-      "職業": [
+    {
+      "id": "places",
+      "name": "場所",
+      "tags": [
         {
-          "en": "butler",
-          "ja": "執事"
+          "en": "conveyor belt sushi",
+          "ja": "回転寿司"
         },
         {
-          "en": "chef",
-          "ja": "シェフ"
+          "en": "bakery",
+          "ja": "ベーカリー"
         },
         {
-          "en": "maid",
-          "ja": "メイド"
+          "en": "food stand",
+          "ja": "屋台"
         },
         {
-          "en": "bartender",
-          "ja": "バーテンダー"
+          "en": "ice cream stand",
+          "ja": "アイスクリームスタンド"
         },
         {
-          "en": "barista",
-          "ja": "バリスタ"
+          "en": "yatai",
+          "ja": "屋台"
         },
         {
-          "en": "waiter",
-          "ja": "ウェイター"
+          "en": "kitchen",
+          "ja": "台所"
         },
         {
-          "en": "waitress",
-          "ja": "ウェイトレス"
-        }
-      ],
-      "衣類": [
-        {
-          "en": "apron",
-          "ja": "エプロン"
+          "en": "restaurant",
+          "ja": "レストラン"
         },
         {
-          "en": "naked apron",
-          "ja": "裸エプロン"
+          "en": "bar",
+          "ja": "バー"
         },
         {
-          "en": "chef hat",
-          "ja": "シェフハット"
+          "en": "cafe",
+          "ja": "カフェ"
         },
         {
-          "en": "toque blanche",
-          "ja": "白い帽子"
+          "en": "maid cafe",
+          "ja": "メイドカフェ"
         },
         {
-          "en": "flat top chef hat",
-          "ja": "フラットトップのシェフハット"
-        }
-      ],
-      "メーカー・ブランド": [
-        {
-          "en": "7-eleven",
-          "ja": "セブンイレブン"
+          "en": "cafeteria",
+          "ja": "カフェテリア"
         },
         {
-          "en": "a&w",
-          "ja": "a&w"
+          "en": "diner",
+          "ja": "ダイナー"
         },
         {
-          "en": "black star burger",
-          "ja": "ブラックスターバーガー"
+          "en": "fast food",
+          "ja": "ファーストフード"
         },
         {
-          "en": "boukun habanero",
-          "ja": "ボウクンハバネロ"
+          "en": "izakaya",
+          "ja": "居酒屋"
         },
         {
-          "en": "budweiser",
-          "ja": "バドワイザー"
+          "en": "menu",
+          "ja": "メニュー"
         },
         {
-          "en": "burger king",
-          "ja": "バーガーキング"
+          "en": "angel mort",
+          "ja": "エンジェル・モート"
         },
         {
-          "en": "cadbury",
-          "ja": "キャドバリー"
+          "en": "anna miller",
+          "ja": "アンナ・ミラー"
         },
         {
-          "en": "dairy queen",
-          "ja": "デイリークイーン"
+          "en": "bronze parrot",
+          "ja": "ブロンズのオウム"
         },
         {
-          "en": "domino's pizza",
-          "ja": "ドミノピザ"
+          "en": "hooters",
+          "ja": "フーターズ"
         },
         {
-          "en": "evian",
-          "ja": "エビアン"
+          "en": "koubeya",
+          "ja": "コウベヤ"
         },
         {
-          "en": "gyouza no manshuu",
-          "ja": "餃子のまんしゅう"
+          "en": "yoshinoya",
+          "ja": "吉野家"
         },
         {
-          "en": "gyu-kaku",
-          "ja": "牛角"
+          "en": "tavern",
+          "ja": "居酒屋"
         },
         {
-          "en": "heinz",
-          "ja": "ハインツ"
+          "en": "yakiniku",
+          "ja": "焼肉"
         },
         {
-          "en": "jack in the box",
-          "ja": "ジャック・イン・ザ・ボックス"
+          "en": "market",
+          "ja": "市場"
         },
         {
-          "en": "jollibee",
-          "ja": "ジョリビー"
+          "en": "supermarket",
+          "ja": "スーパーマーケット"
         },
         {
-          "en": "kentucky fried chicken",
-          "ja": "ケンタッキーフライドチキン"
-        },
-        {
-          "en": "krispy kreme",
-          "ja": "クリスピークリーム"
-        },
-        {
-          "en": "lay's",
-          "ja": "レイズ"
-        },
-        {
-          "en": "little caesars",
-          "ja": "リトルシーザーズ"
-        },
-        {
-          "en": "lipton",
-          "ja": "リプトン"
-        },
-        {
-          "en": "mcdonald's",
-          "ja": "マクドナルド"
-        },
-        {
-          "en": "meiji",
-          "ja": "明治"
-        },
-        {
-          "en": "mister donut",
-          "ja": "ミスタードーナツ"
-        },
-        {
-          "en": "monster energy",
-          "ja": "モンスターエナジー"
-        },
-        {
-          "en": "morinaga",
-          "ja": "森永"
-        },
-        {
-          "en": "mos burger",
-          "ja": "モスバーガー"
-        },
-        {
-          "en": "nestle",
-          "ja": "ネスレ"
-        },
-        {
-          "en": "papa john's",
-          "ja": "パパ・ジョンズ"
-        },
-        {
-          "en": "pizza hut",
-          "ja": "ピザハット"
-        },
-        {
-          "en": "pocari sweat",
-          "ja": "ポカリスエット"
-        },
-        {
-          "en": "red bull",
-          "ja": "レッドブル"
-        },
-        {
-          "en": "smirnoff",
-          "ja": "スミノフ"
-        },
-        {
-          "en": "snickers",
-          "ja": "スニッカーズ"
-        },
-        {
-          "en": "sonic's drive-in",
-          "ja": "ソニックのドライブイン"
-        },
-        {
-          "en": "subway",
-          "ja": "地下鉄"
-        },
-        {
-          "en": "suntory",
-          "ja": "サントリー"
-        },
-        {
-          "en": "c.c. lemon",
-          "ja": "ccレモン"
-        },
-        {
-          "en": "orangina",
-          "ja": "オランジーナ"
-        },
-        {
-          "en": "tabasco",
-          "ja": "タバスコ"
-        },
-        {
-          "en": "taco bell",
-          "ja": "タコベル"
-        },
-        {
-          "en": "tecate",
-          "ja": "テカテ"
-        },
-        {
-          "en": "tim hortons",
-          "ja": "ティムホートンズ"
-        },
-        {
-          "en": "toblerone",
-          "ja": "トブラローネ"
-        },
-        {
-          "en": "ucc coffee",
-          "ja": "UCCコーヒー"
-        },
-        {
-          "en": "wendy's",
-          "ja": "ウェンディーズ"
-        },
-        {
-          "en": "yebisu",
-          "ja": "エビス"
+          "en": "groceries",
+          "ja": "食料品"
         }
       ]
     },
-    "NSFW": [
-      {
-        "en": "cum on food",
-        "ja": "食べ物に精子をかける"
-      },
-      {
-        "en": "food on body",
-        "ja": "体についた食べ物"
-      },
-      {
-        "en": "bust cup",
-        "ja": "バストカップ"
-      },
-      {
-        "en": "chocolate on body",
-        "ja": "体にチョコレート"
-      },
-      {
-        "en": "chocolate on breasts",
-        "ja": "胸にチョコレート"
-      },
-      {
-        "en": "naked chocolate",
-        "ja": "ネイキッドチョコレート"
-      },
-      {
-        "en": "cream on body",
-        "ja": "ボディクリーム"
-      },
-      {
-        "en": "food as clothes",
-        "ja": "食べ物を衣服として"
-      },
-      {
-        "en": "chocolate clothes",
-        "ja": "チョコレートの服"
-      },
-      {
-        "en": "food between breasts",
-        "ja": "乳房の間の食べ物"
-      },
-      {
-        "en": "food on breasts",
-        "ja": "胸に食べ物"
-      },
-      {
-        "en": "nyotaimori",
-        "ja": "女体盛り"
-      },
-      {
-        "en": "nantaimori",
-        "ja": "七体盛"
-      },
-      {
-        "en": "wakamezake",
-        "ja": "わかめ酒"
-      }
-    ]
-  }
+    {
+      "id": "other",
+      "name": "その他",
+      "children": [
+        {
+          "id": "occupations",
+          "name": "職業",
+          "tags": [
+            {
+              "en": "butler",
+              "ja": "執事"
+            },
+            {
+              "en": "chef",
+              "ja": "シェフ"
+            },
+            {
+              "en": "maid",
+              "ja": "メイド"
+            },
+            {
+              "en": "bartender",
+              "ja": "バーテンダー"
+            },
+            {
+              "en": "barista",
+              "ja": "バリスタ"
+            },
+            {
+              "en": "waiter",
+              "ja": "ウェイター"
+            },
+            {
+              "en": "waitress",
+              "ja": "ウェイトレス"
+            }
+          ]
+        },
+        {
+          "id": "clothing",
+          "name": "衣類",
+          "tags": [
+            {
+              "en": "apron",
+              "ja": "エプロン"
+            },
+            {
+              "en": "naked apron",
+              "ja": "裸エプロン"
+            },
+            {
+              "en": "chef hat",
+              "ja": "シェフハット"
+            },
+            {
+              "en": "toque blanche",
+              "ja": "白い帽子"
+            },
+            {
+              "en": "flat top chef hat",
+              "ja": "フラットトップのシェフハット"
+            }
+          ]
+        },
+        {
+          "id": "makers-brands",
+          "name": "メーカー・ブランド",
+          "tags": [
+            {
+              "en": "7-eleven",
+              "ja": "セブンイレブン"
+            },
+            {
+              "en": "a&w",
+              "ja": "a&w"
+            },
+            {
+              "en": "black star burger",
+              "ja": "ブラックスターバーガー"
+            },
+            {
+              "en": "boukun habanero",
+              "ja": "ボウクンハバネロ"
+            },
+            {
+              "en": "budweiser",
+              "ja": "バドワイザー"
+            },
+            {
+              "en": "burger king",
+              "ja": "バーガーキング"
+            },
+            {
+              "en": "cadbury",
+              "ja": "キャドバリー"
+            },
+            {
+              "en": "dairy queen",
+              "ja": "デイリークイーン"
+            },
+            {
+              "en": "domino's pizza",
+              "ja": "ドミノピザ"
+            },
+            {
+              "en": "evian",
+              "ja": "エビアン"
+            },
+            {
+              "en": "gyouza no manshuu",
+              "ja": "餃子のまんしゅう"
+            },
+            {
+              "en": "gyu-kaku",
+              "ja": "牛角"
+            },
+            {
+              "en": "heinz",
+              "ja": "ハインツ"
+            },
+            {
+              "en": "jack in the box",
+              "ja": "ジャック・イン・ザ・ボックス"
+            },
+            {
+              "en": "jollibee",
+              "ja": "ジョリビー"
+            },
+            {
+              "en": "kentucky fried chicken",
+              "ja": "ケンタッキーフライドチキン"
+            },
+            {
+              "en": "krispy kreme",
+              "ja": "クリスピークリーム"
+            },
+            {
+              "en": "lay's",
+              "ja": "レイズ"
+            },
+            {
+              "en": "little caesars",
+              "ja": "リトルシーザーズ"
+            },
+            {
+              "en": "lipton",
+              "ja": "リプトン"
+            },
+            {
+              "en": "mcdonald's",
+              "ja": "マクドナルド"
+            },
+            {
+              "en": "meiji",
+              "ja": "明治"
+            },
+            {
+              "en": "mister donut",
+              "ja": "ミスタードーナツ"
+            },
+            {
+              "en": "monster energy",
+              "ja": "モンスターエナジー"
+            },
+            {
+              "en": "morinaga",
+              "ja": "森永"
+            },
+            {
+              "en": "mos burger",
+              "ja": "モスバーガー"
+            },
+            {
+              "en": "nestle",
+              "ja": "ネスレ"
+            },
+            {
+              "en": "papa john's",
+              "ja": "パパ・ジョンズ"
+            },
+            {
+              "en": "pizza hut",
+              "ja": "ピザハット"
+            },
+            {
+              "en": "pocari sweat",
+              "ja": "ポカリスエット"
+            },
+            {
+              "en": "red bull",
+              "ja": "レッドブル"
+            },
+            {
+              "en": "smirnoff",
+              "ja": "スミノフ"
+            },
+            {
+              "en": "snickers",
+              "ja": "スニッカーズ"
+            },
+            {
+              "en": "sonic's drive-in",
+              "ja": "ソニックのドライブイン"
+            },
+            {
+              "en": "subway",
+              "ja": "地下鉄"
+            },
+            {
+              "en": "suntory",
+              "ja": "サントリー"
+            },
+            {
+              "en": "c.c. lemon",
+              "ja": "ccレモン"
+            },
+            {
+              "en": "orangina",
+              "ja": "オランジーナ"
+            },
+            {
+              "en": "tabasco",
+              "ja": "タバスコ"
+            },
+            {
+              "en": "taco bell",
+              "ja": "タコベル"
+            },
+            {
+              "en": "tecate",
+              "ja": "テカテ"
+            },
+            {
+              "en": "tim hortons",
+              "ja": "ティムホートンズ"
+            },
+            {
+              "en": "toblerone",
+              "ja": "トブラローネ"
+            },
+            {
+              "en": "ucc coffee",
+              "ja": "UCCコーヒー"
+            },
+            {
+              "en": "wendy's",
+              "ja": "ウェンディーズ"
+            },
+            {
+              "en": "yebisu",
+              "ja": "エビス"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nsfw",
+      "name": "NSFW",
+      "tags": [
+        {
+          "en": "cum on food",
+          "ja": "食べ物に精子をかける"
+        },
+        {
+          "en": "food on body",
+          "ja": "体についた食べ物"
+        },
+        {
+          "en": "bust cup",
+          "ja": "バストカップ"
+        },
+        {
+          "en": "chocolate on body",
+          "ja": "体にチョコレート"
+        },
+        {
+          "en": "chocolate on breasts",
+          "ja": "胸にチョコレート"
+        },
+        {
+          "en": "naked chocolate",
+          "ja": "ネイキッドチョコレート"
+        },
+        {
+          "en": "cream on body",
+          "ja": "ボディクリーム"
+        },
+        {
+          "en": "food as clothes",
+          "ja": "食べ物を衣服として"
+        },
+        {
+          "en": "chocolate clothes",
+          "ja": "チョコレートの服"
+        },
+        {
+          "en": "food between breasts",
+          "ja": "乳房の間の食べ物"
+        },
+        {
+          "en": "food on breasts",
+          "ja": "胸に食べ物"
+        },
+        {
+          "en": "nyotaimori",
+          "ja": "女体盛り"
+        },
+        {
+          "en": "nantaimori",
+          "ja": "七体盛"
+        },
+        {
+          "en": "wakamezake",
+          "ja": "わかめ酒"
+        }
+      ]
+    }
+  ]
 }

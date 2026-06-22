@@ -1,234 +1,250 @@
 {
   "id": "lighting",
   "name": "ライティング",
-  "tree": {
-    "ライティング効果": [
-      {
-        "en": "backlighting",
-        "ja": "バックライト"
-      },
-      {
-        "en": "sidelighting",
-        "ja": "サイドライト"
-      },
-      {
-        "en": "underlighting",
-        "ja": "下照明"
-      },
-      {
-        "en": "bloom",
-        "ja": "咲く"
-      },
-      {
-        "en": "sunlight",
-        "ja": "日光"
-      },
-      {
-        "en": "sunbeam",
-        "ja": "サンビーム"
-      },
-      {
-        "en": "dappled sunlight",
-        "ja": "木漏れ日"
-      },
-      {
-        "en": "moonlight",
-        "ja": "月光"
-      },
-      {
-        "en": "spotlight",
-        "ja": "スポットライト"
-      },
-      {
-        "en": "stage lights",
-        "ja": "舞台照明"
-      },
-      {
-        "en": "caustics",
-        "ja": "コースティクス"
-      },
-      {
-        "en": "crack of light",
-        "ja": "光のひび割れ"
-      },
-      {
-        "en": "refraction",
-        "ja": "屈折"
-      },
-      {
-        "en": "light rays",
-        "ja": "光線"
-      },
-      {
-        "en": "dim lighting",
-        "ja": "薄暗い照明"
-      },
-      {
-        "en": "chiaroscuro",
-        "ja": "明暗法"
-      }
-    ],
-    "時間帯": [
-      {
-        "en": "morning",
-        "ja": "朝"
-      },
-      {
-        "en": "dawn",
-        "ja": "夜明け"
-      },
-      {
-        "en": "sunrise",
-        "ja": "日の出"
-      },
-      {
-        "en": "day",
-        "ja": "日"
-      },
-      {
-        "en": "evening",
-        "ja": "夕方"
-      },
-      {
-        "en": "sunset",
-        "ja": "日没"
-      },
-      {
-        "en": "twilight",
-        "ja": "トワイライト"
-      },
-      {
-        "en": "dusk",
-        "ja": "夕暮れ"
-      },
-      {
-        "en": "night",
-        "ja": "夜"
-      }
-    ],
-    "光源": [
-      {
-        "en": "sun",
-        "ja": "太陽"
-      },
-      {
-        "en": "moon",
-        "ja": "月"
-      },
-      {
-        "en": "glowstick",
-        "ja": "グロースティック"
-      },
-      {
-        "en": "lamp",
-        "ja": "ランプ"
-      },
-      {
-        "en": "desk lamp",
-        "ja": "デスクランプ"
-      },
-      {
-        "en": "lamppost",
-        "ja": "街灯柱"
-      },
-      {
-        "en": "wall lamp",
-        "ja": "ウォールランプ"
-      },
-      {
-        "en": "torch",
-        "ja": "トーチ"
-      },
-      {
-        "en": "fire",
-        "ja": "火"
-      },
-      {
-        "en": "embers",
-        "ja": "残り火"
-      },
-      {
-        "en": "flashlight",
-        "ja": "懐中電灯"
-      },
-      {
-        "en": "lantern",
-        "ja": "ランタン"
-      },
-      {
-        "en": "oil lamp",
-        "ja": "石油ランプ"
-      },
-      {
-        "en": "wooden lantern",
-        "ja": "木製のランタン"
-      },
-      {
-        "en": "ceiling light",
-        "ja": "天井照明"
-      },
-      {
-        "en": "chandelier",
-        "ja": "シャンデリア"
-      },
-      {
-        "en": "candlelight",
-        "ja": "ろうそくの光"
-      },
-      {
-        "en": "muzzle flash",
-        "ja": "銃口の閃光"
-      },
-      {
-        "en": "headlight",
-        "ja": "ヘッドライト"
-      },
-      {
-        "en": "floodlights",
-        "ja": "投光照明"
-      },
-      {
-        "en": "flare",
-        "ja": "フレア"
-      },
-      {
-        "en": "ultraviolet light",
-        "ja": "紫外線"
-      },
-      {
-        "en": "glowing headgear",
-        "ja": "光るヘッドギア"
-      }
-    ],
-    "影・陰影": [
-      {
-        "en": "shade",
-        "ja": "シェード"
-      },
-      {
-        "en": "tree shade",
-        "ja": "木陰"
-      },
-      {
-        "en": "shadow",
-        "ja": "影"
-      },
-      {
-        "en": "colored shadow",
-        "ja": "色のついた影"
-      },
-      {
-        "en": "window shadow",
-        "ja": "窓の影"
-      },
-      {
-        "en": "dark",
-        "ja": "暗い"
-      },
-      {
-        "en": "darkness",
-        "ja": "暗闇"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "lighting-effects",
+      "name": "ライティング効果",
+      "tags": [
+        {
+          "en": "backlighting",
+          "ja": "バックライト"
+        },
+        {
+          "en": "sidelighting",
+          "ja": "サイドライト"
+        },
+        {
+          "en": "underlighting",
+          "ja": "下照明"
+        },
+        {
+          "en": "bloom",
+          "ja": "咲く"
+        },
+        {
+          "en": "sunlight",
+          "ja": "日光"
+        },
+        {
+          "en": "sunbeam",
+          "ja": "サンビーム"
+        },
+        {
+          "en": "dappled sunlight",
+          "ja": "木漏れ日"
+        },
+        {
+          "en": "moonlight",
+          "ja": "月光"
+        },
+        {
+          "en": "spotlight",
+          "ja": "スポットライト"
+        },
+        {
+          "en": "stage lights",
+          "ja": "舞台照明"
+        },
+        {
+          "en": "caustics",
+          "ja": "コースティクス"
+        },
+        {
+          "en": "crack of light",
+          "ja": "光のひび割れ"
+        },
+        {
+          "en": "refraction",
+          "ja": "屈折"
+        },
+        {
+          "en": "light rays",
+          "ja": "光線"
+        },
+        {
+          "en": "dim lighting",
+          "ja": "薄暗い照明"
+        },
+        {
+          "en": "chiaroscuro",
+          "ja": "明暗法"
+        }
+      ]
+    },
+    {
+      "id": "time-of-day",
+      "name": "時間帯",
+      "tags": [
+        {
+          "en": "morning",
+          "ja": "朝"
+        },
+        {
+          "en": "dawn",
+          "ja": "夜明け"
+        },
+        {
+          "en": "sunrise",
+          "ja": "日の出"
+        },
+        {
+          "en": "day",
+          "ja": "日"
+        },
+        {
+          "en": "evening",
+          "ja": "夕方"
+        },
+        {
+          "en": "sunset",
+          "ja": "日没"
+        },
+        {
+          "en": "twilight",
+          "ja": "トワイライト"
+        },
+        {
+          "en": "dusk",
+          "ja": "夕暮れ"
+        },
+        {
+          "en": "night",
+          "ja": "夜"
+        }
+      ]
+    },
+    {
+      "id": "light-sources",
+      "name": "光源",
+      "tags": [
+        {
+          "en": "sun",
+          "ja": "太陽"
+        },
+        {
+          "en": "moon",
+          "ja": "月"
+        },
+        {
+          "en": "glowstick",
+          "ja": "グロースティック"
+        },
+        {
+          "en": "lamp",
+          "ja": "ランプ"
+        },
+        {
+          "en": "desk lamp",
+          "ja": "デスクランプ"
+        },
+        {
+          "en": "lamppost",
+          "ja": "街灯柱"
+        },
+        {
+          "en": "wall lamp",
+          "ja": "ウォールランプ"
+        },
+        {
+          "en": "torch",
+          "ja": "トーチ"
+        },
+        {
+          "en": "fire",
+          "ja": "火"
+        },
+        {
+          "en": "embers",
+          "ja": "残り火"
+        },
+        {
+          "en": "flashlight",
+          "ja": "懐中電灯"
+        },
+        {
+          "en": "lantern",
+          "ja": "ランタン"
+        },
+        {
+          "en": "oil lamp",
+          "ja": "石油ランプ"
+        },
+        {
+          "en": "wooden lantern",
+          "ja": "木製のランタン"
+        },
+        {
+          "en": "ceiling light",
+          "ja": "天井照明"
+        },
+        {
+          "en": "chandelier",
+          "ja": "シャンデリア"
+        },
+        {
+          "en": "candlelight",
+          "ja": "ろうそくの光"
+        },
+        {
+          "en": "muzzle flash",
+          "ja": "銃口の閃光"
+        },
+        {
+          "en": "headlight",
+          "ja": "ヘッドライト"
+        },
+        {
+          "en": "floodlights",
+          "ja": "投光照明"
+        },
+        {
+          "en": "flare",
+          "ja": "フレア"
+        },
+        {
+          "en": "ultraviolet light",
+          "ja": "紫外線"
+        },
+        {
+          "en": "glowing headgear",
+          "ja": "光るヘッドギア"
+        }
+      ]
+    },
+    {
+      "id": "shadows-shading",
+      "name": "影・陰影",
+      "tags": [
+        {
+          "en": "shade",
+          "ja": "シェード"
+        },
+        {
+          "en": "tree shade",
+          "ja": "木陰"
+        },
+        {
+          "en": "shadow",
+          "ja": "影"
+        },
+        {
+          "en": "colored shadow",
+          "ja": "色のついた影"
+        },
+        {
+          "en": "window shadow",
+          "ja": "窓の影"
+        },
+        {
+          "en": "dark",
+          "ja": "暗い"
+        },
+        {
+          "en": "darkness",
+          "ja": "暗闇"
+        }
+      ]
+    }
+  ]
 }

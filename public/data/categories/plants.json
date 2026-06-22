@@ -4,260 +4,355 @@
   "tagCount": 282,
   "sections": [
     {
-      "id": "植物",
+      "id": "plants",
       "name": "植物",
       "path": [
         "植物"
       ],
+      "sectionPath": [
+        "plants"
+      ],
       "tagCount": 43,
       "children": [
         {
-          "id": "植物__タイフ",
+          "id": "plants__type",
           "name": "タイプ",
           "path": [
             "植物",
             "タイプ"
           ],
+          "sectionPath": [
+            "plants",
+            "type"
+          ],
           "tagCount": 22,
           "tags": [
             {
-              "id": "plants__植物__タイフ__0001",
+              "id": "plants__plants__type__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "flower",
               "ja": "花"
             },
             {
-              "id": "plants__植物__タイフ__0002",
+              "id": "plants__plants__type__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "bush",
               "ja": "ブッシュ"
             },
             {
-              "id": "plants__植物__タイフ__0003",
+              "id": "plants__plants__type__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "rose bush",
               "ja": "バラの茂み"
             },
             {
-              "id": "plants__植物__タイフ__0004",
+              "id": "plants__plants__type__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "carnivorous plant",
               "ja": "食虫植物"
             },
             {
-              "id": "plants__植物__タイフ__0005",
+              "id": "plants__plants__type__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "pitcher plant",
               "ja": "ウツボカズラ"
             },
             {
-              "id": "plants__植物__タイフ__0006",
+              "id": "plants__plants__type__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "venus flytrap",
               "ja": "ハエトリグサ"
             },
             {
-              "id": "plants__植物__タイフ__0007",
+              "id": "plants__plants__type__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "grass",
               "ja": "草"
             },
             {
-              "id": "plants__植物__タイフ__0008",
+              "id": "plants__plants__type__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "bamboo",
               "ja": "竹"
             },
             {
-              "id": "plants__植物__タイフ__0009",
+              "id": "plants__plants__type__0009",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "herb",
               "ja": "ハーブ"
             },
             {
-              "id": "plants__植物__タイフ__0010",
+              "id": "plants__plants__type__0010",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "cattail",
               "ja": "ガマ"
             },
             {
-              "id": "plants__植物__タイフ__0011",
+              "id": "plants__plants__type__0011",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "marijuana",
               "ja": "マリファナ"
             },
             {
-              "id": "plants__植物__タイフ__0012",
+              "id": "plants__plants__type__0012",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "holly",
               "ja": "ヒイラギ"
             },
             {
-              "id": "plants__植物__タイフ__0013",
+              "id": "plants__plants__type__0013",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "moss",
               "ja": "苔"
             },
             {
-              "id": "plants__植物__タイフ__0014",
+              "id": "plants__plants__type__0014",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "seaweed",
               "ja": "海藻"
             },
             {
-              "id": "plants__植物__タイフ__0015",
+              "id": "plants__plants__type__0015",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "succulent plant",
               "ja": "多肉植物"
             },
             {
-              "id": "plants__植物__タイフ__0016",
+              "id": "plants__plants__type__0016",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "agave",
               "ja": "アガベ"
             },
             {
-              "id": "plants__植物__タイフ__0017",
+              "id": "plants__plants__type__0017",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "cactus",
               "ja": "カクタス"
             },
             {
-              "id": "plants__植物__タイフ__0018",
+              "id": "plants__plants__type__0018",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "tree",
               "ja": "木"
             },
             {
-              "id": "plants__植物__タイフ__0019",
+              "id": "plants__plants__type__0019",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "vines",
               "ja": "ブドウの木"
             },
             {
-              "id": "plants__植物__タイフ__0020",
+              "id": "plants__plants__type__0020",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "ivy",
               "ja": "ツタ"
             },
             {
-              "id": "plants__植物__タイフ__0021",
+              "id": "plants__plants__type__0021",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
               ],
+              "sectionPath": [
+                "plants",
+                "type"
+              ],
               "en": "golden pothos",
               "ja": "ゴールデンポトス"
             },
             {
-              "id": "plants__植物__タイフ__0022",
+              "id": "plants__plants__type__0022",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "plants",
+                "type"
               ],
               "en": "fern",
               "ja": "シダ"
@@ -265,54 +360,74 @@
           ]
         },
         {
-          "id": "植物__ハ-ーツ",
+          "id": "plants__parts",
           "name": "パーツ",
           "path": [
             "植物",
             "パーツ"
           ],
+          "sectionPath": [
+            "plants",
+            "parts"
+          ],
           "tagCount": 4,
           "tags": [
             {
-              "id": "plants__植物__ハ-ーツ__0001",
+              "id": "plants__plants__parts__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "plants",
+                "parts"
               ],
               "en": "fruit",
               "ja": "フルーツ"
             },
             {
-              "id": "plants__植物__ハ-ーツ__0002",
+              "id": "plants__plants__parts__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "plants",
+                "parts"
               ],
               "en": "plant cell",
               "ja": "植物細胞"
             },
             {
-              "id": "plants__植物__ハ-ーツ__0003",
+              "id": "plants__plants__parts__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "パーツ"
               ],
+              "sectionPath": [
+                "plants",
+                "parts"
+              ],
               "en": "aerial root",
               "ja": "気根"
             },
             {
-              "id": "plants__植物__ハ-ーツ__0004",
+              "id": "plants__plants__parts__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "plants",
+                "parts"
               ],
               "en": "seed",
               "ja": "シード"
@@ -320,142 +435,194 @@
           ]
         },
         {
-          "id": "植物__その他",
+          "id": "plants__other",
           "name": "その他",
           "path": [
             "植物",
             "その他"
           ],
+          "sectionPath": [
+            "plants",
+            "other"
+          ],
           "tagCount": 12,
           "tags": [
             {
-              "id": "plants__植物__その他__0001",
+              "id": "plants__plants__other__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "floral arch",
               "ja": "花のアーチ"
             },
             {
-              "id": "plants__植物__その他__0002",
+              "id": "plants__plants__other__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "foliage",
               "ja": "葉"
             },
             {
-              "id": "plants__植物__その他__0003",
+              "id": "plants__plants__other__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "plant boy",
               "ja": "植物少年"
             },
             {
-              "id": "plants__植物__その他__0004",
+              "id": "plants__plants__other__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "plant girl",
               "ja": "植物少女"
             },
             {
-              "id": "plants__植物__その他__0005",
+              "id": "plants__plants__other__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "plant monster",
               "ja": "植物モンスター"
             },
             {
-              "id": "plants__植物__その他__0006",
+              "id": "plants__plants__other__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "plant wings",
               "ja": "植物の羽"
             },
             {
-              "id": "plants__植物__その他__0007",
+              "id": "plants__plants__other__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "flower pot",
               "ja": "植木鉢"
             },
             {
-              "id": "plants__植物__その他__0008",
+              "id": "plants__plants__other__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "hanging plant",
               "ja": "吊り下げ式植物"
             },
             {
-              "id": "plants__植物__その他__0009",
+              "id": "plants__plants__other__0009",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "planter",
               "ja": "プランター"
             },
             {
-              "id": "plants__植物__その他__0010",
+              "id": "plants__plants__other__0010",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "sprout",
               "ja": "芽生え"
             },
             {
-              "id": "plants__植物__その他__0011",
+              "id": "plants__plants__other__0011",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
               ],
+              "sectionPath": [
+                "plants",
+                "other"
+              ],
               "en": "topiary",
               "ja": "トピアリー"
             },
             {
-              "id": "plants__植物__その他__0012",
+              "id": "plants__plants__other__0012",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "その他"
+              ],
+              "sectionPath": [
+                "plants",
+                "other"
               ],
               "en": "farming",
               "ja": "農業"
@@ -463,65 +630,89 @@
           ]
         },
         {
-          "id": "植物__場所",
+          "id": "plants__places",
           "name": "場所",
           "path": [
             "植物",
             "場所"
           ],
+          "sectionPath": [
+            "plants",
+            "places"
+          ],
           "tagCount": 5,
           "tags": [
             {
-              "id": "plants__植物__場所__0001",
+              "id": "plants__plants__places__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "場所"
+              ],
+              "sectionPath": [
+                "plants",
+                "places"
               ],
               "en": "farm",
               "ja": "農場"
             },
             {
-              "id": "plants__植物__場所__0002",
+              "id": "plants__plants__places__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "場所"
+              ],
+              "sectionPath": [
+                "plants",
+                "places"
               ],
               "en": "bamboo forest",
               "ja": "竹林"
             },
             {
-              "id": "plants__植物__場所__0003",
+              "id": "plants__plants__places__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "場所"
+              ],
+              "sectionPath": [
+                "plants",
+                "places"
               ],
               "en": "grasslands",
               "ja": "草原"
             },
             {
-              "id": "plants__植物__場所__0004",
+              "id": "plants__plants__places__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "場所"
               ],
+              "sectionPath": [
+                "plants",
+                "places"
+              ],
               "en": "greenhouse",
               "ja": "温室"
             },
             {
-              "id": "plants__植物__場所__0005",
+              "id": "plants__plants__places__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "植物",
                 "場所"
+              ],
+              "sectionPath": [
+                "plants",
+                "places"
               ],
               "en": "nature",
               "ja": "自然"
@@ -531,106 +722,145 @@
       ]
     },
     {
-      "id": "木",
+      "id": "trees",
       "name": "木",
       "path": [
         "木"
       ],
+      "sectionPath": [
+        "trees"
+      ],
       "tagCount": 37,
       "children": [
         {
-          "id": "木__ハ-ーツ",
+          "id": "trees__parts",
           "name": "パーツ",
           "path": [
             "木",
             "パーツ"
           ],
+          "sectionPath": [
+            "trees",
+            "parts"
+          ],
           "tagCount": 8,
           "tags": [
             {
-              "id": "plants__木__ハ-ーツ__0001",
+              "id": "plants__trees__parts__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "trees",
+                "parts"
               ],
               "en": "branch",
               "ja": "支店"
             },
             {
-              "id": "plants__木__ハ-ーツ__0002",
+              "id": "plants__trees__parts__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "trees",
+                "parts"
               ],
               "en": "leaf",
               "ja": "葉"
             },
             {
-              "id": "plants__木__ハ-ーツ__0003",
+              "id": "plants__trees__parts__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "trees",
+                "parts"
               ],
               "en": "log",
               "ja": "ログ"
             },
             {
-              "id": "plants__木__ハ-ーツ__0004",
+              "id": "plants__trees__parts__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "trees",
+                "parts"
               ],
               "en": "petals",
               "ja": "花びら"
             },
             {
-              "id": "plants__木__ハ-ーツ__0005",
+              "id": "plants__trees__parts__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "trees",
+                "parts"
               ],
               "en": "plant roots",
               "ja": "植物の根"
             },
             {
-              "id": "plants__木__ハ-ーツ__0006",
+              "id": "plants__trees__parts__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "trees",
+                "parts"
               ],
               "en": "stick",
               "ja": "スティック"
             },
             {
-              "id": "plants__木__ハ-ーツ__0007",
+              "id": "plants__trees__parts__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
               ],
+              "sectionPath": [
+                "trees",
+                "parts"
+              ],
               "en": "tree hollow",
               "ja": "木の洞"
             },
             {
-              "id": "plants__木__ハ-ーツ__0008",
+              "id": "plants__trees__parts__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "パーツ"
+              ],
+              "sectionPath": [
+                "trees",
+                "parts"
               ],
               "en": "tree stump",
               "ja": "木の切り株"
@@ -638,54 +868,74 @@
           ]
         },
         {
-          "id": "木__場所",
+          "id": "trees__places",
           "name": "場所",
           "path": [
             "木",
             "場所"
           ],
+          "sectionPath": [
+            "trees",
+            "places"
+          ],
           "tagCount": 4,
           "tags": [
             {
-              "id": "plants__木__場所__0001",
+              "id": "plants__trees__places__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "場所"
+              ],
+              "sectionPath": [
+                "trees",
+                "places"
               ],
               "en": "forest",
               "ja": "森"
             },
             {
-              "id": "plants__木__場所__0002",
+              "id": "plants__trees__places__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "場所"
+              ],
+              "sectionPath": [
+                "trees",
+                "places"
               ],
               "en": "rainforest",
               "ja": "熱帯雨林"
             },
             {
-              "id": "plants__木__場所__0003",
+              "id": "plants__trees__places__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "場所"
               ],
+              "sectionPath": [
+                "trees",
+                "places"
+              ],
               "en": "jungle",
               "ja": "ジャングル"
             },
             {
-              "id": "plants__木__場所__0004",
+              "id": "plants__trees__places__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "場所"
+              ],
+              "sectionPath": [
+                "trees",
+                "places"
               ],
               "en": "wetland",
               "ja": "湿地"
@@ -693,175 +943,239 @@
           ]
         },
         {
-          "id": "木__タイフ",
+          "id": "trees__type",
           "name": "タイプ",
           "path": [
             "木",
             "タイプ"
           ],
+          "sectionPath": [
+            "trees",
+            "type"
+          ],
           "tagCount": 15,
           "tags": [
             {
-              "id": "plants__木__タイフ__0001",
+              "id": "plants__trees__type__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "baobab",
               "ja": "バオバブ"
             },
             {
-              "id": "plants__木__タイフ__0002",
+              "id": "plants__trees__type__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "birch tree",
               "ja": "白樺の木"
             },
             {
-              "id": "plants__木__タイフ__0003",
+              "id": "plants__trees__type__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "bonsai",
               "ja": "盆栽"
             },
             {
-              "id": "plants__木__タイフ__0004",
+              "id": "plants__trees__type__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "cherry blossoms",
               "ja": "桜"
             },
             {
-              "id": "plants__木__タイフ__0005",
+              "id": "plants__trees__type__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "christmas tree",
               "ja": "クリスマスツリー"
             },
             {
-              "id": "plants__木__タイフ__0006",
+              "id": "plants__trees__type__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "fir tree",
               "ja": "モミの木"
             },
             {
-              "id": "plants__木__タイフ__0007",
+              "id": "plants__trees__type__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "fruit tree",
               "ja": "果樹"
             },
             {
-              "id": "plants__木__タイフ__0008",
+              "id": "plants__trees__type__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "ginkgo tree",
               "ja": "イチョウの木"
             },
             {
-              "id": "plants__木__タイフ__0009",
+              "id": "plants__trees__type__0009",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "ginkgo nut",
               "ja": "イチョウの実"
             },
             {
-              "id": "plants__木__タイフ__0010",
+              "id": "plants__trees__type__0010",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "maple leaf",
               "ja": "カエデの葉"
             },
             {
-              "id": "plants__木__タイフ__0011",
+              "id": "plants__trees__type__0011",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "palm tree",
               "ja": "ヤシの木"
             },
             {
-              "id": "plants__木__タイフ__0012",
+              "id": "plants__trees__type__0012",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "coconut tree",
               "ja": "ココナッツの木"
             },
             {
-              "id": "plants__木__タイフ__0013",
+              "id": "plants__trees__type__0013",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "pine tree",
               "ja": "松"
             },
             {
-              "id": "plants__木__タイフ__0014",
+              "id": "plants__trees__type__0014",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
               ],
+              "sectionPath": [
+                "trees",
+                "type"
+              ],
               "en": "plum blossoms",
               "ja": "梅の花"
             },
             {
-              "id": "plants__木__タイフ__0015",
+              "id": "plants__trees__type__0015",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "タイプ"
+              ],
+              "sectionPath": [
+                "trees",
+                "type"
               ],
               "en": "willow",
               "ja": "柳"
@@ -869,120 +1183,164 @@
           ]
         },
         {
-          "id": "木__その他",
+          "id": "trees__other",
           "name": "その他",
           "path": [
             "木",
             "その他"
           ],
+          "sectionPath": [
+            "trees",
+            "other"
+          ],
           "tagCount": 10,
           "tags": [
             {
-              "id": "plants__木__その他__0001",
+              "id": "plants__trees__other__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "autumn",
               "ja": "秋"
             },
             {
-              "id": "plants__木__その他__0002",
+              "id": "plants__trees__other__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "bare tree",
               "ja": "裸木"
             },
             {
-              "id": "plants__木__その他__0003",
+              "id": "plants__trees__other__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "fallen tree",
               "ja": "倒木"
             },
             {
-              "id": "plants__木__その他__0004",
+              "id": "plants__trees__other__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "giant tree",
               "ja": "巨大な木"
             },
             {
-              "id": "plants__木__その他__0005",
+              "id": "plants__trees__other__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "treehouse",
               "ja": "ツリーハウス"
             },
             {
-              "id": "plants__木__その他__0006",
+              "id": "plants__trees__other__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "tree shade",
               "ja": "木陰"
             },
             {
-              "id": "plants__木__その他__0007",
+              "id": "plants__trees__other__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "against tree",
               "ja": "木に対して"
             },
             {
-              "id": "plants__木__その他__0008",
+              "id": "plants__trees__other__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "in tree",
               "ja": "木の中で"
             },
             {
-              "id": "plants__木__その他__0009",
+              "id": "plants__trees__other__0009",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
               ],
+              "sectionPath": [
+                "trees",
+                "other"
+              ],
               "en": "sitting in tree",
               "ja": "木に座っている"
             },
             {
-              "id": "plants__木__その他__0010",
+              "id": "plants__trees__other__0010",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "木",
                 "その他"
+              ],
+              "sectionPath": [
+                "trees",
+                "other"
               ],
               "en": "under tree",
               "ja": "木の下"
@@ -992,1921 +1350,2620 @@
       ]
     },
     {
-      "id": "花",
+      "id": "flowers",
       "name": "花",
       "path": [
         "花"
       ],
+      "sectionPath": [
+        "flowers"
+      ],
       "tagCount": 202,
       "children": [
         {
-          "id": "花__種類",
+          "id": "flowers__species",
           "name": "種類",
           "path": [
             "花",
             "種類"
           ],
+          "sectionPath": [
+            "flowers",
+            "species"
+          ],
           "tagCount": 173,
           "tags": [
             {
-              "id": "plants__花__種類__0001",
+              "id": "plants__flowers__species__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "allium (flower)",
               "ja": "アリウム（花）"
             },
             {
-              "id": "plants__花__種類__0002",
+              "id": "plants__flowers__species__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "alstroemeria (flower)",
               "ja": "アルストロメリア（花）"
             },
             {
-              "id": "plants__花__種類__0003",
+              "id": "plants__flowers__species__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "amaryllis (flower)",
               "ja": "アマリリス（花）"
             },
             {
-              "id": "plants__花__種類__0004",
+              "id": "plants__flowers__species__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "anemone",
               "ja": "アネモネ"
             },
             {
-              "id": "plants__花__種類__0005",
+              "id": "plants__flowers__species__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "angel's trumpet",
               "ja": "天使のトランペット"
             },
             {
-              "id": "plants__花__種類__0006",
+              "id": "plants__flowers__species__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "anthurium",
               "ja": "アンスリウム"
             },
             {
-              "id": "plants__花__種類__0007",
+              "id": "plants__flowers__species__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "azalea",
               "ja": "つつじ"
             },
             {
-              "id": "plants__花__種類__0008",
+              "id": "plants__flowers__species__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "baby's-breath",
               "ja": "カスミソウ"
             },
             {
-              "id": "plants__花__種類__0009",
+              "id": "plants__flowers__species__0009",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "begonia",
               "ja": "ベゴニア"
             },
             {
-              "id": "plants__花__種類__0010",
+              "id": "plants__flowers__species__0010",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "bellflower",
               "ja": "キキョウ"
             },
             {
-              "id": "plants__花__種類__0011",
+              "id": "plants__flowers__species__0011",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "chinese bellflower",
               "ja": "桔梗"
             },
             {
-              "id": "plants__花__種類__0012",
+              "id": "plants__flowers__species__0012",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "bird of paradise flower",
               "ja": "極楽鳥花"
             },
             {
-              "id": "plants__花__種類__0013",
+              "id": "plants__flowers__species__0013",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "black-eyed susan",
               "ja": "ブラックアイドスーザン"
             },
             {
-              "id": "plants__花__種類__0014",
+              "id": "plants__flowers__species__0014",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "bleeding heart",
               "ja": "出血している心臓"
             },
             {
-              "id": "plants__花__種類__0015",
+              "id": "plants__flowers__species__0015",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "blueberry blossoms",
               "ja": "ブルーベリーの花"
             },
             {
-              "id": "plants__花__種類__0016",
+              "id": "plants__flowers__species__0016",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "bougainvillea",
               "ja": "ブーゲンビリア"
             },
             {
-              "id": "plants__花__種類__0017",
+              "id": "plants__flowers__species__0017",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "calla lily",
               "ja": "カラーリリー"
             },
             {
-              "id": "plants__花__種類__0018",
+              "id": "plants__flowers__species__0018",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "camellia",
               "ja": "カメリア"
             },
             {
-              "id": "plants__花__種類__0019",
+              "id": "plants__flowers__species__0019",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "carnation",
               "ja": "カーネーション"
             },
             {
-              "id": "plants__花__種類__0020",
+              "id": "plants__flowers__species__0020",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "red carnation",
               "ja": "赤いカーネーション"
             },
             {
-              "id": "plants__花__種類__0021",
+              "id": "plants__flowers__species__0021",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "cerastium",
               "ja": "セラスチウム"
             },
             {
-              "id": "plants__花__種類__0022",
+              "id": "plants__flowers__species__0022",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "chamomile",
               "ja": "カモミール"
             },
             {
-              "id": "plants__花__種類__0023",
+              "id": "plants__flowers__species__0023",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "chinese lantern",
               "ja": "中国のランタン"
             },
             {
-              "id": "plants__花__種類__0024",
+              "id": "plants__flowers__species__0024",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "chrysanthemum",
               "ja": "菊"
             },
             {
-              "id": "plants__花__種類__0025",
+              "id": "plants__flowers__species__0025",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "clivia",
               "ja": "クリビア"
             },
             {
-              "id": "plants__花__種類__0026",
+              "id": "plants__flowers__species__0026",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "clematis",
               "ja": "クレマチス"
             },
             {
-              "id": "plants__花__種類__0027",
+              "id": "plants__flowers__species__0027",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "clover",
               "ja": "クローバー"
             },
             {
-              "id": "plants__花__種類__0028",
+              "id": "plants__flowers__species__0028",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "columbine",
               "ja": "コロンバイン"
             },
             {
-              "id": "plants__花__種類__0029",
+              "id": "plants__flowers__species__0029",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "cockscomb (flower)",
               "ja": "ケイトウ（花）"
             },
             {
-              "id": "plants__花__種類__0030",
+              "id": "plants__flowers__species__0030",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "coffee blossom",
               "ja": "コーヒーの花"
             },
             {
-              "id": "plants__花__種類__0031",
+              "id": "plants__flowers__species__0031",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "cornflower",
               "ja": "ヤグルマギク"
             },
             {
-              "id": "plants__花__種類__0032",
+              "id": "plants__flowers__species__0032",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "cosmos",
               "ja": "コスモス"
             },
             {
-              "id": "plants__花__種類__0033",
+              "id": "plants__flowers__species__0033",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "crocus",
               "ja": "クロッカス"
             },
             {
-              "id": "plants__花__種類__0034",
+              "id": "plants__flowers__species__0034",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "cymbidium",
               "ja": "シンビジウム"
             },
             {
-              "id": "plants__花__種類__0035",
+              "id": "plants__flowers__species__0035",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "daffodil",
               "ja": "水仙"
             },
             {
-              "id": "plants__花__種類__0036",
+              "id": "plants__flowers__species__0036",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "dahlia",
               "ja": "ダリア"
             },
             {
-              "id": "plants__花__種類__0037",
+              "id": "plants__flowers__species__0037",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "daisy",
               "ja": "デイジー"
             },
             {
-              "id": "plants__花__種類__0038",
+              "id": "plants__flowers__species__0038",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "dimorphotheca",
               "ja": "ディモルフォセカ"
             },
             {
-              "id": "plants__花__種類__0039",
+              "id": "plants__flowers__species__0039",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "dandelion",
               "ja": "タンポポ"
             },
             {
-              "id": "plants__花__種類__0040",
+              "id": "plants__flowers__species__0040",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "dianthus",
               "ja": "ナデシコ"
             },
             {
-              "id": "plants__花__種類__0041",
+              "id": "plants__flowers__species__0041",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "dipsacaceae",
               "ja": "ディプサカ科"
             },
             {
-              "id": "plants__花__種類__0042",
+              "id": "plants__flowers__species__0042",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "dusty miller",
               "ja": "ダスティ・ミラー"
             },
             {
-              "id": "plants__花__種類__0043",
+              "id": "plants__flowers__species__0043",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "edelweiss",
               "ja": "エーデルワイス"
             },
             {
-              "id": "plants__花__種類__0044",
+              "id": "plants__flowers__species__0044",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "epiphyllum",
               "ja": "エピフィラム"
             },
             {
-              "id": "plants__花__種類__0045",
+              "id": "plants__flowers__species__0045",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "eustoma",
               "ja": "トルコギキョウ"
             },
             {
-              "id": "plants__花__種類__0046",
+              "id": "plants__flowers__species__0046",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "flax",
               "ja": "亜麻"
             },
             {
-              "id": "plants__花__種類__0047",
+              "id": "plants__flowers__species__0047",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "forget-me-not",
               "ja": "ワスレナグサ"
             },
             {
-              "id": "plants__花__種類__0048",
+              "id": "plants__flowers__species__0048",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "forsythia",
               "ja": "レンギョウ"
             },
             {
-              "id": "plants__花__種類__0049",
+              "id": "plants__flowers__species__0049",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "four o'clock (flower)",
               "ja": "四時草（花）"
             },
             {
-              "id": "plants__花__種類__0050",
+              "id": "plants__flowers__species__0050",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "foxglove",
               "ja": "ジギタリス"
             },
             {
-              "id": "plants__花__種類__0051",
+              "id": "plants__flowers__species__0051",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "freesia",
               "ja": "フリージア"
             },
             {
-              "id": "plants__花__種類__0052",
+              "id": "plants__flowers__species__0052",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "fuchsia",
               "ja": "フクシア"
             },
             {
-              "id": "plants__花__種類__0053",
+              "id": "plants__flowers__species__0053",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "hawthorn_(plant)",
               "ja": "サンザシ（植物）"
             },
             {
-              "id": "plants__花__種類__0054",
+              "id": "plants__flowers__species__0054",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "hellebore",
               "ja": "ヘレボルス"
             },
             {
-              "id": "plants__花__種類__0055",
+              "id": "plants__flowers__species__0055",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "hibiscus",
               "ja": "ハイビスカス"
             },
             {
-              "id": "plants__花__種類__0056",
+              "id": "plants__flowers__species__0056",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "heliconia",
               "ja": "ヘリコニア"
             },
             {
-              "id": "plants__花__種類__0057",
+              "id": "plants__flowers__species__0057",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "hollyhock",
               "ja": "タチアオイ"
             },
             {
-              "id": "plants__花__種類__0058",
+              "id": "plants__flowers__species__0058",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "hyacinth",
               "ja": "ヒヤシンス"
             },
             {
-              "id": "plants__花__種類__0059",
+              "id": "plants__flowers__species__0059",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "hydrangea",
               "ja": "アジサイ"
             },
             {
-              "id": "plants__花__種類__0060",
+              "id": "plants__flowers__species__0060",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "genista (flower)",
               "ja": "ジェニスタ（花）"
             },
             {
-              "id": "plants__花__種類__0061",
+              "id": "plants__flowers__species__0061",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "gentiana (flower)",
               "ja": "リンドウ（花）"
             },
             {
-              "id": "plants__花__種類__0062",
+              "id": "plants__flowers__species__0062",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "geranium",
               "ja": "ゼラニウム"
             },
             {
-              "id": "plants__花__種類__0063",
+              "id": "plants__flowers__species__0063",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "gerbera",
               "ja": "ガーベラ"
             },
             {
-              "id": "plants__花__種類__0064",
+              "id": "plants__flowers__species__0064",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "gladiolus",
               "ja": "グラジオラス"
             },
             {
-              "id": "plants__花__種類__0065",
+              "id": "plants__flowers__species__0065",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "gloriosa (flower)",
               "ja": "グロリオサ（花）"
             },
             {
-              "id": "plants__花__種類__0066",
+              "id": "plants__flowers__species__0066",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "grass lily",
               "ja": "草百合"
             },
             {
-              "id": "plants__花__種類__0067",
+              "id": "plants__flowers__species__0067",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "great burnet",
               "ja": "オオバーネット"
             },
             {
-              "id": "plants__花__種類__0068",
+              "id": "plants__flowers__species__0068",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "jasmine",
               "ja": "ジャスミン"
             },
             {
-              "id": "plants__花__種類__0069",
+              "id": "plants__flowers__species__0069",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "iris",
               "ja": "虹彩"
             },
             {
-              "id": "plants__花__種類__0070",
+              "id": "plants__flowers__species__0070",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "kalanchoe",
               "ja": "カランコエ"
             },
             {
-              "id": "plants__花__種類__0071",
+              "id": "plants__flowers__species__0071",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "kerria japonica",
               "ja": "ヤマブキ"
             },
             {
-              "id": "plants__花__種類__0072",
+              "id": "plants__flowers__species__0072",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lantana (flower)",
               "ja": "ランタナ（花）"
             },
             {
-              "id": "plants__花__種類__0073",
+              "id": "plants__flowers__species__0073",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "larkspur",
               "ja": "ラークスパー"
             },
             {
-              "id": "plants__花__種類__0074",
+              "id": "plants__flowers__species__0074",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lavender",
               "ja": "ラベンダー"
             },
             {
-              "id": "plants__花__種類__0075",
+              "id": "plants__flowers__species__0075",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lilac",
               "ja": "ライラック"
             },
             {
-              "id": "plants__花__種類__0076",
+              "id": "plants__flowers__species__0076",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lily",
               "ja": "ユリ"
             },
             {
-              "id": "plants__花__種類__0077",
+              "id": "plants__flowers__species__0077",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "tiger lily",
               "ja": "タイガーリリー"
             },
             {
-              "id": "plants__花__種類__0078",
+              "id": "plants__flowers__species__0078",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lily of the valley",
               "ja": "スズラン"
             },
             {
-              "id": "plants__花__種類__0079",
+              "id": "plants__flowers__species__0079",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lisianthus (flower)",
               "ja": "リシアンサス（花）"
             },
             {
-              "id": "plants__花__種類__0080",
+              "id": "plants__flowers__species__0080",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lemon blossoms",
               "ja": "レモンの花"
             },
             {
-              "id": "plants__花__種類__0081",
+              "id": "plants__flowers__species__0081",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "magnolia",
               "ja": "マグノリア"
             },
             {
-              "id": "plants__花__種類__0082",
+              "id": "plants__flowers__species__0082",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "marigold",
               "ja": "マリーゴールド"
             },
             {
-              "id": "plants__花__種類__0083",
+              "id": "plants__flowers__species__0083",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "marsh marigold",
               "ja": "マーシュマリーゴールド"
             },
             {
-              "id": "plants__花__種類__0084",
+              "id": "plants__flowers__species__0084",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "mimosa (flower)",
               "ja": "ミモザ（花）"
             },
             {
-              "id": "plants__花__種類__0085",
+              "id": "plants__flowers__species__0085",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "morning glory",
               "ja": "朝顔"
             },
             {
-              "id": "plants__花__種類__0086",
+              "id": "plants__flowers__species__0086",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "moonflower",
               "ja": "ムーンフラワー"
             },
             {
-              "id": "plants__花__種類__0087",
+              "id": "plants__flowers__species__0087",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "gourd blossom",
               "ja": "ひょうたんの花"
             },
             {
-              "id": "plants__花__種類__0088",
+              "id": "plants__flowers__species__0088",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "nemophila",
               "ja": "ネモフィラ"
             },
             {
-              "id": "plants__花__種類__0089",
+              "id": "plants__flowers__species__0089",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "nigella",
               "ja": "ニゲラ"
             },
             {
-              "id": "plants__花__種類__0090",
+              "id": "plants__flowers__species__0090",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "oleander",
               "ja": "キョウチクトウ"
             },
             {
-              "id": "plants__花__種類__0091",
+              "id": "plants__flowers__species__0091",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "orange blossoms",
               "ja": "オレンジの花"
             },
             {
-              "id": "plants__花__種類__0092",
+              "id": "plants__flowers__species__0092",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "orchid",
               "ja": "蘭"
             },
             {
-              "id": "plants__花__種類__0093",
+              "id": "plants__flowers__species__0093",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "oncidium",
               "ja": "オンシジウム"
             },
             {
-              "id": "plants__花__種類__0094",
+              "id": "plants__flowers__species__0094",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "osmanthus",
               "ja": "キンモクセイ"
             },
             {
-              "id": "plants__花__種類__0095",
+              "id": "plants__flowers__species__0095",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "gold osmanthus",
               "ja": "金木犀"
             },
             {
-              "id": "plants__花__種類__0096",
+              "id": "plants__flowers__species__0096",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "pansy",
               "ja": "パンジー"
             },
             {
-              "id": "plants__花__種類__0097",
+              "id": "plants__flowers__species__0097",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "passion flower",
               "ja": "パッションフラワー"
             },
             {
-              "id": "plants__花__種類__0098",
+              "id": "plants__flowers__species__0098",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "paulownia",
               "ja": "桐"
             },
             {
-              "id": "plants__花__種類__0099",
+              "id": "plants__flowers__species__0099",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "peach blossom",
               "ja": "桃の花"
             },
             {
-              "id": "plants__花__種類__0100",
+              "id": "plants__flowers__species__0100",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "pentas (flower)",
               "ja": "ペンタス（花）"
             },
             {
-              "id": "plants__花__種類__0101",
+              "id": "plants__flowers__species__0101",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "peony",
               "ja": "牡丹"
             },
             {
-              "id": "plants__花__種類__0102",
+              "id": "plants__flowers__species__0102",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "perennial",
               "ja": "多年生"
             },
             {
-              "id": "plants__花__種類__0103",
+              "id": "plants__flowers__species__0103",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "periwinkle",
               "ja": "ツルニチニチソウ"
             },
             {
-              "id": "plants__花__種類__0104",
+              "id": "plants__flowers__species__0104",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "persian speedwell",
               "ja": "ペルシャスピードウェル"
             },
             {
-              "id": "plants__花__種類__0105",
+              "id": "plants__flowers__species__0105",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "petunia (flower)",
               "ja": "ペチュニア（花）"
             },
             {
-              "id": "plants__花__種類__0106",
+              "id": "plants__flowers__species__0106",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "pieris japonica",
               "ja": "モンシロチョウ"
             },
             {
-              "id": "plants__花__種類__0107",
+              "id": "plants__flowers__species__0107",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "plant",
               "ja": "植物"
             },
             {
-              "id": "plants__花__種類__0108",
+              "id": "plants__flowers__species__0108",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lotus",
               "ja": "蓮"
             },
             {
-              "id": "plants__花__種類__0109",
+              "id": "plants__flowers__species__0109",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lily pad",
               "ja": "スイレンの葉"
             },
             {
-              "id": "plants__花__種類__0110",
+              "id": "plants__flowers__species__0110",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "potted plant",
               "ja": "鉢植え"
             },
             {
-              "id": "plants__花__種類__0111",
+              "id": "plants__flowers__species__0111",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "plumeria",
               "ja": "プルメリア"
             },
             {
-              "id": "plants__花__種類__0112",
+              "id": "plants__flowers__species__0112",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "poinsettia",
               "ja": "ポインセチア"
             },
             {
-              "id": "plants__花__種類__0113",
+              "id": "plants__flowers__species__0113",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "pomegranate flower",
               "ja": "ザクロの花"
             },
             {
-              "id": "plants__花__種類__0114",
+              "id": "plants__flowers__species__0114",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "poppy",
               "ja": "ポピー"
             },
             {
-              "id": "plants__花__種類__0115",
+              "id": "plants__flowers__species__0115",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "portulaca",
               "ja": "スベリヒユ"
             },
             {
-              "id": "plants__花__種類__0116",
+              "id": "plants__flowers__species__0116",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "potato flower",
               "ja": "ジャガイモの花"
             },
             {
-              "id": "plants__花__種類__0117",
+              "id": "plants__flowers__species__0117",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "potentilla",
               "ja": "ポテンティラ"
             },
             {
-              "id": "plants__花__種類__0118",
+              "id": "plants__flowers__species__0118",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "rafflesia",
               "ja": "ラフレシア"
             },
             {
-              "id": "plants__花__種類__0119",
+              "id": "plants__flowers__species__0119",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "ranunculus",
               "ja": "ラナンキュラス"
             },
             {
-              "id": "plants__花__種類__0120",
+              "id": "plants__flowers__species__0120",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "buttercup",
               "ja": "キンポウゲ"
             },
             {
-              "id": "plants__花__種類__0121",
+              "id": "plants__flowers__species__0121",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "rapeseed blossoms",
               "ja": "菜の花"
             },
             {
-              "id": "plants__花__種類__0122",
+              "id": "plants__flowers__species__0122",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "red ginger",
               "ja": "赤ショウガ"
             },
             {
-              "id": "plants__花__種類__0123",
+              "id": "plants__flowers__species__0123",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "reimu",
               "ja": "霊夢"
             },
             {
-              "id": "plants__花__種類__0124",
+              "id": "plants__flowers__species__0124",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "rhododendron",
               "ja": "シャクナゲ"
             },
             {
-              "id": "plants__花__種類__0125",
+              "id": "plants__flowers__species__0125",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "rose",
               "ja": "薔薇"
             },
             {
-              "id": "plants__花__種類__0126",
+              "id": "plants__flowers__species__0126",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "black rose",
               "ja": "黒いバラ"
             },
             {
-              "id": "plants__花__種類__0127",
+              "id": "plants__flowers__species__0127",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "blue rose",
               "ja": "青いバラ"
             },
             {
-              "id": "plants__花__種類__0128",
+              "id": "plants__flowers__species__0128",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "brown rose",
               "ja": "茶色のバラ"
             },
             {
-              "id": "plants__花__種類__0129",
+              "id": "plants__flowers__species__0129",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "green rose",
               "ja": "緑のバラ"
             },
             {
-              "id": "plants__花__種類__0130",
+              "id": "plants__flowers__species__0130",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "grey rose",
               "ja": "グレーローズ"
             },
             {
-              "id": "plants__花__種類__0131",
+              "id": "plants__flowers__species__0131",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "orange rose",
               "ja": "オレンジ色のバラ"
             },
             {
-              "id": "plants__花__種類__0132",
+              "id": "plants__flowers__species__0132",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "pink rose",
               "ja": "ピンクのバラ"
             },
             {
-              "id": "plants__花__種類__0133",
+              "id": "plants__flowers__species__0133",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "purple rose",
               "ja": "紫のバラ"
             },
             {
-              "id": "plants__花__種類__0134",
+              "id": "plants__flowers__species__0134",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "red rose",
               "ja": "赤いバラ"
             },
             {
-              "id": "plants__花__種類__0135",
+              "id": "plants__flowers__species__0135",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "white rose",
               "ja": "白いバラ"
             },
             {
-              "id": "plants__花__種類__0136",
+              "id": "plants__flowers__species__0136",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "yellow rose",
               "ja": "黄色いバラ"
             },
             {
-              "id": "plants__花__種類__0137",
+              "id": "plants__flowers__species__0137",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "multicolored rose",
               "ja": "色とりどりのバラ"
             },
             {
-              "id": "plants__花__種類__0138",
+              "id": "plants__flowers__species__0138",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "rudbeckia",
               "ja": "ルドベキア"
             },
             {
-              "id": "plants__花__種類__0139",
+              "id": "plants__flowers__species__0139",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "snapdragon",
               "ja": "キンギョソウ"
             },
             {
-              "id": "plants__花__種類__0140",
+              "id": "plants__flowers__species__0140",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "snowbell",
               "ja": "スノーベル"
             },
             {
-              "id": "plants__花__種類__0141",
+              "id": "plants__flowers__species__0141",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "snowdrop",
               "ja": "スノードロップ"
             },
             {
-              "id": "plants__花__種類__0142",
+              "id": "plants__flowers__species__0142",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "spathiphyllum",
               "ja": "スパティフィラム"
             },
             {
-              "id": "plants__花__種類__0143",
+              "id": "plants__flowers__species__0143",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "spider lily",
               "ja": "ヒガンバナ"
             },
             {
-              "id": "plants__花__種類__0144",
+              "id": "plants__flowers__species__0144",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "strawberry blossoms",
               "ja": "イチゴの花"
             },
             {
-              "id": "plants__花__種類__0145",
+              "id": "plants__flowers__species__0145",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "sunflower",
               "ja": "ひまわり"
             },
             {
-              "id": "plants__花__種類__0146",
+              "id": "plants__flowers__species__0146",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "thistle",
               "ja": "アザミ"
             },
             {
-              "id": "plants__花__種類__0147",
+              "id": "plants__flowers__species__0147",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "trumpet creeper",
               "ja": "トランペットクリーパー"
             },
             {
-              "id": "plants__花__種類__0148",
+              "id": "plants__flowers__species__0148",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "tulip",
               "ja": "チューリップ"
             },
             {
-              "id": "plants__花__種類__0149",
+              "id": "plants__flowers__species__0149",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "orange tulip",
               "ja": "オレンジ色のチューリップ"
             },
             {
-              "id": "plants__花__種類__0150",
+              "id": "plants__flowers__species__0150",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "pink tulip",
               "ja": "ピンクのチューリップ"
             },
             {
-              "id": "plants__花__種類__0151",
+              "id": "plants__flowers__species__0151",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "purple tulip",
               "ja": "紫色のチューリップ"
             },
             {
-              "id": "plants__花__種類__0152",
+              "id": "plants__flowers__species__0152",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "red tulip",
               "ja": "赤いチューリップ"
             },
             {
-              "id": "plants__花__種類__0153",
+              "id": "plants__flowers__species__0153",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "white tulip",
               "ja": "白いチューリップ"
             },
             {
-              "id": "plants__花__種類__0154",
+              "id": "plants__flowers__species__0154",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "yellow tulip",
               "ja": "黄色いチューリップ"
             },
             {
-              "id": "plants__花__種類__0155",
+              "id": "plants__flowers__species__0155",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "water lily flower",
               "ja": "睡蓮の花"
             },
             {
-              "id": "plants__花__種類__0156",
+              "id": "plants__flowers__species__0156",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "wax flower",
               "ja": "ワックスフラワー"
             },
             {
-              "id": "plants__花__種類__0157",
+              "id": "plants__flowers__species__0157",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "wisteria",
               "ja": "藤"
             },
             {
-              "id": "plants__花__種類__0158",
+              "id": "plants__flowers__species__0158",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "wolfsbane",
               "ja": "ウルフズベイン"
             },
             {
-              "id": "plants__花__種類__0159",
+              "id": "plants__flowers__species__0159",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "violet",
               "ja": "バイオレット"
             },
             {
-              "id": "plants__花__種類__0160",
+              "id": "plants__flowers__species__0160",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "zinnia",
               "ja": "ジニア"
             },
             {
-              "id": "plants__花__種類__0161",
+              "id": "plants__flowers__species__0161",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "fictional flowers",
               "ja": "架空の花"
             },
             {
-              "id": "plants__花__種類__0162",
+              "id": "plants__flowers__species__0162",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "black lotus",
               "ja": "ブラックロータス"
             },
             {
-              "id": "plants__花__種類__0163",
+              "id": "plants__flowers__species__0163",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "fire flower",
               "ja": "火の花"
             },
             {
-              "id": "plants__花__種類__0164",
+              "id": "plants__flowers__species__0164",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "glaze lily",
               "ja": "グレイズリリー"
             },
             {
-              "id": "plants__花__種類__0165",
+              "id": "plants__flowers__species__0165",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "gracidea",
               "ja": "グラシデア"
             },
             {
-              "id": "plants__花__種類__0166",
+              "id": "plants__flowers__species__0166",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "ice flower",
               "ja": "氷の花"
             },
             {
-              "id": "plants__花__種類__0167",
+              "id": "plants__flowers__species__0167",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "inteyvat flower",
               "ja": "インテイワットの花"
             },
             {
-              "id": "plants__花__種類__0168",
+              "id": "plants__flowers__species__0168",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "lunar tear",
               "ja": "月の涙"
             },
             {
-              "id": "plants__花__種類__0169",
+              "id": "plants__flowers__species__0169",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "qingxin flower",
               "ja": "清新の花"
             },
             {
-              "id": "plants__花__種類__0170",
+              "id": "plants__flowers__species__0170",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "silent princess",
               "ja": "沈黙の王女"
             },
             {
-              "id": "plants__花__種類__0171",
+              "id": "plants__flowers__species__0171",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "silk flower",
               "ja": "シルクフラワー"
             },
             {
-              "id": "plants__花__種類__0172",
+              "id": "plants__flowers__species__0172",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
               ],
+              "sectionPath": [
+                "flowers",
+                "species"
+              ],
               "en": "sweet flower",
               "ja": "甘い花"
             },
             {
-              "id": "plants__花__種類__0173",
+              "id": "plants__flowers__species__0173",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "種類"
+              ],
+              "sectionPath": [
+                "flowers",
+                "species"
               ],
               "en": "wither rose",
               "ja": "枯れたバラ"
@@ -2914,142 +3971,194 @@
           ]
         },
         {
-          "id": "花__装飾",
+          "id": "flowers__decoration",
           "name": "装飾",
           "path": [
             "花",
             "装飾"
           ],
+          "sectionPath": [
+            "flowers",
+            "decoration"
+          ],
           "tagCount": 12,
           "tags": [
             {
-              "id": "plants__花__装飾__0001",
+              "id": "plants__flowers__decoration__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "bouquet",
               "ja": "花束"
             },
             {
-              "id": "plants__花__装飾__0002",
+              "id": "plants__flowers__decoration__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "boutonniere",
               "ja": "ブートニア"
             },
             {
-              "id": "plants__花__装飾__0003",
+              "id": "plants__flowers__decoration__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "corsage",
               "ja": "コサージュ"
             },
             {
-              "id": "plants__花__装飾__0004",
+              "id": "plants__flowers__decoration__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "flower bracelet",
               "ja": "花のブレスレット"
             },
             {
-              "id": "plants__花__装飾__0005",
+              "id": "plants__flowers__decoration__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "flower necklace",
               "ja": "花のネックレス"
             },
             {
-              "id": "plants__花__装飾__0006",
+              "id": "plants__flowers__decoration__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "flower on head",
               "ja": "頭の花"
             },
             {
-              "id": "plants__花__装飾__0007",
+              "id": "plants__flowers__decoration__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "flower trim",
               "ja": "花飾り"
             },
             {
-              "id": "plants__花__装飾__0008",
+              "id": "plants__flowers__decoration__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "hair flower",
               "ja": "髪の花"
             },
             {
-              "id": "plants__花__装飾__0009",
+              "id": "plants__flowers__decoration__0009",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "hat flower",
               "ja": "帽子の花"
             },
             {
-              "id": "plants__花__装飾__0010",
+              "id": "plants__flowers__decoration__0010",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "lei",
               "ja": "レイ"
             },
             {
-              "id": "plants__花__装飾__0011",
+              "id": "plants__flowers__decoration__0011",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
               ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
+              ],
               "en": "wreath",
               "ja": "花輪"
             },
             {
-              "id": "plants__花__装飾__0012",
+              "id": "plants__flowers__decoration__0012",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "装飾"
+              ],
+              "sectionPath": [
+                "flowers",
+                "decoration"
               ],
               "en": "head wreath",
               "ja": "頭花輪"
@@ -3057,65 +4166,89 @@
           ]
         },
         {
-          "id": "花__場所",
+          "id": "flowers__places",
           "name": "場所",
           "path": [
             "花",
             "場所"
           ],
+          "sectionPath": [
+            "flowers",
+            "places"
+          ],
           "tagCount": 5,
           "tags": [
             {
-              "id": "plants__花__場所__0001",
+              "id": "plants__flowers__places__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "場所"
+              ],
+              "sectionPath": [
+                "flowers",
+                "places"
               ],
               "en": "field",
               "ja": "分野"
             },
             {
-              "id": "plants__花__場所__0002",
+              "id": "plants__flowers__places__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "場所"
+              ],
+              "sectionPath": [
+                "flowers",
+                "places"
               ],
               "en": "flower field",
               "ja": "花畑"
             },
             {
-              "id": "plants__花__場所__0003",
+              "id": "plants__flowers__places__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "場所"
+              ],
+              "sectionPath": [
+                "flowers",
+                "places"
               ],
               "en": "meadow",
               "ja": "牧草地"
             },
             {
-              "id": "plants__花__場所__0004",
+              "id": "plants__flowers__places__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "場所"
               ],
+              "sectionPath": [
+                "flowers",
+                "places"
+              ],
               "en": "flower bed",
               "ja": "花壇"
             },
             {
-              "id": "plants__花__場所__0005",
+              "id": "plants__flowers__places__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "場所"
+              ],
+              "sectionPath": [
+                "flowers",
+                "places"
               ],
               "en": "garden",
               "ja": "庭"
@@ -3123,109 +4256,149 @@
           ]
         },
         {
-          "id": "花__動作",
+          "id": "flowers__actions",
           "name": "動作",
           "path": [
             "花",
             "動作"
           ],
+          "sectionPath": [
+            "flowers",
+            "actions"
+          ],
           "tagCount": 9,
           "tags": [
             {
-              "id": "plants__花__動作__0001",
+              "id": "plants__flowers__actions__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "coughing flowers",
               "ja": "咳をする花"
             },
             {
-              "id": "plants__花__動作__0002",
+              "id": "plants__flowers__actions__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "flower in mouth",
               "ja": "口の中に花"
             },
             {
-              "id": "plants__花__動作__0003",
+              "id": "plants__flowers__actions__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "flower on liquid",
               "ja": "液体上の花"
             },
             {
-              "id": "plants__花__動作__0004",
+              "id": "plants__flowers__actions__0004",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "holding flower",
               "ja": "花を持つ"
             },
             {
-              "id": "plants__花__動作__0005",
+              "id": "plants__flowers__actions__0005",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "gardening",
               "ja": "園芸"
             },
             {
-              "id": "plants__花__動作__0006",
+              "id": "plants__flowers__actions__0006",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "on flower",
               "ja": "花の上"
             },
             {
-              "id": "plants__花__動作__0007",
+              "id": "plants__flowers__actions__0007",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "rose petals",
               "ja": "バラの花びら"
             },
             {
-              "id": "plants__花__動作__0008",
+              "id": "plants__flowers__actions__0008",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
               ],
+              "sectionPath": [
+                "flowers",
+                "actions"
+              ],
               "en": "petals on liquid",
               "ja": "液体の上の花びら"
             },
             {
-              "id": "plants__花__動作__0009",
+              "id": "plants__flowers__actions__0009",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "動作"
+              ],
+              "sectionPath": [
+                "flowers",
+                "actions"
               ],
               "en": "smelling flower",
               "ja": "香りの花"
@@ -3233,43 +4406,59 @@
           ]
         },
         {
-          "id": "花__その他",
+          "id": "flowers__other",
           "name": "その他",
           "path": [
             "花",
             "その他"
           ],
+          "sectionPath": [
+            "flowers",
+            "other"
+          ],
           "tagCount": 3,
           "tags": [
             {
-              "id": "plants__花__その他__0001",
+              "id": "plants__flowers__other__0001",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "その他"
+              ],
+              "sectionPath": [
+                "flowers",
+                "other"
               ],
               "en": "flower symbol",
               "ja": "花のシンボル"
             },
             {
-              "id": "plants__花__その他__0002",
+              "id": "plants__flowers__other__0002",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "その他"
               ],
+              "sectionPath": [
+                "flowers",
+                "other"
+              ],
               "en": "floral print",
               "ja": "花柄"
             },
             {
-              "id": "plants__花__その他__0003",
+              "id": "plants__flowers__other__0003",
               "categoryId": "plants",
               "categoryName": "植物",
               "path": [
                 "花",
                 "その他"
+              ],
+              "sectionPath": [
+                "flowers",
+                "other"
               ],
               "en": "hanafuda",
               "ja": "花札"
