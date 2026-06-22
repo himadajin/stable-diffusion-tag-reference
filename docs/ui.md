@@ -31,7 +31,7 @@ The app has four primary user-facing areas:
 - Favorites: a personal reference category made from official category-tag entries.
 - Free-input candidates: searchable and copyable candidate tags that are not official category-tag entries.
 
-Category browsing preserves the source category hierarchy. The navigation exposes two levels inside the selected top-level category so users can understand both the broad area and the current section.
+Category browsing preserves the source category hierarchy. The sidebar behaves as a compact tree for browsing that hierarchy, so users can inspect category structure before moving the main content.
 
 Favorites are a reading aid, not a source-data organization feature. They are stored in local browser state and shown in source category order and source data order.
 
@@ -57,15 +57,20 @@ The sidebar contains:
 
 - Favorites at the top.
 - Top-level source categories.
-- For the active source category, a two-level section tree.
+- Expandable source-category branches.
+- Nested source sections for any expanded source category.
 
-Top-level category selection changes the content immediately and resets the content scroll position to the start of that category.
+Category and section label selection changes the content immediately and resets or jumps the content scroll position to the selected browsing context.
 Category and subcategory selection updates the URL fragment so the current browsing context can be shared and restored.
 Explicit category and subcategory selections may add browser history entries. Section changes caused only by scrolling should not add browser history entries.
 
 Routine category switching should not replace the list with a full-content loading state. Keep the current list stable until the next category data is ready, then swap content and reset scroll. If category loading becomes noticeably delayed, use a small inline status near the header rather than a page-level loading message.
 
-Opening or closing a section tree item only changes the navigation disclosure state. It must not force the main content to scroll. Selecting a second-level section jumps the main content to that section.
+Opening or closing a tree branch only changes the navigation disclosure state. It must not force the main content to scroll. Use a small caret disclosure target for branch expansion and collapse. Selecting the category or section label moves the main content to that category or section.
+
+The active category branch is open by default. Users may also expand inactive source categories to inspect their sections before navigating. Keep expanded branches available until the user closes them or the page is reloaded.
+
+If a selected section is inside a collapsed branch, the ancestor branch should keep a subtle current-child state so users do not lose orientation.
 
 On mobile, selecting a top-level category may close the Drawer because the primary content has changed. Section jumps should also return focus to the content by closing the Drawer.
 

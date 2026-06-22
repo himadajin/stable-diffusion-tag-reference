@@ -8,23 +8,31 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
     .poll(() => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth))
     .toBe(true);
 
-  await expect(page.getByRole("button", { name: /品質/ })).toBeVisible();
-  await page.getByRole("button", { name: /品質/ }).click();
+  await expect(page.getByRole("button", { name: "品質 186" })).toBeVisible();
+  await page.getByRole("button", { name: "品質 186" }).click();
   await expect(page.getByRole("heading", { name: "品質" })).toBeVisible();
   await expect(page.getByText("masterpiece").first()).toBeVisible();
 
-  await page
-    .getByLabel("カテゴリ")
-    .getByRole("button", { name: /動作・姿勢/ })
-    .click();
+  await page.getByLabel("カテゴリ").getByRole("button", { name: "動作・姿勢 998" }).click();
   await expect(page.getByRole("main")).toContainText("998 tags");
   await page
     .getByLabel("動作・姿勢 のサブカテゴリ")
-    .getByRole("button", { name: /ジェスチャー/ })
+    .getByRole("button", { name: /^ジェスチャー [\d,]+$/ })
     .click();
   await expect(page.getByRole("heading", { name: "ジェスチャー" })).toBeVisible();
 
-  await page.getByRole("button", { name: /品質/ }).click();
+  await page.getByRole("button", { name: "身体 を開く" }).click();
+  await page.getByRole("button", { name: "髪 を開く" }).click();
+  await expect(
+    page.getByLabel("身体 のサブカテゴリ").getByRole("button", { name: /^髪型 [\d,]+$/ }),
+  ).toBeVisible();
+  await page
+    .getByLabel("身体 のサブカテゴリ")
+    .getByRole("button", { name: /^髪型 [\d,]+$/ })
+    .click();
+  await expect(page.getByRole("heading", { name: "髪 / 髪型" })).toBeVisible();
+
+  await page.getByRole("button", { name: "品質 186" }).click();
   await page.getByRole("button", { name: "masterpiece をコピー" }).first().click();
   await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe("masterpiece");
 
@@ -68,10 +76,7 @@ test("shareable category URLs restore, copy, and follow browser history", async 
   await expect(page.getByRole("button", { name: "現在位置の共有URLをコピー" })).toHaveCount(0);
   await page.getByRole("button", { name: "検索をクリア" }).click();
 
-  await page
-    .getByLabel("カテゴリ")
-    .getByRole("button", { name: /動作・姿勢/ })
-    .click();
+  await page.getByLabel("カテゴリ").getByRole("button", { name: "動作・姿勢 998" }).click();
   await expect(page).toHaveURL(/#category=action-pose/);
   await page.goBack();
   await expect(page.getByRole("heading", { name: "髪 / 髪型" })).toBeVisible();
@@ -96,7 +101,7 @@ test("mobile keeps drawer navigation, search, and favorites available", async ({
 
   await page.getByRole("button", { name: "カテゴリ" }).click();
   await expect(page.getByRole("dialog")).toBeVisible();
-  await page.getByRole("button", { name: /品質/ }).click();
+  await page.getByRole("button", { name: "品質 186" }).click();
   await expect(
     page.getByLabel("品質 のサブカテゴリ").getByRole("button", { name: /ポジティブ/ }),
   ).toBeVisible();
@@ -108,7 +113,7 @@ test("mobile keeps drawer navigation, search, and favorites available", async ({
   await expect(page.getByRole("main").getByText("自由入力候補").first()).toBeVisible();
   await page.getByRole("button", { name: "masterpiece をお気に入りに追加" }).click();
   await page.getByRole("button", { name: "カテゴリ" }).click();
-  await page.getByRole("button", { name: /お気に入り/ }).click();
+  await page.getByRole("button", { name: "お気に入り 1" }).click();
   await page.getByRole("button", { name: "カテゴリを閉じる" }).click();
   await expect(page.getByRole("main").getByText("masterpiece")).toBeVisible();
 });
@@ -120,6 +125,6 @@ test("mobile restores shareable category URLs", async ({ isMobile, page }) => {
   await expect(page.getByRole("heading", { name: "髪 / 髪型" })).toBeVisible();
   await page.getByRole("button", { name: "カテゴリ" }).click();
   await expect(
-    page.getByLabel("身体 のサブカテゴリ").getByRole("button", { name: /髪/ }).first(),
+    page.getByLabel("身体 のサブカテゴリ").getByRole("button", { name: /^髪 [\d,]+$/ }),
   ).toBeVisible();
 });
