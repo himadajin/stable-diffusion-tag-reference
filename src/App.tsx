@@ -11,8 +11,8 @@ import {
   TextField,
   Tooltip,
 } from "@radix-ui/themes";
-import { Heart, Link2 } from "lucide-react";
-import type { CSSProperties, ReactNode } from "react";
+import { ChevronRight, Heart, Link2 } from "lucide-react";
+import type { CSSProperties, ReactNode, UIEvent } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { copyText } from "./lib/clipboard";
 import { loadCategory, loadManifest } from "./lib/data";
@@ -106,9 +106,12 @@ export function App() {
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(() => readFavoriteIds());
   const [copyState, setCopyState] = useState<CopyState | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [activeTopSectionId, setActiveTopSectionId] = useState<string>("");
   const [activeSectionId, setActiveSectionId] = useState<string>("");
-  const [manualExpandedTopSectionId, setManualExpandedTopSectionId] = useState<string | null>(null);
+  const [expandedCategoryIds, setExpandedCategoryIds] = useState<Set<string>>(() => new Set());
+  const [expandedSectionKeys, setExpandedSectionKeys] = useState<Set<string>>(() => new Set());
+  const [sidebarCategoryData, setSidebarCategoryData] = useState<Map<string, CategoryData>>(
+    () => new Map(),
+  );
   const [sectionJump, setSectionJump] = useState<SectionJump | null>(null);
   const [pendingUrlLocation, setPendingUrlLocation] = useState<CategoryHashLocation | null>(null);
   const categoryDataCacheRef = useRef(new Map<string, CategoryData>());
@@ -222,6 +225,68 @@ export function App() {
     ],
     [categories, favoriteIds.size],
   );
+  const activeSectionKey = activeSectionId ? sectionTreeKey(activeCategoryId, activeSectionId) : "";
+  const activeSectionAncestorKeys = useMemo(() => {
+    if (
+      !activeCategory ||
+      activeCategory.id === FAVORITES_CATEGORY_ID ||
+      !activeShareSectionPath.length
+    ) {
+      return new Set<string>();
+    }
+    return new Set(
+      findSectionAncestorIdsByPath(activeCategory.sections, activeShareSectionPath).map(
+        (sectionId) => sectionTreeKey(activeCategory.id, sectionId),
+      ),
+    );
+  }, [activeCategory, activeShareSectionPath]);
+
+  const cacheCategoryData = useCallback((data: CategoryData) => {
+    categoryDataCacheRef.current.set(data.id, data);
+    setSidebarCategoryData((current) => {
+      if (current.get(data.id) === data) return current;
+      const next = new Map(current);
+      next.set(data.id, data);
+      return next;
+    });
+  }, []);
+
+  useEffect(() => {
+    if (!categoryData) return;
+    cacheCategoryData(categoryData);
+  }, [cacheCategoryData, categoryData]);
+
+  useEffect(() => {
+    if (!activeCategoryId || activeCategoryId === FAVORITES_CATEGORY_ID) return;
+    setExpandedCategoryIds((current) => {
+      if (current.has(activeCategoryId)) return current;
+      const next = new Set(current);
+      next.add(activeCategoryId);
+      return next;
+    });
+  }, [activeCategoryId]);
+
+  const expandSectionPath = useCallback(
+    (categoryId: string, sectionPath: string[]) => {
+      if (categoryId === FAVORITES_CATEGORY_ID) return;
+      setExpandedCategoryIds((current) => {
+        const next = new Set(current);
+        next.add(categoryId);
+        return next;
+      });
+      setExpandedSectionKeys((current) => {
+        const next = new Set(current);
+        const category = categoryDataCacheRef.current.get(categoryId) ?? categoryData;
+        if (category?.id !== categoryId) return next;
+        const ancestorIds = findSectionAncestorIdsByPath(category.sections, sectionPath);
+        for (const sectionId of ancestorIds) {
+          next.add(sectionTreeKey(categoryId, sectionId));
+        }
+        return next;
+      });
+    },
+    [categoryData],
+  );
 
   async function copyValue(value: string) {
     await copyText(value);
@@ -235,12 +300,12 @@ export function App() {
 
   async function openTagContext(entry: Extract<SearchEntry, { type: "tag" }>) {
     const data = await loadCategory(entry.categoryId);
-    categoryDataCacheRef.current.set(entry.categoryId, data);
+    cacheCategoryData(data);
     const sectionId = findSectionIdBySectionPath(data.sections, entry.sectionPath) ?? "";
     setActiveCategoryId(entry.categoryId);
     setQuery("");
     setActiveSectionId(sectionId);
-    setManualExpandedTopSectionId(null);
+    expandSectionPath(entry.categoryId, entry.sectionPath);
     writeCategoryHash(
       {
         categoryId: entry.categoryId,
@@ -276,23 +341,31 @@ export function App() {
     if (cachedCategory) setCategoryData(cachedCategory);
     setActiveCategoryId(categoryId);
     setQuery("");
-    setActiveTopSectionId("");
     setActiveSectionId("");
-    setManualExpandedTopSectionId(null);
     if (categoryId !== FAVORITES_CATEGORY_ID) {
+      setExpandedCategoryIds((current) => {
+        const next = new Set(current);
+        next.add(categoryId);
+        return next;
+      });
       writeCategoryHash({ categoryId, sectionPath: [] }, "push");
     }
+    if (isDrawerLayout) setIsSidebarOpen(false);
   }
 
-  function jumpToSection(categoryId: string, sectionId: string) {
-    const category = categoryDataCacheRef.current.get(categoryId) ?? categoryData;
+  async function jumpToSection(categoryId: string, sectionId: string) {
+    const category =
+      categoryDataCacheRef.current.get(categoryId) ??
+      (categoryId === categoryData?.id ? categoryData : await loadCategory(categoryId));
+    cacheCategoryData(category);
     const sectionPath =
       category?.id === categoryId ? (findSectionPathById(category.sections, sectionId) ?? []) : [];
 
+    setCategoryData(category);
     setActiveCategoryId(categoryId);
     setQuery("");
     setActiveSectionId(sectionId);
-    setManualExpandedTopSectionId(null);
+    expandSectionPath(categoryId, sectionPath);
     writeCategoryHash({ categoryId, sectionPath }, "push");
     setSectionJump((current) => ({
       categoryId,
@@ -302,8 +375,34 @@ export function App() {
     if (isDrawerLayout) setIsSidebarOpen(false);
   }
 
-  function toggleTopSection(sectionId: string) {
-    setManualExpandedTopSectionId((current) => (current === sectionId ? null : sectionId));
+  async function toggleCategoryBranch(categoryId: string) {
+    if (categoryId === FAVORITES_CATEGORY_ID) return;
+    if (!categoryDataCacheRef.current.has(categoryId)) {
+      const data = await loadCategory(categoryId);
+      cacheCategoryData(data);
+    }
+    setExpandedCategoryIds((current) => {
+      const next = new Set(current);
+      if (next.has(categoryId)) {
+        next.delete(categoryId);
+      } else {
+        next.add(categoryId);
+      }
+      return next;
+    });
+  }
+
+  function toggleSectionBranch(categoryId: string, sectionId: string) {
+    const key = sectionTreeKey(categoryId, sectionId);
+    setExpandedSectionKeys((current) => {
+      const next = new Set(current);
+      if (next.has(key)) {
+        next.delete(key);
+      } else {
+        next.add(key);
+      }
+      return next;
+    });
   }
 
   const restoreLocationFromHash = useCallback(() => {
@@ -321,10 +420,13 @@ export function App() {
     if (cachedCategory) setCategoryData(cachedCategory);
     setActiveCategoryId(categoryId);
     setQuery("");
-    setManualExpandedTopSectionId(null);
+    setExpandedCategoryIds((current) => {
+      const next = new Set(current);
+      next.add(categoryId);
+      return next;
+    });
 
     if (sectionPath.length === 0) {
-      setActiveTopSectionId("");
       setActiveSectionId("");
     }
 
@@ -353,27 +455,25 @@ export function App() {
       pendingUrlLocation.sectionPath,
     );
     setPendingUrlLocation(null);
-    setManualExpandedTopSectionId(null);
 
     if (!sectionId) {
-      setActiveTopSectionId("");
       setActiveSectionId("");
       writeCategoryHash({ categoryId: pendingUrlLocation.categoryId, sectionPath: [] }, "replace");
       return;
     }
 
     setActiveSectionId(sectionId);
+    expandSectionPath(pendingUrlLocation.categoryId, pendingUrlLocation.sectionPath);
     writeCategoryHash(pendingUrlLocation, "replace");
     setSectionJump((current) => ({
       categoryId: pendingUrlLocation.categoryId,
       sectionId,
       requestId: (current?.requestId ?? 0) + 1,
     }));
-  }, [categoryData, pendingUrlLocation]);
+  }, [categoryData, expandSectionPath, pendingUrlLocation]);
 
   const updateVisibleSection = useCallback(
-    (topSectionId: string, sectionId: string) => {
-      setActiveTopSectionId(topSectionId);
+    (_topSectionId: string, sectionId: string) => {
       setActiveSectionId(sectionId);
 
       if (pendingUrlLocation || normalizeQuery(query)) return;
@@ -402,11 +502,15 @@ export function App() {
             activeCategory={activeCategory}
             activeCategoryId={activeCategoryId}
             activeSectionId={activeSectionId}
-            activeTopSectionId={activeTopSectionId}
-            expandedTopSectionId={manualExpandedTopSectionId ?? activeTopSectionId}
+            activeSectionAncestorKeys={activeSectionAncestorKeys}
+            activeSectionKey={activeSectionKey}
+            categoryDataById={sidebarCategoryData}
+            expandedCategoryIds={expandedCategoryIds}
+            expandedSectionKeys={expandedSectionKeys}
             onSelect={selectCategoryFromSidebar}
             onSelectSection={jumpToSection}
-            onToggleTopSection={toggleTopSection}
+            onToggleCategory={toggleCategoryBranch}
+            onToggleSection={toggleSectionBranch}
           />
         </div>
         <Dialog.Root open={isSidebarOpen} onOpenChange={setIsSidebarOpen}>
@@ -424,11 +528,15 @@ export function App() {
               activeCategory={activeCategory}
               activeCategoryId={activeCategoryId}
               activeSectionId={activeSectionId}
-              activeTopSectionId={activeTopSectionId}
-              expandedTopSectionId={manualExpandedTopSectionId ?? activeTopSectionId}
+              activeSectionAncestorKeys={activeSectionAncestorKeys}
+              activeSectionKey={activeSectionKey}
+              categoryDataById={sidebarCategoryData}
+              expandedCategoryIds={expandedCategoryIds}
+              expandedSectionKeys={expandedSectionKeys}
               onSelect={selectCategoryFromSidebar}
               onSelectSection={jumpToSection}
-              onToggleTopSection={toggleTopSection}
+              onToggleCategory={toggleCategoryBranch}
+              onToggleSection={toggleSectionBranch}
             />
           </Dialog.Content>
         </Dialog.Root>
@@ -641,25 +749,30 @@ function CategorySidebar({
   activeCategory,
   activeCategoryId,
   activeSectionId,
-  activeTopSectionId,
-  expandedTopSectionId,
+  activeSectionAncestorKeys,
+  activeSectionKey,
+  categoryDataById,
+  expandedCategoryIds,
+  expandedSectionKeys,
   onSelect,
   onSelectSection,
-  onToggleTopSection,
+  onToggleCategory,
+  onToggleSection,
 }: {
   categories: CategorySummary[];
   activeCategory: CategoryData | null;
   activeCategoryId: string;
   activeSectionId: string;
+  activeSectionAncestorKeys: Set<string>;
+  activeSectionKey: string;
+  categoryDataById: Map<string, CategoryData>;
+  expandedCategoryIds: Set<string>;
+  expandedSectionKeys: Set<string>;
   onSelect: (categoryId: string) => void;
-  activeTopSectionId: string;
-  expandedTopSectionId: string;
   onSelectSection: (categoryId: string, sectionId: string) => void;
-  onToggleTopSection: (sectionId: string) => void;
+  onToggleCategory: (categoryId: string) => void;
+  onToggleSection: (categoryId: string, sectionId: string) => void;
 }) {
-  const activeTopSections =
-    activeCategory && activeCategory.id !== FAVORITES_CATEGORY_ID ? activeCategory.sections : [];
-
   return (
     <aside className="sidebar" aria-label="カテゴリ">
       <Flex align="baseline" justify="between" px="4" py="3">
@@ -672,62 +785,70 @@ function CategorySidebar({
         <Flex direction="column" gap="1" px="2" pb="3">
           {categories.map((category) => {
             const isActive = category.id === activeCategoryId;
+            const categoryData =
+              categoryDataById.get(category.id) ?? (isActive ? activeCategory : null);
+            const canExpand = category.id !== FAVORITES_CATEGORY_ID;
+            const isExpanded =
+              canExpand && expandedCategoryIds.has(category.id) && Boolean(categoryData);
             return (
               <div className="category-tree-item" key={category.id}>
-                <button
-                  className="category-button"
-                  data-active={isActive}
-                  onClick={() => onSelect(category.id)}
-                  type="button"
-                >
-                  <span>{category.name}</span>
-                  <span className="category-count">{category.tagCount.toLocaleString()}</span>
-                </button>
-                {isActive && activeTopSections.length > 0 ? (
+                <div className="tree-node-row category-node-row">
+                  {canExpand ? (
+                    <button
+                      aria-label={`${category.name} を${isExpanded ? "閉じる" : "開く"}`}
+                      aria-expanded={isExpanded}
+                      className="tree-disclosure-button"
+                      onClick={() => onToggleCategory(category.id)}
+                      type="button"
+                    >
+                      <ChevronRight aria-hidden="true" size={14} strokeWidth={2} />
+                    </button>
+                  ) : (
+                    <span className="tree-disclosure-spacer" />
+                  )}
+                  <button
+                    className="tree-node-button category-button"
+                    data-active={isActive && !activeSectionId && !isExpanded}
+                    data-ancestor={isActive && (Boolean(activeSectionId) || isExpanded)}
+                    data-current-child={isActive && !isExpanded}
+                    onClick={() =>
+                      canExpand ? onToggleCategory(category.id) : onSelect(category.id)
+                    }
+                    type="button"
+                  >
+                    <span className="tree-node-label">{category.name}</span>
+                    <span className="category-count">{category.tagCount.toLocaleString()}</span>
+                  </button>
+                </div>
+                {isExpanded && categoryData?.sections.length ? (
                   <nav className="section-tree" aria-label={`${category.name} のサブカテゴリ`}>
-                    {activeTopSections.map((section) => {
-                      const isTopActive = section.id === activeTopSectionId;
-                      const isExpanded = section.id === expandedTopSectionId;
-                      const hasChildren = Boolean(section.children?.length);
-                      return (
-                        <div className="section-tree-group" key={section.id}>
-                          <button
-                            className="section-tree-button section-tree-button-top"
-                            data-active={isTopActive}
-                            data-expanded={isExpanded}
-                            onClick={() =>
-                              hasChildren
-                                ? onToggleTopSection(section.id)
-                                : onSelectSection(category.id, section.id)
-                            }
-                            type="button"
-                          >
-                            <span>{section.name}</span>
-                            <span className="category-count">
-                              {section.tagCount.toLocaleString()}
-                            </span>
-                          </button>
-                          {hasChildren && isExpanded ? (
-                            <div className="section-tree-children">
-                              {section.children?.map((child) => (
-                                <button
-                                  className="section-tree-button section-tree-button-child"
-                                  data-active={child.id === activeSectionId}
-                                  key={child.id}
-                                  onClick={() => onSelectSection(category.id, child.id)}
-                                  type="button"
-                                >
-                                  <span>{child.name}</span>
-                                  <span className="category-count">
-                                    {child.tagCount.toLocaleString()}
-                                  </span>
-                                </button>
-                              ))}
-                            </div>
-                          ) : null}
-                        </div>
-                      );
-                    })}
+                    <div
+                      className="tree-node-row section-node-row tree-overview-row"
+                      style={{ "--tree-depth": 0 } as CSSProperties}
+                    >
+                      <button
+                        className="tree-node-button section-tree-button tree-overview-button"
+                        data-active={isActive && !activeSectionId}
+                        onClick={() => onSelect(category.id)}
+                        type="button"
+                      >
+                        <span className="tree-node-label">カテゴリ全体</span>
+                        <span className="category-count">{category.tagCount.toLocaleString()}</span>
+                      </button>
+                    </div>
+                    {categoryData.sections.map((section) => (
+                      <SectionTreeNode
+                        activeSectionAncestorKeys={activeSectionAncestorKeys}
+                        activeSectionKey={activeSectionKey}
+                        categoryId={category.id}
+                        depth={0}
+                        expandedSectionKeys={expandedSectionKeys}
+                        key={section.id}
+                        onSelectSection={onSelectSection}
+                        onToggleSection={onToggleSection}
+                        section={section}
+                      />
+                    ))}
                   </nav>
                 ) : null}
               </div>
@@ -736,6 +857,102 @@ function CategorySidebar({
         </Flex>
       </ScrollArea>
     </aside>
+  );
+}
+
+function SectionTreeNode({
+  activeSectionAncestorKeys,
+  activeSectionKey,
+  categoryId,
+  depth,
+  expandedSectionKeys,
+  onSelectSection,
+  onToggleSection,
+  section,
+}: {
+  activeSectionAncestorKeys: Set<string>;
+  activeSectionKey: string;
+  categoryId: string;
+  depth: number;
+  expandedSectionKeys: Set<string>;
+  onSelectSection: (categoryId: string, sectionId: string) => void;
+  onToggleSection: (categoryId: string, sectionId: string) => void;
+  section: CategorySection;
+}) {
+  const sectionKey = sectionTreeKey(categoryId, section.id);
+  const hasChildren = Boolean(section.children?.length);
+  const isSelected = sectionKey === activeSectionKey;
+  const isAncestor = activeSectionAncestorKeys.has(sectionKey) && !isSelected;
+  const isExpanded = hasChildren && expandedSectionKeys.has(sectionKey);
+  const isBranchContext = hasChildren && (isAncestor || isSelected);
+
+  return (
+    <div className="section-tree-group">
+      <div
+        className="tree-node-row section-node-row"
+        style={{ "--tree-depth": depth } as CSSProperties}
+      >
+        {hasChildren ? (
+          <button
+            aria-label={`${section.name} を${isExpanded ? "閉じる" : "開く"}`}
+            aria-expanded={isExpanded}
+            className="tree-disclosure-button"
+            onClick={() => onToggleSection(categoryId, section.id)}
+            type="button"
+          >
+            <ChevronRight aria-hidden="true" size={14} strokeWidth={2} />
+          </button>
+        ) : (
+          <span className="tree-disclosure-spacer" />
+        )}
+        <button
+          className="tree-node-button section-tree-button"
+          data-active={isSelected && (!hasChildren || !isExpanded)}
+          data-ancestor={isBranchContext && isExpanded}
+          data-current-child={isBranchContext && !isExpanded}
+          onClick={() =>
+            hasChildren
+              ? onToggleSection(categoryId, section.id)
+              : onSelectSection(categoryId, section.id)
+          }
+          type="button"
+        >
+          <span className="tree-node-label">{section.name}</span>
+          <span className="category-count">{section.tagCount.toLocaleString()}</span>
+        </button>
+      </div>
+      {hasChildren && isExpanded ? (
+        <div className="section-tree-children">
+          <div
+            className="tree-node-row section-node-row tree-overview-row"
+            style={{ "--tree-depth": depth + 1 } as CSSProperties}
+          >
+            <button
+              className="tree-node-button section-tree-button tree-overview-button"
+              data-active={isSelected}
+              onClick={() => onSelectSection(categoryId, section.id)}
+              type="button"
+            >
+              <span className="tree-node-label">セクション全体</span>
+              <span className="category-count">{section.tagCount.toLocaleString()}</span>
+            </button>
+          </div>
+          {section.children?.map((child) => (
+            <SectionTreeNode
+              activeSectionAncestorKeys={activeSectionAncestorKeys}
+              activeSectionKey={activeSectionKey}
+              categoryId={categoryId}
+              depth={depth + 1}
+              expandedSectionKeys={expandedSectionKeys}
+              key={child.id}
+              onSelectSection={onSelectSection}
+              onToggleSection={onToggleSection}
+              section={child}
+            />
+          ))}
+        </div>
+      ) : null}
+    </div>
   );
 }
 
@@ -875,6 +1092,8 @@ function CategoryView({
   useMobileTagRows: boolean;
 }) {
   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const hasUserScrolledRef = useRef(false);
+  const ignoreNextScrollRef = useRef(false);
   const [scrollTop, setScrollTop] = useState(0);
   const [viewportHeight, setViewportHeight] = useState(720);
   const rows = useMemo(() => flattenCategoryRows(category.sections), [category.sections]);
@@ -892,10 +1111,11 @@ function CategoryView({
     if (!categoryId) return;
     const scrollElement = scrollRef.current;
     if (!scrollElement) return;
+    hasUserScrolledRef.current = false;
+    ignoreNextScrollRef.current = true;
     scrollElement.scrollTop = 0;
     setScrollTop(0);
-    onVisibleSectionChange("", "");
-  }, [categoryId, onVisibleSectionChange]);
+  }, [categoryId]);
 
   useEffect(() => {
     if (!sectionJump || sectionJump.categoryId !== categoryId) return;
@@ -904,11 +1124,14 @@ function CategoryView({
     const position = sectionPositions.find((section) => section.id === sectionJump.sectionId);
     if (!position) return;
     const nextScrollTop = rowMetrics.tops[position.index] ?? 0;
+    hasUserScrolledRef.current = false;
+    ignoreNextScrollRef.current = true;
     scrollElement.scrollTop = nextScrollTop;
     setScrollTop(nextScrollTop);
   }, [categoryId, rowMetrics.tops, sectionJump, sectionPositions]);
 
   useEffect(() => {
+    if (!hasUserScrolledRef.current) return;
     onVisibleSectionChange(currentPosition?.topSectionId ?? "", currentPosition?.id ?? "");
   }, [currentPosition?.id, currentPosition?.topSectionId, onVisibleSectionChange]);
 
@@ -931,6 +1154,14 @@ function CategoryView({
   const visibleRows = rows.slice(startIndex, endIndex);
   const topOffset = rowMetrics.tops[startIndex] ?? 0;
   const totalHeight = rowMetrics.totalHeight;
+  const handleScroll = useCallback((event: UIEvent<HTMLDivElement>) => {
+    if (ignoreNextScrollRef.current) {
+      ignoreNextScrollRef.current = false;
+    } else {
+      hasUserScrolledRef.current = true;
+    }
+    setScrollTop(event.currentTarget.scrollTop);
+  }, []);
 
   return (
     <section className="category-view">
@@ -939,11 +1170,7 @@ function CategoryView({
           <Text color="gray">お気に入りに追加したタグはここに表示されます。</Text>
         </Box>
       ) : null}
-      <div
-        className="virtual-category-scroll"
-        ref={scrollRef}
-        onScroll={(event) => setScrollTop(event.currentTarget.scrollTop)}
-      >
+      <div className="virtual-category-scroll" ref={scrollRef} onScroll={handleScroll}>
         <div className="virtual-category-list" style={{ height: totalHeight }}>
           <div
             className="virtual-category-window"
@@ -1048,6 +1275,27 @@ function findSectionPathById(sections: CategorySection[], sectionId: string): st
     if (childPath) return childPath;
   }
   return null;
+}
+
+function findSectionAncestorIdsByPath(
+  sections: CategorySection[],
+  sectionPath: string[],
+): string[] {
+  if (sectionPath.length <= 1) return [];
+  for (const section of sections) {
+    if (section.sectionPath[0] !== sectionPath[0]) continue;
+    if (
+      section.sectionPath.length < sectionPath.length &&
+      section.sectionPath.every((part, index) => part === sectionPath[index])
+    ) {
+      return [section.id, ...findSectionAncestorIdsByPath(section.children ?? [], sectionPath)];
+    }
+  }
+  return [];
+}
+
+function sectionTreeKey(categoryId: string, sectionId: string): string {
+  return `${categoryId}:${sectionId}`;
 }
 
 type RowMetrics = {
