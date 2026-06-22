@@ -823,10 +823,9 @@ function CategorySidebar({
                 {isExpanded && categoryData?.sections.length ? (
                   <nav className="section-tree" aria-label={`${category.name} のサブカテゴリ`}>
                     <div
-                      className="tree-node-row section-node-row"
+                      className="tree-node-row section-node-row tree-overview-row"
                       style={{ "--tree-depth": 0 } as CSSProperties}
                     >
-                      <span className="tree-disclosure-spacer" />
                       <button
                         className="tree-node-button section-tree-button tree-overview-button"
                         data-active={isActive && !activeSectionId}
@@ -925,10 +924,9 @@ function SectionTreeNode({
       {hasChildren && isExpanded ? (
         <div className="section-tree-children">
           <div
-            className="tree-node-row section-node-row"
+            className="tree-node-row section-node-row tree-overview-row"
             style={{ "--tree-depth": depth + 1 } as CSSProperties}
           >
-            <span className="tree-disclosure-spacer" />
             <button
               className="tree-node-button section-tree-button tree-overview-button"
               data-active={isSelected}

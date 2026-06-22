@@ -174,6 +174,11 @@ button {
   padding-left: calc(var(--tree-depth, 0) * var(--space-4));
 }
 
+.tree-overview-row {
+  grid-template-columns: minmax(0, 1fr);
+  padding-left: calc(22px + (var(--tree-depth, 0) * var(--space-4)));
+}
+
 .tree-disclosure-button,
 .tree-disclosure-spacer {
   display: inline-flex;
@@ -198,8 +203,10 @@ button {
 }
 
 .tree-disclosure-button:focus-visible {
-  outline: 2px solid var(--focus-8);
-  outline-offset: 1px;
+  background: var(--slate-3);
+  box-shadow: inset 0 0 0 1px var(--focus-7);
+  color: var(--slate-12);
+  outline: none;
 }
 
 .tree-disclosure-button:focus:not(:focus-visible) {
@@ -303,7 +310,7 @@ button {
   position: absolute;
   top: 3px;
   bottom: 6px;
-  left: 10px;
+  left: 0;
   width: 1px;
   background: var(--slate-5);
   content: "";
@@ -326,7 +333,7 @@ button {
 }
 
 .tree-overview-button {
-  padding-left: var(--space-3);
+  padding-left: var(--space-2);
 }
 
 .tree-overview-button[data-active="true"]::before {
