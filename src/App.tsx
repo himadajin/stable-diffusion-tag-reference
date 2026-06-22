@@ -11,12 +11,18 @@ import {
   TextField,
   Tooltip,
 } from "@radix-ui/themes";
-import { Heart } from "lucide-react";
+import { Heart, Link2 } from "lucide-react";
 import type { CSSProperties, ReactNode } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { copyText } from "./lib/clipboard";
 import { loadCategory, loadManifest } from "./lib/data";
 import { entryCopyValue, normalizeQuery, searchEntriesFromChunks } from "./lib/search";
+import {
+  buildCategoryHash,
+  buildCategoryShareUrl,
+  type CategoryHashLocation,
+  parseCategoryHash,
+} from "./lib/share-url";
 import type {
   CategoryData,
   CategorySection,
@@ -61,6 +67,34 @@ type SectionJump = {
   requestId: number;
 };
 
+type HistoryMode = "push" | "replace";
+
+function firstBrowsableCategoryId(categories: CategorySummary[]): string {
+  return categories.find((category) => category.tagCount > 0)?.id ?? categories[0]?.id ?? "";
+}
+
+function resolveHashCategoryId(
+  location: CategoryHashLocation | null,
+  categories: CategorySummary[],
+): string {
+  if (!location || location.categoryId === FAVORITES_CATEGORY_ID) return "";
+  return categories.some((category) => category.id === location.categoryId)
+    ? location.categoryId
+    : "";
+}
+
+function writeCategoryHash(location: CategoryHashLocation, mode: HistoryMode) {
+  if (!location.categoryId) return;
+  const hash = buildCategoryHash(location);
+  if (window.location.hash === hash) return;
+  const nextUrl = `${window.location.pathname}${window.location.search}${hash}`;
+  if (mode === "push") {
+    window.history.pushState(null, "", nextUrl);
+  } else {
+    window.history.replaceState(null, "", nextUrl);
+  }
+}
+
 export function App() {
   const [categories, setCategories] = useState<CategorySummary[]>([]);
   const [activeCategoryId, setActiveCategoryId] = useState<string>("");
@@ -76,17 +110,28 @@ export function App() {
   const [activeSectionId, setActiveSectionId] = useState<string>("");
   const [manualExpandedTopSectionId, setManualExpandedTopSectionId] = useState<string | null>(null);
   const [sectionJump, setSectionJump] = useState<SectionJump | null>(null);
+  const [pendingUrlLocation, setPendingUrlLocation] = useState<CategoryHashLocation | null>(null);
   const categoryDataCacheRef = useRef(new Map<string, CategoryData>());
   const isDrawerLayout = useMediaQuery("(max-width: 959px)");
   const useMobileTagRows = useMediaQuery("(max-width: 620px)");
 
   useEffect(() => {
     loadManifest().then((manifest) => {
+      const defaultCategoryId = firstBrowsableCategoryId(manifest.categories);
+      const parsedLocation = parseCategoryHash(window.location.hash);
+      const categoryId = resolveHashCategoryId(parsedLocation, manifest.categories);
+      const nextCategoryId = categoryId || defaultCategoryId;
+
       setCategories(manifest.categories);
-      setActiveCategoryId(
-        (current) =>
-          current || manifest.categories.find((category) => category.tagCount > 0)?.id || "",
-      );
+      if (nextCategoryId) {
+        setActiveCategoryId((current) => current || nextCategoryId);
+      }
+      if (parsedLocation?.sectionPath.length && parsedLocation.categoryId === nextCategoryId) {
+        setPendingUrlLocation(parsedLocation);
+      }
+      if (nextCategoryId && (!parsedLocation || parsedLocation.categoryId !== nextCategoryId)) {
+        writeCategoryHash({ categoryId: nextCategoryId, sectionPath: [] }, "replace");
+      }
     });
   }, []);
 
@@ -153,6 +198,18 @@ export function App() {
   }, [copyState]);
 
   const isSearching = normalizeQuery(query).length > 0;
+  const activeCategory = categoryData?.id === activeCategoryId ? categoryData : null;
+  const activeShareSectionPath =
+    activeCategory && activeCategory.id !== FAVORITES_CATEGORY_ID
+      ? (findSectionPathById(activeCategory.sections, activeSectionId) ?? [])
+      : [];
+  const shareUrl =
+    activeCategory && activeCategory.id !== FAVORITES_CATEGORY_ID && !isSearching
+      ? buildCategoryShareUrl(window.location.href, {
+          categoryId: activeCategory.id,
+          sectionPath: activeShareSectionPath,
+        })
+      : undefined;
   const sidebarCategories = useMemo(
     () => [
       {
@@ -171,6 +228,11 @@ export function App() {
     setCopyState({ value });
   }
 
+  async function copyShareUrl(value: string) {
+    await copyText(value);
+    setCopyState({ value });
+  }
+
   async function openTagContext(entry: Extract<SearchEntry, { type: "tag" }>) {
     const data = await loadCategory(entry.categoryId);
     categoryDataCacheRef.current.set(entry.categoryId, data);
@@ -179,6 +241,13 @@ export function App() {
     setQuery("");
     setActiveSectionId(sectionId);
     setManualExpandedTopSectionId(null);
+    writeCategoryHash(
+      {
+        categoryId: entry.categoryId,
+        sectionPath: sectionId ? entry.sectionPath : [],
+      },
+      "push",
+    );
     if (sectionId) {
       setSectionJump((current) => ({
         categoryId: entry.categoryId,
@@ -210,13 +279,21 @@ export function App() {
     setActiveTopSectionId("");
     setActiveSectionId("");
     setManualExpandedTopSectionId(null);
+    if (categoryId !== FAVORITES_CATEGORY_ID) {
+      writeCategoryHash({ categoryId, sectionPath: [] }, "push");
+    }
   }
 
   function jumpToSection(categoryId: string, sectionId: string) {
+    const category = categoryDataCacheRef.current.get(categoryId) ?? categoryData;
+    const sectionPath =
+      category?.id === categoryId ? (findSectionPathById(category.sections, sectionId) ?? []) : [];
+
     setActiveCategoryId(categoryId);
     setQuery("");
     setActiveSectionId(sectionId);
     setManualExpandedTopSectionId(null);
+    writeCategoryHash({ categoryId, sectionPath }, "push");
     setSectionJump((current) => ({
       categoryId,
       sectionId,
@@ -229,10 +306,92 @@ export function App() {
     setManualExpandedTopSectionId((current) => (current === sectionId ? null : sectionId));
   }
 
-  const updateVisibleSection = useCallback((topSectionId: string, sectionId: string) => {
-    setActiveTopSectionId(topSectionId);
+  const restoreLocationFromHash = useCallback(() => {
+    if (categories.length === 0) return;
+
+    const parsedLocation = parseCategoryHash(window.location.hash);
+    const defaultCategoryId = firstBrowsableCategoryId(categories);
+    const categoryId = resolveHashCategoryId(parsedLocation, categories) || defaultCategoryId;
+    if (!categoryId) return;
+
+    const sectionPath = parsedLocation?.categoryId === categoryId ? parsedLocation.sectionPath : [];
+    setPendingUrlLocation(sectionPath.length ? { categoryId, sectionPath } : null);
+
+    const cachedCategory = categoryDataCacheRef.current.get(categoryId);
+    if (cachedCategory) setCategoryData(cachedCategory);
+    setActiveCategoryId(categoryId);
+    setQuery("");
+    setManualExpandedTopSectionId(null);
+
+    if (sectionPath.length === 0) {
+      setActiveTopSectionId("");
+      setActiveSectionId("");
+    }
+
+    if (!parsedLocation || parsedLocation.categoryId !== categoryId) {
+      writeCategoryHash({ categoryId, sectionPath: [] }, "replace");
+    }
+
+    if (isDrawerLayout) setIsSidebarOpen(false);
+  }, [categories, isDrawerLayout]);
+
+  useEffect(() => {
+    if (categories.length === 0) return;
+    window.addEventListener("popstate", restoreLocationFromHash);
+    window.addEventListener("hashchange", restoreLocationFromHash);
+    return () => {
+      window.removeEventListener("popstate", restoreLocationFromHash);
+      window.removeEventListener("hashchange", restoreLocationFromHash);
+    };
+  }, [categories.length, restoreLocationFromHash]);
+
+  useEffect(() => {
+    if (!pendingUrlLocation || categoryData?.id !== pendingUrlLocation.categoryId) return;
+
+    const sectionId = findSectionIdBySectionPath(
+      categoryData.sections,
+      pendingUrlLocation.sectionPath,
+    );
+    setPendingUrlLocation(null);
+    setManualExpandedTopSectionId(null);
+
+    if (!sectionId) {
+      setActiveTopSectionId("");
+      setActiveSectionId("");
+      writeCategoryHash({ categoryId: pendingUrlLocation.categoryId, sectionPath: [] }, "replace");
+      return;
+    }
+
     setActiveSectionId(sectionId);
-  }, []);
+    writeCategoryHash(pendingUrlLocation, "replace");
+    setSectionJump((current) => ({
+      categoryId: pendingUrlLocation.categoryId,
+      sectionId,
+      requestId: (current?.requestId ?? 0) + 1,
+    }));
+  }, [categoryData, pendingUrlLocation]);
+
+  const updateVisibleSection = useCallback(
+    (topSectionId: string, sectionId: string) => {
+      setActiveTopSectionId(topSectionId);
+      setActiveSectionId(sectionId);
+
+      if (pendingUrlLocation || normalizeQuery(query)) return;
+      if (!activeCategoryId || activeCategoryId === FAVORITES_CATEGORY_ID) return;
+
+      const category = categoryDataCacheRef.current.get(activeCategoryId) ?? categoryData;
+      if (category?.id !== activeCategoryId) return;
+
+      writeCategoryHash(
+        {
+          categoryId: activeCategoryId,
+          sectionPath: findSectionPathById(category.sections, sectionId) ?? [],
+        },
+        "replace",
+      );
+    },
+    [activeCategoryId, categoryData, pendingUrlLocation, query],
+  );
 
   return (
     <div className="app-shell">
@@ -240,7 +399,7 @@ export function App() {
         <div className="desktop-sidebar">
           <CategorySidebar
             categories={sidebarCategories}
-            activeCategory={categoryData?.id === activeCategoryId ? categoryData : null}
+            activeCategory={activeCategory}
             activeCategoryId={activeCategoryId}
             activeSectionId={activeSectionId}
             activeTopSectionId={activeTopSectionId}
@@ -262,7 +421,7 @@ export function App() {
             </Flex>
             <CategorySidebar
               categories={sidebarCategories}
-              activeCategory={categoryData?.id === activeCategoryId ? categoryData : null}
+              activeCategory={activeCategory}
               activeCategoryId={activeCategoryId}
               activeSectionId={activeSectionId}
               activeTopSectionId={activeTopSectionId}
@@ -282,6 +441,7 @@ export function App() {
           isSearching={isSearching}
           isSearchLoading={isSearchLoading}
           onCopy={copyValue}
+          onCopyShareUrl={copyShareUrl}
           onOpenTagContext={openTagContext}
           onOpenSidebar={() => setIsSidebarOpen(true)}
           onQueryChange={setQuery}
@@ -290,6 +450,8 @@ export function App() {
           query={query}
           searchResults={searchResults}
           sectionJump={sectionJump}
+          shareCopied={copyState?.value === shareUrl}
+          shareUrl={shareUrl}
           useMobileTagRows={useMobileTagRows}
         />
       </div>
@@ -392,6 +554,7 @@ function MainPanel({
   isSearching,
   isSearchLoading,
   onCopy,
+  onCopyShareUrl,
   onOpenTagContext,
   onOpenSidebar,
   onQueryChange,
@@ -400,6 +563,8 @@ function MainPanel({
   query,
   searchResults,
   sectionJump,
+  shareCopied,
+  shareUrl,
   useMobileTagRows,
 }: {
   activeSectionId: string;
@@ -410,6 +575,7 @@ function MainPanel({
   isSearching: boolean;
   isSearchLoading: boolean;
   onCopy: (value: string) => void;
+  onCopyShareUrl: (value: string) => void;
   onOpenTagContext: (entry: Extract<SearchEntry, { type: "tag" }>) => void;
   onOpenSidebar: () => void;
   onQueryChange: (query: string) => void;
@@ -418,6 +584,8 @@ function MainPanel({
   query: string;
   searchResults: SearchEntry[];
   sectionJump: SectionJump | null;
+  shareCopied: boolean;
+  shareUrl?: string;
   useMobileTagRows: boolean;
 }) {
   const showCategoryLoading = useDelayedFlag(isCategoryLoading, 300);
@@ -431,9 +599,12 @@ function MainPanel({
         isSearchLoading={isSearchLoading}
         isSearching={isSearching}
         onOpenSidebar={onOpenSidebar}
+        onCopyShareUrl={onCopyShareUrl}
         onQueryChange={onQueryChange}
         query={query}
         resultCount={searchResults.length}
+        shareCopied={shareCopied}
+        shareUrl={shareUrl}
       />
       {isSearching ? (
         <SearchResults
@@ -574,20 +745,26 @@ function DictionaryHeader({
   isCategoryLoading,
   isSearchLoading,
   isSearching,
+  onCopyShareUrl,
   onOpenSidebar,
   query,
   onQueryChange,
   resultCount,
+  shareCopied,
+  shareUrl,
 }: {
   activeSectionId: string;
   category: CategoryData | null;
   isCategoryLoading: boolean;
   isSearchLoading: boolean;
   isSearching: boolean;
+  onCopyShareUrl: (value: string) => void;
   onOpenSidebar: () => void;
   query: string;
   onQueryChange: (query: string) => void;
   resultCount: number;
+  shareCopied: boolean;
+  shareUrl?: string;
 }) {
   const breadcrumb =
     category && category.id !== FAVORITES_CATEGORY_ID
@@ -610,9 +787,31 @@ function DictionaryHeader({
             </Text>
           ) : null}
         </div>
-        <Text className="dictionary-count" color="gray" size="2">
-          {isSearching ? `${resultCount.toLocaleString()} results` : `${count ?? 0} tags`}
-        </Text>
+        <div className="dictionary-header-actions">
+          <Text className="dictionary-count" color="gray" size="2">
+            {isSearching ? `${resultCount.toLocaleString()} results` : `${count ?? 0} tags`}
+          </Text>
+          {shareUrl ? (
+            <Tooltip
+              content={shareCopied ? "共有URLをコピーしました" : "現在位置の共有URLをコピー"}
+            >
+              <IconButton
+                aria-label="現在位置の共有URLをコピー"
+                className="share-url-button"
+                color={shareCopied ? "indigo" : "gray"}
+                size="1"
+                variant="ghost"
+                onClick={() => onCopyShareUrl(shareUrl)}
+              >
+                {shareCopied ? (
+                  <CheckIcon aria-hidden="true" />
+                ) : (
+                  <Link2 aria-hidden="true" size={14} strokeWidth={2} />
+                )}
+              </IconButton>
+            </Tooltip>
+          ) : null}
+        </div>
       </div>
       <div className="dictionary-search-row">
         <Box className="search-field">
@@ -837,6 +1036,16 @@ function findSectionIdBySectionPath(
     }
     const childId = findSectionIdBySectionPath(section.children ?? [], sectionPath);
     if (childId) return childId;
+  }
+  return null;
+}
+
+function findSectionPathById(sections: CategorySection[], sectionId: string): string[] | null {
+  if (!sectionId) return null;
+  for (const section of sections) {
+    if (section.id === sectionId) return section.sectionPath;
+    const childPath = findSectionPathById(section.children ?? [], sectionId);
+    if (childPath) return childPath;
   }
   return null;
 }

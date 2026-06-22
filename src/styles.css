@@ -126,6 +126,22 @@ button {
   white-space: nowrap;
 }
 
+.dictionary-header-actions {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.share-url-button {
+  color: var(--slate-11);
+}
+
+.share-url-button:focus-visible {
+  outline: 2px solid var(--indigo-8);
+  outline-offset: 1px;
+}
+
 .dictionary-search-row {
   display: flex;
   align-items: center;

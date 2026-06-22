@@ -46,6 +46,42 @@ test("category browsing, search, and copy workflow", async ({ context, isMobile,
     .toBe("cinematic lighting");
 });
 
+test("shareable category URLs restore, copy, and follow browser history", async ({
+  context,
+  isMobile,
+  page,
+}) => {
+  test.skip(isMobile, "desktop layout coverage");
+  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+
+  await page.goto("/#category=body&section=hair/hairstyles");
+  await expect(page.getByRole("heading", { name: "髪 / 髪型" })).toBeVisible();
+  await expect(page).toHaveURL(/#category=body&section=hair\/hairstyles$/);
+
+  await page.getByRole("button", { name: "現在位置の共有URLをコピー" }).click();
+  await expect
+    .poll(() => page.evaluate(() => navigator.clipboard.readText()))
+    .toContain("#category=body&section=hair/hairstyles");
+
+  await page.locator('input[aria-label="タグ検索"]:visible').fill("masterpiece");
+  await expect(page.getByRole("heading", { name: "検索結果" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "現在位置の共有URLをコピー" })).toHaveCount(0);
+  await page.getByRole("button", { name: "検索をクリア" }).click();
+
+  await page
+    .getByLabel("カテゴリ")
+    .getByRole("button", { name: /動作・姿勢/ })
+    .click();
+  await expect(page).toHaveURL(/#category=action-pose/);
+  await page.goBack();
+  await expect(page.getByRole("heading", { name: "髪 / 髪型" })).toBeVisible();
+  await expect(page).toHaveURL(/#category=body&section=hair\/hairstyles$/);
+
+  await page.goto("/#category=quality&section=missing");
+  await expect(page.getByRole("button", { name: "masterpiece をコピー" }).first()).toBeVisible();
+  await expect(page).toHaveURL(/#category=quality/);
+});
+
 test("mobile keeps drawer navigation, search, and favorites available", async ({
   context,
   isMobile,
@@ -75,4 +111,15 @@ test("mobile keeps drawer navigation, search, and favorites available", async ({
   await page.getByRole("button", { name: /お気に入り/ }).click();
   await page.getByRole("button", { name: "カテゴリを閉じる" }).click();
   await expect(page.getByRole("main").getByText("masterpiece")).toBeVisible();
+});
+
+test("mobile restores shareable category URLs", async ({ isMobile, page }) => {
+  test.skip(!isMobile, "mobile layout coverage");
+
+  await page.goto("/#category=body&section=hair/hairstyles");
+  await expect(page.getByRole("heading", { name: "髪 / 髪型" })).toBeVisible();
+  await page.getByRole("button", { name: "カテゴリ" }).click();
+  await expect(
+    page.getByLabel("身体 のサブカテゴリ").getByRole("button", { name: /髪/ }).first(),
+  ).toBeVisible();
 });
