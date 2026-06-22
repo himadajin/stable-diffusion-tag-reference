@@ -58,6 +58,8 @@ The sidebar contains:
 
 Top-level category selection changes the content immediately and resets the content scroll position to the start of that category.
 
+Routine category switching should not replace the list with a full-content loading state. Keep the current list stable until the next category data is ready, then swap content and reset scroll. If category loading becomes noticeably delayed, use a small inline status near the header rather than a page-level loading message.
+
 Opening or closing a section tree item only changes the navigation disclosure state. It must not force the main content to scroll. Selecting a second-level section jumps the main content to that section.
 
 On mobile, selecting a top-level category may close the Drawer because the primary content has changed. Section jumps should also return focus to the content by closing the Drawer.

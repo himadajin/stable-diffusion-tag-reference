@@ -64,6 +64,7 @@ export function App() {
   const [categories, setCategories] = useState<CategorySummary[]>([]);
   const [activeCategoryId, setActiveCategoryId] = useState<string>("");
   const [categoryData, setCategoryData] = useState<CategoryData | null>(null);
+  const [isCategoryLoading, setIsCategoryLoading] = useState(false);
   const [query, setQuery] = useState("");
   const [searchResults, setSearchResults] = useState<SearchEntry[]>([]);
   const [isSearchLoading, setIsSearchLoading] = useState(false);
@@ -74,6 +75,7 @@ export function App() {
   const [activeSectionId, setActiveSectionId] = useState<string>("");
   const [manualExpandedTopSectionId, setManualExpandedTopSectionId] = useState<string | null>(null);
   const [sectionJump, setSectionJump] = useState<SectionJump | null>(null);
+  const categoryDataCacheRef = useRef(new Map<string, CategoryData>());
   const isDrawerLayout = useMediaQuery("(max-width: 959px)");
   const useMobileTagRows = useMediaQuery("(max-width: 620px)");
 
@@ -90,9 +92,19 @@ export function App() {
   useEffect(() => {
     if (!activeCategoryId || activeCategoryId === FAVORITES_CATEGORY_ID) return;
     let isCurrent = true;
-    setCategoryData(null);
+    const cachedCategory = categoryDataCacheRef.current.get(activeCategoryId);
+    if (cachedCategory) {
+      setCategoryData(cachedCategory);
+      setIsCategoryLoading(false);
+      return;
+    }
+
+    setIsCategoryLoading(true);
     loadCategory(activeCategoryId).then((data) => {
-      if (isCurrent) setCategoryData(data);
+      categoryDataCacheRef.current.set(activeCategoryId, data);
+      if (!isCurrent) return;
+      setCategoryData(data);
+      setIsCategoryLoading(false);
     });
     return () => {
       isCurrent = false;
@@ -102,9 +114,11 @@ export function App() {
   useEffect(() => {
     if (activeCategoryId !== FAVORITES_CATEGORY_ID) return;
     let isCurrent = true;
-    setCategoryData(null);
+    setIsCategoryLoading(true);
     loadFavoritesCategory(categories, favoriteIds).then((data) => {
-      if (isCurrent) setCategoryData(data);
+      if (!isCurrent) return;
+      setCategoryData(data);
+      setIsCategoryLoading(false);
     });
     return () => {
       isCurrent = false;
@@ -158,6 +172,7 @@ export function App() {
 
   async function openTagContext(entry: Extract<SearchEntry, { type: "tag" }>) {
     const data = await loadCategory(entry.categoryId);
+    categoryDataCacheRef.current.set(entry.categoryId, data);
     const sectionId = findSectionIdByPath(data.sections, entry.path) ?? "";
     setActiveCategoryId(entry.categoryId);
     setQuery("");
@@ -187,6 +202,8 @@ export function App() {
   }
 
   function selectCategoryFromSidebar(categoryId: string) {
+    const cachedCategory = categoryDataCacheRef.current.get(categoryId);
+    if (cachedCategory) setCategoryData(cachedCategory);
     setActiveCategoryId(categoryId);
     setQuery("");
     setActiveTopSectionId("");
@@ -222,7 +239,7 @@ export function App() {
         <div className="desktop-sidebar">
           <CategorySidebar
             categories={sidebarCategories}
-            activeCategory={categoryData}
+            activeCategory={categoryData?.id === activeCategoryId ? categoryData : null}
             activeCategoryId={activeCategoryId}
             activeSectionId={activeSectionId}
             activeTopSectionId={activeTopSectionId}
@@ -244,7 +261,7 @@ export function App() {
             </Flex>
             <CategorySidebar
               categories={sidebarCategories}
-              activeCategory={categoryData}
+              activeCategory={categoryData?.id === activeCategoryId ? categoryData : null}
               activeCategoryId={activeCategoryId}
               activeSectionId={activeSectionId}
               activeTopSectionId={activeTopSectionId}
@@ -260,6 +277,7 @@ export function App() {
           categoryData={categoryData}
           copyState={copyState}
           favoriteIds={favoriteIds}
+          isCategoryLoading={isCategoryLoading}
           isSearching={isSearching}
           isSearchLoading={isSearchLoading}
           onCopy={copyValue}
@@ -294,6 +312,22 @@ function useMediaQuery(query: string): boolean {
   }, [query]);
 
   return matches;
+}
+
+function useDelayedFlag(value: boolean, delayMs: number): boolean {
+  const [delayedValue, setDelayedValue] = useState(false);
+
+  useEffect(() => {
+    if (!value) {
+      setDelayedValue(false);
+      return;
+    }
+
+    const timeout = window.setTimeout(() => setDelayedValue(true), delayMs);
+    return () => window.clearTimeout(timeout);
+  }, [delayMs, value]);
+
+  return delayedValue;
 }
 
 function readFavoriteIds(): Set<string> {
@@ -352,6 +386,7 @@ function MainPanel({
   categoryData,
   copyState,
   favoriteIds,
+  isCategoryLoading,
   isSearching,
   isSearchLoading,
   onCopy,
@@ -369,6 +404,7 @@ function MainPanel({
   categoryData: CategoryData | null;
   copyState: CopyState | null;
   favoriteIds: Set<string>;
+  isCategoryLoading: boolean;
   isSearching: boolean;
   isSearchLoading: boolean;
   onCopy: (value: string) => void;
@@ -382,12 +418,15 @@ function MainPanel({
   sectionJump: SectionJump | null;
   useMobileTagRows: boolean;
 }) {
+  const showCategoryLoading = useDelayedFlag(isCategoryLoading, 300);
+
   return (
     <main className="main-panel" aria-label="タグ一覧">
       <DictionaryHeader
         category={categoryData}
         activeSectionId={activeSectionId}
-        isLoading={isSearchLoading}
+        isCategoryLoading={showCategoryLoading}
+        isSearchLoading={isSearchLoading}
         isSearching={isSearching}
         onOpenSidebar={onOpenSidebar}
         onQueryChange={onQueryChange}
@@ -530,7 +569,8 @@ function CategorySidebar({
 function DictionaryHeader({
   activeSectionId,
   category,
-  isLoading,
+  isCategoryLoading,
+  isSearchLoading,
   isSearching,
   onOpenSidebar,
   query,
@@ -539,7 +579,8 @@ function DictionaryHeader({
 }: {
   activeSectionId: string;
   category: CategoryData | null;
-  isLoading: boolean;
+  isCategoryLoading: boolean;
+  isSearchLoading: boolean;
   isSearching: boolean;
   onOpenSidebar: () => void;
   query: string;
@@ -599,9 +640,13 @@ function DictionaryHeader({
             ) : null}
           </TextField.Root>
         </Box>
-        {isLoading ? (
+        {isSearchLoading ? (
           <Text className="search-loading-text" color="gray" size="1">
             検索データを読み込み中
+          </Text>
+        ) : isCategoryLoading && !isSearching ? (
+          <Text className="search-loading-text" color="gray" size="1" role="status">
+            カテゴリを読み込み中
           </Text>
         ) : null}
       </div>
