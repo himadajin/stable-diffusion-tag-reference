@@ -60,13 +60,15 @@ The sidebar contains:
 - Expandable source-category branches.
 - Nested source sections for any expanded source category.
 
-Category and section label selection changes the content immediately and resets or jumps the content scroll position to the selected browsing context.
+Parent category and parent section rows expand or collapse their branch. They do not navigate just because the row label was clicked.
+Navigation happens through explicit destination rows: `カテゴリ全体` for a category, `セクション全体` for a parent section, and leaf section rows for end sections.
+Selecting one of those destination rows changes the content immediately and resets or jumps the content scroll position to the selected browsing context.
 Category and subcategory selection updates the URL fragment so the current browsing context can be shared and restored.
-Explicit category and subcategory selections may add browser history entries. Section changes caused only by scrolling should not add browser history entries.
+Explicit category and subcategory selections may add browser history entries. Section changes caused by user scrolling should not add browser history entries. Programmatic jumps to a category or section should not immediately override the selected destination with the first visible section.
 
 Routine category switching should not replace the list with a full-content loading state. Keep the current list stable until the next category data is ready, then swap content and reset scroll. If category loading becomes noticeably delayed, use a small inline status near the header rather than a page-level loading message.
 
-Opening or closing a tree branch only changes the navigation disclosure state. It must not force the main content to scroll. Use a small caret disclosure target for branch expansion and collapse. Selecting the category or section label moves the main content to that category or section.
+Opening or closing a tree branch only changes the navigation disclosure state. It must not force the main content to scroll. Both the caret and parent row label can toggle branch expansion so users do not need to hit a narrow target.
 
 The active category branch is open by default. Users may also expand inactive source categories to inspect their sections before navigating. Keep expanded branches available until the user closes them or the page is reloaded.
 
