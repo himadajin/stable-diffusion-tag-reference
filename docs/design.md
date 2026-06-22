@@ -55,6 +55,10 @@ Generated data should provide:
 - Search index data for English tags, Japanese names, free-input candidates, and category paths.
 - Stable IDs or keys that allow generated entries to point back to their source context.
 
+Category sections use explicit source-managed `id` values separate from their Japanese display names.
+Section IDs must use lowercase ASCII letters, numbers, and hyphens only. They are stable data keys, not derived display labels.
+Nested section URLs use slash-separated section ID paths, while generated internal section IDs may join the same path with implementation-safe separators.
+
 English tags may repeat across different source contexts. Repetition is valid when entries remain distinguishable by stable ID and category path.
 
 ## Core Features
@@ -65,9 +69,15 @@ Search is global. It should cover official tags, Japanese names, category paths,
 
 Copy is intentionally narrow. Users copy one English tag or free-input candidate at a time. The app should not assemble prompt text or support bulk-copy workflows.
 
-Favorites apply only to official category-tag entries. Favorites are stored in `localStorage` under `prompt-tag-viewer:favorites:v1` as tag IDs. The favorites view should display entries in source category order and source data order, not in a separate user-defined organization.
+Favorites apply only to official category-tag entries. Favorites are stored in `localStorage` under `prompt-tag-viewer:favorites:v2` as tag IDs. The favorites view should display entries in source category order and source data order, not in a separate user-defined organization.
 
 Free-input candidates are searchable and copyable. They are not official category-tag entries and are not favoriteable.
+
+Shareable URLs apply to source category and subcategory browsing state only. They use URL fragments such as `#category=quality` and `#category=body&section=hair/hair-style`.
+Tag-level URLs, favorites URLs, and search-query URLs are outside the current product scope.
+Invalid or stale URL fragments should fall back to the nearest valid browsing state instead of showing an error page.
+
+Earlier favorites storage versions are not read after the explicit section-ID data model change.
 
 ## UI Relationship
 

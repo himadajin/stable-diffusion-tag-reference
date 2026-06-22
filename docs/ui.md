@@ -47,6 +47,9 @@ The main content header uses two compact rows:
 - Global search: a single input for searching across all categories.
 
 The header should be compact. It should not become a tall hero-like area.
+When the current view is a source category or subcategory, the current-context row includes a small link-copy action for the shareable URL of the current category context.
+The action should be an icon button with local, brief copied feedback. Do not use a global toast or large status message for URL copying.
+Search results, favorites, and free-input candidate views do not expose shareable category URL copying.
 
 ## Navigation
 
@@ -57,6 +60,8 @@ The sidebar contains:
 - For the active source category, a two-level section tree.
 
 Top-level category selection changes the content immediately and resets the content scroll position to the start of that category.
+Category and subcategory selection updates the URL fragment so the current browsing context can be shared and restored.
+Explicit category and subcategory selections may add browser history entries. Section changes caused only by scrolling should not add browser history entries.
 
 Routine category switching should not replace the list with a full-content loading state. Keep the current list stable until the next category data is ready, then swap content and reset scroll. If category loading becomes noticeably delayed, use a small inline status near the header rather than a page-level loading message.
 
