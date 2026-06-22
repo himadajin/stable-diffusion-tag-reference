@@ -4,169 +4,220 @@
   "tagCount": 55,
   "sections": [
     {
-      "id": "ライティンク-効果",
+      "id": "lighting-effects",
       "name": "ライティング効果",
       "path": [
         "ライティング効果"
       ],
+      "sectionPath": [
+        "lighting-effects"
+      ],
       "tagCount": 16,
       "tags": [
         {
-          "id": "lighting__ライティンク-効果__0001",
+          "id": "lighting__lighting-effects__0001",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "backlighting",
           "ja": "バックライト"
         },
         {
-          "id": "lighting__ライティンク-効果__0002",
+          "id": "lighting__lighting-effects__0002",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "sidelighting",
           "ja": "サイドライト"
         },
         {
-          "id": "lighting__ライティンク-効果__0003",
+          "id": "lighting__lighting-effects__0003",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "underlighting",
           "ja": "下照明"
         },
         {
-          "id": "lighting__ライティンク-効果__0004",
+          "id": "lighting__lighting-effects__0004",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "bloom",
           "ja": "咲く"
         },
         {
-          "id": "lighting__ライティンク-効果__0005",
+          "id": "lighting__lighting-effects__0005",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "sunlight",
           "ja": "日光"
         },
         {
-          "id": "lighting__ライティンク-効果__0006",
+          "id": "lighting__lighting-effects__0006",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "sunbeam",
           "ja": "サンビーム"
         },
         {
-          "id": "lighting__ライティンク-効果__0007",
+          "id": "lighting__lighting-effects__0007",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "dappled sunlight",
           "ja": "木漏れ日"
         },
         {
-          "id": "lighting__ライティンク-効果__0008",
+          "id": "lighting__lighting-effects__0008",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "moonlight",
           "ja": "月光"
         },
         {
-          "id": "lighting__ライティンク-効果__0009",
+          "id": "lighting__lighting-effects__0009",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "spotlight",
           "ja": "スポットライト"
         },
         {
-          "id": "lighting__ライティンク-効果__0010",
+          "id": "lighting__lighting-effects__0010",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "stage lights",
           "ja": "舞台照明"
         },
         {
-          "id": "lighting__ライティンク-効果__0011",
+          "id": "lighting__lighting-effects__0011",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "caustics",
           "ja": "コースティクス"
         },
         {
-          "id": "lighting__ライティンク-効果__0012",
+          "id": "lighting__lighting-effects__0012",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "crack of light",
           "ja": "光のひび割れ"
         },
         {
-          "id": "lighting__ライティンク-効果__0013",
+          "id": "lighting__lighting-effects__0013",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "refraction",
           "ja": "屈折"
         },
         {
-          "id": "lighting__ライティンク-効果__0014",
+          "id": "lighting__lighting-effects__0014",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "light rays",
           "ja": "光線"
         },
         {
-          "id": "lighting__ライティンク-効果__0015",
+          "id": "lighting__lighting-effects__0015",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
           ],
+          "sectionPath": [
+            "lighting-effects"
+          ],
           "en": "dim lighting",
           "ja": "薄暗い照明"
         },
         {
-          "id": "lighting__ライティンク-効果__0016",
+          "id": "lighting__lighting-effects__0016",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "ライティング効果"
+          ],
+          "sectionPath": [
+            "lighting-effects"
           ],
           "en": "chiaroscuro",
           "ja": "明暗法"
@@ -174,99 +225,129 @@
       ]
     },
     {
-      "id": "時間帯",
+      "id": "time-of-day",
       "name": "時間帯",
       "path": [
         "時間帯"
       ],
+      "sectionPath": [
+        "time-of-day"
+      ],
       "tagCount": 9,
       "tags": [
         {
-          "id": "lighting__時間帯__0001",
+          "id": "lighting__time-of-day__0001",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "morning",
           "ja": "朝"
         },
         {
-          "id": "lighting__時間帯__0002",
+          "id": "lighting__time-of-day__0002",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "dawn",
           "ja": "夜明け"
         },
         {
-          "id": "lighting__時間帯__0003",
+          "id": "lighting__time-of-day__0003",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "sunrise",
           "ja": "日の出"
         },
         {
-          "id": "lighting__時間帯__0004",
+          "id": "lighting__time-of-day__0004",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "day",
           "ja": "日"
         },
         {
-          "id": "lighting__時間帯__0005",
+          "id": "lighting__time-of-day__0005",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "evening",
           "ja": "夕方"
         },
         {
-          "id": "lighting__時間帯__0006",
+          "id": "lighting__time-of-day__0006",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "sunset",
           "ja": "日没"
         },
         {
-          "id": "lighting__時間帯__0007",
+          "id": "lighting__time-of-day__0007",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "twilight",
           "ja": "トワイライト"
         },
         {
-          "id": "lighting__時間帯__0008",
+          "id": "lighting__time-of-day__0008",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
           ],
+          "sectionPath": [
+            "time-of-day"
+          ],
           "en": "dusk",
           "ja": "夕暮れ"
         },
         {
-          "id": "lighting__時間帯__0009",
+          "id": "lighting__time-of-day__0009",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "時間帯"
+          ],
+          "sectionPath": [
+            "time-of-day"
           ],
           "en": "night",
           "ja": "夜"
@@ -274,239 +355,311 @@
       ]
     },
     {
-      "id": "光源",
+      "id": "light-sources",
       "name": "光源",
       "path": [
         "光源"
       ],
+      "sectionPath": [
+        "light-sources"
+      ],
       "tagCount": 23,
       "tags": [
         {
-          "id": "lighting__光源__0001",
+          "id": "lighting__light-sources__0001",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "sun",
           "ja": "太陽"
         },
         {
-          "id": "lighting__光源__0002",
+          "id": "lighting__light-sources__0002",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "moon",
           "ja": "月"
         },
         {
-          "id": "lighting__光源__0003",
+          "id": "lighting__light-sources__0003",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "glowstick",
           "ja": "グロースティック"
         },
         {
-          "id": "lighting__光源__0004",
+          "id": "lighting__light-sources__0004",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "lamp",
           "ja": "ランプ"
         },
         {
-          "id": "lighting__光源__0005",
+          "id": "lighting__light-sources__0005",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "desk lamp",
           "ja": "デスクランプ"
         },
         {
-          "id": "lighting__光源__0006",
+          "id": "lighting__light-sources__0006",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "lamppost",
           "ja": "街灯柱"
         },
         {
-          "id": "lighting__光源__0007",
+          "id": "lighting__light-sources__0007",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "wall lamp",
           "ja": "ウォールランプ"
         },
         {
-          "id": "lighting__光源__0008",
+          "id": "lighting__light-sources__0008",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "torch",
           "ja": "トーチ"
         },
         {
-          "id": "lighting__光源__0009",
+          "id": "lighting__light-sources__0009",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "fire",
           "ja": "火"
         },
         {
-          "id": "lighting__光源__0010",
+          "id": "lighting__light-sources__0010",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "embers",
           "ja": "残り火"
         },
         {
-          "id": "lighting__光源__0011",
+          "id": "lighting__light-sources__0011",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "flashlight",
           "ja": "懐中電灯"
         },
         {
-          "id": "lighting__光源__0012",
+          "id": "lighting__light-sources__0012",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "lantern",
           "ja": "ランタン"
         },
         {
-          "id": "lighting__光源__0013",
+          "id": "lighting__light-sources__0013",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "oil lamp",
           "ja": "石油ランプ"
         },
         {
-          "id": "lighting__光源__0014",
+          "id": "lighting__light-sources__0014",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "wooden lantern",
           "ja": "木製のランタン"
         },
         {
-          "id": "lighting__光源__0015",
+          "id": "lighting__light-sources__0015",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "ceiling light",
           "ja": "天井照明"
         },
         {
-          "id": "lighting__光源__0016",
+          "id": "lighting__light-sources__0016",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "chandelier",
           "ja": "シャンデリア"
         },
         {
-          "id": "lighting__光源__0017",
+          "id": "lighting__light-sources__0017",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "candlelight",
           "ja": "ろうそくの光"
         },
         {
-          "id": "lighting__光源__0018",
+          "id": "lighting__light-sources__0018",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "muzzle flash",
           "ja": "銃口の閃光"
         },
         {
-          "id": "lighting__光源__0019",
+          "id": "lighting__light-sources__0019",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "headlight",
           "ja": "ヘッドライト"
         },
         {
-          "id": "lighting__光源__0020",
+          "id": "lighting__light-sources__0020",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "floodlights",
           "ja": "投光照明"
         },
         {
-          "id": "lighting__光源__0021",
+          "id": "lighting__light-sources__0021",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "flare",
           "ja": "フレア"
         },
         {
-          "id": "lighting__光源__0022",
+          "id": "lighting__light-sources__0022",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
           ],
+          "sectionPath": [
+            "light-sources"
+          ],
           "en": "ultraviolet light",
           "ja": "紫外線"
         },
         {
-          "id": "lighting__光源__0023",
+          "id": "lighting__light-sources__0023",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "光源"
+          ],
+          "sectionPath": [
+            "light-sources"
           ],
           "en": "glowing headgear",
           "ja": "光るヘッドギア"
@@ -514,79 +667,103 @@
       ]
     },
     {
-      "id": "影-陰影",
+      "id": "shadows-shading",
       "name": "影・陰影",
       "path": [
         "影・陰影"
       ],
+      "sectionPath": [
+        "shadows-shading"
+      ],
       "tagCount": 7,
       "tags": [
         {
-          "id": "lighting__影-陰影__0001",
+          "id": "lighting__shadows-shading__0001",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "影・陰影"
+          ],
+          "sectionPath": [
+            "shadows-shading"
           ],
           "en": "shade",
           "ja": "シェード"
         },
         {
-          "id": "lighting__影-陰影__0002",
+          "id": "lighting__shadows-shading__0002",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "影・陰影"
+          ],
+          "sectionPath": [
+            "shadows-shading"
           ],
           "en": "tree shade",
           "ja": "木陰"
         },
         {
-          "id": "lighting__影-陰影__0003",
+          "id": "lighting__shadows-shading__0003",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "影・陰影"
+          ],
+          "sectionPath": [
+            "shadows-shading"
           ],
           "en": "shadow",
           "ja": "影"
         },
         {
-          "id": "lighting__影-陰影__0004",
+          "id": "lighting__shadows-shading__0004",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "影・陰影"
+          ],
+          "sectionPath": [
+            "shadows-shading"
           ],
           "en": "colored shadow",
           "ja": "色のついた影"
         },
         {
-          "id": "lighting__影-陰影__0005",
+          "id": "lighting__shadows-shading__0005",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "影・陰影"
+          ],
+          "sectionPath": [
+            "shadows-shading"
           ],
           "en": "window shadow",
           "ja": "窓の影"
         },
         {
-          "id": "lighting__影-陰影__0006",
+          "id": "lighting__shadows-shading__0006",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "影・陰影"
           ],
+          "sectionPath": [
+            "shadows-shading"
+          ],
           "en": "dark",
           "ja": "暗い"
         },
         {
-          "id": "lighting__影-陰影__0007",
+          "id": "lighting__shadows-shading__0007",
           "categoryId": "lighting",
           "categoryName": "ライティング",
           "path": [
             "影・陰影"
+          ],
+          "sectionPath": [
+            "shadows-shading"
           ],
           "en": "darkness",
           "ja": "暗闇"

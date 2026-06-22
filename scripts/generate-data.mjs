@@ -20,26 +20,41 @@ async function writeJson(filePath, value) {
   await writeFile(filePath, jsonStringify(value));
 }
 
-function collectSectionTags(node, category, pathParts = [], sectionIds = []) {
+const SECTION_ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+function collectSectionTags(sectionsSource, category, pathParts = [], sectionIds = []) {
   const sections = [];
   const flatTags = [];
 
-  if (!node || typeof node !== "object" || Array.isArray(node)) {
+  if (!Array.isArray(sectionsSource)) {
     return { sections, flatTags };
   }
 
-  for (const [name, value] of Object.entries(node)) {
-    const nextPath = [...pathParts, name];
-    const sectionId = [...sectionIds, slugId(name)].join("__");
+  const siblingIds = new Set();
 
-    if (Array.isArray(value)) {
-      const tags = value.map((tag, index) => {
+  for (const sectionSource of sectionsSource) {
+    const { id, name } = sectionSource;
+    if (!SECTION_ID_PATTERN.test(id)) {
+      throw new Error(`Invalid section id "${id}" in ${category.id}`);
+    }
+    if (siblingIds.has(id)) {
+      throw new Error(`Duplicate sibling section id "${id}" in ${category.id}`);
+    }
+    siblingIds.add(id);
+
+    const nextPath = [...pathParts, name];
+    const nextSectionIds = [...sectionIds, id];
+    const sectionId = nextSectionIds.join("__");
+
+    if (Array.isArray(sectionSource.tags)) {
+      const tags = sectionSource.tags.map((tag, index) => {
         const id = `${category.id}__${sectionId}__${String(index + 1).padStart(4, "0")}`;
         return {
           id,
           categoryId: category.id,
           categoryName: category.name,
           path: nextPath,
+          sectionPath: nextSectionIds,
           en: tag.en,
           ja: tag.ja,
         };
@@ -48,16 +63,18 @@ function collectSectionTags(node, category, pathParts = [], sectionIds = []) {
         id: sectionId,
         name,
         path: nextPath,
+        sectionPath: nextSectionIds,
         tagCount: tags.length,
         tags,
       });
       flatTags.push(...tags);
     } else {
-      const child = collectSectionTags(value, category, nextPath, [...sectionIds, slugId(name)]);
+      const child = collectSectionTags(sectionSource.children, category, nextPath, nextSectionIds);
       sections.push({
         id: sectionId,
         name,
         path: nextPath,
+        sectionPath: nextSectionIds,
         tagCount: child.flatTags.length,
         children: child.sections,
       });
@@ -66,14 +83,6 @@ function collectSectionTags(node, category, pathParts = [], sectionIds = []) {
   }
 
   return { sections, flatTags };
-}
-
-function slugId(value) {
-  return value
-    .normalize("NFKD")
-    .replace(/[^\p{Letter}\p{Number}]+/gu, "-")
-    .replace(/^-+|-+$/g, "")
-    .toLowerCase();
 }
 
 function normalizeSearchText(value) {
@@ -125,6 +134,7 @@ async function main() {
         categoryId: tag.categoryId,
         categoryName: tag.categoryName,
         path: tag.path,
+        sectionPath: tag.sectionPath,
         en: tag.en,
         ja: tag.ja,
         searchText: normalizeSearchText([tag.en, tag.ja, tag.categoryName, ...tag.path].join(" ")),

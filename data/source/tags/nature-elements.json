@@ -1,502 +1,550 @@
 {
   "id": "nature-elements",
   "name": "自然系要素",
-  "tree": {
-    "火": {
-      "火そのもの": [
+  "tree": [
+    {
+      "id": "fire",
+      "name": "火",
+      "children": [
         {
-          "en": "candle",
-          "ja": "キャンドル"
+          "id": "fire-itself",
+          "name": "火そのもの",
+          "tags": [
+            {
+              "en": "candle",
+              "ja": "キャンドル"
+            },
+            {
+              "en": "flare",
+              "ja": "フレア"
+            },
+            {
+              "en": "lantern",
+              "ja": "ランタン"
+            },
+            {
+              "en": "torch",
+              "ja": "トーチ"
+            },
+            {
+              "en": "lava",
+              "ja": "溶岩"
+            },
+            {
+              "en": "sparks",
+              "ja": "火花"
+            },
+            {
+              "en": "no fire",
+              "ja": "火気厳禁"
+            },
+            {
+              "en": "fire",
+              "ja": "火"
+            },
+            {
+              "en": "fireball",
+              "ja": "火の玉"
+            },
+            {
+              "en": "fireworks",
+              "ja": "花火"
+            },
+            {
+              "en": "black fire",
+              "ja": "黒い炎"
+            },
+            {
+              "en": "blue fire",
+              "ja": "青い炎"
+            },
+            {
+              "en": "green fire",
+              "ja": "緑の火"
+            },
+            {
+              "en": "pink fire",
+              "ja": "ピンクの火"
+            },
+            {
+              "en": "purple fire",
+              "ja": "紫色の火"
+            },
+            {
+              "en": "white fire",
+              "ja": "白い火"
+            },
+            {
+              "en": "fireflies",
+              "ja": "ホタル"
+            }
+          ]
         },
         {
-          "en": "flare",
-          "ja": "フレア"
+          "id": "fire-actions-phenomena",
+          "name": "火にまつわる行動・現象",
+          "tags": [
+            {
+              "en": "alcohol burner",
+              "ja": "アルコールバーナー"
+            },
+            {
+              "en": "blowtorch",
+              "ja": "バーナー"
+            },
+            {
+              "en": "bunsen burner",
+              "ja": "ブンゼンバーナー"
+            },
+            {
+              "en": "brazier",
+              "ja": "火鉢"
+            },
+            {
+              "en": "fireplace",
+              "ja": "暖炉"
+            },
+            {
+              "en": "furnace",
+              "ja": "炉"
+            },
+            {
+              "en": "gunpowder",
+              "ja": "火薬"
+            },
+            {
+              "en": "grill",
+              "ja": "グリル"
+            },
+            {
+              "en": "lighter",
+              "ja": "ライター"
+            },
+            {
+              "en": "wand lighter",
+              "ja": "ワンドライター"
+            },
+            {
+              "en": "zippo lighter",
+              "ja": "ジッポーライター"
+            },
+            {
+              "en": "matches",
+              "ja": "マッチ"
+            },
+            {
+              "en": "matchbox",
+              "ja": "マッチ箱"
+            },
+            {
+              "en": "oven",
+              "ja": "オーブン"
+            },
+            {
+              "en": "brick oven",
+              "ja": "レンガ窯"
+            },
+            {
+              "en": "stove",
+              "ja": "レンジ"
+            },
+            {
+              "en": "flamethrower",
+              "ja": "火炎放射器"
+            },
+            {
+              "en": "molotov cocktail",
+              "ja": "火炎瓶"
+            },
+            {
+              "en": "thermite grenade",
+              "ja": "テルミット手榴弾"
+            },
+            {
+              "en": "white phosphorus",
+              "ja": "白リン"
+            },
+            {
+              "en": "fire extinguisher",
+              "ja": "消火器"
+            },
+            {
+              "en": "fire hydrant",
+              "ja": "消火栓"
+            },
+            {
+              "en": "campfire",
+              "ja": "キャンプファイヤー"
+            },
+            {
+              "en": "arson",
+              "ja": "放火"
+            },
+            {
+              "en": "burning",
+              "ja": "燃焼"
+            },
+            {
+              "en": "cooking",
+              "ja": "料理"
+            },
+            {
+              "en": "grilling",
+              "ja": "グリル"
+            },
+            {
+              "en": "cremation",
+              "ja": "火葬"
+            },
+            {
+              "en": "explosion",
+              "ja": "爆発"
+            },
+            {
+              "en": "firemaking",
+              "ja": "火起こし"
+            },
+            {
+              "en": "flaring",
+              "ja": "フレアリング"
+            },
+            {
+              "en": "smoking",
+              "ja": "喫煙"
+            },
+            {
+              "en": "wildfire",
+              "ja": "山火事"
+            }
+          ]
         },
         {
-          "en": "lantern",
-          "ja": "ランタン"
+          "id": "fire-affected-subjects",
+          "name": "火の影響を受けた対象",
+          "tags": [
+            {
+              "en": "charcoal",
+              "ja": "木炭"
+            },
+            {
+              "en": "coal",
+              "ja": "石炭"
+            },
+            {
+              "en": "burn scar",
+              "ja": "火傷の跡"
+            },
+            {
+              "en": "burning building",
+              "ja": "燃えている建物"
+            },
+            {
+              "en": "burning photo",
+              "ja": "燃えている写真"
+            }
+          ]
         },
         {
-          "en": "torch",
-          "ja": "トーチ"
+          "id": "fire-powers-magic",
+          "name": "火の能力・魔法",
+          "tags": [
+            {
+              "en": "pyrokinesis",
+              "ja": "パイロキネシス"
+            }
+          ]
         },
         {
-          "en": "lava",
-          "ja": "溶岩"
-        },
-        {
-          "en": "sparks",
-          "ja": "火花"
-        },
-        {
-          "en": "no fire",
-          "ja": "火気厳禁"
-        },
-        {
-          "en": "fire",
-          "ja": "火"
-        },
-        {
-          "en": "fireball",
-          "ja": "火の玉"
-        },
-        {
-          "en": "fireworks",
-          "ja": "花火"
-        },
-        {
-          "en": "black fire",
-          "ja": "黒い炎"
-        },
-        {
-          "en": "blue fire",
-          "ja": "青い炎"
-        },
-        {
-          "en": "green fire",
-          "ja": "緑の火"
-        },
-        {
-          "en": "pink fire",
-          "ja": "ピンクの火"
-        },
-        {
-          "en": "purple fire",
-          "ja": "紫色の火"
-        },
-        {
-          "en": "white fire",
-          "ja": "白い火"
-        },
-        {
-          "en": "fireflies",
-          "ja": "ホタル"
-        }
-      ],
-      "火にまつわる行動・現象": [
-        {
-          "en": "alcohol burner",
-          "ja": "アルコールバーナー"
-        },
-        {
-          "en": "blowtorch",
-          "ja": "バーナー"
-        },
-        {
-          "en": "bunsen burner",
-          "ja": "ブンゼンバーナー"
-        },
-        {
-          "en": "brazier",
-          "ja": "火鉢"
-        },
-        {
-          "en": "fireplace",
-          "ja": "暖炉"
-        },
-        {
-          "en": "furnace",
-          "ja": "炉"
-        },
-        {
-          "en": "gunpowder",
-          "ja": "火薬"
-        },
-        {
-          "en": "grill",
-          "ja": "グリル"
-        },
-        {
-          "en": "lighter",
-          "ja": "ライター"
-        },
-        {
-          "en": "wand lighter",
-          "ja": "ワンドライター"
-        },
-        {
-          "en": "zippo lighter",
-          "ja": "ジッポーライター"
-        },
-        {
-          "en": "matches",
-          "ja": "マッチ"
-        },
-        {
-          "en": "matchbox",
-          "ja": "マッチ箱"
-        },
-        {
-          "en": "oven",
-          "ja": "オーブン"
-        },
-        {
-          "en": "brick oven",
-          "ja": "レンガ窯"
-        },
-        {
-          "en": "stove",
-          "ja": "レンジ"
-        },
-        {
-          "en": "flamethrower",
-          "ja": "火炎放射器"
-        },
-        {
-          "en": "molotov cocktail",
-          "ja": "火炎瓶"
-        },
-        {
-          "en": "thermite grenade",
-          "ja": "テルミット手榴弾"
-        },
-        {
-          "en": "white phosphorus",
-          "ja": "白リン"
-        },
-        {
-          "en": "fire extinguisher",
-          "ja": "消火器"
-        },
-        {
-          "en": "fire hydrant",
-          "ja": "消火栓"
-        },
-        {
-          "en": "campfire",
-          "ja": "キャンプファイヤー"
-        },
-        {
-          "en": "arson",
-          "ja": "放火"
-        },
-        {
-          "en": "burning",
-          "ja": "燃焼"
-        },
-        {
-          "en": "cooking",
-          "ja": "料理"
-        },
-        {
-          "en": "grilling",
-          "ja": "グリル"
-        },
-        {
-          "en": "cremation",
-          "ja": "火葬"
-        },
-        {
-          "en": "explosion",
-          "ja": "爆発"
-        },
-        {
-          "en": "firemaking",
-          "ja": "火起こし"
-        },
-        {
-          "en": "flaring",
-          "ja": "フレアリング"
-        },
-        {
-          "en": "smoking",
-          "ja": "喫煙"
-        },
-        {
-          "en": "wildfire",
-          "ja": "山火事"
-        }
-      ],
-      "火の影響を受けた対象": [
-        {
-          "en": "charcoal",
-          "ja": "木炭"
-        },
-        {
-          "en": "coal",
-          "ja": "石炭"
-        },
-        {
-          "en": "burn scar",
-          "ja": "火傷の跡"
-        },
-        {
-          "en": "burning building",
-          "ja": "燃えている建物"
-        },
-        {
-          "en": "burning photo",
-          "ja": "燃えている写真"
-        }
-      ],
-      "火の能力・魔法": [
-        {
-          "en": "pyrokinesis",
-          "ja": "パイロキネシス"
-        }
-      ],
-      "火をまとう存在・装飾": [
-        {
-          "en": "flammable symbol",
-          "ja": "可燃性シンボル"
-        },
-        {
-          "en": "flame print",
-          "ja": "炎のプリント"
-        },
-        {
-          "en": "fire flower",
-          "ja": "火の花"
-        },
-        {
-          "en": "fire body",
-          "ja": "火体"
-        },
-        {
-          "en": "fire on chest",
-          "ja": "胸に火"
-        },
-        {
-          "en": "fiery hair",
-          "ja": "燃えるような髪"
-        },
-        {
-          "en": "fiery tail",
-          "ja": "燃える尾"
-        },
-        {
-          "en": "fiery wings",
-          "ja": "燃える翼"
-        },
-        {
-          "en": "flame-tipped tail",
-          "ja": "炎の先端を持つ尾"
-        },
-        {
-          "en": "breathing fire",
-          "ja": "火を吐く"
+          "id": "fire-clad-beings-decoration",
+          "name": "火をまとう存在・装飾",
+          "tags": [
+            {
+              "en": "flammable symbol",
+              "ja": "可燃性シンボル"
+            },
+            {
+              "en": "flame print",
+              "ja": "炎のプリント"
+            },
+            {
+              "en": "fire flower",
+              "ja": "火の花"
+            },
+            {
+              "en": "fire body",
+              "ja": "火体"
+            },
+            {
+              "en": "fire on chest",
+              "ja": "胸に火"
+            },
+            {
+              "en": "fiery hair",
+              "ja": "燃えるような髪"
+            },
+            {
+              "en": "fiery tail",
+              "ja": "燃える尾"
+            },
+            {
+              "en": "fiery wings",
+              "ja": "燃える翼"
+            },
+            {
+              "en": "flame-tipped tail",
+              "ja": "炎の先端を持つ尾"
+            },
+            {
+              "en": "breathing fire",
+              "ja": "火を吐く"
+            }
+          ]
         }
       ]
     },
-    "水": {
-      "水そのもの": [
+    {
+      "id": "water",
+      "name": "水",
+      "children": [
         {
-          "en": "water",
-          "ja": "水"
+          "id": "water-itself",
+          "name": "水そのもの",
+          "tags": [
+            {
+              "en": "water",
+              "ja": "水"
+            },
+            {
+              "en": "steam",
+              "ja": "スチーム"
+            },
+            {
+              "en": "ice",
+              "ja": "氷"
+            },
+            {
+              "en": "underwater",
+              "ja": "水中"
+            },
+            {
+              "en": "rain",
+              "ja": "雨"
+            },
+            {
+              "en": "snow",
+              "ja": "雪"
+            }
+          ]
         },
         {
-          "en": "steam",
-          "ja": "スチーム"
+          "id": "wet-water-states",
+          "name": "濡れ・水による状態",
+          "tags": [
+            {
+              "en": "wet",
+              "ja": "濡れた"
+            },
+            {
+              "en": "wet clothes",
+              "ja": "濡れた服"
+            },
+            {
+              "en": "wet dress",
+              "ja": "濡れたドレス"
+            },
+            {
+              "en": "wet skirt",
+              "ja": "濡れたスカート"
+            },
+            {
+              "en": "wet shirt",
+              "ja": "濡れたシャツ"
+            },
+            {
+              "en": "wet panties",
+              "ja": "濡れたパンティー"
+            },
+            {
+              "en": "wet swimsuit",
+              "ja": "濡れた水着"
+            },
+            {
+              "en": "wet towel",
+              "ja": "濡れたタオル"
+            },
+            {
+              "en": "wet hair",
+              "ja": "濡れた髪"
+            },
+            {
+              "en": "showering",
+              "ja": "シャワー"
+            },
+            {
+              "en": "spilling",
+              "ja": "こぼれる"
+            },
+            {
+              "en": "splashing",
+              "ja": "水しぶき"
+            },
+            {
+              "en": "wading",
+              "ja": "水遊び"
+            },
+            {
+              "en": "washing",
+              "ja": "洗浄"
+            },
+            {
+              "en": "drinking",
+              "ja": "飲酒"
+            }
+          ]
         },
         {
-          "en": "ice",
-          "ja": "氷"
+          "id": "water-clad-beings-decoration",
+          "name": "水をまとう存在・装飾",
+          "tags": [
+            {
+              "en": "ice sculpture",
+              "ja": "氷の彫刻"
+            },
+            {
+              "en": "ice flower",
+              "ja": "氷の花"
+            },
+            {
+              "en": "bikini",
+              "ja": "ビキニ"
+            },
+            {
+              "en": "goggles",
+              "ja": "ゴーグル"
+            },
+            {
+              "en": "swimsuit",
+              "ja": "水着"
+            },
+            {
+              "en": "bottle",
+              "ja": "ボトル"
+            },
+            {
+              "en": "cup",
+              "ja": "カップ"
+            },
+            {
+              "en": "mug",
+              "ja": "マグ"
+            },
+            {
+              "en": "glass",
+              "ja": "ガラス"
+            },
+            {
+              "en": "umbrella",
+              "ja": "傘"
+            }
+          ]
         },
         {
-          "en": "underwater",
-          "ja": "水中"
+          "id": "waterside-environments-vehicles",
+          "name": "水辺・環境・乗り物",
+          "tags": [
+            {
+              "en": "lake",
+              "ja": "湖"
+            },
+            {
+              "en": "ocean",
+              "ja": "海"
+            },
+            {
+              "en": "river",
+              "ja": "川"
+            },
+            {
+              "en": "stream",
+              "ja": "ストリーム"
+            },
+            {
+              "en": "beach",
+              "ja": "ビーチ"
+            },
+            {
+              "en": "island",
+              "ja": "島"
+            },
+            {
+              "en": "boat",
+              "ja": "ボート"
+            },
+            {
+              "en": "rowboat",
+              "ja": "手漕ぎボート"
+            },
+            {
+              "en": "sailboat",
+              "ja": "ヨット"
+            },
+            {
+              "en": "ship",
+              "ja": "船"
+            },
+            {
+              "en": "battleship",
+              "ja": "戦艦"
+            },
+            {
+              "en": "submarine",
+              "ja": "潜水艦"
+            },
+            {
+              "en": "bath",
+              "ja": "バス"
+            },
+            {
+              "en": "bathtub",
+              "ja": "バスタブ"
+            },
+            {
+              "en": "mixed-sex bathing",
+              "ja": "混浴"
+            },
+            {
+              "en": "freediving",
+              "ja": "フリーダイビング"
+            },
+            {
+              "en": "pool",
+              "ja": "プール"
+            },
+            {
+              "en": "poolside",
+              "ja": "プールサイド"
+            },
+            {
+              "en": "shower (place)",
+              "ja": "シャワー（場所）"
+            },
+            {
+              "en": "swimming",
+              "ja": "水泳"
+            }
+          ]
         },
         {
-          "en": "rain",
-          "ja": "雨"
-        },
-        {
-          "en": "snow",
-          "ja": "雪"
-        }
-      ],
-      "濡れ・水による状態": [
-        {
-          "en": "wet",
-          "ja": "濡れた"
-        },
-        {
-          "en": "wet clothes",
-          "ja": "濡れた服"
-        },
-        {
-          "en": "wet dress",
-          "ja": "濡れたドレス"
-        },
-        {
-          "en": "wet skirt",
-          "ja": "濡れたスカート"
-        },
-        {
-          "en": "wet shirt",
-          "ja": "濡れたシャツ"
-        },
-        {
-          "en": "wet panties",
-          "ja": "濡れたパンティー"
-        },
-        {
-          "en": "wet swimsuit",
-          "ja": "濡れた水着"
-        },
-        {
-          "en": "wet towel",
-          "ja": "濡れたタオル"
-        },
-        {
-          "en": "wet hair",
-          "ja": "濡れた髪"
-        },
-        {
-          "en": "showering",
-          "ja": "シャワー"
-        },
-        {
-          "en": "spilling",
-          "ja": "こぼれる"
-        },
-        {
-          "en": "splashing",
-          "ja": "水しぶき"
-        },
-        {
-          "en": "wading",
-          "ja": "水遊び"
-        },
-        {
-          "en": "washing",
-          "ja": "洗浄"
-        },
-        {
-          "en": "drinking",
-          "ja": "飲酒"
-        }
-      ],
-      "水をまとう存在・装飾": [
-        {
-          "en": "ice sculpture",
-          "ja": "氷の彫刻"
-        },
-        {
-          "en": "ice flower",
-          "ja": "氷の花"
-        },
-        {
-          "en": "bikini",
-          "ja": "ビキニ"
-        },
-        {
-          "en": "goggles",
-          "ja": "ゴーグル"
-        },
-        {
-          "en": "swimsuit",
-          "ja": "水着"
-        },
-        {
-          "en": "bottle",
-          "ja": "ボトル"
-        },
-        {
-          "en": "cup",
-          "ja": "カップ"
-        },
-        {
-          "en": "mug",
-          "ja": "マグ"
-        },
-        {
-          "en": "glass",
-          "ja": "ガラス"
-        },
-        {
-          "en": "umbrella",
-          "ja": "傘"
-        }
-      ],
-      "水辺・環境・乗り物": [
-        {
-          "en": "lake",
-          "ja": "湖"
-        },
-        {
-          "en": "ocean",
-          "ja": "海"
-        },
-        {
-          "en": "river",
-          "ja": "川"
-        },
-        {
-          "en": "stream",
-          "ja": "ストリーム"
-        },
-        {
-          "en": "beach",
-          "ja": "ビーチ"
-        },
-        {
-          "en": "island",
-          "ja": "島"
-        },
-        {
-          "en": "boat",
-          "ja": "ボート"
-        },
-        {
-          "en": "rowboat",
-          "ja": "手漕ぎボート"
-        },
-        {
-          "en": "sailboat",
-          "ja": "ヨット"
-        },
-        {
-          "en": "ship",
-          "ja": "船"
-        },
-        {
-          "en": "battleship",
-          "ja": "戦艦"
-        },
-        {
-          "en": "submarine",
-          "ja": "潜水艦"
-        },
-        {
-          "en": "bath",
-          "ja": "バス"
-        },
-        {
-          "en": "bathtub",
-          "ja": "バスタブ"
-        },
-        {
-          "en": "mixed-sex bathing",
-          "ja": "混浴"
-        },
-        {
-          "en": "freediving",
-          "ja": "フリーダイビング"
-        },
-        {
-          "en": "pool",
-          "ja": "プール"
-        },
-        {
-          "en": "poolside",
-          "ja": "プールサイド"
-        },
-        {
-          "en": "shower (place)",
-          "ja": "シャワー（場所）"
-        },
-        {
-          "en": "swimming",
-          "ja": "水泳"
-        }
-      ],
-      "水の能力・魔法": [
-        {
-          "en": "hydrokinesis",
-          "ja": "ハイドロキネシス"
+          "id": "water-powers-magic",
+          "name": "水の能力・魔法",
+          "tags": [
+            {
+              "en": "hydrokinesis",
+              "ja": "ハイドロキネシス"
+            }
+          ]
         }
       ]
     }
-  }
+  ]
 }

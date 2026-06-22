@@ -1,2424 +1,2524 @@
 {
   "id": "animals-creatures",
   "name": "動物・生物",
-  "tree": {
-    "虫": [
-      {
-        "en": "bug",
-        "ja": "虫"
-      },
-      {
-        "en": "ant",
-        "ja": "アリ"
-      },
-      {
-        "en": "bee",
-        "ja": "蜂"
-      },
-      {
-        "en": "beetle",
-        "ja": "甲虫"
-      },
-      {
-        "en": "butterfly",
-        "ja": "蝶"
-      },
-      {
-        "en": "caterpillar",
-        "ja": "毛虫"
-      },
-      {
-        "en": "centipede",
-        "ja": "ムカデ"
-      },
-      {
-        "en": "cicada",
-        "ja": "蝉"
-      },
-      {
-        "en": "cockroach",
-        "ja": "ゴキブリ"
-      },
-      {
-        "en": "cricket",
-        "ja": "クリケット"
-      },
-      {
-        "en": "cave cricket",
-        "ja": "洞窟コオロギ"
-      },
-      {
-        "en": "dragonfly",
-        "ja": "トンボ"
-      },
-      {
-        "en": "firefly",
-        "ja": "ホタル"
-      },
-      {
-        "en": "fireflies",
-        "ja": "ホタル"
-      },
-      {
-        "en": "fly",
-        "ja": "飛ぶ"
-      },
-      {
-        "en": "grasshopper",
-        "ja": "バッタ"
-      },
-      {
-        "en": "ladybug",
-        "ja": "てんとう虫"
-      },
-      {
-        "en": "leucochloridium paradoxum",
-        "ja": "ロイコクロリジウム・パラドクスム"
-      },
-      {
-        "en": "millipede",
-        "ja": "ヤスデ"
-      },
-      {
-        "en": "mosquito",
-        "ja": "蚊"
-      },
-      {
-        "en": "moth",
-        "ja": "蛾"
-      },
-      {
-        "en": "pillbug",
-        "ja": "ダンゴムシ"
-      },
-      {
-        "en": "wasp",
-        "ja": "スズメバチ"
-      },
-      {
-        "en": "arachnid",
-        "ja": "クモ類"
-      },
-      {
-        "en": "spider",
-        "ja": "スパイダー"
-      },
-      {
-        "en": "scorpion",
-        "ja": "サソリ"
-      },
-      {
-        "en": "camel spider",
-        "ja": "ラクダグモ"
-      },
-      {
-        "en": "amblypygi",
-        "ja": "弱視"
-      },
-      {
-        "en": "larva",
-        "ja": "幼虫"
-      },
-      {
-        "en": "maggot",
-        "ja": "ウジ虫"
-      }
-    ],
-    "鳥": [
-      {
-        "en": "bird",
-        "ja": "鳥"
-      },
-      {
-        "en": "albatross",
-        "ja": "アルバトロス"
-      },
-      {
-        "en": "southern royal albatross",
-        "ja": "ミナミオオアホウドリ"
-      },
-      {
-        "en": "barred buttonquail",
-        "ja": "縞ボタンウズラ"
-      },
-      {
-        "en": "bittern",
-        "ja": "にがり"
-      },
-      {
-        "en": "yellow bittern",
-        "ja": "キビタキ"
-      },
-      {
-        "en": "blue jay",
-        "ja": "アオカケス"
-      },
-      {
-        "en": "bluebird",
-        "ja": "青い鳥"
-      },
-      {
-        "en": "blue-footed booby",
-        "ja": "アオアシカツオドリ"
-      },
-      {
-        "en": "brown-eared bulbul",
-        "ja": "ヒヨドリ"
-      },
-      {
-        "en": "bustards",
-        "ja": "ノガン"
-      },
-      {
-        "en": "kori bustard",
-        "ja": "コリノガン"
-      },
-      {
-        "en": "cardinal (animal)",
-        "ja": "カーディナル（動物）"
-      },
-      {
-        "en": "northern cardinal",
-        "ja": "ノーザンカーディナル"
-      },
-      {
-        "en": "chick",
-        "ja": "ひよこ"
-      },
-      {
-        "en": "chicken",
-        "ja": "チキン"
-      },
-      {
-        "en": "rooster",
-        "ja": "雄鶏"
-      },
-      {
-        "en": "condor",
-        "ja": "コンドル"
-      },
-      {
-        "en": "andean condor",
-        "ja": "アンデスコンドル"
-      },
-      {
-        "en": "cormorant",
-        "ja": "鵜"
-      },
-      {
-        "en": "crane (animal)",
-        "ja": "鶴（動物）"
-      },
-      {
-        "en": "black crowned crane",
-        "ja": "クロカンムリヅル"
-      },
-      {
-        "en": "grey crowned crane",
-        "ja": "ハイイロカンムリヅル"
-      },
-      {
-        "en": "red-crowned crane",
-        "ja": "タンチョウヅル"
-      },
-      {
-        "en": "siberian crane",
-        "ja": "シベリアヅル"
-      },
-      {
-        "en": "crow",
-        "ja": "カラス"
-      },
-      {
-        "en": "carrion crow",
-        "ja": "腐肉を食べるカラス"
-      },
-      {
-        "en": "hooded crow",
-        "ja": "フード付きカラス"
-      },
-      {
-        "en": "cuckoo",
-        "ja": "カッコウ"
-      },
-      {
-        "en": "duck",
-        "ja": "アヒル"
-      },
-      {
-        "en": "duckling",
-        "ja": "アヒルの子"
-      },
-      {
-        "en": "mallard",
-        "ja": "マガモ"
-      },
-      {
-        "en": "dusky thrush",
-        "ja": "ツグミ"
-      },
-      {
-        "en": "dusky warbler",
-        "ja": "ムシクイ"
-      },
-      {
-        "en": "eagle",
-        "ja": "イーグル"
-      },
-      {
-        "en": "bald eagle",
-        "ja": "ハクトウワシ"
-      },
-      {
-        "en": "†haast's eagle",
-        "ja": "†ハーストの鷲"
-      },
-      {
-        "en": "egret (animal)",
-        "ja": "サギ（動物）"
-      },
-      {
-        "en": "little egret",
-        "ja": "コサギ"
-      },
-      {
-        "en": "falcon",
-        "ja": "ハヤブサ"
-      },
-      {
-        "en": "peregrine falcon",
-        "ja": "ハヤブサ"
-      },
-      {
-        "en": "finch",
-        "ja": "フィンチ"
-      },
-      {
-        "en": "eurasian bullfinch",
-        "ja": "ウソ"
-      },
-      {
-        "en": "japanese grosbeak",
-        "ja": "アトリ科"
-      },
-      {
-        "en": "double-barred finch",
-        "ja": "ダブルバードフィンチ"
-      },
-      {
-        "en": "gouldian finch",
-        "ja": "コキンチョウ"
-      },
-      {
-        "en": "java sparrow",
-        "ja": "文鳥"
-      },
-      {
-        "en": "zebra finch",
-        "ja": "キンカチョウ"
-      },
-      {
-        "en": "flamingo",
-        "ja": "フラミンゴ"
-      },
-      {
-        "en": "frogmouth",
-        "ja": "ガマグチヨタカ"
-      },
-      {
-        "en": "flycatcher (animal)",
-        "ja": "ヒタキ（動物）"
-      },
-      {
-        "en": "blue-and-white flycatcher",
-        "ja": "オオルリ"
-      },
-      {
-        "en": "hill blue flycatcher",
-        "ja": "ヒルブルーヒタキ"
-      },
-      {
-        "en": "narcissus flycatcher",
-        "ja": "キビタキ"
-      },
-      {
-        "en": "verditer flycatcher",
-        "ja": "ベニヒタキ"
-      },
-      {
-        "en": "yellow-rumped flycatcher",
-        "ja": "キオビヒタキ"
-      },
-      {
-        "en": "goose",
-        "ja": "ガチョウ"
-      },
-      {
-        "en": "greater white-fronted goose",
-        "ja": "オオマガン"
-      },
-      {
-        "en": "canada goose",
-        "ja": "カナダグース"
-      },
-      {
-        "en": "seagull",
-        "ja": "カモメ"
-      },
-      {
-        "en": "audouin's gull",
-        "ja": "オードゥアンカモメ"
-      },
-      {
-        "en": "belchers's gull",
-        "ja": "ベルチャーズカモメ"
-      },
-      {
-        "en": "black-billed gull",
-        "ja": "カモメ"
-      },
-      {
-        "en": "black-headed gull",
-        "ja": "ユリカモメ"
-      },
-      {
-        "en": "black-tailed gull",
-        "ja": "ウミネコ"
-      },
-      {
-        "en": "california gull",
-        "ja": "カリフォルニアカモメ"
-      },
-      {
-        "en": "glaucous gull",
-        "ja": "オオカモメ"
-      },
-      {
-        "en": "great black-backed gull",
-        "ja": "オオカモメ"
-      },
-      {
-        "en": "grey gull",
-        "ja": "カモメ"
-      },
-      {
-        "en": "grey-headed gull",
-        "ja": "ハイガモ"
-      },
-      {
-        "en": "heermann's gull",
-        "ja": "ヒメカモメ"
-      },
-      {
-        "en": "herring gull",
-        "ja": "セグロカモメ"
-      },
-      {
-        "en": "ivory gull",
-        "ja": "ハジロカモメ"
-      },
-      {
-        "en": "lava gull",
-        "ja": "溶岩カモメ"
-      },
-      {
-        "en": "little gull",
-        "ja": "小さなカモメ"
-      },
-      {
-        "en": "mediterranean gull",
-        "ja": "地中海カモメ"
-      },
-      {
-        "en": "pallas's gull",
-        "ja": "オオカモメ"
-      },
-      {
-        "en": "ring-billed gull",
-        "ja": "ハシブトカモメ"
-      },
-      {
-        "en": "ross's gull",
-        "ja": "ロスカモメ"
-      },
-      {
-        "en": "sabine's gull",
-        "ja": "サビヌカモメ"
-      },
-      {
-        "en": "slaty-backed gull",
-        "ja": "オオセグロカモメ"
-      },
-      {
-        "en": "sooty gull",
-        "ja": "ススカモメ"
-      },
-      {
-        "en": "swallow-tailed gull",
-        "ja": "アゲハ尾カモメ"
-      },
-      {
-        "en": "vega gull",
-        "ja": "ベガガル"
-      },
-      {
-        "en": "white-eyed gull",
-        "ja": "メジロカモメ"
-      },
-      {
-        "en": "hawk",
-        "ja": "鷹"
-      },
-      {
-        "en": "goshawk",
-        "ja": "オオタカ"
-      },
-      {
-        "en": "japanese sparrowhawk",
-        "ja": "ハイタカ"
-      },
-      {
-        "en": "harris's hawk",
-        "ja": "ハリスホーク"
-      },
-      {
-        "en": "heron",
-        "ja": "サギ"
-      },
-      {
-        "en": "chinese pond heron",
-        "ja": "中国の池のサギ"
-      },
-      {
-        "en": "great blue heron",
-        "ja": "オオアオサギ"
-      },
-      {
-        "en": "grey heron",
-        "ja": "アオサギ"
-      },
-      {
-        "en": "striated heron",
-        "ja": "縞サギ"
-      },
-      {
-        "en": "hummingbird",
-        "ja": "ハチドリ"
-      },
-      {
-        "en": "japanese bush warbler",
-        "ja": "ウグイス"
-      },
-      {
-        "en": "japanese white-eye",
-        "ja": "メジロ"
-      },
-      {
-        "en": "kingfisher",
-        "ja": "カワセミ"
-      },
-      {
-        "en": "common kingfisher",
-        "ja": "カワセミ"
-      },
-      {
-        "en": "crested kingfisher",
-        "ja": "カワセミ"
-      },
-      {
-        "en": "kookaburra",
-        "ja": "ワライカワセミ"
-      },
-      {
-        "en": "lilac-breasted roller",
-        "ja": "ライラックニシブッポウソウ"
-      },
-      {
-        "en": "long-tailed widowbird",
-        "ja": "オナガゴメドリ"
-      },
-      {
-        "en": "magpie",
-        "ja": "カササギ"
-      },
-      {
-        "en": "azure-winged magpie",
-        "ja": "ルリカササギ"
-      },
-      {
-        "en": "black-throated magpie-jay",
-        "ja": "ノドグロカケス"
-      },
-      {
-        "en": "taiwan blue magpie",
-        "ja": "タイワンアオカケス"
-      },
-      {
-        "en": "meadow bunting",
-        "ja": "メドウホオジロ"
-      },
-      {
-        "en": "nightingale (bird)",
-        "ja": "ナイチンゲール（鳥）"
-      },
-      {
-        "en": "northern lapwing",
-        "ja": "タゲリ"
-      },
-      {
-        "en": "nuthatch",
-        "ja": "ゴジュウカラ"
-      },
-      {
-        "en": "oriental dollarbird",
-        "ja": "オリエンタルドルバード"
-      },
-      {
-        "en": "oriole",
-        "ja": "オリオール"
-      },
-      {
-        "en": "black-headed oriole",
-        "ja": "コウライウグイス"
-      },
-      {
-        "en": "black-naped oriole",
-        "ja": "コウライウグイス"
-      },
-      {
-        "en": "bullock's oriole",
-        "ja": "ウグイス"
-      },
-      {
-        "en": "osprey",
-        "ja": "ミサゴ"
-      },
-      {
-        "en": "ratites",
-        "ja": "走鳥類"
-      },
-      {
-        "en": "cassowary",
-        "ja": "ヒクイドリ"
-      },
-      {
-        "en": "southern cassowary",
-        "ja": "ヒクイドリ"
-      },
-      {
-        "en": "emu",
-        "ja": "エミュー"
-      },
-      {
-        "en": "moa (animal)",
-        "ja": "モア（動物）"
-      },
-      {
-        "en": "south island giant moa",
-        "ja": "南島の巨大モア"
-      },
-      {
-        "en": "kiwi",
-        "ja": "キウイ"
-      },
-      {
-        "en": "southern brown kiwi",
-        "ja": "サザンブラウンキーウィ"
-      },
-      {
-        "en": "ostrich",
-        "ja": "ダチョウ"
-      },
-      {
-        "en": "owl",
-        "ja": "フクロウ"
-      },
-      {
-        "en": "barn owl",
-        "ja": "メンフクロウ"
-      },
-      {
-        "en": "burrowing owl",
-        "ja": "アナホリフクロウ"
-      },
-      {
-        "en": "snowy owl",
-        "ja": "シロフクロウ"
-      },
-      {
-        "en": "southern boobook",
-        "ja": "南部ブーブー"
-      },
-      {
-        "en": "parakeet",
-        "ja": "インコ"
-      },
-      {
-        "en": "golden parakeet",
-        "ja": "ゴールデンインコ"
-      },
-      {
-        "en": "jandaya parakeet",
-        "ja": "ジャンダヤインコ"
-      },
-      {
-        "en": "rose-ringed parakeet",
-        "ja": "バラ色のインコ"
-      },
-      {
-        "en": "parrot",
-        "ja": "オウム"
-      },
-      {
-        "en": "african grey parrot",
-        "ja": "ヨウム"
-      },
-      {
-        "en": "black-headed parrot",
-        "ja": "クロガシラオウム"
-      },
-      {
-        "en": "cockatiel",
-        "ja": "オカメインコ"
-      },
-      {
-        "en": "cockatoo",
-        "ja": "オウム"
-      },
-      {
-        "en": "blue-eyed cockatoo",
-        "ja": "青い目のオウム"
-      },
-      {
-        "en": "major mitchell's cockatoo",
-        "ja": "メジャーミッチェルオウム"
-      },
-      {
-        "en": "palm cockatoo",
-        "ja": "ヤシオウム"
-      },
-      {
-        "en": "sulphur-crested cockatoo",
-        "ja": "キバタン"
-      },
-      {
-        "en": "yellowtip cockatoo",
-        "ja": "キバタン"
-      },
-      {
-        "en": "eclectus parrot",
-        "ja": "オオハナインコ"
-      },
-      {
-        "en": "kakapo",
-        "ja": "カカポ"
-      },
-      {
-        "en": "kea (animal)",
-        "ja": "ケア（動物）"
-      },
-      {
-        "en": "lovebird",
-        "ja": "ラブバード"
-      },
-      {
-        "en": "macaw",
-        "ja": "コンゴウインコ"
-      },
-      {
-        "en": "blue-and-yellow macaw",
-        "ja": "ルリコンゴウインコ"
-      },
-      {
-        "en": "hyacinth macaw",
-        "ja": "スミレコンゴウインコ"
-      },
-      {
-        "en": "red-and-green macaw",
-        "ja": "赤と緑のコンゴウインコ"
-      },
-      {
-        "en": "scarlet macaw",
-        "ja": "アカコンゴウインコ"
-      },
-      {
-        "en": "pacific parrotlet",
-        "ja": "パシフィックパロットレット"
-      },
-      {
-        "en": "yellow-headed amazon",
-        "ja": "キガシラアマゾン"
-      },
-      {
-        "en": "peacock",
-        "ja": "孔雀"
-      },
-      {
-        "en": "pelican",
-        "ja": "ペリカン"
-      },
-      {
-        "en": "penguin",
-        "ja": "ペンギン"
-      },
-      {
-        "en": "adelie penguin",
-        "ja": "アデリーペンギン"
-      },
-      {
-        "en": "african penguin",
-        "ja": "アフリカペンギン"
-      },
-      {
-        "en": "emperor penguin",
-        "ja": "皇帝ペンギン"
-      },
-      {
-        "en": "fiordland penguin",
-        "ja": "フィヨルドランドペンギン"
-      },
-      {
-        "en": "galapagos penguin",
-        "ja": "ガラパゴスペンギン"
-      },
-      {
-        "en": "humboldt penguin",
-        "ja": "フンボルトペンギン"
-      },
-      {
-        "en": "little penguin",
-        "ja": "小さなペンギン"
-      },
-      {
-        "en": "rockhopper penguin",
-        "ja": "イワトビペンギン"
-      },
-      {
-        "en": "yellow-eyed penguin",
-        "ja": "キバシリペンギン"
-      },
-      {
-        "en": "palaeeudyptinae",
-        "ja": "palaeeudyptinae"
-      },
-      {
-        "en": "anthropornis",
-        "ja": "アントロポルニス"
-      },
-      {
-        "en": "pheasant",
-        "ja": "キジ"
-      },
-      {
-        "en": "copper pheasant",
-        "ja": "銅雉"
-      },
-      {
-        "en": "ijima copper pheasant",
-        "ja": "イジマヤマキジ"
-      },
-      {
-        "en": "golden pheasant",
-        "ja": "キジ"
-      },
-      {
-        "en": "green pheasant",
-        "ja": "キジ"
-      },
-      {
-        "en": "lady amherst's pheasant",
-        "ja": "レディ・アマーストのキジ"
-      },
-      {
-        "en": "pheasant-tailed jacana",
-        "ja": "キジバト"
-      },
-      {
-        "en": "pigeon",
-        "ja": "鳩"
-      },
-      {
-        "en": "dove",
-        "ja": "鳩"
-      },
-      {
-        "en": "dodo (bird)",
-        "ja": "ドードー（鳥）"
-      },
-      {
-        "en": "fantail pigeon",
-        "ja": "オオバト"
-      },
-      {
-        "en": "passenger pigeon",
-        "ja": "リョコウバト"
-      },
-      {
-        "en": "victoria_crowned_pigeon",
-        "ja": "ビクトリア冠鳩"
-      },
-      {
-        "en": "white-bellied green pigeon",
-        "ja": "白腹の緑鳩"
-      },
-      {
-        "en": "plover (animal)",
-        "ja": "チドリ（動物）"
-      },
-      {
-        "en": "little ringed plover",
-        "ja": "コチドリ"
-      },
-      {
-        "en": "potoo",
-        "ja": "ポトゥー"
-      },
-      {
-        "en": "puffin",
-        "ja": "ツノメドリ"
-      },
-      {
-        "en": "quail",
-        "ja": "ウズラ"
-      },
-      {
-        "en": "barred_buttonquail",
-        "ja": "縞ボタンウズラ"
-      },
-      {
-        "en": "japanese quail",
-        "ja": "ウズラ"
-      },
-      {
-        "en": "raggiana bird-of-paradise",
-        "ja": "ラギアナ極楽鳥"
-      },
-      {
-        "en": "red-flanked bluetail",
-        "ja": "ルリビタキ"
-      },
-      {
-        "en": "blue-fronted redstart",
-        "ja": "アオジョウビタキ"
-      },
-      {
-        "en": "daurian redstart",
-        "ja": "ジョウビタキ"
-      },
-      {
-        "en": "resplendent quetzal",
-        "ja": "輝くケツァール"
-      },
-      {
-        "en": "robin (animal)",
-        "ja": "コマドリ（動物）"
-      },
-      {
-        "en": "japanese robin",
-        "ja": "コマドリ"
-      },
-      {
-        "en": "roadrunner (animal)",
-        "ja": "ロードランナー（動物）"
-      },
-      {
-        "en": "ryukyu minivet",
-        "ja": "琉球ミニベット"
-      },
-      {
-        "en": "secretarybird",
-        "ja": "ヘビウ"
-      },
-      {
-        "en": "shoebill",
-        "ja": "ハシビロコウ"
-      },
-      {
-        "en": "siberian rubythroat",
-        "ja": "シベリアルビースロート"
-      },
-      {
-        "en": "sparrow",
-        "ja": "スズメ"
-      },
-      {
-        "en": "eurasian tree sparrow",
-        "ja": "スズメ"
-      },
-      {
-        "en": "house sparrow",
-        "ja": "スズメ"
-      },
-      {
-        "en": "stork",
-        "ja": "コウノトリ"
-      },
-      {
-        "en": "oriental stork",
-        "ja": "コウノトリ"
-      },
-      {
-        "en": "swallow",
-        "ja": "飲み込む"
-      },
-      {
-        "en": "tree swallow",
-        "ja": "ツバメ"
-      },
-      {
-        "en": "swan",
-        "ja": "白鳥"
-      },
-      {
-        "en": "black swan (bird)",
-        "ja": "黒い白鳥（鳥）"
-      },
-      {
-        "en": "mute swan",
-        "ja": "コブハクチョウ"
-      },
-      {
-        "en": "takahe",
-        "ja": "タカヘ"
-      },
-      {
-        "en": "tit birds",
-        "ja": "シジュウカラ"
-      },
-      {
-        "en": "great tit",
-        "ja": "シジュウカラ"
-      },
-      {
-        "en": "japanese tit",
-        "ja": "シジュウカラ"
-      },
-      {
-        "en": "long-tailed tit",
-        "ja": "エナガ"
-      },
-      {
-        "en": "tomtit",
-        "ja": "トムティット"
-      },
-      {
-        "en": "toucan",
-        "ja": "オオハシ"
-      },
-      {
-        "en": "vulture",
-        "ja": "ハゲワシ"
-      },
-      {
-        "en": "black-backed wagtail",
-        "ja": "セグロセキレイ"
-      },
-      {
-        "en": "grey wagtail",
-        "ja": "キセキレイ"
-      },
-      {
-        "en": "white wagtail",
-        "ja": "ハクセキレイ"
-      },
-      {
-        "en": "japanese wagtail",
-        "ja": "セキレイ"
-      },
-      {
-        "en": "white-bellied go-away-bird",
-        "ja": "シロハラヒバリ"
-      },
-      {
-        "en": "white-cheeked starling",
-        "ja": "シロホシムクドリ"
-      },
-      {
-        "en": "woodpecker",
-        "ja": "キツツキ"
-      },
-      {
-        "en": "great spotted woodpecker",
-        "ja": "アカゲラ"
-      },
-      {
-        "en": "fenghuang",
-        "ja": "鳳凰"
-      },
-      {
-        "en": "phoenix",
-        "ja": "フェニックス"
-      }
-    ],
-    "ネコ": {
-      "タイプ": [
+  "tree": [
+    {
+      "id": "insects",
+      "name": "虫",
+      "tags": [
         {
-          "en": "cat",
-          "ja": "猫"
+          "en": "bug",
+          "ja": "虫"
         },
         {
-          "en": "black cat",
-          "ja": "黒猫"
+          "en": "ant",
+          "ja": "アリ"
         },
         {
-          "en": "black panther",
-          "ja": "ブラックパンサー"
+          "en": "bee",
+          "ja": "蜂"
         },
         {
-          "en": "kitten",
-          "ja": "子猫"
+          "en": "beetle",
+          "ja": "甲虫"
         },
         {
-          "en": "cheetah",
-          "ja": "チーター"
+          "en": "butterfly",
+          "ja": "蝶"
         },
         {
-          "en": "leopard",
-          "ja": "ヒョウ"
+          "en": "caterpillar",
+          "ja": "毛虫"
         },
         {
-          "en": "lion",
-          "ja": "ライオン"
+          "en": "centipede",
+          "ja": "ムカデ"
         },
         {
-          "en": "tiger",
-          "ja": "虎"
+          "en": "cicada",
+          "ja": "蝉"
+        },
+        {
+          "en": "cockroach",
+          "ja": "ゴキブリ"
+        },
+        {
+          "en": "cricket",
+          "ja": "クリケット"
+        },
+        {
+          "en": "cave cricket",
+          "ja": "洞窟コオロギ"
+        },
+        {
+          "en": "dragonfly",
+          "ja": "トンボ"
+        },
+        {
+          "en": "firefly",
+          "ja": "ホタル"
+        },
+        {
+          "en": "fireflies",
+          "ja": "ホタル"
+        },
+        {
+          "en": "fly",
+          "ja": "飛ぶ"
+        },
+        {
+          "en": "grasshopper",
+          "ja": "バッタ"
+        },
+        {
+          "en": "ladybug",
+          "ja": "てんとう虫"
+        },
+        {
+          "en": "leucochloridium paradoxum",
+          "ja": "ロイコクロリジウム・パラドクスム"
+        },
+        {
+          "en": "millipede",
+          "ja": "ヤスデ"
+        },
+        {
+          "en": "mosquito",
+          "ja": "蚊"
+        },
+        {
+          "en": "moth",
+          "ja": "蛾"
+        },
+        {
+          "en": "pillbug",
+          "ja": "ダンゴムシ"
+        },
+        {
+          "en": "wasp",
+          "ja": "スズメバチ"
+        },
+        {
+          "en": "arachnid",
+          "ja": "クモ類"
+        },
+        {
+          "en": "spider",
+          "ja": "スパイダー"
+        },
+        {
+          "en": "scorpion",
+          "ja": "サソリ"
+        },
+        {
+          "en": "camel spider",
+          "ja": "ラクダグモ"
+        },
+        {
+          "en": "amblypygi",
+          "ja": "弱視"
+        },
+        {
+          "en": "larva",
+          "ja": "幼虫"
+        },
+        {
+          "en": "maggot",
+          "ja": "ウジ虫"
         }
-      ],
-      "猫種・模様": [
+      ]
+    },
+    {
+      "id": "birds",
+      "name": "鳥",
+      "tags": [
         {
-          "en": "american curl",
-          "ja": "アメリカンカール"
+          "en": "bird",
+          "ja": "鳥"
         },
         {
-          "en": "american shorthair",
-          "ja": "アメリカンショートヘア"
+          "en": "albatross",
+          "ja": "アルバトロス"
         },
         {
-          "en": "bengal cat",
-          "ja": "ベンガル猫"
+          "en": "southern royal albatross",
+          "ja": "ミナミオオアホウドリ"
         },
         {
-          "en": "bombay cat",
-          "ja": "ボンベイ猫"
+          "en": "barred buttonquail",
+          "ja": "縞ボタンウズラ"
         },
         {
-          "en": "british shorthair",
-          "ja": "ブリティッシュショートヘア"
+          "en": "bittern",
+          "ja": "にがり"
         },
         {
-          "en": "golden british shorthair",
-          "ja": "ゴールデンブリティッシュショートヘア"
+          "en": "yellow bittern",
+          "ja": "キビタキ"
         },
         {
-          "en": "dragon li cat",
-          "ja": "ドラゴンリーキャット"
+          "en": "blue jay",
+          "ja": "アオカケス"
         },
         {
-          "en": "exotic shorthair",
-          "ja": "エキゾチックショートヘア"
+          "en": "bluebird",
+          "ja": "青い鳥"
         },
         {
-          "en": "maine coon",
-          "ja": "メインクーン"
+          "en": "blue-footed booby",
+          "ja": "アオアシカツオドリ"
         },
         {
-          "en": "munchkin cat",
-          "ja": "マンチカン猫"
+          "en": "brown-eared bulbul",
+          "ja": "ヒヨドリ"
         },
         {
-          "en": "norwegian forest cat",
-          "ja": "ノルウェージャンフォレストキャット"
+          "en": "bustards",
+          "ja": "ノガン"
         },
         {
-          "en": "persian cat",
-          "ja": "ペルシャ猫"
+          "en": "kori bustard",
+          "ja": "コリノガン"
         },
         {
-          "en": "ragdoll",
-          "ja": "ラグドール"
+          "en": "cardinal (animal)",
+          "ja": "カーディナル（動物）"
         },
         {
-          "en": "russian blue cat",
-          "ja": "ロシアンブルーの猫"
+          "en": "northern cardinal",
+          "ja": "ノーザンカーディナル"
         },
         {
-          "en": "scottish fold",
-          "ja": "スコティッシュフォールド"
+          "en": "chick",
+          "ja": "ひよこ"
         },
         {
-          "en": "siamese cat",
-          "ja": "シャム猫"
+          "en": "chicken",
+          "ja": "チキン"
         },
         {
-          "en": "siberian forest cat",
-          "ja": "シベリアの森の猫"
+          "en": "rooster",
+          "ja": "雄鶏"
         },
         {
-          "en": "somali cat",
-          "ja": "ソマリ猫"
+          "en": "condor",
+          "ja": "コンドル"
         },
         {
-          "en": "sphynx cat",
-          "ja": "スフィンクス猫"
+          "en": "andean condor",
+          "ja": "アンデスコンドル"
         },
         {
-          "en": "calico",
-          "ja": "カリコ"
+          "en": "cormorant",
+          "ja": "鵜"
         },
         {
-          "en": "calico cat",
-          "ja": "三毛猫"
+          "en": "crane (animal)",
+          "ja": "鶴（動物）"
         },
         {
-          "en": "tortoiseshell cat",
-          "ja": "三毛猫"
+          "en": "black crowned crane",
+          "ja": "クロカンムリヅル"
         },
         {
-          "en": "tuxedo cat",
-          "ja": "タキシード猫"
+          "en": "grey crowned crane",
+          "ja": "ハイイロカンムリヅル"
         },
         {
-          "en": "tabby cat",
-          "ja": "トラ猫"
+          "en": "red-crowned crane",
+          "ja": "タンチョウヅル"
+        },
+        {
+          "en": "siberian crane",
+          "ja": "シベリアヅル"
+        },
+        {
+          "en": "crow",
+          "ja": "カラス"
+        },
+        {
+          "en": "carrion crow",
+          "ja": "腐肉を食べるカラス"
+        },
+        {
+          "en": "hooded crow",
+          "ja": "フード付きカラス"
+        },
+        {
+          "en": "cuckoo",
+          "ja": "カッコウ"
+        },
+        {
+          "en": "duck",
+          "ja": "アヒル"
+        },
+        {
+          "en": "duckling",
+          "ja": "アヒルの子"
+        },
+        {
+          "en": "mallard",
+          "ja": "マガモ"
+        },
+        {
+          "en": "dusky thrush",
+          "ja": "ツグミ"
+        },
+        {
+          "en": "dusky warbler",
+          "ja": "ムシクイ"
+        },
+        {
+          "en": "eagle",
+          "ja": "イーグル"
+        },
+        {
+          "en": "bald eagle",
+          "ja": "ハクトウワシ"
+        },
+        {
+          "en": "†haast's eagle",
+          "ja": "†ハーストの鷲"
+        },
+        {
+          "en": "egret (animal)",
+          "ja": "サギ（動物）"
+        },
+        {
+          "en": "little egret",
+          "ja": "コサギ"
+        },
+        {
+          "en": "falcon",
+          "ja": "ハヤブサ"
+        },
+        {
+          "en": "peregrine falcon",
+          "ja": "ハヤブサ"
+        },
+        {
+          "en": "finch",
+          "ja": "フィンチ"
+        },
+        {
+          "en": "eurasian bullfinch",
+          "ja": "ウソ"
+        },
+        {
+          "en": "japanese grosbeak",
+          "ja": "アトリ科"
+        },
+        {
+          "en": "double-barred finch",
+          "ja": "ダブルバードフィンチ"
+        },
+        {
+          "en": "gouldian finch",
+          "ja": "コキンチョウ"
+        },
+        {
+          "en": "java sparrow",
+          "ja": "文鳥"
+        },
+        {
+          "en": "zebra finch",
+          "ja": "キンカチョウ"
+        },
+        {
+          "en": "flamingo",
+          "ja": "フラミンゴ"
+        },
+        {
+          "en": "frogmouth",
+          "ja": "ガマグチヨタカ"
+        },
+        {
+          "en": "flycatcher (animal)",
+          "ja": "ヒタキ（動物）"
+        },
+        {
+          "en": "blue-and-white flycatcher",
+          "ja": "オオルリ"
+        },
+        {
+          "en": "hill blue flycatcher",
+          "ja": "ヒルブルーヒタキ"
+        },
+        {
+          "en": "narcissus flycatcher",
+          "ja": "キビタキ"
+        },
+        {
+          "en": "verditer flycatcher",
+          "ja": "ベニヒタキ"
+        },
+        {
+          "en": "yellow-rumped flycatcher",
+          "ja": "キオビヒタキ"
+        },
+        {
+          "en": "goose",
+          "ja": "ガチョウ"
+        },
+        {
+          "en": "greater white-fronted goose",
+          "ja": "オオマガン"
+        },
+        {
+          "en": "canada goose",
+          "ja": "カナダグース"
+        },
+        {
+          "en": "seagull",
+          "ja": "カモメ"
+        },
+        {
+          "en": "audouin's gull",
+          "ja": "オードゥアンカモメ"
+        },
+        {
+          "en": "belchers's gull",
+          "ja": "ベルチャーズカモメ"
+        },
+        {
+          "en": "black-billed gull",
+          "ja": "カモメ"
+        },
+        {
+          "en": "black-headed gull",
+          "ja": "ユリカモメ"
+        },
+        {
+          "en": "black-tailed gull",
+          "ja": "ウミネコ"
+        },
+        {
+          "en": "california gull",
+          "ja": "カリフォルニアカモメ"
+        },
+        {
+          "en": "glaucous gull",
+          "ja": "オオカモメ"
+        },
+        {
+          "en": "great black-backed gull",
+          "ja": "オオカモメ"
+        },
+        {
+          "en": "grey gull",
+          "ja": "カモメ"
+        },
+        {
+          "en": "grey-headed gull",
+          "ja": "ハイガモ"
+        },
+        {
+          "en": "heermann's gull",
+          "ja": "ヒメカモメ"
+        },
+        {
+          "en": "herring gull",
+          "ja": "セグロカモメ"
+        },
+        {
+          "en": "ivory gull",
+          "ja": "ハジロカモメ"
+        },
+        {
+          "en": "lava gull",
+          "ja": "溶岩カモメ"
+        },
+        {
+          "en": "little gull",
+          "ja": "小さなカモメ"
+        },
+        {
+          "en": "mediterranean gull",
+          "ja": "地中海カモメ"
+        },
+        {
+          "en": "pallas's gull",
+          "ja": "オオカモメ"
+        },
+        {
+          "en": "ring-billed gull",
+          "ja": "ハシブトカモメ"
+        },
+        {
+          "en": "ross's gull",
+          "ja": "ロスカモメ"
+        },
+        {
+          "en": "sabine's gull",
+          "ja": "サビヌカモメ"
+        },
+        {
+          "en": "slaty-backed gull",
+          "ja": "オオセグロカモメ"
+        },
+        {
+          "en": "sooty gull",
+          "ja": "ススカモメ"
+        },
+        {
+          "en": "swallow-tailed gull",
+          "ja": "アゲハ尾カモメ"
+        },
+        {
+          "en": "vega gull",
+          "ja": "ベガガル"
+        },
+        {
+          "en": "white-eyed gull",
+          "ja": "メジロカモメ"
+        },
+        {
+          "en": "hawk",
+          "ja": "鷹"
+        },
+        {
+          "en": "goshawk",
+          "ja": "オオタカ"
+        },
+        {
+          "en": "japanese sparrowhawk",
+          "ja": "ハイタカ"
+        },
+        {
+          "en": "harris's hawk",
+          "ja": "ハリスホーク"
+        },
+        {
+          "en": "heron",
+          "ja": "サギ"
+        },
+        {
+          "en": "chinese pond heron",
+          "ja": "中国の池のサギ"
+        },
+        {
+          "en": "great blue heron",
+          "ja": "オオアオサギ"
+        },
+        {
+          "en": "grey heron",
+          "ja": "アオサギ"
+        },
+        {
+          "en": "striated heron",
+          "ja": "縞サギ"
+        },
+        {
+          "en": "hummingbird",
+          "ja": "ハチドリ"
+        },
+        {
+          "en": "japanese bush warbler",
+          "ja": "ウグイス"
+        },
+        {
+          "en": "japanese white-eye",
+          "ja": "メジロ"
+        },
+        {
+          "en": "kingfisher",
+          "ja": "カワセミ"
+        },
+        {
+          "en": "common kingfisher",
+          "ja": "カワセミ"
+        },
+        {
+          "en": "crested kingfisher",
+          "ja": "カワセミ"
+        },
+        {
+          "en": "kookaburra",
+          "ja": "ワライカワセミ"
+        },
+        {
+          "en": "lilac-breasted roller",
+          "ja": "ライラックニシブッポウソウ"
+        },
+        {
+          "en": "long-tailed widowbird",
+          "ja": "オナガゴメドリ"
+        },
+        {
+          "en": "magpie",
+          "ja": "カササギ"
+        },
+        {
+          "en": "azure-winged magpie",
+          "ja": "ルリカササギ"
+        },
+        {
+          "en": "black-throated magpie-jay",
+          "ja": "ノドグロカケス"
+        },
+        {
+          "en": "taiwan blue magpie",
+          "ja": "タイワンアオカケス"
+        },
+        {
+          "en": "meadow bunting",
+          "ja": "メドウホオジロ"
+        },
+        {
+          "en": "nightingale (bird)",
+          "ja": "ナイチンゲール（鳥）"
+        },
+        {
+          "en": "northern lapwing",
+          "ja": "タゲリ"
+        },
+        {
+          "en": "nuthatch",
+          "ja": "ゴジュウカラ"
+        },
+        {
+          "en": "oriental dollarbird",
+          "ja": "オリエンタルドルバード"
+        },
+        {
+          "en": "oriole",
+          "ja": "オリオール"
+        },
+        {
+          "en": "black-headed oriole",
+          "ja": "コウライウグイス"
+        },
+        {
+          "en": "black-naped oriole",
+          "ja": "コウライウグイス"
+        },
+        {
+          "en": "bullock's oriole",
+          "ja": "ウグイス"
+        },
+        {
+          "en": "osprey",
+          "ja": "ミサゴ"
+        },
+        {
+          "en": "ratites",
+          "ja": "走鳥類"
+        },
+        {
+          "en": "cassowary",
+          "ja": "ヒクイドリ"
+        },
+        {
+          "en": "southern cassowary",
+          "ja": "ヒクイドリ"
+        },
+        {
+          "en": "emu",
+          "ja": "エミュー"
+        },
+        {
+          "en": "moa (animal)",
+          "ja": "モア（動物）"
+        },
+        {
+          "en": "south island giant moa",
+          "ja": "南島の巨大モア"
+        },
+        {
+          "en": "kiwi",
+          "ja": "キウイ"
+        },
+        {
+          "en": "southern brown kiwi",
+          "ja": "サザンブラウンキーウィ"
+        },
+        {
+          "en": "ostrich",
+          "ja": "ダチョウ"
+        },
+        {
+          "en": "owl",
+          "ja": "フクロウ"
+        },
+        {
+          "en": "barn owl",
+          "ja": "メンフクロウ"
+        },
+        {
+          "en": "burrowing owl",
+          "ja": "アナホリフクロウ"
+        },
+        {
+          "en": "snowy owl",
+          "ja": "シロフクロウ"
+        },
+        {
+          "en": "southern boobook",
+          "ja": "南部ブーブー"
+        },
+        {
+          "en": "parakeet",
+          "ja": "インコ"
+        },
+        {
+          "en": "golden parakeet",
+          "ja": "ゴールデンインコ"
+        },
+        {
+          "en": "jandaya parakeet",
+          "ja": "ジャンダヤインコ"
+        },
+        {
+          "en": "rose-ringed parakeet",
+          "ja": "バラ色のインコ"
+        },
+        {
+          "en": "parrot",
+          "ja": "オウム"
+        },
+        {
+          "en": "african grey parrot",
+          "ja": "ヨウム"
+        },
+        {
+          "en": "black-headed parrot",
+          "ja": "クロガシラオウム"
+        },
+        {
+          "en": "cockatiel",
+          "ja": "オカメインコ"
+        },
+        {
+          "en": "cockatoo",
+          "ja": "オウム"
+        },
+        {
+          "en": "blue-eyed cockatoo",
+          "ja": "青い目のオウム"
+        },
+        {
+          "en": "major mitchell's cockatoo",
+          "ja": "メジャーミッチェルオウム"
+        },
+        {
+          "en": "palm cockatoo",
+          "ja": "ヤシオウム"
+        },
+        {
+          "en": "sulphur-crested cockatoo",
+          "ja": "キバタン"
+        },
+        {
+          "en": "yellowtip cockatoo",
+          "ja": "キバタン"
+        },
+        {
+          "en": "eclectus parrot",
+          "ja": "オオハナインコ"
+        },
+        {
+          "en": "kakapo",
+          "ja": "カカポ"
+        },
+        {
+          "en": "kea (animal)",
+          "ja": "ケア（動物）"
+        },
+        {
+          "en": "lovebird",
+          "ja": "ラブバード"
+        },
+        {
+          "en": "macaw",
+          "ja": "コンゴウインコ"
+        },
+        {
+          "en": "blue-and-yellow macaw",
+          "ja": "ルリコンゴウインコ"
+        },
+        {
+          "en": "hyacinth macaw",
+          "ja": "スミレコンゴウインコ"
+        },
+        {
+          "en": "red-and-green macaw",
+          "ja": "赤と緑のコンゴウインコ"
+        },
+        {
+          "en": "scarlet macaw",
+          "ja": "アカコンゴウインコ"
+        },
+        {
+          "en": "pacific parrotlet",
+          "ja": "パシフィックパロットレット"
+        },
+        {
+          "en": "yellow-headed amazon",
+          "ja": "キガシラアマゾン"
+        },
+        {
+          "en": "peacock",
+          "ja": "孔雀"
+        },
+        {
+          "en": "pelican",
+          "ja": "ペリカン"
+        },
+        {
+          "en": "penguin",
+          "ja": "ペンギン"
+        },
+        {
+          "en": "adelie penguin",
+          "ja": "アデリーペンギン"
+        },
+        {
+          "en": "african penguin",
+          "ja": "アフリカペンギン"
+        },
+        {
+          "en": "emperor penguin",
+          "ja": "皇帝ペンギン"
+        },
+        {
+          "en": "fiordland penguin",
+          "ja": "フィヨルドランドペンギン"
+        },
+        {
+          "en": "galapagos penguin",
+          "ja": "ガラパゴスペンギン"
+        },
+        {
+          "en": "humboldt penguin",
+          "ja": "フンボルトペンギン"
+        },
+        {
+          "en": "little penguin",
+          "ja": "小さなペンギン"
+        },
+        {
+          "en": "rockhopper penguin",
+          "ja": "イワトビペンギン"
+        },
+        {
+          "en": "yellow-eyed penguin",
+          "ja": "キバシリペンギン"
+        },
+        {
+          "en": "palaeeudyptinae",
+          "ja": "palaeeudyptinae"
+        },
+        {
+          "en": "anthropornis",
+          "ja": "アントロポルニス"
+        },
+        {
+          "en": "pheasant",
+          "ja": "キジ"
+        },
+        {
+          "en": "copper pheasant",
+          "ja": "銅雉"
+        },
+        {
+          "en": "ijima copper pheasant",
+          "ja": "イジマヤマキジ"
+        },
+        {
+          "en": "golden pheasant",
+          "ja": "キジ"
+        },
+        {
+          "en": "green pheasant",
+          "ja": "キジ"
+        },
+        {
+          "en": "lady amherst's pheasant",
+          "ja": "レディ・アマーストのキジ"
+        },
+        {
+          "en": "pheasant-tailed jacana",
+          "ja": "キジバト"
+        },
+        {
+          "en": "pigeon",
+          "ja": "鳩"
+        },
+        {
+          "en": "dove",
+          "ja": "鳩"
+        },
+        {
+          "en": "dodo (bird)",
+          "ja": "ドードー（鳥）"
+        },
+        {
+          "en": "fantail pigeon",
+          "ja": "オオバト"
+        },
+        {
+          "en": "passenger pigeon",
+          "ja": "リョコウバト"
+        },
+        {
+          "en": "victoria_crowned_pigeon",
+          "ja": "ビクトリア冠鳩"
+        },
+        {
+          "en": "white-bellied green pigeon",
+          "ja": "白腹の緑鳩"
+        },
+        {
+          "en": "plover (animal)",
+          "ja": "チドリ（動物）"
+        },
+        {
+          "en": "little ringed plover",
+          "ja": "コチドリ"
+        },
+        {
+          "en": "potoo",
+          "ja": "ポトゥー"
+        },
+        {
+          "en": "puffin",
+          "ja": "ツノメドリ"
+        },
+        {
+          "en": "quail",
+          "ja": "ウズラ"
+        },
+        {
+          "en": "barred_buttonquail",
+          "ja": "縞ボタンウズラ"
+        },
+        {
+          "en": "japanese quail",
+          "ja": "ウズラ"
+        },
+        {
+          "en": "raggiana bird-of-paradise",
+          "ja": "ラギアナ極楽鳥"
+        },
+        {
+          "en": "red-flanked bluetail",
+          "ja": "ルリビタキ"
+        },
+        {
+          "en": "blue-fronted redstart",
+          "ja": "アオジョウビタキ"
+        },
+        {
+          "en": "daurian redstart",
+          "ja": "ジョウビタキ"
+        },
+        {
+          "en": "resplendent quetzal",
+          "ja": "輝くケツァール"
+        },
+        {
+          "en": "robin (animal)",
+          "ja": "コマドリ（動物）"
+        },
+        {
+          "en": "japanese robin",
+          "ja": "コマドリ"
+        },
+        {
+          "en": "roadrunner (animal)",
+          "ja": "ロードランナー（動物）"
+        },
+        {
+          "en": "ryukyu minivet",
+          "ja": "琉球ミニベット"
+        },
+        {
+          "en": "secretarybird",
+          "ja": "ヘビウ"
+        },
+        {
+          "en": "shoebill",
+          "ja": "ハシビロコウ"
+        },
+        {
+          "en": "siberian rubythroat",
+          "ja": "シベリアルビースロート"
+        },
+        {
+          "en": "sparrow",
+          "ja": "スズメ"
+        },
+        {
+          "en": "eurasian tree sparrow",
+          "ja": "スズメ"
+        },
+        {
+          "en": "house sparrow",
+          "ja": "スズメ"
+        },
+        {
+          "en": "stork",
+          "ja": "コウノトリ"
+        },
+        {
+          "en": "oriental stork",
+          "ja": "コウノトリ"
+        },
+        {
+          "en": "swallow",
+          "ja": "飲み込む"
+        },
+        {
+          "en": "tree swallow",
+          "ja": "ツバメ"
+        },
+        {
+          "en": "swan",
+          "ja": "白鳥"
+        },
+        {
+          "en": "black swan (bird)",
+          "ja": "黒い白鳥（鳥）"
+        },
+        {
+          "en": "mute swan",
+          "ja": "コブハクチョウ"
+        },
+        {
+          "en": "takahe",
+          "ja": "タカヘ"
+        },
+        {
+          "en": "tit birds",
+          "ja": "シジュウカラ"
+        },
+        {
+          "en": "great tit",
+          "ja": "シジュウカラ"
+        },
+        {
+          "en": "japanese tit",
+          "ja": "シジュウカラ"
+        },
+        {
+          "en": "long-tailed tit",
+          "ja": "エナガ"
+        },
+        {
+          "en": "tomtit",
+          "ja": "トムティット"
+        },
+        {
+          "en": "toucan",
+          "ja": "オオハシ"
+        },
+        {
+          "en": "vulture",
+          "ja": "ハゲワシ"
+        },
+        {
+          "en": "black-backed wagtail",
+          "ja": "セグロセキレイ"
+        },
+        {
+          "en": "grey wagtail",
+          "ja": "キセキレイ"
+        },
+        {
+          "en": "white wagtail",
+          "ja": "ハクセキレイ"
+        },
+        {
+          "en": "japanese wagtail",
+          "ja": "セキレイ"
+        },
+        {
+          "en": "white-bellied go-away-bird",
+          "ja": "シロハラヒバリ"
+        },
+        {
+          "en": "white-cheeked starling",
+          "ja": "シロホシムクドリ"
+        },
+        {
+          "en": "woodpecker",
+          "ja": "キツツキ"
+        },
+        {
+          "en": "great spotted woodpecker",
+          "ja": "アカゲラ"
+        },
+        {
+          "en": "fenghuang",
+          "ja": "鳳凰"
+        },
+        {
+          "en": "phoenix",
+          "ja": "フェニックス"
         }
-      ],
-      "ネコの動作": [
+      ]
+    },
+    {
+      "id": "cats",
+      "name": "ネコ",
+      "children": [
         {
-          "en": "cat loaf",
-          "ja": "猫のパン"
+          "id": "type",
+          "name": "タイプ",
+          "tags": [
+            {
+              "en": "cat",
+              "ja": "猫"
+            },
+            {
+              "en": "black cat",
+              "ja": "黒猫"
+            },
+            {
+              "en": "black panther",
+              "ja": "ブラックパンサー"
+            },
+            {
+              "en": "kitten",
+              "ja": "子猫"
+            },
+            {
+              "en": "cheetah",
+              "ja": "チーター"
+            },
+            {
+              "en": "leopard",
+              "ja": "ヒョウ"
+            },
+            {
+              "en": "lion",
+              "ja": "ライオン"
+            },
+            {
+              "en": "tiger",
+              "ja": "虎"
+            }
+          ]
         },
         {
-          "en": "cats are liquid",
-          "ja": "猫は液体だ"
+          "id": "cat-breeds-patterns",
+          "name": "猫種・模様",
+          "tags": [
+            {
+              "en": "american curl",
+              "ja": "アメリカンカール"
+            },
+            {
+              "en": "american shorthair",
+              "ja": "アメリカンショートヘア"
+            },
+            {
+              "en": "bengal cat",
+              "ja": "ベンガル猫"
+            },
+            {
+              "en": "bombay cat",
+              "ja": "ボンベイ猫"
+            },
+            {
+              "en": "british shorthair",
+              "ja": "ブリティッシュショートヘア"
+            },
+            {
+              "en": "golden british shorthair",
+              "ja": "ゴールデンブリティッシュショートヘア"
+            },
+            {
+              "en": "dragon li cat",
+              "ja": "ドラゴンリーキャット"
+            },
+            {
+              "en": "exotic shorthair",
+              "ja": "エキゾチックショートヘア"
+            },
+            {
+              "en": "maine coon",
+              "ja": "メインクーン"
+            },
+            {
+              "en": "munchkin cat",
+              "ja": "マンチカン猫"
+            },
+            {
+              "en": "norwegian forest cat",
+              "ja": "ノルウェージャンフォレストキャット"
+            },
+            {
+              "en": "persian cat",
+              "ja": "ペルシャ猫"
+            },
+            {
+              "en": "ragdoll",
+              "ja": "ラグドール"
+            },
+            {
+              "en": "russian blue cat",
+              "ja": "ロシアンブルーの猫"
+            },
+            {
+              "en": "scottish fold",
+              "ja": "スコティッシュフォールド"
+            },
+            {
+              "en": "siamese cat",
+              "ja": "シャム猫"
+            },
+            {
+              "en": "siberian forest cat",
+              "ja": "シベリアの森の猫"
+            },
+            {
+              "en": "somali cat",
+              "ja": "ソマリ猫"
+            },
+            {
+              "en": "sphynx cat",
+              "ja": "スフィンクス猫"
+            },
+            {
+              "en": "calico",
+              "ja": "カリコ"
+            },
+            {
+              "en": "calico cat",
+              "ja": "三毛猫"
+            },
+            {
+              "en": "tortoiseshell cat",
+              "ja": "三毛猫"
+            },
+            {
+              "en": "tuxedo cat",
+              "ja": "タキシード猫"
+            },
+            {
+              "en": "tabby cat",
+              "ja": "トラ猫"
+            }
+          ]
         },
         {
-          "en": "cats are scared of cucumbers",
-          "ja": "猫はキュウリを怖がる"
+          "id": "cat-actions",
+          "name": "ネコの動作",
+          "tags": [
+            {
+              "en": "cat loaf",
+              "ja": "猫のパン"
+            },
+            {
+              "en": "cats are liquid",
+              "ja": "猫は液体だ"
+            },
+            {
+              "en": "cats are scared of cucumbers",
+              "ja": "猫はキュウリを怖がる"
+            },
+            {
+              "en": "hissing",
+              "ja": "シューという音"
+            },
+            {
+              "en": "kneading",
+              "ja": "こねる"
+            },
+            {
+              "en": "nuzzling",
+              "ja": "こすりつける"
+            },
+            {
+              "en": "puffing up",
+              "ja": "膨らむ"
+            },
+            {
+              "en": "purring",
+              "ja": "ごろごろ"
+            },
+            {
+              "en": "rejected kiss",
+              "ja": "拒絶されたキス"
+            },
+            {
+              "en": "scratching",
+              "ja": "引っ掻く"
+            },
+            {
+              "en": "stretching",
+              "ja": "ストレッチ"
+            },
+            {
+              "en": "cat stretch",
+              "ja": "猫のストレッチ"
+            },
+            {
+              "en": "holding animal",
+              "ja": "動物を抱く"
+            },
+            {
+              "en": "armpit carry",
+              "ja": "脇の下持ち"
+            },
+            {
+              "en": "huffing",
+              "ja": "怒鳴り声"
+            },
+            {
+              "en": "petting",
+              "ja": "ペッティング"
+            },
+            {
+              "en": "headpat",
+              "ja": "頭を撫でる"
+            }
+          ]
         },
         {
-          "en": "hissing",
-          "ja": "シューという音"
+          "id": "felines",
+          "name": "ネコ科動物",
+          "tags": [
+            {
+              "en": "black-footed cat",
+              "ja": "クロアシネコ"
+            },
+            {
+              "en": "caracal",
+              "ja": "カラカル"
+            },
+            {
+              "en": "cougar",
+              "ja": "クーガー"
+            },
+            {
+              "en": "geoffroy's cat",
+              "ja": "ジョフロワの猫"
+            },
+            {
+              "en": "iriomote cat",
+              "ja": "イリオモテヤマネコ"
+            },
+            {
+              "en": "jaguar",
+              "ja": "ジャガー"
+            },
+            {
+              "en": "leopard cat",
+              "ja": "ヒョウ猫"
+            },
+            {
+              "en": "chinese leopard cat",
+              "ja": "中国ヒョウ猫"
+            },
+            {
+              "en": "lynx",
+              "ja": "オオヤマネコ"
+            },
+            {
+              "en": "margay",
+              "ja": "マーゲイ"
+            },
+            {
+              "en": "ocelot",
+              "ja": "オセロット"
+            },
+            {
+              "en": "pallas's cat",
+              "ja": "パラスの猫"
+            },
+            {
+              "en": "sand cat",
+              "ja": "スナネコ"
+            },
+            {
+              "en": "serval",
+              "ja": "サーバル"
+            },
+            {
+              "en": "snow leopard",
+              "ja": "ユキヒョウ"
+            }
+          ]
         },
         {
-          "en": "kneading",
-          "ja": "こねる"
+          "id": "cat-position",
+          "name": "ネコの位置",
+          "tags": [
+            {
+              "en": "cat between legs",
+              "ja": "足の間にいる猫"
+            },
+            {
+              "en": "cat in mouth",
+              "ja": "口の中に猫"
+            },
+            {
+              "en": "cat on ass",
+              "ja": "お尻の上の猫"
+            },
+            {
+              "en": "cat on head",
+              "ja": "頭の上の猫"
+            },
+            {
+              "en": "cat on lap",
+              "ja": "膝の上の猫"
+            },
+            {
+              "en": "cat on person",
+              "ja": "猫が人の上にいる"
+            },
+            {
+              "en": "cat on shoulder",
+              "ja": "肩に乗った猫"
+            }
+          ]
         },
         {
-          "en": "nuzzling",
-          "ja": "こすりつける"
+          "id": "cat-themed-items",
+          "name": "ネコモチーフ衣類等",
+          "tags": [
+            {
+              "en": "cat bag",
+              "ja": "猫バッグ"
+            },
+            {
+              "en": "cat band",
+              "ja": "猫バンド"
+            },
+            {
+              "en": "cat band footwear",
+              "ja": "猫バンドの履物"
+            },
+            {
+              "en": "cat band gloves",
+              "ja": "猫バンド手袋"
+            },
+            {
+              "en": "cat ear legwear",
+              "ja": "猫耳レッグウェア"
+            },
+            {
+              "en": "cat bra",
+              "ja": "猫ブラ"
+            },
+            {
+              "en": "cat button",
+              "ja": "猫ボタン"
+            },
+            {
+              "en": "cat choker",
+              "ja": "猫のチョーカー"
+            },
+            {
+              "en": "cat costume",
+              "ja": "猫のコスチューム"
+            },
+            {
+              "en": "cat cutout",
+              "ja": "猫の切り抜き"
+            },
+            {
+              "en": "cat cutout panties",
+              "ja": "猫の切り抜きパンティー"
+            },
+            {
+              "en": "cat ear bikini",
+              "ja": "猫耳ビキニ"
+            },
+            {
+              "en": "cat ear headphones",
+              "ja": "猫耳ヘッドフォン"
+            },
+            {
+              "en": "cat ear panties",
+              "ja": "猫耳パンツ"
+            },
+            {
+              "en": "cat earrings",
+              "ja": "猫のイヤリング"
+            },
+            {
+              "en": "cat gloves",
+              "ja": "猫用手袋"
+            },
+            {
+              "en": "cat hair ornament",
+              "ja": "猫の髪飾り"
+            },
+            {
+              "en": "cat hat",
+              "ja": "猫の帽子"
+            },
+            {
+              "en": "cat helmet",
+              "ja": "猫のヘルメット"
+            },
+            {
+              "en": "cat hood",
+              "ja": "猫フード"
+            },
+            {
+              "en": "cat lingerie",
+              "ja": "猫のランジェリー"
+            },
+            {
+              "en": "cat mask",
+              "ja": "猫のマスク"
+            },
+            {
+              "en": "cat ornament",
+              "ja": "猫の飾り"
+            },
+            {
+              "en": "cat pajamas",
+              "ja": "猫のパジャマ"
+            },
+            {
+              "en": "cat panties",
+              "ja": "猫のパンツ"
+            },
+            {
+              "en": "cat pasties",
+              "ja": "猫用ペースト"
+            },
+            {
+              "en": "cat pendant",
+              "ja": "猫のペンダント"
+            },
+            {
+              "en": "cat print",
+              "ja": "猫のプリント"
+            },
+            {
+              "en": "cat skull",
+              "ja": "猫の頭蓋骨"
+            },
+            {
+              "en": "cat slippers",
+              "ja": "猫用スリッパ"
+            },
+            {
+              "en": "cat symbol",
+              "ja": "猫のシンボル"
+            },
+            {
+              "en": "cat thigh strap",
+              "ja": "猫の太ももストラップ"
+            },
+            {
+              "en": "cat zipper",
+              "ja": "猫のジッパー"
+            }
+          ]
         },
         {
-          "en": "puffing up",
-          "ja": "膨らむ"
+          "id": "cat-anthro",
+          "name": "ネコ擬人化系",
+          "tags": [
+            {
+              "en": "cat boy",
+              "ja": "猫の男の子"
+            },
+            {
+              "en": "cat ears",
+              "ja": "猫耳"
+            },
+            {
+              "en": "slit pupils",
+              "ja": "細長い瞳孔"
+            },
+            {
+              "en": "cat feet",
+              "ja": "猫の足"
+            },
+            {
+              "en": "cat girl",
+              "ja": "猫娘"
+            },
+            {
+              "en": "animal hair",
+              "ja": "動物の毛"
+            },
+            {
+              "en": "cat nose",
+              "ja": "猫の鼻"
+            },
+            {
+              "en": "cat paw",
+              "ja": "猫の足"
+            },
+            {
+              "en": "cat paws",
+              "ja": "猫の足"
+            },
+            {
+              "en": "cat tail",
+              "ja": "ネコヤナギ"
+            },
+            {
+              "en": "barbed tongue",
+              "ja": "とげのある舌"
+            },
+            {
+              "en": "whiskers",
+              "ja": "ひげ"
+            }
+          ]
         },
         {
-          "en": "purring",
-          "ja": "ごろごろ"
-        },
-        {
-          "en": "rejected kiss",
-          "ja": "拒絶されたキス"
-        },
-        {
-          "en": "scratching",
-          "ja": "引っ掻く"
-        },
-        {
-          "en": "stretching",
-          "ja": "ストレッチ"
-        },
-        {
-          "en": "cat stretch",
-          "ja": "猫のストレッチ"
-        },
-        {
-          "en": "holding animal",
-          "ja": "動物を抱く"
-        },
-        {
-          "en": "armpit carry",
-          "ja": "脇の下持ち"
-        },
-        {
-          "en": "huffing",
-          "ja": "怒鳴り声"
-        },
-        {
-          "en": "petting",
-          "ja": "ペッティング"
-        },
-        {
-          "en": "headpat",
-          "ja": "頭を撫でる"
+          "id": "other",
+          "name": "その他",
+          "tags": [
+            {
+              "en": "a cat is fine too",
+              "ja": "猫でもいいよ"
+            },
+            {
+              "en": "bongo cat",
+              "ja": "ボンゴキャット"
+            },
+            {
+              "en": "cat cafe",
+              "ja": "猫カフェ"
+            },
+            {
+              "en": "cat day",
+              "ja": "猫の日"
+            },
+            {
+              "en": "cat detector",
+              "ja": "猫検出器"
+            },
+            {
+              "en": "cat furniture",
+              "ja": "猫用家具"
+            },
+            {
+              "en": "cat burger",
+              "ja": "猫バーガー"
+            },
+            {
+              "en": "cat litter",
+              "ja": "猫砂"
+            },
+            {
+              "en": "cat o' nine tails",
+              "ja": "九尾の猫"
+            },
+            {
+              "en": "cat-shaped pillow",
+              "ja": "猫の形をした枕"
+            },
+            {
+              "en": "cat shooting lightning",
+              "ja": "雷を放つ猫"
+            },
+            {
+              "en": "cat teaser",
+              "ja": "猫のからかい"
+            },
+            {
+              "en": "cat tower",
+              "ja": "キャットタワー"
+            },
+            {
+              "en": "cat transcendence",
+              "ja": "猫の超越"
+            },
+            {
+              "en": "catfight",
+              "ja": "キャットファイト"
+            },
+            {
+              "en": "catfish",
+              "ja": "ナマズ"
+            },
+            {
+              "en": "cat's cradle",
+              "ja": "猫のゆりかご"
+            },
+            {
+              "en": "cats ringing bell",
+              "ja": "ベルを鳴らす猫"
+            },
+            {
+              "en": "helicopter cat",
+              "ja": "ヘリコプター猫"
+            },
+            {
+              "en": "maneki-neko",
+              "ja": "招き猫"
+            },
+            {
+              "en": "pet food",
+              "ja": "ペットフード"
+            },
+            {
+              "en": "pet bowl",
+              "ja": "ペットボウル"
+            },
+            {
+              "en": "snow cat",
+              "ja": "スノーキャット"
+            },
+            {
+              "en": "woman yelling at cat",
+              "ja": "猫に怒鳴る女性"
+            },
+            {
+              "en": "cathead",
+              "ja": "猫頭"
+            },
+            {
+              "en": "giant cat",
+              "ja": "巨大な猫"
+            },
+            {
+              "en": "too many cats",
+              "ja": "猫が多すぎる"
+            }
+          ]
         }
-      ],
-      "ネコ科動物": [
+      ]
+    },
+    {
+      "id": "dogs",
+      "name": "イヌ",
+      "children": [
         {
-          "en": "black-footed cat",
-          "ja": "クロアシネコ"
+          "id": "type",
+          "name": "タイプ",
+          "tags": [
+            {
+              "en": "dog",
+              "ja": "犬"
+            },
+            {
+              "en": "puppy",
+              "ja": "子犬"
+            },
+            {
+              "en": "wolf",
+              "ja": "狼"
+            }
+          ]
         },
         {
-          "en": "caracal",
-          "ja": "カラカル"
+          "id": "dog-breeds",
+          "name": "犬種",
+          "tags": [
+            {
+              "en": "afghan hound",
+              "ja": "アフガンハウンド"
+            },
+            {
+              "en": "akita inu",
+              "ja": "秋田犬"
+            },
+            {
+              "en": "australian kelpie",
+              "ja": "オーストラリアンケルピー"
+            },
+            {
+              "en": "basset hound",
+              "ja": "バセットハウンド"
+            },
+            {
+              "en": "beagle",
+              "ja": "ビーグル"
+            },
+            {
+              "en": "bernese mountain dog",
+              "ja": "バーニーズ・マウンテン・ドッグ"
+            },
+            {
+              "en": "border collie",
+              "ja": "ボーダーコリー"
+            },
+            {
+              "en": "borzoi",
+              "ja": "ボルゾイ"
+            },
+            {
+              "en": "boston terrier",
+              "ja": "ボストンテリア"
+            },
+            {
+              "en": "briard",
+              "ja": "ブリアード"
+            },
+            {
+              "en": "bulldog",
+              "ja": "ブルドッグ"
+            },
+            {
+              "en": "bull terrier",
+              "ja": "ブルテリア"
+            },
+            {
+              "en": "chihuahua",
+              "ja": "チワワ"
+            },
+            {
+              "en": "chinese crested dog",
+              "ja": "チャイニーズ・クレステッド・ドッグ"
+            },
+            {
+              "en": "chow chow",
+              "ja": "チャウチャウ"
+            },
+            {
+              "en": "dachshund",
+              "ja": "ダックスフント"
+            },
+            {
+              "en": "dalmatian",
+              "ja": "ダルメシアン"
+            },
+            {
+              "en": "dobermann",
+              "ja": "ドーベルマン"
+            },
+            {
+              "en": "english springer spaniel",
+              "ja": "イングリッシュ・スプリンガー・スパニエル"
+            },
+            {
+              "en": "german shepherd",
+              "ja": "ジャーマンシェパード"
+            },
+            {
+              "en": "golden retriever",
+              "ja": "ゴールデンレトリバー"
+            },
+            {
+              "en": "great dane",
+              "ja": "グレートデーン"
+            },
+            {
+              "en": "greyhound",
+              "ja": "グレイハウンド"
+            },
+            {
+              "en": "husky",
+              "ja": "ハスキー"
+            },
+            {
+              "en": "irish setter",
+              "ja": "アイリッシュ・セッター"
+            },
+            {
+              "en": "japanese spitz",
+              "ja": "日本スピッツ"
+            },
+            {
+              "en": "kishu ken",
+              "ja": "紀州県"
+            },
+            {
+              "en": "maltese",
+              "ja": "マルタ人"
+            },
+            {
+              "en": "mastiff",
+              "ja": "マスティフ"
+            },
+            {
+              "en": "old english sheepdog",
+              "ja": "オールドイングリッシュシープドッグ"
+            },
+            {
+              "en": "papillon",
+              "ja": "パピヨン"
+            },
+            {
+              "en": "pomeranian",
+              "ja": "ポメラニアン"
+            },
+            {
+              "en": "poodle",
+              "ja": "プードル"
+            },
+            {
+              "en": "pug",
+              "ja": "パグ"
+            },
+            {
+              "en": "schnauzer",
+              "ja": "シュナウザー"
+            },
+            {
+              "en": "shar pei",
+              "ja": "シャーペイ"
+            },
+            {
+              "en": "shiba inu",
+              "ja": "柴犬"
+            },
+            {
+              "en": "st. bernard",
+              "ja": "セントバーナード"
+            },
+            {
+              "en": "welsh corgi",
+              "ja": "ウェルシュ・コーギー"
+            },
+            {
+              "en": "yorkshire terrier",
+              "ja": "ヨークシャーテリア"
+            }
+          ]
         },
         {
-          "en": "cougar",
-          "ja": "クーガー"
+          "id": "similar-animals",
+          "name": "類似動物",
+          "tags": [
+            {
+              "en": "african wild dog",
+              "ja": "アフリカリカオン"
+            },
+            {
+              "en": "coyote",
+              "ja": "コヨーテ"
+            },
+            {
+              "en": "dhole",
+              "ja": "ドール"
+            },
+            {
+              "en": "dingo",
+              "ja": "ディンゴ"
+            },
+            {
+              "en": "fox",
+              "ja": "キツネ"
+            },
+            {
+              "en": "jackal",
+              "ja": "ジャッカル"
+            },
+            {
+              "en": "maned wolf",
+              "ja": "タテガミオオカミ"
+            }
+          ]
         },
         {
-          "en": "geoffroy's cat",
-          "ja": "ジョフロワの猫"
-        },
-        {
-          "en": "iriomote cat",
-          "ja": "イリオモテヤマネコ"
-        },
-        {
-          "en": "jaguar",
-          "ja": "ジャガー"
-        },
-        {
-          "en": "leopard cat",
-          "ja": "ヒョウ猫"
-        },
-        {
-          "en": "chinese leopard cat",
-          "ja": "中国ヒョウ猫"
-        },
-        {
-          "en": "lynx",
-          "ja": "オオヤマネコ"
-        },
-        {
-          "en": "margay",
-          "ja": "マーゲイ"
-        },
-        {
-          "en": "ocelot",
-          "ja": "オセロット"
-        },
-        {
-          "en": "pallas's cat",
-          "ja": "パラスの猫"
-        },
-        {
-          "en": "sand cat",
-          "ja": "スナネコ"
-        },
-        {
-          "en": "serval",
-          "ja": "サーバル"
-        },
-        {
-          "en": "snow leopard",
-          "ja": "ユキヒョウ"
+          "id": "other",
+          "name": "その他",
+          "tags": [
+            {
+              "en": "dog on head",
+              "ja": "頭の上の犬"
+            },
+            {
+              "en": "k9 (dog)",
+              "ja": "k9（犬）"
+            },
+            {
+              "en": "guide dog",
+              "ja": "盲導犬"
+            },
+            {
+              "en": "multiple dogs",
+              "ja": "複数の犬"
+            },
+            {
+              "en": "too many dogs",
+              "ja": "犬が多すぎる"
+            },
+            {
+              "en": "pet walking",
+              "ja": "ペットの散歩"
+            },
+            {
+              "en": "dog costume",
+              "ja": "犬のコスチューム"
+            },
+            {
+              "en": "dog ears",
+              "ja": "犬の耳"
+            },
+            {
+              "en": "dog hat",
+              "ja": "犬の帽子"
+            },
+            {
+              "en": "dog paws",
+              "ja": "犬の足"
+            },
+            {
+              "en": "dog tail",
+              "ja": "犬のしっぽ"
+            },
+            {
+              "en": "dog biscuit",
+              "ja": "犬用ビスケット"
+            },
+            {
+              "en": "dog paddle",
+              "ja": "犬かき"
+            }
+          ]
         }
-      ],
-      "ネコの位置": [
+      ]
+    },
+    {
+      "id": "reptiles-amphibians",
+      "name": "爬虫類・両生類",
+      "tags": [
         {
-          "en": "cat between legs",
-          "ja": "足の間にいる猫"
+          "en": "crocodile",
+          "ja": "クロコダイル"
         },
         {
-          "en": "cat in mouth",
-          "ja": "口の中に猫"
+          "en": "frog",
+          "ja": "蛙"
         },
         {
-          "en": "cat on ass",
-          "ja": "お尻の上の猫"
+          "en": "tadpole",
+          "ja": "オタマジャクシ"
         },
         {
-          "en": "cat on head",
-          "ja": "頭の上の猫"
+          "en": "iguana",
+          "ja": "イグアナ"
         },
         {
-          "en": "cat on lap",
-          "ja": "膝の上の猫"
+          "en": "lizard",
+          "ja": "トカゲ"
         },
         {
-          "en": "cat on person",
-          "ja": "猫が人の上にいる"
+          "en": "frill-necked lizard",
+          "ja": "エリマキトカゲ"
         },
         {
-          "en": "cat on shoulder",
-          "ja": "肩に乗った猫"
+          "en": "snake",
+          "ja": "蛇"
+        },
+        {
+          "en": "turtle",
+          "ja": "カメ"
+        },
+        {
+          "en": "salamander",
+          "ja": "サンショウウオ"
+        },
+        {
+          "en": "axolotl",
+          "ja": "アホロートル"
+        },
+        {
+          "en": "hellbender",
+          "ja": "ヘルベンダー"
         }
-      ],
-      "ネコモチーフ衣類等": [
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "魚",
+      "tags": [
         {
-          "en": "cat bag",
-          "ja": "猫バッグ"
+          "en": "fish",
+          "ja": "魚"
         },
         {
-          "en": "cat band",
-          "ja": "猫バンド"
+          "en": "alligator gar",
+          "ja": "アリゲーターガー"
         },
         {
-          "en": "cat band footwear",
-          "ja": "猫バンドの履物"
+          "en": "angelfish",
+          "ja": "エンゼルフィッシュ"
         },
         {
-          "en": "cat band gloves",
-          "ja": "猫バンド手袋"
+          "en": "anglerfish",
+          "ja": "アンコウ"
         },
         {
-          "en": "cat ear legwear",
-          "ja": "猫耳レッグウェア"
+          "en": "arapaima",
+          "ja": "アラパイマ"
         },
         {
-          "en": "cat bra",
-          "ja": "猫ブラ"
+          "en": "arowana",
+          "ja": "アロワナ"
         },
         {
-          "en": "cat button",
-          "ja": "猫ボタン"
+          "en": "bichir",
+          "ja": "ビチル"
         },
         {
-          "en": "cat choker",
-          "ja": "猫のチョーカー"
-        },
-        {
-          "en": "cat costume",
-          "ja": "猫のコスチューム"
-        },
-        {
-          "en": "cat cutout",
-          "ja": "猫の切り抜き"
-        },
-        {
-          "en": "cat cutout panties",
-          "ja": "猫の切り抜きパンティー"
-        },
-        {
-          "en": "cat ear bikini",
-          "ja": "猫耳ビキニ"
-        },
-        {
-          "en": "cat ear headphones",
-          "ja": "猫耳ヘッドフォン"
-        },
-        {
-          "en": "cat ear panties",
-          "ja": "猫耳パンツ"
-        },
-        {
-          "en": "cat earrings",
-          "ja": "猫のイヤリング"
-        },
-        {
-          "en": "cat gloves",
-          "ja": "猫用手袋"
-        },
-        {
-          "en": "cat hair ornament",
-          "ja": "猫の髪飾り"
-        },
-        {
-          "en": "cat hat",
-          "ja": "猫の帽子"
-        },
-        {
-          "en": "cat helmet",
-          "ja": "猫のヘルメット"
-        },
-        {
-          "en": "cat hood",
-          "ja": "猫フード"
-        },
-        {
-          "en": "cat lingerie",
-          "ja": "猫のランジェリー"
-        },
-        {
-          "en": "cat mask",
-          "ja": "猫のマスク"
-        },
-        {
-          "en": "cat ornament",
-          "ja": "猫の飾り"
-        },
-        {
-          "en": "cat pajamas",
-          "ja": "猫のパジャマ"
-        },
-        {
-          "en": "cat panties",
-          "ja": "猫のパンツ"
-        },
-        {
-          "en": "cat pasties",
-          "ja": "猫用ペースト"
-        },
-        {
-          "en": "cat pendant",
-          "ja": "猫のペンダント"
-        },
-        {
-          "en": "cat print",
-          "ja": "猫のプリント"
-        },
-        {
-          "en": "cat skull",
-          "ja": "猫の頭蓋骨"
-        },
-        {
-          "en": "cat slippers",
-          "ja": "猫用スリッパ"
-        },
-        {
-          "en": "cat symbol",
-          "ja": "猫のシンボル"
-        },
-        {
-          "en": "cat thigh strap",
-          "ja": "猫の太ももストラップ"
-        },
-        {
-          "en": "cat zipper",
-          "ja": "猫のジッパー"
-        }
-      ],
-      "ネコ擬人化系": [
-        {
-          "en": "cat boy",
-          "ja": "猫の男の子"
-        },
-        {
-          "en": "cat ears",
-          "ja": "猫耳"
-        },
-        {
-          "en": "slit pupils",
-          "ja": "細長い瞳孔"
-        },
-        {
-          "en": "cat feet",
-          "ja": "猫の足"
-        },
-        {
-          "en": "cat girl",
-          "ja": "猫娘"
-        },
-        {
-          "en": "animal hair",
-          "ja": "動物の毛"
-        },
-        {
-          "en": "cat nose",
-          "ja": "猫の鼻"
-        },
-        {
-          "en": "cat paw",
-          "ja": "猫の足"
-        },
-        {
-          "en": "cat paws",
-          "ja": "猫の足"
-        },
-        {
-          "en": "cat tail",
-          "ja": "ネコヤナギ"
-        },
-        {
-          "en": "barbed tongue",
-          "ja": "とげのある舌"
-        },
-        {
-          "en": "whiskers",
-          "ja": "ひげ"
-        }
-      ],
-      "その他": [
-        {
-          "en": "a cat is fine too",
-          "ja": "猫でもいいよ"
-        },
-        {
-          "en": "bongo cat",
-          "ja": "ボンゴキャット"
-        },
-        {
-          "en": "cat cafe",
-          "ja": "猫カフェ"
-        },
-        {
-          "en": "cat day",
-          "ja": "猫の日"
-        },
-        {
-          "en": "cat detector",
-          "ja": "猫検出器"
-        },
-        {
-          "en": "cat furniture",
-          "ja": "猫用家具"
-        },
-        {
-          "en": "cat burger",
-          "ja": "猫バーガー"
-        },
-        {
-          "en": "cat litter",
-          "ja": "猫砂"
-        },
-        {
-          "en": "cat o' nine tails",
-          "ja": "九尾の猫"
-        },
-        {
-          "en": "cat-shaped pillow",
-          "ja": "猫の形をした枕"
-        },
-        {
-          "en": "cat shooting lightning",
-          "ja": "雷を放つ猫"
-        },
-        {
-          "en": "cat teaser",
-          "ja": "猫のからかい"
-        },
-        {
-          "en": "cat tower",
-          "ja": "キャットタワー"
-        },
-        {
-          "en": "cat transcendence",
-          "ja": "猫の超越"
-        },
-        {
-          "en": "catfight",
-          "ja": "キャットファイト"
+          "en": "butterflyfish",
+          "ja": "チョウチョウウオ"
         },
         {
           "en": "catfish",
           "ja": "ナマズ"
         },
         {
-          "en": "cat's cradle",
-          "ja": "猫のゆりかご"
+          "en": "carp",
+          "ja": "鯉"
         },
         {
-          "en": "cats ringing bell",
-          "ja": "ベルを鳴らす猫"
+          "en": "goldfish",
+          "ja": "金魚"
         },
         {
-          "en": "helicopter cat",
-          "ja": "ヘリコプター猫"
+          "en": "koi",
+          "ja": "鯉"
         },
         {
-          "en": "maneki-neko",
-          "ja": "招き猫"
+          "en": "clownfish",
+          "ja": "カクレクマノミ"
         },
         {
-          "en": "pet food",
-          "ja": "ペットフード"
+          "en": "coelacanth",
+          "ja": "シーラカンス"
         },
         {
-          "en": "pet bowl",
-          "ja": "ペットボウル"
+          "en": "dunkleosteus",
+          "ja": "ダンクルオステウス"
         },
         {
-          "en": "snow cat",
-          "ja": "スノーキャット"
+          "en": "eel",
+          "ja": "うなぎ"
         },
         {
-          "en": "woman yelling at cat",
-          "ja": "猫に怒鳴る女性"
+          "en": "leopard eel",
+          "ja": "ヒョウウナギ"
         },
         {
-          "en": "cathead",
-          "ja": "猫頭"
+          "en": "moray eel",
+          "ja": "ウツボ"
         },
         {
-          "en": "giant cat",
-          "ja": "巨大な猫"
+          "en": "flying fish",
+          "ja": "トビウオ"
         },
         {
-          "en": "too many cats",
-          "ja": "猫が多すぎる"
+          "en": "lamprey",
+          "ja": "ヤツメウナギ"
+        },
+        {
+          "en": "leafy seadragon",
+          "ja": "リーフィーシードラゴン"
+        },
+        {
+          "en": "manta ray",
+          "ja": "マンタ"
+        },
+        {
+          "en": "needlefish",
+          "ja": "ダツ"
+        },
+        {
+          "en": "oarfish",
+          "ja": "リュウグウノツカイ"
+        },
+        {
+          "en": "oilfish",
+          "ja": "油魚"
+        },
+        {
+          "en": "puffer fish",
+          "ja": "フグ"
+        },
+        {
+          "en": "sailfish",
+          "ja": "バショウカジキ"
+        },
+        {
+          "en": "saury",
+          "ja": "サンマ"
+        },
+        {
+          "en": "sawfish",
+          "ja": "ノコギリエイ"
+        },
+        {
+          "en": "seahorse",
+          "ja": "タツノオトシゴ"
+        },
+        {
+          "en": "shark",
+          "ja": "サメ"
+        },
+        {
+          "en": "edestus",
+          "ja": "エデストゥス"
+        },
+        {
+          "en": "goblin shark",
+          "ja": "ミツキザメ"
+        },
+        {
+          "en": "great white shark",
+          "ja": "ホホジロザメ"
+        },
+        {
+          "en": "hammerhead shark",
+          "ja": "シュモクザメ"
+        },
+        {
+          "en": "helicoprion",
+          "ja": "ヘリコプリオン"
+        },
+        {
+          "en": "saw shark",
+          "ja": "ノコギリザメ"
+        },
+        {
+          "en": "whale shark",
+          "ja": "ジンベイザメ"
+        },
+        {
+          "en": "siamese fighting fish",
+          "ja": "ベタ"
+        },
+        {
+          "en": "swordfish",
+          "ja": "メカジキ"
+        },
+        {
+          "en": "ocean sunfish",
+          "ja": "マンボウ"
+        },
+        {
+          "en": "surgeonfish",
+          "ja": "クロハギ"
+        },
+        {
+          "en": "regal blue tang",
+          "ja": "リーガルブルータン"
+        },
+        {
+          "en": "yellow tang",
+          "ja": "キバハギ"
+        },
+        {
+          "en": "tuna",
+          "ja": "マグロ"
         }
       ]
     },
-    "イヌ": {
-      "タイプ": [
+    {
+      "id": "whales",
+      "name": "クジラ",
+      "tags": [
         {
-          "en": "dog",
-          "ja": "犬"
+          "en": "whale",
+          "ja": "鯨"
         },
         {
-          "en": "puppy",
-          "ja": "子犬"
+          "en": "beluga whale",
+          "ja": "シロイルカ"
         },
         {
-          "en": "wolf",
-          "ja": "狼"
+          "en": "blue whale",
+          "ja": "シロナガスクジラ"
+        },
+        {
+          "en": "dolphin",
+          "ja": "イルカ"
+        },
+        {
+          "en": "humpback whale",
+          "ja": "ザトウクジラ"
+        },
+        {
+          "en": "narwhal",
+          "ja": "イッカク"
+        },
+        {
+          "en": "orca",
+          "ja": "シャチ"
         }
-      ],
-      "犬種": [
+      ]
+    },
+    {
+      "id": "crustaceans",
+      "name": "甲殻類",
+      "tags": [
         {
-          "en": "afghan hound",
-          "ja": "アフガンハウンド"
+          "en": "crustacean",
+          "ja": "甲殻類"
         },
         {
-          "en": "akita inu",
-          "ja": "秋田犬"
+          "en": "crab",
+          "ja": "カニ"
         },
         {
-          "en": "australian kelpie",
-          "ja": "オーストラリアンケルピー"
+          "en": "crayfish",
+          "ja": "ザリガニ"
         },
         {
-          "en": "basset hound",
-          "ja": "バセットハウンド"
+          "en": "hermit crab",
+          "ja": "ヤドカリ"
         },
         {
-          "en": "beagle",
-          "ja": "ビーグル"
+          "en": "horseshoe crab",
+          "ja": "カブトガニ"
         },
         {
-          "en": "bernese mountain dog",
-          "ja": "バーニーズ・マウンテン・ドッグ"
+          "en": "isopod",
+          "ja": "等脚類"
         },
         {
-          "en": "border collie",
-          "ja": "ボーダーコリー"
+          "en": "cymothoa exigua",
+          "ja": "シモトア・エクシグア"
         },
         {
-          "en": "borzoi",
-          "ja": "ボルゾイ"
+          "en": "lobster",
+          "ja": "ロブスター"
         },
         {
-          "en": "boston terrier",
-          "ja": "ボストンテリア"
-        },
-        {
-          "en": "briard",
-          "ja": "ブリアード"
-        },
-        {
-          "en": "bulldog",
-          "ja": "ブルドッグ"
-        },
-        {
-          "en": "bull terrier",
-          "ja": "ブルテリア"
-        },
-        {
-          "en": "chihuahua",
-          "ja": "チワワ"
-        },
-        {
-          "en": "chinese crested dog",
-          "ja": "チャイニーズ・クレステッド・ドッグ"
-        },
-        {
-          "en": "chow chow",
-          "ja": "チャウチャウ"
-        },
-        {
-          "en": "dachshund",
-          "ja": "ダックスフント"
-        },
-        {
-          "en": "dalmatian",
-          "ja": "ダルメシアン"
-        },
-        {
-          "en": "dobermann",
-          "ja": "ドーベルマン"
-        },
-        {
-          "en": "english springer spaniel",
-          "ja": "イングリッシュ・スプリンガー・スパニエル"
-        },
-        {
-          "en": "german shepherd",
-          "ja": "ジャーマンシェパード"
-        },
-        {
-          "en": "golden retriever",
-          "ja": "ゴールデンレトリバー"
-        },
-        {
-          "en": "great dane",
-          "ja": "グレートデーン"
-        },
-        {
-          "en": "greyhound",
-          "ja": "グレイハウンド"
-        },
-        {
-          "en": "husky",
-          "ja": "ハスキー"
-        },
-        {
-          "en": "irish setter",
-          "ja": "アイリッシュ・セッター"
-        },
-        {
-          "en": "japanese spitz",
-          "ja": "日本スピッツ"
-        },
-        {
-          "en": "kishu ken",
-          "ja": "紀州県"
-        },
-        {
-          "en": "maltese",
-          "ja": "マルタ人"
-        },
-        {
-          "en": "mastiff",
-          "ja": "マスティフ"
-        },
-        {
-          "en": "old english sheepdog",
-          "ja": "オールドイングリッシュシープドッグ"
-        },
-        {
-          "en": "papillon",
-          "ja": "パピヨン"
-        },
-        {
-          "en": "pomeranian",
-          "ja": "ポメラニアン"
-        },
-        {
-          "en": "poodle",
-          "ja": "プードル"
-        },
-        {
-          "en": "pug",
-          "ja": "パグ"
-        },
-        {
-          "en": "schnauzer",
-          "ja": "シュナウザー"
-        },
-        {
-          "en": "shar pei",
-          "ja": "シャーペイ"
-        },
-        {
-          "en": "shiba inu",
-          "ja": "柴犬"
-        },
-        {
-          "en": "st. bernard",
-          "ja": "セントバーナード"
-        },
-        {
-          "en": "welsh corgi",
-          "ja": "ウェルシュ・コーギー"
-        },
-        {
-          "en": "yorkshire terrier",
-          "ja": "ヨークシャーテリア"
+          "en": "shrimp",
+          "ja": "エビ"
         }
-      ],
-      "類似動物": [
+      ]
+    },
+    {
+      "id": "aquatic-life",
+      "name": "水中生物",
+      "tags": [
         {
-          "en": "african wild dog",
-          "ja": "アフリカリカオン"
+          "en": "abalone",
+          "ja": "アワビ"
         },
         {
-          "en": "coyote",
-          "ja": "コヨーテ"
+          "en": "clam",
+          "ja": "ハマグリ"
         },
         {
-          "en": "dhole",
-          "ja": "ドール"
+          "en": "coral",
+          "ja": "コーラル"
         },
         {
-          "en": "dingo",
-          "ja": "ディンゴ"
+          "en": "cuttlefish",
+          "ja": "イカ"
+        },
+        {
+          "en": "octopus",
+          "ja": "タコ"
+        },
+        {
+          "en": "oyster",
+          "ja": "カキ"
+        },
+        {
+          "en": "sea anemone",
+          "ja": "イソギンチャク"
+        },
+        {
+          "en": "sea cucumber",
+          "ja": "ナマコ"
+        },
+        {
+          "en": "sea slug",
+          "ja": "ウミウシ"
+        },
+        {
+          "en": "sea urchin",
+          "ja": "ウニ"
+        },
+        {
+          "en": "squid",
+          "ja": "イカ"
+        },
+        {
+          "en": "starfish",
+          "ja": "ヒトデ"
+        }
+      ]
+    },
+    {
+      "id": "rodents",
+      "name": "げっ歯類",
+      "tags": [
+        {
+          "en": "beaver",
+          "ja": "ビーバー"
+        },
+        {
+          "en": "capybara",
+          "ja": "カピバラ"
+        },
+        {
+          "en": "chipmunk",
+          "ja": "シマリス"
+        },
+        {
+          "en": "ferret",
+          "ja": "フェレット"
+        },
+        {
+          "en": "guinea pig",
+          "ja": "モルモット"
+        },
+        {
+          "en": "hamster",
+          "ja": "ハムスター"
+        },
+        {
+          "en": "mouse",
+          "ja": "ねずみ"
+        },
+        {
+          "en": "naked mole rat",
+          "ja": "ハダカデバネズミ"
+        },
+        {
+          "en": "squirrel",
+          "ja": "リス"
+        },
+        {
+          "en": "weasel",
+          "ja": "イタチ"
+        }
+      ]
+    },
+    {
+      "id": "large-animals",
+      "name": "大型動物",
+      "tags": [
+        {
+          "en": "alpaca",
+          "ja": "アルパカ"
+        },
+        {
+          "en": "bear",
+          "ja": "クマ"
+        },
+        {
+          "en": "bull",
+          "ja": "ブル"
+        },
+        {
+          "en": "cow",
+          "ja": "牛"
+        },
+        {
+          "en": "deer",
+          "ja": "鹿"
+        },
+        {
+          "en": "elephant",
+          "ja": "象"
+        },
+        {
+          "en": "giraffe",
+          "ja": "キリン"
+        },
+        {
+          "en": "gorilla",
+          "ja": "ゴリラ"
+        },
+        {
+          "en": "horse",
+          "ja": "馬"
+        },
+        {
+          "en": "kangaroo",
+          "ja": "カンガルー"
+        },
+        {
+          "en": "mammoth",
+          "ja": "マンモス"
+        },
+        {
+          "en": "panda",
+          "ja": "パンダ"
+        }
+      ]
+    },
+    {
+      "id": "small-medium-animals",
+      "name": "小動物 / 中動物",
+      "tags": [
+        {
+          "en": "boar",
+          "ja": "イノシシ"
+        },
+        {
+          "en": "echidna",
+          "ja": "ハリモグラ"
         },
         {
           "en": "fox",
           "ja": "キツネ"
         },
         {
-          "en": "jackal",
-          "ja": "ジャッカル"
+          "en": "red fox",
+          "ja": "アカギツネ"
         },
         {
-          "en": "maned wolf",
-          "ja": "タテガミオオカミ"
-        }
-      ],
-      "その他": [
-        {
-          "en": "dog on head",
-          "ja": "頭の上の犬"
+          "en": "goat",
+          "ja": "ヤギ"
         },
         {
-          "en": "k9 (dog)",
-          "ja": "k9（犬）"
+          "en": "hedgehog",
+          "ja": "ハリネズミ"
         },
         {
-          "en": "guide dog",
-          "ja": "盲導犬"
+          "en": "monkey",
+          "ja": "猿"
         },
         {
-          "en": "multiple dogs",
-          "ja": "複数の犬"
+          "en": "platypus",
+          "ja": "カモノハシ"
         },
         {
-          "en": "too many dogs",
-          "ja": "犬が多すぎる"
+          "en": "pig",
+          "ja": "豚"
         },
         {
-          "en": "pet walking",
-          "ja": "ペットの散歩"
+          "en": "piglet",
+          "ja": "子豚"
         },
         {
-          "en": "dog costume",
-          "ja": "犬のコスチューム"
+          "en": "rabbit",
+          "ja": "うさぎ"
         },
         {
-          "en": "dog ears",
-          "ja": "犬の耳"
+          "en": "angora rabbit",
+          "ja": "アンゴラウサギ"
         },
         {
-          "en": "dog hat",
-          "ja": "犬の帽子"
+          "en": "sheep",
+          "ja": "羊"
         },
         {
-          "en": "dog paws",
-          "ja": "犬の足"
-        },
-        {
-          "en": "dog tail",
-          "ja": "犬のしっぽ"
-        },
-        {
-          "en": "dog biscuit",
-          "ja": "犬用ビスケット"
-        },
-        {
-          "en": "dog paddle",
-          "ja": "犬かき"
+          "en": "lamb",
+          "ja": "子羊"
         }
       ]
     },
-    "爬虫類・両生類": [
-      {
-        "en": "crocodile",
-        "ja": "クロコダイル"
-      },
-      {
-        "en": "frog",
-        "ja": "蛙"
-      },
-      {
-        "en": "tadpole",
-        "ja": "オタマジャクシ"
-      },
-      {
-        "en": "iguana",
-        "ja": "イグアナ"
-      },
-      {
-        "en": "lizard",
-        "ja": "トカゲ"
-      },
-      {
-        "en": "frill-necked lizard",
-        "ja": "エリマキトカゲ"
-      },
-      {
-        "en": "snake",
-        "ja": "蛇"
-      },
-      {
-        "en": "turtle",
-        "ja": "カメ"
-      },
-      {
-        "en": "salamander",
-        "ja": "サンショウウオ"
-      },
-      {
-        "en": "axolotl",
-        "ja": "アホロートル"
-      },
-      {
-        "en": "hellbender",
-        "ja": "ヘルベンダー"
-      }
-    ],
-    "魚": [
-      {
-        "en": "fish",
-        "ja": "魚"
-      },
-      {
-        "en": "alligator gar",
-        "ja": "アリゲーターガー"
-      },
-      {
-        "en": "angelfish",
-        "ja": "エンゼルフィッシュ"
-      },
-      {
-        "en": "anglerfish",
-        "ja": "アンコウ"
-      },
-      {
-        "en": "arapaima",
-        "ja": "アラパイマ"
-      },
-      {
-        "en": "arowana",
-        "ja": "アロワナ"
-      },
-      {
-        "en": "bichir",
-        "ja": "ビチル"
-      },
-      {
-        "en": "butterflyfish",
-        "ja": "チョウチョウウオ"
-      },
-      {
-        "en": "catfish",
-        "ja": "ナマズ"
-      },
-      {
-        "en": "carp",
-        "ja": "鯉"
-      },
-      {
-        "en": "goldfish",
-        "ja": "金魚"
-      },
-      {
-        "en": "koi",
-        "ja": "鯉"
-      },
-      {
-        "en": "clownfish",
-        "ja": "カクレクマノミ"
-      },
-      {
-        "en": "coelacanth",
-        "ja": "シーラカンス"
-      },
-      {
-        "en": "dunkleosteus",
-        "ja": "ダンクルオステウス"
-      },
-      {
-        "en": "eel",
-        "ja": "うなぎ"
-      },
-      {
-        "en": "leopard eel",
-        "ja": "ヒョウウナギ"
-      },
-      {
-        "en": "moray eel",
-        "ja": "ウツボ"
-      },
-      {
-        "en": "flying fish",
-        "ja": "トビウオ"
-      },
-      {
-        "en": "lamprey",
-        "ja": "ヤツメウナギ"
-      },
-      {
-        "en": "leafy seadragon",
-        "ja": "リーフィーシードラゴン"
-      },
-      {
-        "en": "manta ray",
-        "ja": "マンタ"
-      },
-      {
-        "en": "needlefish",
-        "ja": "ダツ"
-      },
-      {
-        "en": "oarfish",
-        "ja": "リュウグウノツカイ"
-      },
-      {
-        "en": "oilfish",
-        "ja": "油魚"
-      },
-      {
-        "en": "puffer fish",
-        "ja": "フグ"
-      },
-      {
-        "en": "sailfish",
-        "ja": "バショウカジキ"
-      },
-      {
-        "en": "saury",
-        "ja": "サンマ"
-      },
-      {
-        "en": "sawfish",
-        "ja": "ノコギリエイ"
-      },
-      {
-        "en": "seahorse",
-        "ja": "タツノオトシゴ"
-      },
-      {
-        "en": "shark",
-        "ja": "サメ"
-      },
-      {
-        "en": "edestus",
-        "ja": "エデストゥス"
-      },
-      {
-        "en": "goblin shark",
-        "ja": "ミツキザメ"
-      },
-      {
-        "en": "great white shark",
-        "ja": "ホホジロザメ"
-      },
-      {
-        "en": "hammerhead shark",
-        "ja": "シュモクザメ"
-      },
-      {
-        "en": "helicoprion",
-        "ja": "ヘリコプリオン"
-      },
-      {
-        "en": "saw shark",
-        "ja": "ノコギリザメ"
-      },
-      {
-        "en": "whale shark",
-        "ja": "ジンベイザメ"
-      },
-      {
-        "en": "siamese fighting fish",
-        "ja": "ベタ"
-      },
-      {
-        "en": "swordfish",
-        "ja": "メカジキ"
-      },
-      {
-        "en": "ocean sunfish",
-        "ja": "マンボウ"
-      },
-      {
-        "en": "surgeonfish",
-        "ja": "クロハギ"
-      },
-      {
-        "en": "regal blue tang",
-        "ja": "リーガルブルータン"
-      },
-      {
-        "en": "yellow tang",
-        "ja": "キバハギ"
-      },
-      {
-        "en": "tuna",
-        "ja": "マグロ"
-      }
-    ],
-    "クジラ": [
-      {
-        "en": "whale",
-        "ja": "鯨"
-      },
-      {
-        "en": "beluga whale",
-        "ja": "シロイルカ"
-      },
-      {
-        "en": "blue whale",
-        "ja": "シロナガスクジラ"
-      },
-      {
-        "en": "dolphin",
-        "ja": "イルカ"
-      },
-      {
-        "en": "humpback whale",
-        "ja": "ザトウクジラ"
-      },
-      {
-        "en": "narwhal",
-        "ja": "イッカク"
-      },
-      {
-        "en": "orca",
-        "ja": "シャチ"
-      }
-    ],
-    "甲殻類": [
-      {
-        "en": "crustacean",
-        "ja": "甲殻類"
-      },
-      {
-        "en": "crab",
-        "ja": "カニ"
-      },
-      {
-        "en": "crayfish",
-        "ja": "ザリガニ"
-      },
-      {
-        "en": "hermit crab",
-        "ja": "ヤドカリ"
-      },
-      {
-        "en": "horseshoe crab",
-        "ja": "カブトガニ"
-      },
-      {
-        "en": "isopod",
-        "ja": "等脚類"
-      },
-      {
-        "en": "cymothoa exigua",
-        "ja": "シモトア・エクシグア"
-      },
-      {
-        "en": "lobster",
-        "ja": "ロブスター"
-      },
-      {
-        "en": "shrimp",
-        "ja": "エビ"
-      }
-    ],
-    "水中生物": [
-      {
-        "en": "abalone",
-        "ja": "アワビ"
-      },
-      {
-        "en": "clam",
-        "ja": "ハマグリ"
-      },
-      {
-        "en": "coral",
-        "ja": "コーラル"
-      },
-      {
-        "en": "cuttlefish",
-        "ja": "イカ"
-      },
-      {
-        "en": "octopus",
-        "ja": "タコ"
-      },
-      {
-        "en": "oyster",
-        "ja": "カキ"
-      },
-      {
-        "en": "sea anemone",
-        "ja": "イソギンチャク"
-      },
-      {
-        "en": "sea cucumber",
-        "ja": "ナマコ"
-      },
-      {
-        "en": "sea slug",
-        "ja": "ウミウシ"
-      },
-      {
-        "en": "sea urchin",
-        "ja": "ウニ"
-      },
-      {
-        "en": "squid",
-        "ja": "イカ"
-      },
-      {
-        "en": "starfish",
-        "ja": "ヒトデ"
-      }
-    ],
-    "げっ歯類": [
-      {
-        "en": "beaver",
-        "ja": "ビーバー"
-      },
-      {
-        "en": "capybara",
-        "ja": "カピバラ"
-      },
-      {
-        "en": "chipmunk",
-        "ja": "シマリス"
-      },
-      {
-        "en": "ferret",
-        "ja": "フェレット"
-      },
-      {
-        "en": "guinea pig",
-        "ja": "モルモット"
-      },
-      {
-        "en": "hamster",
-        "ja": "ハムスター"
-      },
-      {
-        "en": "mouse",
-        "ja": "ねずみ"
-      },
-      {
-        "en": "naked mole rat",
-        "ja": "ハダカデバネズミ"
-      },
-      {
-        "en": "squirrel",
-        "ja": "リス"
-      },
-      {
-        "en": "weasel",
-        "ja": "イタチ"
-      }
-    ],
-    "大型動物": [
-      {
-        "en": "alpaca",
-        "ja": "アルパカ"
-      },
-      {
-        "en": "bear",
-        "ja": "クマ"
-      },
-      {
-        "en": "bull",
-        "ja": "ブル"
-      },
-      {
-        "en": "cow",
-        "ja": "牛"
-      },
-      {
-        "en": "deer",
-        "ja": "鹿"
-      },
-      {
-        "en": "elephant",
-        "ja": "象"
-      },
-      {
-        "en": "giraffe",
-        "ja": "キリン"
-      },
-      {
-        "en": "gorilla",
-        "ja": "ゴリラ"
-      },
-      {
-        "en": "horse",
-        "ja": "馬"
-      },
-      {
-        "en": "kangaroo",
-        "ja": "カンガルー"
-      },
-      {
-        "en": "mammoth",
-        "ja": "マンモス"
-      },
-      {
-        "en": "panda",
-        "ja": "パンダ"
-      }
-    ],
-    "小動物 / 中動物": [
-      {
-        "en": "boar",
-        "ja": "イノシシ"
-      },
-      {
-        "en": "echidna",
-        "ja": "ハリモグラ"
-      },
-      {
-        "en": "fox",
-        "ja": "キツネ"
-      },
-      {
-        "en": "red fox",
-        "ja": "アカギツネ"
-      },
-      {
-        "en": "goat",
-        "ja": "ヤギ"
-      },
-      {
-        "en": "hedgehog",
-        "ja": "ハリネズミ"
-      },
-      {
-        "en": "monkey",
-        "ja": "猿"
-      },
-      {
-        "en": "platypus",
-        "ja": "カモノハシ"
-      },
-      {
-        "en": "pig",
-        "ja": "豚"
-      },
-      {
-        "en": "piglet",
-        "ja": "子豚"
-      },
-      {
-        "en": "rabbit",
-        "ja": "うさぎ"
-      },
-      {
-        "en": "angora rabbit",
-        "ja": "アンゴラウサギ"
-      },
-      {
-        "en": "sheep",
-        "ja": "羊"
-      },
-      {
-        "en": "lamb",
-        "ja": "子羊"
-      }
-    ],
-    "その他": [
-      {
-        "en": "anomalocaris",
-        "ja": "アノマロカリス"
-      },
-      {
-        "en": "hallucigenia",
-        "ja": "ハルキゲニア"
-      },
-      {
-        "en": "opabinia",
-        "ja": "オパビニア"
-      },
-      {
-        "en": "pambdelurion",
-        "ja": "パンデルリオン"
-      },
-      {
-        "en": "xidazoon",
-        "ja": "シダゾーン"
-      }
-    ]
-  }
+    {
+      "id": "other",
+      "name": "その他",
+      "tags": [
+        {
+          "en": "anomalocaris",
+          "ja": "アノマロカリス"
+        },
+        {
+          "en": "hallucigenia",
+          "ja": "ハルキゲニア"
+        },
+        {
+          "en": "opabinia",
+          "ja": "オパビニア"
+        },
+        {
+          "en": "pambdelurion",
+          "ja": "パンデルリオン"
+        },
+        {
+          "en": "xidazoon",
+          "ja": "シダゾーン"
+        }
+      ]
+    }
+  ]
 }

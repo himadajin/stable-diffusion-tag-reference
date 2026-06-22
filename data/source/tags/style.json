@@ -1,722 +1,746 @@
 {
   "id": "style",
   "name": "スタイル",
-  "tree": {
-    "アートスタイル": [
-      {
-        "en": "afterimage",
-        "ja": "残像"
-      },
-      {
-        "en": "glitch",
-        "ja": "グリッチ"
-      },
-      {
-        "en": "mosaic art",
-        "ja": "モザイクアート"
-      },
-      {
-        "en": "photomosaic",
-        "ja": "フォトモザイク"
-      },
-      {
-        "en": "3d",
-        "ja": "3D"
-      },
-      {
-        "en": "lineart",
-        "ja": "線画"
-      },
-      {
-        "en": "no lineart",
-        "ja": "線画なし"
-      },
-      {
-        "en": "outline",
-        "ja": "概要"
-      },
-      {
-        "en": "oekaki",
-        "ja": "おえかき"
-      },
-      {
-        "en": "pixel art",
-        "ja": "ピクセルアート"
-      },
-      {
-        "en": "tegaki",
-        "ja": "てがき"
-      },
-      {
-        "en": "vector trace",
-        "ja": "ベクトルトレース"
-      },
-      {
-        "en": "ai-generated",
-        "ja": "AI生成"
-      },
-      {
-        "en": "abstract",
-        "ja": "抽象的な"
-      },
-      {
-        "en": "art deco",
-        "ja": "アールデコ"
-      },
-      {
-        "en": "art nouveau",
-        "ja": "アールヌーボー"
-      },
-      {
-        "en": "fake photograph",
-        "ja": "偽の写真"
-      },
-      {
-        "en": "fine art parody",
-        "ja": "美術パロディ"
-      },
-      {
-        "en": "flame painter",
-        "ja": "炎の画家"
-      },
-      {
-        "en": "impressionism",
-        "ja": "印象派"
-      },
-      {
-        "en": "ligne claire",
-        "ja": "リーン・クレール"
-      },
-      {
-        "en": "minimalism",
-        "ja": "ミニマリズム"
-      },
-      {
-        "en": "nihonga",
-        "ja": "日本画"
-      },
-      {
-        "en": "sumi-e",
-        "ja": "墨絵"
-      },
-      {
-        "en": "ukiyo-e",
-        "ja": "浮世絵"
-      },
-      {
-        "en": "painterly",
-        "ja": "絵画的な"
-      },
-      {
-        "en": "realistic",
-        "ja": "現実的"
-      },
-      {
-        "en": "photorealistic",
-        "ja": "フォトリアリスティック"
-      },
-      {
-        "en": "sketch",
-        "ja": "スケッチ"
-      },
-      {
-        "en": "style parody",
-        "ja": "スタイルのパロディ"
-      },
-      {
-        "en": "list of style parodies",
-        "ja": "スタイルパロディのリスト"
-      },
-      {
-        "en": "surreal",
-        "ja": "シュール"
-      },
-      {
-        "en": "traditional media",
-        "ja": "従来のメディア"
-      },
-      {
-        "en": "faux traditional media",
-        "ja": "偽の伝統メディア"
-      },
-      {
-        "en": "unfinished",
-        "ja": "未完成"
-      },
-      {
-        "en": "retro artstyle",
-        "ja": "レトロなアートスタイル"
-      },
-      {
-        "en": "1920s",
-        "ja": "1920年代"
-      },
-      {
-        "en": "1930s",
-        "ja": "1930年代"
-      },
-      {
-        "en": "1940s",
-        "ja": "1940年代"
-      },
-      {
-        "en": "1950s",
-        "ja": "1950年代"
-      },
-      {
-        "en": "1960s",
-        "ja": "1960年代"
-      },
-      {
-        "en": "1970s",
-        "ja": "1970年代"
-      },
-      {
-        "en": "1980s",
-        "ja": "1980年代"
-      },
-      {
-        "en": "1990s",
-        "ja": "1990年代"
-      },
-      {
-        "en": "2000s",
-        "ja": "2000年代"
-      },
-      {
-        "en": "animification",
-        "ja": "アニメーション化"
-      },
-      {
-        "en": "pinup",
-        "ja": "ピンナップ"
-      },
-      {
-        "en": "toon",
-        "ja": "トゥーン"
-      },
-      {
-        "en": "cartoonized",
-        "ja": "漫画化された"
-      },
-      {
-        "en": "western comics",
-        "ja": "西部劇コミック"
-      },
-      {
-        "en": "acid graphics",
-        "ja": "アシッドグラフィック"
-      },
-      {
-        "en": "biopunk",
-        "ja": "バイオパンク"
-      },
-      {
-        "en": "blingee",
-        "ja": "ブリンギー"
-      },
-      {
-        "en": "choco girl",
-        "ja": "チョコガール"
-      },
-      {
-        "en": "cyberpunk",
-        "ja": "サイバーパンク"
-      },
-      {
-        "en": "dieselpunk",
-        "ja": "ディーゼルパンク"
-      },
-      {
-        "en": "dunhuang style",
-        "ja": "敦煌風"
-      },
-      {
-        "en": "frutiger aero",
-        "ja": "フルティガーエアロ"
-      },
-      {
-        "en": "frutiger metro",
-        "ja": "フルティガーメトロ"
-      },
-      {
-        "en": "gurokawa",
-        "ja": "黒川"
-      },
-      {
-        "en": "heisei retro",
-        "ja": "平成レトロ"
-      },
-      {
-        "en": "shoe diva",
-        "ja": "靴のディーバ"
-      },
-      {
-        "en": "silkpunk",
-        "ja": "シルクパンク"
-      },
-      {
-        "en": "steampunk",
-        "ja": "スチームパンク"
-      },
-      {
-        "en": "synthwave",
-        "ja": "シンセウェーブ"
-      },
-      {
-        "en": "tenshi kaiwai",
-        "ja": "天使かいわい"
-      },
-      {
-        "en": "weirdcore",
-        "ja": "ウィアードコア"
-      },
-      {
-        "en": "vaporwave",
-        "ja": "ヴェイパーウェイヴ"
-      },
-      {
-        "en": "yami kawaii",
-        "ja": "ヤミかわいい"
-      },
-      {
-        "en": "yume kawaii",
-        "ja": "ゆめかわいい"
-      },
-      {
-        "en": "1980s (style)",
-        "ja": "1980年代（スタイル）"
-      },
-      {
-        "en": "1990s (style)",
-        "ja": "1990年代（スタイル）"
-      },
-      {
-        "en": "2000s (style)",
-        "ja": "2000年代（スタイル）"
-      },
-      {
-        "en": "cave paintings",
-        "ja": "洞窟壁画"
-      },
-      {
-        "en": "cubism",
-        "ja": "キュービズム"
-      },
-      {
-        "en": "low poly",
-        "ja": "ローポリ"
-      },
-      {
-        "en": "cyber sigilism",
-        "ja": "サイバーシグニズム"
-      },
-      {
-        "en": "flourish",
-        "ja": "繁栄する"
-      }
-    ],
-    "効果": [
-      {
-        "en": "blending",
-        "ja": "ブレンド"
-      },
-      {
-        "en": "bloom",
-        "ja": "咲く"
-      },
-      {
-        "en": "bokeh",
-        "ja": "ボケ"
-      },
-      {
-        "en": "caustics",
-        "ja": "コースティクス"
-      },
-      {
-        "en": "chromatic aberration",
-        "ja": "色収差"
-      },
-      {
-        "en": "heavy chromatic aberration",
-        "ja": "重度の色収差"
-      },
-      {
-        "en": "diffraction spikes",
-        "ja": "回折スパイク"
-      },
-      {
-        "en": "depth of field",
-        "ja": "被写界深度"
-      },
-      {
-        "en": "distortion",
-        "ja": "ねじれ"
-      },
-      {
-        "en": "double exposure",
-        "ja": "二重曝露"
-      },
-      {
-        "en": "drop shadow",
-        "ja": "ドロップシャドウ"
-      },
-      {
-        "en": "emphasis lines",
-        "ja": "強調線"
-      },
-      {
-        "en": "foreshortening",
-        "ja": "短縮法"
-      },
-      {
-        "en": "glitch",
-        "ja": "グリッチ"
-      },
-      {
-        "en": "high contrast",
-        "ja": "高コントラスト"
-      },
-      {
-        "en": "lens flare",
-        "ja": "レンズフレア"
-      },
-      {
-        "en": "heavy lens flare",
-        "ja": "強いレンズフレア"
-      },
-      {
-        "en": "motion blur",
-        "ja": "モーションブラー"
-      },
-      {
-        "en": "motion lines",
-        "ja": "モーションライン"
-      },
-      {
-        "en": "multiple monochrome",
-        "ja": "複数のモノクロ"
-      },
-      {
-        "en": "overexposure",
-        "ja": "露出曝露"
-      },
-      {
-        "en": "silhouette",
-        "ja": "シルエット"
-      },
-      {
-        "en": "speed lines",
-        "ja": "スピードライン"
-      },
-      {
-        "en": "vignetting",
-        "ja": "ケラレ"
-      }
-    ],
-    "質感": [
-      {
-        "en": "dithering",
-        "ja": "ディザリング"
-      },
-      {
-        "en": "film grain",
-        "ja": "フィルム粒子"
-      },
-      {
-        "en": "gradient",
-        "ja": "勾配"
-      },
-      {
-        "en": "halftone",
-        "ja": "ハーフトーン"
-      },
-      {
-        "en": "hatching (texture)",
-        "ja": "ハッチング（テクスチャ）"
-      },
-      {
-        "en": "linear hatching",
-        "ja": "線状ハッチング"
-      },
-      {
-        "en": "crosshatching",
-        "ja": "クロスハッチング"
-      },
-      {
-        "en": "woven hatching",
-        "ja": "織りハッチング"
-      },
-      {
-        "en": "pointillism",
-        "ja": "点描画"
-      },
-      {
-        "en": "scanlines",
-        "ja": "走査線"
-      },
-      {
-        "en": "screentones",
-        "ja": "スクリーントーン"
-      },
-      {
-        "en": "ben-day dots",
-        "ja": "ベンデイドット"
-      },
-      {
-        "en": "stippling (texture)",
-        "ja": "点描（テクスチャ）"
-      }
-    ],
-    "トリック": [
-      {
-        "en": "optical illusion",
-        "ja": "錯視"
-      },
-      {
-        "en": "anaglyph",
-        "ja": "アナグリフ"
-      },
-      {
-        "en": "exif thumbnail surprise",
-        "ja": "exifサムネイルサプライズ"
-      },
-      {
-        "en": "thumbnail surprise",
-        "ja": "サムネイルサプライズ"
-      },
-      {
-        "en": "open in internet explorer",
-        "ja": "インターネットエクスプローラーで開く"
-      },
-      {
-        "en": "open in winamp",
-        "ja": "Winampで開く"
-      },
-      {
-        "en": "stereogram",
-        "ja": "ステレオグラム"
-      }
-    ],
-    "特殊": [
-      {
-        "en": "animated",
-        "ja": "アニメーション"
-      },
-      {
-        "en": "animated gif",
-        "ja": "アニメーションGIF"
-      },
-      {
-        "en": "easytoon",
-        "ja": "イージートゥーン"
-      },
-      {
-        "en": "flipaclip",
-        "ja": "フリップクリップ"
-      },
-      {
-        "en": "non-repeating animation",
-        "ja": "繰り返しのないアニメーション"
-      },
-      {
-        "en": "animated png",
-        "ja": "アニメーションPNG"
-      },
-      {
-        "en": "flash",
-        "ja": "フラッシュ"
-      },
-      {
-        "en": "live2d",
-        "ja": "ライブ2D"
-      },
-      {
-        "en": "video",
-        "ja": "ビデオ"
-      },
-      {
-        "en": "music video",
-        "ja": "ミュージックビデオ"
-      },
-      {
-        "en": "looping animation",
-        "ja": "ループアニメーション"
-      },
-      {
-        "en": "roulette animation",
-        "ja": "ルーレットアニメーション"
-      },
-      {
-        "en": "anime screenshot",
-        "ja": "アニメのスクリーンショット"
-      },
-      {
-        "en": "archived file",
-        "ja": "アーカイブされたファイル"
-      },
-      {
-        "en": "corrupted file",
-        "ja": "破損したファイル"
-      },
-      {
-        "en": "corrupted twitter file",
-        "ja": "破損したTwitterファイル"
-      },
-      {
-        "en": "fake cover",
-        "ja": "偽のカバー"
-      },
-      {
-        "en": "fake screenshot",
-        "ja": "偽のスクリーンショット"
-      },
-      {
-        "en": "fake phone screenshot",
-        "ja": "偽の携帯電話のスクリーンショット"
-      },
-      {
-        "en": "game screenshot",
-        "ja": "ゲームのスクリーンショット"
-      },
-      {
-        "en": "official art",
-        "ja": "公式アート"
-      },
-      {
-        "en": "revision",
-        "ja": "リビジョン"
-      },
-      {
-        "en": "off-topic",
-        "ja": "話題外"
-      },
-      {
-        "en": "iei",
-        "ja": "いいえ"
-      },
-      {
-        "en": "tag group:focus tags",
-        "ja": "タググループ:フォーカスタグ"
-      }
-    ],
-    "媒体": [
-      {
-        "en": "artbook",
-        "ja": "アートブック"
-      },
-      {
-        "en": "calendar (medium)",
-        "ja": "カレンダー（中）"
-      },
-      {
-        "en": "card (medium)",
-        "ja": "カード（中）"
-      },
-      {
-        "en": "comic",
-        "ja": "漫画"
-      },
-      {
-        "en": "cover",
-        "ja": "カバー"
-      },
-      {
-        "en": "album cover",
-        "ja": "アルバムカバー"
-      },
-      {
-        "en": "character single",
-        "ja": "キャラクターシングル"
-      },
-      {
-        "en": "cover page",
-        "ja": "表紙"
-      },
-      {
-        "en": "doujin cover",
-        "ja": "同人カバー"
-      },
-      {
-        "en": "dvd cover",
-        "ja": "DVDカバー"
-      },
-      {
-        "en": "magazine cover",
-        "ja": "雑誌の表紙"
-      },
-      {
-        "en": "manga cover",
-        "ja": "漫画の表紙"
-      },
-      {
-        "en": "video game cover",
-        "ja": "ビデオゲームのカバー"
-      },
-      {
-        "en": "game cg",
-        "ja": "ゲームCG"
-      },
-      {
-        "en": "gyotaku (medium)",
-        "ja": "魚拓（中）"
-      },
-      {
-        "en": "icon",
-        "ja": "アイコン"
-      },
-      {
-        "en": "logo",
-        "ja": "ロゴ"
-      },
-      {
-        "en": "kirigami",
-        "ja": "切り紙"
-      },
-      {
-        "en": "phonecard",
-        "ja": "電話カード"
-      },
-      {
-        "en": "photo",
-        "ja": "写真"
-      },
-      {
-        "en": "papercraft",
-        "ja": "ペーパークラフト"
-      },
-      {
-        "en": "paper child",
-        "ja": "紙の子供"
-      },
-      {
-        "en": "paper cutout",
-        "ja": "切り絵"
-      },
-      {
-        "en": "postcard",
-        "ja": "ポストカード"
-      },
-      {
-        "en": "poster",
-        "ja": "ポスター"
-      },
-      {
-        "en": "scan",
-        "ja": "スキャン"
-      },
-      {
-        "en": "shitajiki",
-        "ja": "下敷"
-      },
-      {
-        "en": "wallpaper",
-        "ja": "壁紙"
-      },
-      {
-        "en": "official wallpaper",
-        "ja": "公式壁紙"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "art-style",
+      "name": "アートスタイル",
+      "tags": [
+        {
+          "en": "afterimage",
+          "ja": "残像"
+        },
+        {
+          "en": "glitch",
+          "ja": "グリッチ"
+        },
+        {
+          "en": "mosaic art",
+          "ja": "モザイクアート"
+        },
+        {
+          "en": "photomosaic",
+          "ja": "フォトモザイク"
+        },
+        {
+          "en": "3d",
+          "ja": "3D"
+        },
+        {
+          "en": "lineart",
+          "ja": "線画"
+        },
+        {
+          "en": "no lineart",
+          "ja": "線画なし"
+        },
+        {
+          "en": "outline",
+          "ja": "概要"
+        },
+        {
+          "en": "oekaki",
+          "ja": "おえかき"
+        },
+        {
+          "en": "pixel art",
+          "ja": "ピクセルアート"
+        },
+        {
+          "en": "tegaki",
+          "ja": "てがき"
+        },
+        {
+          "en": "vector trace",
+          "ja": "ベクトルトレース"
+        },
+        {
+          "en": "ai-generated",
+          "ja": "AI生成"
+        },
+        {
+          "en": "abstract",
+          "ja": "抽象的な"
+        },
+        {
+          "en": "art deco",
+          "ja": "アールデコ"
+        },
+        {
+          "en": "art nouveau",
+          "ja": "アールヌーボー"
+        },
+        {
+          "en": "fake photograph",
+          "ja": "偽の写真"
+        },
+        {
+          "en": "fine art parody",
+          "ja": "美術パロディ"
+        },
+        {
+          "en": "flame painter",
+          "ja": "炎の画家"
+        },
+        {
+          "en": "impressionism",
+          "ja": "印象派"
+        },
+        {
+          "en": "ligne claire",
+          "ja": "リーン・クレール"
+        },
+        {
+          "en": "minimalism",
+          "ja": "ミニマリズム"
+        },
+        {
+          "en": "nihonga",
+          "ja": "日本画"
+        },
+        {
+          "en": "sumi-e",
+          "ja": "墨絵"
+        },
+        {
+          "en": "ukiyo-e",
+          "ja": "浮世絵"
+        },
+        {
+          "en": "painterly",
+          "ja": "絵画的な"
+        },
+        {
+          "en": "realistic",
+          "ja": "現実的"
+        },
+        {
+          "en": "photorealistic",
+          "ja": "フォトリアリスティック"
+        },
+        {
+          "en": "sketch",
+          "ja": "スケッチ"
+        },
+        {
+          "en": "style parody",
+          "ja": "スタイルのパロディ"
+        },
+        {
+          "en": "list of style parodies",
+          "ja": "スタイルパロディのリスト"
+        },
+        {
+          "en": "surreal",
+          "ja": "シュール"
+        },
+        {
+          "en": "traditional media",
+          "ja": "従来のメディア"
+        },
+        {
+          "en": "faux traditional media",
+          "ja": "偽の伝統メディア"
+        },
+        {
+          "en": "unfinished",
+          "ja": "未完成"
+        },
+        {
+          "en": "retro artstyle",
+          "ja": "レトロなアートスタイル"
+        },
+        {
+          "en": "1920s",
+          "ja": "1920年代"
+        },
+        {
+          "en": "1930s",
+          "ja": "1930年代"
+        },
+        {
+          "en": "1940s",
+          "ja": "1940年代"
+        },
+        {
+          "en": "1950s",
+          "ja": "1950年代"
+        },
+        {
+          "en": "1960s",
+          "ja": "1960年代"
+        },
+        {
+          "en": "1970s",
+          "ja": "1970年代"
+        },
+        {
+          "en": "1980s",
+          "ja": "1980年代"
+        },
+        {
+          "en": "1990s",
+          "ja": "1990年代"
+        },
+        {
+          "en": "2000s",
+          "ja": "2000年代"
+        },
+        {
+          "en": "animification",
+          "ja": "アニメーション化"
+        },
+        {
+          "en": "pinup",
+          "ja": "ピンナップ"
+        },
+        {
+          "en": "toon",
+          "ja": "トゥーン"
+        },
+        {
+          "en": "cartoonized",
+          "ja": "漫画化された"
+        },
+        {
+          "en": "western comics",
+          "ja": "西部劇コミック"
+        },
+        {
+          "en": "acid graphics",
+          "ja": "アシッドグラフィック"
+        },
+        {
+          "en": "biopunk",
+          "ja": "バイオパンク"
+        },
+        {
+          "en": "blingee",
+          "ja": "ブリンギー"
+        },
+        {
+          "en": "choco girl",
+          "ja": "チョコガール"
+        },
+        {
+          "en": "cyberpunk",
+          "ja": "サイバーパンク"
+        },
+        {
+          "en": "dieselpunk",
+          "ja": "ディーゼルパンク"
+        },
+        {
+          "en": "dunhuang style",
+          "ja": "敦煌風"
+        },
+        {
+          "en": "frutiger aero",
+          "ja": "フルティガーエアロ"
+        },
+        {
+          "en": "frutiger metro",
+          "ja": "フルティガーメトロ"
+        },
+        {
+          "en": "gurokawa",
+          "ja": "黒川"
+        },
+        {
+          "en": "heisei retro",
+          "ja": "平成レトロ"
+        },
+        {
+          "en": "shoe diva",
+          "ja": "靴のディーバ"
+        },
+        {
+          "en": "silkpunk",
+          "ja": "シルクパンク"
+        },
+        {
+          "en": "steampunk",
+          "ja": "スチームパンク"
+        },
+        {
+          "en": "synthwave",
+          "ja": "シンセウェーブ"
+        },
+        {
+          "en": "tenshi kaiwai",
+          "ja": "天使かいわい"
+        },
+        {
+          "en": "weirdcore",
+          "ja": "ウィアードコア"
+        },
+        {
+          "en": "vaporwave",
+          "ja": "ヴェイパーウェイヴ"
+        },
+        {
+          "en": "yami kawaii",
+          "ja": "ヤミかわいい"
+        },
+        {
+          "en": "yume kawaii",
+          "ja": "ゆめかわいい"
+        },
+        {
+          "en": "1980s (style)",
+          "ja": "1980年代（スタイル）"
+        },
+        {
+          "en": "1990s (style)",
+          "ja": "1990年代（スタイル）"
+        },
+        {
+          "en": "2000s (style)",
+          "ja": "2000年代（スタイル）"
+        },
+        {
+          "en": "cave paintings",
+          "ja": "洞窟壁画"
+        },
+        {
+          "en": "cubism",
+          "ja": "キュービズム"
+        },
+        {
+          "en": "low poly",
+          "ja": "ローポリ"
+        },
+        {
+          "en": "cyber sigilism",
+          "ja": "サイバーシグニズム"
+        },
+        {
+          "en": "flourish",
+          "ja": "繁栄する"
+        }
+      ]
+    },
+    {
+      "id": "effects",
+      "name": "効果",
+      "tags": [
+        {
+          "en": "blending",
+          "ja": "ブレンド"
+        },
+        {
+          "en": "bloom",
+          "ja": "咲く"
+        },
+        {
+          "en": "bokeh",
+          "ja": "ボケ"
+        },
+        {
+          "en": "caustics",
+          "ja": "コースティクス"
+        },
+        {
+          "en": "chromatic aberration",
+          "ja": "色収差"
+        },
+        {
+          "en": "heavy chromatic aberration",
+          "ja": "重度の色収差"
+        },
+        {
+          "en": "diffraction spikes",
+          "ja": "回折スパイク"
+        },
+        {
+          "en": "depth of field",
+          "ja": "被写界深度"
+        },
+        {
+          "en": "distortion",
+          "ja": "ねじれ"
+        },
+        {
+          "en": "double exposure",
+          "ja": "二重曝露"
+        },
+        {
+          "en": "drop shadow",
+          "ja": "ドロップシャドウ"
+        },
+        {
+          "en": "emphasis lines",
+          "ja": "強調線"
+        },
+        {
+          "en": "foreshortening",
+          "ja": "短縮法"
+        },
+        {
+          "en": "glitch",
+          "ja": "グリッチ"
+        },
+        {
+          "en": "high contrast",
+          "ja": "高コントラスト"
+        },
+        {
+          "en": "lens flare",
+          "ja": "レンズフレア"
+        },
+        {
+          "en": "heavy lens flare",
+          "ja": "強いレンズフレア"
+        },
+        {
+          "en": "motion blur",
+          "ja": "モーションブラー"
+        },
+        {
+          "en": "motion lines",
+          "ja": "モーションライン"
+        },
+        {
+          "en": "multiple monochrome",
+          "ja": "複数のモノクロ"
+        },
+        {
+          "en": "overexposure",
+          "ja": "露出曝露"
+        },
+        {
+          "en": "silhouette",
+          "ja": "シルエット"
+        },
+        {
+          "en": "speed lines",
+          "ja": "スピードライン"
+        },
+        {
+          "en": "vignetting",
+          "ja": "ケラレ"
+        }
+      ]
+    },
+    {
+      "id": "texture",
+      "name": "質感",
+      "tags": [
+        {
+          "en": "dithering",
+          "ja": "ディザリング"
+        },
+        {
+          "en": "film grain",
+          "ja": "フィルム粒子"
+        },
+        {
+          "en": "gradient",
+          "ja": "勾配"
+        },
+        {
+          "en": "halftone",
+          "ja": "ハーフトーン"
+        },
+        {
+          "en": "hatching (texture)",
+          "ja": "ハッチング（テクスチャ）"
+        },
+        {
+          "en": "linear hatching",
+          "ja": "線状ハッチング"
+        },
+        {
+          "en": "crosshatching",
+          "ja": "クロスハッチング"
+        },
+        {
+          "en": "woven hatching",
+          "ja": "織りハッチング"
+        },
+        {
+          "en": "pointillism",
+          "ja": "点描画"
+        },
+        {
+          "en": "scanlines",
+          "ja": "走査線"
+        },
+        {
+          "en": "screentones",
+          "ja": "スクリーントーン"
+        },
+        {
+          "en": "ben-day dots",
+          "ja": "ベンデイドット"
+        },
+        {
+          "en": "stippling (texture)",
+          "ja": "点描（テクスチャ）"
+        }
+      ]
+    },
+    {
+      "id": "tricks",
+      "name": "トリック",
+      "tags": [
+        {
+          "en": "optical illusion",
+          "ja": "錯視"
+        },
+        {
+          "en": "anaglyph",
+          "ja": "アナグリフ"
+        },
+        {
+          "en": "exif thumbnail surprise",
+          "ja": "exifサムネイルサプライズ"
+        },
+        {
+          "en": "thumbnail surprise",
+          "ja": "サムネイルサプライズ"
+        },
+        {
+          "en": "open in internet explorer",
+          "ja": "インターネットエクスプローラーで開く"
+        },
+        {
+          "en": "open in winamp",
+          "ja": "Winampで開く"
+        },
+        {
+          "en": "stereogram",
+          "ja": "ステレオグラム"
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "name": "特殊",
+      "tags": [
+        {
+          "en": "animated",
+          "ja": "アニメーション"
+        },
+        {
+          "en": "animated gif",
+          "ja": "アニメーションGIF"
+        },
+        {
+          "en": "easytoon",
+          "ja": "イージートゥーン"
+        },
+        {
+          "en": "flipaclip",
+          "ja": "フリップクリップ"
+        },
+        {
+          "en": "non-repeating animation",
+          "ja": "繰り返しのないアニメーション"
+        },
+        {
+          "en": "animated png",
+          "ja": "アニメーションPNG"
+        },
+        {
+          "en": "flash",
+          "ja": "フラッシュ"
+        },
+        {
+          "en": "live2d",
+          "ja": "ライブ2D"
+        },
+        {
+          "en": "video",
+          "ja": "ビデオ"
+        },
+        {
+          "en": "music video",
+          "ja": "ミュージックビデオ"
+        },
+        {
+          "en": "looping animation",
+          "ja": "ループアニメーション"
+        },
+        {
+          "en": "roulette animation",
+          "ja": "ルーレットアニメーション"
+        },
+        {
+          "en": "anime screenshot",
+          "ja": "アニメのスクリーンショット"
+        },
+        {
+          "en": "archived file",
+          "ja": "アーカイブされたファイル"
+        },
+        {
+          "en": "corrupted file",
+          "ja": "破損したファイル"
+        },
+        {
+          "en": "corrupted twitter file",
+          "ja": "破損したTwitterファイル"
+        },
+        {
+          "en": "fake cover",
+          "ja": "偽のカバー"
+        },
+        {
+          "en": "fake screenshot",
+          "ja": "偽のスクリーンショット"
+        },
+        {
+          "en": "fake phone screenshot",
+          "ja": "偽の携帯電話のスクリーンショット"
+        },
+        {
+          "en": "game screenshot",
+          "ja": "ゲームのスクリーンショット"
+        },
+        {
+          "en": "official art",
+          "ja": "公式アート"
+        },
+        {
+          "en": "revision",
+          "ja": "リビジョン"
+        },
+        {
+          "en": "off-topic",
+          "ja": "話題外"
+        },
+        {
+          "en": "iei",
+          "ja": "いいえ"
+        },
+        {
+          "en": "tag group:focus tags",
+          "ja": "タググループ:フォーカスタグ"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "媒体",
+      "tags": [
+        {
+          "en": "artbook",
+          "ja": "アートブック"
+        },
+        {
+          "en": "calendar (medium)",
+          "ja": "カレンダー（中）"
+        },
+        {
+          "en": "card (medium)",
+          "ja": "カード（中）"
+        },
+        {
+          "en": "comic",
+          "ja": "漫画"
+        },
+        {
+          "en": "cover",
+          "ja": "カバー"
+        },
+        {
+          "en": "album cover",
+          "ja": "アルバムカバー"
+        },
+        {
+          "en": "character single",
+          "ja": "キャラクターシングル"
+        },
+        {
+          "en": "cover page",
+          "ja": "表紙"
+        },
+        {
+          "en": "doujin cover",
+          "ja": "同人カバー"
+        },
+        {
+          "en": "dvd cover",
+          "ja": "DVDカバー"
+        },
+        {
+          "en": "magazine cover",
+          "ja": "雑誌の表紙"
+        },
+        {
+          "en": "manga cover",
+          "ja": "漫画の表紙"
+        },
+        {
+          "en": "video game cover",
+          "ja": "ビデオゲームのカバー"
+        },
+        {
+          "en": "game cg",
+          "ja": "ゲームCG"
+        },
+        {
+          "en": "gyotaku (medium)",
+          "ja": "魚拓（中）"
+        },
+        {
+          "en": "icon",
+          "ja": "アイコン"
+        },
+        {
+          "en": "logo",
+          "ja": "ロゴ"
+        },
+        {
+          "en": "kirigami",
+          "ja": "切り紙"
+        },
+        {
+          "en": "phonecard",
+          "ja": "電話カード"
+        },
+        {
+          "en": "photo",
+          "ja": "写真"
+        },
+        {
+          "en": "papercraft",
+          "ja": "ペーパークラフト"
+        },
+        {
+          "en": "paper child",
+          "ja": "紙の子供"
+        },
+        {
+          "en": "paper cutout",
+          "ja": "切り絵"
+        },
+        {
+          "en": "postcard",
+          "ja": "ポストカード"
+        },
+        {
+          "en": "poster",
+          "ja": "ポスター"
+        },
+        {
+          "en": "scan",
+          "ja": "スキャン"
+        },
+        {
+          "en": "shitajiki",
+          "ja": "下敷"
+        },
+        {
+          "en": "wallpaper",
+          "ja": "壁紙"
+        },
+        {
+          "en": "official wallpaper",
+          "ja": "公式壁紙"
+        }
+      ]
+    }
+  ]
 }

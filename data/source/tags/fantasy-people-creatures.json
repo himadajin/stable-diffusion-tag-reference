@@ -1,856 +1,924 @@
 {
   "id": "fantasy-people-creatures",
   "name": "幻想人物・生物",
-  "tree": {
-    "エジプト神話": [
-      {
-        "en": "apep",
-        "ja": "アペップ"
-      },
-      {
-        "en": "aten",
-        "ja": "アテン"
-      },
-      {
-        "en": "bastet",
-        "ja": "バステト"
-      },
-      {
-        "en": "horus",
-        "ja": "ホルス"
-      },
-      {
-        "en": "isis",
-        "ja": "イシス"
-      },
-      {
-        "en": "medjed",
-        "ja": "メジェド"
-      },
-      {
-        "en": "ra",
-        "ja": "ラー"
-      },
-      {
-        "en": "set",
-        "ja": "セット"
-      },
-      {
-        "en": "sobek",
-        "ja": "ソベック"
-      },
-      {
-        "en": "thoth",
-        "ja": "トート"
-      },
-      {
-        "en": "anubis",
-        "ja": "アヌビス"
-      },
-      {
-        "en": "sphinx",
-        "ja": "スフィンクス"
-      }
-    ],
-    "ギリシャ神話": [
-      {
-        "en": "apollo",
-        "ja": "アポロ"
-      },
-      {
-        "en": "aphrodite",
-        "ja": "アフロディーテ"
-      },
-      {
-        "en": "artemis",
-        "ja": "アルテミス"
-      },
-      {
-        "en": "athena",
-        "ja": "アテナ"
-      },
-      {
-        "en": "chronos",
-        "ja": "クロノス"
-      },
-      {
-        "en": "demeter",
-        "ja": "デメテル"
-      },
-      {
-        "en": "dionysus",
-        "ja": "ディオニュソス"
-      },
-      {
-        "en": "eris",
-        "ja": "エリス"
-      },
-      {
-        "en": "eros",
-        "ja": "エロス"
-      },
-      {
-        "en": "ganymede",
-        "ja": "ガニメデ"
-      },
-      {
-        "en": "hades",
-        "ja": "ハデス"
-      },
-      {
-        "en": "hecate",
-        "ja": "ヘカテ"
-      },
-      {
-        "en": "hephaestus",
-        "ja": "ヘパイストス"
-      },
-      {
-        "en": "hera",
-        "ja": "ヘラ"
-      },
-      {
-        "en": "heracles",
-        "ja": "ヘラクレス"
-      },
-      {
-        "en": "hermes",
-        "ja": "エルメス"
-      },
-      {
-        "en": "hestia",
-        "ja": "ヘスティア"
-      },
-      {
-        "en": "iris",
-        "ja": "イリス"
-      },
-      {
-        "en": "medea",
-        "ja": "メデア"
-      },
-      {
-        "en": "nike",
-        "ja": "ナイキ"
-      },
-      {
-        "en": "oracle",
-        "ja": "オラクル"
-      },
-      {
-        "en": "pythia",
-        "ja": "ピュティア"
-      },
-      {
-        "en": "poseidon",
-        "ja": "ポセイドン"
-      },
-      {
-        "en": "psyche",
-        "ja": "プシューケー"
-      },
-      {
-        "en": "thanatos",
-        "ja": "タナトス"
-      },
-      {
-        "en": "zeus",
-        "ja": "ゼウス"
-      },
-      {
-        "en": "phoenix",
-        "ja": "フェニックス"
-      },
-      {
-        "en": "griffin",
-        "ja": "グリフィン"
-      },
-      {
-        "en": "centaur",
-        "ja": "ケンタウロス"
-      },
-      {
-        "en": "cerberus",
-        "ja": "ケルベロス"
-      },
-      {
-        "en": "chimera",
-        "ja": "キメラ"
-      },
-      {
-        "en": "pegasus",
-        "ja": "ペガサス"
-      },
-      {
-        "en": "cyclops",
-        "ja": "サイクロプス"
-      },
-      {
-        "en": "hippocamp",
-        "ja": "ヒッポカンポス"
-      },
-      {
-        "en": "satyr",
-        "ja": "サテュロス"
-      },
-      {
-        "en": "harpy",
-        "ja": "ハーピー"
-      },
-      {
-        "en": "centauroid",
-        "ja": "ケンタウロイド"
-      }
-    ],
-    "キリスト教": [
-      {
-        "en": "christianity",
-        "ja": "キリスト教"
-      },
-      {
-        "en": "abel",
-        "ja": "アベル"
-      },
-      {
-        "en": "adam",
-        "ja": "アダム"
-      },
-      {
-        "en": "cain",
-        "ja": "カイン"
-      },
-      {
-        "en": "delilah",
-        "ja": "デリラ"
-      },
-      {
-        "en": "eve",
-        "ja": "イブ"
-      },
-      {
-        "en": "noah",
-        "ja": "ノア"
-      },
-      {
-        "en": "jesus",
-        "ja": "イエス"
-      },
-      {
-        "en": "samson",
-        "ja": "サムソン"
-      },
-      {
-        "en": "virgin mary",
-        "ja": "聖母マリア"
-      },
-      {
-        "en": "yahweh",
-        "ja": "ヤハウェ"
-      },
-      {
-        "en": "leviathan",
-        "ja": "リヴァイアサン"
-      }
-    ],
-    "ケルト神話": [
-      {
-        "en": "banshee",
-        "ja": "バンシー"
-      },
-      {
-        "en": "selkie",
-        "ja": "セルキー"
-      },
-      {
-        "en": "cait sith",
-        "ja": "ケット・シー"
-      },
-      {
-        "en": "brigit",
-        "ja": "ブリジット"
-      }
-    ],
-    "北欧神話": [
-      {
-        "en": "dwarf",
-        "ja": "ドワーフ"
-      },
-      {
-        "en": "troll",
-        "ja": "トロル"
-      },
-      {
-        "en": "valkyrie",
-        "ja": "ヴァルキリー"
-      },
-      {
-        "en": "giant",
-        "ja": "巨人"
-      },
-      {
-        "en": "giantess",
-        "ja": "巨人"
-      }
-    ],
-    "その他神話": [
-      {
-        "en": "rusalka",
-        "ja": "ルサルカ"
-      },
-      {
-        "en": "kikimora",
-        "ja": "キキモラ"
-      },
-      {
-        "en": "astarte",
-        "ja": "アスタルテ"
-      },
-      {
-        "en": "baal",
-        "ja": "バアル"
-      },
-      {
-        "en": "roc",
-        "ja": "ロック"
-      },
-      {
-        "en": "eastern dragon",
-        "ja": "東洋の龍"
-      },
-      {
-        "en": "kalavinka",
-        "ja": "カラヴィンカ"
-      },
-      {
-        "en": "golem",
-        "ja": "ゴーレム"
-      },
-      {
-        "en": "behemoth",
-        "ja": "ベヒーモス"
-      },
-      {
-        "en": "qilin",
-        "ja": "麒麟"
-      },
-      {
-        "en": "hakutaku",
-        "ja": "白澤"
-      }
-    ],
-    "伝承・信仰": [
-      {
-        "en": "mermaid",
-        "ja": "マーメイド"
-      },
-      {
-        "en": "merman",
-        "ja": "マーマン"
-      },
-      {
-        "en": "unicorn",
-        "ja": "ユニコーン"
-      },
-      {
-        "en": "goblin",
-        "ja": "ゴブリン"
-      },
-      {
-        "en": "hei bai wuchang",
-        "ja": "黒白無常"
-      },
-      {
-        "en": "jiangshi",
-        "ja": "キョンシー"
-      },
-      {
-        "en": "cockatrice",
-        "ja": "コカトリス"
-      },
-      {
-        "en": "basilisk",
-        "ja": "バジリスク"
-      },
-      {
-        "en": "shinigami",
-        "ja": "死神"
-      },
-      {
-        "en": "shachihoko",
-        "ja": "しゃちほこ"
-      },
-      {
-        "en": "enma",
-        "ja": "閻魔"
-      }
-    ],
-    "創作": [
-      {
-        "en": "halfling",
-        "ja": "ハーフリング"
-      },
-      {
-        "en": "hippogriff",
-        "ja": "ヒッポグリフ"
-      }
-    ],
-    "アンデット系": [
-      {
-        "en": "dullahan",
-        "ja": "デュラハン"
-      },
-      {
-        "en": "ghost",
-        "ja": "おばけ"
-      },
-      {
-        "en": "hitodama",
-        "ja": "ひとだま"
-      },
-      {
-        "en": "undead",
-        "ja": "アンデッド"
-      },
-      {
-        "en": "frankenstein's monster",
-        "ja": "フランケンシュタイン"
-      },
-      {
-        "en": "ghoul",
-        "ja": "グール"
-      },
-      {
-        "en": "bongun",
-        "ja": "ボンガン"
-      },
-      {
-        "en": "munak",
-        "ja": "ムナク"
-      },
-      {
-        "en": "lich",
-        "ja": "リッチ"
-      },
-      {
-        "en": "mummy",
-        "ja": "ミイラ"
-      },
-      {
-        "en": "vampire",
-        "ja": "吸血鬼"
-      },
-      {
-        "en": "dracula",
-        "ja": "ドラキュラ"
-      },
-      {
-        "en": "count orlok",
-        "ja": "オルロック伯爵"
-      },
-      {
-        "en": "vrykolakas",
-        "ja": "ヴリコラカス"
-      },
-      {
-        "en": "zombie",
-        "ja": "ゾンビ"
-      }
-    ],
-    "獣人系": [
-      {
-        "en": "therianthrope",
-        "ja": "獣人"
-      },
-      {
-        "en": "werewolf",
-        "ja": "狼男"
-      },
-      {
-        "en": "tauren",
-        "ja": "タウレン"
-      }
-    ],
-    "神・天使系": [
-      {
-        "en": "angel",
-        "ja": "天使"
-      },
-      {
-        "en": "archangel",
-        "ja": "大天使"
-      },
-      {
-        "en": "cherub",
-        "ja": "ケルビム"
-      },
-      {
-        "en": "seraph",
-        "ja": "セラフ"
-      },
-      {
-        "en": "cupid",
-        "ja": "キューピッド"
-      },
-      {
-        "en": "demon",
-        "ja": "悪魔"
-      },
-      {
-        "en": "demon boy",
-        "ja": "悪魔の少年"
-      },
-      {
-        "en": "demon girl",
-        "ja": "悪魔の少女"
-      },
-      {
-        "en": "baphomet",
-        "ja": "バフォメット"
-      },
-      {
-        "en": "belphegor",
-        "ja": "ベルフェゴール"
-      },
-      {
-        "en": "lucifer",
-        "ja": "ルシファー"
-      },
-      {
-        "en": "satan",
-        "ja": "サタン"
-      },
-      {
-        "en": "legion",
-        "ja": "悪霊の集団"
-      }
-    ],
-    "都市伝説系": [
-      {
-        "en": "hasshaku-sama",
-        "ja": "八尺様"
-      },
-      {
-        "en": "kuchisake-onna",
-        "ja": "口裂け女"
-      },
-      {
-        "en": "kune-kune",
-        "ja": "クネクネ"
-      },
-      {
-        "en": "mary-san",
-        "ja": "メアリーさん"
-      },
-      {
-        "en": "siren head",
-        "ja": "サイレンヘッド"
-      },
-      {
-        "en": "slender man",
-        "ja": "細身の男"
-      },
-      {
-        "en": "sukima onna",
-        "ja": "スキマ女"
-      },
-      {
-        "en": "turbo baachan",
-        "ja": "ターボばあちゃん"
-      }
-    ],
-    "日本妖怪系": [
-      {
-        "en": "bakeneko",
-        "ja": "化け猫"
-      },
-      {
-        "en": "nekomata",
-        "ja": "猫又"
-      },
-      {
-        "en": "kitsune",
-        "ja": "キツネ"
-      },
-      {
-        "en": "kage-nashi dog",
-        "ja": "影なし犬"
-      },
-      {
-        "en": "nue",
-        "ja": "鵺"
-      },
-      {
-        "en": "namahage",
-        "ja": "なまはげ"
-      },
-      {
-        "en": "oni",
-        "ja": "鬼"
-      },
-      {
-        "en": "chouchin obake",
-        "ja": "ちょうちんおばけ"
-      },
-      {
-        "en": "karakasa obake",
-        "ja": "からかさおばけ"
-      },
-      {
-        "en": "kyuubi",
-        "ja": "キュウビ"
-      },
-      {
-        "en": "tanuki",
-        "ja": "タヌキ"
-      },
-      {
-        "en": "yamata no orochi",
-        "ja": "ヤマタノオロチ"
-      },
-      {
-        "en": "akaname",
-        "ja": "垢舐め"
-      },
-      {
-        "en": "amabie",
-        "ja": "アマビエ"
-      },
-      {
-        "en": "kappa",
-        "ja": "カッパ"
-      },
-      {
-        "en": "rokurokubi",
-        "ja": "ろくろ首"
-      },
-      {
-        "en": "tengu",
-        "ja": "天狗"
-      },
-      {
-        "en": "yuki onna",
-        "ja": "雪女"
-      },
-      {
-        "en": "zashiki-warashi",
-        "ja": "座敷童子"
-      },
-      {
-        "en": "yukinko",
-        "ja": "ゆきんこ"
-      },
-      {
-        "en": "akaname-san",
-        "ja": "あかなめさん"
-      },
-      {
-        "en": "blue oni",
-        "ja": "青鬼"
-      },
-      {
-        "en": "red oni",
-        "ja": "赤鬼"
-      },
-      {
-        "en": "aku bouzu",
-        "ja": "あくぼうず"
-      },
-      {
-        "en": "ibaraki douji",
-        "ja": "茨木童子"
-      },
-      {
-        "en": "ushi-oni",
-        "ja": "牛鬼"
-      },
-      {
-        "en": "koropokkuru",
-        "ja": "コロポックル"
-      }
-    ],
-    "魔術系": [
-      {
-        "en": "elemental",
-        "ja": "エレメンタル"
-      },
-      {
-        "en": "genie",
-        "ja": "精霊"
-      },
-      {
-        "en": "wizard",
-        "ja": "魔法使い"
-      },
-      {
-        "en": "witch",
-        "ja": "魔女"
-      }
-    ],
-    "魔物系": [
-      {
-        "en": "dragon",
-        "ja": "ドラゴン"
-      },
-      {
-        "en": "western dragon",
-        "ja": "西洋のドラゴン"
-      },
-      {
-        "en": "vouivre",
-        "ja": "ヴイーヴル"
-      },
-      {
-        "en": "wyrm",
-        "ja": "ワーム"
-      },
-      {
-        "en": "wyvern",
-        "ja": "ワイバーン"
-      },
-      {
-        "en": "hydra",
-        "ja": "ヒドラ"
-      },
-      {
-        "en": "minotaur",
-        "ja": "ミノタウロス"
-      },
-      {
-        "en": "mimic",
-        "ja": "ミミック"
-      },
-      {
-        "en": "mimic chest",
-        "ja": "宝箱型のミミック"
-      },
-      {
-        "en": "kraken",
-        "ja": "クラーケン"
-      },
-      {
-        "en": "lamia",
-        "ja": "ラミア"
-      },
-      {
-        "en": "medusa",
-        "ja": "メデューサ"
-      },
-      {
-        "en": "longma",
-        "ja": "ロンマ"
-      },
-      {
-        "en": "mandragora",
-        "ja": "マンドラゴラ"
-      },
-      {
-        "en": "ogre",
-        "ja": "鬼"
-      },
-      {
-        "en": "orc",
-        "ja": "オーク"
-      },
-      {
-        "en": "slime",
-        "ja": "スライム"
-      },
-      {
-        "en": "monster",
-        "ja": "モンスター"
-      },
-      {
-        "en": "monster girl",
-        "ja": "モンスター娘"
-      },
-      {
-        "en": "monster boy",
-        "ja": "モンスターボーイ"
-      }
-    ],
-    "未確認生物系": [
-      {
-        "en": "cryptid",
-        "ja": "未確認生物"
-      },
-      {
-        "en": "chupacabra",
-        "ja": "チュパカブラ"
-      },
-      {
-        "en": "flatwoods monster",
-        "ja": "フラットウッズモンスター"
-      },
-      {
-        "en": "jackalope",
-        "ja": "ジャッカロープ"
-      },
-      {
-        "en": "mokele-mbembe",
-        "ja": "モケーレ・ンベンベ"
-      },
-      {
-        "en": "loch ness monster",
-        "ja": "ネッシー"
-      },
-      {
-        "en": "tsuchinoko",
-        "ja": "ツチノコ"
-      },
-      {
-        "en": "yeti",
-        "ja": "イエティ"
-      },
-      {
-        "en": "mothman",
-        "ja": "モスマン"
-      }
-    ],
-    "妖精系": [
-      {
-        "en": "elf",
-        "ja": "エルフ"
-      },
-      {
-        "en": "dark elf",
-        "ja": "ダークエルフ"
-      },
-      {
-        "en": "blood elf",
-        "ja": "ブラッドエルフ"
-      },
-      {
-        "en": "fairy",
-        "ja": "妖精"
-      },
-      {
-        "en": "gnome",
-        "ja": "ノーム"
-      },
-      {
-        "en": "sylph",
-        "ja": "シルフ"
-      },
-      {
-        "en": "undine",
-        "ja": "ウンディーネ"
-      },
-      {
-        "en": "salamander",
-        "ja": "サンショウウオ"
-      },
-      {
-        "en": "spirit",
-        "ja": "精神"
-      },
-      {
-        "en": "nixie",
-        "ja": "ニクシー"
-      },
-      {
-        "en": "nymph",
-        "ja": "ニンフ"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "egyptian-mythology",
+      "name": "エジプト神話",
+      "tags": [
+        {
+          "en": "apep",
+          "ja": "アペップ"
+        },
+        {
+          "en": "aten",
+          "ja": "アテン"
+        },
+        {
+          "en": "bastet",
+          "ja": "バステト"
+        },
+        {
+          "en": "horus",
+          "ja": "ホルス"
+        },
+        {
+          "en": "isis",
+          "ja": "イシス"
+        },
+        {
+          "en": "medjed",
+          "ja": "メジェド"
+        },
+        {
+          "en": "ra",
+          "ja": "ラー"
+        },
+        {
+          "en": "set",
+          "ja": "セット"
+        },
+        {
+          "en": "sobek",
+          "ja": "ソベック"
+        },
+        {
+          "en": "thoth",
+          "ja": "トート"
+        },
+        {
+          "en": "anubis",
+          "ja": "アヌビス"
+        },
+        {
+          "en": "sphinx",
+          "ja": "スフィンクス"
+        }
+      ]
+    },
+    {
+      "id": "greek-mythology",
+      "name": "ギリシャ神話",
+      "tags": [
+        {
+          "en": "apollo",
+          "ja": "アポロ"
+        },
+        {
+          "en": "aphrodite",
+          "ja": "アフロディーテ"
+        },
+        {
+          "en": "artemis",
+          "ja": "アルテミス"
+        },
+        {
+          "en": "athena",
+          "ja": "アテナ"
+        },
+        {
+          "en": "chronos",
+          "ja": "クロノス"
+        },
+        {
+          "en": "demeter",
+          "ja": "デメテル"
+        },
+        {
+          "en": "dionysus",
+          "ja": "ディオニュソス"
+        },
+        {
+          "en": "eris",
+          "ja": "エリス"
+        },
+        {
+          "en": "eros",
+          "ja": "エロス"
+        },
+        {
+          "en": "ganymede",
+          "ja": "ガニメデ"
+        },
+        {
+          "en": "hades",
+          "ja": "ハデス"
+        },
+        {
+          "en": "hecate",
+          "ja": "ヘカテ"
+        },
+        {
+          "en": "hephaestus",
+          "ja": "ヘパイストス"
+        },
+        {
+          "en": "hera",
+          "ja": "ヘラ"
+        },
+        {
+          "en": "heracles",
+          "ja": "ヘラクレス"
+        },
+        {
+          "en": "hermes",
+          "ja": "エルメス"
+        },
+        {
+          "en": "hestia",
+          "ja": "ヘスティア"
+        },
+        {
+          "en": "iris",
+          "ja": "イリス"
+        },
+        {
+          "en": "medea",
+          "ja": "メデア"
+        },
+        {
+          "en": "nike",
+          "ja": "ナイキ"
+        },
+        {
+          "en": "oracle",
+          "ja": "オラクル"
+        },
+        {
+          "en": "pythia",
+          "ja": "ピュティア"
+        },
+        {
+          "en": "poseidon",
+          "ja": "ポセイドン"
+        },
+        {
+          "en": "psyche",
+          "ja": "プシューケー"
+        },
+        {
+          "en": "thanatos",
+          "ja": "タナトス"
+        },
+        {
+          "en": "zeus",
+          "ja": "ゼウス"
+        },
+        {
+          "en": "phoenix",
+          "ja": "フェニックス"
+        },
+        {
+          "en": "griffin",
+          "ja": "グリフィン"
+        },
+        {
+          "en": "centaur",
+          "ja": "ケンタウロス"
+        },
+        {
+          "en": "cerberus",
+          "ja": "ケルベロス"
+        },
+        {
+          "en": "chimera",
+          "ja": "キメラ"
+        },
+        {
+          "en": "pegasus",
+          "ja": "ペガサス"
+        },
+        {
+          "en": "cyclops",
+          "ja": "サイクロプス"
+        },
+        {
+          "en": "hippocamp",
+          "ja": "ヒッポカンポス"
+        },
+        {
+          "en": "satyr",
+          "ja": "サテュロス"
+        },
+        {
+          "en": "harpy",
+          "ja": "ハーピー"
+        },
+        {
+          "en": "centauroid",
+          "ja": "ケンタウロイド"
+        }
+      ]
+    },
+    {
+      "id": "christianity",
+      "name": "キリスト教",
+      "tags": [
+        {
+          "en": "christianity",
+          "ja": "キリスト教"
+        },
+        {
+          "en": "abel",
+          "ja": "アベル"
+        },
+        {
+          "en": "adam",
+          "ja": "アダム"
+        },
+        {
+          "en": "cain",
+          "ja": "カイン"
+        },
+        {
+          "en": "delilah",
+          "ja": "デリラ"
+        },
+        {
+          "en": "eve",
+          "ja": "イブ"
+        },
+        {
+          "en": "noah",
+          "ja": "ノア"
+        },
+        {
+          "en": "jesus",
+          "ja": "イエス"
+        },
+        {
+          "en": "samson",
+          "ja": "サムソン"
+        },
+        {
+          "en": "virgin mary",
+          "ja": "聖母マリア"
+        },
+        {
+          "en": "yahweh",
+          "ja": "ヤハウェ"
+        },
+        {
+          "en": "leviathan",
+          "ja": "リヴァイアサン"
+        }
+      ]
+    },
+    {
+      "id": "celtic-mythology",
+      "name": "ケルト神話",
+      "tags": [
+        {
+          "en": "banshee",
+          "ja": "バンシー"
+        },
+        {
+          "en": "selkie",
+          "ja": "セルキー"
+        },
+        {
+          "en": "cait sith",
+          "ja": "ケット・シー"
+        },
+        {
+          "en": "brigit",
+          "ja": "ブリジット"
+        }
+      ]
+    },
+    {
+      "id": "norse-mythology",
+      "name": "北欧神話",
+      "tags": [
+        {
+          "en": "dwarf",
+          "ja": "ドワーフ"
+        },
+        {
+          "en": "troll",
+          "ja": "トロル"
+        },
+        {
+          "en": "valkyrie",
+          "ja": "ヴァルキリー"
+        },
+        {
+          "en": "giant",
+          "ja": "巨人"
+        },
+        {
+          "en": "giantess",
+          "ja": "巨人"
+        }
+      ]
+    },
+    {
+      "id": "other-mythology",
+      "name": "その他神話",
+      "tags": [
+        {
+          "en": "rusalka",
+          "ja": "ルサルカ"
+        },
+        {
+          "en": "kikimora",
+          "ja": "キキモラ"
+        },
+        {
+          "en": "astarte",
+          "ja": "アスタルテ"
+        },
+        {
+          "en": "baal",
+          "ja": "バアル"
+        },
+        {
+          "en": "roc",
+          "ja": "ロック"
+        },
+        {
+          "en": "eastern dragon",
+          "ja": "東洋の龍"
+        },
+        {
+          "en": "kalavinka",
+          "ja": "カラヴィンカ"
+        },
+        {
+          "en": "golem",
+          "ja": "ゴーレム"
+        },
+        {
+          "en": "behemoth",
+          "ja": "ベヒーモス"
+        },
+        {
+          "en": "qilin",
+          "ja": "麒麟"
+        },
+        {
+          "en": "hakutaku",
+          "ja": "白澤"
+        }
+      ]
+    },
+    {
+      "id": "folklore-beliefs",
+      "name": "伝承・信仰",
+      "tags": [
+        {
+          "en": "mermaid",
+          "ja": "マーメイド"
+        },
+        {
+          "en": "merman",
+          "ja": "マーマン"
+        },
+        {
+          "en": "unicorn",
+          "ja": "ユニコーン"
+        },
+        {
+          "en": "goblin",
+          "ja": "ゴブリン"
+        },
+        {
+          "en": "hei bai wuchang",
+          "ja": "黒白無常"
+        },
+        {
+          "en": "jiangshi",
+          "ja": "キョンシー"
+        },
+        {
+          "en": "cockatrice",
+          "ja": "コカトリス"
+        },
+        {
+          "en": "basilisk",
+          "ja": "バジリスク"
+        },
+        {
+          "en": "shinigami",
+          "ja": "死神"
+        },
+        {
+          "en": "shachihoko",
+          "ja": "しゃちほこ"
+        },
+        {
+          "en": "enma",
+          "ja": "閻魔"
+        }
+      ]
+    },
+    {
+      "id": "original-creations",
+      "name": "創作",
+      "tags": [
+        {
+          "en": "halfling",
+          "ja": "ハーフリング"
+        },
+        {
+          "en": "hippogriff",
+          "ja": "ヒッポグリフ"
+        }
+      ]
+    },
+    {
+      "id": "undead",
+      "name": "アンデット系",
+      "tags": [
+        {
+          "en": "dullahan",
+          "ja": "デュラハン"
+        },
+        {
+          "en": "ghost",
+          "ja": "おばけ"
+        },
+        {
+          "en": "hitodama",
+          "ja": "ひとだま"
+        },
+        {
+          "en": "undead",
+          "ja": "アンデッド"
+        },
+        {
+          "en": "frankenstein's monster",
+          "ja": "フランケンシュタイン"
+        },
+        {
+          "en": "ghoul",
+          "ja": "グール"
+        },
+        {
+          "en": "bongun",
+          "ja": "ボンガン"
+        },
+        {
+          "en": "munak",
+          "ja": "ムナク"
+        },
+        {
+          "en": "lich",
+          "ja": "リッチ"
+        },
+        {
+          "en": "mummy",
+          "ja": "ミイラ"
+        },
+        {
+          "en": "vampire",
+          "ja": "吸血鬼"
+        },
+        {
+          "en": "dracula",
+          "ja": "ドラキュラ"
+        },
+        {
+          "en": "count orlok",
+          "ja": "オルロック伯爵"
+        },
+        {
+          "en": "vrykolakas",
+          "ja": "ヴリコラカス"
+        },
+        {
+          "en": "zombie",
+          "ja": "ゾンビ"
+        }
+      ]
+    },
+    {
+      "id": "beast-people",
+      "name": "獣人系",
+      "tags": [
+        {
+          "en": "therianthrope",
+          "ja": "獣人"
+        },
+        {
+          "en": "werewolf",
+          "ja": "狼男"
+        },
+        {
+          "en": "tauren",
+          "ja": "タウレン"
+        }
+      ]
+    },
+    {
+      "id": "gods-angels",
+      "name": "神・天使系",
+      "tags": [
+        {
+          "en": "angel",
+          "ja": "天使"
+        },
+        {
+          "en": "archangel",
+          "ja": "大天使"
+        },
+        {
+          "en": "cherub",
+          "ja": "ケルビム"
+        },
+        {
+          "en": "seraph",
+          "ja": "セラフ"
+        },
+        {
+          "en": "cupid",
+          "ja": "キューピッド"
+        },
+        {
+          "en": "demon",
+          "ja": "悪魔"
+        },
+        {
+          "en": "demon boy",
+          "ja": "悪魔の少年"
+        },
+        {
+          "en": "demon girl",
+          "ja": "悪魔の少女"
+        },
+        {
+          "en": "baphomet",
+          "ja": "バフォメット"
+        },
+        {
+          "en": "belphegor",
+          "ja": "ベルフェゴール"
+        },
+        {
+          "en": "lucifer",
+          "ja": "ルシファー"
+        },
+        {
+          "en": "satan",
+          "ja": "サタン"
+        },
+        {
+          "en": "legion",
+          "ja": "悪霊の集団"
+        }
+      ]
+    },
+    {
+      "id": "urban-legends",
+      "name": "都市伝説系",
+      "tags": [
+        {
+          "en": "hasshaku-sama",
+          "ja": "八尺様"
+        },
+        {
+          "en": "kuchisake-onna",
+          "ja": "口裂け女"
+        },
+        {
+          "en": "kune-kune",
+          "ja": "クネクネ"
+        },
+        {
+          "en": "mary-san",
+          "ja": "メアリーさん"
+        },
+        {
+          "en": "siren head",
+          "ja": "サイレンヘッド"
+        },
+        {
+          "en": "slender man",
+          "ja": "細身の男"
+        },
+        {
+          "en": "sukima onna",
+          "ja": "スキマ女"
+        },
+        {
+          "en": "turbo baachan",
+          "ja": "ターボばあちゃん"
+        }
+      ]
+    },
+    {
+      "id": "japanese-yokai",
+      "name": "日本妖怪系",
+      "tags": [
+        {
+          "en": "bakeneko",
+          "ja": "化け猫"
+        },
+        {
+          "en": "nekomata",
+          "ja": "猫又"
+        },
+        {
+          "en": "kitsune",
+          "ja": "キツネ"
+        },
+        {
+          "en": "kage-nashi dog",
+          "ja": "影なし犬"
+        },
+        {
+          "en": "nue",
+          "ja": "鵺"
+        },
+        {
+          "en": "namahage",
+          "ja": "なまはげ"
+        },
+        {
+          "en": "oni",
+          "ja": "鬼"
+        },
+        {
+          "en": "chouchin obake",
+          "ja": "ちょうちんおばけ"
+        },
+        {
+          "en": "karakasa obake",
+          "ja": "からかさおばけ"
+        },
+        {
+          "en": "kyuubi",
+          "ja": "キュウビ"
+        },
+        {
+          "en": "tanuki",
+          "ja": "タヌキ"
+        },
+        {
+          "en": "yamata no orochi",
+          "ja": "ヤマタノオロチ"
+        },
+        {
+          "en": "akaname",
+          "ja": "垢舐め"
+        },
+        {
+          "en": "amabie",
+          "ja": "アマビエ"
+        },
+        {
+          "en": "kappa",
+          "ja": "カッパ"
+        },
+        {
+          "en": "rokurokubi",
+          "ja": "ろくろ首"
+        },
+        {
+          "en": "tengu",
+          "ja": "天狗"
+        },
+        {
+          "en": "yuki onna",
+          "ja": "雪女"
+        },
+        {
+          "en": "zashiki-warashi",
+          "ja": "座敷童子"
+        },
+        {
+          "en": "yukinko",
+          "ja": "ゆきんこ"
+        },
+        {
+          "en": "akaname-san",
+          "ja": "あかなめさん"
+        },
+        {
+          "en": "blue oni",
+          "ja": "青鬼"
+        },
+        {
+          "en": "red oni",
+          "ja": "赤鬼"
+        },
+        {
+          "en": "aku bouzu",
+          "ja": "あくぼうず"
+        },
+        {
+          "en": "ibaraki douji",
+          "ja": "茨木童子"
+        },
+        {
+          "en": "ushi-oni",
+          "ja": "牛鬼"
+        },
+        {
+          "en": "koropokkuru",
+          "ja": "コロポックル"
+        }
+      ]
+    },
+    {
+      "id": "magic",
+      "name": "魔術系",
+      "tags": [
+        {
+          "en": "elemental",
+          "ja": "エレメンタル"
+        },
+        {
+          "en": "genie",
+          "ja": "精霊"
+        },
+        {
+          "en": "wizard",
+          "ja": "魔法使い"
+        },
+        {
+          "en": "witch",
+          "ja": "魔女"
+        }
+      ]
+    },
+    {
+      "id": "monsters",
+      "name": "魔物系",
+      "tags": [
+        {
+          "en": "dragon",
+          "ja": "ドラゴン"
+        },
+        {
+          "en": "western dragon",
+          "ja": "西洋のドラゴン"
+        },
+        {
+          "en": "vouivre",
+          "ja": "ヴイーヴル"
+        },
+        {
+          "en": "wyrm",
+          "ja": "ワーム"
+        },
+        {
+          "en": "wyvern",
+          "ja": "ワイバーン"
+        },
+        {
+          "en": "hydra",
+          "ja": "ヒドラ"
+        },
+        {
+          "en": "minotaur",
+          "ja": "ミノタウロス"
+        },
+        {
+          "en": "mimic",
+          "ja": "ミミック"
+        },
+        {
+          "en": "mimic chest",
+          "ja": "宝箱型のミミック"
+        },
+        {
+          "en": "kraken",
+          "ja": "クラーケン"
+        },
+        {
+          "en": "lamia",
+          "ja": "ラミア"
+        },
+        {
+          "en": "medusa",
+          "ja": "メデューサ"
+        },
+        {
+          "en": "longma",
+          "ja": "ロンマ"
+        },
+        {
+          "en": "mandragora",
+          "ja": "マンドラゴラ"
+        },
+        {
+          "en": "ogre",
+          "ja": "鬼"
+        },
+        {
+          "en": "orc",
+          "ja": "オーク"
+        },
+        {
+          "en": "slime",
+          "ja": "スライム"
+        },
+        {
+          "en": "monster",
+          "ja": "モンスター"
+        },
+        {
+          "en": "monster girl",
+          "ja": "モンスター娘"
+        },
+        {
+          "en": "monster boy",
+          "ja": "モンスターボーイ"
+        }
+      ]
+    },
+    {
+      "id": "cryptids",
+      "name": "未確認生物系",
+      "tags": [
+        {
+          "en": "cryptid",
+          "ja": "未確認生物"
+        },
+        {
+          "en": "chupacabra",
+          "ja": "チュパカブラ"
+        },
+        {
+          "en": "flatwoods monster",
+          "ja": "フラットウッズモンスター"
+        },
+        {
+          "en": "jackalope",
+          "ja": "ジャッカロープ"
+        },
+        {
+          "en": "mokele-mbembe",
+          "ja": "モケーレ・ンベンベ"
+        },
+        {
+          "en": "loch ness monster",
+          "ja": "ネッシー"
+        },
+        {
+          "en": "tsuchinoko",
+          "ja": "ツチノコ"
+        },
+        {
+          "en": "yeti",
+          "ja": "イエティ"
+        },
+        {
+          "en": "mothman",
+          "ja": "モスマン"
+        }
+      ]
+    },
+    {
+      "id": "fairies",
+      "name": "妖精系",
+      "tags": [
+        {
+          "en": "elf",
+          "ja": "エルフ"
+        },
+        {
+          "en": "dark elf",
+          "ja": "ダークエルフ"
+        },
+        {
+          "en": "blood elf",
+          "ja": "ブラッドエルフ"
+        },
+        {
+          "en": "fairy",
+          "ja": "妖精"
+        },
+        {
+          "en": "gnome",
+          "ja": "ノーム"
+        },
+        {
+          "en": "sylph",
+          "ja": "シルフ"
+        },
+        {
+          "en": "undine",
+          "ja": "ウンディーネ"
+        },
+        {
+          "en": "salamander",
+          "ja": "サンショウウオ"
+        },
+        {
+          "en": "spirit",
+          "ja": "精神"
+        },
+        {
+          "en": "nixie",
+          "ja": "ニクシー"
+        },
+        {
+          "en": "nymph",
+          "ja": "ニンフ"
+        }
+      ]
+    }
+  ]
 }

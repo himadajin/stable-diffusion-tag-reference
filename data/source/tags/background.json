@@ -1,926 +1,966 @@
 {
   "id": "background",
   "name": "背景",
-  "tree": {
-    "背景": [
-      {
-        "en": "background",
-        "ja": "背景"
-      }
-    ],
-    "室内": [
-      {
-        "en": "bedroom",
-        "ja": "寝室"
-      },
-      {
-        "en": "hotel room",
-        "ja": "ホテルの部屋"
-      },
-      {
-        "en": "messy room",
-        "ja": "散らかった部屋"
-      },
-      {
-        "en": "otaku room",
-        "ja": "オタク部屋"
-      },
-      {
-        "en": "living room",
-        "ja": "リビングルーム"
-      },
-      {
-        "en": "dining room",
-        "ja": "ダイニングルーム"
-      },
-      {
-        "en": "bathroom",
-        "ja": "バスルーム"
-      },
-      {
-        "en": "bathtub",
-        "ja": "バスタブ"
-      },
-      {
-        "en": "toilet stall",
-        "ja": "トイレの個室"
-      },
-      {
-        "en": "shower",
-        "ja": "シャワー"
-      },
-      {
-        "en": "closet",
-        "ja": "クローゼット"
-      },
-      {
-        "en": "indoors",
-        "ja": "屋内"
-      }
-    ],
-    "施設内": [
-      {
-        "en": "ballroom",
-        "ja": "ボールルーム"
-      },
-      {
-        "en": "cafeteria",
-        "ja": "カフェテリア"
-      },
-      {
-        "en": "changing room",
-        "ja": "更衣室"
-      },
-      {
-        "en": "classroom",
-        "ja": "教室"
-      },
-      {
-        "en": "clubroom",
-        "ja": "部室"
-      },
-      {
-        "en": "conservatory",
-        "ja": "音楽院"
-      },
-      {
-        "en": "courtroom",
-        "ja": "法廷"
-      },
-      {
-        "en": "dressing room",
-        "ja": "更衣室"
-      },
-      {
-        "en": "dungeon",
-        "ja": "ダンジョン"
-      },
-      {
-        "en": "prison cell",
-        "ja": "刑務所の独房"
-      },
-      {
-        "en": "fitting room",
-        "ja": "試着室"
-      },
-      {
-        "en": "gym",
-        "ja": "ジム"
-      },
-      {
-        "en": "gym storeroom",
-        "ja": "ジムの倉庫"
-      },
-      {
-        "en": "locker room",
-        "ja": "ロッカールーム"
-      },
-      {
-        "en": "infirmary",
-        "ja": "診療所"
-      },
-      {
-        "en": "kitchen",
-        "ja": "台所"
-      },
-      {
-        "en": "laboratory",
-        "ja": "研究室"
-      },
-      {
-        "en": "library",
-        "ja": "図書館"
-      },
-      {
-        "en": "office",
-        "ja": "オフィス"
-      },
-      {
-        "en": "cubicle",
-        "ja": "キュービクル"
-      },
-      {
-        "en": "pool",
-        "ja": "プール"
-      },
-      {
-        "en": "stage",
-        "ja": "ステージ"
-      },
-      {
-        "en": "staff room",
-        "ja": "職員室"
-      },
-      {
-        "en": "storage room",
-        "ja": "保管室"
-      },
-      {
-        "en": "armory",
-        "ja": "武器庫"
-      },
-      {
-        "en": "workshop",
-        "ja": "ワークショップ"
-      }
-    ],
-    "自然": [
-      {
-        "en": "outdoors",
-        "ja": "屋外"
-      },
-      {
-        "en": "beach",
-        "ja": "ビーチ"
-      },
-      {
-        "en": "shore",
-        "ja": "海岸"
-      },
-      {
-        "en": "canyon",
-        "ja": "峡谷"
-      },
-      {
-        "en": "cave",
-        "ja": "洞窟"
-      },
-      {
-        "en": "cliff",
-        "ja": "崖"
-      },
-      {
-        "en": "desert",
-        "ja": "砂漠"
-      },
-      {
-        "en": "oasis",
-        "ja": "オアシス"
-      },
-      {
-        "en": "forest",
-        "ja": "森"
-      },
-      {
-        "en": "bamboo forest",
-        "ja": "竹林"
-      },
-      {
-        "en": "glacier",
-        "ja": "氷河"
-      },
-      {
-        "en": "hill",
-        "ja": "丘"
-      },
-      {
-        "en": "island",
-        "ja": "島"
-      },
-      {
-        "en": "floating island",
-        "ja": "浮島"
-      },
-      {
-        "en": "jungle",
-        "ja": "ジャングル"
-      },
-      {
-        "en": "meadow",
-        "ja": "牧草地"
-      },
-      {
-        "en": "mountain",
-        "ja": "山"
-      },
-      {
-        "en": "volcano",
-        "ja": "火山"
-      },
-      {
-        "en": "nature",
-        "ja": "自然"
-      },
-      {
-        "en": "plain",
-        "ja": "無地"
-      },
-      {
-        "en": "savannah",
-        "ja": "サバンナ"
-      },
-      {
-        "en": "wetland",
-        "ja": "湿地"
-      },
-      {
-        "en": "water",
-        "ja": "水"
-      },
-      {
-        "en": "geyser",
-        "ja": "間欠泉"
-      },
-      {
-        "en": "lake",
-        "ja": "湖"
-      },
-      {
-        "en": "ocean",
-        "ja": "海"
-      },
-      {
-        "en": "seafloor",
-        "ja": "海底"
-      },
-      {
-        "en": "pond",
-        "ja": "池"
-      },
-      {
-        "en": "river",
-        "ja": "川"
-      },
-      {
-        "en": "stream",
-        "ja": "ストリーム"
-      },
-      {
-        "en": "waterfall",
-        "ja": "滝"
-      },
-      {
-        "en": "wasteland",
-        "ja": "荒れ地"
-      },
-      {
-        "en": "field",
-        "ja": "分野"
-      },
-      {
-        "en": "flower field",
-        "ja": "花畑"
-      },
-      {
-        "en": "rice paddy",
-        "ja": "田んぼ"
-      },
-      {
-        "en": "wheat field",
-        "ja": "小麦畑"
-      }
-    ],
-    "都市": [
-      {
-        "en": "park",
-        "ja": "公園"
-      },
-      {
-        "en": "playground",
-        "ja": "遊び場"
-      },
-      {
-        "en": "parking lot",
-        "ja": "駐車場"
-      },
-      {
-        "en": "airfield",
-        "ja": "飛行場"
-      },
-      {
-        "en": "runway",
-        "ja": "滑走路"
-      },
-      {
-        "en": "amusement park",
-        "ja": "遊園地"
-      },
-      {
-        "en": "carousel",
-        "ja": "カルーセル"
-      },
-      {
-        "en": "ferris wheel",
-        "ja": "観覧車"
-      },
-      {
-        "en": "roller coaster",
-        "ja": "ジェットコースター"
-      },
-      {
-        "en": "aqueduct",
-        "ja": "水道橋"
-      },
-      {
-        "en": "bridge",
-        "ja": "橋"
-      },
-      {
-        "en": "rope bridge",
-        "ja": "ロープ橋"
-      },
-      {
-        "en": "wooden bridge",
-        "ja": "木製の橋"
-      },
-      {
-        "en": "canal",
-        "ja": "運河"
-      },
-      {
-        "en": "city",
-        "ja": "市"
-      },
-      {
-        "en": "floating city",
-        "ja": "水上都市"
-      },
-      {
-        "en": "rural",
-        "ja": "田舎"
-      },
-      {
-        "en": "town",
-        "ja": "町"
-      },
-      {
-        "en": "village",
-        "ja": "村"
-      },
-      {
-        "en": "dam",
-        "ja": "ダム"
-      },
-      {
-        "en": "dock",
-        "ja": "ドック"
-      },
-      {
-        "en": "drydock",
-        "ja": "乾ドック"
-      },
-      {
-        "en": "shipyard",
-        "ja": "造船所"
-      },
-      {
-        "en": "garden",
-        "ja": "庭"
-      },
-      {
-        "en": "graveyard",
-        "ja": "墓地"
-      },
-      {
-        "en": "jetty",
-        "ja": "桟橋"
-      },
-      {
-        "en": "fountain",
-        "ja": "噴水"
-      },
-      {
-        "en": "harbor",
-        "ja": "港"
-      },
-      {
-        "en": "market",
-        "ja": "市場"
-      },
-      {
-        "en": "market stall",
-        "ja": "市場の屋台"
-      },
-      {
-        "en": "pier",
-        "ja": "桟橋"
-      },
-      {
-        "en": "phone booth",
-        "ja": "電話ボックス"
-      },
-      {
-        "en": "poolside",
-        "ja": "プールサイド"
-      },
-      {
-        "en": "waterpark",
-        "ja": "ウォーターパーク"
-      },
-      {
-        "en": "railroad tracks",
-        "ja": "鉄道の線路"
-      },
-      {
-        "en": "railroad crossing",
-        "ja": "踏み切り"
-      },
-      {
-        "en": "road",
-        "ja": "道"
-      },
-      {
-        "en": "alley",
-        "ja": "路地"
-      },
-      {
-        "en": "crosswalk",
-        "ja": "横断歩道"
-      },
-      {
-        "en": "dirt road",
-        "ja": "未舗装道路"
-      },
-      {
-        "en": "highway",
-        "ja": "高速道路"
-      },
-      {
-        "en": "path",
-        "ja": "パス"
-      },
-      {
-        "en": "sidewalk",
-        "ja": "歩道"
-      },
-      {
-        "en": "stone walkway",
-        "ja": "石畳の歩道"
-      },
-      {
-        "en": "street",
-        "ja": "通り"
-      },
-      {
-        "en": "soccer field",
-        "ja": "サッカー場"
-      },
-      {
-        "en": "running track",
-        "ja": "ランニングトラック"
-      },
-      {
-        "en": "trench",
-        "ja": "溝"
-      },
-      {
-        "en": "tunnel",
-        "ja": "トンネル"
-      },
-      {
-        "en": "well",
-        "ja": "良い"
-      },
-      {
-        "en": "zoo",
-        "ja": "動物園"
-      }
-    ],
-    "住宅": [
-      {
-        "en": "apartment",
-        "ja": "アパート"
-      },
-      {
-        "en": "house",
-        "ja": "家"
-      },
-      {
-        "en": "hut",
-        "ja": "小屋"
-      },
-      {
-        "en": "shack",
-        "ja": "小屋"
-      },
-      {
-        "en": "stilt house",
-        "ja": "高床式住宅"
-      },
-      {
-        "en": "treehouse",
-        "ja": "ツリーハウス"
-      }
-    ],
-    "公共・商業施設": [
-      {
-        "en": "airport",
-        "ja": "空港"
-      },
-      {
-        "en": "control tower",
-        "ja": "管制塔"
-      },
-      {
-        "en": "hangar",
-        "ja": "ハンガー"
-      },
-      {
-        "en": "aquarium",
-        "ja": "水族館"
-      },
-      {
-        "en": "arcade",
-        "ja": "アーケード"
-      },
-      {
-        "en": "bar",
-        "ja": "バー"
-      },
-      {
-        "en": "izakaya",
-        "ja": "居酒屋"
-      },
-      {
-        "en": "tavern",
-        "ja": "居酒屋"
-      },
-      {
-        "en": "barn",
-        "ja": "納屋"
-      },
-      {
-        "en": "bunker",
-        "ja": "バンカー"
-      },
-      {
-        "en": "bus stop",
-        "ja": "バス停"
-      },
-      {
-        "en": "bowling alley",
-        "ja": "ボウリング場"
-      },
-      {
-        "en": "cafe",
-        "ja": "カフェ"
-      },
-      {
-        "en": "casino",
-        "ja": "カジノ"
-      },
-      {
-        "en": "construction site",
-        "ja": "建設現場"
-      },
-      {
-        "en": "convention",
-        "ja": "大会"
-      },
-      {
-        "en": "garage",
-        "ja": "ガレージ"
-      },
-      {
-        "en": "gas station",
-        "ja": "ガソリンスタンド"
-      },
-      {
-        "en": "gazebo",
-        "ja": "ガゼボ"
-      },
-      {
-        "en": "greenhouse",
-        "ja": "温室"
-      },
-      {
-        "en": "hospital",
-        "ja": "病院"
-      },
-      {
-        "en": "hotel",
-        "ja": "ホテル"
-      },
-      {
-        "en": "industrial",
-        "ja": "工業用"
-      },
-      {
-        "en": "factory",
-        "ja": "工場"
-      },
-      {
-        "en": "refinery",
-        "ja": "製油所"
-      },
-      {
-        "en": "power plant",
-        "ja": "発電所"
-      },
-      {
-        "en": "nuclear powerplant",
-        "ja": "原子力発電所"
-      },
-      {
-        "en": "cooling tower",
-        "ja": "冷却塔"
-      },
-      {
-        "en": "warehouse",
-        "ja": "倉庫"
-      },
-      {
-        "en": "lighthouse",
-        "ja": "灯台"
-      },
-      {
-        "en": "mall",
-        "ja": "モール"
-      },
-      {
-        "en": "megastructure",
-        "ja": "巨大構造物"
-      },
-      {
-        "en": "space elevator",
-        "ja": "宇宙エレベーター"
-      },
-      {
-        "en": "military base",
-        "ja": "軍事基地"
-      },
-      {
-        "en": "museum",
-        "ja": "博物館"
-      },
-      {
-        "en": "art gallery",
-        "ja": "アートギャラリー"
-      },
-      {
-        "en": "nightclub",
-        "ja": "ナイトクラブ"
-      },
-      {
-        "en": "observatory",
-        "ja": "天文台"
-      },
-      {
-        "en": "onsen",
-        "ja": "温泉"
-      },
-      {
-        "en": "planetarium",
-        "ja": "プラネタリウム"
-      },
-      {
-        "en": "prison",
-        "ja": "刑務所"
-      },
-      {
-        "en": "restaurant",
-        "ja": "レストラン"
-      },
-      {
-        "en": "rooftop",
-        "ja": "屋上"
-      },
-      {
-        "en": "ruins",
-        "ja": "遺跡"
-      },
-      {
-        "en": "school",
-        "ja": "学校"
-      },
-      {
-        "en": "skating rink",
-        "ja": "スケートリンク"
-      },
-      {
-        "en": "shop",
-        "ja": "店"
-      },
-      {
-        "en": "bakery",
-        "ja": "ベーカリー"
-      },
-      {
-        "en": "bookstore",
-        "ja": "書店"
-      },
-      {
-        "en": "convenience store",
-        "ja": "コンビニエンスストア"
-      },
-      {
-        "en": "flower shop",
-        "ja": "花屋"
-      },
-      {
-        "en": "pharmacy",
-        "ja": "薬局"
-      },
-      {
-        "en": "salon",
-        "ja": "サロン"
-      },
-      {
-        "en": "sex shop",
-        "ja": "セックスショップ"
-      },
-      {
-        "en": "supermarket",
-        "ja": "スーパーマーケット"
-      },
-      {
-        "en": "weapon shop",
-        "ja": "武器屋"
-      },
-      {
-        "en": "skyscraper",
-        "ja": "超高層ビル"
-      },
-      {
-        "en": "stadium",
-        "ja": "スタジアム"
-      },
-      {
-        "en": "arena",
-        "ja": "アリーナ"
-      },
-      {
-        "en": "theater",
-        "ja": "劇場"
-      },
-      {
-        "en": "amphitheater",
-        "ja": "円形劇場"
-      },
-      {
-        "en": "movie theater",
-        "ja": "映画館"
-      },
-      {
-        "en": "tower",
-        "ja": "タワー"
-      },
-      {
-        "en": "bell tower",
-        "ja": "鐘楼"
-      },
-      {
-        "en": "clock tower",
-        "ja": "時計塔"
-      },
-      {
-        "en": "watchtower",
-        "ja": "監視塔"
-      },
-      {
-        "en": "train station",
-        "ja": "駅"
-      },
-      {
-        "en": "windmill",
-        "ja": "風車"
-      },
-      {
-        "en": "buildings",
-        "ja": "建物"
-      }
-    ],
-    "宗教・伝統施設": [
-      {
-        "en": "castle",
-        "ja": "城"
-      },
-      {
-        "en": "floating castle",
-        "ja": "浮かぶ城"
-      },
-      {
-        "en": "church",
-        "ja": "教会"
-      },
-      {
-        "en": "mosque",
-        "ja": "モスク"
-      },
-      {
-        "en": "pagoda",
-        "ja": "パゴダ"
-      },
-      {
-        "en": "shrine",
-        "ja": "神社"
-      },
-      {
-        "en": "temple",
-        "ja": "寺"
-      },
-      {
-        "en": "minaret",
-        "ja": "ミナレット"
-      }
-    ],
-    "乗り物": [
-      {
-        "en": "vehicle interior",
-        "ja": "車内"
-      },
-      {
-        "en": "airplane interior",
-        "ja": "飛行機の内部"
-      },
-      {
-        "en": "bus interior",
-        "ja": "バスの内装"
-      },
-      {
-        "en": "car interior",
-        "ja": "車内"
-      },
-      {
-        "en": "cockpit",
-        "ja": "コックピット"
-      },
-      {
-        "en": "spacecraft interior",
-        "ja": "宇宙船内部"
-      },
-      {
-        "en": "tank interior",
-        "ja": "タンク内部"
-      },
-      {
-        "en": "train interior",
-        "ja": "電車内"
-      }
-    ],
-    "風景": [
-      {
-        "en": "architecture",
-        "ja": "建築"
-      },
-      {
-        "en": "cityscape",
-        "ja": "都市景観"
-      },
-      {
-        "en": "landscape",
-        "ja": "風景"
-      },
-      {
-        "en": "space",
-        "ja": "空間"
-      },
-      {
-        "en": "asteroid",
-        "ja": "小惑星"
-      },
-      {
-        "en": "moon",
-        "ja": "月"
-      },
-      {
-        "en": "planet",
-        "ja": "惑星"
-      },
-      {
-        "en": "space station",
-        "ja": "宇宙ステーション"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "background",
+      "name": "背景",
+      "tags": [
+        {
+          "en": "background",
+          "ja": "背景"
+        }
+      ]
+    },
+    {
+      "id": "indoors",
+      "name": "室内",
+      "tags": [
+        {
+          "en": "bedroom",
+          "ja": "寝室"
+        },
+        {
+          "en": "hotel room",
+          "ja": "ホテルの部屋"
+        },
+        {
+          "en": "messy room",
+          "ja": "散らかった部屋"
+        },
+        {
+          "en": "otaku room",
+          "ja": "オタク部屋"
+        },
+        {
+          "en": "living room",
+          "ja": "リビングルーム"
+        },
+        {
+          "en": "dining room",
+          "ja": "ダイニングルーム"
+        },
+        {
+          "en": "bathroom",
+          "ja": "バスルーム"
+        },
+        {
+          "en": "bathtub",
+          "ja": "バスタブ"
+        },
+        {
+          "en": "toilet stall",
+          "ja": "トイレの個室"
+        },
+        {
+          "en": "shower",
+          "ja": "シャワー"
+        },
+        {
+          "en": "closet",
+          "ja": "クローゼット"
+        },
+        {
+          "en": "indoors",
+          "ja": "屋内"
+        }
+      ]
+    },
+    {
+      "id": "facilities",
+      "name": "施設内",
+      "tags": [
+        {
+          "en": "ballroom",
+          "ja": "ボールルーム"
+        },
+        {
+          "en": "cafeteria",
+          "ja": "カフェテリア"
+        },
+        {
+          "en": "changing room",
+          "ja": "更衣室"
+        },
+        {
+          "en": "classroom",
+          "ja": "教室"
+        },
+        {
+          "en": "clubroom",
+          "ja": "部室"
+        },
+        {
+          "en": "conservatory",
+          "ja": "音楽院"
+        },
+        {
+          "en": "courtroom",
+          "ja": "法廷"
+        },
+        {
+          "en": "dressing room",
+          "ja": "更衣室"
+        },
+        {
+          "en": "dungeon",
+          "ja": "ダンジョン"
+        },
+        {
+          "en": "prison cell",
+          "ja": "刑務所の独房"
+        },
+        {
+          "en": "fitting room",
+          "ja": "試着室"
+        },
+        {
+          "en": "gym",
+          "ja": "ジム"
+        },
+        {
+          "en": "gym storeroom",
+          "ja": "ジムの倉庫"
+        },
+        {
+          "en": "locker room",
+          "ja": "ロッカールーム"
+        },
+        {
+          "en": "infirmary",
+          "ja": "診療所"
+        },
+        {
+          "en": "kitchen",
+          "ja": "台所"
+        },
+        {
+          "en": "laboratory",
+          "ja": "研究室"
+        },
+        {
+          "en": "library",
+          "ja": "図書館"
+        },
+        {
+          "en": "office",
+          "ja": "オフィス"
+        },
+        {
+          "en": "cubicle",
+          "ja": "キュービクル"
+        },
+        {
+          "en": "pool",
+          "ja": "プール"
+        },
+        {
+          "en": "stage",
+          "ja": "ステージ"
+        },
+        {
+          "en": "staff room",
+          "ja": "職員室"
+        },
+        {
+          "en": "storage room",
+          "ja": "保管室"
+        },
+        {
+          "en": "armory",
+          "ja": "武器庫"
+        },
+        {
+          "en": "workshop",
+          "ja": "ワークショップ"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "自然",
+      "tags": [
+        {
+          "en": "outdoors",
+          "ja": "屋外"
+        },
+        {
+          "en": "beach",
+          "ja": "ビーチ"
+        },
+        {
+          "en": "shore",
+          "ja": "海岸"
+        },
+        {
+          "en": "canyon",
+          "ja": "峡谷"
+        },
+        {
+          "en": "cave",
+          "ja": "洞窟"
+        },
+        {
+          "en": "cliff",
+          "ja": "崖"
+        },
+        {
+          "en": "desert",
+          "ja": "砂漠"
+        },
+        {
+          "en": "oasis",
+          "ja": "オアシス"
+        },
+        {
+          "en": "forest",
+          "ja": "森"
+        },
+        {
+          "en": "bamboo forest",
+          "ja": "竹林"
+        },
+        {
+          "en": "glacier",
+          "ja": "氷河"
+        },
+        {
+          "en": "hill",
+          "ja": "丘"
+        },
+        {
+          "en": "island",
+          "ja": "島"
+        },
+        {
+          "en": "floating island",
+          "ja": "浮島"
+        },
+        {
+          "en": "jungle",
+          "ja": "ジャングル"
+        },
+        {
+          "en": "meadow",
+          "ja": "牧草地"
+        },
+        {
+          "en": "mountain",
+          "ja": "山"
+        },
+        {
+          "en": "volcano",
+          "ja": "火山"
+        },
+        {
+          "en": "nature",
+          "ja": "自然"
+        },
+        {
+          "en": "plain",
+          "ja": "無地"
+        },
+        {
+          "en": "savannah",
+          "ja": "サバンナ"
+        },
+        {
+          "en": "wetland",
+          "ja": "湿地"
+        },
+        {
+          "en": "water",
+          "ja": "水"
+        },
+        {
+          "en": "geyser",
+          "ja": "間欠泉"
+        },
+        {
+          "en": "lake",
+          "ja": "湖"
+        },
+        {
+          "en": "ocean",
+          "ja": "海"
+        },
+        {
+          "en": "seafloor",
+          "ja": "海底"
+        },
+        {
+          "en": "pond",
+          "ja": "池"
+        },
+        {
+          "en": "river",
+          "ja": "川"
+        },
+        {
+          "en": "stream",
+          "ja": "ストリーム"
+        },
+        {
+          "en": "waterfall",
+          "ja": "滝"
+        },
+        {
+          "en": "wasteland",
+          "ja": "荒れ地"
+        },
+        {
+          "en": "field",
+          "ja": "分野"
+        },
+        {
+          "en": "flower field",
+          "ja": "花畑"
+        },
+        {
+          "en": "rice paddy",
+          "ja": "田んぼ"
+        },
+        {
+          "en": "wheat field",
+          "ja": "小麦畑"
+        }
+      ]
+    },
+    {
+      "id": "urban",
+      "name": "都市",
+      "tags": [
+        {
+          "en": "park",
+          "ja": "公園"
+        },
+        {
+          "en": "playground",
+          "ja": "遊び場"
+        },
+        {
+          "en": "parking lot",
+          "ja": "駐車場"
+        },
+        {
+          "en": "airfield",
+          "ja": "飛行場"
+        },
+        {
+          "en": "runway",
+          "ja": "滑走路"
+        },
+        {
+          "en": "amusement park",
+          "ja": "遊園地"
+        },
+        {
+          "en": "carousel",
+          "ja": "カルーセル"
+        },
+        {
+          "en": "ferris wheel",
+          "ja": "観覧車"
+        },
+        {
+          "en": "roller coaster",
+          "ja": "ジェットコースター"
+        },
+        {
+          "en": "aqueduct",
+          "ja": "水道橋"
+        },
+        {
+          "en": "bridge",
+          "ja": "橋"
+        },
+        {
+          "en": "rope bridge",
+          "ja": "ロープ橋"
+        },
+        {
+          "en": "wooden bridge",
+          "ja": "木製の橋"
+        },
+        {
+          "en": "canal",
+          "ja": "運河"
+        },
+        {
+          "en": "city",
+          "ja": "市"
+        },
+        {
+          "en": "floating city",
+          "ja": "水上都市"
+        },
+        {
+          "en": "rural",
+          "ja": "田舎"
+        },
+        {
+          "en": "town",
+          "ja": "町"
+        },
+        {
+          "en": "village",
+          "ja": "村"
+        },
+        {
+          "en": "dam",
+          "ja": "ダム"
+        },
+        {
+          "en": "dock",
+          "ja": "ドック"
+        },
+        {
+          "en": "drydock",
+          "ja": "乾ドック"
+        },
+        {
+          "en": "shipyard",
+          "ja": "造船所"
+        },
+        {
+          "en": "garden",
+          "ja": "庭"
+        },
+        {
+          "en": "graveyard",
+          "ja": "墓地"
+        },
+        {
+          "en": "jetty",
+          "ja": "桟橋"
+        },
+        {
+          "en": "fountain",
+          "ja": "噴水"
+        },
+        {
+          "en": "harbor",
+          "ja": "港"
+        },
+        {
+          "en": "market",
+          "ja": "市場"
+        },
+        {
+          "en": "market stall",
+          "ja": "市場の屋台"
+        },
+        {
+          "en": "pier",
+          "ja": "桟橋"
+        },
+        {
+          "en": "phone booth",
+          "ja": "電話ボックス"
+        },
+        {
+          "en": "poolside",
+          "ja": "プールサイド"
+        },
+        {
+          "en": "waterpark",
+          "ja": "ウォーターパーク"
+        },
+        {
+          "en": "railroad tracks",
+          "ja": "鉄道の線路"
+        },
+        {
+          "en": "railroad crossing",
+          "ja": "踏み切り"
+        },
+        {
+          "en": "road",
+          "ja": "道"
+        },
+        {
+          "en": "alley",
+          "ja": "路地"
+        },
+        {
+          "en": "crosswalk",
+          "ja": "横断歩道"
+        },
+        {
+          "en": "dirt road",
+          "ja": "未舗装道路"
+        },
+        {
+          "en": "highway",
+          "ja": "高速道路"
+        },
+        {
+          "en": "path",
+          "ja": "パス"
+        },
+        {
+          "en": "sidewalk",
+          "ja": "歩道"
+        },
+        {
+          "en": "stone walkway",
+          "ja": "石畳の歩道"
+        },
+        {
+          "en": "street",
+          "ja": "通り"
+        },
+        {
+          "en": "soccer field",
+          "ja": "サッカー場"
+        },
+        {
+          "en": "running track",
+          "ja": "ランニングトラック"
+        },
+        {
+          "en": "trench",
+          "ja": "溝"
+        },
+        {
+          "en": "tunnel",
+          "ja": "トンネル"
+        },
+        {
+          "en": "well",
+          "ja": "良い"
+        },
+        {
+          "en": "zoo",
+          "ja": "動物園"
+        }
+      ]
+    },
+    {
+      "id": "residential",
+      "name": "住宅",
+      "tags": [
+        {
+          "en": "apartment",
+          "ja": "アパート"
+        },
+        {
+          "en": "house",
+          "ja": "家"
+        },
+        {
+          "en": "hut",
+          "ja": "小屋"
+        },
+        {
+          "en": "shack",
+          "ja": "小屋"
+        },
+        {
+          "en": "stilt house",
+          "ja": "高床式住宅"
+        },
+        {
+          "en": "treehouse",
+          "ja": "ツリーハウス"
+        }
+      ]
+    },
+    {
+      "id": "public-commercial-facilities",
+      "name": "公共・商業施設",
+      "tags": [
+        {
+          "en": "airport",
+          "ja": "空港"
+        },
+        {
+          "en": "control tower",
+          "ja": "管制塔"
+        },
+        {
+          "en": "hangar",
+          "ja": "ハンガー"
+        },
+        {
+          "en": "aquarium",
+          "ja": "水族館"
+        },
+        {
+          "en": "arcade",
+          "ja": "アーケード"
+        },
+        {
+          "en": "bar",
+          "ja": "バー"
+        },
+        {
+          "en": "izakaya",
+          "ja": "居酒屋"
+        },
+        {
+          "en": "tavern",
+          "ja": "居酒屋"
+        },
+        {
+          "en": "barn",
+          "ja": "納屋"
+        },
+        {
+          "en": "bunker",
+          "ja": "バンカー"
+        },
+        {
+          "en": "bus stop",
+          "ja": "バス停"
+        },
+        {
+          "en": "bowling alley",
+          "ja": "ボウリング場"
+        },
+        {
+          "en": "cafe",
+          "ja": "カフェ"
+        },
+        {
+          "en": "casino",
+          "ja": "カジノ"
+        },
+        {
+          "en": "construction site",
+          "ja": "建設現場"
+        },
+        {
+          "en": "convention",
+          "ja": "大会"
+        },
+        {
+          "en": "garage",
+          "ja": "ガレージ"
+        },
+        {
+          "en": "gas station",
+          "ja": "ガソリンスタンド"
+        },
+        {
+          "en": "gazebo",
+          "ja": "ガゼボ"
+        },
+        {
+          "en": "greenhouse",
+          "ja": "温室"
+        },
+        {
+          "en": "hospital",
+          "ja": "病院"
+        },
+        {
+          "en": "hotel",
+          "ja": "ホテル"
+        },
+        {
+          "en": "industrial",
+          "ja": "工業用"
+        },
+        {
+          "en": "factory",
+          "ja": "工場"
+        },
+        {
+          "en": "refinery",
+          "ja": "製油所"
+        },
+        {
+          "en": "power plant",
+          "ja": "発電所"
+        },
+        {
+          "en": "nuclear powerplant",
+          "ja": "原子力発電所"
+        },
+        {
+          "en": "cooling tower",
+          "ja": "冷却塔"
+        },
+        {
+          "en": "warehouse",
+          "ja": "倉庫"
+        },
+        {
+          "en": "lighthouse",
+          "ja": "灯台"
+        },
+        {
+          "en": "mall",
+          "ja": "モール"
+        },
+        {
+          "en": "megastructure",
+          "ja": "巨大構造物"
+        },
+        {
+          "en": "space elevator",
+          "ja": "宇宙エレベーター"
+        },
+        {
+          "en": "military base",
+          "ja": "軍事基地"
+        },
+        {
+          "en": "museum",
+          "ja": "博物館"
+        },
+        {
+          "en": "art gallery",
+          "ja": "アートギャラリー"
+        },
+        {
+          "en": "nightclub",
+          "ja": "ナイトクラブ"
+        },
+        {
+          "en": "observatory",
+          "ja": "天文台"
+        },
+        {
+          "en": "onsen",
+          "ja": "温泉"
+        },
+        {
+          "en": "planetarium",
+          "ja": "プラネタリウム"
+        },
+        {
+          "en": "prison",
+          "ja": "刑務所"
+        },
+        {
+          "en": "restaurant",
+          "ja": "レストラン"
+        },
+        {
+          "en": "rooftop",
+          "ja": "屋上"
+        },
+        {
+          "en": "ruins",
+          "ja": "遺跡"
+        },
+        {
+          "en": "school",
+          "ja": "学校"
+        },
+        {
+          "en": "skating rink",
+          "ja": "スケートリンク"
+        },
+        {
+          "en": "shop",
+          "ja": "店"
+        },
+        {
+          "en": "bakery",
+          "ja": "ベーカリー"
+        },
+        {
+          "en": "bookstore",
+          "ja": "書店"
+        },
+        {
+          "en": "convenience store",
+          "ja": "コンビニエンスストア"
+        },
+        {
+          "en": "flower shop",
+          "ja": "花屋"
+        },
+        {
+          "en": "pharmacy",
+          "ja": "薬局"
+        },
+        {
+          "en": "salon",
+          "ja": "サロン"
+        },
+        {
+          "en": "sex shop",
+          "ja": "セックスショップ"
+        },
+        {
+          "en": "supermarket",
+          "ja": "スーパーマーケット"
+        },
+        {
+          "en": "weapon shop",
+          "ja": "武器屋"
+        },
+        {
+          "en": "skyscraper",
+          "ja": "超高層ビル"
+        },
+        {
+          "en": "stadium",
+          "ja": "スタジアム"
+        },
+        {
+          "en": "arena",
+          "ja": "アリーナ"
+        },
+        {
+          "en": "theater",
+          "ja": "劇場"
+        },
+        {
+          "en": "amphitheater",
+          "ja": "円形劇場"
+        },
+        {
+          "en": "movie theater",
+          "ja": "映画館"
+        },
+        {
+          "en": "tower",
+          "ja": "タワー"
+        },
+        {
+          "en": "bell tower",
+          "ja": "鐘楼"
+        },
+        {
+          "en": "clock tower",
+          "ja": "時計塔"
+        },
+        {
+          "en": "watchtower",
+          "ja": "監視塔"
+        },
+        {
+          "en": "train station",
+          "ja": "駅"
+        },
+        {
+          "en": "windmill",
+          "ja": "風車"
+        },
+        {
+          "en": "buildings",
+          "ja": "建物"
+        }
+      ]
+    },
+    {
+      "id": "religious-traditional-facilities",
+      "name": "宗教・伝統施設",
+      "tags": [
+        {
+          "en": "castle",
+          "ja": "城"
+        },
+        {
+          "en": "floating castle",
+          "ja": "浮かぶ城"
+        },
+        {
+          "en": "church",
+          "ja": "教会"
+        },
+        {
+          "en": "mosque",
+          "ja": "モスク"
+        },
+        {
+          "en": "pagoda",
+          "ja": "パゴダ"
+        },
+        {
+          "en": "shrine",
+          "ja": "神社"
+        },
+        {
+          "en": "temple",
+          "ja": "寺"
+        },
+        {
+          "en": "minaret",
+          "ja": "ミナレット"
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "name": "乗り物",
+      "tags": [
+        {
+          "en": "vehicle interior",
+          "ja": "車内"
+        },
+        {
+          "en": "airplane interior",
+          "ja": "飛行機の内部"
+        },
+        {
+          "en": "bus interior",
+          "ja": "バスの内装"
+        },
+        {
+          "en": "car interior",
+          "ja": "車内"
+        },
+        {
+          "en": "cockpit",
+          "ja": "コックピット"
+        },
+        {
+          "en": "spacecraft interior",
+          "ja": "宇宙船内部"
+        },
+        {
+          "en": "tank interior",
+          "ja": "タンク内部"
+        },
+        {
+          "en": "train interior",
+          "ja": "電車内"
+        }
+      ]
+    },
+    {
+      "id": "scenery",
+      "name": "風景",
+      "tags": [
+        {
+          "en": "architecture",
+          "ja": "建築"
+        },
+        {
+          "en": "cityscape",
+          "ja": "都市景観"
+        },
+        {
+          "en": "landscape",
+          "ja": "風景"
+        },
+        {
+          "en": "space",
+          "ja": "空間"
+        },
+        {
+          "en": "asteroid",
+          "ja": "小惑星"
+        },
+        {
+          "en": "moon",
+          "ja": "月"
+        },
+        {
+          "en": "planet",
+          "ja": "惑星"
+        },
+        {
+          "en": "space station",
+          "ja": "宇宙ステーション"
+        }
+      ]
+    }
+  ]
 }

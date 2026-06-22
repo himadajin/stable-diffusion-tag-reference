@@ -4,219 +4,285 @@
   "tagCount": 145,
   "sections": [
     {
-      "id": "主題",
+      "id": "subjects",
       "name": "主題",
       "path": [
         "主題"
       ],
+      "sectionPath": [
+        "subjects"
+      ],
       "tagCount": 21,
       "tags": [
         {
-          "id": "character__主題__0001",
+          "id": "character__subjects__0001",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "1girl",
           "ja": "1人の女の子"
         },
         {
-          "id": "character__主題__0002",
+          "id": "character__subjects__0002",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "2girls",
           "ja": "2人の女の子"
         },
         {
-          "id": "character__主題__0003",
+          "id": "character__subjects__0003",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "3girls",
           "ja": "3人の女の子"
         },
         {
-          "id": "character__主題__0004",
+          "id": "character__subjects__0004",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "4girls",
           "ja": "4人の女の子"
         },
         {
-          "id": "character__主題__0005",
+          "id": "character__subjects__0005",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "5girls",
           "ja": "5人の女の子"
         },
         {
-          "id": "character__主題__0006",
+          "id": "character__subjects__0006",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "6+girls",
           "ja": "6人以上の女の子"
         },
         {
-          "id": "character__主題__0007",
+          "id": "character__subjects__0007",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "multiple girls",
           "ja": "複数の女の子"
         },
         {
-          "id": "character__主題__0008",
+          "id": "character__subjects__0008",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "1boy",
           "ja": "1人の男の子"
         },
         {
-          "id": "character__主題__0009",
+          "id": "character__subjects__0009",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "2boys",
           "ja": "2人の男の子"
         },
         {
-          "id": "character__主題__0010",
+          "id": "character__subjects__0010",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "3boys",
           "ja": "3人の男の子"
         },
         {
-          "id": "character__主題__0011",
+          "id": "character__subjects__0011",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "4boys",
           "ja": "4人の男の子"
         },
         {
-          "id": "character__主題__0012",
+          "id": "character__subjects__0012",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "5boys",
           "ja": "5人の男の子"
         },
         {
-          "id": "character__主題__0013",
+          "id": "character__subjects__0013",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "6+boys",
           "ja": "6歳以上の男の子"
         },
         {
-          "id": "character__主題__0014",
+          "id": "character__subjects__0014",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "multiple boys",
           "ja": "複数の男の子"
         },
         {
-          "id": "character__主題__0015",
+          "id": "character__subjects__0015",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "1other",
           "ja": "その他1件"
         },
         {
-          "id": "character__主題__0016",
+          "id": "character__subjects__0016",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "2others",
           "ja": "その他2人"
         },
         {
-          "id": "character__主題__0017",
+          "id": "character__subjects__0017",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "3others",
           "ja": "その他3人"
         },
         {
-          "id": "character__主題__0018",
+          "id": "character__subjects__0018",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "4others",
           "ja": "その他4人"
         },
         {
-          "id": "character__主題__0019",
+          "id": "character__subjects__0019",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "5others",
           "ja": "その他5人"
         },
         {
-          "id": "character__主題__0020",
+          "id": "character__subjects__0020",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
           ],
+          "sectionPath": [
+            "subjects"
+          ],
           "en": "6+others",
           "ja": "6人以上"
         },
         {
-          "id": "character__主題__0021",
+          "id": "character__subjects__0021",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "主題"
+          ],
+          "sectionPath": [
+            "subjects"
           ],
           "en": "multiple others",
           "ja": "その他複数"
@@ -224,79 +290,103 @@
       ]
     },
     {
-      "id": "その他",
+      "id": "other",
       "name": "その他",
       "path": [
         "その他"
       ],
+      "sectionPath": [
+        "other"
+      ],
       "tagCount": 7,
       "tags": [
         {
-          "id": "character__その他__0001",
+          "id": "character__other__0001",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "dual persona",
           "ja": "二重人格"
         },
         {
-          "id": "character__その他__0002",
+          "id": "character__other__0002",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "multiple persona",
           "ja": "多重人格"
         },
         {
-          "id": "character__その他__0003",
+          "id": "character__other__0003",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "crossover",
           "ja": "クロスオーバー"
         },
         {
-          "id": "character__その他__0004",
+          "id": "character__other__0004",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "absolutely everyone",
           "ja": "絶対に全員"
         },
         {
-          "id": "character__その他__0005",
+          "id": "character__other__0005",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "everyone",
           "ja": "みんな"
         },
         {
-          "id": "character__その他__0006",
+          "id": "character__other__0006",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "その他"
           ],
+          "sectionPath": [
+            "other"
+          ],
           "en": "multiple dogs",
           "ja": "複数の犬"
         },
         {
-          "id": "character__その他__0007",
+          "id": "character__other__0007",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "その他"
+          ],
+          "sectionPath": [
+            "other"
           ],
           "en": "too many cats",
           "ja": "猫が多すぎる"
@@ -304,219 +394,285 @@
       ]
     },
     {
-      "id": "属性-種族",
+      "id": "attributes-species",
       "name": "属性・種族",
       "path": [
         "属性・種族"
       ],
+      "sectionPath": [
+        "attributes-species"
+      ],
       "tagCount": 21,
       "tags": [
         {
-          "id": "character__属性-種族__0001",
+          "id": "character__attributes-species__0001",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "succubus",
           "ja": "サキュバス"
         },
         {
-          "id": "character__属性-種族__0002",
+          "id": "character__attributes-species__0002",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "vampire",
           "ja": "吸血鬼"
         },
         {
-          "id": "character__属性-種族__0003",
+          "id": "character__attributes-species__0003",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "elf",
           "ja": "エルフ"
         },
         {
-          "id": "character__属性-種族__0004",
+          "id": "character__attributes-species__0004",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "dark elf",
           "ja": "ダークエルフ"
         },
         {
-          "id": "character__属性-種族__0005",
+          "id": "character__attributes-species__0005",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "fairy",
           "ja": "妖精"
         },
         {
-          "id": "character__属性-種族__0006",
+          "id": "character__attributes-species__0006",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "angel",
           "ja": "天使"
         },
         {
-          "id": "character__属性-種族__0007",
+          "id": "character__attributes-species__0007",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "demon",
           "ja": "悪魔"
         },
         {
-          "id": "character__属性-種族__0008",
+          "id": "character__attributes-species__0008",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "oni",
           "ja": "鬼"
         },
         {
-          "id": "character__属性-種族__0009",
+          "id": "character__attributes-species__0009",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "catgirl",
           "ja": "猫娘"
         },
         {
-          "id": "character__属性-種族__0010",
+          "id": "character__attributes-species__0010",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "foxgirl",
           "ja": "キツネ娘"
         },
         {
-          "id": "character__属性-種族__0011",
+          "id": "character__attributes-species__0011",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "doggirl",
           "ja": "犬娘"
         },
         {
-          "id": "character__属性-種族__0012",
+          "id": "character__attributes-species__0012",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "bunny girl",
           "ja": "バニーガール"
         },
         {
-          "id": "character__属性-種族__0013",
+          "id": "character__attributes-species__0013",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "mermaid",
           "ja": "マーメイド"
         },
         {
-          "id": "character__属性-種族__0014",
+          "id": "character__attributes-species__0014",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "slime girl",
           "ja": "スライムガール"
         },
         {
-          "id": "character__属性-種族__0015",
+          "id": "character__attributes-species__0015",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "centaur",
           "ja": "ケンタウロス"
         },
         {
-          "id": "character__属性-種族__0016",
+          "id": "character__attributes-species__0016",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "zombie girl",
           "ja": "ゾンビガール"
         },
         {
-          "id": "character__属性-種族__0017",
+          "id": "character__attributes-species__0017",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "witch",
           "ja": "魔女"
         },
         {
-          "id": "character__属性-種族__0018",
+          "id": "character__attributes-species__0018",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "magical girl",
           "ja": "魔法少女"
         },
         {
-          "id": "character__属性-種族__0019",
+          "id": "character__attributes-species__0019",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "robot girl",
           "ja": "ロボット少女"
         },
         {
-          "id": "character__属性-種族__0020",
+          "id": "character__attributes-species__0020",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
           ],
+          "sectionPath": [
+            "attributes-species"
+          ],
           "en": "android",
           "ja": "アンドロイド"
         },
         {
-          "id": "character__属性-種族__0021",
+          "id": "character__attributes-species__0021",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "属性・種族"
+          ],
+          "sectionPath": [
+            "attributes-species"
           ],
           "en": "ghost girl",
           "ja": "幽霊少女"
@@ -524,69 +680,90 @@
       ]
     },
     {
-      "id": "年齢-体型",
+      "id": "age-body-type",
       "name": "年齢・体型",
       "path": [
         "年齢・体型"
       ],
+      "sectionPath": [
+        "age-body-type"
+      ],
       "tagCount": 6,
       "tags": [
         {
-          "id": "character__年齢-体型__0001",
+          "id": "character__age-body-type__0001",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "年齢・体型"
+          ],
+          "sectionPath": [
+            "age-body-type"
           ],
           "en": "loli",
           "ja": "ロリ"
         },
         {
-          "id": "character__年齢-体型__0002",
+          "id": "character__age-body-type__0002",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "年齢・体型"
+          ],
+          "sectionPath": [
+            "age-body-type"
           ],
           "en": "shota",
           "ja": "ショタ"
         },
         {
-          "id": "character__年齢-体型__0003",
+          "id": "character__age-body-type__0003",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "年齢・体型"
+          ],
+          "sectionPath": [
+            "age-body-type"
           ],
           "en": "milf",
           "ja": "熟女"
         },
         {
-          "id": "character__年齢-体型__0004",
+          "id": "character__age-body-type__0004",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "年齢・体型"
+          ],
+          "sectionPath": [
+            "age-body-type"
           ],
           "en": "muscular female",
           "ja": "筋肉質な女性"
         },
         {
-          "id": "character__年齢-体型__0005",
+          "id": "character__age-body-type__0005",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "年齢・体型"
           ],
+          "sectionPath": [
+            "age-body-type"
+          ],
           "en": "tall girl",
           "ja": "背の高い女の子"
         },
         {
-          "id": "character__年齢-体型__0006",
+          "id": "character__age-body-type__0006",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "年齢・体型"
+          ],
+          "sectionPath": [
+            "age-body-type"
           ],
           "en": "petite",
           "ja": "小柄な"
@@ -594,69 +771,90 @@
       ]
     },
     {
-      "id": "性格",
+      "id": "personality",
       "name": "性格",
       "path": [
         "性格"
       ],
+      "sectionPath": [
+        "personality"
+      ],
       "tagCount": 6,
       "tags": [
         {
-          "id": "character__性格__0001",
+          "id": "character__personality__0001",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "性格"
+          ],
+          "sectionPath": [
+            "personality"
           ],
           "en": "yandere",
           "ja": "ヤンデレ"
         },
         {
-          "id": "character__性格__0002",
+          "id": "character__personality__0002",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "性格"
+          ],
+          "sectionPath": [
+            "personality"
           ],
           "en": "tsundere",
           "ja": "ツンデレ"
         },
         {
-          "id": "character__性格__0003",
+          "id": "character__personality__0003",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "性格"
+          ],
+          "sectionPath": [
+            "personality"
           ],
           "en": "kuudere",
           "ja": "クーデレ"
         },
         {
-          "id": "character__性格__0004",
+          "id": "character__personality__0004",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "性格"
+          ],
+          "sectionPath": [
+            "personality"
           ],
           "en": "dojikko",
           "ja": "どじっこ"
         },
         {
-          "id": "character__性格__0005",
+          "id": "character__personality__0005",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "性格"
           ],
+          "sectionPath": [
+            "personality"
+          ],
           "en": "cool girl",
           "ja": "クールな女の子"
         },
         {
-          "id": "character__性格__0006",
+          "id": "character__personality__0006",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "性格"
+          ],
+          "sectionPath": [
+            "personality"
           ],
           "en": "sadistic",
           "ja": "サディスティック"
@@ -664,579 +862,753 @@
       ]
     },
     {
-      "id": "職業",
+      "id": "occupations",
       "name": "職業",
       "path": [
         "職業"
       ],
+      "sectionPath": [
+        "occupations"
+      ],
       "tagCount": 57,
       "tags": [
         {
-          "id": "character__職業__0001",
+          "id": "character__occupations__0001",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "maid",
           "ja": "メイド"
         },
         {
-          "id": "character__職業__0002",
+          "id": "character__occupations__0002",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "nurse",
           "ja": "看護師"
         },
         {
-          "id": "character__職業__0003",
+          "id": "character__occupations__0003",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "doctor",
           "ja": "医者"
         },
         {
-          "id": "character__職業__0004",
+          "id": "character__occupations__0004",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "scientist",
           "ja": "科学者"
         },
         {
-          "id": "character__職業__0005",
+          "id": "character__occupations__0005",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "teacher",
           "ja": "教師"
         },
         {
-          "id": "character__職業__0006",
+          "id": "character__occupations__0006",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "student",
           "ja": "学生"
         },
         {
-          "id": "character__職業__0007",
+          "id": "character__occupations__0007",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "office lady",
           "ja": "オフィスレディ"
         },
         {
-          "id": "character__職業__0008",
+          "id": "character__occupations__0008",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "secretary",
           "ja": "秘書"
         },
         {
-          "id": "character__職業__0009",
+          "id": "character__occupations__0009",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "policewoman",
           "ja": "女性警察官"
         },
         {
-          "id": "character__職業__0010",
+          "id": "character__occupations__0010",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "soldier",
           "ja": "兵士"
         },
         {
-          "id": "character__職業__0011",
+          "id": "character__occupations__0011",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "firefighter",
           "ja": "消防士"
         },
         {
-          "id": "character__職業__0012",
+          "id": "character__occupations__0012",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "waitress",
           "ja": "ウェイトレス"
         },
         {
-          "id": "character__職業__0013",
+          "id": "character__occupations__0013",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "bartender",
           "ja": "バーテンダー"
         },
         {
-          "id": "character__職業__0014",
+          "id": "character__occupations__0014",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "chef",
           "ja": "シェフ"
         },
         {
-          "id": "character__職業__0015",
+          "id": "character__occupations__0015",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "baker",
           "ja": "パン屋"
         },
         {
-          "id": "character__職業__0016",
+          "id": "character__occupations__0016",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "magician",
           "ja": "マジシャン"
         },
         {
-          "id": "character__職業__0017",
+          "id": "character__occupations__0017",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "alchemist",
           "ja": "錬金術師"
         },
         {
-          "id": "character__職業__0018",
+          "id": "character__occupations__0018",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "knight",
           "ja": "騎士"
         },
         {
-          "id": "character__職業__0019",
+          "id": "character__occupations__0019",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "samurai",
           "ja": "武士"
         },
         {
-          "id": "character__職業__0020",
+          "id": "character__occupations__0020",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "ninja",
           "ja": "忍者"
         },
         {
-          "id": "character__職業__0021",
+          "id": "character__occupations__0021",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "shrine maiden",
           "ja": "巫女"
         },
         {
-          "id": "character__職業__0022",
+          "id": "character__occupations__0022",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "priestess",
           "ja": "巫女"
         },
         {
-          "id": "character__職業__0023",
+          "id": "character__occupations__0023",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "nun",
           "ja": "尼僧"
         },
         {
-          "id": "character__職業__0024",
+          "id": "character__occupations__0024",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "dancer",
           "ja": "ダンサー"
         },
         {
-          "id": "character__職業__0025",
+          "id": "character__occupations__0025",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "idol",
           "ja": "アイドル"
         },
         {
-          "id": "character__職業__0026",
+          "id": "character__occupations__0026",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "singer",
           "ja": "歌手"
         },
         {
-          "id": "character__職業__0027",
+          "id": "character__occupations__0027",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "musician",
           "ja": "ミュージシャン"
         },
         {
-          "id": "character__職業__0028",
+          "id": "character__occupations__0028",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "artist",
           "ja": "アーティスト"
         },
         {
-          "id": "character__職業__0029",
+          "id": "character__occupations__0029",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "photographer",
           "ja": "写真家"
         },
         {
-          "id": "character__職業__0030",
+          "id": "character__occupations__0030",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "reporter",
           "ja": "記者"
         },
         {
-          "id": "character__職業__0031",
+          "id": "character__occupations__0031",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "journalist",
           "ja": "ジャーナリスト"
         },
         {
-          "id": "character__職業__0032",
+          "id": "character__occupations__0032",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "detective",
           "ja": "探偵"
         },
         {
-          "id": "character__職業__0033",
+          "id": "character__occupations__0033",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "thief",
           "ja": "泥棒"
         },
         {
-          "id": "character__職業__0034",
+          "id": "character__occupations__0034",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "pirate",
           "ja": "海賊"
         },
         {
-          "id": "character__職業__0035",
+          "id": "character__occupations__0035",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "hunter",
           "ja": "ハンター"
         },
         {
-          "id": "character__職業__0036",
+          "id": "character__occupations__0036",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "assassin",
           "ja": "暗殺者"
         },
         {
-          "id": "character__職業__0037",
+          "id": "character__occupations__0037",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "racer",
           "ja": "レーサー"
         },
         {
-          "id": "character__職業__0038",
+          "id": "character__occupations__0038",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "mechanic",
           "ja": "メカニック"
         },
         {
-          "id": "character__職業__0039",
+          "id": "character__occupations__0039",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "pilot",
           "ja": "パイロット"
         },
         {
-          "id": "character__職業__0040",
+          "id": "character__occupations__0040",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "astronaut",
           "ja": "宇宙飛行士"
         },
         {
-          "id": "character__職業__0041",
+          "id": "character__occupations__0041",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "boxer",
           "ja": "ボクサー"
         },
         {
-          "id": "character__職業__0042",
+          "id": "character__occupations__0042",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "martial artist",
           "ja": "武道家"
         },
         {
-          "id": "character__職業__0043",
+          "id": "character__occupations__0043",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "farmer",
           "ja": "農家"
         },
         {
-          "id": "character__職業__0044",
+          "id": "character__occupations__0044",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "fisherman",
           "ja": "漁師"
         },
         {
-          "id": "character__職業__0045",
+          "id": "character__occupations__0045",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "construction worker",
           "ja": "建設作業員"
         },
         {
-          "id": "character__職業__0046",
+          "id": "character__occupations__0046",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "adventurer",
           "ja": "冒険家"
         },
         {
-          "id": "character__職業__0047",
+          "id": "character__occupations__0047",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "merchant",
           "ja": "商人"
         },
         {
-          "id": "character__職業__0048",
+          "id": "character__occupations__0048",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "necromancer",
           "ja": "ネクロマンサー"
         },
         {
-          "id": "character__職業__0049",
+          "id": "character__occupations__0049",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "summoner",
           "ja": "召喚者"
         },
         {
-          "id": "character__職業__0050",
+          "id": "character__occupations__0050",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "druid",
           "ja": "ドルイド"
         },
         {
-          "id": "character__職業__0051",
+          "id": "character__occupations__0051",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "gunslinger",
           "ja": "ガンスリンガー"
         },
         {
-          "id": "character__職業__0052",
+          "id": "character__occupations__0052",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "executioner",
           "ja": "死刑執行人"
         },
         {
-          "id": "character__職業__0053",
+          "id": "character__occupations__0053",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "blacksmith",
           "ja": "鍛冶屋"
         },
         {
-          "id": "character__職業__0054",
+          "id": "character__occupations__0054",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "librarian",
           "ja": "司書"
         },
         {
-          "id": "character__職業__0055",
+          "id": "character__occupations__0055",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "postman",
           "ja": "郵便配達員"
         },
         {
-          "id": "character__職業__0056",
+          "id": "character__occupations__0056",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
           ],
+          "sectionPath": [
+            "occupations"
+          ],
           "en": "fortune teller",
           "ja": "占い師"
         },
         {
-          "id": "character__職業__0057",
+          "id": "character__occupations__0057",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "職業"
+          ],
+          "sectionPath": [
+            "occupations"
           ],
           "en": "ringmaster",
           "ja": "団長"
@@ -1244,279 +1616,363 @@
       ]
     },
     {
-      "id": "家族関係",
+      "id": "family-relationships",
       "name": "家族関係",
       "path": [
         "家族関係"
       ],
+      "sectionPath": [
+        "family-relationships"
+      ],
       "tagCount": 27,
       "tags": [
         {
-          "id": "character__家族関係__0001",
+          "id": "character__family-relationships__0001",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "father and son",
           "ja": "父と息子"
         },
         {
-          "id": "character__家族関係__0002",
+          "id": "character__family-relationships__0002",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "father and daughter",
           "ja": "父と娘"
         },
         {
-          "id": "character__家族関係__0003",
+          "id": "character__family-relationships__0003",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "mother and son",
           "ja": "母と息子"
         },
         {
-          "id": "character__家族関係__0004",
+          "id": "character__family-relationships__0004",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "mother and daughter",
           "ja": "母と娘"
         },
         {
-          "id": "character__家族関係__0005",
+          "id": "character__family-relationships__0005",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "step-parent and step-child",
           "ja": "継親と継子"
         },
         {
-          "id": "character__家族関係__0006",
+          "id": "character__family-relationships__0006",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "siblings",
           "ja": "兄弟"
         },
         {
-          "id": "character__家族関係__0007",
+          "id": "character__family-relationships__0007",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "brothers",
           "ja": "ブラザーズ"
         },
         {
-          "id": "character__家族関係__0008",
+          "id": "character__family-relationships__0008",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "sisters",
           "ja": "姉妹"
         },
         {
-          "id": "character__家族関係__0009",
+          "id": "character__family-relationships__0009",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "brother and sister",
           "ja": "兄弟姉妹"
         },
         {
-          "id": "character__家族関係__0010",
+          "id": "character__family-relationships__0010",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "half-siblings",
           "ja": "異母兄弟"
         },
         {
-          "id": "character__家族関係__0011",
+          "id": "character__family-relationships__0011",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "step-siblings",
           "ja": "義理の兄弟"
         },
         {
-          "id": "character__家族関係__0012",
+          "id": "character__family-relationships__0012",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "twins",
           "ja": "双子"
         },
         {
-          "id": "character__家族関係__0013",
+          "id": "character__family-relationships__0013",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "triplets",
           "ja": "三つ子"
         },
         {
-          "id": "character__家族関係__0014",
+          "id": "character__family-relationships__0014",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "quadruplets",
           "ja": "四つ子"
         },
         {
-          "id": "character__家族関係__0015",
+          "id": "character__family-relationships__0015",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "quintuplets",
           "ja": "五つ子"
         },
         {
-          "id": "character__家族関係__0016",
+          "id": "character__family-relationships__0016",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "sextuplets",
           "ja": "六つ子"
         },
         {
-          "id": "character__家族関係__0017",
+          "id": "character__family-relationships__0017",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "septuplets",
           "ja": "七つ子"
         },
         {
-          "id": "character__家族関係__0018",
+          "id": "character__family-relationships__0018",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "grandmother and granddaughter",
           "ja": "祖母と孫娘"
         },
         {
-          "id": "character__家族関係__0019",
+          "id": "character__family-relationships__0019",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "grandmother and grandson",
           "ja": "祖母と孫"
         },
         {
-          "id": "character__家族関係__0020",
+          "id": "character__family-relationships__0020",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "grandfather and granddaughter",
           "ja": "祖父と孫娘"
         },
         {
-          "id": "character__家族関係__0021",
+          "id": "character__family-relationships__0021",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "grandfather and grandson",
           "ja": "祖父と孫"
         },
         {
-          "id": "character__家族関係__0022",
+          "id": "character__family-relationships__0022",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "aunt and niece",
           "ja": "叔母と姪"
         },
         {
-          "id": "character__家族関係__0023",
+          "id": "character__family-relationships__0023",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "aunt and nephew",
           "ja": "叔母と甥"
         },
         {
-          "id": "character__家族関係__0024",
+          "id": "character__family-relationships__0024",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "uncle and niece",
           "ja": "叔父と姪"
         },
         {
-          "id": "character__家族関係__0025",
+          "id": "character__family-relationships__0025",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "uncle and nephew",
           "ja": "叔父と甥"
         },
         {
-          "id": "character__家族関係__0026",
+          "id": "character__family-relationships__0026",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
           ],
+          "sectionPath": [
+            "family-relationships"
+          ],
           "en": "cousins",
           "ja": "いとこ"
         },
         {
-          "id": "character__家族関係__0027",
+          "id": "character__family-relationships__0027",
           "categoryId": "character",
           "categoryName": "キャラ",
           "path": [
             "家族関係"
+          ],
+          "sectionPath": [
+            "family-relationships"
           ],
           "en": "ancestor and descendant",
           "ja": "祖先と子孫"

@@ -11,13 +11,21 @@ type SourceManifest = {
 type SourceCategory = {
   id: string;
   name: string;
-  tree: unknown;
+  tree: SourceSection[];
 };
 
 type SourceTag = {
   en: string;
   ja: string;
   path: string[];
+  sectionPath: string[];
+};
+
+type SourceSection = {
+  id: string;
+  name: string;
+  tags?: Array<{ en: string; ja: string }>;
+  children?: SourceSection[];
 };
 
 type GeneratedManifest = {
@@ -32,21 +40,55 @@ type GeneratedManifest = {
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const sourceRoot = path.join(root, "data/source");
 const generatedRoot = path.join(root, "public/data");
+const sectionIdPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 function readJson<T>(filePath: string): T {
   return JSON.parse(readFileSync(filePath, "utf8")) as T;
 }
 
-function collectTags(node: unknown, pathParts: string[] = []): SourceTag[] {
-  if (Array.isArray(node)) {
-    return node.map((tag) => ({
-      en: tag.en,
-      ja: tag.ja,
-      path: pathParts,
-    }));
+function collectTags(
+  sections: SourceSection[],
+  pathParts: string[] = [],
+  sectionPath: string[] = [],
+): SourceTag[] {
+  return sections.flatMap((section) => {
+    const nextPath = [...pathParts, section.name];
+    const nextSectionPath = [...sectionPath, section.id];
+    const tags =
+      section.tags?.map((tag) => ({
+        en: tag.en,
+        ja: tag.ja,
+        path: nextPath,
+        sectionPath: nextSectionPath,
+      })) ?? [];
+    return [...tags, ...collectTags(section.children ?? [], nextPath, nextSectionPath)];
+  });
+}
+
+function validateSections(sections: SourceSection[]): void {
+  const siblingIds = new Set<string>();
+  for (const section of sections) {
+    expect(section.id).toMatch(sectionIdPattern);
+    expect(section.name).toEqual(expect.any(String));
+    expect(section.name.length).toBeGreaterThan(0);
+    expect(siblingIds.has(section.id)).toBe(false);
+    siblingIds.add(section.id);
+
+    const hasTags = Array.isArray(section.tags);
+    const hasChildren = Array.isArray(section.children);
+    expect(hasTags || hasChildren).toBe(true);
+    expect(hasTags && hasChildren).toBe(false);
+
+    if (section.tags) {
+      for (const tag of section.tags) {
+        expect(tag.en).toEqual(expect.any(String));
+        expect(tag.en.length).toBeGreaterThan(0);
+        expect(tag.ja).toEqual(expect.any(String));
+        expect(tag.ja.length).toBeGreaterThan(0);
+      }
+    }
+    validateSections(section.children ?? []);
   }
-  if (!node || typeof node !== "object") return [];
-  return Object.entries(node).flatMap(([key, value]) => collectTags(value, [...pathParts, key]));
 }
 
 describe("source data integrity", () => {
@@ -63,6 +105,7 @@ describe("source data integrity", () => {
       const tags = collectTags(category.tree);
       expect(category.id).toBe(categoryRef.id);
       expect(category.name).toBe(categoryRef.name);
+      validateSections(category.tree);
       expect(tags.length).toBeGreaterThanOrEqual(0);
       for (const tag of tags) {
         expect(tag.en).toEqual(expect.any(String));
@@ -70,6 +113,7 @@ describe("source data integrity", () => {
         expect(tag.ja).toEqual(expect.any(String));
         expect(tag.ja.length).toBeGreaterThan(0);
         expect(tag.path.length).toBeGreaterThan(0);
+        expect(tag.sectionPath.length).toBe(tag.path.length);
       }
     }
   });
@@ -153,6 +197,7 @@ describe("generated data integrity", () => {
         type: "tag",
         categoryId: expect.any(String),
         path: expect.any(Array),
+        sectionPath: expect.any(Array),
         id: expect.any(String),
       }),
     );

@@ -1,512 +1,532 @@
 {
   "id": "composition",
   "name": "構図",
-  "tree": {
-    "視点": [
-      {
-        "en": "dutch angle",
-        "ja": "ダッチアングル"
-      },
-      {
-        "en": "from above",
-        "ja": "上から"
-      },
-      {
-        "en": "from behind",
-        "ja": "後ろから"
-      },
-      {
-        "en": "from below",
-        "ja": "下から"
-      },
-      {
-        "en": "from side",
-        "ja": "横から"
-      },
-      {
-        "en": "high up",
-        "ja": "高いところ"
-      },
-      {
-        "en": "multiple views",
-        "ja": "複数のビュー"
-      },
-      {
-        "en": "sideways",
-        "ja": "横向き"
-      },
-      {
-        "en": "straight-on",
-        "ja": "まっすぐに"
-      },
-      {
-        "en": "upside-down",
-        "ja": "逆さまに"
-      },
-      {
-        "en": "atmospheric perspective",
-        "ja": "大気遠近法"
-      },
-      {
-        "en": "fisheye",
-        "ja": "魚眼レンズ"
-      },
-      {
-        "en": "panorama",
-        "ja": "パノラマ"
-      },
-      {
-        "en": "perspective",
-        "ja": "視点"
-      },
-      {
-        "en": "vanishing point",
-        "ja": "消失点"
-      },
-      {
-        "en": "variations",
-        "ja": "バリエーション"
-      },
-      {
-        "en": "eyewear view",
-        "ja": "眼鏡の見方"
-      }
-    ],
-    "構図": [
-      {
-        "en": "collage",
-        "ja": "コラージュ"
-      },
-      {
-        "en": "column lineup",
-        "ja": "コラムラインナップ"
-      },
-      {
-        "en": "diorama",
-        "ja": "ジオラマ"
-      },
-      {
-        "en": "lineup",
-        "ja": "並ぶ"
-      },
-      {
-        "en": "negative space",
-        "ja": "ネガティブスペース"
-      },
-      {
-        "en": "social media composition",
-        "ja": "ソーシャルメディアの構成"
-      },
-      {
-        "en": "symmetry",
-        "ja": "対称"
-      },
-      {
-        "en": "polar opposites",
-        "ja": "正反対"
-      },
-      {
-        "en": "rotational symmetry",
-        "ja": "回転対称性"
-      },
-      {
-        "en": "tachi-e",
-        "ja": "立絵"
-      },
-      {
-        "en": "thumbnail collage",
-        "ja": "サムネイルコラージュ"
-      },
-      {
-        "en": "wide shot",
-        "ja": "ワイドショット"
-      },
-      {
-        "en": "very wide shot",
-        "ja": "非常にワイドショット"
-      },
-      {
-        "en": "cityscape",
-        "ja": "都市景観"
-      },
-      {
-        "en": "everyone",
-        "ja": "みんな"
-      },
-      {
-        "en": "absolutely everyone",
-        "ja": "絶対に全員"
-      },
-      {
-        "en": "group picture",
-        "ja": "集合写真"
-      },
-      {
-        "en": "landscape",
-        "ja": "風景"
-      },
-      {
-        "en": "nature",
-        "ja": "自然"
-      },
-      {
-        "en": "no humans",
-        "ja": "人間はいない"
-      },
-      {
-        "en": "scenery",
-        "ja": "景色"
-      },
-      {
-        "en": "still life",
-        "ja": "静物"
-      }
-    ],
-    "図解": [
-      {
-        "en": "chart",
-        "ja": "チャート"
-      },
-      {
-        "en": "bust chart",
-        "ja": "バストチャート"
-      },
-      {
-        "en": "character chart",
-        "ja": "キャラクターチャート"
-      },
-      {
-        "en": "reference sheet",
-        "ja": "参照シート"
-      },
-      {
-        "en": "diagram",
-        "ja": "図"
-      },
-      {
-        "en": "move chart",
-        "ja": "移動チャート"
-      },
-      {
-        "en": "relationship graph",
-        "ja": "関係グラフ"
-      },
-      {
-        "en": "seating chart",
-        "ja": "座席表"
-      },
-      {
-        "en": "stats",
-        "ja": "統計"
-      },
-      {
-        "en": "1koma",
-        "ja": "1コマ"
-      },
-      {
-        "en": "2koma",
-        "ja": "2コマ"
-      },
-      {
-        "en": "3koma",
-        "ja": "3コマ"
-      },
-      {
-        "en": "4koma",
-        "ja": "4コマ"
-      },
-      {
-        "en": "multiple 4koma",
-        "ja": "複数の4コマ"
-      },
-      {
-        "en": "5koma",
-        "ja": "5コマ"
-      },
-      {
-        "en": "left-to-right manga",
-        "ja": "左から右へのマンガ"
-      },
-      {
-        "en": "right-to-left comic",
-        "ja": "右から左に読む漫画"
-      },
-      {
-        "en": "silent comic",
-        "ja": "サイレントコミック"
-      }
-    ],
-    "トリミング": [
-      {
-        "en": "border",
-        "ja": "国境"
-      },
-      {
-        "en": "fading border",
-        "ja": "消えゆく境界線"
-      },
-      {
-        "en": "inset border",
-        "ja": "インセットボーダー"
-      },
-      {
-        "en": "ornate border",
-        "ja": "華やかな縁取り"
-      },
-      {
-        "en": "outside border",
-        "ja": "国境の外"
-      },
-      {
-        "en": "rounded corners",
-        "ja": "丸い角"
-      },
-      {
-        "en": "viewfinder",
-        "ja": "ファインダー"
-      },
-      {
-        "en": "borderless panels",
-        "ja": "ボーダーレスパネル"
-      },
-      {
-        "en": "out of frame",
-        "ja": "フレーム外"
-      },
-      {
-        "en": "fake scrollbar",
-        "ja": "偽のスクロールバー"
-      },
-      {
-        "en": "feet out of frame",
-        "ja": "フレームから外れた足"
-      },
-      {
-        "en": "foot out of frame",
-        "ja": "足がフレームから外れている"
-      },
-      {
-        "en": "head out of frame",
-        "ja": "頭がフレームから外れている"
-      },
-      {
-        "en": "eyes out of frame",
-        "ja": "フレーム外の目"
-      },
-      {
-        "en": "knees out of frame",
-        "ja": "膝がフレームから外れている"
-      },
-      {
-        "en": "out-of-frame censoring",
-        "ja": "フレーム外検閲"
-      },
-      {
-        "en": "letterboxed",
-        "ja": "レターボックス"
-      },
-      {
-        "en": "pillarboxed",
-        "ja": "ピラーボックス"
-      },
-      {
-        "en": "trim marks",
-        "ja": "トリムマーク"
-      },
-      {
-        "en": "projected inset",
-        "ja": "投影されたインセット"
-      },
-      {
-        "en": "tall image",
-        "ja": "背の高い画像"
-      },
-      {
-        "en": "transparent background",
-        "ja": "透明な背景"
-      },
-      {
-        "en": "triptych (art)",
-        "ja": "三連祭壇画（美術）"
-      },
-      {
-        "en": "widescreen",
-        "ja": "ワイドスクリーン"
-      },
-      {
-        "en": "wide image",
-        "ja": "ワイド画像"
-      },
-      {
-        "en": "portrait",
-        "ja": "肖像画"
-      },
-      {
-        "en": "upper body",
-        "ja": "上半身"
-      },
-      {
-        "en": "lower body",
-        "ja": "下半身"
-      },
-      {
-        "en": "cowboy shot",
-        "ja": "カウボーイショット"
-      },
-      {
-        "en": "full body",
-        "ja": "全身"
-      },
-      {
-        "en": "close-up",
-        "ja": "閉じる"
-      },
-      {
-        "en": "cropped",
-        "ja": "切り取られた"
-      },
-      {
-        "en": "cropped legs",
-        "ja": "クロップドレッグ"
-      },
-      {
-        "en": "cropped torso",
-        "ja": "胴体を切り取った"
-      },
-      {
-        "en": "cropped arms",
-        "ja": "切り取られた腕"
-      },
-      {
-        "en": "cropped shoulders",
-        "ja": "クロップドショルダー"
-      },
-      {
-        "en": "cropped head",
-        "ja": "切り頭"
-      },
-      {
-        "en": "cut-in",
-        "ja": "カットイン"
-      },
-      {
-        "en": "profile",
-        "ja": "プロフィール"
-      },
-      {
-        "en": "group profile",
-        "ja": "グループプロフィール"
-      },
-      {
-        "en": "split crop",
-        "ja": "分割作物"
-      }
-    ],
-    "フォーカス": [
-      {
-        "en": "animal focus",
-        "ja": "動物に焦点を当てる"
-      },
-      {
-        "en": "armpit focus",
-        "ja": "脇の下に焦点を当てる"
-      },
-      {
-        "en": "ass focus",
-        "ja": "お尻フォーカス"
-      },
-      {
-        "en": "back focus",
-        "ja": "バックフォーカス"
-      },
-      {
-        "en": "book focus",
-        "ja": "本の焦点"
-      },
-      {
-        "en": "breast focus",
-        "ja": "乳房フォーカス"
-      },
-      {
-        "en": "cloud focus",
-        "ja": "クラウドフォーカス"
-      },
-      {
-        "en": "eye focus",
-        "ja": "目の焦点"
-      },
-      {
-        "en": "food focus",
-        "ja": "食に焦点を当てる"
-      },
-      {
-        "en": "foot focus",
-        "ja": "足のフォーカス"
-      },
-      {
-        "en": "hand focus",
-        "ja": "手フォーカス"
-      },
-      {
-        "en": "hip focus",
-        "ja": "ヒップフォーカス"
-      },
-      {
-        "en": "male focus",
-        "ja": "男性中心"
-      },
-      {
-        "en": "monster focus",
-        "ja": "モンスターフォーカス"
-      },
-      {
-        "en": "navel focus",
-        "ja": "へそに焦点を当てる"
-      },
-      {
-        "en": "object focus",
-        "ja": "オブジェクトフォーカス"
-      },
-      {
-        "en": "other focus",
-        "ja": "その他の焦点"
-      },
-      {
-        "en": "plant focus",
-        "ja": "植物に焦点を当てる"
-      },
-      {
-        "en": "pectoral focus",
-        "ja": "胸筋の焦点"
-      },
-      {
-        "en": "penis focus",
-        "ja": "ペニスフォーカス"
-      },
-      {
-        "en": "solo focus",
-        "ja": "ソロフォーカス"
-      },
-      {
-        "en": "vehicle focus",
-        "ja": "車両フォーカス"
-      },
-      {
-        "en": "text focus",
-        "ja": "テキストフォーカス"
-      },
-      {
-        "en": "thigh focus",
-        "ja": "太ももに焦点を当てる"
-      },
-      {
-        "en": "weapon focus",
-        "ja": "武器の焦点"
-      },
-      {
-        "en": "wind chime focus",
-        "ja": "風鈴フォーカス"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "viewpoint",
+      "name": "視点",
+      "tags": [
+        {
+          "en": "dutch angle",
+          "ja": "ダッチアングル"
+        },
+        {
+          "en": "from above",
+          "ja": "上から"
+        },
+        {
+          "en": "from behind",
+          "ja": "後ろから"
+        },
+        {
+          "en": "from below",
+          "ja": "下から"
+        },
+        {
+          "en": "from side",
+          "ja": "横から"
+        },
+        {
+          "en": "high up",
+          "ja": "高いところ"
+        },
+        {
+          "en": "multiple views",
+          "ja": "複数のビュー"
+        },
+        {
+          "en": "sideways",
+          "ja": "横向き"
+        },
+        {
+          "en": "straight-on",
+          "ja": "まっすぐに"
+        },
+        {
+          "en": "upside-down",
+          "ja": "逆さまに"
+        },
+        {
+          "en": "atmospheric perspective",
+          "ja": "大気遠近法"
+        },
+        {
+          "en": "fisheye",
+          "ja": "魚眼レンズ"
+        },
+        {
+          "en": "panorama",
+          "ja": "パノラマ"
+        },
+        {
+          "en": "perspective",
+          "ja": "視点"
+        },
+        {
+          "en": "vanishing point",
+          "ja": "消失点"
+        },
+        {
+          "en": "variations",
+          "ja": "バリエーション"
+        },
+        {
+          "en": "eyewear view",
+          "ja": "眼鏡の見方"
+        }
+      ]
+    },
+    {
+      "id": "composition",
+      "name": "構図",
+      "tags": [
+        {
+          "en": "collage",
+          "ja": "コラージュ"
+        },
+        {
+          "en": "column lineup",
+          "ja": "コラムラインナップ"
+        },
+        {
+          "en": "diorama",
+          "ja": "ジオラマ"
+        },
+        {
+          "en": "lineup",
+          "ja": "並ぶ"
+        },
+        {
+          "en": "negative space",
+          "ja": "ネガティブスペース"
+        },
+        {
+          "en": "social media composition",
+          "ja": "ソーシャルメディアの構成"
+        },
+        {
+          "en": "symmetry",
+          "ja": "対称"
+        },
+        {
+          "en": "polar opposites",
+          "ja": "正反対"
+        },
+        {
+          "en": "rotational symmetry",
+          "ja": "回転対称性"
+        },
+        {
+          "en": "tachi-e",
+          "ja": "立絵"
+        },
+        {
+          "en": "thumbnail collage",
+          "ja": "サムネイルコラージュ"
+        },
+        {
+          "en": "wide shot",
+          "ja": "ワイドショット"
+        },
+        {
+          "en": "very wide shot",
+          "ja": "非常にワイドショット"
+        },
+        {
+          "en": "cityscape",
+          "ja": "都市景観"
+        },
+        {
+          "en": "everyone",
+          "ja": "みんな"
+        },
+        {
+          "en": "absolutely everyone",
+          "ja": "絶対に全員"
+        },
+        {
+          "en": "group picture",
+          "ja": "集合写真"
+        },
+        {
+          "en": "landscape",
+          "ja": "風景"
+        },
+        {
+          "en": "nature",
+          "ja": "自然"
+        },
+        {
+          "en": "no humans",
+          "ja": "人間はいない"
+        },
+        {
+          "en": "scenery",
+          "ja": "景色"
+        },
+        {
+          "en": "still life",
+          "ja": "静物"
+        }
+      ]
+    },
+    {
+      "id": "diagrams",
+      "name": "図解",
+      "tags": [
+        {
+          "en": "chart",
+          "ja": "チャート"
+        },
+        {
+          "en": "bust chart",
+          "ja": "バストチャート"
+        },
+        {
+          "en": "character chart",
+          "ja": "キャラクターチャート"
+        },
+        {
+          "en": "reference sheet",
+          "ja": "参照シート"
+        },
+        {
+          "en": "diagram",
+          "ja": "図"
+        },
+        {
+          "en": "move chart",
+          "ja": "移動チャート"
+        },
+        {
+          "en": "relationship graph",
+          "ja": "関係グラフ"
+        },
+        {
+          "en": "seating chart",
+          "ja": "座席表"
+        },
+        {
+          "en": "stats",
+          "ja": "統計"
+        },
+        {
+          "en": "1koma",
+          "ja": "1コマ"
+        },
+        {
+          "en": "2koma",
+          "ja": "2コマ"
+        },
+        {
+          "en": "3koma",
+          "ja": "3コマ"
+        },
+        {
+          "en": "4koma",
+          "ja": "4コマ"
+        },
+        {
+          "en": "multiple 4koma",
+          "ja": "複数の4コマ"
+        },
+        {
+          "en": "5koma",
+          "ja": "5コマ"
+        },
+        {
+          "en": "left-to-right manga",
+          "ja": "左から右へのマンガ"
+        },
+        {
+          "en": "right-to-left comic",
+          "ja": "右から左に読む漫画"
+        },
+        {
+          "en": "silent comic",
+          "ja": "サイレントコミック"
+        }
+      ]
+    },
+    {
+      "id": "cropping",
+      "name": "トリミング",
+      "tags": [
+        {
+          "en": "border",
+          "ja": "国境"
+        },
+        {
+          "en": "fading border",
+          "ja": "消えゆく境界線"
+        },
+        {
+          "en": "inset border",
+          "ja": "インセットボーダー"
+        },
+        {
+          "en": "ornate border",
+          "ja": "華やかな縁取り"
+        },
+        {
+          "en": "outside border",
+          "ja": "国境の外"
+        },
+        {
+          "en": "rounded corners",
+          "ja": "丸い角"
+        },
+        {
+          "en": "viewfinder",
+          "ja": "ファインダー"
+        },
+        {
+          "en": "borderless panels",
+          "ja": "ボーダーレスパネル"
+        },
+        {
+          "en": "out of frame",
+          "ja": "フレーム外"
+        },
+        {
+          "en": "fake scrollbar",
+          "ja": "偽のスクロールバー"
+        },
+        {
+          "en": "feet out of frame",
+          "ja": "フレームから外れた足"
+        },
+        {
+          "en": "foot out of frame",
+          "ja": "足がフレームから外れている"
+        },
+        {
+          "en": "head out of frame",
+          "ja": "頭がフレームから外れている"
+        },
+        {
+          "en": "eyes out of frame",
+          "ja": "フレーム外の目"
+        },
+        {
+          "en": "knees out of frame",
+          "ja": "膝がフレームから外れている"
+        },
+        {
+          "en": "out-of-frame censoring",
+          "ja": "フレーム外検閲"
+        },
+        {
+          "en": "letterboxed",
+          "ja": "レターボックス"
+        },
+        {
+          "en": "pillarboxed",
+          "ja": "ピラーボックス"
+        },
+        {
+          "en": "trim marks",
+          "ja": "トリムマーク"
+        },
+        {
+          "en": "projected inset",
+          "ja": "投影されたインセット"
+        },
+        {
+          "en": "tall image",
+          "ja": "背の高い画像"
+        },
+        {
+          "en": "transparent background",
+          "ja": "透明な背景"
+        },
+        {
+          "en": "triptych (art)",
+          "ja": "三連祭壇画（美術）"
+        },
+        {
+          "en": "widescreen",
+          "ja": "ワイドスクリーン"
+        },
+        {
+          "en": "wide image",
+          "ja": "ワイド画像"
+        },
+        {
+          "en": "portrait",
+          "ja": "肖像画"
+        },
+        {
+          "en": "upper body",
+          "ja": "上半身"
+        },
+        {
+          "en": "lower body",
+          "ja": "下半身"
+        },
+        {
+          "en": "cowboy shot",
+          "ja": "カウボーイショット"
+        },
+        {
+          "en": "full body",
+          "ja": "全身"
+        },
+        {
+          "en": "close-up",
+          "ja": "閉じる"
+        },
+        {
+          "en": "cropped",
+          "ja": "切り取られた"
+        },
+        {
+          "en": "cropped legs",
+          "ja": "クロップドレッグ"
+        },
+        {
+          "en": "cropped torso",
+          "ja": "胴体を切り取った"
+        },
+        {
+          "en": "cropped arms",
+          "ja": "切り取られた腕"
+        },
+        {
+          "en": "cropped shoulders",
+          "ja": "クロップドショルダー"
+        },
+        {
+          "en": "cropped head",
+          "ja": "切り頭"
+        },
+        {
+          "en": "cut-in",
+          "ja": "カットイン"
+        },
+        {
+          "en": "profile",
+          "ja": "プロフィール"
+        },
+        {
+          "en": "group profile",
+          "ja": "グループプロフィール"
+        },
+        {
+          "en": "split crop",
+          "ja": "分割作物"
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "name": "フォーカス",
+      "tags": [
+        {
+          "en": "animal focus",
+          "ja": "動物に焦点を当てる"
+        },
+        {
+          "en": "armpit focus",
+          "ja": "脇の下に焦点を当てる"
+        },
+        {
+          "en": "ass focus",
+          "ja": "お尻フォーカス"
+        },
+        {
+          "en": "back focus",
+          "ja": "バックフォーカス"
+        },
+        {
+          "en": "book focus",
+          "ja": "本の焦点"
+        },
+        {
+          "en": "breast focus",
+          "ja": "乳房フォーカス"
+        },
+        {
+          "en": "cloud focus",
+          "ja": "クラウドフォーカス"
+        },
+        {
+          "en": "eye focus",
+          "ja": "目の焦点"
+        },
+        {
+          "en": "food focus",
+          "ja": "食に焦点を当てる"
+        },
+        {
+          "en": "foot focus",
+          "ja": "足のフォーカス"
+        },
+        {
+          "en": "hand focus",
+          "ja": "手フォーカス"
+        },
+        {
+          "en": "hip focus",
+          "ja": "ヒップフォーカス"
+        },
+        {
+          "en": "male focus",
+          "ja": "男性中心"
+        },
+        {
+          "en": "monster focus",
+          "ja": "モンスターフォーカス"
+        },
+        {
+          "en": "navel focus",
+          "ja": "へそに焦点を当てる"
+        },
+        {
+          "en": "object focus",
+          "ja": "オブジェクトフォーカス"
+        },
+        {
+          "en": "other focus",
+          "ja": "その他の焦点"
+        },
+        {
+          "en": "plant focus",
+          "ja": "植物に焦点を当てる"
+        },
+        {
+          "en": "pectoral focus",
+          "ja": "胸筋の焦点"
+        },
+        {
+          "en": "penis focus",
+          "ja": "ペニスフォーカス"
+        },
+        {
+          "en": "solo focus",
+          "ja": "ソロフォーカス"
+        },
+        {
+          "en": "vehicle focus",
+          "ja": "車両フォーカス"
+        },
+        {
+          "en": "text focus",
+          "ja": "テキストフォーカス"
+        },
+        {
+          "en": "thigh focus",
+          "ja": "太ももに焦点を当てる"
+        },
+        {
+          "en": "weapon focus",
+          "ja": "武器の焦点"
+        },
+        {
+          "en": "wind chime focus",
+          "ja": "風鈴フォーカス"
+        }
+      ]
+    }
+  ]
 }

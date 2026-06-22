@@ -1,600 +1,628 @@
 {
   "id": "character",
   "name": "キャラ",
-  "tree": {
-    "主題": [
-      {
-        "en": "1girl",
-        "ja": "1人の女の子"
-      },
-      {
-        "en": "2girls",
-        "ja": "2人の女の子"
-      },
-      {
-        "en": "3girls",
-        "ja": "3人の女の子"
-      },
-      {
-        "en": "4girls",
-        "ja": "4人の女の子"
-      },
-      {
-        "en": "5girls",
-        "ja": "5人の女の子"
-      },
-      {
-        "en": "6+girls",
-        "ja": "6人以上の女の子"
-      },
-      {
-        "en": "multiple girls",
-        "ja": "複数の女の子"
-      },
-      {
-        "en": "1boy",
-        "ja": "1人の男の子"
-      },
-      {
-        "en": "2boys",
-        "ja": "2人の男の子"
-      },
-      {
-        "en": "3boys",
-        "ja": "3人の男の子"
-      },
-      {
-        "en": "4boys",
-        "ja": "4人の男の子"
-      },
-      {
-        "en": "5boys",
-        "ja": "5人の男の子"
-      },
-      {
-        "en": "6+boys",
-        "ja": "6歳以上の男の子"
-      },
-      {
-        "en": "multiple boys",
-        "ja": "複数の男の子"
-      },
-      {
-        "en": "1other",
-        "ja": "その他1件"
-      },
-      {
-        "en": "2others",
-        "ja": "その他2人"
-      },
-      {
-        "en": "3others",
-        "ja": "その他3人"
-      },
-      {
-        "en": "4others",
-        "ja": "その他4人"
-      },
-      {
-        "en": "5others",
-        "ja": "その他5人"
-      },
-      {
-        "en": "6+others",
-        "ja": "6人以上"
-      },
-      {
-        "en": "multiple others",
-        "ja": "その他複数"
-      }
-    ],
-    "その他": [
-      {
-        "en": "dual persona",
-        "ja": "二重人格"
-      },
-      {
-        "en": "multiple persona",
-        "ja": "多重人格"
-      },
-      {
-        "en": "crossover",
-        "ja": "クロスオーバー"
-      },
-      {
-        "en": "absolutely everyone",
-        "ja": "絶対に全員"
-      },
-      {
-        "en": "everyone",
-        "ja": "みんな"
-      },
-      {
-        "en": "multiple dogs",
-        "ja": "複数の犬"
-      },
-      {
-        "en": "too many cats",
-        "ja": "猫が多すぎる"
-      }
-    ],
-    "属性・種族": [
-      {
-        "en": "succubus",
-        "ja": "サキュバス"
-      },
-      {
-        "en": "vampire",
-        "ja": "吸血鬼"
-      },
-      {
-        "en": "elf",
-        "ja": "エルフ"
-      },
-      {
-        "en": "dark elf",
-        "ja": "ダークエルフ"
-      },
-      {
-        "en": "fairy",
-        "ja": "妖精"
-      },
-      {
-        "en": "angel",
-        "ja": "天使"
-      },
-      {
-        "en": "demon",
-        "ja": "悪魔"
-      },
-      {
-        "en": "oni",
-        "ja": "鬼"
-      },
-      {
-        "en": "catgirl",
-        "ja": "猫娘"
-      },
-      {
-        "en": "foxgirl",
-        "ja": "キツネ娘"
-      },
-      {
-        "en": "doggirl",
-        "ja": "犬娘"
-      },
-      {
-        "en": "bunny girl",
-        "ja": "バニーガール"
-      },
-      {
-        "en": "mermaid",
-        "ja": "マーメイド"
-      },
-      {
-        "en": "slime girl",
-        "ja": "スライムガール"
-      },
-      {
-        "en": "centaur",
-        "ja": "ケンタウロス"
-      },
-      {
-        "en": "zombie girl",
-        "ja": "ゾンビガール"
-      },
-      {
-        "en": "witch",
-        "ja": "魔女"
-      },
-      {
-        "en": "magical girl",
-        "ja": "魔法少女"
-      },
-      {
-        "en": "robot girl",
-        "ja": "ロボット少女"
-      },
-      {
-        "en": "android",
-        "ja": "アンドロイド"
-      },
-      {
-        "en": "ghost girl",
-        "ja": "幽霊少女"
-      }
-    ],
-    "年齢・体型": [
-      {
-        "en": "loli",
-        "ja": "ロリ"
-      },
-      {
-        "en": "shota",
-        "ja": "ショタ"
-      },
-      {
-        "en": "milf",
-        "ja": "熟女"
-      },
-      {
-        "en": "muscular female",
-        "ja": "筋肉質な女性"
-      },
-      {
-        "en": "tall girl",
-        "ja": "背の高い女の子"
-      },
-      {
-        "en": "petite",
-        "ja": "小柄な"
-      }
-    ],
-    "性格": [
-      {
-        "en": "yandere",
-        "ja": "ヤンデレ"
-      },
-      {
-        "en": "tsundere",
-        "ja": "ツンデレ"
-      },
-      {
-        "en": "kuudere",
-        "ja": "クーデレ"
-      },
-      {
-        "en": "dojikko",
-        "ja": "どじっこ"
-      },
-      {
-        "en": "cool girl",
-        "ja": "クールな女の子"
-      },
-      {
-        "en": "sadistic",
-        "ja": "サディスティック"
-      }
-    ],
-    "職業": [
-      {
-        "en": "maid",
-        "ja": "メイド"
-      },
-      {
-        "en": "nurse",
-        "ja": "看護師"
-      },
-      {
-        "en": "doctor",
-        "ja": "医者"
-      },
-      {
-        "en": "scientist",
-        "ja": "科学者"
-      },
-      {
-        "en": "teacher",
-        "ja": "教師"
-      },
-      {
-        "en": "student",
-        "ja": "学生"
-      },
-      {
-        "en": "office lady",
-        "ja": "オフィスレディ"
-      },
-      {
-        "en": "secretary",
-        "ja": "秘書"
-      },
-      {
-        "en": "policewoman",
-        "ja": "女性警察官"
-      },
-      {
-        "en": "soldier",
-        "ja": "兵士"
-      },
-      {
-        "en": "firefighter",
-        "ja": "消防士"
-      },
-      {
-        "en": "waitress",
-        "ja": "ウェイトレス"
-      },
-      {
-        "en": "bartender",
-        "ja": "バーテンダー"
-      },
-      {
-        "en": "chef",
-        "ja": "シェフ"
-      },
-      {
-        "en": "baker",
-        "ja": "パン屋"
-      },
-      {
-        "en": "magician",
-        "ja": "マジシャン"
-      },
-      {
-        "en": "alchemist",
-        "ja": "錬金術師"
-      },
-      {
-        "en": "knight",
-        "ja": "騎士"
-      },
-      {
-        "en": "samurai",
-        "ja": "武士"
-      },
-      {
-        "en": "ninja",
-        "ja": "忍者"
-      },
-      {
-        "en": "shrine maiden",
-        "ja": "巫女"
-      },
-      {
-        "en": "priestess",
-        "ja": "巫女"
-      },
-      {
-        "en": "nun",
-        "ja": "尼僧"
-      },
-      {
-        "en": "dancer",
-        "ja": "ダンサー"
-      },
-      {
-        "en": "idol",
-        "ja": "アイドル"
-      },
-      {
-        "en": "singer",
-        "ja": "歌手"
-      },
-      {
-        "en": "musician",
-        "ja": "ミュージシャン"
-      },
-      {
-        "en": "artist",
-        "ja": "アーティスト"
-      },
-      {
-        "en": "photographer",
-        "ja": "写真家"
-      },
-      {
-        "en": "reporter",
-        "ja": "記者"
-      },
-      {
-        "en": "journalist",
-        "ja": "ジャーナリスト"
-      },
-      {
-        "en": "detective",
-        "ja": "探偵"
-      },
-      {
-        "en": "thief",
-        "ja": "泥棒"
-      },
-      {
-        "en": "pirate",
-        "ja": "海賊"
-      },
-      {
-        "en": "hunter",
-        "ja": "ハンター"
-      },
-      {
-        "en": "assassin",
-        "ja": "暗殺者"
-      },
-      {
-        "en": "racer",
-        "ja": "レーサー"
-      },
-      {
-        "en": "mechanic",
-        "ja": "メカニック"
-      },
-      {
-        "en": "pilot",
-        "ja": "パイロット"
-      },
-      {
-        "en": "astronaut",
-        "ja": "宇宙飛行士"
-      },
-      {
-        "en": "boxer",
-        "ja": "ボクサー"
-      },
-      {
-        "en": "martial artist",
-        "ja": "武道家"
-      },
-      {
-        "en": "farmer",
-        "ja": "農家"
-      },
-      {
-        "en": "fisherman",
-        "ja": "漁師"
-      },
-      {
-        "en": "construction worker",
-        "ja": "建設作業員"
-      },
-      {
-        "en": "adventurer",
-        "ja": "冒険家"
-      },
-      {
-        "en": "merchant",
-        "ja": "商人"
-      },
-      {
-        "en": "necromancer",
-        "ja": "ネクロマンサー"
-      },
-      {
-        "en": "summoner",
-        "ja": "召喚者"
-      },
-      {
-        "en": "druid",
-        "ja": "ドルイド"
-      },
-      {
-        "en": "gunslinger",
-        "ja": "ガンスリンガー"
-      },
-      {
-        "en": "executioner",
-        "ja": "死刑執行人"
-      },
-      {
-        "en": "blacksmith",
-        "ja": "鍛冶屋"
-      },
-      {
-        "en": "librarian",
-        "ja": "司書"
-      },
-      {
-        "en": "postman",
-        "ja": "郵便配達員"
-      },
-      {
-        "en": "fortune teller",
-        "ja": "占い師"
-      },
-      {
-        "en": "ringmaster",
-        "ja": "団長"
-      }
-    ],
-    "家族関係": [
-      {
-        "en": "father and son",
-        "ja": "父と息子"
-      },
-      {
-        "en": "father and daughter",
-        "ja": "父と娘"
-      },
-      {
-        "en": "mother and son",
-        "ja": "母と息子"
-      },
-      {
-        "en": "mother and daughter",
-        "ja": "母と娘"
-      },
-      {
-        "en": "step-parent and step-child",
-        "ja": "継親と継子"
-      },
-      {
-        "en": "siblings",
-        "ja": "兄弟"
-      },
-      {
-        "en": "brothers",
-        "ja": "ブラザーズ"
-      },
-      {
-        "en": "sisters",
-        "ja": "姉妹"
-      },
-      {
-        "en": "brother and sister",
-        "ja": "兄弟姉妹"
-      },
-      {
-        "en": "half-siblings",
-        "ja": "異母兄弟"
-      },
-      {
-        "en": "step-siblings",
-        "ja": "義理の兄弟"
-      },
-      {
-        "en": "twins",
-        "ja": "双子"
-      },
-      {
-        "en": "triplets",
-        "ja": "三つ子"
-      },
-      {
-        "en": "quadruplets",
-        "ja": "四つ子"
-      },
-      {
-        "en": "quintuplets",
-        "ja": "五つ子"
-      },
-      {
-        "en": "sextuplets",
-        "ja": "六つ子"
-      },
-      {
-        "en": "septuplets",
-        "ja": "七つ子"
-      },
-      {
-        "en": "grandmother and granddaughter",
-        "ja": "祖母と孫娘"
-      },
-      {
-        "en": "grandmother and grandson",
-        "ja": "祖母と孫"
-      },
-      {
-        "en": "grandfather and granddaughter",
-        "ja": "祖父と孫娘"
-      },
-      {
-        "en": "grandfather and grandson",
-        "ja": "祖父と孫"
-      },
-      {
-        "en": "aunt and niece",
-        "ja": "叔母と姪"
-      },
-      {
-        "en": "aunt and nephew",
-        "ja": "叔母と甥"
-      },
-      {
-        "en": "uncle and niece",
-        "ja": "叔父と姪"
-      },
-      {
-        "en": "uncle and nephew",
-        "ja": "叔父と甥"
-      },
-      {
-        "en": "cousins",
-        "ja": "いとこ"
-      },
-      {
-        "en": "ancestor and descendant",
-        "ja": "祖先と子孫"
-      }
-    ]
-  }
+  "tree": [
+    {
+      "id": "subjects",
+      "name": "主題",
+      "tags": [
+        {
+          "en": "1girl",
+          "ja": "1人の女の子"
+        },
+        {
+          "en": "2girls",
+          "ja": "2人の女の子"
+        },
+        {
+          "en": "3girls",
+          "ja": "3人の女の子"
+        },
+        {
+          "en": "4girls",
+          "ja": "4人の女の子"
+        },
+        {
+          "en": "5girls",
+          "ja": "5人の女の子"
+        },
+        {
+          "en": "6+girls",
+          "ja": "6人以上の女の子"
+        },
+        {
+          "en": "multiple girls",
+          "ja": "複数の女の子"
+        },
+        {
+          "en": "1boy",
+          "ja": "1人の男の子"
+        },
+        {
+          "en": "2boys",
+          "ja": "2人の男の子"
+        },
+        {
+          "en": "3boys",
+          "ja": "3人の男の子"
+        },
+        {
+          "en": "4boys",
+          "ja": "4人の男の子"
+        },
+        {
+          "en": "5boys",
+          "ja": "5人の男の子"
+        },
+        {
+          "en": "6+boys",
+          "ja": "6歳以上の男の子"
+        },
+        {
+          "en": "multiple boys",
+          "ja": "複数の男の子"
+        },
+        {
+          "en": "1other",
+          "ja": "その他1件"
+        },
+        {
+          "en": "2others",
+          "ja": "その他2人"
+        },
+        {
+          "en": "3others",
+          "ja": "その他3人"
+        },
+        {
+          "en": "4others",
+          "ja": "その他4人"
+        },
+        {
+          "en": "5others",
+          "ja": "その他5人"
+        },
+        {
+          "en": "6+others",
+          "ja": "6人以上"
+        },
+        {
+          "en": "multiple others",
+          "ja": "その他複数"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "その他",
+      "tags": [
+        {
+          "en": "dual persona",
+          "ja": "二重人格"
+        },
+        {
+          "en": "multiple persona",
+          "ja": "多重人格"
+        },
+        {
+          "en": "crossover",
+          "ja": "クロスオーバー"
+        },
+        {
+          "en": "absolutely everyone",
+          "ja": "絶対に全員"
+        },
+        {
+          "en": "everyone",
+          "ja": "みんな"
+        },
+        {
+          "en": "multiple dogs",
+          "ja": "複数の犬"
+        },
+        {
+          "en": "too many cats",
+          "ja": "猫が多すぎる"
+        }
+      ]
+    },
+    {
+      "id": "attributes-species",
+      "name": "属性・種族",
+      "tags": [
+        {
+          "en": "succubus",
+          "ja": "サキュバス"
+        },
+        {
+          "en": "vampire",
+          "ja": "吸血鬼"
+        },
+        {
+          "en": "elf",
+          "ja": "エルフ"
+        },
+        {
+          "en": "dark elf",
+          "ja": "ダークエルフ"
+        },
+        {
+          "en": "fairy",
+          "ja": "妖精"
+        },
+        {
+          "en": "angel",
+          "ja": "天使"
+        },
+        {
+          "en": "demon",
+          "ja": "悪魔"
+        },
+        {
+          "en": "oni",
+          "ja": "鬼"
+        },
+        {
+          "en": "catgirl",
+          "ja": "猫娘"
+        },
+        {
+          "en": "foxgirl",
+          "ja": "キツネ娘"
+        },
+        {
+          "en": "doggirl",
+          "ja": "犬娘"
+        },
+        {
+          "en": "bunny girl",
+          "ja": "バニーガール"
+        },
+        {
+          "en": "mermaid",
+          "ja": "マーメイド"
+        },
+        {
+          "en": "slime girl",
+          "ja": "スライムガール"
+        },
+        {
+          "en": "centaur",
+          "ja": "ケンタウロス"
+        },
+        {
+          "en": "zombie girl",
+          "ja": "ゾンビガール"
+        },
+        {
+          "en": "witch",
+          "ja": "魔女"
+        },
+        {
+          "en": "magical girl",
+          "ja": "魔法少女"
+        },
+        {
+          "en": "robot girl",
+          "ja": "ロボット少女"
+        },
+        {
+          "en": "android",
+          "ja": "アンドロイド"
+        },
+        {
+          "en": "ghost girl",
+          "ja": "幽霊少女"
+        }
+      ]
+    },
+    {
+      "id": "age-body-type",
+      "name": "年齢・体型",
+      "tags": [
+        {
+          "en": "loli",
+          "ja": "ロリ"
+        },
+        {
+          "en": "shota",
+          "ja": "ショタ"
+        },
+        {
+          "en": "milf",
+          "ja": "熟女"
+        },
+        {
+          "en": "muscular female",
+          "ja": "筋肉質な女性"
+        },
+        {
+          "en": "tall girl",
+          "ja": "背の高い女の子"
+        },
+        {
+          "en": "petite",
+          "ja": "小柄な"
+        }
+      ]
+    },
+    {
+      "id": "personality",
+      "name": "性格",
+      "tags": [
+        {
+          "en": "yandere",
+          "ja": "ヤンデレ"
+        },
+        {
+          "en": "tsundere",
+          "ja": "ツンデレ"
+        },
+        {
+          "en": "kuudere",
+          "ja": "クーデレ"
+        },
+        {
+          "en": "dojikko",
+          "ja": "どじっこ"
+        },
+        {
+          "en": "cool girl",
+          "ja": "クールな女の子"
+        },
+        {
+          "en": "sadistic",
+          "ja": "サディスティック"
+        }
+      ]
+    },
+    {
+      "id": "occupations",
+      "name": "職業",
+      "tags": [
+        {
+          "en": "maid",
+          "ja": "メイド"
+        },
+        {
+          "en": "nurse",
+          "ja": "看護師"
+        },
+        {
+          "en": "doctor",
+          "ja": "医者"
+        },
+        {
+          "en": "scientist",
+          "ja": "科学者"
+        },
+        {
+          "en": "teacher",
+          "ja": "教師"
+        },
+        {
+          "en": "student",
+          "ja": "学生"
+        },
+        {
+          "en": "office lady",
+          "ja": "オフィスレディ"
+        },
+        {
+          "en": "secretary",
+          "ja": "秘書"
+        },
+        {
+          "en": "policewoman",
+          "ja": "女性警察官"
+        },
+        {
+          "en": "soldier",
+          "ja": "兵士"
+        },
+        {
+          "en": "firefighter",
+          "ja": "消防士"
+        },
+        {
+          "en": "waitress",
+          "ja": "ウェイトレス"
+        },
+        {
+          "en": "bartender",
+          "ja": "バーテンダー"
+        },
+        {
+          "en": "chef",
+          "ja": "シェフ"
+        },
+        {
+          "en": "baker",
+          "ja": "パン屋"
+        },
+        {
+          "en": "magician",
+          "ja": "マジシャン"
+        },
+        {
+          "en": "alchemist",
+          "ja": "錬金術師"
+        },
+        {
+          "en": "knight",
+          "ja": "騎士"
+        },
+        {
+          "en": "samurai",
+          "ja": "武士"
+        },
+        {
+          "en": "ninja",
+          "ja": "忍者"
+        },
+        {
+          "en": "shrine maiden",
+          "ja": "巫女"
+        },
+        {
+          "en": "priestess",
+          "ja": "巫女"
+        },
+        {
+          "en": "nun",
+          "ja": "尼僧"
+        },
+        {
+          "en": "dancer",
+          "ja": "ダンサー"
+        },
+        {
+          "en": "idol",
+          "ja": "アイドル"
+        },
+        {
+          "en": "singer",
+          "ja": "歌手"
+        },
+        {
+          "en": "musician",
+          "ja": "ミュージシャン"
+        },
+        {
+          "en": "artist",
+          "ja": "アーティスト"
+        },
+        {
+          "en": "photographer",
+          "ja": "写真家"
+        },
+        {
+          "en": "reporter",
+          "ja": "記者"
+        },
+        {
+          "en": "journalist",
+          "ja": "ジャーナリスト"
+        },
+        {
+          "en": "detective",
+          "ja": "探偵"
+        },
+        {
+          "en": "thief",
+          "ja": "泥棒"
+        },
+        {
+          "en": "pirate",
+          "ja": "海賊"
+        },
+        {
+          "en": "hunter",
+          "ja": "ハンター"
+        },
+        {
+          "en": "assassin",
+          "ja": "暗殺者"
+        },
+        {
+          "en": "racer",
+          "ja": "レーサー"
+        },
+        {
+          "en": "mechanic",
+          "ja": "メカニック"
+        },
+        {
+          "en": "pilot",
+          "ja": "パイロット"
+        },
+        {
+          "en": "astronaut",
+          "ja": "宇宙飛行士"
+        },
+        {
+          "en": "boxer",
+          "ja": "ボクサー"
+        },
+        {
+          "en": "martial artist",
+          "ja": "武道家"
+        },
+        {
+          "en": "farmer",
+          "ja": "農家"
+        },
+        {
+          "en": "fisherman",
+          "ja": "漁師"
+        },
+        {
+          "en": "construction worker",
+          "ja": "建設作業員"
+        },
+        {
+          "en": "adventurer",
+          "ja": "冒険家"
+        },
+        {
+          "en": "merchant",
+          "ja": "商人"
+        },
+        {
+          "en": "necromancer",
+          "ja": "ネクロマンサー"
+        },
+        {
+          "en": "summoner",
+          "ja": "召喚者"
+        },
+        {
+          "en": "druid",
+          "ja": "ドルイド"
+        },
+        {
+          "en": "gunslinger",
+          "ja": "ガンスリンガー"
+        },
+        {
+          "en": "executioner",
+          "ja": "死刑執行人"
+        },
+        {
+          "en": "blacksmith",
+          "ja": "鍛冶屋"
+        },
+        {
+          "en": "librarian",
+          "ja": "司書"
+        },
+        {
+          "en": "postman",
+          "ja": "郵便配達員"
+        },
+        {
+          "en": "fortune teller",
+          "ja": "占い師"
+        },
+        {
+          "en": "ringmaster",
+          "ja": "団長"
+        }
+      ]
+    },
+    {
+      "id": "family-relationships",
+      "name": "家族関係",
+      "tags": [
+        {
+          "en": "father and son",
+          "ja": "父と息子"
+        },
+        {
+          "en": "father and daughter",
+          "ja": "父と娘"
+        },
+        {
+          "en": "mother and son",
+          "ja": "母と息子"
+        },
+        {
+          "en": "mother and daughter",
+          "ja": "母と娘"
+        },
+        {
+          "en": "step-parent and step-child",
+          "ja": "継親と継子"
+        },
+        {
+          "en": "siblings",
+          "ja": "兄弟"
+        },
+        {
+          "en": "brothers",
+          "ja": "ブラザーズ"
+        },
+        {
+          "en": "sisters",
+          "ja": "姉妹"
+        },
+        {
+          "en": "brother and sister",
+          "ja": "兄弟姉妹"
+        },
+        {
+          "en": "half-siblings",
+          "ja": "異母兄弟"
+        },
+        {
+          "en": "step-siblings",
+          "ja": "義理の兄弟"
+        },
+        {
+          "en": "twins",
+          "ja": "双子"
+        },
+        {
+          "en": "triplets",
+          "ja": "三つ子"
+        },
+        {
+          "en": "quadruplets",
+          "ja": "四つ子"
+        },
+        {
+          "en": "quintuplets",
+          "ja": "五つ子"
+        },
+        {
+          "en": "sextuplets",
+          "ja": "六つ子"
+        },
+        {
+          "en": "septuplets",
+          "ja": "七つ子"
+        },
+        {
+          "en": "grandmother and granddaughter",
+          "ja": "祖母と孫娘"
+        },
+        {
+          "en": "grandmother and grandson",
+          "ja": "祖母と孫"
+        },
+        {
+          "en": "grandfather and granddaughter",
+          "ja": "祖父と孫娘"
+        },
+        {
+          "en": "grandfather and grandson",
+          "ja": "祖父と孫"
+        },
+        {
+          "en": "aunt and niece",
+          "ja": "叔母と姪"
+        },
+        {
+          "en": "aunt and nephew",
+          "ja": "叔母と甥"
+        },
+        {
+          "en": "uncle and niece",
+          "ja": "叔父と姪"
+        },
+        {
+          "en": "uncle and nephew",
+          "ja": "叔父と甥"
+        },
+        {
+          "en": "cousins",
+          "ja": "いとこ"
+        },
+        {
+          "en": "ancestor and descendant",
+          "ja": "祖先と子孫"
+        }
+      ]
+    }
+  ]
 }

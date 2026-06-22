@@ -20,6 +20,7 @@ export type TagEntry = {
   categoryId: string;
   categoryName: string;
   path: string[];
+  sectionPath: string[];
   en: string;
   ja: string;
 };
@@ -28,6 +29,7 @@ export type CategorySection = {
   id: string;
   name: string;
   path: string[];
+  sectionPath: string[];
   tagCount: number;
   tags?: TagEntry[];
   children?: CategorySection[];
@@ -46,6 +48,7 @@ export type TagSearchEntry = {
   categoryId: string;
   categoryName: string;
   path: string[];
+  sectionPath: string[];
   en: string;
   ja: string;
   searchText: string;
